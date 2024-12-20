@@ -287,6 +287,10 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 [Charlotte](https://www.lomcn.net/forum/members/charlotte.44502/)
 
+<img src="https://media.tenor.com/GtmGLCw1SmUAAAAM/buggriddy-lusgifs.gif" alt="BughyT" width="96" height="96">
+
+[BughyT](https://www.lomcn.net/forum/members/bughyt.46860/)
+
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHV5OXRkZzhlOHZpbDlodHFodTEwN3gwemU1ZnVjbnE5N2I0Z3VyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rzPCC2WznvksSseXH9/giphy.webp" alt="Redacted" width="96" height="96">
 
 [Redacted]()
