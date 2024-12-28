@@ -206,9 +206,7 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 ***In-Progress:***
 - [ ] Missions (Working on this)
-- [ ] Monsters (Respawns)
 - [ ] Fast Travel (50% done, same map fast travel working)
-- [ ] Bosses (Respawns 90%)
 
 ***Development:***
 - [x] Login
