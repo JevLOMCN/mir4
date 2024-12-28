@@ -15,7 +15,7 @@ namespace Server_Console.Database
     public partial class DatabaseForm : Form
     {
         private Dictionary<TabPage, Size> originalTabSizes;
-        #nullable enable
+#nullable enable
         private List<string?> schemaNames = new List<string?>();
         public DatabaseForm()
         {
@@ -186,7 +186,7 @@ namespace Server_Console.Database
             }
             #endregion
 
-        #region Table Descriptions
+            #region Table Descriptions
             if (Settings.Default.TableDescription.Count == Settings.Default.TableDescriptionCount)
             {
                 if (e.Node != null && e.Node.Text == "_spschema_tb")
@@ -830,16 +830,16 @@ namespace Server_Console.Database
         #region Table Search //Only admin tree for now. May need to branch the search function to use selected index changed.
         private void TableSearchButton_Click(object sender, EventArgs e)
         {
-        //    string searchText = TableSearchBox.Text.Trim();
+            //    string searchText = TableSearchBox.Text.Trim();
 
-        //    if (!string.IsNullOrEmpty(searchText))
-        //    {
-        //        SearchInAdminTree(searchText);
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show("Please add a search term.", "Empty Search," , MessageBoxButtons.OK, MessageBoxIcon.Information);
-        //    }
+            //    if (!string.IsNullOrEmpty(searchText))
+            //    {
+            //        SearchInAdminTree(searchText);
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Please add a search term.", "Empty Search," , MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //    }
         }
         //private void SearchInAdminTree(string searchText)
         //{
@@ -875,6 +875,168 @@ namespace Server_Console.Database
         //        return null;
         //    }
         //}
+        #endregion
+
+        #region Filter/Player Search
+        private void btnFilter_Click(object sender, EventArgs e)
+        {
+            string accountID = AccountIDSearch.Text.Trim();
+            string charName = CharNameSearch.Text.Trim();
+            string accountName = AccountNameSearch.Text.Trim();
+            string charID = CharIDSearch.Text.Trim();
+            string email = EmailSearch.Text.Trim();
+            string passwordHash = PasswordHashSearch.Text.Trim();
+
+            // Check if all search boxes are empty
+            if (string.IsNullOrEmpty(accountID) &&
+                string.IsNullOrEmpty(charName) &&
+                string.IsNullOrEmpty(accountName) &&
+                string.IsNullOrEmpty(charID) &&
+                string.IsNullOrEmpty(email) &&
+                string.IsNullOrEmpty(passwordHash))
+            {
+                // Clear all DataGridViews
+                FrontAccountTable.DataSource = null;
+                CharacterTable.DataSource = null;
+                UserTable.DataSource = null;
+                CharacterDeleteTable.DataSource = null;
+                Skills.DataSource = null; // Clear Skills table
+                return;
+            }
+
+            // Search by AccountID
+            if (!string.IsNullOrEmpty(accountID))
+            {
+                string accountQuery = "SELECT * FROM mm_front_db.account_tb WHERE AccountUID = @AccountUID";
+                DataTable accountResult = ExecuteQueryWithParameters(accountQuery, "mm_front_db", ("@AccountUID", accountID));
+                FrontAccountTable.DataSource = accountResult;
+
+                if (accountResult.Rows.Count > 0)
+                {
+                    string charQuery = "SELECT * FROM mm_game_db_release.character_tb WHERE AccountUID = @AccountUID";
+                    DataTable charResult = ExecuteQueryWithParameters(charQuery, "mm_game_db_release", ("@AccountUID", accountID));
+                    CharacterTable.DataSource = charResult;
+
+                    string userQuery = "SELECT * FROM mm_user_db.user_tb WHERE AccountUID = @AccountUID";
+                    DataTable userResult = ExecuteQueryWithParameters(userQuery, "mm_user_db", ("@AccountUID", accountID));
+                    UserTable.DataSource = userResult;
+                }
+            }
+
+            // Search by CharName
+            if (!string.IsNullOrEmpty(charName))
+            {
+                string charQuery = "SELECT * FROM mm_game_db_release.character_tb WHERE CharacterName = @CharacterName";
+                DataTable charResult = ExecuteQueryWithParameters(charQuery, "mm_game_db_release", ("@CharacterName", charName));
+                CharacterTable.DataSource = charResult;
+
+                if (charResult.Rows.Count > 0)
+                {
+                    string accountUID = charResult.Rows[0]["AccountUID"].ToString();
+                    string characterUID = charResult.Rows[0]["CharacterUID"].ToString();
+
+                    // Display account details in FrontAccountTable
+                    string accountQuery = "SELECT * FROM mm_front_db.account_tb WHERE AccountUID = @AccountUID";
+                    DataTable accountResult = ExecuteQueryWithParameters(accountQuery, "mm_front_db", ("@AccountUID", accountUID));
+                    FrontAccountTable.DataSource = accountResult;
+
+                    // Display user details in UserTable
+                    string userQuery = "SELECT * FROM mm_user_db.user_tb WHERE AccountUID = @AccountUID";
+                    DataTable userResult = ExecuteQueryWithParameters(userQuery, "mm_user_db", ("@AccountUID", accountUID));
+                    UserTable.DataSource = userResult;
+
+                    // Display skills in Skills table
+                    string skillsQuery = "SELECT * FROM mm_game_db_release.skill_active_tb WHERE CharacterUID = @CharacterUID";
+                    DataTable skillsResult = ExecuteQueryWithParameters(skillsQuery, "mm_game_db_release", ("@CharacterUID", characterUID));
+                    Skills.DataSource = skillsResult;
+                }
+            }
+
+            // Search by CharID
+            if (!string.IsNullOrEmpty(charID))
+            {
+                string charQuery = "SELECT * FROM mm_game_db_release.character_tb WHERE CharacterUID = @CharacterUID";
+                DataTable charResult = ExecuteQueryWithParameters(charQuery, "mm_game_db_release", ("@CharacterUID", charID));
+                CharacterTable.DataSource = charResult;
+
+                if (charResult.Rows.Count > 0)
+                {
+                    string accountUID = charResult.Rows[0]["AccountUID"].ToString();
+
+                    // Display account details in FrontAccountTable
+                    string accountQuery = "SELECT * FROM mm_front_db.account_tb WHERE AccountUID = @AccountUID";
+                    DataTable accountResult = ExecuteQueryWithParameters(accountQuery, "mm_front_db", ("@AccountUID", accountUID));
+                    FrontAccountTable.DataSource = accountResult;
+
+                    // Display user details in UserTable
+                    string userQuery = "SELECT * FROM mm_user_db.user_tb WHERE AccountUID = @AccountUID";
+                    DataTable userResult = ExecuteQueryWithParameters(userQuery, "mm_user_db", ("@AccountUID", accountUID));
+                    UserTable.DataSource = userResult;
+
+                    // Display skills in Skills table
+                    string skillsQuery = "SELECT * FROM mm_game_db_release.skill_active_tb WHERE CharacterUID = @CharacterUID";
+                    DataTable skillsResult = ExecuteQueryWithParameters(skillsQuery, "mm_game_db_release", ("@CharacterUID", charID));
+                    Skills.DataSource = skillsResult;
+                }
+
+                // Check if CharacterUID exists in character_delete_tb
+                string deleteQuery = "SELECT * FROM mm_game_db_release.character_delete_tb WHERE CharacterUID = @CharacterUID";
+                DataTable deleteResult = ExecuteQueryWithParameters(deleteQuery, "mm_game_db_release", ("@CharacterUID", charID));
+                CharacterDeleteTable.DataSource = deleteResult;
+            }
+
+            // Other searches remain unchanged...
+
+            // Search by Email
+            if (!string.IsNullOrEmpty(email))
+            {
+                string userQuery = "SELECT * FROM mm_user_db.user_tb WHERE Email = @Email";
+                DataTable userResult = ExecuteQueryWithParameters(userQuery, "mm_user_db", ("@Email", email));
+                UserTable.DataSource = userResult;
+
+                // Additional queries for Email search remain unchanged...
+            }
+
+            // Search by PasswordHash
+            if (!string.IsNullOrEmpty(passwordHash))
+            {
+                string userQuery = "SELECT * FROM mm_user_db.user_tb WHERE PasswordHash = @PasswordHash";
+                DataTable userResult = ExecuteQueryWithParameters(userQuery, "mm_user_db", ("@PasswordHash", passwordHash));
+                UserTable.DataSource = userResult;
+
+                // Additional queries for PasswordHash search remain unchanged...
+            }
+        }
+        private DataTable ExecuteQueryWithParameters(string query, string databaseName, params (string, object)[] parameters)
+        {
+            DataTable resultTable = new DataTable();
+
+            try
+            {
+                string connectionString = DatabaseConfiguration.GetConnectionString(databaseName);
+                using (var connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    using (var command = new MySqlCommand(query, connection))
+                    {
+                        foreach (var param in parameters)
+                        {
+                            command.Parameters.AddWithValue(param.Item1, param.Item2);
+                        }
+                        using (var adapter = new MySqlDataAdapter(command))
+                        {
+                            adapter.Fill(resultTable);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            return resultTable;
+        }
         #endregion
     }
 }

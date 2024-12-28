@@ -191,11 +191,11 @@
             BackgroundLabel.AutoSize = true;
             BackgroundLabel.Font = new Font("Segoe UI", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             BackgroundLabel.ForeColor = Color.White;
-            BackgroundLabel.Location = new Point(540, 2);
+            BackgroundLabel.Location = new Point(448, 2);
             BackgroundLabel.Name = "BackgroundLabel";
-            BackgroundLabel.Size = new Size(206, 47);
+            BackgroundLabel.Size = new Size(408, 47);
             BackgroundLabel.TabIndex = 13;
-            BackgroundLabel.Text = "Background";
+            BackgroundLabel.Text = "Select a new Background";
             // 
             // DependenciesLabel
             // 

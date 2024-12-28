@@ -28,6 +28,7 @@ namespace Server_Console
 
             LoadImages();
         }
+        #region Load Background
         private void LoadBackground()
         {
             string settingsFile = Path.Combine(Application.StartupPath, "Settings.ini");
@@ -75,16 +76,15 @@ namespace Server_Console
                 //this.BackgroundImage = Properties.Resources.Water_Main;
             }
         }
+        #endregion
 
-
-
-
-
+        #region Load Images
         private void LoadImages()
         {
             FrontButton.Image = Properties.Resources.front;
             FrontButton.Tag = "front";
         }
+        #endregion
 
         #region Server Checking //Done
         private void ExeCheckTimer_Tick(object sender, EventArgs e)
@@ -380,7 +380,7 @@ namespace Server_Console
         }
         #endregion
 
-        #region TEMP DB BUTTONS
+        #region DB BUTTONS
         private void MapsButton_Click(object sender, EventArgs e)
         {
             // Create an instance of the DatabaseTool form
@@ -622,6 +622,5 @@ namespace Server_Console
         #endregion
 
         #endregion
-
     }
 }
