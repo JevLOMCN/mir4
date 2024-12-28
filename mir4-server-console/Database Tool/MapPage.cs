@@ -35,7 +35,7 @@ namespace Server_Console.Database_Tool
         private static bool ShowResidentNpc = false;
         private static bool ShowWayPoint = false;
         private static bool ShowGathering = false;
-        private static bool ShowBoss = true;
+        private static bool ShowMonster = true;
         private static bool ShowDemonSpawnPoint = false;
 
         private static int curMapId = 0;
@@ -214,17 +214,17 @@ namespace Server_Console.Database_Tool
             };
             showGatheringCheckBox.CheckedChanged += (s, e) => ToggleShowGathering(showGatheringCheckBox.Checked);
 
-            CheckBox showBossCheckBox = new CheckBox
+            CheckBox showMonsterCheckBox = new CheckBox
             {
                 Text = FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019043),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
                 Location = new Point(startX, startY += spacing),
-                Checked = ShowBoss,
+                Checked = ShowMonster,
                 Anchor = AnchorStyles.Top | AnchorStyles.Left
             };
-            showBossCheckBox.CheckedChanged += (s, e) => ToggleShowBoss(showBossCheckBox.Checked);
+            showMonsterCheckBox.CheckedChanged += (s, e) => ToggleShowMonster(showMonsterCheckBox.Checked);
 
             CheckBox showDemonSpawnPointCheckBox = new CheckBox
             {
@@ -255,7 +255,7 @@ namespace Server_Console.Database_Tool
             optionsGroupBox.Controls.Add(showResidentNpcCheckBox);
             optionsGroupBox.Controls.Add(showWayPointCheckBox);
             optionsGroupBox.Controls.Add(showGatheringCheckBox);
-            optionsGroupBox.Controls.Add(showBossCheckBox);
+            optionsGroupBox.Controls.Add(showMonsterCheckBox);
             optionsGroupBox.Controls.Add(showDemonSpawnPointCheckBox);
             optionsGroupBox.Controls.Add(mapSearchComboBox);
             optionsGroupBox.Controls.Add(switchMapButton);
@@ -1262,7 +1262,7 @@ namespace Server_Console.Database_Tool
 
                                 if (infoSubType == 1 && ShowWayPoint is false)
                                     continue;
-                                else if (infoSubType == 2 && infoSubTypeValue != 0 && ShowBoss is false)
+                                else if (infoSubType == 2 && infoSubTypeValue != 0 && ShowMonster is false)
                                     continue;
                                 else if (infoSubType == 3 && infoSubTypeValue != 0 && ShowGathering is false)
                                     continue;
@@ -1845,9 +1845,9 @@ namespace Server_Console.Database_Tool
             SwitchMap(curMapId);
         }
 
-        private static void ToggleShowBoss(bool isChecked)
+        private static void ToggleShowMonster(bool isChecked)
         {
-            ShowBoss = isChecked;
+            ShowMonster = isChecked;
             SwitchMap(curMapId);
         }
 
