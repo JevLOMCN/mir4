@@ -47,6 +47,8 @@
 > [Couchbase Community 7.2](https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi)
 >
 > [Memurai](https://www.memurai.com/get-memurai)
+>
+> [Windows Terminal](https://github.com/microsoft/terminal)
 
 ## Servers - Linux
  ### Linux
