@@ -35,6 +35,8 @@
 > [Item/Monster Database](https://thelegendofmir.uk/database)
 >
 > [Discord](https://discord.gg/KCnHvwJJWN)
+>
+> [Server Setup Guide](https://youtu.be/_f9N_MuEFb0)
 ---------------------------------------------------------------------------
 # Dependencies:
 
