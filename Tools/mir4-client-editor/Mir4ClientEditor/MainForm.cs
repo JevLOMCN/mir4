@@ -4,6 +4,7 @@ using System.Drawing;
 using System.IO;
 using Mir4ClientEditor.Core;
 using Mir4ClientEditor.Forms;
+using System.Diagnostics;
 
 namespace Mir4ClientEditor
 {
@@ -146,6 +147,17 @@ namespace Mir4ClientEditor
                     }
                 }
             }
+        }
+        #endregion
+
+        #region Tutorial Link
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://www.lomcn.net/forum/threads/client-export-edit-repak.111971",
+                UseShellExecute = true
+            });
         }
         #endregion
     }

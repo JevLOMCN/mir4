@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mir4ClientEditor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c220481cfeec3685dfb9e86acddf7525b1559e8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f00707571c215bcf81f9f6d81d5193f126fe715")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mir4ClientEditor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mir4ClientEditor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

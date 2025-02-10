@@ -34,7 +34,7 @@ namespace Mir4ClientEditor
             repakButton = new Button();
             statusLabel = new Label();
             editIPButton = new Button();
-            label1 = new Label();
+            linkLabel1 = new LinkLabel();
             SuspendLayout();
             // 
             // extractButton
@@ -90,22 +90,24 @@ namespace Mir4ClientEditor
             editIPButton.UseVisualStyleBackColor = true;
             editIPButton.Click += EditIPButton_Click;
             // 
-            // label1
+            // linkLabel1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(541, 257);
-            label1.Name = "label1";
-            label1.Size = new Size(47, 15);
-            label1.TabIndex = 3;
-            label1.Text = "Ver.: 1.0";
+            linkLabel1.AutoSize = true;
+            linkLabel1.Location = new Point(442, 258);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(146, 15);
+            linkLabel1.TabIndex = 5;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Export/Edit/RePak Tutorial";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(600, 282);
+            Controls.Add(linkLabel1);
             Controls.Add(statusLabel);
-            Controls.Add(label1);
             Controls.Add(editIPButton);
             Controls.Add(repakButton);
             Controls.Add(editButton);
@@ -125,6 +127,6 @@ namespace Mir4ClientEditor
         private System.Windows.Forms.Button repakButton;
         private System.Windows.Forms.Label statusLabel;
         private System.Windows.Forms.Button editIPButton;
-        private System.Windows.Forms.Label label1;
+        private LinkLabel linkLabel1;
     }
 }
