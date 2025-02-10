@@ -203,8 +203,7 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 # Downloads:
 
 > [Client (TO COME)]()
->
-> [PAK Tools](https://www.lomcn.net/forum/threads/client-export-edit-repak.111971/)
+
 ---------------------------------------------------------------------------
 # To Do List:
 
