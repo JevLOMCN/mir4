@@ -35,6 +35,8 @@
 > [Item/Monster Database](https://thelegendofmir.uk/database)
 >
 > [Discord](https://discord.gg/KCnHvwJJWN)
+>
+> [Server Setup Guide](https://youtu.be/_f9N_MuEFb0)
 ---------------------------------------------------------------------------
 # Dependencies:
 
@@ -47,6 +49,8 @@
 > [Couchbase Community 7.2](https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi)
 >
 > [Memurai](https://www.memurai.com/get-memurai)
+>
+> [Windows Terminal](https://github.com/microsoft/terminal)
 
 ## Servers - Linux
  ### Linux
