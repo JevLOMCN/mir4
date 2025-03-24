@@ -280,10 +280,6 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/)
 
-<img src="https://giffiles.alphacoders.com/137/13771.gif" alt="S4oul" width="96" height="96">
-
-[S4oul](https://github.com/s4oul)
-
 <img src="https://media.tenor.com/iX3IgCDMOfgAAAAj/bonnie-bonnie-swanson.gif" alt="Charlotte" width="96" height="96">
 
 [Charlotte](https://www.lomcn.net/forum/members/charlotte.44502/)
@@ -321,6 +317,8 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 > [cmb](https://forum.ragezone.com/members/cmb.330743/) - C++
 >
 > [Hells](https://www.lomcn.net/forum/members/hells.7536/) - Outsourcing developers
+> 
+> [S4oul](https://github.com/s4oul) - C++
 >
 > [Community Contributors](https://github.com/JevLOMCN/mir4-launcher/graphs/contributors)
 ---------------------------------------------------------------------------
