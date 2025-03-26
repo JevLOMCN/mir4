@@ -276,13 +276,9 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 [Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
 
-<img src="https://cdn.discordapp.com/avatars/867884931589865533/a_d6dcbaf91ad44a536ee5407364e66f50.gif" alt="Nyyl" width="96" height="96">
+<img src="https://cdn.discordapp.com/avatars/867884931589865533/fc0fc28174b3b6f3b9a4fa14a8dbeb39.webp" alt="Nyyl" width="96" height="96">
 
 [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/)
-
-<img src="https://giffiles.alphacoders.com/137/13771.gif" alt="S4oul" width="96" height="96">
-
-[S4oul](https://github.com/s4oul)
 
 <img src="https://media.tenor.com/iX3IgCDMOfgAAAAj/bonnie-bonnie-swanson.gif" alt="Charlotte" width="96" height="96">
 
@@ -321,6 +317,8 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 > [cmb](https://forum.ragezone.com/members/cmb.330743/) - C++
 >
 > [Hells](https://www.lomcn.net/forum/members/hells.7536/) - Outsourcing developers
+> 
+> [S4oul](https://github.com/s4oul) - C++
 >
 > [Community Contributors](https://github.com/JevLOMCN/mir4-launcher/graphs/contributors)
 ---------------------------------------------------------------------------
