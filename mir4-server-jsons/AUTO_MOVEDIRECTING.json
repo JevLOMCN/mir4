@@ -1,0 +1,2444 @@
+[
+  {
+    "StageId": 200501400,
+    "StartCoordinate": {
+      "X": -40,
+      "Y": 4550,
+      "Z": 270
+    },
+    "EndCoordinate": {
+      "X": -4178.4697,
+      "Y": 15920.271,
+      "Z": 1220
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 900,
+    "JumpHeight2": 1500,
+    "JumpAni3": 4,
+    "JumpDistance3": 9000,
+    "JumpHeight3": 400
+  },
+  {
+    "StageId": 200501700,
+    "StartCoordinate": {
+      "X": 9890,
+      "Y": 3900,
+      "Z": 470
+    },
+    "EndCoordinate": {
+      "X": 18760,
+      "Y": 3900,
+      "Z": 78
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 900,
+    "JumpHeight2": 1500,
+    "JumpAni3": 4,
+    "JumpDistance3": 6000,
+    "JumpHeight3": 400
+  },
+  {
+    "StageId": 200601040,
+    "StartCoordinate": {
+      "X": 12890,
+      "Y": 5770,
+      "Z": 310
+    },
+    "EndCoordinate": {
+      "X": -3162.3481,
+      "Y": 8600.538,
+      "Z": -4290
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 2000,
+    "JumpHeight1": 700,
+    "JumpAni2": 2,
+    "JumpDistance2": 8500,
+    "JumpHeight2": -1000,
+    "JumpAni3": 4,
+    "JumpDistance3": 5000,
+    "JumpHeight3": -3000
+  },
+  {
+    "StageId": 102003010,
+    "StartCoordinate": {
+      "X": -10950,
+      "Y": -870,
+      "Z": 5245
+    },
+    "EndCoordinate": {
+      "X": -11246.818,
+      "Y": 167.87671,
+      "Z": 4795
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 350,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 102003010,
+    "StartCoordinate": {
+      "X": -11245,
+      "Y": 165,
+      "Z": 4725
+    },
+    "EndCoordinate": {
+      "X": -10939.944,
+      "Y": -891.85443,
+      "Z": 5275
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 750,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 200,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 102003010,
+    "StartCoordinate": {
+      "X": -11365,
+      "Y": 1830,
+      "Z": 4710
+    },
+    "EndCoordinate": {
+      "X": -10701.753,
+      "Y": 2733.2324,
+      "Z": 4895.651
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 350,
+    "JumpHeight1": 350,
+    "JumpAni2": 2,
+    "JumpDistance2": 350,
+    "JumpHeight2": 100,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 102003010,
+    "StartCoordinate": {
+      "X": -10695,
+      "Y": 2745,
+      "Z": 4940
+    },
+    "EndCoordinate": {
+      "X": -11367.931,
+      "Y": 1837.2197,
+      "Z": 4730
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 350,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": 14685,
+      "Y": -6605,
+      "Z": 1020
+    },
+    "EndCoordinate": {
+      "X": 13915,
+      "Y": -7330,
+      "Z": 1505
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 250,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": 13915,
+      "Y": -7330,
+      "Z": 1505
+    },
+    "EndCoordinate": {
+      "X": 14685,
+      "Y": -6605,
+      "Z": 1020
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 250,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": 8590,
+      "Y": -10570,
+      "Z": 1860
+    },
+    "EndCoordinate": {
+      "X": 7860,
+      "Y": -9725,
+      "Z": 860
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 250,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": 7860,
+      "Y": -9725,
+      "Z": 860
+    },
+    "EndCoordinate": {
+      "X": 8590,
+      "Y": -10570,
+      "Z": 1860
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 250,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003060,
+    "StartCoordinate": {
+      "X": 7100,
+      "Y": -6520,
+      "Z": 3910
+    },
+    "EndCoordinate": {
+      "X": 7160,
+      "Y": -4170,
+      "Z": 2820
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 450,
+    "JumpHeight1": 350,
+    "JumpAni2": 2,
+    "JumpDistance2": 750,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003060,
+    "StartCoordinate": {
+      "X": 7160,
+      "Y": -4170,
+      "Z": 2820
+    },
+    "EndCoordinate": {
+      "X": 7100,
+      "Y": -6520,
+      "Z": 3910
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 800,
+    "JumpAni2": 2,
+    "JumpDistance2": 700,
+    "JumpHeight2": 800,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 100004010,
+    "StartCoordinate": {
+      "X": 2120,
+      "Y": -5510,
+      "Z": 6470
+    },
+    "EndCoordinate": {
+      "X": -1025,
+      "Y": -5512,
+      "Z": 4189
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 350,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 100004020,
+    "StartCoordinate": {
+      "X": -2630,
+      "Y": 8110,
+      "Z": 440
+    },
+    "EndCoordinate": {
+      "X": -2570,
+      "Y": 8540,
+      "Z": 1500
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 500,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 100002010,
+    "StartCoordinate": {
+      "X": 8250,
+      "Y": -6760,
+      "Z": 12000
+    },
+    "EndCoordinate": {
+      "X": 5388.421,
+      "Y": -6098.7417,
+      "Z": 10114.147
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 350,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 105001010,
+    "StartCoordinate": {
+      "X": -568,
+      "Y": 1700,
+      "Z": 4626
+    },
+    "EndCoordinate": {
+      "X": 1378.3191,
+      "Y": 2336.2634,
+      "Z": 2768.3152
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 400,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 104004060,
+    "StartCoordinate": {
+      "X": -7311,
+      "Y": -215,
+      "Z": 2377
+    },
+    "EndCoordinate": {
+      "X": -5530.8765,
+      "Y": -735.25006,
+      "Z": 1441.7552
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 350,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 105002070,
+    "StartCoordinate": {
+      "X": -7820,
+      "Y": -17840,
+      "Z": 9440
+    },
+    "EndCoordinate": {
+      "X": -8910,
+      "Y": -18990,
+      "Z": 8270
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 800,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 105002050,
+    "StartCoordinate": {
+      "X": 18910,
+      "Y": -18460,
+      "Z": 7010
+    },
+    "EndCoordinate": {
+      "X": 14452.269,
+      "Y": -13731.4795,
+      "Z": 5911.398
+    },
+    "JumpAni1": 4,
+    "JumpDistance1": 6500,
+    "JumpHeight1": 1200,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 0,
+    "StartCoordinate": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "EndCoordinate": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 0,
+    "JumpHeight1": 0,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200501020,
+    "StartCoordinate": {
+      "X": -10440,
+      "Y": -5550,
+      "Z": 2210
+    },
+    "EndCoordinate": {
+      "X": -10690,
+      "Y": -7650,
+      "Z": 2970
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 550,
+    "JumpHeight1": 450,
+    "JumpAni2": 2,
+    "JumpDistance2": 550,
+    "JumpHeight2": 450,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 1,
+    "StartCoordinate": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "EndCoordinate": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 0,
+    "JumpHeight1": 0,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 100002010,
+    "StartCoordinate": {
+      "X": -11900,
+      "Y": -8580,
+      "Z": 8630
+    },
+    "EndCoordinate": {
+      "X": -12271.194,
+      "Y": -9454.4795,
+      "Z": 8860
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 350,
+    "JumpHeight1": 550,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101003040,
+    "StartCoordinate": {
+      "X": 1460,
+      "Y": -2510,
+      "Z": 1390
+    },
+    "EndCoordinate": {
+      "X": 830,
+      "Y": -3730,
+      "Z": 1900
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 450,
+    "JumpHeight2": 800,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101003040,
+    "StartCoordinate": {
+      "X": 830,
+      "Y": -3730,
+      "Z": 1900
+    },
+    "EndCoordinate": {
+      "X": 1460,
+      "Y": -2510,
+      "Z": 1390
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 400,
+    "JumpAni2": 2,
+    "JumpDistance2": 350,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101003040,
+    "StartCoordinate": {
+      "X": -3003.8987,
+      "Y": -3583.3762,
+      "Z": 1863.3335
+    },
+    "EndCoordinate": {
+      "X": -3620.0845,
+      "Y": -3043.7437,
+      "Z": 1370
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 800,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101003040,
+    "StartCoordinate": {
+      "X": -3620.0845,
+      "Y": -3043.7437,
+      "Z": 1370
+    },
+    "EndCoordinate": {
+      "X": -3003.8987,
+      "Y": -3583.3762,
+      "Z": 1863.3335
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 350,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 450,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101003040,
+    "StartCoordinate": {
+      "X": -4589.2407,
+      "Y": -2805.276,
+      "Z": 1370.9043
+    },
+    "EndCoordinate": {
+      "X": -5686.4487,
+      "Y": -1892.3677,
+      "Z": 1857.1729
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 500,
+    "JumpHeight2": 400,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101003040,
+    "StartCoordinate": {
+      "X": -5686.4487,
+      "Y": -1892.3677,
+      "Z": 1857.1729
+    },
+    "EndCoordinate": {
+      "X": -4589.2407,
+      "Y": -2805.276,
+      "Z": 1370.9043
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 400,
+    "JumpAni2": 2,
+    "JumpDistance2": 500,
+    "JumpHeight2": 400,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004020,
+    "StartCoordinate": {
+      "X": -1440,
+      "Y": 7460,
+      "Z": 2100
+    },
+    "EndCoordinate": {
+      "X": -830,
+      "Y": 8280,
+      "Z": 2690
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 200,
+    "JumpHeight2": 800,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004020,
+    "StartCoordinate": {
+      "X": -830,
+      "Y": 8280,
+      "Z": 2690
+    },
+    "EndCoordinate": {
+      "X": -1440,
+      "Y": 7460,
+      "Z": 2100
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 800,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004020,
+    "StartCoordinate": {
+      "X": 700,
+      "Y": 8620,
+      "Z": 2690
+    },
+    "EndCoordinate": {
+      "X": 1970,
+      "Y": 8460,
+      "Z": 3680
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004020,
+    "StartCoordinate": {
+      "X": 1970,
+      "Y": 8460,
+      "Z": 3680
+    },
+    "EndCoordinate": {
+      "X": 700,
+      "Y": 8620,
+      "Z": 2690
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 800,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004030,
+    "StartCoordinate": {
+      "X": -14660,
+      "Y": -3720,
+      "Z": 3290
+    },
+    "EndCoordinate": {
+      "X": -15250,
+      "Y": -4900,
+      "Z": 3190
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004030,
+    "StartCoordinate": {
+      "X": -15250,
+      "Y": -4900,
+      "Z": 3190
+    },
+    "EndCoordinate": {
+      "X": -14660,
+      "Y": -3720,
+      "Z": 3290
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004030,
+    "StartCoordinate": {
+      "X": -16530,
+      "Y": -5700,
+      "Z": 3190
+    },
+    "EndCoordinate": {
+      "X": -17630,
+      "Y": -6390,
+      "Z": 3120
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004030,
+    "StartCoordinate": {
+      "X": -17630,
+      "Y": -6390,
+      "Z": 3120
+    },
+    "EndCoordinate": {
+      "X": -16530,
+      "Y": -5700,
+      "Z": 3190
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004030,
+    "StartCoordinate": {
+      "X": -11050,
+      "Y": -6340,
+      "Z": 3140
+    },
+    "EndCoordinate": {
+      "X": -11650,
+      "Y": -6860,
+      "Z": 2820
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 500,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004030,
+    "StartCoordinate": {
+      "X": -11650,
+      "Y": -6860,
+      "Z": 2820
+    },
+    "EndCoordinate": {
+      "X": -11050,
+      "Y": -6340,
+      "Z": 3140
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 150,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 200,
+    "JumpHeight2": 400,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004030,
+    "StartCoordinate": {
+      "X": -11860,
+      "Y": -7560,
+      "Z": 2830
+    },
+    "EndCoordinate": {
+      "X": -12210,
+      "Y": -8530,
+      "Z": 2360
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 350,
+    "JumpHeight1": 700,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004030,
+    "StartCoordinate": {
+      "X": -12210,
+      "Y": -8530,
+      "Z": 2360
+    },
+    "EndCoordinate": {
+      "X": -11860,
+      "Y": -7560,
+      "Z": 2830
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 150,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004040,
+    "StartCoordinate": {
+      "X": -9890,
+      "Y": -5670,
+      "Z": 2250
+    },
+    "EndCoordinate": {
+      "X": -9110,
+      "Y": -6990,
+      "Z": 2950
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 500,
+    "JumpHeight2": 800,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004040,
+    "StartCoordinate": {
+      "X": -9110,
+      "Y": -6990,
+      "Z": 2950
+    },
+    "EndCoordinate": {
+      "X": -9890,
+      "Y": -5670,
+      "Z": 2250
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004040,
+    "StartCoordinate": {
+      "X": 3330,
+      "Y": -7760,
+      "Z": 2070
+    },
+    "EndCoordinate": {
+      "X": 3490,
+      "Y": -8920,
+      "Z": 2480
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 400,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 101004040,
+    "StartCoordinate": {
+      "X": 3490,
+      "Y": -8920,
+      "Z": 2480
+    },
+    "EndCoordinate": {
+      "X": 3330,
+      "Y": -7760,
+      "Z": 2070
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 400,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 104004010,
+    "StartCoordinate": {
+      "X": 3510,
+      "Y": 3792,
+      "Z": 545
+    },
+    "EndCoordinate": {
+      "X": 3401,
+      "Y": 2608,
+      "Z": 1136
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 600,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 104004010,
+    "StartCoordinate": {
+      "X": 3401,
+      "Y": 2608,
+      "Z": 1136
+    },
+    "EndCoordinate": {
+      "X": 3510,
+      "Y": 3792,
+      "Z": 545
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 600,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 104004090,
+    "StartCoordinate": {
+      "X": -28110,
+      "Y": -3853,
+      "Z": 546
+    },
+    "EndCoordinate": {
+      "X": -27936,
+      "Y": -2291,
+      "Z": -584
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 350,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 104004090,
+    "StartCoordinate": {
+      "X": -27936,
+      "Y": -2291,
+      "Z": -584
+    },
+    "EndCoordinate": {
+      "X": -28110,
+      "Y": -3853,
+      "Z": 546
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 350,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106001010,
+    "StartCoordinate": {
+      "X": -10170,
+      "Y": -9400,
+      "Z": -1160
+    },
+    "EndCoordinate": {
+      "X": -10470,
+      "Y": -10560,
+      "Z": -1270
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 600,
+    "JumpHeight1": 400,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106001010,
+    "StartCoordinate": {
+      "X": -10470,
+      "Y": -10560,
+      "Z": -1270
+    },
+    "EndCoordinate": {
+      "X": -10170,
+      "Y": -9400,
+      "Z": -1160
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 500,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106001010,
+    "StartCoordinate": {
+      "X": -11100,
+      "Y": -11210,
+      "Z": -1240
+    },
+    "EndCoordinate": {
+      "X": -11890,
+      "Y": -11780,
+      "Z": -1150
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 600,
+    "JumpHeight1": 400,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106001010,
+    "StartCoordinate": {
+      "X": -11890,
+      "Y": -11780,
+      "Z": -1150
+    },
+    "EndCoordinate": {
+      "X": -11100,
+      "Y": -11210,
+      "Z": -1240
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 600,
+    "JumpHeight1": 450,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106001010,
+    "StartCoordinate": {
+      "X": -12940,
+      "Y": -12280,
+      "Z": -1160
+    },
+    "EndCoordinate": {
+      "X": -14190,
+      "Y": -12550,
+      "Z": -1590
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 600,
+    "JumpHeight1": 400,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106001010,
+    "StartCoordinate": {
+      "X": -14190,
+      "Y": -12550,
+      "Z": -1590
+    },
+    "EndCoordinate": {
+      "X": -12940,
+      "Y": -12280,
+      "Z": -1160
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 250,
+    "JumpAni2": 2,
+    "JumpDistance2": 500,
+    "JumpHeight2": 350,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106002020,
+    "StartCoordinate": {
+      "X": -8800,
+      "Y": 10130,
+      "Z": 40
+    },
+    "EndCoordinate": {
+      "X": -9520,
+      "Y": 11200,
+      "Z": 820
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 250,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106002020,
+    "StartCoordinate": {
+      "X": -9520,
+      "Y": 11200,
+      "Z": 820
+    },
+    "EndCoordinate": {
+      "X": -8800,
+      "Y": 10130,
+      "Z": 40
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 600,
+    "JumpHeight1": 500,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106002020,
+    "StartCoordinate": {
+      "X": -10110,
+      "Y": 11930,
+      "Z": 870
+    },
+    "EndCoordinate": {
+      "X": -11530,
+      "Y": 12840,
+      "Z": 860
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 400,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106002020,
+    "StartCoordinate": {
+      "X": -11530,
+      "Y": 12840,
+      "Z": 860
+    },
+    "EndCoordinate": {
+      "X": -10110,
+      "Y": 11930,
+      "Z": 870
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 400,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106002020,
+    "StartCoordinate": {
+      "X": -12120,
+      "Y": 13150,
+      "Z": 850
+    },
+    "EndCoordinate": {
+      "X": -13120,
+      "Y": 13730,
+      "Z": 1100
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 600,
+    "JumpHeight1": 700,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 106002020,
+    "StartCoordinate": {
+      "X": -13120,
+      "Y": 13730,
+      "Z": 1100
+    },
+    "EndCoordinate": {
+      "X": -12120,
+      "Y": 13150,
+      "Z": 850
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 600,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022021,
+    "StartCoordinate": {
+      "X": -1440,
+      "Y": 7460,
+      "Z": 2100
+    },
+    "EndCoordinate": {
+      "X": -830,
+      "Y": 8280,
+      "Z": 2690
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 200,
+    "JumpHeight2": 800,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022021,
+    "StartCoordinate": {
+      "X": -830,
+      "Y": 8280,
+      "Z": 2690
+    },
+    "EndCoordinate": {
+      "X": -1440,
+      "Y": 7460,
+      "Z": 2100
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 800,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022021,
+    "StartCoordinate": {
+      "X": 700,
+      "Y": 8620,
+      "Z": 2690
+    },
+    "EndCoordinate": {
+      "X": 1970,
+      "Y": 8460,
+      "Z": 3680
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022021,
+    "StartCoordinate": {
+      "X": 1970,
+      "Y": 8460,
+      "Z": 3680
+    },
+    "EndCoordinate": {
+      "X": 700,
+      "Y": 8620,
+      "Z": 2690
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 800,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022030,
+    "StartCoordinate": {
+      "X": -14660,
+      "Y": -3720,
+      "Z": 3290
+    },
+    "EndCoordinate": {
+      "X": -15250,
+      "Y": -4900,
+      "Z": 3190
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022030,
+    "StartCoordinate": {
+      "X": -15250,
+      "Y": -4900,
+      "Z": 3190
+    },
+    "EndCoordinate": {
+      "X": -14660,
+      "Y": -3720,
+      "Z": 3290
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022030,
+    "StartCoordinate": {
+      "X": -16530,
+      "Y": -5700,
+      "Z": 3190
+    },
+    "EndCoordinate": {
+      "X": -17630,
+      "Y": -6390,
+      "Z": 3120
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022030,
+    "StartCoordinate": {
+      "X": -17630,
+      "Y": -6390,
+      "Z": 3120
+    },
+    "EndCoordinate": {
+      "X": -16530,
+      "Y": -5700,
+      "Z": 3190
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022030,
+    "StartCoordinate": {
+      "X": -11050,
+      "Y": -6340,
+      "Z": 3140
+    },
+    "EndCoordinate": {
+      "X": -11650,
+      "Y": -6860,
+      "Z": 2820
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 500,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022030,
+    "StartCoordinate": {
+      "X": -11650,
+      "Y": -6860,
+      "Z": 2820
+    },
+    "EndCoordinate": {
+      "X": -11050,
+      "Y": -6340,
+      "Z": 3140
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 150,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 200,
+    "JumpHeight2": 400,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022030,
+    "StartCoordinate": {
+      "X": -11860,
+      "Y": -7560,
+      "Z": 2830
+    },
+    "EndCoordinate": {
+      "X": -12210,
+      "Y": -8530,
+      "Z": 2360
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 350,
+    "JumpHeight1": 700,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022030,
+    "StartCoordinate": {
+      "X": -12210,
+      "Y": -8530,
+      "Z": 2360
+    },
+    "EndCoordinate": {
+      "X": -11860,
+      "Y": -7560,
+      "Z": 2830
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 150,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022031,
+    "StartCoordinate": {
+      "X": -9890,
+      "Y": -5670,
+      "Z": 2250
+    },
+    "EndCoordinate": {
+      "X": -9110,
+      "Y": -6990,
+      "Z": 2950
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 500,
+    "JumpHeight2": 800,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022031,
+    "StartCoordinate": {
+      "X": -9110,
+      "Y": -6990,
+      "Z": 2950
+    },
+    "EndCoordinate": {
+      "X": -9890,
+      "Y": -5670,
+      "Z": 2250
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022031,
+    "StartCoordinate": {
+      "X": 3330,
+      "Y": -7760,
+      "Z": 2070
+    },
+    "EndCoordinate": {
+      "X": 3490,
+      "Y": -8920,
+      "Z": 2480
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 400,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022031,
+    "StartCoordinate": {
+      "X": 3490,
+      "Y": -8920,
+      "Z": 2480
+    },
+    "EndCoordinate": {
+      "X": 3330,
+      "Y": -7760,
+      "Z": 2070
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 400,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": 14685,
+      "Y": -6605,
+      "Z": 1020
+    },
+    "EndCoordinate": {
+      "X": 13915,
+      "Y": -7330,
+      "Z": 1505
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 250,
+    "JumpAni2": 2,
+    "JumpDistance2": 400,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": 13915,
+      "Y": -7330,
+      "Z": 1505
+    },
+    "EndCoordinate": {
+      "X": 14685,
+      "Y": -6605,
+      "Z": 1020
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 600,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": 8590,
+      "Y": -10570,
+      "Z": 1860
+    },
+    "EndCoordinate": {
+      "X": 7860,
+      "Y": -9725,
+      "Z": 860
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 600,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": 7860,
+      "Y": -9725,
+      "Z": 860
+    },
+    "EndCoordinate": {
+      "X": 8590,
+      "Y": -10570,
+      "Z": 1860
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 250,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": -9040,
+      "Y": 11810,
+      "Z": 530
+    },
+    "EndCoordinate": {
+      "X": -10010,
+      "Y": 11710,
+      "Z": 840
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 400,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": -10010,
+      "Y": 11710,
+      "Z": 840
+    },
+    "EndCoordinate": {
+      "X": -9040,
+      "Y": 11810,
+      "Z": 530
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 600,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": -10650,
+      "Y": 11530,
+      "Z": 880
+    },
+    "EndCoordinate": {
+      "X": -11500,
+      "Y": 11690,
+      "Z": 1530
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 400,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": -11500,
+      "Y": 11690,
+      "Z": 1530
+    },
+    "EndCoordinate": {
+      "X": -10650,
+      "Y": 11530,
+      "Z": 880
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 600,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": -13960,
+      "Y": 3570,
+      "Z": 530
+    },
+    "EndCoordinate": {
+      "X": -14663.775,
+      "Y": 4168.332,
+      "Z": 977
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 300,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 550,
+    "JumpHeight2": 300,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": -14663.775,
+      "Y": 4168.332,
+      "Z": 977
+    },
+    "EndCoordinate": {
+      "X": -13960,
+      "Y": 3570,
+      "Z": 530
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 600,
+    "JumpHeight1": 300,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003030,
+    "StartCoordinate": {
+      "X": -14960,
+      "Y": -10640,
+      "Z": 2240
+    },
+    "EndCoordinate": {
+      "X": -13880,
+      "Y": -9520,
+      "Z": 3230
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 600,
+    "JumpAni2": 2,
+    "JumpDistance2": 500,
+    "JumpHeight2": 800,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003030,
+    "StartCoordinate": {
+      "X": -13880,
+      "Y": -9520,
+      "Z": 3230
+    },
+    "EndCoordinate": {
+      "X": -14960,
+      "Y": -10640,
+      "Z": 2240
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 200,
+    "JumpHeight1": 400,
+    "JumpAni2": 2,
+    "JumpDistance2": 300,
+    "JumpHeight2": 600,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": -14910,
+      "Y": 4510,
+      "Z": 980
+    },
+    "EndCoordinate": {
+      "X": -15950.563,
+      "Y": 5772.7295,
+      "Z": 1594
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 700,
+    "JumpAni2": 2,
+    "JumpDistance2": 900,
+    "JumpHeight2": 400,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 103003020,
+    "StartCoordinate": {
+      "X": -15950.563,
+      "Y": 5772.7295,
+      "Z": 1594
+    },
+    "EndCoordinate": {
+      "X": -14910,
+      "Y": 4510,
+      "Z": 980
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 1000,
+    "JumpHeight1": 500,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022091,
+    "StartCoordinate": {
+      "X": -8800,
+      "Y": 10130,
+      "Z": 40
+    },
+    "EndCoordinate": {
+      "X": -9520,
+      "Y": 11200,
+      "Z": 820
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 250,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 500,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022091,
+    "StartCoordinate": {
+      "X": -9520,
+      "Y": 11200,
+      "Z": 820
+    },
+    "EndCoordinate": {
+      "X": -8800,
+      "Y": 10130,
+      "Z": 40
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 600,
+    "JumpHeight1": 500,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022091,
+    "StartCoordinate": {
+      "X": -10110,
+      "Y": 11930,
+      "Z": 870
+    },
+    "EndCoordinate": {
+      "X": -11530,
+      "Y": 12840,
+      "Z": 860
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 400,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022091,
+    "StartCoordinate": {
+      "X": -11530,
+      "Y": 12840,
+      "Z": 860
+    },
+    "EndCoordinate": {
+      "X": -10110,
+      "Y": 11930,
+      "Z": 870
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 400,
+    "JumpHeight1": 300,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 400,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022091,
+    "StartCoordinate": {
+      "X": -12120,
+      "Y": 13150,
+      "Z": 850
+    },
+    "EndCoordinate": {
+      "X": -13120,
+      "Y": 13730,
+      "Z": 1100
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 600,
+    "JumpHeight1": 700,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200022091,
+    "StartCoordinate": {
+      "X": -13120,
+      "Y": 13730,
+      "Z": 1100
+    },
+    "EndCoordinate": {
+      "X": -12120,
+      "Y": 13150,
+      "Z": 850
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 600,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200300000,
+    "StartCoordinate": {
+      "X": -7830,
+      "Y": 5810,
+      "Z": -1160
+    },
+    "EndCoordinate": {
+      "X": -6650,
+      "Y": 3440,
+      "Z": -1260
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 350,
+    "JumpAni2": 2,
+    "JumpDistance2": 600,
+    "JumpHeight2": 900,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200300000,
+    "StartCoordinate": {
+      "X": -6480,
+      "Y": 3520,
+      "Z": -1260
+    },
+    "EndCoordinate": {
+      "X": -4790,
+      "Y": 4130,
+      "Z": -1860
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 350,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 200300000,
+    "StartCoordinate": {
+      "X": -4630,
+      "Y": 4240,
+      "Z": -1840
+    },
+    "EndCoordinate": {
+      "X": -780,
+      "Y": 3400,
+      "Z": 310
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 900,
+    "JumpAni2": 2,
+    "JumpDistance2": 1750,
+    "JumpHeight2": 1800,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 201003020,
+    "StartCoordinate": {
+      "X": 14865,
+      "Y": 3115,
+      "Z": -1002
+    },
+    "EndCoordinate": {
+      "X": 15003,
+      "Y": 4057,
+      "Z": -507
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 600,
+    "JumpHeight1": 900,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 201003020,
+    "StartCoordinate": {
+      "X": 15003,
+      "Y": 4057,
+      "Z": -507
+    },
+    "EndCoordinate": {
+      "X": 14865,
+      "Y": 3115,
+      "Z": -1002
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 450,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 201003020,
+    "StartCoordinate": {
+      "X": 14641,
+      "Y": -10130,
+      "Z": 327
+    },
+    "EndCoordinate": {
+      "X": 15172,
+      "Y": -10621,
+      "Z": -103
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 450,
+    "JumpHeight1": 400,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 201003020,
+    "StartCoordinate": {
+      "X": 15172,
+      "Y": -10621,
+      "Z": -103
+    },
+    "EndCoordinate": {
+      "X": 14641,
+      "Y": -10130,
+      "Z": 327
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 900,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 201003030,
+    "StartCoordinate": {
+      "X": 11800.385,
+      "Y": -16782.664,
+      "Z": 3379.7805
+    },
+    "EndCoordinate": {
+      "X": 12291.277,
+      "Y": -16393.74,
+      "Z": 4070.9033
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 500,
+    "JumpAni2": 2,
+    "JumpDistance2": 500,
+    "JumpHeight2": 300,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 201003030,
+    "StartCoordinate": {
+      "X": 12291.277,
+      "Y": -16393.74,
+      "Z": 4070.9033
+    },
+    "EndCoordinate": {
+      "X": 11800.385,
+      "Y": -16782.664,
+      "Z": 3379.7805
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 500,
+    "JumpHeight1": 500,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 201003030,
+    "StartCoordinate": {
+      "X": 10363.547,
+      "Y": -16281.243,
+      "Z": 2174.5593
+    },
+    "EndCoordinate": {
+      "X": 11198.895,
+      "Y": -16697.945,
+      "Z": 3337.7886
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 835,
+    "JumpHeight1": 1000,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 201003030,
+    "StartCoordinate": {
+      "X": 11198.895,
+      "Y": -16697.945,
+      "Z": 3337.7886
+    },
+    "EndCoordinate": {
+      "X": 10363.547,
+      "Y": -16281.243,
+      "Z": 2174.5593
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 835,
+    "JumpHeight1": 1000,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 201003030,
+    "StartCoordinate": {
+      "X": 12535.554,
+      "Y": -16402.02,
+      "Z": 4070.9033
+    },
+    "EndCoordinate": {
+      "X": 13236.051,
+      "Y": -15844.431,
+      "Z": 4337.1055
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 300,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  },
+  {
+    "StageId": 201003030,
+    "StartCoordinate": {
+      "X": 13236.051,
+      "Y": -15844.431,
+      "Z": 4337.1055
+    },
+    "EndCoordinate": {
+      "X": 12535.554,
+      "Y": -16402.02,
+      "Z": 4070.9033
+    },
+    "JumpAni1": 1,
+    "JumpDistance1": 700,
+    "JumpHeight1": 300,
+    "JumpAni2": 0,
+    "JumpDistance2": 0,
+    "JumpHeight2": 0,
+    "JumpAni3": 0,
+    "JumpDistance3": 0,
+    "JumpHeight3": 0
+  }
+]

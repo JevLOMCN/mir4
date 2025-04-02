@@ -1,0 +1,16 @@
+[
+    {
+        "TermId": 1,
+        "Time": 24, 
+        "SurrenderTime": 12, 
+        "DeclarationCostId": 1,
+        "DeclarationCostValue": 100
+    },
+    {
+        "TermId": 2,
+        "Time": 48, 
+        "SurrenderTime": 24, 
+        "DeclarationCostId": 2,
+        "DeclarationCostValue": 200
+    }
+]

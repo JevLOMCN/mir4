@@ -1,0 +1,1089 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": "ETriggerType::MOVE",
+    "TriggerLocation": "17140,-10050,610",
+    "TriggerRotation": 0,
+    "LinkID": [
+      18,
+      19,
+      4,
+      60
+    ],
+    "Value1": [
+      "2011"
+    ],
+    "Value2": [
+      "1711,657,657"
+    ],
+    "Value3": [
+      "2"
+    ],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": "ETriggerType::MOVE",
+    "TriggerLocation": "17420,-14565,630",
+    "TriggerRotation": 0,
+    "LinkID": [
+      15,
+      40
+    ],
+    "Value1": [
+      "442"
+    ],
+    "Value2": [
+      "142,140,142"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": 1,
+    "TriggerLocation": "13115,4235,310",
+    "TriggerRotation": 0,
+    "LinkID": [
+      37,
+      39,
+      17,
+      59,
+      57,
+      60,
+      58,
+      61
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": "ETriggerType::CONDITIONCHECK",
+    "TriggerLocation": "15155,-6760,615",
+    "TriggerRotation": 0,
+    "LinkID": [
+      48,
+      49
+    ],
+    "Value1": [
+      "0"
+    ],
+    "Value2": [
+      "1"
+    ],
+    "Value3": [
+      "300005028"
+    ],
+    "Value4": [
+      "0.1"
+    ],
+    "Value5": []
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": "ETriggerType::COUNT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      11
+    ],
+    "Value1": [
+      "5"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": "ETriggerType::COUNT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      12
+    ],
+    "Value1": [
+      "1"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": "ETriggerType::COUNT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      13
+    ],
+    "Value1": [
+      "2"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 8,
+    "TriggerType": "ETriggerType::COUNT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      14
+    ],
+    "Value1": [
+      "3"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 9,
+    "TriggerType": "ETriggerType::DIRECTING",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      16
+    ],
+    "Value1": [
+      "500006100"
+    ],
+    "Value2": [
+      "1"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 10,
+    "TriggerType": "ETriggerType::DIRECTING",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      38
+    ],
+    "Value1": [
+      "500006000"
+    ],
+    "Value2": [
+      "1"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 11,
+    "TriggerType": "ETriggerType::DO_ONCE",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      61,
+      15,
+      33
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 12,
+    "TriggerType": "ETriggerType::DO_ONCE",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      20
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 13,
+    "TriggerType": "ETriggerType::DO_ONCE",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      21
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 14,
+    "TriggerType": "ETriggerType::DO_ONCE",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      22
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 15,
+    "TriggerType": "ETriggerType::EFFECTSHOW",
+    "TriggerLocation": "17415,-14555,610",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "0"
+    ],
+    "Value2": [
+      "1020027"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 16,
+    "TriggerType": 2,
+    "TriggerLocation": "12710,3070,305",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "2.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 17,
+    "TriggerType": 4,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "300005022",
+      "300005022",
+      "300005023"
+    ],
+    "Value2": [
+      "17545,-7519,620",
+      "17566,-6595,620",
+      "18091,-7032,620"
+    ],
+    "Value3": [
+      "178",
+      "178",
+      "178"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 18,
+    "TriggerType": 4,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "300005025"
+    ],
+    "Value2": [
+      "16155,-11890,620"
+    ],
+    "Value3": [
+      "36"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 19,
+    "TriggerType": 4,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "300005025"
+    ],
+    "Value2": [
+      "18237,-11950,620"
+    ],
+    "Value3": [
+      "103"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 20,
+    "TriggerType": 4,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "300005025",
+      "300005024"
+    ],
+    "Value2": [
+      "18782,-11947,620",
+      "18700,-12450,620"
+    ],
+    "Value3": [
+      "127",
+      "127"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 21,
+    "TriggerType": 4,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "300005025",
+      "300005024"
+    ],
+    "Value2": [
+      "15741,-11887,620",
+      "16150,-12391,620"
+    ],
+    "Value3": [
+      "36",
+      "63"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 22,
+    "TriggerType": 4,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "300005024",
+      "300005026",
+      "300005026"
+    ],
+    "Value2": [
+      "17255,-12880,620",
+      "18005,-13322,620",
+      "16607,-13317,620"
+    ],
+    "Value3": [
+      "93",
+      "93",
+      "93"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 23,
+    "TriggerType": 4,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      42
+    ],
+    "Value1": [
+      "300005028"
+    ],
+    "Value2": [
+      "17117,-15333,620"
+    ],
+    "Value3": [
+      "91"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 24,
+    "TriggerType": 4,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      23
+    ],
+    "Value1": [
+      "300005014"
+    ],
+    "Value2": [
+      "17888,-14745,620"
+    ],
+    "Value3": [
+      "-143"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 25,
+    "TriggerType": 5,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "23"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 26,
+    "TriggerType": 5,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      57
+    ],
+    "Value1": [
+      "17"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 27,
+    "TriggerType": 5,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      5,
+      8,
+      7,
+      6
+    ],
+    "Value1": [
+      "18"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 28,
+    "TriggerType": 5,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      5,
+      8,
+      7,
+      6
+    ],
+    "Value1": [
+      "19"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 29,
+    "TriggerType": 5,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      5,
+      8,
+      7
+    ],
+    "Value1": [
+      "20"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 30,
+    "TriggerType": 5,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      5,
+      8
+    ],
+    "Value1": [
+      "21"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 31,
+    "TriggerType": 5,
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      5
+    ],
+    "Value1": [
+      "22"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 32,
+    "TriggerType": "ETriggerType::NPCSHOW",
+    "TriggerLocation": "18779,-15825,610",
+    "TriggerRotation": 89,
+    "LinkID": [],
+    "Value1": [
+      "700003109"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 33,
+    "TriggerType": "ETriggerType::NPCSHOW",
+    "TriggerLocation": "17116,-15335,610",
+    "TriggerRotation": 89,
+    "LinkID": [],
+    "Value1": [
+      "700003111"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 34,
+    "TriggerType": "ETriggerType::NPCSHOW",
+    "TriggerLocation": "17859,-14678,615",
+    "TriggerRotation": -163,
+    "LinkID": [],
+    "Value1": [
+      "700003109"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 35,
+    "TriggerType": "ETriggerType::NPCSHOW",
+    "TriggerLocation": "17425,-14547,610",
+    "TriggerRotation": -94,
+    "LinkID": [],
+    "Value1": [
+      "700003109"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 36,
+    "TriggerType": "ETriggerType::PHASEAREA",
+    "TriggerLocation": "17050,-10625,305",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "5500.0"
+    ],
+    "Value2": [
+      "5.0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 37,
+    "TriggerType": "ETriggerType::PLAYSOUND",
+    "TriggerLocation": "14100,4130,310",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "101008"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 38,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 39,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 40,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      52,
+      53,
+      51,
+      32
+    ],
+    "Value1": [
+      "BATTLESTART ALL",
+      "HUDHIDE",
+      "FADE 0 1 1"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 41,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "FADE 1 0 1"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 42,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "BATTLESTOP ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 43,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      46
+    ],
+    "Value1": [
+      "NPCJUMP 700003109 (18760,-14740,700,90)"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 44,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "CAMERAFOCUS (18678,-14379,750) (0,-89,0) 0.8 1.5 (17957,-14298,775) (0,-127,0) 1.5 0.5"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 45,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "CAMERASET -102 -8 700 4.3"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 46,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      56
+    ],
+    "Value1": [
+      "NPCRUN 700003109 (17856,-14676,700,-163) 2"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 47,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "NPCHIDE 700003109",
+      "NPCHIDE 700003111"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 48,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "BATTLESTOP ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 49,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      55
+    ],
+    "Value1": [
+      "FADE 0 1 1"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 50,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "FADE 1 0 1"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 51,
+    "TriggerType": "ETriggerType::TIMER",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      46
+    ],
+    "Value1": [
+      "1.0"
+    ],
+    "Value2": [
+      "false"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 52,
+    "TriggerType": "ETriggerType::TIMER",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      41
+    ],
+    "Value1": [
+      "1.5"
+    ],
+    "Value2": [
+      "false"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 53,
+    "TriggerType": "ETriggerType::TIMER",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      44,
+      45
+    ],
+    "Value1": [
+      "1.0"
+    ],
+    "Value2": [
+      "false"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 54,
+    "TriggerType": "ETriggerType::TIMER",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      47,
+      24
+    ],
+    "Value1": [
+      "0.5"
+    ],
+    "Value2": [
+      "false"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 55,
+    "TriggerType": "ETriggerType::TIMER",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      9,
+      50
+    ],
+    "Value1": [
+      "1.5"
+    ],
+    "Value2": [
+      "false"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 56,
+    "TriggerType": "ETriggerType::TIMER",
+    "TriggerLocation": "0,0,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      10,
+      54
+    ],
+    "Value1": [
+      "4.3"
+    ],
+    "Value2": [
+      "false"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 57,
+    "TriggerType": "ETriggerType::WALL",
+    "TriggerLocation": "16895,-9120,610",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "10.117286,22.366390,4.602837"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 58,
+    "TriggerType": "ETriggerType::WALL",
+    "TriggerLocation": "18825,-15895,610",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "4.602837,13.207092,4.602837"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 59,
+    "TriggerType": "ETriggerType::WALL",
+    "TriggerLocation": "13240,-5825,610",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "4.602837,13.207092,4.602837"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 60,
+    "TriggerType": "ETriggerType::WALL",
+    "TriggerLocation": "17365,-10705,610",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "6.655559,22.366390,4.602837"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 61,
+    "TriggerType": "ETriggerType::WALL",
+    "TriggerLocation": "17065,-15230,610",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "5.093699,174.107651,5.093699"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "DominionPrizeId": 1,
+    "DominionPrizeType": 2,
+    "DominionPrizeGrade": 5,
+    "DominionPrizeNameId": 3350022,
+    "DominionPrizeIconId": 1370304,
+    "DominionPrizeLimit": 1,
+    "DominionPrizeCostType": 4,
+    "DominionPrizeCostValue": 2000,
+    "DominionPrizeItemId": 601202419,
+    "DominionPrizeString": 1067537
+  },
+  {
+    "DominionPrizeId": 2,
+    "DominionPrizeType": 2,
+    "DominionPrizeGrade": 4,
+    "DominionPrizeNameId": 3350023,
+    "DominionPrizeIconId": 1370303,
+    "DominionPrizeLimit": 3,
+    "DominionPrizeCostType": 4,
+    "DominionPrizeCostValue": 1000,
+    "DominionPrizeItemId": 601202420,
+    "DominionPrizeString": 1067537
+  },
+  {
+    "DominionPrizeId": 3,
+    "DominionPrizeType": 2,
+    "DominionPrizeGrade": 3,
+    "DominionPrizeNameId": 3350024,
+    "DominionPrizeIconId": 1370302,
+    "DominionPrizeLimit": 5,
+    "DominionPrizeCostType": 4,
+    "DominionPrizeCostValue": 500,
+    "DominionPrizeItemId": 601202421,
+    "DominionPrizeString": 1067537
+  },
+  {
+    "DominionPrizeId": 4,
+    "DominionPrizeType": 2,
+    "DominionPrizeGrade": 2,
+    "DominionPrizeNameId": 3350025,
+    "DominionPrizeIconId": 1370301,
+    "DominionPrizeLimit": 10,
+    "DominionPrizeCostType": 4,
+    "DominionPrizeCostValue": 200,
+    "DominionPrizeItemId": 601202422,
+    "DominionPrizeString": 0
+  },
+  {
+    "DominionPrizeId": 5,
+    "DominionPrizeType": 2,
+    "DominionPrizeGrade": 1,
+    "DominionPrizeNameId": 3350026,
+    "DominionPrizeIconId": 1370300,
+    "DominionPrizeLimit": 50,
+    "DominionPrizeCostType": 4,
+    "DominionPrizeCostValue": 100,
+    "DominionPrizeItemId": 601202423,
+    "DominionPrizeString": 0
+  }
+]

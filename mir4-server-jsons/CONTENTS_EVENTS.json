@@ -1,0 +1,23 @@
+[
+  {
+    "StartCondition": 1,
+    "StartValue": 100,
+    "RewardType": 1,
+    "RewardValue": 500,
+    "RewardSubValue": 100
+  },
+  {
+    "StartCondition": 1,
+    "StartValue": 200,
+    "RewardType": 2,
+    "RewardValue": 300,
+    "RewardSubValue": 50
+  },
+  {
+    "StartCondition": 2,
+    "StartValue": 150,
+    "RewardType": 3,
+    "RewardValue": 1000,
+    "RewardSubValue": 200
+  }
+]

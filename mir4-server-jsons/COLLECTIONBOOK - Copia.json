@@ -1,0 +1,23 @@
+[
+    {
+        "StageId": 1,
+        "StageClearMonsterLevel": 10,
+        "StageClearRewardType": 1,
+        "StageClearRewardId": 1001,
+        "StageClearRewardValue": 1
+    },
+    {
+        "StageId": 2,
+        "StageClearMonsterLevel": 20,
+        "StageClearRewardType": 2,
+        "StageClearRewardId": 2001,
+        "StageClearRewardValue": 2
+    },
+    {
+        "StageId": 3,
+        "StageClearMonsterLevel": 30,
+        "StageClearRewardType": 1,
+        "StageClearRewardId": 1002,
+        "StageClearRewardValue": 1
+    }
+]

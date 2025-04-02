@@ -1,0 +1,29 @@
+[
+    {
+        "RowId": 1,
+        "MainType": 1,
+        "SubType": 0,
+        "Grade": 1,
+        "MaterialExp": 500,
+        "MaterialCostValueType": 1,
+        "MaterialCostValue": 1000
+    },
+    {
+        "RowId": 2,
+        "MainType": 1,
+        "SubType": 1,
+        "Grade": 2,
+        "MaterialExp": 800,
+        "MaterialCostValueType": 1,
+        "MaterialCostValue": 1500
+    },
+    {
+        "RowId": 3,
+        "MainType": 2,
+        "SubType": 0,
+        "Grade": 1,
+        "MaterialExp": 300,
+        "MaterialCostValueType": 2,
+        "MaterialCostValue": 2000
+    }
+]

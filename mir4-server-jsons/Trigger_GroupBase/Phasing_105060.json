@@ -1,0 +1,125 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "10590,3720,1790",
+    "TriggerRotation": 0,
+    "LinkID": [
+      6,
+      4,
+      5,
+      2
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": "ETriggerType::CONDITIONCHECK",
+    "TriggerLocation": "9850,3700,2130",
+    "TriggerRotation": 0,
+    "LinkID": [
+      7
+    ],
+    "Value1": [
+      "0"
+    ],
+    "Value2": [
+      "1"
+    ],
+    "Value3": [
+      "105003017"
+    ],
+    "Value4": [
+      "0.3"
+    ],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": 2,
+    "TriggerLocation": "9780,2860,2360",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "0.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": "ETriggerType::GUARD_NPC_SPAWNER",
+    "TriggerLocation": "10560,2660,1230",
+    "TriggerRotation": -108,
+    "LinkID": [],
+    "Value1": [
+      "105006007"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": 4,
+    "TriggerLocation": "10590,3410,1890",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "105003017"
+    ],
+    "Value2": [
+      "10410,1650,1220"
+    ],
+    "Value3": [
+      "99"
+    ],
+    "Value4": [
+      "0",
+      "0.0"
+    ],
+    "Value5": [
+      "1"
+    ]
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": "ETriggerType::PLAYSOUND",
+    "TriggerLocation": "10450,4010,1810",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "100110"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "9630,3150,2420",
+    "TriggerRotation": 0,
+    "LinkID": [
+      3
+    ],
+    "Value1": [
+      "BATTLESTOP ALL",
+      "SMALLTALK 105006360",
+      "DELAY 4",
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "7733,5925,11405",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2,
+      6
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": "ETriggerType::DIRECTING",
+    "TriggerLocation": "7902,4309,11342",
+    "TriggerRotation": 0,
+    "LinkID": [
+      4,
+      8
+    ],
+    "Value1": [
+      "11401"
+    ],
+    "Value2": [
+      "2"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": 2,
+    "TriggerLocation": "9012,4863,11396",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "3.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": 4,
+    "TriggerLocation": "8544,4321,11437",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "100001011"
+    ],
+    "Value2": [
+      "7963,2501,10114"
+    ],
+    "Value3": [
+      "72"
+    ],
+    "Value4": [
+      "0",
+      "0.0"
+    ],
+    "Value5": [
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": 5,
+    "TriggerLocation": "8970,4480,11310",
+    "TriggerRotation": 0,
+    "LinkID": [
+      3
+    ],
+    "Value1": [
+      "4"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": "ETriggerType::PLAYSOUND",
+    "TriggerLocation": "8030,5750,11080",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "100110"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "8210,5150,10820",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 8,
+    "TriggerType": "ETriggerType::TIMER",
+    "TriggerLocation": "8330,4970,10910",
+    "TriggerRotation": 0,
+    "LinkID": [
+      7
+    ],
+    "Value1": [
+      "0.5"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

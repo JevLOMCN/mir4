@@ -1,0 +1,19 @@
+    {
+        "WarpAttachBuff": 123,
+        "AggroDecreaseRate": 1,
+        "WarpCasting": 2,
+        "SkillPassiveAddExp": 100,
+        "SkillPassiveGroupInitItemId": 456,
+        "RevivalHP": 10000,
+        "PkDropObjectDeleteTime": 30,
+        "GuildCreationMembers": 10,
+        "GuildCreationLevel": 10,
+        "GuildCreationCostType": 2,
+        "GuildCreationCostCount": 50000,
+        "CharacterCostumeTitleItemId": 789,
+        "CharacterCostumeTitleItemCount": 1,
+        "DuelFlagId": 42,
+        "DuelStartAttachBuff": 321,
+        "DuelRingSize": 50,
+        "DuelRingOutTimeSec": 15
+    }

@@ -1,0 +1,130 @@
+[
+  {
+    "MarkId": 1,
+    "CommandMarkType": "ECommandMarkType::POSITION",
+    "MiniMapIconId": 5200101,
+    "IconId": 5200001,
+    "NameSId": 5401001,
+    "EffectId": 1091001
+  },
+  {
+    "MarkId": 2,
+    "CommandMarkType": "ECommandMarkType::POSITION",
+    "MiniMapIconId": 5200102,
+    "IconId": 5200002,
+    "NameSId": 5401002,
+    "EffectId": 1091002
+  },
+  {
+    "MarkId": 3,
+    "CommandMarkType": "ECommandMarkType::POSITION",
+    "MiniMapIconId": 5200103,
+    "IconId": 5200003,
+    "NameSId": 5401003,
+    "EffectId": 1091003
+  },
+  {
+    "MarkId": 4,
+    "CommandMarkType": "ECommandMarkType::POSITION",
+    "MiniMapIconId": 5200104,
+    "IconId": 5200004,
+    "NameSId": 5401004,
+    "EffectId": 1091004
+  },
+  {
+    "MarkId": 5,
+    "CommandMarkType": "ECommandMarkType::POSITION",
+    "MiniMapIconId": 5200105,
+    "IconId": 5200005,
+    "NameSId": 5401005,
+    "EffectId": 1091005
+  },
+  {
+    "MarkId": 6,
+    "CommandMarkType": "ECommandMarkType::POSITION",
+    "MiniMapIconId": 5200106,
+    "IconId": 5200006,
+    "NameSId": 5401006,
+    "EffectId": 1091006
+  },
+  {
+    "MarkId": 7,
+    "CommandMarkType": "ECommandMarkType::POSITION",
+    "MiniMapIconId": 5200107,
+    "IconId": 5200007,
+    "NameSId": 5401007,
+    "EffectId": 1091007
+  },
+  {
+    "MarkId": 8,
+    "CommandMarkType": "ECommandMarkType::POSITION",
+    "MiniMapIconId": 5200108,
+    "IconId": 5200008,
+    "NameSId": 5401008,
+    "EffectId": 1091008
+  },
+  {
+    "MarkId": 11,
+    "CommandMarkType": "ECommandMarkType::TARGET",
+    "MiniMapIconId": 0,
+    "IconId": 5200011,
+    "NameSId": 5401011,
+    "EffectId": 1091011
+  },
+  {
+    "MarkId": 12,
+    "CommandMarkType": "ECommandMarkType::TARGET",
+    "MiniMapIconId": 0,
+    "IconId": 5200014,
+    "NameSId": 5401014,
+    "EffectId": 1091014
+  },
+  {
+    "MarkId": 13,
+    "CommandMarkType": "ECommandMarkType::TARGET",
+    "MiniMapIconId": 0,
+    "IconId": 5200013,
+    "NameSId": 5401013,
+    "EffectId": 1091013
+  },
+  {
+    "MarkId": 14,
+    "CommandMarkType": "ECommandMarkType::TARGET",
+    "MiniMapIconId": 0,
+    "IconId": 5200018,
+    "NameSId": 5401018,
+    "EffectId": 1091018
+  },
+  {
+    "MarkId": 15,
+    "CommandMarkType": "ECommandMarkType::TARGET",
+    "MiniMapIconId": 0,
+    "IconId": 5200012,
+    "NameSId": 5401012,
+    "EffectId": 1091012
+  },
+  {
+    "MarkId": 16,
+    "CommandMarkType": "ECommandMarkType::TARGET",
+    "MiniMapIconId": 0,
+    "IconId": 5200015,
+    "NameSId": 5401015,
+    "EffectId": 1091015
+  },
+  {
+    "MarkId": 17,
+    "CommandMarkType": "ECommandMarkType::TARGET",
+    "MiniMapIconId": 0,
+    "IconId": 5200016,
+    "NameSId": 5401016,
+    "EffectId": 1091016
+  },
+  {
+    "MarkId": 18,
+    "CommandMarkType": "ECommandMarkType::TARGET",
+    "MiniMapIconId": 0,
+    "IconId": 5200017,
+    "NameSId": 5401017,
+    "EffectId": 1091017
+  }
+]

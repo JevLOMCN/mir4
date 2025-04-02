@@ -1,0 +1,147 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": "ETriggerType::MOVE",
+    "TriggerLocation": "-30240,-20630,90",
+    "TriggerRotation": 0,
+    "LinkID": [
+      7
+    ],
+    "Value1": [
+      "340"
+    ],
+    "Value2": [
+      "40,40,40"
+    ],
+    "Value3": [
+      "2"
+    ],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": "ETriggerType::MOVE",
+    "TriggerLocation": "-26520,-20820,-170",
+    "TriggerRotation": 0,
+    "LinkID": [
+      5
+    ],
+    "Value1": [
+      "340"
+    ],
+    "Value2": [
+      "40,40,40"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": 1,
+    "TriggerLocation": "-32500,-20850,1000",
+    "TriggerRotation": 0,
+    "LinkID": [
+      6
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": 2,
+    "TriggerLocation": "-29100,-19360,1000",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "3.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": 2,
+    "TriggerLocation": "-27780,-20720,1000",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "0.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "-32190,-20780,1000",
+    "TriggerRotation": 0,
+    "LinkID": [
+      1
+    ],
+    "Value1": [
+      "DELAY 0.5",
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "-29970,-20730,1000",
+    "TriggerRotation": 0,
+    "LinkID": [
+      9
+    ],
+    "Value1": [
+      "BATTLESTOP ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 8,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "-29060,-20730,1000",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 9,
+    "TriggerType": "ETriggerType::TIMER",
+    "TriggerLocation": "-29570,-20720,1000",
+    "TriggerRotation": 0,
+    "LinkID": [
+      8
+    ],
+    "Value1": [
+      "5.0"
+    ],
+    "Value2": [
+      "true"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

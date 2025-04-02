@@ -1,0 +1,263 @@
+[
+  {
+    "Name": 1,
+    "AuthorityId": 1,
+    "NameStrId": 1101,
+    "Can_Member": 1,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 2,
+    "AuthorityId": 2,
+    "NameStrId": 1102,
+    "Can_Member": 1,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 3,
+    "AuthorityId": 3,
+    "NameStrId": 1103,
+    "Can_Member": 1,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 4,
+    "AuthorityId": 4,
+    "NameStrId": 1104,
+    "Can_Member": 1,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 5,
+    "AuthorityId": 5,
+    "NameStrId": 1105,
+    "Can_Member": 1,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 6,
+    "AuthorityId": 6,
+    "NameStrId": 1132,
+    "Can_Member": 1,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 7,
+    "AuthorityId": 51,
+    "NameStrId": 1106,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 8,
+    "AuthorityId": 52,
+    "NameStrId": 1110,
+    "Can_Member": 1,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 9,
+    "AuthorityId": 53,
+    "NameStrId": 1111,
+    "Can_Member": 0,
+    "Can_Inventory": 1,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 10,
+    "AuthorityId": 54,
+    "NameStrId": 1112,
+    "Can_Member": 0,
+    "Can_Inventory": 1,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 11,
+    "AuthorityId": 58,
+    "NameStrId": 1134,
+    "Can_Member": 0,
+    "Can_Inventory": 1,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 12,
+    "AuthorityId": 55,
+    "NameStrId": 1107,
+    "Can_Member": 1,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 13,
+    "AuthorityId": 56,
+    "NameStrId": 1108,
+    "Can_Member": 1,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 14,
+    "AuthorityId": 57,
+    "NameStrId": 1109,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 1
+  },
+  {
+    "Name": 15,
+    "AuthorityId": 59,
+    "NameStrId": 1142,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 1
+  },
+  {
+    "Name": 16,
+    "AuthorityId": 101,
+    "NameStrId": 1113,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 1,
+    "Can_War": 0
+  },
+  {
+    "Name": 17,
+    "AuthorityId": 102,
+    "NameStrId": 1114,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 1,
+    "Can_War": 0
+  },
+  {
+    "Name": 18,
+    "AuthorityId": 103,
+    "NameStrId": 1115,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 1,
+    "Can_War": 0
+  },
+  {
+    "Name": 19,
+    "AuthorityId": 151,
+    "NameStrId": 1117,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 1
+  },
+  {
+    "Name": 20,
+    "AuthorityId": 152,
+    "NameStrId": 1131,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 1
+  },
+  {
+    "Name": 21,
+    "AuthorityId": 153,
+    "NameStrId": 1118,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 1
+  },
+  {
+    "Name": 22,
+    "AuthorityId": 171,
+    "NameStrId": 1139,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 1
+  },
+  {
+    "Name": 24,
+    "AuthorityId": 201,
+    "NameStrId": 1120,
+    "Can_Member": 0,
+    "Can_Inventory": 1,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 29,
+    "AuthorityId": 206,
+    "NameStrId": 1133,
+    "Can_Member": 0,
+    "Can_Inventory": 1,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 30,
+    "AuthorityId": 207,
+    "NameStrId": 1135,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 1
+  },
+  {
+    "Name": 31,
+    "AuthorityId": 208,
+    "NameStrId": 1136,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 1,
+    "Can_War": 0
+  },
+  {
+    "Name": 32,
+    "AuthorityId": 209,
+    "NameStrId": 1137,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 1,
+    "Can_War": 0
+  },
+  {
+    "Name": 33,
+    "AuthorityId": 210,
+    "NameStrId": 1138,
+    "Can_Member": 0,
+    "Can_Inventory": 1,
+    "Can_Diplomacy": 0,
+    "Can_War": 0
+  },
+  {
+    "Name": 34,
+    "AuthorityId": 211,
+    "NameStrId": 1141,
+    "Can_Member": 0,
+    "Can_Inventory": 0,
+    "Can_Diplomacy": 0,
+    "Can_War": 1
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "SectionCountMax": 300,
+    "ExtendValue": 1,
+    "InventoryType": 1
+  },
+  {
+    "SectionCountMax": 400,
+    "ExtendValue": 1,
+    "InventoryType": 1
+  },
+  {
+    "SectionCountMax": 500,
+    "ExtendValue": 1,
+    "InventoryType": 1
+  },
+  {
+    "SectionCountMax": 999,
+    "ExtendValue": 1,
+    "InventoryType": 1
+  },
+  {
+    "SectionCountMax": 300,
+    "ExtendValue": 10,
+    "InventoryType": 3
+  },
+  {
+    "SectionCountMax": 400,
+    "ExtendValue": 25,
+    "InventoryType": 3
+  },
+  {
+    "SectionCountMax": 500,
+    "ExtendValue": 50,
+    "InventoryType": 3
+  }
+]

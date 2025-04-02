@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SERVER_CHANGE_UI",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ServerChangeUITemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "2": {
+        "Id": 2,
+        "Isshow": 1,
+        "TitleSid": 2100007,
+        "TitleDescId": 2100008,
+        "ButtonSid": 2100009,
+        "Icon": 4400002
+      },
+      "3": {
+        "Id": 3,
+        "Isshow": 1,
+        "TitleSid": 2100010,
+        "TitleDescId": 2100011,
+        "ButtonSid": 2100012,
+        "Icon": 4400003
+      }
+    }
+  }
+]

@@ -1,0 +1,766 @@
+[
+  {
+    "TradeId": 10,
+    "TradeMainGroup": 1,
+    "TradeMainGroupString": 5100006,
+    "TradeSubList": 0,
+    "TradeSubListString": 0,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": []
+  },
+  {
+    "TradeId": 20,
+    "TradeMainGroup": 2,
+    "TradeMainGroupString": 5100005,
+    "TradeSubList": 0,
+    "TradeSubListString": 0,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": []
+  },
+  {
+    "TradeId": 30,
+    "TradeMainGroup": 3,
+    "TradeMainGroupString": 5100008,
+    "TradeSubList": 1,
+    "TradeSubListString": 5100046,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 2,
+        "SubType": []
+      }
+    ]
+  },
+  {
+    "TradeId": 31,
+    "TradeMainGroup": 3,
+    "TradeMainGroupString": 5100008,
+    "TradeSubList": 2,
+    "TradeSubListString": 5100047,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 20,
+        "SubType": []
+      }
+    ]
+  },
+  {
+    "TradeId": 40,
+    "TradeMainGroup": 4,
+    "TradeMainGroupString": 5100009,
+    "TradeSubList": 1,
+    "TradeSubListString": 5100010,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 3,
+        "SubType": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 41,
+    "TradeMainGroup": 4,
+    "TradeMainGroupString": 5100009,
+    "TradeSubList": 2,
+    "TradeSubListString": 5100011,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 3,
+        "SubType": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 42,
+    "TradeMainGroup": 4,
+    "TradeMainGroupString": 5100009,
+    "TradeSubList": 3,
+    "TradeSubListString": 5100012,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 3,
+        "SubType": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 43,
+    "TradeMainGroup": 4,
+    "TradeMainGroupString": 5100009,
+    "TradeSubList": 4,
+    "TradeSubListString": 5100013,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 3,
+        "SubType": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 50,
+    "TradeMainGroup": 5,
+    "TradeMainGroupString": 5100014,
+    "TradeSubList": 1,
+    "TradeSubListString": 5100015,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 4,
+        "SubType": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 51,
+    "TradeMainGroup": 5,
+    "TradeMainGroupString": 5100014,
+    "TradeSubList": 2,
+    "TradeSubListString": 5100017,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 4,
+        "SubType": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 52,
+    "TradeMainGroup": 5,
+    "TradeMainGroupString": 5100014,
+    "TradeSubList": 3,
+    "TradeSubListString": 5100016,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 4,
+        "SubType": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 53,
+    "TradeMainGroup": 5,
+    "TradeMainGroupString": 5100014,
+    "TradeSubList": 4,
+    "TradeSubListString": 5100048,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 4,
+        "SubType": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 60,
+    "TradeMainGroup": 8,
+    "TradeMainGroupString": 5100018,
+    "TradeSubList": 0,
+    "TradeSubListString": 0,
+    "FilterSmelting": 0,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 12,
+        "SubType": []
+      }
+    ]
+  },
+  {
+    "TradeId": 70,
+    "TradeMainGroup": 9,
+    "TradeMainGroupString": 5100019,
+    "TradeSubList": 1,
+    "TradeSubListString": 5100020,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 5,
+        "SubType": [
+          8,
+          23,
+          24,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 71,
+    "TradeMainGroup": 9,
+    "TradeMainGroupString": 5100019,
+    "TradeSubList": 2,
+    "TradeSubListString": 5100021,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 5,
+        "SubType": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 72,
+    "TradeMainGroup": 9,
+    "TradeMainGroupString": 5100019,
+    "TradeSubList": 3,
+    "TradeSubListString": 5100032,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 13,
+        "SubType": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 73,
+    "TradeMainGroup": 9,
+    "TradeMainGroupString": 5100019,
+    "TradeSubList": 4,
+    "TradeSubListString": 5100033,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 5,
+        "SubType": [
+          1,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 74,
+    "TradeMainGroup": 9,
+    "TradeMainGroupString": 5100019,
+    "TradeSubList": 5,
+    "TradeSubListString": 5100034,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 7,
+        "SubType": []
+      }
+    ]
+  },
+  {
+    "TradeId": 75,
+    "TradeMainGroup": 9,
+    "TradeMainGroupString": 5100019,
+    "TradeSubList": 6,
+    "TradeSubListString": 5100055,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 5,
+        "SubType": [
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 80,
+    "TradeMainGroup": 10,
+    "TradeMainGroupString": 5100023,
+    "TradeSubList": 0,
+    "TradeSubListString": 5100027,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 9,
+        "SubType": [
+          1,
+          2
+        ]
+      },
+      {
+        "MainType": 19,
+        "SubType": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 90,
+    "TradeMainGroup": 11,
+    "TradeMainGroupString": 5100022,
+    "TradeSubList": 1,
+    "TradeSubListString": 5100035,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 8,
+        "SubType": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 91,
+    "TradeMainGroup": 11,
+    "TradeMainGroupString": 5100022,
+    "TradeSubList": 2,
+    "TradeSubListString": 5100036,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 8,
+        "SubType": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 92,
+    "TradeMainGroup": 11,
+    "TradeMainGroupString": 5100022,
+    "TradeSubList": 3,
+    "TradeSubListString": 5100037,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 8,
+        "SubType": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 93,
+    "TradeMainGroup": 11,
+    "TradeMainGroupString": 5100022,
+    "TradeSubList": 4,
+    "TradeSubListString": 5100038,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 8,
+        "SubType": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 94,
+    "TradeMainGroup": 11,
+    "TradeMainGroupString": 5100022,
+    "TradeSubList": 5,
+    "TradeSubListString": 5100039,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 8,
+        "SubType": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 95,
+    "TradeMainGroup": 11,
+    "TradeMainGroupString": 5100022,
+    "TradeSubList": 6,
+    "TradeSubListString": 5100040,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 8,
+        "SubType": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 96,
+    "TradeMainGroup": 11,
+    "TradeMainGroupString": 5100022,
+    "TradeSubList": 7,
+    "TradeSubListString": 5100045,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 8,
+        "SubType": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 97,
+    "TradeMainGroup": 11,
+    "TradeMainGroupString": 5100022,
+    "TradeSubList": 8,
+    "TradeSubListString": 5100049,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 8,
+        "SubType": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 98,
+    "TradeMainGroup": 11,
+    "TradeMainGroupString": 5100022,
+    "TradeSubList": 8,
+    "TradeSubListString": 5100056,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 8,
+        "SubType": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 100,
+    "TradeMainGroup": 12,
+    "TradeMainGroupString": 5100044,
+    "TradeSubList": 0,
+    "TradeSubListString": 0,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 17,
+        "SubType": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 110,
+    "TradeMainGroup": 13,
+    "TradeMainGroupString": 5100041,
+    "TradeSubList": 1,
+    "TradeSubListString": 5100042,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 6,
+        "SubType": [
+          4,
+          5,
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 111,
+    "TradeMainGroup": 13,
+    "TradeMainGroupString": 5100041,
+    "TradeSubList": 2,
+    "TradeSubListString": 5100043,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 6,
+        "SubType": [
+          6,
+          29,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 112,
+    "TradeMainGroup": 13,
+    "TradeMainGroupString": 5100041,
+    "TradeSubList": 3,
+    "TradeSubListString": 5100031,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 6,
+        "SubType": [
+          3,
+          23,
+          24,
+          33
+        ]
+      },
+      {
+        "MainType": 10,
+        "SubType": []
+      },
+      {
+        "MainType": 14,
+        "SubType": []
+      },
+      {
+        "MainType": 15,
+        "SubType": []
+      },
+      {
+        "MainType": 18,
+        "SubType": []
+      },
+      {
+        "MainType": 5,
+        "SubType": [
+          12
+        ]
+      },
+      {
+        "MainType": 13,
+        "SubType": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 120,
+    "TradeMainGroup": 7,
+    "TradeMainGroupString": 5100050,
+    "TradeSubList": 1,
+    "TradeSubListString": 5100051,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 21,
+        "SubType": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 121,
+    "TradeMainGroup": 7,
+    "TradeMainGroupString": 5100050,
+    "TradeSubList": 2,
+    "TradeSubListString": 5100052,
+    "FilterSmelting": 0,
+    "FilterClass": 0,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 21,
+        "SubType": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 130,
+    "TradeMainGroup": 14,
+    "TradeMainGroupString": 5100054,
+    "TradeSubList": 0,
+    "TradeSubListString": 0,
+    "FilterSmelting": 0,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 11,
+        "SubType": []
+      }
+    ]
+  },
+  {
+    "TradeId": 140,
+    "TradeMainGroup": 6,
+    "TradeMainGroupString": 5100058,
+    "TradeSubList": 1,
+    "TradeSubListString": 5100059,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 22,
+        "SubType": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 141,
+    "TradeMainGroup": 6,
+    "TradeMainGroupString": 5100058,
+    "TradeSubList": 2,
+    "TradeSubListString": 5100060,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 22,
+        "SubType": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 142,
+    "TradeMainGroup": 6,
+    "TradeMainGroupString": 5100058,
+    "TradeSubList": 3,
+    "TradeSubListString": 5100061,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 22,
+        "SubType": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 143,
+    "TradeMainGroup": 6,
+    "TradeMainGroupString": 5100058,
+    "TradeSubList": 4,
+    "TradeSubListString": 5100062,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 22,
+        "SubType": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "TradeId": 144,
+    "TradeMainGroup": 6,
+    "TradeMainGroupString": 5100058,
+    "TradeSubList": 5,
+    "TradeSubListString": 5100063,
+    "FilterSmelting": 1,
+    "FilterClass": 1,
+    "FilterGrade": 1,
+    "ItemType": [
+      {
+        "MainType": 22,
+        "SubType": [
+          5
+        ]
+      }
+    ]
+  }
+]

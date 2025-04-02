@@ -1,0 +1,746 @@
+[
+  {
+    "Id": 100001,
+    "GroupId": 1001001,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2021-07-31 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100002,
+    "GroupId": 1001001,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2021-08-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100003,
+    "GroupId": 1001001,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2021-08-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100004,
+    "GroupId": 1001002,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2021-08-31 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100005,
+    "GroupId": 1001002,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2021-09-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100006,
+    "GroupId": 1001002,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2021-09-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100007,
+    "GroupId": 1001003,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2021-09-30 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100008,
+    "GroupId": 1001003,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2021-10-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100009,
+    "GroupId": 1001003,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2021-10-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100010,
+    "GroupId": 1001004,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2021-10-31 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100011,
+    "GroupId": 1001004,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2021-11-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100012,
+    "GroupId": 1001004,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2021-11-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100013,
+    "GroupId": 1001005,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2021-11-30 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100014,
+    "GroupId": 1001005,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2021-12-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100015,
+    "GroupId": 1001005,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2021-12-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100016,
+    "GroupId": 1001006,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2021-12-31 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100017,
+    "GroupId": 1001006,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-01-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100018,
+    "GroupId": 1001006,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-01-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100019,
+    "GroupId": 1001007,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-01-31 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100020,
+    "GroupId": 1001007,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-02-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100021,
+    "GroupId": 1001007,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-02-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100022,
+    "GroupId": 1001008,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-02-28 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100023,
+    "GroupId": 1001008,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-03-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100024,
+    "GroupId": 1001008,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-03-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100025,
+    "GroupId": 1001009,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-03-31 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100026,
+    "GroupId": 1001009,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-04-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100027,
+    "GroupId": 1001009,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-04-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100028,
+    "GroupId": 1001010,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-04-30 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100029,
+    "GroupId": 1001010,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-05-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100030,
+    "GroupId": 1001010,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-05-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100031,
+    "GroupId": 1001011,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-05-31 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100032,
+    "GroupId": 1001011,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-06-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100033,
+    "GroupId": 1001011,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-06-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100034,
+    "GroupId": 1001012,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-06-30 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100035,
+    "GroupId": 1001012,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-07-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100036,
+    "GroupId": 1001012,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-07-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100037,
+    "GroupId": 1001013,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-07-31 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100038,
+    "GroupId": 1001013,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-08-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100039,
+    "GroupId": 1001013,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-08-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100040,
+    "GroupId": 1001014,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-08-31 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100041,
+    "GroupId": 1001014,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-09-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100042,
+    "GroupId": 1001014,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-09-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100043,
+    "GroupId": 1001015,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-09-30 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100044,
+    "GroupId": 1001015,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-10-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100045,
+    "GroupId": 1001015,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-10-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 100046,
+    "GroupId": 1001016,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-10-31 16:00:01",
+    "MissionGroupId": 1001
+  },
+  {
+    "Id": 100047,
+    "GroupId": 1001016,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-11-07 16:00:01",
+    "MissionGroupId": 1002
+  },
+  {
+    "Id": 100048,
+    "GroupId": 1001016,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-11-14 16:00:01",
+    "MissionGroupId": 1003
+  },
+  {
+    "Id": 102001,
+    "GroupId": 1003001,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2021-10-01 00:00:01",
+    "MissionGroupId": 3001
+  },
+  {
+    "Id": 102002,
+    "GroupId": 1003001,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2021-10-01 00:00:01",
+    "MissionGroupId": 3001
+  },
+  {
+    "Id": 102003,
+    "GroupId": 1003001,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2021-10-01 00:00:01",
+    "MissionGroupId": 3001
+  },
+  {
+    "Id": 103001,
+    "GroupId": 1004001,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-05-31 16:00:01",
+    "MissionGroupId": 4001
+  },
+  {
+    "Id": 103002,
+    "GroupId": 1004001,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-06-07 16:00:01",
+    "MissionGroupId": 4001
+  },
+  {
+    "Id": 103003,
+    "GroupId": 1004001,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-06-14 16:00:01",
+    "MissionGroupId": 4001
+  },
+  {
+    "Id": 112001,
+    "GroupId": 1012001,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2021-10-31 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112002,
+    "GroupId": 1012001,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2021-11-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112003,
+    "GroupId": 1012001,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2021-11-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112004,
+    "GroupId": 1012002,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2021-11-30 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112005,
+    "GroupId": 1012002,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2021-12-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112006,
+    "GroupId": 1012002,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2021-12-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112007,
+    "GroupId": 1012003,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2021-12-31 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112008,
+    "GroupId": 1012003,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-01-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112009,
+    "GroupId": 1012003,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-01-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112010,
+    "GroupId": 1012004,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-01-31 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112011,
+    "GroupId": 1012004,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-02-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112012,
+    "GroupId": 1012004,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-02-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112013,
+    "GroupId": 1012005,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-02-28 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112014,
+    "GroupId": 1012005,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-03-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112015,
+    "GroupId": 1012005,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-03-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112016,
+    "GroupId": 1012006,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-03-31 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112017,
+    "GroupId": 1012006,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-04-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112018,
+    "GroupId": 1012006,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-04-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112019,
+    "GroupId": 1012007,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-04-30 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112020,
+    "GroupId": 1012007,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-05-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112021,
+    "GroupId": 1012007,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-05-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112022,
+    "GroupId": 1012008,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-05-31 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112023,
+    "GroupId": 1012008,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-06-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112024,
+    "GroupId": 1012008,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-06-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112025,
+    "GroupId": 1012009,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-06-30 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112026,
+    "GroupId": 1012009,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-07-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112027,
+    "GroupId": 1012009,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-07-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112028,
+    "GroupId": 1012010,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-07-31 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112029,
+    "GroupId": 1012010,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-08-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112030,
+    "GroupId": 1012010,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-08-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112031,
+    "GroupId": 1012011,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-08-31 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112032,
+    "GroupId": 1012011,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-09-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112033,
+    "GroupId": 1012011,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-09-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112034,
+    "GroupId": 1012012,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-09-30 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112035,
+    "GroupId": 1012012,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-10-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112036,
+    "GroupId": 1012012,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-10-14 16:00:01",
+    "MissionGroupId": 12003
+  },
+  {
+    "Id": 112037,
+    "GroupId": 1012013,
+    "NameStrId": 0,
+    "Order": 1,
+    "WeekOpenTime": "2022-10-31 16:00:01",
+    "MissionGroupId": 12001
+  },
+  {
+    "Id": 112038,
+    "GroupId": 1012013,
+    "NameStrId": 0,
+    "Order": 2,
+    "WeekOpenTime": "2022-11-07 16:00:01",
+    "MissionGroupId": 12002
+  },
+  {
+    "Id": 112039,
+    "GroupId": 1012013,
+    "NameStrId": 0,
+    "Order": 3,
+    "WeekOpenTime": "2022-11-14 16:00:01",
+    "MissionGroupId": 12003
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "ComboId": 1,
+    "ComboMin": 1,
+    "ComboMax": 99,
+    "BuffLink": 0,
+    "FontColor": "17FFF2FF"
+  },
+  {
+    "ComboId": 2,
+    "ComboMin": 100,
+    "ComboMax": 199,
+    "BuffLink": 201,
+    "FontColor": "FF7F1FFF"
+  },
+  {
+    "ComboId": 3,
+    "ComboMin": 200,
+    "ComboMax": 299,
+    "BuffLink": 202,
+    "FontColor": "FF7F1FFF"
+  },
+  {
+    "ComboId": 4,
+    "ComboMin": 300,
+    "ComboMax": 399,
+    "BuffLink": 203,
+    "FontColor": "FF7F1FFF"
+  },
+  {
+    "ComboId": 5,
+    "ComboMin": 400,
+    "ComboMax": 499,
+    "BuffLink": 204,
+    "FontColor": "FF7F1FFF"
+  },
+  {
+    "ComboId": 6,
+    "ComboMin": 500,
+    "ComboMax": 0,
+    "BuffLink": 205,
+    "FontColor": "FF171FFF"
+  }
+]

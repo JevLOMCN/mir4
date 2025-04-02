@@ -1,0 +1,8698 @@
+[
+  {
+    "EffectId": 100112,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/Buff01_Keep.Buff01_Keep'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "spine02",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220101,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Battle/P_Target_Decal_Arrow.P_Target_Decal_Arrow'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220102,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Battle/P_Target_Decal_Basic.P_Target_Decal_Basic'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220104,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Battle/P_Target_Decal_Red.P_Target_Decal_Red'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220401,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Levelup/P_sys_levelup_01.P_sys_levelup_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "spine01",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220610,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_01.P_Object_Spread_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220611,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Arrow/P_System_LockOnLine_01.P_System_LockOnLine_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220620,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_02.P_Object_Spread_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220621,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_03.P_Object_Spread_03'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220622,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_04.P_Object_Spread_04'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220623,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_05.P_Object_Spread_05'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220624,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_01_1.P_Object_Spread_01_1'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220626,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_02_1.P_Object_Spread_02_1'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220628,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_03_1.P_Object_Spread_03_1'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220630,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_04_1.P_Object_Spread_04_1'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220632,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_05_1.P_Object_Spread_05_1'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220634,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Object/ObjMon_ChestOpen_03/P_ObjMon_ChestOpen03_01.P_ObjMon_ChestOpen03_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220635,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Object/ObjMon_Dumbul01/P_ObjMon_Dumbul10_01.P_ObjMon_Dumbul10_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220636,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Object/ObjMon_Mineral/P_ObjMon_Mineral10_01.P_ObjMon_Mineral10_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220637,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Object/ObjMon_BlackIron/P_ObjMon_BlackIron10_01.P_ObjMon_BlackIron10_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 220638,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_06.P_Object_Spread_06'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1010003,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Battle/P_Target_Decal_Basic.P_Target_Decal_Basic'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1010005,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Battle/P_Target_Decal_Red.P_Target_Decal_Red'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1010006,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Battle/P_Target_Decal_Sky.P_Target_Decal_Sky'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1010007,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Battle/P_Target_Decal_Boss.P_Target_Decal_Boss'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1010008,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Battle/P_Target_Decal_Obj.P_Target_Decal_Obj'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1010018,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_5.P_Portal_5'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010019,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_1.P_Portal_1'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010023,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_underworld_portal.P_underworld_portal'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010024,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_8.P_Portal_8'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010025,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_Move_Lock.P_Portal_Move_Lock'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010026,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_Move_Open.P_Portal_Move_Open'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010027,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_Enter_Common_Dungen.P_Portal_Enter_Common_Dungen'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010028,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_Enter_Common_Raid.P_Portal_Enter_Common_Raid'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010029,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_Enter_Common_Elite.P_Portal_Enter_Common_Elite'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010030,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_Enter_Occupation_Bicheon.P_Portal_Enter_Occupation_Bicheon'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010031,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_Enter_Common_Maze.P_Portal_Enter_Common_Maze'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010032,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Portal/P_Portal_Enter_Common_MdeiumBlue.P_Portal_Enter_Common_MdeiumBlue'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010041,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Spwan/P_Show_Gen_01.P_Show_Gen_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010042,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/DisplayShow/P_ShowCase_Vertical_01.P_ShowCase_Vertical_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010043,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/DisplayShow/P_ShowCase_Horizontal_01.P_ShowCase_Horizontal_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1010051,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/DragonBall/P_DragonMater_2sec.P_DragonMater_2sec'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Fairy/P_fairy_01.P_fairy_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019003,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pc_Pet/Common/P_Pet_MeshLoading_Loop.P_Pet_MeshLoading_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019004,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pc_Pet/Common/P_Pet_MeshShowup_Index_05.P_Pet_MeshShowup_Index_05'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019005,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pc_Pet/Common/P_Pet_MeshShowup_Index_02.P_Pet_MeshShowup_Index_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019006,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pc_Pet/Common/P_Pet_MeshShowup_Index_03.P_Pet_MeshShowup_Index_03'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019007,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pc_Pet/Common/P_Pet_MeshShowup_Index_04.P_Pet_MeshShowup_Index_04'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019008,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pc_Pet/Common/P_Pet_MeshShowup_Index_05.P_Pet_MeshShowup_Index_05'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019009,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pc_Pet/Common/P_Pet_MeshShowup_Index_05.P_Pet_MeshShowup_Index_05'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019014,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pc_Pet/IngameType/P_Pet_Ingame_Trail_Red.P_Pet_Ingame_Trail_Red'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019015,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pc_Pet/IngameType/P_Pet_Ingame_Trail_Yellow.P_Pet_Ingame_Trail_Yellow'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1019016,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pc_Pet/IngameType/P_Pet_Ingame_Trail_Yellow.P_Pet_Ingame_Trail_Yellow'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Battle/P_Target_Decal_Arrow.P_Target_Decal_Arrow'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1020002,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/LuckyDropItem/P_System_GoldDrop_Lucky_01.P_System_GoldDrop_Lucky_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020003,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/LuckyDropItem/P_System_ItemDrop_Lucky.P_System_ItemDrop_Lucky'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020008,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_position_guide.P_position_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020009,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_starting_guide.P_starting_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020015,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_starting_guide.P_starting_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020016,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_starting_guide.P_starting_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020017,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_starting_guide.P_starting_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020018,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_starting_guide.P_starting_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020022,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_starting_guide.P_starting_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020023,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_starting_guide.P_starting_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020024,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_starting_guide.P_starting_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020025,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_starting_guide.P_starting_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020026,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_starting_guide.P_starting_guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020027,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_position_guide_02.P_position_guide_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020100,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_poison_area_002.P_poison_area_002'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020200,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Phase/P_Phase_Start.P_Phase_Start'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020201,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Phase/P_Phase_End.P_Phase_End'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020300,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/BG/smoke/P_smoke_white.P_smoke_white'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020301,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_DirectionGuide_L.P_DirectionGuide_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020302,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_DirectionGuide_L.P_DirectionGuide_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020311,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_DirectionGuide_S.P_DirectionGuide_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020321,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_DirectionGuide_Up_L.P_DirectionGuide_Up_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020322,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_DirectionGuide_Up_S.P_DirectionGuide_Up_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020323,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_DirectionGuide_Down_L.P_DirectionGuide_Down_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020324,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_DirectionGuide_Down_S.P_DirectionGuide_Down_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020325,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Butterfly/P_butterfly.P_butterfly'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020326,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Butterfly/P_butterfly.P_butterfly'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020327,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Butterfly/P_butterfly.P_butterfly'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020328,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Quest/P_Quest_particle_01.P_Quest_particle_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020329,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Quest/P_QuestDisplay_Green.P_QuestDisplay_Green'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020330,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Quest/P_QuestDisplay_Orange.P_QuestDisplay_Orange'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1020331,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Quest/P_Quest_particle_02.P_Quest_particle_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1030001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Revival.P_Revival'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread.P_Object_Spread'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080003,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_01.P_Object_Spread_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080004,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_02.P_Object_Spread_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080010,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread.P_Object_Spread'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080011,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread.P_Object_Spread'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080012,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread.P_Object_Spread'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080013,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread.P_Object_Spread'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080020,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_03.P_Object_Spread_03'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080021,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_04.P_Object_Spread_04'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080022,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_05.P_Object_Spread_05'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080023,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_01.P_Object_Spread_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080024,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_02.P_Object_Spread_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080025,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_03.P_Object_Spread_03'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080026,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_04.P_Object_Spread_04'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080027,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_Object_Spread_05.P_Object_Spread_05'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080101,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_ObjMon_BlackIron_03.P_ObjMon_BlackIron_03'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080102,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_System_LightPillar_A_01.P_System_LightPillar_A_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080103,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_System_LightPillar_A_02.P_System_LightPillar_A_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080104,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_System_LightPillar_A_03.P_System_LightPillar_A_03'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080105,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_System_LightPillar_A_04.P_System_LightPillar_A_04'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1080106,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_System_LightPillar_B_01.P_System_LightPillar_B_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Root",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": true
+  },
+  {
+    "EffectId": 1090001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Circle_Loop.P_CommandMark_Circle_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1090011,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Square_Loop.P_CommandMark_Square_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1090021,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Triangle_Loop.P_CommandMark_Triangle_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1090031,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Diamond_Loop.P_CommandMark_Diamond_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1090041,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Star_Loop.P_CommandMark_Star_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1090051,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_One_Loop.P_CommandMark_One_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1090061,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Two_Loop.P_CommandMark_Two_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1090071,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Three_Loop.P_CommandMark_Three_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_One_Loop.P_CommandMark_One_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091002,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Two_Loop.P_CommandMark_Two_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091003,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Three_Loop.P_CommandMark_Three_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091004,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Four_Loop.P_CommandMark_Four_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091005,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Five_Loop.P_CommandMark_Five_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091006,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Six_Loop.P_CommandMark_Six_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091007,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Seven_Loop.P_CommandMark_Seven_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091008,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_Eight_Loop.P_CommandMark_Eight_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091011,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_T_Circle_Loop.P_CommandMark_T_Circle_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091012,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_T_Diamond_Loop.P_CommandMark_T_Diamond_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091013,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_T_Squre_Loop.P_CommandMark_T_Squre_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091014,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_T_Triangle_Loop.P_CommandMark_T_Triangle_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091015,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_T_Pentagon_Loop.P_CommandMark_T_Pentagon_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091016,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_T_Star_Loop.P_CommandMark_T_Star_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091017,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_T_Heart_Loop.P_CommandMark_T_Heart_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1091018,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/CommandMark/P_CommandMark_T_X_Loop.P_CommandMark_T_X_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1100007,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/UI/UI_Force/P_Force_Ball_Loop.P_Force_Ball_Loop'",
+    "EffectType": 0,
+    "LoopType": 1,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Force",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1100008,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/UI/UI_Force/P_Force_Ball_HardTraning.P_Force_Ball_HardTraning'",
+    "EffectType": 0,
+    "LoopType": 1,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Force",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1100011,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_System_MonsterDisappear_01.P_System_MonsterDisappear_01'",
+    "EffectType": 0,
+    "LoopType": 1,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Force",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1100012,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_System_MonsterDisappear_01.P_System_MonsterDisappear_01'",
+    "EffectType": 0,
+    "LoopType": 1,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Force",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 1100013,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Collect/P_System_MonsterDisappear_01.P_System_MonsterDisappear_01'",
+    "EffectType": 0,
+    "LoopType": 1,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "Force",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010002,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_Pcw/P_Pcw_hit_Atk_01.P_Pcw_hit_Atk_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010011,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_PCm/P_PcM_hit_Atk_01_01.P_PcM_hit_Atk_01_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010012,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/pc_fire_basic_hit_002.pc_fire_basic_hit_002'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010013,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/pc_ice_basic_hit_001.pc_ice_basic_hit_001'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010014,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_HealMp_01.P_Buff_HealMp_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010015,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/pc_elct_basic_hit_002.pc_elct_basic_hit_002'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010016,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_Pct/P_Pct_hit_Atk_01_01.P_Pct_hit_Atk_01_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010020,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_Pct/P_Pct_SwordRain_Hit_01.P_Pct_SwordRain_Hit_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010022,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/P_Pct_MoonOrb_Hit_01.P_Pct_MoonOrb_Hit_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010023,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_Pca/P_Pca_Hit_01.P_Pca_Hit_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010033,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_Pcz/PC_Pcz_atk_01.PC_Pcz_atk_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010036,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Ghost/Undead02/p_Mon_Undead02_Atk01_01.p_Mon_Undead02_Atk01_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010040,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon/P_Mon_hit_001.P_Mon_hit_001'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010041,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/pc_shoot_MoonSpiritHit_02.pc_shoot_MoonSpiritHit_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010043,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/pc_ice_basic_hit_002.pc_ice_basic_hit_002'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010044,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/pc_ice_basic_hit_002.pc_ice_basic_hit_002'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010045,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Basic/P_Mon_hit_01_S.P_Mon_hit_01_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010046,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Basic/P_Mon_hit_01_M.P_Mon_hit_01_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010047,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Basic/P_Mon_hit_01_L.P_Mon_hit_01_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010048,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Basic/P_Mon_hit_02_S.P_Mon_hit_02_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010049,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Basic/P_Mon_hit_02_M.P_Mon_hit_02_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010050,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Basic/P_Mon_hit_02_L.P_Mon_hit_02_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010051,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Dark/P_Mon_hit_dark_01_S.P_Mon_hit_dark_01_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010052,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Dark/P_Mon_hit_dark_01_M.P_Mon_hit_dark_01_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010053,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Dark/P_Mon_hit_dark_01_L.P_Mon_hit_dark_01_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010054,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Dark/P_Mon_hit_dark_02_S.P_Mon_hit_dark_02_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010055,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Dark/P_Mon_hit_dark_02_M.P_Mon_hit_dark_02_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010056,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Dark/P_Mon_hit_dark_02_L.P_Mon_hit_dark_02_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010057,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Electric/P_Mon_hit_elec_01_S.P_Mon_hit_elec_01_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010058,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Electric/P_Mon_hit_elec_01_M.P_Mon_hit_elec_01_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010059,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Electric/P_Mon_hit_elec_01_L.P_Mon_hit_elec_01_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010060,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Electric/P_Mon_hit_elec_02_S.P_Mon_hit_elec_02_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010061,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Electric/P_Mon_hit_elec_02_M.P_Mon_hit_elec_02_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010062,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Electric/P_Mon_hit_elec_02_L.P_Mon_hit_elec_02_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010063,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Fire/P_Mon_hit_fire_01_S.P_Mon_hit_fire_01_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010064,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Fire/P_Mon_hit_fire_01_M.P_Mon_hit_fire_01_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010065,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Fire/P_Mon_hit_fire_01_L.P_Mon_hit_fire_01_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010066,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Fire/P_Mon_hit_fire_02_S.P_Mon_hit_fire_02_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010067,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Fire/P_Mon_hit_fire_02_M.P_Mon_hit_fire_02_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010068,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Fire/P_Mon_hit_fire_02_L.P_Mon_hit_fire_02_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010069,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Ice/P_Mon_hit_Ice_01_S.P_Mon_hit_ice_01_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010070,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Ice/P_Mon_hit_Ice_01_M.P_Mon_hit_ice_01_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010071,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Ice/P_Mon_hit_Ice_01_L.P_Mon_hit_ice_01_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010072,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Ice/P_Mon_hit_Ice_02_S.P_Mon_hit_ice_02_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010073,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Ice/P_Mon_hit_Ice_02_M.P_Mon_hit_ice_02_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010074,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Ice/P_Mon_hit_Ice_02_L.P_Mon_hit_ice_02_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010075,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Magic/P_Mon_hit_Magic_01_S.P_Mon_hit_magic_01_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010076,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Magic/P_Mon_hit_Magic_01_M.P_Mon_hit_magic_01_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010077,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Magic/P_Mon_hit_Magic_01_L.P_Mon_hit_magic_01_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010078,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Magic/P_Mon_hit_Magic_02_S.P_Mon_hit_magic_02_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010079,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Magic/P_Mon_hit_Magic_02_M.P_Mon_hit_magic_02_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010080,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Magic/P_Mon_hit_Magic_02_L.P_Mon_hit_magic_02_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010081,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Posion/P_Mon_hit_poison_01_S.P_Mon_hit_poison_01_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010082,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Posion/P_Mon_hit_poison_01_M.P_Mon_hit_poison_01_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010083,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Posion/P_Mon_hit_poison_01_L.P_Mon_hit_poison_01_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010084,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Posion/P_Mon_hit_poison_02_S.P_Mon_hit_poison_02_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010085,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Posion/P_Mon_hit_poison_02_M.P_Mon_hit_poison_02_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010086,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Posion/P_Mon_hit_poison_02_L.P_Mon_hit_poison_02_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010087,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Wind/P_Mon_hit_Wind_01_S.P_Mon_hit_wind_01_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010088,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Wind/P_Mon_hit_Wind_01_M.P_Mon_hit_wind_01_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010089,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Wind/P_Mon_hit_Wind_01_L.P_Mon_hit_wind_01_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010090,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Wind/P_Mon_hit_Wind_02_S.P_Mon_hit_wind_02_S'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010091,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Wind/P_Mon_hit_Wind_02_M.P_Mon_hit_wind_02_M'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010092,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Mon_Hit/Wind/P_Mon_hit_Wind_02_L.P_Mon_hit_wind_02_L'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010093,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_PCm/P_PcM_hit_Atk_01_02.P_PcM_hit_Atk_01_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010095,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_PCm/P_Pcm_laser_Hit_001.P_Pcm_laser_Hit_001'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010096,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pct/P_Pct_Heal_Hit_01.P_Pct_Heal_Hit_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010097,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/pc_elct_basic_hit_001.pc_elct_basic_hit_001'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010098,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_Pcz/PCZ_in_blood_Hit.PCZ_in_blood_Hit'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010099,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_Pca/P_Pca_Skl10_Hit.P_Pca_Skl10_Hit'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2010100,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_PET/P_Pet_Hit_Burnningkiss_01.P_Pet_Hit_Burnningkiss_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011003,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pcm/P_Pcm_skill_03_001.P_Pcm_skill_03_001'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011005,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pcm/P_pcm_skill05_001.P_pcm_skill05_001'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011006,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Undead02_Skl01_002_Projetail.P_Mon_Undead02_Skl01_002_Projetail'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011007,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_StoneGolem02_skl_01_projectile_01.P_Mon_StoneGolem02_skl_01_projectile_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011009,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pcm/ice_ball/P_Pcm_iceball03_03.P_Pcm_iceball03_03'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011010,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/P_Pct_DarkBurst_Hit_01.P_Pct_DarkBurst_Hit_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011011,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/P_Pct_MoonWave_Hit_01.P_Pct_MoonWave_Hit_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011013,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_pcm_thunder_hon_projectile.P_pcm_thunder_hon_projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011015,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/p_pcm_iceball_hit_ice_ground_01.p_pcm_iceball_hit_ice_ground_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011016,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/Projectile_hit/P_Pcm_fire_Burst_Hit_01.P_Pcm_fire_Burst_Hit_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011017,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pca/Skl04/P_PCA_Btl_Skl04_01.P_PCA_Btl_Skl04_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2011018,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Hit/PC_Pca/P_Pca_Skl01_Hit_01.P_Pca_Skl01_Hit_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2020001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pcw/IronChain/P_Pcw_BeamTrail_iron_chain.P_Pcw_BeamTrail_iron_chain'",
+    "EffectType": 1,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 2,
+    "StartSocket": "Hand_L",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "spine_01",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2020002,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pcw/IronChain/P_Pcw_BeamTrail_iron_chain.P_Pcw_BeamTrail_iron_chain'",
+    "EffectType": 1,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 2,
+    "StartSocket": "Hand_R",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "spine_01",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2020003,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pcm/Laser/P_pcm_laser_001.P_pcm_laser_001'",
+    "EffectType": 1,
+    "LoopType": 1,
+    "StartTarget": 0,
+    "EndTarget": 2,
+    "StartSocket": "Hand_L",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "spine_01",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2020004,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pca/Skl05/P_Pca_BeamTrail_Skl05.P_Pca_BeamTrail_Skl05'",
+    "EffectType": 1,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 2,
+    "StartSocket": "NameTag",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "spine_01",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2020005,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Boss_Mon/DevilSpider41/P_Mon_DevilSpider41_Skl06_BeamTrail.P_Mon_DevilSpider41_Skl06_BeamTrail'",
+    "EffectType": 1,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 2,
+    "StartSocket": "NameTag",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "spine_01",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2020014,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pcm/P_PCM_BeamTrail_thunder.P_PCM_BeamTrail_thunder'",
+    "EffectType": 1,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 2,
+    "StartSocket": "spine_01",
+    "StartPos": [
+      0
+    ],
+    "EndSocket": "spine_01",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pcm_Btl_Attack01.Pcm_Btl_Attack01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040003,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/pc_shoot_fire_001.pc_shoot_fire_001'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040004,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Uma03_Skl01_Projectile.P_Mon_Uma03_Skl01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040005,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pct/P_Pct_MoonOrb_Prj_01.P_Pct_MoonOrb_Prj_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040006,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_mon_Doong_atk_01prj_001.P_mon_Doong_atk_01prj_001'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040007,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Maggot01_Atk01_Projectile.P_Mon_Maggot01_Atk01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040008,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Spider01_Skl02_Projectile.P_Mon_Spider01_Skl02_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040009,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_mon_h_Sol03_attack01_proj.P_mon_h_Sol03_attack01_proj'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040010,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_BDragon03_Atk01_Projectile.P_Mon_BDragon03_Atk01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040011,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_BDragon03_Atk02_Projectile.P_Mon_BDragon03_Atk02_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040012,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_BDragon03_Skl02_Projectile.P_Mon_BDragon03_Skl02_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040013,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_darkmonk03_Atk01_prj.P_Mon_DarkMonk03_Atk01_Prj'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040015,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/p_Mon_Undead02_Atk01_projectail.p_Mon_Undead02_Atk01_projectail'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040016,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/p_Mon_Undead02_Atk02_projectail.p_Mon_Undead02_Atk02_projectail'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040017,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/shoot_fire.shoot_fire'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040018,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_DonDon02_Atk01_projectile.P_Mon_DonDon02_Atk01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040019,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_SnakeDragon03_Atk01_Projectile.P_Mon_SnakeDragon03_Atk01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040020,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/pc_shoot_elect_001.pc_shoot_elect_001'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040021,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Scorpion01_Skl02_Projectile.P_Mon_Scorpion01_Skl02_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040022,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_boomerang_projectile.P_Mon_boomerang_projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040023,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_npc_sarumati_atk_01_projectile.P_npc_sarumati_atk_01_projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040024,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_MinerDon01_Skl01_Projectile.P_Mon_MinerDon01_Skl01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040025,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_MinerDon02_Atk01_Projectile.P_Mon_MinerDon02_Atk01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040026,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Uma_22_projectile_01.P_Mon_Uma_22_projectile_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040027,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_DarkMage01_Atk01_Prj.P_Mon_DarkMage01_Atk01_Prj'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040028,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_DarkMage01_Skl01_Prj.P_Mon_DarkMage01_Skl01_Prj'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040029,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_WhiteWalker02_Atk01_Prj.P_Mon_WhiteWalker02_Atk01_Prj'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040030,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_WhiteWalker02_Skl01_Prj.P_Mon_WhiteWalker02_Skl01_Prj'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040032,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_pr_Bigice.P_pr_Bigice'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040033,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_pct_V_Skl_magicBarrier04_prj.P_pct_V_Skl_magicBarrier04_prj'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040034,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pct/P_Pct_DarkBurst_Prj_01.P_Pct_DarkBurst_Prj_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040035,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pct/P_Pct_MoonWave_Prj_01.P_Pct_MoonWave_Prj_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040036,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_NPC_ChoGye_skl_01_Projectile.P_NPC_ChoGye_skl_01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040037,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pct/P_Pct_AttackLong_001_Projectile.P_Pct_AttackLong_001_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040038,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pct/P_Pct_AttackLong_003_Projectile.P_Pct_AttackLong_003_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040039,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Goat03_Atk01_Projectile.P_Mon_Goat03_Atk01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040040,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Soilsol02_Atk01_projectile.P_Mon_Soilsol02_Atk01_projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040041,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Soilsol02_Atk01_projectile.P_Mon_Soilsol02_Atk01_projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040042,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_OmaCrimson03_Atk01_01_Projectile.P_Mon_OmaCrimson03_Atk01_01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040044,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Ascetic21_Atk01_projectail.P_Mon_Ascetic21_Atk01_projectail'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040045,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pcm/P_pcm_strike_shoot_001.P_pcm_strike_shoot_001'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040046,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Frog01_Atk01_Projectile.P_Mon_Frog01_Atk01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040047,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Frog01_Skl01_Projectile.P_Mon_Frog01_Skl01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040048,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Insect02_Skl01_Projectile.P_Mon_Insect02_Skl01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040049,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_SnakeDragon03_Skl01_Projectile.P_Mon_SnakeDragon03_Skl01_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040050,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Goat21_Atk03_Projectile.P_Mon_Goat21_Atk03_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040051,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Armadillo21_Skl02_Projectile.P_Mon_Armadillo21_Skl02_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040052,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_DarkMen21_Skl05_02_Projectile.P_Mon_DarkMen21_Skl05_02_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040053,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_darkmonk03_Atk01_prj.P_Mon_DarkMonk03_Atk01_Prj'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040054,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_DonDon22_Skl03_Projectile.P_Mon_DonDon22_Skl03_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040055,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_mon_Doong21_atk_01prj.P_mon_Doong21_atk_01prj'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040056,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Drake21_Skl05_Projectile.P_Mon_Drake21_Skl05_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040057,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_D_Centipede_Skl03_Projectile02.P_Mon_D_Centipede_Skl03_Projectile02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040058,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Goat21_Skl05_Projectile_01.P_Mon_Goat21_Skl05_Projectile_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040059,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Goat21_Skl05_Projectile_02.P_Mon_Goat21_Skl05_Projectile_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040060,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_OmaCrimsonRide31_Skl03_Projectile.P_Mon_OmaCrimsonRide31_Skl03_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040061,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Orc02_Atk01_Projectail.P_Mon_Orc02_Atk01_Projectail'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040062,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_SnakeDragon21_Skl07_Projectile.P_Mon_SnakeDragon21_Skl07_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040063,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Uma31_skl_04_projectile_01.P_Mon_Uma31_skl_04_projectile_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040064,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Uma32_skl_10_projectile_02.P_Mon_Uma32_skl_10_projectile_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040065,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Uma_31_projectile_01.P_Mon_Uma_31_projectile_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040066,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Uma_31_projectile_02.P_Mon_Uma_31_projectile_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040067,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Mon_Undead03_Atk_01_projectail.P_Mon_Undead03_Atk_01_projectail'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040068,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_npc_Ara01_skl_02_projectile.P_npc_Ara01_skl_02_projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040069,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pca/P_PCA_PoisonSac_Projectile.P_PCA_PoisonSac_Projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040070,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pca/P_Pca_Skl10_projectile.P_Pca_Skl10_projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040071,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pca/P_Pca_Skl7_projectile.P_Pca_Skl7_projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040072,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/P_Desert04_atk01_projectile.P_Desert04_atk01_projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040073,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pca/P_Pca_Skl05_projectile.P_Pca_Skl05_projectile'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2040074,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/Projectile/Pc_Pca/P_Pca_arrow_shoot_03.P_Pca_arrow_shoot_03'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_FindEnemy_01.P_FindEnemy_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050002,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Sleep_01_Loop.P_Buff_Sleep_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050003,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Stun_01_Loop.P_Buff_Stun_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050004,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Stiffen_01_Loop.P_Buff_Stiffen_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050005,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Fear_01_Loop.P_Buff_Fear_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050006,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Silence_01_Loop.P_Buff_Silence_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050007,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Silence_02_Loop.P_Buff_Silence_02_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050008,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Taunt_01.P_Buff_Taunt_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050009,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/guide/P_Party_Target.P_Party_Target'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050010,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_CoolTime_01.P_Buff_CoolTime_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050011,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_DarkChange_01.P_Buff_DarkChange_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050012,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_DieDelay_01.P_Buff_DieDelay_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050013,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_MoveSpeedDown_01.P_Buff_MoveSpeedDown_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050014,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Silence_01.P_Buff_Silence_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050015,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_DieDelay_Loop01.P_Buff_DieDelay_Loop01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050101,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_AtkDown_01.P_Buff_AtkDown_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050102,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_DefenseDown_01.P_Buff_DefenseDown_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050103,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_AtkUp_01.P_Buff_AtkUp_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050104,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_DefUp_01.P_Buff_DefUp_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050105,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_MoveSpeedUp_01_Act.P_Buff_MoveSpeedUp_01_Act'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050106,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_HealHP_01.P_Buff_HealHP_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050107,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_HealHP_02.P_Buff_HealHP_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050108,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_HealMp_01.P_Buff_HealMp_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050109,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_CommonDown_01.P_Buff_CommonDown_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050110,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_AtkSpdUp_01.P_Buff_AtkSpdUp_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050111,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Bleeding_01.P_Buff_Bleeding_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050112,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_poison_Bleeding_01.P_Buff_poison_Bleeding_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050113,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Fire_Bleeding_01.P_Buff_Fire_Bleeding_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050114,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Exhaust_01_Loop.P_Buff_Exhaust_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050115,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_MoveSpdDown_01_Loop.P_Buff_MoveSpdDown_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050116,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/MoveSpeedDwn_Ice.MoveSpeedDwn_Ice'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050117,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_MoveSpeedUp_01_Loop.P_Buff_MoveSpeedUp_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050118,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_SuperArmor_01.P_Buff_SuperArmor_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050120,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/Buff01_Keep.Buff01_Keep'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050121,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_LightingShield_01.P_LightingShield_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050122,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_CommonUp_01.P_Buff_CommonUp_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050123,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_AtkSlowDOWN_01.P_Buff_AtkSlowDown_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050124,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_Chaotic_01_Loop.P_Buff_Chaotic_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050125,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Debuff/P_Buff_concussion_01_Loop.P_Buff_concussion_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050126,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_MagicGuard_01_Loop.P_Buff_MagicGuard_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050127,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_Purify_01.P_Buff_Purify_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050128,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_GreatHealHP_01.P_Buff_GreatHealHP_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050129,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_Guard_01_Loop.P_Buff_Guard_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050130,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_Guard_02_Loop.P_Buff_Guard_02_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050131,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_hangma.P_Buff_hangma'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050132,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_Taegi.P_Buff_Taegi'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050133,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pcm/ManaShield/P_Pcm_ManaShield01_01_loop.P_Pcm_ManaShield01_01_loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050134,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_HealHP_01_Loop.P_Buff_HealHP_01_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050135,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_Buff_HealHP_02_Loop.P_Buff_HealHP_02_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050136,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_DirectBuff.P_DirectBuff'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050137,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Fairy/P_fairy_02.P_fairy_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050138,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pcz/P_Pcz_Tornado_03_Buff.P_Pcz_Tornado_03_Buff'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050139,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Object/DObjMon_Capture02/P_Buff_SiegeCaptureHeal.P_Buff_SiegeCaptureHeal'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050140,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Boss_Mon/DonDon21/P_Mon_DonDon21_Skl02_Loop.P_Mon_DonDon21_Skl02_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050141,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pca/Passive/P_Pca_Passive_01.P_Pca_Passive_01'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050142,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pca/Passive/P_Pca_Passive_02.P_Pca_Passive_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050143,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/PC/Pca/Skl10/P_Pca_skl10_target.P_Pca_skl10_target'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2050144,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Buff/P_buff_burningkiss_Loop.P_buff_burningkiss_Loop'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Ascetic22.P_buff_FieldBoss_Ascetic22'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060002,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Bloody21.P_buff_FieldBoss_Bloody21'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060003,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Danbo.P_buff_FieldBoss_Danbo'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060004,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_DonDon21.P_buff_FieldBoss_DonDon21'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060006,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Leesuk.P_buff_FieldBoss_Leesuk'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060007,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Mon_Insect21.P_buff_FieldBoss_Mon_Insect21'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060008,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Mon_OmaCrimson01.P_buff_FieldBoss_Mon_OmaCrimson01'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060009,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Mon_OmaCrimson02.P_buff_FieldBoss_Mon_OmaCrimson02'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060010,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Mon_OmaCrimson23.P_buff_FieldBoss_Mon_OmaCrimson23'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060011,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_OmaCrimson03.P_buff_FieldBoss_OmaCrimson03'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060012,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_SnakeDragon21.P_buff_FieldBoss_SnakeDragon21'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060013,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Uma21.P_buff_FieldBoss_Uma21'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060014,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Uma22.P_buff_FieldBoss_Uma22'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060015,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Undead21.P_buff_FieldBoss_Undead21'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060016,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_Undead22.P_buff_FieldBoss_Undead22'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2060017,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/BossField_aurora/P_buff_FieldBoss_WhiteWalker03.P_buff_FieldBoss_WhiteWalker03'",
+    "EffectType": 2,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2070006,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Object/DObjMon_Capture01/P_Buff_DefUp_Capture_Red_Loof.P_Buff_DefUp_Capture_Red_Loof'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      1
+    ],
+    "EndSocket": "1",
+    "EndPos": [
+      0,
+      0,
+      1
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2070007,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/DObjMon/P_DObjMon_Capture01_Dmg_Die01_02.P_DObjMon_Capture01_Dmg_Die01_02'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      2
+    ],
+    "EndSocket": "2",
+    "EndPos": [
+      0,
+      0,
+      2
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2070008,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Object/DObjMon_Capture01/P_Buff_DefUp_Capture_Blue_Loof.P_Buff_DefUp_Capture_Blue_Loof'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      3
+    ],
+    "EndSocket": "3",
+    "EndPos": [
+      0,
+      0,
+      3
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2070009,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Object/DObjMon_Capture01/P_Buff_HealHP_Capture_Loof.P_Buff_HealHP_Capture_Loof'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      4
+    ],
+    "EndSocket": "4",
+    "EndPos": [
+      0,
+      0,
+      4
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2070010,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Object/DObjMon_Capture01/P_DObjMon_Capture01_HpRange.P_DObjMon_Capture01_HpRange'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      4
+    ],
+    "EndSocket": "4",
+    "EndPos": [
+      0,
+      0,
+      4
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 2070011,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Mon_Finish/Object/DObjMon_Capture01/P_DObjMon_Capture01_Finish.P_DObjMon_Capture01_Finish'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      4
+    ],
+    "EndSocket": "4",
+    "EndPos": [
+      0,
+      0,
+      4
+    ],
+    "Attach": false
+  },
+  {
+    "EffectId": 11000001,
+    "Class": 0,
+    "MainType": 0,
+    "SubType": 0,
+    "FileName": "ParticleSystem'/Game/Effect/Common/System/Phase/P_Phase_Guide.P_Phase_Guide'",
+    "EffectType": 0,
+    "LoopType": 0,
+    "StartTarget": 0,
+    "EndTarget": 0,
+    "StartSocket": "0",
+    "StartPos": [
+      0,
+      0,
+      0
+    ],
+    "EndSocket": "0",
+    "EndPos": [
+      0,
+      0,
+      0
+    ],
+    "Attach": false
+  }
+]

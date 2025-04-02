@@ -1,0 +1,140 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "72,-1322,624",
+    "TriggerRotation": 0,
+    "LinkID": [
+      8,
+      7,
+      2
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": "ETriggerType::CONDITIONCHECK",
+    "TriggerLocation": "450,-830,1210",
+    "TriggerRotation": 0,
+    "LinkID": [
+      3
+    ],
+    "Value1": [
+      "0"
+    ],
+    "Value2": [
+      "1"
+    ],
+    "Value3": [
+      "105007017"
+    ],
+    "Value4": [
+      "0.2"
+    ],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": "ETriggerType::DIRECTING",
+    "TriggerLocation": "500,-730,1420",
+    "TriggerRotation": 0,
+    "LinkID": [
+      4
+    ],
+    "Value1": [
+      "3001401"
+    ],
+    "Value2": [
+      "2"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": 2,
+    "TriggerLocation": "390,-584,1490",
+    "TriggerRotation": 70,
+    "LinkID": [],
+    "Value1": [
+      "0.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": "ETriggerType::GUARD_NPC_SPAWNER",
+    "TriggerLocation": "-640,260,490",
+    "TriggerRotation": -10,
+    "LinkID": [],
+    "Value1": [
+      "105006007"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": 4,
+    "TriggerLocation": "212,-432,1420",
+    "TriggerRotation": 70,
+    "LinkID": [],
+    "Value1": [
+      "105007017"
+    ],
+    "Value2": [
+      "329,-2,499"
+    ],
+    "Value3": [
+      "-174"
+    ],
+    "Value4": [
+      "0",
+      "0.0"
+    ],
+    "Value5": [
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": "ETriggerType::PLAYSOUND",
+    "TriggerLocation": "-63,-797,824",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "100110"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 8,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "310,-963,898",
+    "TriggerRotation": 0,
+    "LinkID": [
+      6,
+      5
+    ],
+    "Value1": [
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

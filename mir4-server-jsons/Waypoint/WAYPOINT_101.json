@@ -1,0 +1,24 @@
+[
+  {
+    "ActiveRadius": 500,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 0,
+    "WaypointWarpNeedItemCount": 0,
+    "WayPointName": 601292,
+    "Location": "(X=-5345.295,Y=-1525.683,Z=671)",
+    "WarpCoordinate": "(X=-5345.295,Y=-1525.683,Z=671)"
+  },
+  {
+    "ActiveRadius": 500,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 0,
+    "WaypointWarpNeedItemCount": 0,
+    "WayPointName": 601291,
+    "Location": "(X=-5925.698,Y=1034.803,Z=1037)",
+    "WarpCoordinate": "(X=-5925.698,Y=1034.803,Z=1037)"
+  }
+]

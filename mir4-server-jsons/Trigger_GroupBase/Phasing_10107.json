@@ -1,0 +1,130 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "245,4305,1215",
+    "TriggerRotation": 0,
+    "LinkID": [
+      3,
+      5
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": 2,
+    "TriggerLocation": "-34,7291,1567",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "2.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": "ETriggerType::GUARD_NPC_SPAWNER",
+    "TriggerLocation": "-680,3395,819",
+    "TriggerRotation": 48,
+    "LinkID": [],
+    "Value1": [
+      "100002005"
+    ],
+    "Value2": [
+      "235,5010,852"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": 4,
+    "TriggerLocation": "1128,7018,1884",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "100002004"
+    ],
+    "Value2": [
+      "1453,7266,832"
+    ],
+    "Value3": [
+      "-109"
+    ],
+    "Value4": [
+      "0",
+      "0.0"
+    ],
+    "Value5": []
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": 4,
+    "TriggerLocation": "1684,4855,1842",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "100002003",
+      "100002003",
+      "100002003",
+      "100002003"
+    ],
+    "Value2": [
+      "1993,4940,830",
+      "1440,6391,835",
+      "541,6264,827",
+      "1232,4837,827"
+    ],
+    "Value3": [
+      "-159",
+      "-99",
+      "-79",
+      "-130"
+    ],
+    "Value4": [
+      "0",
+      "0.0"
+    ],
+    "Value5": []
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": 5,
+    "TriggerLocation": "1440,6280,1580",
+    "TriggerRotation": 0,
+    "LinkID": [
+      4
+    ],
+    "Value1": [
+      "5"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": 5,
+    "TriggerLocation": "600,6940,1330",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2
+    ],
+    "Value1": [
+      "4"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "Name": 1,
+    "GroupId": 101,
+    "PositionId": 10101,
+    "Number": 1,
+    "Type": 1,
+    "NameId": 4741001,
+    "IconId": 1370001,
+    "FrameId": 1370101,
+    "BuffId": 112021
+  },
+  {
+    "Name": 2,
+    "GroupId": 101,
+    "PositionId": 10102,
+    "Number": 2,
+    "Type": 0,
+    "NameId": 4741002,
+    "IconId": 1370002,
+    "FrameId": 1370102,
+    "BuffId": 101010
+  },
+  {
+    "Name": 3,
+    "GroupId": 101,
+    "PositionId": 10103,
+    "Number": 3,
+    "Type": 0,
+    "NameId": 4741003,
+    "IconId": 1370003,
+    "FrameId": 1370103,
+    "BuffId": 101012
+  },
+  {
+    "Name": 4,
+    "GroupId": 101,
+    "PositionId": 10104,
+    "Number": 4,
+    "Type": 0,
+    "NameId": 4741004,
+    "IconId": 1370004,
+    "FrameId": 1370104,
+    "BuffId": 110001
+  },
+  {
+    "Name": 5,
+    "GroupId": 101,
+    "PositionId": 10105,
+    "Number": 5,
+    "Type": 0,
+    "NameId": 4741005,
+    "IconId": 1370001,
+    "FrameId": 1370105,
+    "BuffId": 110005
+  },
+  {
+    "Name": 6,
+    "GroupId": 101,
+    "PositionId": 10106,
+    "Number": 6,
+    "Type": 0,
+    "NameId": 4741006,
+    "IconId": 1370002,
+    "FrameId": 1370106,
+    "BuffId": 112014
+  },
+  {
+    "Name": 7,
+    "GroupId": 101,
+    "PositionId": 10107,
+    "Number": 7,
+    "Type": 0,
+    "NameId": 4741007,
+    "IconId": 1370003,
+    "FrameId": 1370107,
+    "BuffId": 112015
+  },
+  {
+    "Name": 8,
+    "GroupId": 101,
+    "PositionId": 10108,
+    "Number": 8,
+    "Type": 0,
+    "NameId": 4741008,
+    "IconId": 1370004,
+    "FrameId": 1370108,
+    "BuffId": 102007
+  },
+  {
+    "Name": 9,
+    "GroupId": 101,
+    "PositionId": 10109,
+    "Number": 9,
+    "Type": 0,
+    "NameId": 4741009,
+    "IconId": 1370001,
+    "FrameId": 1370108,
+    "BuffId": 112021
+  },
+  {
+    "Name": 10,
+    "GroupId": 201,
+    "PositionId": 20101,
+    "Number": 1,
+    "Type": 1,
+    "NameId": 4742001,
+    "IconId": 1370001,
+    "FrameId": 1370101,
+    "BuffId": 112021
+  },
+  {
+    "Name": 11,
+    "GroupId": 201,
+    "PositionId": 20102,
+    "Number": 2,
+    "Type": 0,
+    "NameId": 4742002,
+    "IconId": 1370002,
+    "FrameId": 1370102,
+    "BuffId": 101010
+  },
+  {
+    "Name": 12,
+    "GroupId": 201,
+    "PositionId": 20103,
+    "Number": 3,
+    "Type": 0,
+    "NameId": 4742003,
+    "IconId": 1370003,
+    "FrameId": 1370103,
+    "BuffId": 101012
+  },
+  {
+    "Name": 13,
+    "GroupId": 201,
+    "PositionId": 20104,
+    "Number": 4,
+    "Type": 0,
+    "NameId": 4742004,
+    "IconId": 1370004,
+    "FrameId": 1370104,
+    "BuffId": 110001
+  },
+  {
+    "Name": 14,
+    "GroupId": 201,
+    "PositionId": 20105,
+    "Number": 5,
+    "Type": 0,
+    "NameId": 4742005,
+    "IconId": 1370001,
+    "FrameId": 1370105,
+    "BuffId": 110005
+  },
+  {
+    "Name": 15,
+    "GroupId": 201,
+    "PositionId": 20106,
+    "Number": 6,
+    "Type": 0,
+    "NameId": 4742006,
+    "IconId": 1370002,
+    "FrameId": 1370106,
+    "BuffId": 112014
+  },
+  {
+    "Name": 16,
+    "GroupId": 201,
+    "PositionId": 20107,
+    "Number": 7,
+    "Type": 0,
+    "NameId": 4742007,
+    "IconId": 1370003,
+    "FrameId": 1370107,
+    "BuffId": 112015
+  },
+  {
+    "Name": 17,
+    "GroupId": 201,
+    "PositionId": 20108,
+    "Number": 8,
+    "Type": 0,
+    "NameId": 4742008,
+    "IconId": 1370004,
+    "FrameId": 1370108,
+    "BuffId": 102007
+  },
+  {
+    "Name": 18,
+    "GroupId": 201,
+    "PositionId": 20109,
+    "Number": 9,
+    "Type": 0,
+    "NameId": 4742009,
+    "IconId": 1370004,
+    "FrameId": 1370108,
+    "BuffId": 102007
+  }
+]

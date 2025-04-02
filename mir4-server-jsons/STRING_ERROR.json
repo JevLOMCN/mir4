@@ -1,0 +1,7700 @@
+[
+  {
+    "ErrorId": 1,
+    "ErrorType": 99,
+    "LinkStringId": 1400001,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 1)"
+  },
+  {
+    "ErrorId": 2,
+    "ErrorType": 99,
+    "LinkStringId": 1400002,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 2)"
+  },
+  {
+    "ErrorId": 3,
+    "ErrorType": 99,
+    "LinkStringId": 1400003,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 3)"
+  },
+  {
+    "ErrorId": 4,
+    "ErrorType": 99,
+    "LinkStringId": 1400004,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 4)"
+  },
+  {
+    "ErrorId": 5,
+    "ErrorType": 99,
+    "LinkStringId": 1400005,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 5)"
+  },
+  {
+    "ErrorId": 6,
+    "ErrorType": 99,
+    "LinkStringId": 1400006,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 6)"
+  },
+  {
+    "ErrorId": 7,
+    "ErrorType": 99,
+    "LinkStringId": 1400007,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 7)"
+  },
+  {
+    "ErrorId": 8,
+    "ErrorType": 99,
+    "LinkStringId": 1400008,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 8)"
+  },
+  {
+    "ErrorId": 101,
+    "ErrorType": 99,
+    "LinkStringId": 1400009,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 101)"
+  },
+  {
+    "ErrorId": 201,
+    "ErrorType": 99,
+    "LinkStringId": 1400010,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 201)"
+  },
+  {
+    "ErrorId": 203,
+    "ErrorType": 99,
+    "LinkStringId": 1400011,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 203)"
+  },
+  {
+    "ErrorId": 204,
+    "ErrorType": 99,
+    "LinkStringId": 1400012,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 204)"
+  },
+  {
+    "ErrorId": 301,
+    "ErrorType": 99,
+    "LinkStringId": 1400013,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 301)"
+  },
+  {
+    "ErrorId": 302,
+    "ErrorType": 99,
+    "LinkStringId": 1400014,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 302)"
+  },
+  {
+    "ErrorId": 401,
+    "ErrorType": 99,
+    "LinkStringId": 1400015,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 401)"
+  },
+  {
+    "ErrorId": 402,
+    "ErrorType": 99,
+    "LinkStringId": 1400016,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 402)"
+  },
+  {
+    "ErrorId": 403,
+    "ErrorType": 99,
+    "LinkStringId": 1400017,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 403)"
+  },
+  {
+    "ErrorId": 404,
+    "ErrorType": 99,
+    "LinkStringId": 1400018,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 404)"
+  },
+  {
+    "ErrorId": 405,
+    "ErrorType": 99,
+    "LinkStringId": 1400019,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 405)"
+  },
+  {
+    "ErrorId": 406,
+    "ErrorType": 99,
+    "LinkStringId": 1400020,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 406)"
+  },
+  {
+    "ErrorId": 501,
+    "ErrorType": 99,
+    "LinkStringId": 1400021,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 501)"
+  },
+  {
+    "ErrorId": 502,
+    "ErrorType": 99,
+    "LinkStringId": 1400022,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 502)"
+  },
+  {
+    "ErrorId": 601,
+    "ErrorType": 99,
+    "LinkStringId": 1400023,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 601)"
+  },
+  {
+    "ErrorId": 602,
+    "ErrorType": 99,
+    "LinkStringId": 1400024,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 602)"
+  },
+  {
+    "ErrorId": 603,
+    "ErrorType": 99,
+    "LinkStringId": 1400025,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 603)"
+  },
+  {
+    "ErrorId": 604,
+    "ErrorType": 99,
+    "LinkStringId": 1400026,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 604)"
+  },
+  {
+    "ErrorId": 701,
+    "ErrorType": 99,
+    "LinkStringId": 1400027,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 701)"
+  },
+  {
+    "ErrorId": 702,
+    "ErrorType": 99,
+    "LinkStringId": 1400028,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 702)"
+  },
+  {
+    "ErrorId": 703,
+    "ErrorType": 99,
+    "LinkStringId": 1400029,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 703)"
+  },
+  {
+    "ErrorId": 802,
+    "ErrorType": 99,
+    "LinkStringId": 1400030,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 802)"
+  },
+  {
+    "ErrorId": 903,
+    "ErrorType": 99,
+    "LinkStringId": 1400031,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 903)"
+  },
+  {
+    "ErrorId": 1001,
+    "ErrorType": 23,
+    "LinkStringId": 1400483,
+    "LinkStringDev": "이 문파는 삭제된 문파입니다."
+  },
+  {
+    "ErrorId": 1101,
+    "ErrorType": 21,
+    "LinkStringId": 1028123,
+    "LinkStringDev": "추적 가능 시간 종료"
+  },
+  {
+    "ErrorId": 1102,
+    "ErrorType": 21,
+    "LinkStringId": 1028124,
+    "LinkStringDev": "승자는 추척을 사용할 수 없다."
+  },
+  {
+    "ErrorId": 1103,
+    "ErrorType": 21,
+    "LinkStringId": 1400537,
+    "LinkStringDev": "이 캐릭터는 삭제된 캐릭터입니다."
+  },
+  {
+    "ErrorId": 1105,
+    "ErrorType": 13,
+    "LinkStringId": 2530061,
+    "LinkStringDev": "등록된 주소와 내용이 같지 않음"
+  },
+  {
+    "ErrorId": 8000,
+    "ErrorType": 21,
+    "LinkStringId": 1108004,
+    "LinkStringDev": "금자 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8001,
+    "ErrorType": 21,
+    "LinkStringId": 1108005,
+    "LinkStringDev": "은자 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8002,
+    "ErrorType": 21,
+    "LinkStringId": 1108006,
+    "LinkStringDev": "동전 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8003,
+    "ErrorType": 21,
+    "LinkStringId": 1108007,
+    "LinkStringDev": "청옥 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8004,
+    "ErrorType": 21,
+    "LinkStringId": 1108008,
+    "LinkStringDev": "진기 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8005,
+    "ErrorType": 21,
+    "LinkStringId": 1108009,
+    "LinkStringDev": "흑철 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8006,
+    "ErrorType": 21,
+    "LinkStringId": 1108010,
+    "LinkStringDev": "무옥 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8007,
+    "ErrorType": 21,
+    "LinkStringId": 1108011,
+    "LinkStringDev": "PVP 점수 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8008,
+    "ErrorType": 21,
+    "LinkStringId": 1108012,
+    "LinkStringDev": "길드 점수 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8009,
+    "ErrorType": 21,
+    "LinkStringId": 1108013,
+    "LinkStringDev": "우정 점수 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8010,
+    "ErrorType": 21,
+    "LinkStringId": 1108014,
+    "LinkStringDev": "생명 보유량이 최대한도를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8012,
+    "ErrorType": 21,
+    "LinkStringId": 1400484,
+    "LinkStringDev": "문파 포인트 보유량이 최대치입니다."
+  },
+  {
+    "ErrorId": 8013,
+    "ErrorType": 21,
+    "LinkStringId": 1108016,
+    "LinkStringDev": "// 기부 횟수가 최대치다"
+  },
+  {
+    "ErrorId": 8014,
+    "ErrorType": 21,
+    "LinkStringId": 1108017,
+    "LinkStringDev": "// 가속 포인트가 최대치가"
+  },
+  {
+    "ErrorId": 8015,
+    "ErrorType": 21,
+    "LinkStringId": 1108018,
+    "LinkStringDev": "// 용옥이 최대치이다"
+  },
+  {
+    "ErrorId": 8016,
+    "ErrorType": 21,
+    "LinkStringId": 1108019,
+    "LinkStringDev": "// 고대 주화가 최대치이다"
+  },
+  {
+    "ErrorId": 8017,
+    "ErrorType": 21,
+    "LinkStringId": 1108020,
+    "LinkStringDev": "마패 보유량이 최대치를 넘어, 수령할 수 없습니다."
+  },
+  {
+    "ErrorId": 8018,
+    "ErrorType": 21,
+    "LinkStringId": 2611010,
+    "LinkStringDev": "보유 가능한 감탄 점수를 초과하여 더 이상 받을 수 없습니다."
+  },
+  {
+    "ErrorId": 8019,
+    "ErrorType": 21,
+    "LinkStringId": 1108021,
+    "LinkStringDev": "// 운철 주화가 최대치이다"
+  },
+  {
+    "ErrorId": 8091,
+    "ErrorType": 21,
+    "LinkStringId": 1400463,
+    "LinkStringDev": "문파 금자의 보유량이 최대치입니다."
+  },
+  {
+    "ErrorId": 8092,
+    "ErrorType": 21,
+    "LinkStringId": 1400464,
+    "LinkStringDev": "문파 동전의 보유량이 최대치입니다."
+  },
+  {
+    "ErrorId": 8093,
+    "ErrorType": 21,
+    "LinkStringId": 1400465,
+    "LinkStringDev": "문파 흑철의 보유량이 최대치입니다."
+  },
+  {
+    "ErrorId": 8094,
+    "ErrorType": 21,
+    "LinkStringId": 1400466,
+    "LinkStringDev": "문파 진기의 보유량이 최대치입니다."
+  },
+  {
+    "ErrorId": 8300,
+    "ErrorType": 21,
+    "LinkStringId": 2611051,
+    "LinkStringDev": "감탄하기 대기 시간입니다."
+  },
+  {
+    "ErrorId": 8301,
+    "ErrorType": 21,
+    "LinkStringId": 2611052,
+    "LinkStringDev": "유효하지 않은 자랑하기 아이템입니다."
+  },
+  {
+    "ErrorId": 8302,
+    "ErrorType": 21,
+    "LinkStringId": 2611053,
+    "LinkStringDev": "해당 지역에서 자랑할 수 있는 아이템 개수를 초과하였습니다."
+  },
+  {
+    "ErrorId": 8303,
+    "ErrorType": 21,
+    "LinkStringId": 2611054,
+    "LinkStringDev": "이미 자랑하기가 진행 중인 위치입니다."
+  },
+  {
+    "ErrorId": 8304,
+    "ErrorType": 21,
+    "LinkStringId": 2611055,
+    "LinkStringDev": "자랑할 수 있는 개수를 초과하였습니다."
+  },
+  {
+    "ErrorId": 8305,
+    "ErrorType": 21,
+    "LinkStringId": 2611056,
+    "LinkStringDev": "자랑할 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 8306,
+    "ErrorType": 21,
+    "LinkStringId": 2611057,
+    "LinkStringDev": "자랑할 수 있는 오브젝트가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 9000,
+    "ErrorType": 99,
+    "LinkStringId": 1400032,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9000)"
+  },
+  {
+    "ErrorId": 9001,
+    "ErrorType": 99,
+    "LinkStringId": 1400033,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9001)"
+  },
+  {
+    "ErrorId": 9002,
+    "ErrorType": 99,
+    "LinkStringId": 1400034,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9002)"
+  },
+  {
+    "ErrorId": 9003,
+    "ErrorType": 99,
+    "LinkStringId": 1400035,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9003)"
+  },
+  {
+    "ErrorId": 9004,
+    "ErrorType": 99,
+    "LinkStringId": 1400036,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9004)"
+  },
+  {
+    "ErrorId": 9005,
+    "ErrorType": 99,
+    "LinkStringId": 1400037,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9005)"
+  },
+  {
+    "ErrorId": 9006,
+    "ErrorType": 13,
+    "LinkStringId": 1400038,
+    "LinkStringDev": "동전이 부족합니다."
+  },
+  {
+    "ErrorId": 9007,
+    "ErrorType": 99,
+    "LinkStringId": 1400039,
+    "LinkStringDev": "다른 디바이스에서 로그인해서 접속을 종료합니다."
+  },
+  {
+    "ErrorId": 9008,
+    "ErrorType": 99,
+    "LinkStringId": 1400040,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9008)"
+  },
+  {
+    "ErrorId": 9009,
+    "ErrorType": 99,
+    "LinkStringId": 1400041,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9009)"
+  },
+  {
+    "ErrorId": 9012,
+    "ErrorType": 21,
+    "LinkStringId": 1400440,
+    "LinkStringDev": "비속어는 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 9013,
+    "ErrorType": 21,
+    "LinkStringId": 1400439,
+    "LinkStringDev": "금칙어는 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 9014,
+    "ErrorType": 21,
+    "LinkStringId": 1400438,
+    "LinkStringDev": "문자열 길이가 정해진 길이를 넘습니다."
+  },
+  {
+    "ErrorId": 9015,
+    "ErrorType": 99,
+    "LinkStringId": 0,
+    "LinkStringDev": "별호의 길이는 2 ~ 6 자 사이입니다."
+  },
+  {
+    "ErrorId": 9016,
+    "ErrorType": 99,
+    "LinkStringId": 1400514,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9016)"
+  },
+  {
+    "ErrorId": 9017,
+    "ErrorType": 99,
+    "LinkStringId": 1400515,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9017)"
+  },
+  {
+    "ErrorId": 9018,
+    "ErrorType": 99,
+    "LinkStringId": 10105,
+    "LinkStringDev": "캐릭터 생성이 제한된 서버"
+  },
+  {
+    "ErrorId": 9019,
+    "ErrorType": 99,
+    "LinkStringId": 1400561,
+    "LinkStringDev": "이벤트 진행 기간이 아닙니다."
+  },
+  {
+    "ErrorId": 9021,
+    "ErrorType": 99,
+    "LinkStringId": 1400614,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 9021)"
+  },
+  {
+    "ErrorId": 10000,
+    "ErrorType": 31,
+    "LinkStringId": 1400562,
+    "LinkStringDev": "존 그룹이 존재하지 않음"
+  },
+  {
+    "ErrorId": 10001,
+    "ErrorType": 31,
+    "LinkStringId": 1400563,
+    "LinkStringDev": "유저가 존재하지 않음"
+  },
+  {
+    "ErrorId": 10002,
+    "ErrorType": 31,
+    "LinkStringId": 1400564,
+    "LinkStringDev": "사용안됨"
+  },
+  {
+    "ErrorId": 10003,
+    "ErrorType": 31,
+    "LinkStringId": 1400565,
+    "LinkStringDev": "컨텐츠를 사용할 수 없음"
+  },
+  {
+    "ErrorId": 10004,
+    "ErrorType": 21,
+    "LinkStringId": 1400566,
+    "LinkStringDev": "삭제된 캐릭터"
+  },
+  {
+    "ErrorId": 10006,
+    "ErrorType": 21,
+    "LinkStringId": 1071551,
+    "LinkStringDev": "지금은 이용을 할 수 없습니다. 잠시 후에 이용해 주세요."
+  },
+  {
+    "ErrorId": 11000,
+    "ErrorType": 31,
+    "LinkStringId": 2600101,
+    "LinkStringDev": "비곡 입장 제재 중으로 비곡에 입장할 수 없습니다."
+  },
+  {
+    "ErrorId": 11001,
+    "ErrorType": 31,
+    "LinkStringId": 2600103,
+    "LinkStringDev": "성향이 {1} 이상이면 {2}에 입장할 수 없습니다. {3}으로 이동됩니다."
+  },
+  {
+    "ErrorId": 90000,
+    "ErrorType": 21,
+    "LinkStringId": 2560002,
+    "LinkStringDev": "감상 횟수가 부족합니다."
+  },
+  {
+    "ErrorId": 90001,
+    "ErrorType": 21,
+    "LinkStringId": 2560003,
+    "LinkStringDev": "가방에 빈 공간이 부족합니다."
+  },
+  {
+    "ErrorId": 90002,
+    "ErrorType": 21,
+    "LinkStringId": 2560047,
+    "LinkStringDev": "아이템 생성 오류가 발생했습니다. 다시 시도 해주세요"
+  },
+  {
+    "ErrorId": 90003,
+    "ErrorType": 21,
+    "LinkStringId": 2560001,
+    "LinkStringDev": "마패를 더 이상 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 90004,
+    "ErrorType": 21,
+    "LinkStringId": 2560048,
+    "LinkStringDev": "마패 지급에 오류가 발생하였습니다. 다시 시도 해주세요"
+  },
+  {
+    "ErrorId": 90005,
+    "ErrorType": 21,
+    "LinkStringId": 2560049,
+    "LinkStringDev": "광고 시청에 오류가 발생하였습니다. 다시 시도 해주세요."
+  },
+  {
+    "ErrorId": 90006,
+    "ErrorType": 21,
+    "LinkStringId": 2560049,
+    "LinkStringDev": "광고 시청에 오류가 발생하였습니다. 다시 시도 해주세요."
+  },
+  {
+    "ErrorId": 90007,
+    "ErrorType": 21,
+    "LinkStringId": 2560049,
+    "LinkStringDev": "광고 시청에 오류가 발생하였습니다. 다시 시도 해주세요."
+  },
+  {
+    "ErrorId": 90008,
+    "ErrorType": 21,
+    "LinkStringId": 2560049,
+    "LinkStringDev": "광고 시청에 오류가 발생하였습니다. 다시 시도 해주세요."
+  },
+  {
+    "ErrorId": 90009,
+    "ErrorType": 21,
+    "LinkStringId": 2560049,
+    "LinkStringDev": "광고 시청에 오류가 발생하였습니다. 다시 시도 해주세요."
+  },
+  {
+    "ErrorId": 90010,
+    "ErrorType": 21,
+    "LinkStringId": 2560063,
+    "LinkStringDev": "현재 마패를 획득할 수 있는 상태가 아닙니다. (Code : 90010)"
+  },
+  {
+    "ErrorId": 91000,
+    "ErrorType": 21,
+    "LinkStringId": 2600019,
+    "LinkStringDev": "현재 자격의 증명 인증이 불가능합니다. 잠시 후 다시 시도해주세요. (Code: 91000)"
+  },
+  {
+    "ErrorId": 91001,
+    "ErrorType": 21,
+    "LinkStringId": 2600020,
+    "LinkStringDev": "자격의 증명 인증이 이미 만료되었습니다. (Code: 91001)"
+  },
+  {
+    "ErrorId": 91002,
+    "ErrorType": 21,
+    "LinkStringId": 2600021,
+    "LinkStringDev": "자격의 증명 인증 만료 상태가 아닙니다. (Code: 91002)"
+  },
+  {
+    "ErrorId": 91003,
+    "ErrorType": 21,
+    "LinkStringId": 2600022,
+    "LinkStringDev": "자격의 증명 인증 만료처리에 실패하였습니다. (Code: 91003)"
+  },
+  {
+    "ErrorId": 91004,
+    "ErrorType": 21,
+    "LinkStringId": 2600023,
+    "LinkStringDev": "자격의 증명 인증 만료처리 중 오류가 발생하였습니다. (Code: 91004)"
+  },
+  {
+    "ErrorId": 91005,
+    "ErrorType": 21,
+    "LinkStringId": 2600024,
+    "LinkStringDev": "자격의 증명 재인증 처리에 실패하였습니다. (Code: 91005)"
+  },
+  {
+    "ErrorId": 91006,
+    "ErrorType": 21,
+    "LinkStringId": 2600025,
+    "LinkStringDev": "자격의 증명 재인증 처리 중 오류가 발생하였습니다. (Code: 91006)"
+  },
+  {
+    "ErrorId": 91007,
+    "ErrorType": 21,
+    "LinkStringId": 2600026,
+    "LinkStringDev": "자격의 증명 인증 가능한 시간이 아닙니다."
+  },
+  {
+    "ErrorId": 100000,
+    "ErrorType": 31,
+    "LinkStringId": 1400397,
+    "LinkStringDev": "인증 처리가 되지 않았습니다."
+  },
+  {
+    "ErrorId": 100001,
+    "ErrorType": 31,
+    "LinkStringId": 1400398,
+    "LinkStringDev": "존재하지 않는 계정입니다."
+  },
+  {
+    "ErrorId": 100002,
+    "ErrorType": 31,
+    "LinkStringId": 1400399,
+    "LinkStringDev": "운영상의 문제로 블록된 계정입니다."
+  },
+  {
+    "ErrorId": 100003,
+    "ErrorType": 31,
+    "LinkStringId": 1400400,
+    "LinkStringDev": "DB 에러로 인증이 처리되지 않았습니다."
+  },
+  {
+    "ErrorId": 100004,
+    "ErrorType": 31,
+    "LinkStringId": 1400401,
+    "LinkStringDev": "서버 에러로 인증이 처리되지 않았습니다."
+  },
+  {
+    "ErrorId": 100005,
+    "ErrorType": 31,
+    "LinkStringId": 1400402,
+    "LinkStringDev": "시스템 에러로 인증이 처리되지 않았습니다."
+  },
+  {
+    "ErrorId": 100006,
+    "ErrorType": 31,
+    "LinkStringId": 1400403,
+    "LinkStringDev": "커스텀 토큰에 오류가 발생하였습니다."
+  },
+  {
+    "ErrorId": 100007,
+    "ErrorType": 31,
+    "LinkStringId": 1400404,
+    "LinkStringDev": "잘못된 토큰으로 접근하였습니다."
+  },
+  {
+    "ErrorId": 100008,
+    "ErrorType": 31,
+    "LinkStringId": 1400405,
+    "LinkStringDev": "잘못된 코드로 접근하였습니다."
+  },
+  {
+    "ErrorId": 100009,
+    "ErrorType": 31,
+    "LinkStringId": 1400406,
+    "LinkStringDev": "계정을 생성할 수 없습니다."
+  },
+  {
+    "ErrorId": 100010,
+    "ErrorType": 31,
+    "LinkStringId": 1400407,
+    "LinkStringDev": "등록되지 않은 기기입니다."
+  },
+  {
+    "ErrorId": 100011,
+    "ErrorType": 31,
+    "LinkStringId": 1400408,
+    "LinkStringDev": "입력한 이메일이 유효하지 않습니다."
+  },
+  {
+    "ErrorId": 100012,
+    "ErrorType": 31,
+    "LinkStringId": 1400409,
+    "LinkStringDev": "정상적이지 않은 접근 경로입니다."
+  },
+  {
+    "ErrorId": 100013,
+    "ErrorType": 31,
+    "LinkStringId": 1400410,
+    "LinkStringDev": "인증 토큰에 문제가 있습니다."
+  },
+  {
+    "ErrorId": 100014,
+    "ErrorType": 31,
+    "LinkStringId": 1400411,
+    "LinkStringDev": "인증 토큰이 정상적이지 않습니다."
+  },
+  {
+    "ErrorId": 100015,
+    "ErrorType": 31,
+    "LinkStringId": 1400412,
+    "LinkStringDev": "인증 토큰이 NULL입니다."
+  },
+  {
+    "ErrorId": 100016,
+    "ErrorType": 31,
+    "LinkStringId": 1400413,
+    "LinkStringDev": "인증 토큰이 실패하였습니다."
+  },
+  {
+    "ErrorId": 100017,
+    "ErrorType": 31,
+    "LinkStringId": 1400414,
+    "LinkStringDev": "인증 토큰에 오류가 발생하였습니다."
+  },
+  {
+    "ErrorId": 100018,
+    "ErrorType": 31,
+    "LinkStringId": 1400415,
+    "LinkStringDev": "인증 토큰에 URL이 없습니다."
+  },
+  {
+    "ErrorId": 100020,
+    "ErrorType": 31,
+    "LinkStringId": 1400416,
+    "LinkStringDev": "이미 인증이 진행중인 상태입니다."
+  },
+  {
+    "ErrorId": 100021,
+    "ErrorType": 31,
+    "LinkStringId": 1400417,
+    "LinkStringDev": "선택한 월드 서버가 없습니다."
+  },
+  {
+    "ErrorId": 100022,
+    "ErrorType": 31,
+    "LinkStringId": 1400418,
+    "LinkStringDev": "접속 가능한 게이트웨이 서버가 없습니다."
+  },
+  {
+    "ErrorId": 100023,
+    "ErrorType": 31,
+    "LinkStringId": 1400419,
+    "LinkStringDev": "잘못된 월드 서버를 선택하였습니다."
+  },
+  {
+    "ErrorId": 100024,
+    "ErrorType": 31,
+    "LinkStringId": 1400420,
+    "LinkStringDev": "월드 서버에 대기중인 정보가 없습니다."
+  },
+  {
+    "ErrorId": 100025,
+    "ErrorType": 31,
+    "LinkStringId": 1400531,
+    "LinkStringDev": "접속이 제한된 서버입니다."
+  },
+  {
+    "ErrorId": 100026,
+    "ErrorType": 31,
+    "LinkStringId": 1400532,
+    "LinkStringDev": "서버 점검중입니다."
+  },
+  {
+    "ErrorId": 100027,
+    "ErrorType": 31,
+    "LinkStringId": 1400541,
+    "LinkStringDev": "서버 리스트를 갱신할 수 없습니다. 잠시 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 100028,
+    "ErrorType": 31,
+    "LinkStringId": 10104,
+    "LinkStringDev": "캐릭터 생성이 제한된 서버"
+  },
+  {
+    "ErrorId": 100029,
+    "ErrorType": 31,
+    "LinkStringId": 1400613,
+    "LinkStringDev": "MIR4는 현재 지역에서는 접속할 수 없습니다. "
+  },
+  {
+    "ErrorId": 100030,
+    "ErrorType": 31,
+    "LinkStringId": 1067575,
+    "LinkStringDev": "일시적인 서버 부하로 인해 로그인 창으로 돌아갑니다."
+  },
+  {
+    "ErrorId": 100031,
+    "ErrorType": 99,
+    "LinkStringId": 1067576,
+    "LinkStringDev": "치명적인 오류가 발생하여, 게임을 종료합니다.(Code:100031)"
+  },
+  {
+    "ErrorId": 100032,
+    "ErrorType": 31,
+    "LinkStringId": 705,
+    "LinkStringDev": "잘못된 토큰입니다. (Code: 100032)"
+  },
+  {
+    "ErrorId": 100033,
+    "ErrorType": 31,
+    "LinkStringId": 706,
+    "LinkStringDev": "CAPTCHA 인증에 실패하였습니다. (Code: 100033)"
+  },
+  {
+    "ErrorId": 100034,
+    "ErrorType": 31,
+    "LinkStringId": 707,
+    "LinkStringDev": "CAPTCHA 인증에 실패하였습니다. (Code: 100034)"
+  },
+  {
+    "ErrorId": 100035,
+    "ErrorType": 31,
+    "LinkStringId": 2521011,
+    "LinkStringDev": "NFT 불러오기가 제한된 서버입니다. \\r\\n<span color=\"#FFCC00\">캐릭터 생성이 가능한 서버에서 이용 부탁드립니다.</>"
+  },
+  {
+    "ErrorId": 1000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400042,
+    "LinkStringDev": "완료하지 못한 업적입니다."
+  },
+  {
+    "ErrorId": 1000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400043,
+    "LinkStringDev": "선행 업적이 완료되지 않았습니다."
+  },
+  {
+    "ErrorId": 1000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400044,
+    "LinkStringDev": "완료한 업적입니다."
+  },
+  {
+    "ErrorId": 1000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400045,
+    "LinkStringDev": "진기가 부족합니다."
+  },
+  {
+    "ErrorId": 1100000,
+    "ErrorType": 13,
+    "LinkStringId": 1400524,
+    "LinkStringDev": "배틀 패스 미션을 달성하지 않았습니다."
+  },
+  {
+    "ErrorId": 1100001,
+    "ErrorType": 13,
+    "LinkStringId": 1400525,
+    "LinkStringDev": "이미 배틀 패스 보상을 받았습니다."
+  },
+  {
+    "ErrorId": 1100002,
+    "ErrorType": 13,
+    "LinkStringId": 1400526,
+    "LinkStringDev": "배틀 패스 미션 정보가 일치하지 않습니다."
+  },
+  {
+    "ErrorId": 1100003,
+    "ErrorType": 13,
+    "LinkStringId": 1400527,
+    "LinkStringDev": "배틀 패스 보상받을 인벤토리 가득찼습니다."
+  },
+  {
+    "ErrorId": 1100004,
+    "ErrorType": 13,
+    "LinkStringId": 1400528,
+    "LinkStringDev": "배틀 패스 미션 포인트가 부족합니다."
+  },
+  {
+    "ErrorId": 1100005,
+    "ErrorType": 13,
+    "LinkStringId": 1400529,
+    "LinkStringDev": "배틀 패스 즉시 완료에 필요한 재화가 부족합니다."
+  },
+  {
+    "ErrorId": 1100006,
+    "ErrorType": 13,
+    "LinkStringId": 1400530,
+    "LinkStringDev": "배틀 패스 시즌권이 없습니다."
+  },
+  {
+    "ErrorId": 1100007,
+    "ErrorType": 13,
+    "LinkStringId": 1400579,
+    "LinkStringDev": "배틀 패스 정보 데이터 존재 안함"
+  },
+  {
+    "ErrorId": 1100008,
+    "ErrorType": 13,
+    "LinkStringId": 1400580,
+    "LinkStringDev": "배틀 패스 기간 만료"
+  },
+  {
+    "ErrorId": 1100009,
+    "ErrorType": 13,
+    "LinkStringId": 1400581,
+    "LinkStringDev": "배틀 패스 상품이 존재하지 않음"
+  },
+  {
+    "ErrorId": 1100010,
+    "ErrorType": 13,
+    "LinkStringId": 1400582,
+    "LinkStringDev": "이미 존재 하는 배틀 패스"
+  },
+  {
+    "ErrorId": 1100011,
+    "ErrorType": 13,
+    "LinkStringId": 1400607,
+    "LinkStringDev": "배틀 패스 구매 레벨 제한"
+  },
+  {
+    "ErrorId": 1200000,
+    "ErrorType": 13,
+    "LinkStringId": 1400597,
+    "LinkStringDev": "능력치 개방 조건을 충족하지 못했습니다."
+  },
+  {
+    "ErrorId": 1200001,
+    "ErrorType": 13,
+    "LinkStringId": 1400598,
+    "LinkStringDev": "재료가 부족해 강화할 수 없습니다."
+  },
+  {
+    "ErrorId": 1200002,
+    "ErrorType": 13,
+    "LinkStringId": 1400599,
+    "LinkStringDev": "재화가 부족해 강화할 수 없습니다."
+  },
+  {
+    "ErrorId": 1200003,
+    "ErrorType": 13,
+    "LinkStringId": 1400600,
+    "LinkStringDev": "최대 레벨에 도달하여 강화할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300000,
+    "ErrorType": 13,
+    "LinkStringId": 2010045,
+    "LinkStringDev": "테이타 테이블 오류로 인하여 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300001,
+    "ErrorType": 13,
+    "LinkStringId": 2010046,
+    "LinkStringDev": "캐릭터 서버 이전을 할 수 없는 서버입니다."
+  },
+  {
+    "ErrorId": 1300002,
+    "ErrorType": 13,
+    "LinkStringId": 2010047,
+    "LinkStringDev": "데이터가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 1300003,
+    "ErrorType": 13,
+    "LinkStringId": 2010048,
+    "LinkStringDev": "잘못된 데이터 테이블 값으로 인하여 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300004,
+    "ErrorType": 13,
+    "LinkStringId": 2010049,
+    "LinkStringDev": "캐릭터 서버 이전 가능한 레벨이 아닙니다."
+  },
+  {
+    "ErrorId": 1300005,
+    "ErrorType": 13,
+    "LinkStringId": 2010050,
+    "LinkStringDev": "캐릭터 서버 이전을 할 수 없는 지역입니다."
+  },
+  {
+    "ErrorId": 1300006,
+    "ErrorType": 13,
+    "LinkStringId": 2010051,
+    "LinkStringDev": "캐릭터 서버 이전 딜레이 타임이 남아 있는 상태입니다."
+  },
+  {
+    "ErrorId": 1300007,
+    "ErrorType": 13,
+    "LinkStringId": 2010052,
+    "LinkStringDev": "캐릭터 사망 정보 중 내상 정보가 남아 있어 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300008,
+    "ErrorType": 13,
+    "LinkStringId": 2010053,
+    "LinkStringDev": "캐릭터 사망 정보 중 유실물 정보가 남아 있어 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300009,
+    "ErrorType": 13,
+    "LinkStringId": 2010054,
+    "LinkStringDev": "캐릭터 사망 정보 중 경험치 복구 정보가 남아 있어 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300010,
+    "ErrorType": 13,
+    "LinkStringId": 2010055,
+    "LinkStringDev": "문파에 가입된 상태에서는 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300011,
+    "ErrorType": 13,
+    "LinkStringId": 2010056,
+    "LinkStringDev": "거래소에 등록된 물품이 존재하여 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300012,
+    "ErrorType": 13,
+    "LinkStringId": 2010057,
+    "LinkStringDev": "거래소에 회수 가능한 물품이 존재하여 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300013,
+    "ErrorType": 13,
+    "LinkStringId": 2010058,
+    "LinkStringDev": "거래소에 정산 가능한 정보가 남아 있어 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300014,
+    "ErrorType": 13,
+    "LinkStringId": 2010059,
+    "LinkStringDev": "상품 보관함에 물품이 남아 있어 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300015,
+    "ErrorType": 13,
+    "LinkStringId": 2010060,
+    "LinkStringDev": "계정 우편에 확인하지 않은 정보가 남아 있어 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300016,
+    "ErrorType": 13,
+    "LinkStringId": 2010061,
+    "LinkStringDev": "시스템 우편에 확인하지 않은 정보가 남아 있어 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300017,
+    "ErrorType": 13,
+    "LinkStringId": 2010062,
+    "LinkStringDev": "개인 우편에 확인하지 않은 정보가 남아 있어 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300018,
+    "ErrorType": 13,
+    "LinkStringId": 2010063,
+    "LinkStringDev": "보고 우편에 확인하지 않은 정보가 남아 있어 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300019,
+    "ErrorType": 13,
+    "LinkStringId": 2010064,
+    "LinkStringDev": "캐릭터 서버 이전에 필요한 금화를 보유하고 있지 않습니다."
+  },
+  {
+    "ErrorId": 1300020,
+    "ErrorType": 13,
+    "LinkStringId": 2010065,
+    "LinkStringDev": "캐릭터 서버 이전이 진행 중인 상태입니다. 잠시 후에 확인 부탁드립니다."
+  },
+  {
+    "ErrorId": 1300021,
+    "ErrorType": 13,
+    "LinkStringId": 2010066,
+    "LinkStringDev": "캐릭터 생성 슬롯이 부족하여 캐릭터 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300022,
+    "ErrorType": 13,
+    "LinkStringId": 2010067,
+    "LinkStringDev": "캐릭터 서버 이전에 필요한 표국 통행권이 부족하여 서버 이전을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300023,
+    "ErrorType": 13,
+    "LinkStringId": 2010068,
+    "LinkStringDev": "캐릭터가 다른 행동 중이어서 서버 이전을 할 수 없습니다. 잠시 후 이용해 주세요."
+  },
+  {
+    "ErrorId": 1300024,
+    "ErrorType": 13,
+    "LinkStringId": 2010069,
+    "LinkStringDev": "파티 (토벌대 포함)에 참여된 상태여서 표국 통행을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300025,
+    "ErrorType": 13,
+    "LinkStringId": 2010070,
+    "LinkStringDev": "봉인해제에 등록된 물품이 있어서 표국 통행을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300026,
+    "ErrorType": 13,
+    "LinkStringId": 2010071,
+    "LinkStringDev": "봉인해제에 획득 물품이 있어서 표국 통행을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300027,
+    "ErrorType": 99,
+    "LinkStringId": 2100108,
+    "LinkStringDev": "표국통행을 신청한 캐릭터의 정보가 이전 중이어서 모든 캐릭터가 게임 시작을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300028,
+    "ErrorType": 99,
+    "LinkStringId": 2100108,
+    "LinkStringDev": "표국통행을 신청한 캐릭터의 정보를 받는 중이어서 모든 캐릭터가 게임 시작을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300029,
+    "ErrorType": 13,
+    "LinkStringId": 2010074,
+    "LinkStringDev": "문파 우편에 확인하지 않은 정보가 남아 있어 표국 통행을 신청할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300030,
+    "ErrorType": 13,
+    "LinkStringId": 2010076,
+    "LinkStringDev": "위업 승급이 진행 중인 상태에서는 표국 통행을 신청할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300031,
+    "ErrorType": 13,
+    "LinkStringId": 2010077,
+    "LinkStringDev": "매일 23:30~04:30까지는 표국 통행 이용이 제한됩니다. 다른 시간에 이용 바랍니다"
+  },
+  {
+    "ErrorId": 1300032,
+    "ErrorType": 13,
+    "LinkStringId": 2010078,
+    "LinkStringDev": "표국 통행을 신청이 시스템에 의해서 막혀있는 상태입니다."
+  },
+  {
+    "ErrorId": 1300034,
+    "ErrorType": 13,
+    "LinkStringId": 2100109,
+    "LinkStringDev": "EXD에 거래 등록하면 표국 통행을 이용할 수 없습니다.\\r\\n등록 해제 후 이용 부탁 드립니다."
+  },
+  {
+    "ErrorId": 1300035,
+    "ErrorType": 13,
+    "LinkStringId": 2010089,
+    "LinkStringDev": "공성전 진행 중에는 표국 통행을 신청할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300100,
+    "ErrorType": 13,
+    "LinkStringId": 2100095,
+    "LinkStringDev": "이동할 수 없는 원정지역입니다."
+  },
+  {
+    "ErrorId": 1300101,
+    "ErrorType": 21,
+    "LinkStringId": 2100218,
+    "LinkStringDev": "서버를 선택하세요."
+  },
+  {
+    "ErrorId": 1300102,
+    "ErrorType": 21,
+    "LinkStringId": 2100029,
+    "LinkStringDev": "출발할수 없는 서버"
+  },
+  {
+    "ErrorId": 1300103,
+    "ErrorType": 21,
+    "LinkStringId": 2100030,
+    "LinkStringDev": "도착할수 없는 서버"
+  },
+  {
+    "ErrorId": 1300104,
+    "ErrorType": 21,
+    "LinkStringId": 2100044,
+    "LinkStringDev": "다른 서버 그룹"
+  },
+  {
+    "ErrorId": 1300105,
+    "ErrorType": 13,
+    "LinkStringId": 2100037,
+    "LinkStringDev": "캐릭터가 다른 행동 중이어서 원정대 신청을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300106,
+    "ErrorType": 13,
+    "LinkStringId": 2100096,
+    "LinkStringDev": "데이터 테이블 문제로 원정대 진행이 불가합니다."
+  },
+  {
+    "ErrorId": 1300107,
+    "ErrorType": 21,
+    "LinkStringId": 2100096,
+    "LinkStringDev": "테이블값 오류"
+  },
+  {
+    "ErrorId": 1300108,
+    "ErrorType": 21,
+    "LinkStringId": 2100219,
+    "LinkStringDev": "이미 선택한 (진행된) 월드서버가 있다."
+  },
+  {
+    "ErrorId": 1300109,
+    "ErrorType": 21,
+    "LinkStringId": 2100220,
+    "LinkStringDev": "데이터가 없다"
+  },
+  {
+    "ErrorId": 1300110,
+    "ErrorType": 21,
+    "LinkStringId": 2100221,
+    "LinkStringDev": "문파소속이 아니다."
+  },
+  {
+    "ErrorId": 1300111,
+    "ErrorType": 21,
+    "LinkStringId": 2100222,
+    "LinkStringDev": "문파랭킹이 낮다"
+  },
+  {
+    "ErrorId": 1300112,
+    "ErrorType": 13,
+    "LinkStringId": 2100075,
+    "LinkStringDev": "원정대 이용가능 시간이 아니어서 이용을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300113,
+    "ErrorType": 13,
+    "LinkStringId": 2100097,
+    "LinkStringDev": "원정대 이동 중입니다."
+  },
+  {
+    "ErrorId": 1300114,
+    "ErrorType": 13,
+    "LinkStringId": 2100098,
+    "LinkStringDev": "원정대에 신청에 필요한 아이템이 부족합니다."
+  },
+  {
+    "ErrorId": 1300115,
+    "ErrorType": 21,
+    "LinkStringId": 2100181,
+    "LinkStringDev": "재화 부족"
+  },
+  {
+    "ErrorId": 1300116,
+    "ErrorType": 21,
+    "LinkStringId": 2100223,
+    "LinkStringDev": "인원 초과"
+  },
+  {
+    "ErrorId": 1300117,
+    "ErrorType": 21,
+    "LinkStringId": 2100224,
+    "LinkStringDev": "이미 등록된 유저"
+  },
+  {
+    "ErrorId": 1300118,
+    "ErrorType": 99,
+    "LinkStringId": 2100094,
+    "LinkStringDev": "인증 작업에 실패하였습니다. 재 접속 부탁드립니다."
+  },
+  {
+    "ErrorId": 1300119,
+    "ErrorType": 21,
+    "LinkStringId": 2100225,
+    "LinkStringDev": "접속가능한 Gateway 정보가 없음"
+  },
+  {
+    "ErrorId": 1300120,
+    "ErrorType": 21,
+    "LinkStringId": 2100226,
+    "LinkStringDev": "타겟 월드에 대한 정보가 없음"
+  },
+  {
+    "ErrorId": 1300121,
+    "ErrorType": 21,
+    "LinkStringId": 2100227,
+    "LinkStringDev": "Auth Key 등록 실패"
+  },
+  {
+    "ErrorId": 1300122,
+    "ErrorType": 21,
+    "LinkStringId": 2100228,
+    "LinkStringDev": "인벤이 가득차서 보상획득 실패"
+  },
+  {
+    "ErrorId": 1300123,
+    "ErrorType": 13,
+    "LinkStringId": 2100074,
+    "LinkStringDev": "원정대 오픈 후 문파에 가입한 캐릭터는 원정대에 참여할 수 없습니다."
+  },
+  {
+    "ErrorId": 1300124,
+    "ErrorType": 21,
+    "LinkStringId": 2100229,
+    "LinkStringDev": "레벨 부족"
+  },
+  {
+    "ErrorId": 1300125,
+    "ErrorType": 21,
+    "LinkStringId": 2100230,
+    "LinkStringDev": "서버변경할수 있는 맵이 아님"
+  },
+  {
+    "ErrorId": 1300126,
+    "ErrorType": 21,
+    "LinkStringId": 2100231,
+    "LinkStringDev": "파티에 속해있습니다"
+  },
+  {
+    "ErrorId": 1300127,
+    "ErrorType": 21,
+    "LinkStringId": 2100232,
+    "LinkStringDev": "사망 유저는 더이상 드랍할수 없다."
+  },
+  {
+    "ErrorId": 1300128,
+    "ErrorType": 21,
+    "LinkStringId": 2100233,
+    "LinkStringDev": "더이상 획득 할수 없다"
+  },
+  {
+    "ErrorId": 1300129,
+    "ErrorType": 13,
+    "LinkStringId": 2100180,
+    "LinkStringDev": "원정대 참여 상태에서는 임무, 의뢰, 기연을 받을 수 없습니다."
+  },
+  {
+    "ErrorId": 1300130,
+    "ErrorType": 13,
+    "LinkStringId": 2100202,
+    "LinkStringDev": "본진 서버와 통신 문제로 이용을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1400251,
+    "ErrorType": 13,
+    "LinkStringId": 1400477,
+    "LinkStringDev": "레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 1400267,
+    "ErrorType": 13,
+    "LinkStringId": 1063050,
+    "LinkStringDev": "문파원이 남아 있으면 문파를 해체할 수 없습니다."
+  },
+  {
+    "ErrorId": 1400268,
+    "ErrorType": 13,
+    "LinkStringId": 1400476,
+    "LinkStringDev": "존재하지 않는 문파입니다."
+  },
+  {
+    "ErrorId": 1400306,
+    "ErrorType": 13,
+    "LinkStringId": 1045024,
+    "LinkStringDev": "상대가 비무를 거절했습니다."
+  },
+  {
+    "ErrorId": 2000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400046,
+    "LinkStringDev": "최대까지 각성한 상태입니다"
+  },
+  {
+    "ErrorId": 2000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400047,
+    "LinkStringDev": "아직 완료하지 못했습니다."
+  },
+  {
+    "ErrorId": 2100054,
+    "ErrorType": 13,
+    "LinkStringId": 2100054,
+    "LinkStringDev": "원정대 참여 캐릭터가 이동을 할 수 없는 지역입니다."
+  },
+  {
+    "ErrorId": 2100061,
+    "ErrorType": 21,
+    "LinkStringId": 2100061,
+    "LinkStringDev": "원정대에 참여한 캐릭터는 이용을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 2100064,
+    "ErrorType": 13,
+    "LinkStringId": 2100064,
+    "LinkStringDev": "원정대 참여 캐릭터는 생명력이 없는 상태에서 특정 지역으로 이동이 불가합니다."
+  },
+  {
+    "ErrorId": 2100068,
+    "ErrorType": 13,
+    "LinkStringId": 2100068,
+    "LinkStringDev": "원정대원은 동일 서버 원정대원과 파티가 가능합니다."
+  },
+  {
+    "ErrorId": 3800001,
+    "ErrorType": 13,
+    "LinkStringId": 1400048,
+    "LinkStringDev": "대상을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 3801001,
+    "ErrorType": 13,
+    "LinkStringId": 1400049,
+    "LinkStringDev": "데이터 오류"
+  },
+  {
+    "ErrorId": 3801002,
+    "ErrorType": 13,
+    "LinkStringId": 1400050,
+    "LinkStringDev": "캐릭터명은 2자에서 8자까지 생성 가능합니다."
+  },
+  {
+    "ErrorId": 3801003,
+    "ErrorType": 13,
+    "LinkStringId": 1400534,
+    "LinkStringDev": "채집 채광 운기조식에서 얻는 활력 시간 초과"
+  },
+  {
+    "ErrorId": 3801004,
+    "ErrorType": 21,
+    "LinkStringId": 1400606,
+    "LinkStringDev": "호패를 사용하여 호칭을 생성해 주세요."
+  },
+  {
+    "ErrorId": 3900000,
+    "ErrorType": 21,
+    "LinkStringId": 2100217,
+    "LinkStringDev": "자객모드 설정 아이템이 부족하여 원정대 참여를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 3900001,
+    "ErrorType": 21,
+    "LinkStringId": 2100210,
+    "LinkStringDev": "자객모드 상태인 캐릭터는 이용을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 3900002,
+    "ErrorType": 21,
+    "LinkStringId": 2100237,
+    "LinkStringDev": "대상이 자객모드 캐릭터이면 이용을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 4000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400051,
+    "LinkStringDev": "퀘스트를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 4000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400052,
+    "LinkStringDev": "대상과의 거리가 멀어 할 수 없습니다."
+  },
+  {
+    "ErrorId": 4000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400053,
+    "LinkStringDev": "대상을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 4000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400054,
+    "LinkStringDev": "대상을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 4000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400055,
+    "LinkStringDev": "진행 중인 상태입니다."
+  },
+  {
+    "ErrorId": 4000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400056,
+    "LinkStringDev": "레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 4000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400057,
+    "LinkStringDev": "경공 레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 4000007,
+    "ErrorType": 31,
+    "LinkStringId": 1400058,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 4000007)"
+  },
+  {
+    "ErrorId": 4000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400059,
+    "LinkStringDev": "지금은 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 4000009,
+    "ErrorType": 13,
+    "LinkStringId": 1400060,
+    "LinkStringDev": "보유한 재화가 부족합니다."
+  },
+  {
+    "ErrorId": 4000010,
+    "ErrorType": 13,
+    "LinkStringId": 1400061,
+    "LinkStringDev": "해당 위치로는 아공행법을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 4000011,
+    "ErrorType": 13,
+    "LinkStringId": 1400062,
+    "LinkStringDev": "동일한 지역으로는 즉시 이동을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 4000012,
+    "ErrorType": 13,
+    "LinkStringId": 1400063,
+    "LinkStringDev": "깃발 주위에 적이 있습니다."
+  },
+  {
+    "ErrorId": 4000013,
+    "ErrorType": 13,
+    "LinkStringId": 1400064,
+    "LinkStringDev": "문파에 가입해야 입장이 가능합니다."
+  },
+  {
+    "ErrorId": 4000014,
+    "ErrorType": 13,
+    "LinkStringId": 1400065,
+    "LinkStringDev": "점령전 전장이 아닙니다."
+  },
+  {
+    "ErrorId": 4000015,
+    "ErrorType": 13,
+    "LinkStringId": 1400066,
+    "LinkStringDev": "점령중인 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 4000016,
+    "ErrorType": 13,
+    "LinkStringId": 1400067,
+    "LinkStringDev": "점령에 실패 하였습니다."
+  },
+  {
+    "ErrorId": 4000017,
+    "ErrorType": 13,
+    "LinkStringId": 1400068,
+    "LinkStringDev": "도전 중인 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 4000018,
+    "ErrorType": 13,
+    "LinkStringId": 1400069,
+    "LinkStringDev": "가방에 빈 공간이 부족합니다."
+  },
+  {
+    "ErrorId": 4000019,
+    "ErrorType": 13,
+    "LinkStringId": 1400070,
+    "LinkStringDev": "사용할 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 4000020,
+    "ErrorType": 13,
+    "LinkStringId": 1400071,
+    "LinkStringDev": "아이템을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 4000021,
+    "ErrorType": 13,
+    "LinkStringId": 1400072,
+    "LinkStringDev": "점령 중인 문파가 없어 할 수 없습니다."
+  },
+  {
+    "ErrorId": 4000022,
+    "ErrorType": 13,
+    "LinkStringId": 1400073,
+    "LinkStringDev": "참배 효과를 받고 있는 중이기 때문에 할 수 없습니다."
+  },
+  {
+    "ErrorId": 4000023,
+    "ErrorType": 13,
+    "LinkStringId": 1106007,
+    "LinkStringDev": "지금은 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 4000024,
+    "ErrorType": 13,
+    "LinkStringId": 1400075,
+    "LinkStringDev": "아군이 점령한 점령의 단 입니다."
+  },
+  {
+    "ErrorId": 4000030,
+    "ErrorType": 21,
+    "LinkStringId": 1074501,
+    "LinkStringDev": "소유권이 없어 습득할 수 없습니다."
+  },
+  {
+    "ErrorId": 4000031,
+    "ErrorType": 21,
+    "LinkStringId": 1074505,
+    "LinkStringDev": "일일 약탈 가능 횟수를 초과하였습니다."
+  },
+  {
+    "ErrorId": 4000033,
+    "ErrorType": 13,
+    "LinkStringId": 1400601,
+    "LinkStringDev": "성향 점수가 낮아, 아공행법을 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 4000037,
+    "ErrorType": 21,
+    "LinkStringId": 1400618,
+    "LinkStringDev": "탈진 상태가 회복될 때까지 채집할 수 없습니다."
+  },
+  {
+    "ErrorId": 5000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400076,
+    "LinkStringDev": "사용자를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 5000001,
+    "ErrorType": 21,
+    "LinkStringId": 1400366,
+    "LinkStringDev": "월드 채팅을 위한 아이템의 정보가 없습니다."
+  },
+  {
+    "ErrorId": 5000002,
+    "ErrorType": 21,
+    "LinkStringId": 1400367,
+    "LinkStringDev": "링크를 보낼 아이템 정보가 없습니다."
+  },
+  {
+    "ErrorId": 5000003,
+    "ErrorType": 21,
+    "LinkStringId": 1034165,
+    "LinkStringDev": "6레벨 이후부터 채팅 입력이 가능합니다."
+  },
+  {
+    "ErrorId": 5000004,
+    "ErrorType": 21,
+    "LinkStringId": 1400369,
+    "LinkStringDev": "링크 정보를 보낼 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 5000005,
+    "ErrorType": 21,
+    "LinkStringId": 1400370,
+    "LinkStringDev": "월드 채팅을 위한 아이템의 타입에 오류가 발생하였습니다."
+  },
+  {
+    "ErrorId": 5000006,
+    "ErrorType": 21,
+    "LinkStringId": 1033313,
+    "LinkStringDev": "입력시간이 너무 빠릅니다. 잠시 후, 다시 시도해주세요."
+  },
+  {
+    "ErrorId": 5000007,
+    "ErrorType": 21,
+    "LinkStringId": 1033314,
+    "LinkStringDev": "유효한 대화 목록이 아닙니다. "
+  },
+  {
+    "ErrorId": 5000008,
+    "ErrorType": 21,
+    "LinkStringId": 1033315,
+    "LinkStringDev": "상대방이 차단하여 더 이상 진행할 수 없습니다."
+  },
+  {
+    "ErrorId": 5000009,
+    "ErrorType": 21,
+    "LinkStringId": 1033316,
+    "LinkStringDev": "대상 대화채널이 이미 생성되어 있습니다. "
+  },
+  {
+    "ErrorId": 5000010,
+    "ErrorType": 21,
+    "LinkStringId": 1033317,
+    "LinkStringDev": "차단된 대상입니다. "
+  },
+  {
+    "ErrorId": 7000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400077,
+    "LinkStringDev": "코스튬을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 7000001,
+    "ErrorType": 21,
+    "LinkStringId": 1027300,
+    "LinkStringDev": "보유 중인 코스튬 입니다."
+  },
+  {
+    "ErrorId": 7000002,
+    "ErrorType": 21,
+    "LinkStringId": 1027301,
+    "LinkStringDev": "조건을 만족하지 못한 상태입니다."
+  },
+  {
+    "ErrorId": 7000004,
+    "ErrorType": 21,
+    "LinkStringId": 1027302,
+    "LinkStringDev": "밝기 범위를 벗어난 상태입니다."
+  },
+  {
+    "ErrorId": 7000005,
+    "ErrorType": 21,
+    "LinkStringId": 1027303,
+    "LinkStringDev": "기본 타입은 장착 할 수 없습니다."
+  },
+  {
+    "ErrorId": 7000006,
+    "ErrorType": 21,
+    "LinkStringId": 2300046,
+    "LinkStringDev": "의상을 구매할 수 없습니다."
+  },
+  {
+    "ErrorId": 8000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400080,
+    "LinkStringDev": "다른 직업의 장비입니다."
+  },
+  {
+    "ErrorId": 8000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400081,
+    "LinkStringDev": "아직 착용 할 수 없는 부위입니다."
+  },
+  {
+    "ErrorId": 8000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400082,
+    "LinkStringDev": "레벨이 부족해 장착할 수 없습니다."
+  },
+  {
+    "ErrorId": 8000004,
+    "ErrorType": 31,
+    "LinkStringId": 1400083,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 8000005,
+    "ErrorType": 31,
+    "LinkStringId": 1400084,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 8000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400085,
+    "LinkStringDev": "보석을 제외한 아이템은 장착 할 수 없습니다."
+  },
+  {
+    "ErrorId": 8000007,
+    "ErrorType": 31,
+    "LinkStringId": 1400086,
+    "LinkStringDev": "착용 가능한 보석 색상이 아닙니다."
+  },
+  {
+    "ErrorId": 8000008,
+    "ErrorType": 31,
+    "LinkStringId": 1400087,
+    "LinkStringDev": "착용 중인 보석이 있습니다."
+  },
+  {
+    "ErrorId": 8000009,
+    "ErrorType": 21,
+    "LinkStringId": 1400567,
+    "LinkStringDev": "// 오픈 되지 않은 슬롯이다"
+  },
+  {
+    "ErrorId": 8000010,
+    "ErrorType": 21,
+    "LinkStringId": 1400568,
+    "LinkStringDev": "// 장탁된 아이템이 존재한다."
+  },
+  {
+    "ErrorId": 8000011,
+    "ErrorType": 21,
+    "LinkStringId": 1400569,
+    "LinkStringDev": "// 마석이 아니다"
+  },
+  {
+    "ErrorId": 8000012,
+    "ErrorType": 21,
+    "LinkStringId": 1400610,
+    "LinkStringDev": "홍예석이 아니어서 장착 할수 없다"
+  },
+  {
+    "ErrorId": 8050000,
+    "ErrorType": 13,
+    "LinkStringId": 1400088,
+    "LinkStringDev": "체질이 최대치까지 도달한 상태입니다."
+  },
+  {
+    "ErrorId": 8050001,
+    "ErrorType": 13,
+    "LinkStringId": 1400089,
+    "LinkStringDev": "재화가 부족합니다."
+  },
+  {
+    "ErrorId": 8050002,
+    "ErrorType": 13,
+    "LinkStringId": 1400090,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 8050003,
+    "ErrorType": 13,
+    "LinkStringId": 1400091,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 8050004,
+    "ErrorType": 13,
+    "LinkStringId": 1400092,
+    "LinkStringDev": "찾을 수 없는 체질입니다."
+  },
+  {
+    "ErrorId": 8050005,
+    "ErrorType": 13,
+    "LinkStringId": 1400351,
+    "LinkStringDev": "레벨한계치라 더 이상 업그레이드 불가능"
+  },
+  {
+    "ErrorId": 8050006,
+    "ErrorType": 13,
+    "LinkStringId": 1400352,
+    "LinkStringDev": "모든 슬롯레벨이 최대치가 아닙니다."
+  },
+  {
+    "ErrorId": 8050007,
+    "ErrorType": 13,
+    "LinkStringId": 1400353,
+    "LinkStringDev": "재료아이템을 보유하고 있지 않습니다."
+  },
+  {
+    "ErrorId": 8050008,
+    "ErrorType": 13,
+    "LinkStringId": 1400354,
+    "LinkStringDev": "비용이 충분하지 않습니다."
+  },
+  {
+    "ErrorId": 12000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400093,
+    "LinkStringDev": "분해할 대상을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 12000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400094,
+    "LinkStringDev": "가방에 빈 공간이 부족합니다."
+  },
+  {
+    "ErrorId": 12000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400095,
+    "LinkStringDev": "재화가 부족합니다."
+  },
+  {
+    "ErrorId": 12000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400096,
+    "LinkStringDev": "대상을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 12000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400097,
+    "LinkStringDev": "성장 할 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 12000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400098,
+    "LinkStringDev": "성장 재료로 사용할 수 없는 아이템이 포함되어 있습니다."
+  },
+  {
+    "ErrorId": 12000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400099,
+    "LinkStringDev": "더 이상 성장 할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400100,
+    "LinkStringDev": "할 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 12000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400101,
+    "LinkStringDev": "대상을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 12000009,
+    "ErrorType": 13,
+    "LinkStringId": 1400102,
+    "LinkStringDev": "강화할 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 12000010,
+    "ErrorType": 13,
+    "LinkStringId": 1400103,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 12000011,
+    "ErrorType": 13,
+    "LinkStringId": 1400104,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 12000012,
+    "ErrorType": 13,
+    "LinkStringId": 1400105,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 12000013,
+    "ErrorType": 13,
+    "LinkStringId": 1400106,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 12000014,
+    "ErrorType": 13,
+    "LinkStringId": 1400107,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 12000015,
+    "ErrorType": 13,
+    "LinkStringId": 1400108,
+    "LinkStringDev": "승급 할 대상을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 12000016,
+    "ErrorType": 13,
+    "LinkStringId": 1400109,
+    "LinkStringDev": "승급을 할 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 12000017,
+    "ErrorType": 13,
+    "LinkStringId": 1400110,
+    "LinkStringDev": "최대 등급에 도달한 아이템입니다."
+  },
+  {
+    "ErrorId": 12000018,
+    "ErrorType": 13,
+    "LinkStringId": 1400111,
+    "LinkStringDev": "재료를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 12000019,
+    "ErrorType": 13,
+    "LinkStringId": 1400112,
+    "LinkStringDev": "재료로 사용할 수 없는 아이템이 포함되어 있습니다."
+  },
+  {
+    "ErrorId": 12000020,
+    "ErrorType": 13,
+    "LinkStringId": 1400113,
+    "LinkStringDev": "동일한 등급의 아이템으로만 할 수 있습니다."
+  },
+  {
+    "ErrorId": 12000021,
+    "ErrorType": 13,
+    "LinkStringId": 1400114,
+    "LinkStringDev": "같은 종류의 아이템으로만 할 수 있습니다."
+  },
+  {
+    "ErrorId": 12000022,
+    "ErrorType": 13,
+    "LinkStringId": 1400115,
+    "LinkStringDev": "최대 레벨이 도달한 아이템으로만 할 수 있습니다."
+  },
+  {
+    "ErrorId": 12000023,
+    "ErrorType": 13,
+    "LinkStringId": 1400116,
+    "LinkStringDev": "아이템 등급이 낮아 할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000024,
+    "ErrorType": 13,
+    "LinkStringId": 1400117,
+    "LinkStringDev": "선택된 아이템은 추가 옵션을 변경 할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000025,
+    "ErrorType": 13,
+    "LinkStringId": 1400118,
+    "LinkStringDev": "옵션을 변경할 아이템을 선택해주세요"
+  },
+  {
+    "ErrorId": 12000026,
+    "ErrorType": 13,
+    "LinkStringId": 1400119,
+    "LinkStringDev": "등록 가능한 재료 개수를 초과했습니다."
+  },
+  {
+    "ErrorId": 12000027,
+    "ErrorType": 13,
+    "LinkStringId": 1400120,
+    "LinkStringDev": "아이템을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 12000028,
+    "ErrorType": 13,
+    "LinkStringId": 1400121,
+    "LinkStringDev": "현재 지역에서는 사용할수 없습니다."
+  },
+  {
+    "ErrorId": 12000029,
+    "ErrorType": 13,
+    "LinkStringId": 1400122,
+    "LinkStringDev": "아이템의 보유 수량이 부족합니다."
+  },
+  {
+    "ErrorId": 12000030,
+    "ErrorType": 13,
+    "LinkStringId": 1400123,
+    "LinkStringDev": "사용할 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 12000031,
+    "ErrorType": 13,
+    "LinkStringId": 1400124,
+    "LinkStringDev": "아이템 사용에 실패했습니다."
+  },
+  {
+    "ErrorId": 12000032,
+    "ErrorType": 13,
+    "LinkStringId": 1400125,
+    "LinkStringDev": "가방에 빈 공간이 부족합니다."
+  },
+  {
+    "ErrorId": 12000038,
+    "ErrorType": 13,
+    "LinkStringId": 1040005,
+    "LinkStringDev": "가방에 빈 공간이 부족합니다."
+  },
+  {
+    "ErrorId": 12000039,
+    "ErrorType": 13,
+    "LinkStringId": 1004596,
+    "LinkStringDev": "보석 합성 재료 타입이 맞지 않습니다."
+  },
+  {
+    "ErrorId": 12000040,
+    "ErrorType": 13,
+    "LinkStringId": 1004597,
+    "LinkStringDev": "보석 합성 재료들의 티어가 같지 않습니다."
+  },
+  {
+    "ErrorId": 12000041,
+    "ErrorType": 13,
+    "LinkStringId": 1004578,
+    "LinkStringDev": "보석 합성 재료들의 등급이 같지 않습니다."
+  },
+  {
+    "ErrorId": 12000042,
+    "ErrorType": 13,
+    "LinkStringId": 1004582,
+    "LinkStringDev": "합성 재료가 부족합니다."
+  },
+  {
+    "ErrorId": 12000043,
+    "ErrorType": 13,
+    "LinkStringId": 1004581,
+    "LinkStringDev": "합성 비용이 부족합니다."
+  },
+  {
+    "ErrorId": 12000044,
+    "ErrorType": 13,
+    "LinkStringId": 1026034,
+    "LinkStringDev": "{1}를 제작 후, 제작할 수 있습니다."
+  },
+  {
+    "ErrorId": 12000045,
+    "ErrorType": 13,
+    "LinkStringId": 1026035,
+    "LinkStringDev": "Lv.{1} 도달 후, 제작할 수 있습니다."
+  },
+  {
+    "ErrorId": 12000046,
+    "ErrorType": 13,
+    "LinkStringId": 1026218,
+    "LinkStringDev": "제작방식과 다른 타입이어서 제작을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000049,
+    "ErrorType": 13,
+    "LinkStringId": 1800015,
+    "LinkStringDev": "잠금 설정을 할 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 12000052,
+    "ErrorType": 13,
+    "LinkStringId": 1065085,
+    "LinkStringDev": "펫 속성이 달라 장착 할수 없습니다."
+  },
+  {
+    "ErrorId": 12000053,
+    "ErrorType": 13,
+    "LinkStringId": 1026050,
+    "LinkStringDev": "이벤트 기간에만 제작 가능합니다."
+  },
+  {
+    "ErrorId": 12000054,
+    "ErrorType": 13,
+    "LinkStringId": 1068502,
+    "LinkStringDev": "선택한 교환 아이템이 직업과 맞지 않습니다."
+  },
+  {
+    "ErrorId": 12000055,
+    "ErrorType": 21,
+    "LinkStringId": 1005984,
+    "LinkStringDev": "어둠서린 강화석을 사용하기 위해서는 강화 수치가 최소 1 이상이어야 합니다."
+  },
+  {
+    "ErrorId": 12000056,
+    "ErrorType": 21,
+    "LinkStringId": 1005986,
+    "LinkStringDev": "교환할 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 12000057,
+    "ErrorType": 21,
+    "LinkStringId": 2004916,
+    "LinkStringDev": "향로 포인트가 부족합니다. "
+  },
+  {
+    "ErrorId": 12000058,
+    "ErrorType": 13,
+    "LinkStringId": 1026217,
+    "LinkStringDev": "장착된 정령보물은 제작 재료로 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000059,
+    "ErrorType": 21,
+    "LinkStringId": 1076502,
+    "LinkStringDev": "초월 대상을 선택하세요."
+  },
+  {
+    "ErrorId": 12000060,
+    "ErrorType": 21,
+    "LinkStringId": 1076509,
+    "LinkStringDev": "전설 등급만 초월을 할 수 있습니다."
+  },
+  {
+    "ErrorId": 12000061,
+    "ErrorType": 21,
+    "LinkStringId": 1076510,
+    "LinkStringDev": "최대 초월 레벨을 달성하여 더 이상 초월할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000062,
+    "ErrorType": 21,
+    "LinkStringId": 1076511,
+    "LinkStringDev": "잠금 설정된 대상입니다. 초월할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000063,
+    "ErrorType": 21,
+    "LinkStringId": 1076512,
+    "LinkStringDev": "재료 아이템을 선택하지 않았습니다."
+  },
+  {
+    "ErrorId": 12000064,
+    "ErrorType": 21,
+    "LinkStringId": 1076515,
+    "LinkStringDev": "재료 아이템의 등급이 달라 초월할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000065,
+    "ErrorType": 21,
+    "LinkStringId": 1076516,
+    "LinkStringDev": "잠금 설정된 아이템을 재료로 선택하여 초월을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000066,
+    "ErrorType": 21,
+    "LinkStringId": 1076505,
+    "LinkStringDev": "수여한 보물은 초월 재료로 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000067,
+    "ErrorType": 21,
+    "LinkStringId": 2004938,
+    "LinkStringDev": "향로 포인트 증가 아이템 개수가 맞지 않아서 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000068,
+    "ErrorType": 21,
+    "LinkStringId": 2004922,
+    "LinkStringDev": "향로 포인트 수치가 최대 값이어서 사용을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 12000069,
+    "ErrorType": 21,
+    "LinkStringId": 2100234,
+    "LinkStringDev": "서버원정대 생명력은 최대치를 넘길수 없다."
+  },
+  {
+    "ErrorId": 12000070,
+    "ErrorType": 21,
+    "LinkStringId": 2100235,
+    "LinkStringDev": "서버원정대 생명력은 원정중에만 채울수 있다."
+  },
+  {
+    "ErrorId": 12000071,
+    "ErrorType": 21,
+    "LinkStringId": 1026069,
+    "LinkStringDev": "제작 횟수가 부족한 아이템 입니다."
+  },
+  {
+    "ErrorId": 12000072,
+    "ErrorType": 21,
+    "LinkStringId": 1026068,
+    "LinkStringDev": "제작 기간이 종료된 아이템 입니다."
+  },
+  {
+    "ErrorId": 12000078,
+    "ErrorType": 21,
+    "LinkStringId": 1054109,
+    "LinkStringDev": "정기형 채굴권이 적용되어 있어 사용이 불가능 합니다."
+  },
+  {
+    "ErrorId": 12000079,
+    "ErrorType": 21,
+    "LinkStringId": 1400623,
+    "LinkStringDev": "레벨이 부족하여 아이템을 사용하실 수 없습니다."
+  },
+  {
+    "ErrorId": 12000080,
+    "ErrorType": 21,
+    "LinkStringId": 2000101,
+    "LinkStringDev": "성공 확률 증가 기능을 사용할수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 12000081,
+    "ErrorType": 13,
+    "LinkStringId": 1004359,
+    "LinkStringDev": "대상 장비와 동일한 등급, 티어의 재료만 사용할 수 있습니다."
+  },
+  {
+    "ErrorId": 13000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400126,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 13000000)"
+  },
+  {
+    "ErrorId": 13000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400127,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 13000001)"
+  },
+  {
+    "ErrorId": 13000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400128,
+    "LinkStringDev": "접속 중인 상태의 계정입니다."
+  },
+  {
+    "ErrorId": 13000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400129,
+    "LinkStringDev": "생성이 완료된 캐릭터입니다."
+  },
+  {
+    "ErrorId": 13000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400130,
+    "LinkStringDev": "다른 사용자가 사용 중인 이름입니다."
+  },
+  {
+    "ErrorId": 13000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400131,
+    "LinkStringDev": "캐릭터를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 13000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400132,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 13000006)"
+  },
+  {
+    "ErrorId": 13000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400133,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 13000007)"
+  },
+  {
+    "ErrorId": 13000010,
+    "ErrorType": 13,
+    "LinkStringId": 1400134,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 13000010)"
+  },
+  {
+    "ErrorId": 13000011,
+    "ErrorType": 13,
+    "LinkStringId": 1400135,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 13000011)"
+  },
+  {
+    "ErrorId": 13000021,
+    "ErrorType": 13,
+    "LinkStringId": 2010080,
+    "LinkStringDev": "표국 통행을 신청한 서버에 이미 해당 캐릭터의 정보가 존재하여 신청을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 13000022,
+    "ErrorType": 13,
+    "LinkStringId": 2010081,
+    "LinkStringDev": "표국 통행을 신청한 서버의 캐릭터 슬롯 여유공간이 부족하여 신청을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 13009001,
+    "ErrorType": 21,
+    "LinkStringId": 1400478,
+    "LinkStringDev": "문파에 가입되어 있으면 캐릭터를 삭제 할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000000,
+    "ErrorType": 13,
+    "LinkStringId": 2070017,
+    "LinkStringDev": "개인창고는 20레벨부터 이용이 가능합니다."
+  },
+  {
+    "ErrorId": 16000001,
+    "ErrorType": 13,
+    "LinkStringId": 2070018,
+    "LinkStringDev": "개인창고 확장을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000002,
+    "ErrorType": 13,
+    "LinkStringId": 2070019,
+    "LinkStringDev": "재화가 부족하여 개인창고 확장을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000003,
+    "ErrorType": 13,
+    "LinkStringId": 2070020,
+    "LinkStringDev": "개인창고 최대 확장 상태여서 확장을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000004,
+    "ErrorType": 13,
+    "LinkStringId": 2070021,
+    "LinkStringDev": "개인창고에 적용할 전리품의 정보를 호출할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000005,
+    "ErrorType": 13,
+    "LinkStringId": 2070022,
+    "LinkStringDev": "개인창고에 적용할 전리품이 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 16000006,
+    "ErrorType": 13,
+    "LinkStringId": 2070023,
+    "LinkStringDev": "개인창고에 적용할 전리품의 개수가 맞지 않습니다."
+  },
+  {
+    "ErrorId": 16000007,
+    "ErrorType": 13,
+    "LinkStringId": 2070024,
+    "LinkStringDev": "개인창고 저장 공간이 부족하여 전리품을 이동할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000008,
+    "ErrorType": 13,
+    "LinkStringId": 2070025,
+    "LinkStringDev": "이미 개인창고로 이동한 전리품입니다."
+  },
+  {
+    "ErrorId": 16000009,
+    "ErrorType": 13,
+    "LinkStringId": 2070026,
+    "LinkStringDev": "개인창고에 적용된 전리품의 정보를 호출할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000010,
+    "ErrorType": 13,
+    "LinkStringId": 2070027,
+    "LinkStringDev": "개인창고에 없는 전리품 정보입니다."
+  },
+  {
+    "ErrorId": 16000011,
+    "ErrorType": 13,
+    "LinkStringId": 2070028,
+    "LinkStringDev": "개인창고에서 이동할 전리품의 개수가 맞지 않습니다."
+  },
+  {
+    "ErrorId": 16000012,
+    "ErrorType": 13,
+    "LinkStringId": 2070029,
+    "LinkStringDev": "가방 저장공간이 부족하여 전리품 이동을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000013,
+    "ErrorType": 13,
+    "LinkStringId": 2070030,
+    "LinkStringDev": "이미 가방으로 이동한 전리품입니다."
+  },
+  {
+    "ErrorId": 16000014,
+    "ErrorType": 13,
+    "LinkStringId": 2070031,
+    "LinkStringDev": "개인창고 정보가 정상적으로 호출되지 않았습니다."
+  },
+  {
+    "ErrorId": 16000015,
+    "ErrorType": 13,
+    "LinkStringId": 2070032,
+    "LinkStringDev": "장착 중인 아이템은 개인창고 이동할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000016,
+    "ErrorType": 13,
+    "LinkStringId": 2070033,
+    "LinkStringDev": "기간이 설정된 아이템은 개인창고로 이동할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000017,
+    "ErrorType": 13,
+    "LinkStringId": 2070034,
+    "LinkStringDev": "옵션감정이 완료되지 않은 아이템은 개인창고로 이동할 수 없습니다."
+  },
+  {
+    "ErrorId": 16000018,
+    "ErrorType": 13,
+    "LinkStringId": 2070035,
+    "LinkStringDev": "개인창고를 이용할 수 없는 위치입니다."
+  },
+  {
+    "ErrorId": 17000031,
+    "ErrorType": 21,
+    "LinkStringId": 1085058,
+    "LinkStringDev": "토벌파티를 이용할 수 없는 지역입니다."
+  },
+  {
+    "ErrorId": 17000074,
+    "ErrorType": 21,
+    "LinkStringId": 2042196,
+    "LinkStringDev": "전장 안에서는 이용할 수 없습니다."
+  },
+  {
+    "ErrorId": 17000075,
+    "ErrorType": 21,
+    "LinkStringId": 2042196,
+    "LinkStringDev": "전장 안에서는 이용할 수 없습니다."
+  },
+  {
+    "ErrorId": 17000059,
+    "ErrorType": 21,
+    "LinkStringId": 1085059,
+    "LinkStringDev": "대상이 토벌 파티를 이용할 수 없는 지역에 있습니다."
+  },
+  {
+    "ErrorId": 18000000,
+    "ErrorType": 21,
+    "LinkStringId": 1400158,
+    "LinkStringDev": "우편물이 남아 있습니다."
+  },
+  {
+    "ErrorId": 18000001,
+    "ErrorType": 21,
+    "LinkStringId": 1014503,
+    "LinkStringDev": "수신인을 지정하여야 합니다."
+  },
+  {
+    "ErrorId": 18000002,
+    "ErrorType": 21,
+    "LinkStringId": 1014506,
+    "LinkStringDev": "제목은 15자이내여야 합니다."
+  },
+  {
+    "ErrorId": 18000003,
+    "ErrorType": 21,
+    "LinkStringId": 1014507,
+    "LinkStringDev": "부제목은 20자이내여야 합니다."
+  },
+  {
+    "ErrorId": 18000004,
+    "ErrorType": 21,
+    "LinkStringId": 1014508,
+    "LinkStringDev": "내용은 9줄, 333자 이내여야 합니다."
+  },
+  {
+    "ErrorId": 18000005,
+    "ErrorType": 21,
+    "LinkStringId": 1014504,
+    "LinkStringDev": "우편의 제목이 없습니다."
+  },
+  {
+    "ErrorId": 18000006,
+    "ErrorType": 21,
+    "LinkStringId": 1014510,
+    "LinkStringDev": "우편에서 오류가 발생하였습니다."
+  },
+  {
+    "ErrorId": 18000007,
+    "ErrorType": 13,
+    "LinkStringId": 1014509,
+    "LinkStringDev": "첨부할 수 없는 아이템입니다."
+  },
+  {
+    "ErrorId": 18000008,
+    "ErrorType": 21,
+    "LinkStringId": 1014505,
+    "LinkStringDev": "동전이 부족하여 우편을 발송할 수 없습니다."
+  },
+  {
+    "ErrorId": 18000009,
+    "ErrorType": 21,
+    "LinkStringId": 1014511,
+    "LinkStringDev": "자신에게 보낼 수 없습니다."
+  },
+  {
+    "ErrorId": 18000011,
+    "ErrorType": 21,
+    "LinkStringId": 1014517,
+    "LinkStringDev": "첨부된 물품을 모두 획득하였습니다."
+  },
+  {
+    "ErrorId": 18000012,
+    "ErrorType": 21,
+    "LinkStringId": 1014519,
+    "LinkStringDev": "가방이 가득 차 아이템을 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 18000013,
+    "ErrorType": 21,
+    "LinkStringId": 1014042,
+    "LinkStringDev": "기간이 만료되어 물품을 받을 수 없습니다."
+  },
+  {
+    "ErrorId": 18000014,
+    "ErrorType": 21,
+    "LinkStringId": 1014041,
+    "LinkStringDev": "기간이 만료된 우편이 삭제되었습니다."
+  },
+  {
+    "ErrorId": 18000015,
+    "ErrorType": 21,
+    "LinkStringId": 2530115,
+    "LinkStringDev": "우편을 받을 대상이 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 18000016,
+    "ErrorType": 21,
+    "LinkStringId": 1014524,
+    "LinkStringDev": "국가 우편은 삭제할 수 없습니다."
+  },
+  {
+    "ErrorId": 19000000,
+    "ErrorType": 21,
+    "LinkStringId": 1058504,
+    "LinkStringDev": "입장권 충전을 실패하였습니다. 잠시후 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 19000001,
+    "ErrorType": 21,
+    "LinkStringId": 1058505,
+    "LinkStringDev": "존재하지 않는 종류의 입장권입니다."
+  },
+  {
+    "ErrorId": 19000002,
+    "ErrorType": 21,
+    "LinkStringId": 1058503,
+    "LinkStringDev": "입장권 충전 상한에 도달하여 더 이상 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 19000003,
+    "ErrorType": 21,
+    "LinkStringId": 1058506,
+    "LinkStringDev": "충전할 금화가 부족합니다."
+  },
+  {
+    "ErrorId": 19000004,
+    "ErrorType": 21,
+    "LinkStringId": 1058507,
+    "LinkStringDev": "일일 충전 가능한 횟수를 초과하였습니다."
+  },
+  {
+    "ErrorId": 21000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400159,
+    "LinkStringDev": "대상을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 21000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400160,
+    "LinkStringDev": "재사용 대기 시간 중에는 사용 할 수 없습니다."
+  },
+  {
+    "ErrorId": 21000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400161,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 21000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400162,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 21000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400163,
+    "LinkStringDev": "다른 직업의 스킬입니다."
+  },
+  {
+    "ErrorId": 21000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400164,
+    "LinkStringDev": "레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 21000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400165,
+    "LinkStringDev": "습득한 스킬입니다."
+  },
+  {
+    "ErrorId": 21000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400166,
+    "LinkStringDev": "스킬을 습득한 후에 사용 할 수 있습니다."
+  },
+  {
+    "ErrorId": 21000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400167,
+    "LinkStringDev": "스킬레벨은 캐릭터의 레벨보다 높을 수 없습니다."
+  },
+  {
+    "ErrorId": 21000009,
+    "ErrorType": 13,
+    "LinkStringId": 1400168,
+    "LinkStringDev": "재화가 부족합니다."
+  },
+  {
+    "ErrorId": 21000010,
+    "ErrorType": 13,
+    "LinkStringId": 1400169,
+    "LinkStringDev": "최대 레벨에 도달한 스킬입니다."
+  },
+  {
+    "ErrorId": 21000011,
+    "ErrorType": 13,
+    "LinkStringId": 1400170,
+    "LinkStringDev": "스킬 숙련도가 부족합니다."
+  },
+  {
+    "ErrorId": 21000012,
+    "ErrorType": 13,
+    "LinkStringId": 1400171,
+    "LinkStringDev": "스킬을 사용할 수 없어 스킬이 중단 되었습니다."
+  },
+  {
+    "ErrorId": 21000013,
+    "ErrorType": 13,
+    "LinkStringId": 1400172,
+    "LinkStringDev": "마력이 부족하여 스킬을 사용할수 없습니다."
+  },
+  {
+    "ErrorId": 21000014,
+    "ErrorType": 13,
+    "LinkStringId": 1400173,
+    "LinkStringDev": "경험치가 최대까지 도달했습니다."
+  },
+  {
+    "ErrorId": 21000015,
+    "ErrorType": 13,
+    "LinkStringId": 1400174,
+    "LinkStringDev": "스킬을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 21000016,
+    "ErrorType": 13,
+    "LinkStringId": 1400175,
+    "LinkStringDev": "포인트가 부족합니다."
+  },
+  {
+    "ErrorId": 21000017,
+    "ErrorType": 13,
+    "LinkStringId": 1400176,
+    "LinkStringDev": "그룹의 레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 21000018,
+    "ErrorType": 13,
+    "LinkStringId": 1400177,
+    "LinkStringDev": "초기화가 완료된 상태입니다."
+  },
+  {
+    "ErrorId": 21000019,
+    "ErrorType": 13,
+    "LinkStringId": 1400178,
+    "LinkStringDev": "기력이 부족합니다."
+  },
+  {
+    "ErrorId": 21000020,
+    "ErrorType": 13,
+    "LinkStringId": 1400179,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 21000020)"
+  },
+  {
+    "ErrorId": 21000021,
+    "ErrorType": 13,
+    "LinkStringId": 1400180,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 21000021)"
+  },
+  {
+    "ErrorId": 21000022,
+    "ErrorType": 13,
+    "LinkStringId": 1400181,
+    "LinkStringDev": "스킬을 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 21000100,
+    "ErrorType": 13,
+    "LinkStringId": 1400182,
+    "LinkStringDev": "덱 설정에 실패했습니다."
+  },
+  {
+    "ErrorId": 21000101,
+    "ErrorType": 13,
+    "LinkStringId": 1400183,
+    "LinkStringDev": "스킬 덱을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 21000102,
+    "ErrorType": 13,
+    "LinkStringId": 1400184,
+    "LinkStringDev": "슬롯 번호를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 21000103,
+    "ErrorType": 13,
+    "LinkStringId": 1400185,
+    "LinkStringDev": "스킬 덱을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 21000104,
+    "ErrorType": 13,
+    "LinkStringId": 1400186,
+    "LinkStringDev": "수정필요_스페셜스킬슬롯은사용불가"
+  },
+  {
+    "ErrorId": 24000000,
+    "ErrorType": 13,
+    "LinkStringId": 1078101,
+    "LinkStringDev": "외형 변경권이 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 24000001,
+    "ErrorType": 13,
+    "LinkStringId": 1078102,
+    "LinkStringDev": "외형변경권의 수량이 부족합니다."
+  },
+  {
+    "ErrorId": 24000002,
+    "ErrorType": 13,
+    "LinkStringId": 1078103,
+    "LinkStringDev": "커스터마이징 타입이 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 24000003,
+    "ErrorType": 13,
+    "LinkStringId": 1078104,
+    "LinkStringDev": "커스터마이징 값이 잘못되었습니다."
+  },
+  {
+    "ErrorId": 24000004,
+    "ErrorType": 0,
+    "LinkStringId": 1400570,
+    "LinkStringDev": "유저 스탯 범위 초과"
+  },
+  {
+    "ErrorId": 24100011,
+    "ErrorType": 21,
+    "LinkStringId": 1070028,
+    "LinkStringDev": "부활 후유증으로 인해 요청할 수 없습니다."
+  },
+  {
+    "ErrorId": 24100012,
+    "ErrorType": 21,
+    "LinkStringId": 1330218,
+    "LinkStringDev": "퀵슬롯 등록에 실패하였습니다. 잠시후 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 25000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400187,
+    "LinkStringDev": "탑승 가능한 탈것을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 25000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400188,
+    "LinkStringDev": "이미 획득한 탈것입니다."
+  },
+  {
+    "ErrorId": 25000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400189,
+    "LinkStringDev": "구매조건을 달성하지 못했습니다."
+  },
+  {
+    "ErrorId": 25000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400190,
+    "LinkStringDev": "찾을 수 없는 탈것입니다."
+  },
+  {
+    "ErrorId": 25000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400191,
+    "LinkStringDev": "최대까지 성장한 탈 것입니다."
+  },
+  {
+    "ErrorId": 25000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400192,
+    "LinkStringDev": "보유한 재료가 부족합니다."
+  },
+  {
+    "ErrorId": 25000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400193,
+    "LinkStringDev": "재료가 부족합니다."
+  },
+  {
+    "ErrorId": 25000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400194,
+    "LinkStringDev": "성장도가 부족합니다."
+  },
+  {
+    "ErrorId": 25000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400195,
+    "LinkStringDev": "최대 등급까지 성장을 완료 했습니다."
+  },
+  {
+    "ErrorId": 25000014,
+    "ErrorType": 13,
+    "LinkStringId": 1400583,
+    "LinkStringDev": "구입에 필요한 아이템이 없습니다."
+  },
+  {
+    "ErrorId": 25000015,
+    "ErrorType": 13,
+    "LinkStringId": 1400584,
+    "LinkStringDev": "구입에 필요한 아이템 갯수가 부족합니다."
+  },
+  {
+    "ErrorId": 25000016,
+    "ErrorType": 13,
+    "LinkStringId": 1400585,
+    "LinkStringDev": "구입에 필요한 머니가 부족합니다."
+  },
+  {
+    "ErrorId": 26000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400196,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 26000000)"
+  },
+  {
+    "ErrorId": 26000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400197,
+    "LinkStringDev": "레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 26000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400198,
+    "LinkStringDev": "퀘스트가 진행 중인 상태가 아닙니다."
+  },
+  {
+    "ErrorId": 26000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400199,
+    "LinkStringDev": "입장하기 위한 퀘스트를 완료하지 못했습니다."
+  },
+  {
+    "ErrorId": 26000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400200,
+    "LinkStringDev": "입장하기 위한 업적을 완료하지 못했습니다."
+  },
+  {
+    "ErrorId": 26000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400201,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 26000005)"
+  },
+  {
+    "ErrorId": 26000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400202,
+    "LinkStringDev": "재화가 부족합니다."
+  },
+  {
+    "ErrorId": 26000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400203,
+    "LinkStringDev": "해당 위치로는 아공행법을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 26000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400204,
+    "LinkStringDev": "현재와 동일한 위치로는 아공행법을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 26000009,
+    "ErrorType": 13,
+    "LinkStringId": 1400205,
+    "LinkStringDev": "파티에 가입한 상태로만 입장 가능한 던전입니다."
+  },
+  {
+    "ErrorId": 26000010,
+    "ErrorType": 13,
+    "LinkStringId": 1400206,
+    "LinkStringDev": "문파에 가입해야 입장할 수 있습니다."
+  },
+  {
+    "ErrorId": 26000011,
+    "ErrorType": 13,
+    "LinkStringId": 1400207,
+    "LinkStringDev": "하트가 부족합니다."
+  },
+  {
+    "ErrorId": 26000027,
+    "ErrorType": 13,
+    "LinkStringId": 1042858,
+    "LinkStringDev": "입장 가능 시간이 아닙니다."
+  },
+  {
+    "ErrorId": 26000034,
+    "ErrorType": 13,
+    "LinkStringId": 1600059,
+    "LinkStringDev": "입장하기 위한 위업을 달성하지 못했습니다."
+  },
+  {
+    "ErrorId": 27000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400208,
+    "LinkStringDev": "파티장이 아니어서 이동할 수 없습니다."
+  },
+  {
+    "ErrorId": 27000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400209,
+    "LinkStringDev": "채널 지역이 아니어서 이동할 수 없습니다."
+  },
+  {
+    "ErrorId": 27000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400210,
+    "LinkStringDev": "삭제된 채널입니다. 잠시후 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 27000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400211,
+    "LinkStringDev": "같은 채널로는 이동할 수 없습니다."
+  },
+  {
+    "ErrorId": 27000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400212,
+    "LinkStringDev": "시스템 에러가 발생하였습니다. (Code: 27000004)"
+  },
+  {
+    "ErrorId": 27000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400213,
+    "LinkStringDev": "채널이 포화상태라 이동할 수 없습니다."
+  },
+  {
+    "ErrorId": 27000006,
+    "ErrorType": 13,
+    "LinkStringId": 1019612,
+    "LinkStringDev": "인원이 가득차 입장할 수 없습니다."
+  },
+  {
+    "ErrorId": 27000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400590,
+    "LinkStringDev": "채널 대기열에 등록되어 채널을 이동할 수 없습니다."
+  },
+  {
+    "ErrorId": 27000008,
+    "ErrorType": 13,
+    "LinkStringId": 1020038,
+    "LinkStringDev": "서버와의 연결이 원활하지 않습니다."
+  },
+  {
+    "ErrorId": 29000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400214,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 29000000)"
+  },
+  {
+    "ErrorId": 29000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400215,
+    "LinkStringDev": "전투 중에는 할 수 없습니다."
+  },
+  {
+    "ErrorId": 29000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400216,
+    "LinkStringDev": "지금은 할 수 없습니다."
+  },
+  {
+    "ErrorId": 29000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400217,
+    "LinkStringDev": "진행 중인 상태입니다."
+  },
+  {
+    "ErrorId": 29000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400218,
+    "LinkStringDev": "지금은 할 수 없습니다."
+  },
+  {
+    "ErrorId": 29000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400219,
+    "LinkStringDev": "진기가 최대 보유량에 도달한 상태입니다."
+  },
+  {
+    "ErrorId": 29000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400220,
+    "LinkStringDev": "운기조식을 할 수 없는 장소입니다."
+  },
+  {
+    "ErrorId": 29000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400539,
+    "LinkStringDev": "전투 중에는 비상 탈출 기능을 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 31000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400221,
+    "LinkStringDev": "대상을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 35000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400222,
+    "LinkStringDev": "금일 무료 갱신 횟수를 모두 소모 했습니다."
+  },
+  {
+    "ErrorId": 35000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400223,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 35000001)"
+  },
+  {
+    "ErrorId": 35000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400224,
+    "LinkStringDev": "갱신 할 수 없습니다."
+  },
+  {
+    "ErrorId": 35000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400225,
+    "LinkStringDev": "모두 완료 했습니다."
+  },
+  {
+    "ErrorId": 35000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400226,
+    "LinkStringDev": "일일과제를 받을 수 없습니다."
+  },
+  {
+    "ErrorId": 35000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400227,
+    "LinkStringDev": "아직 완료하지 못했습니다."
+  },
+  {
+    "ErrorId": 35000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400228,
+    "LinkStringDev": "이미 완료한 과제입니다."
+  },
+  {
+    "ErrorId": 35000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400229,
+    "LinkStringDev": "수정필요_보상이 없음"
+  },
+  {
+    "ErrorId": 35000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400230,
+    "LinkStringDev": "수정필요_보상 갱신이 안됨"
+  },
+  {
+    "ErrorId": 35000009,
+    "ErrorType": 13,
+    "LinkStringId": 1400231,
+    "LinkStringDev": "수정필요_추가 보상이 없음"
+  },
+  {
+    "ErrorId": 35000011,
+    "ErrorType": 13,
+    "LinkStringId": 1006561,
+    "LinkStringDev": "일일 반복 횟수를 초과하여 더 이상 진행할 수 없습니다."
+  },
+  {
+    "ErrorId": 35000012,
+    "ErrorType": 13,
+    "LinkStringId": 1006562,
+    "LinkStringDev": "반복 횟수를 초과하여 보상을 받을 수 없습니다."
+  },
+  {
+    "ErrorId": 36000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400232,
+    "LinkStringDev": "수정필요_갱신 카운트가 없음"
+  },
+  {
+    "ErrorId": 36000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400233,
+    "LinkStringDev": "수정필요_잘못된 슬롯"
+  },
+  {
+    "ErrorId": 36000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400234,
+    "LinkStringDev": "수정필요_갱신할수 없음"
+  },
+  {
+    "ErrorId": 36000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400235,
+    "LinkStringDev": "모두 완료 했습니다."
+  },
+  {
+    "ErrorId": 36000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400236,
+    "LinkStringDev": "수정필요_받을수가 없음"
+  },
+  {
+    "ErrorId": 36000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400237,
+    "LinkStringDev": "수정필요_클리어 되지 않음"
+  },
+  {
+    "ErrorId": 36000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400238,
+    "LinkStringDev": "수정필요_이미 클리어됨"
+  },
+  {
+    "ErrorId": 36000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400239,
+    "LinkStringDev": "수정필요_보상이 없음"
+  },
+  {
+    "ErrorId": 36000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400240,
+    "LinkStringDev": "수정필요_보상 갱신이 안됨"
+  },
+  {
+    "ErrorId": 36000009,
+    "ErrorType": 13,
+    "LinkStringId": 1400241,
+    "LinkStringDev": "수정필요_일 보상이 없음"
+  },
+  {
+    "ErrorId": 36000010,
+    "ErrorType": 13,
+    "LinkStringId": 1400242,
+    "LinkStringDev": "수정필요_업적 보상이 없음"
+  },
+  {
+    "ErrorId": 37000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400243,
+    "LinkStringDev": "수정필요_PkMode를변경할수없습니다"
+  },
+  {
+    "ErrorId": 37000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400244,
+    "LinkStringDev": "수정필요_듀얼중에는PkMode를변경할수없습니다"
+  },
+  {
+    "ErrorId": 37000003,
+    "ErrorType": 21,
+    "LinkStringId": 1028125,
+    "LinkStringDev": "이미 현상금을 건 캐릭터이다."
+  },
+  {
+    "ErrorId": 37000004,
+    "ErrorType": 21,
+    "LinkStringId": 1028126,
+    "LinkStringDev": "추척할 수 없는 캐릭터이다."
+  },
+  {
+    "ErrorId": 37000005,
+    "ErrorType": 21,
+    "LinkStringId": 1400586,
+    "LinkStringDev": "현상수배 체크 캐릭터가 아니다"
+  },
+  {
+    "ErrorId": 37000006,
+    "ErrorType": 21,
+    "LinkStringId": 1400587,
+    "LinkStringDev": "현상수배가 걸리지 않은 캐릭터"
+  },
+  {
+    "ErrorId": 37000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400588,
+    "LinkStringDev": "PK 점수를 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 37000011,
+    "ErrorType": 21,
+    "LinkStringId": 2100236,
+    "LinkStringDev": "원정대용 MODE 는 선택할 수 없음"
+  },
+  {
+    "ErrorId": 37000013,
+    "ErrorType": 21,
+    "LinkStringId": 2100210,
+    "LinkStringDev": "자객모드 상태인 캐릭터는 이용을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 37000103,
+    "ErrorType": 13,
+    "LinkStringId": 2010079,
+    "LinkStringDev": "해당 캐릭터가 존재하지 않아서, 현상수배를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 38000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400245,
+    "LinkStringDev": "수정필요_타 유저 정보보기 : 존재하지 않는 유저입니다."
+  },
+  {
+    "ErrorId": 40000032,
+    "ErrorType": 21,
+    "LinkStringId": 1400539,
+    "LinkStringDev": "전투 중에는 비상탈출 기능을 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 41000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400246,
+    "LinkStringDev": "오류가 발생했습니다.(Code: 41000000)"
+  },
+  {
+    "ErrorId": 41000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400247,
+    "LinkStringDev": "수정필요_지도 구간은 현재 단계가 아님"
+  },
+  {
+    "ErrorId": 41000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400248,
+    "LinkStringDev": "수정필요_지도 길 찾기 추가 실패"
+  },
+  {
+    "ErrorId": 41000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400249,
+    "LinkStringDev": "수정필요_지도 형식 안함"
+  },
+  {
+    "ErrorId": 45000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400250,
+    "LinkStringDev": "수정필요_잘못된 길드 정보 요청"
+  },
+  {
+    "ErrorId": 45000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400251,
+    "LinkStringDev": "수정필요_레벨부족"
+  },
+  {
+    "ErrorId": 45000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400252,
+    "LinkStringDev": "수정필요_대상의레벨부족"
+  },
+  {
+    "ErrorId": 45000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400253,
+    "LinkStringDev": "수정필요_비용부족"
+  },
+  {
+    "ErrorId": 45000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400254,
+    "LinkStringDev": "수정필요_잘못된길드마크"
+  },
+  {
+    "ErrorId": 45000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400255,
+    "LinkStringDev": "수정필요_이름이너무짧다"
+  },
+  {
+    "ErrorId": 45000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400256,
+    "LinkStringDev": "수정필요_이름이너무길다"
+  },
+  {
+    "ErrorId": 45000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400257,
+    "LinkStringDev": "수정필요_공지가너무길다"
+  },
+  {
+    "ErrorId": 45000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400258,
+    "LinkStringDev": "수정필요_PR이너무길다"
+  },
+  {
+    "ErrorId": 45000009,
+    "ErrorType": 13,
+    "LinkStringId": 1400259,
+    "LinkStringDev": "수정필요_이미존재하는길드이름"
+  },
+  {
+    "ErrorId": 45000010,
+    "ErrorType": 13,
+    "LinkStringId": 1400260,
+    "LinkStringDev": "수정필요_없는길드"
+  },
+  {
+    "ErrorId": 45000011,
+    "ErrorType": 13,
+    "LinkStringId": 1400261,
+    "LinkStringDev": "수정필요_없는대상길드"
+  },
+  {
+    "ErrorId": 45000012,
+    "ErrorType": 13,
+    "LinkStringId": 1400262,
+    "LinkStringDev": "수정필요_해당길드를찾을수없습니다."
+  },
+  {
+    "ErrorId": 45000013,
+    "ErrorType": 13,
+    "LinkStringId": 1400263,
+    "LinkStringDev": "수정필요_길드데이터로딩중"
+  },
+  {
+    "ErrorId": 45000014,
+    "ErrorType": 13,
+    "LinkStringId": 1400264,
+    "LinkStringDev": "수정필요_이미전쟁중인길드"
+  },
+  {
+    "ErrorId": 45000015,
+    "ErrorType": 13,
+    "LinkStringId": 1400265,
+    "LinkStringDev": "수정필요_이미길드가있다"
+  },
+  {
+    "ErrorId": 45000016,
+    "ErrorType": 13,
+    "LinkStringId": 1400266,
+    "LinkStringDev": "수정필요_이미길드생성중"
+  },
+  {
+    "ErrorId": 45000017,
+    "ErrorType": 13,
+    "LinkStringId": 1400330,
+    "LinkStringDev": "해당 유저를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 45000018,
+    "ErrorType": 13,
+    "LinkStringId": 1400362,
+    "LinkStringDev": "특수 문자는 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 45000019,
+    "ErrorType": 21,
+    "LinkStringId": 1400421,
+    "LinkStringDev": "잘못된 문자열."
+  },
+  {
+    "ErrorId": 45000020,
+    "ErrorType": 13,
+    "LinkStringId": 1400267,
+    "LinkStringDev": "수정필요_남은멤버가있다"
+  },
+  {
+    "ErrorId": 45000021,
+    "ErrorType": 13,
+    "LinkStringId": 1400268,
+    "LinkStringDev": "수정필요_해당멤버가없다"
+  },
+  {
+    "ErrorId": 45000022,
+    "ErrorType": 13,
+    "LinkStringId": 1400269,
+    "LinkStringDev": "수정필요_멤버가아니다"
+  },
+  {
+    "ErrorId": 45000023,
+    "ErrorType": 13,
+    "LinkStringId": 1400270,
+    "LinkStringDev": "수정필요_길드마스터가아니다"
+  },
+  {
+    "ErrorId": 45000024,
+    "ErrorType": 13,
+    "LinkStringId": 1400271,
+    "LinkStringDev": "수정필요_멤버인원이가득찼습니다"
+  },
+  {
+    "ErrorId": 45000025,
+    "ErrorType": 13,
+    "LinkStringId": 1400272,
+    "LinkStringDev": "수정필요_멤버생성실패"
+  },
+  {
+    "ErrorId": 45000026,
+    "ErrorType": 13,
+    "LinkStringId": 1400273,
+    "LinkStringDev": "권한이 없습니다."
+  },
+  {
+    "ErrorId": 45000027,
+    "ErrorType": 13,
+    "LinkStringId": 1400331,
+    "LinkStringDev": "먼저 처리가 되고 있는 작업이 있어서 기다려야 함"
+  },
+  {
+    "ErrorId": 45000028,
+    "ErrorType": 21,
+    "LinkStringId": 1400422,
+    "LinkStringDev": "문파원 모집을 하지 않는 문파입니다."
+  },
+  {
+    "ErrorId": 45000029,
+    "ErrorType": 21,
+    "LinkStringId": 1400423,
+    "LinkStringDev": "문파재화가 부족합니다."
+  },
+  {
+    "ErrorId": 45000030,
+    "ErrorType": 13,
+    "LinkStringId": 1400274,
+    "LinkStringDev": "수정필요_초대할타겟이없다"
+  },
+  {
+    "ErrorId": 45000031,
+    "ErrorType": 13,
+    "LinkStringId": 1400275,
+    "LinkStringDev": "수정필요_타겟이이미길드가있다"
+  },
+  {
+    "ErrorId": 45000032,
+    "ErrorType": 13,
+    "LinkStringId": 1400276,
+    "LinkStringDev": "수정필요_초대중인멤버가아닙니다"
+  },
+  {
+    "ErrorId": 45000033,
+    "ErrorType": 13,
+    "LinkStringId": 1400277,
+    "LinkStringDev": "수정필요_초대가능신청수가다찼습니다"
+  },
+  {
+    "ErrorId": 45000034,
+    "ErrorType": 13,
+    "LinkStringId": 1400332,
+    "LinkStringDev": "이미 초대한 유저입니다."
+  },
+  {
+    "ErrorId": 45000035,
+    "ErrorType": 13,
+    "LinkStringId": 1400333,
+    "LinkStringDev": "타겟 유저의 초대가능 수가 다 찼습니다."
+  },
+  {
+    "ErrorId": 45000038,
+    "ErrorType": 21,
+    "LinkStringId": 1400427,
+    "LinkStringDev": "전쟁 중이어서 실패"
+  },
+  {
+    "ErrorId": 45000040,
+    "ErrorType": 21,
+    "LinkStringId": 1400429,
+    "LinkStringDev": "길드전 중에는 정보를 변경 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45000041,
+    "ErrorType": 21,
+    "LinkStringId": 1400430,
+    "LinkStringDev": "올바르지 않은 옵션 타입입니다."
+  },
+  {
+    "ErrorId": 45000042,
+    "ErrorType": 21,
+    "LinkStringId": 1400431,
+    "LinkStringDev": "올바르지 않은 옵션 값입니다."
+  },
+  {
+    "ErrorId": 45000043,
+    "ErrorType": 21,
+    "LinkStringId": 1400432,
+    "LinkStringDev": "올바르지 명성 타입입니다."
+  },
+  {
+    "ErrorId": 45000046,
+    "ErrorType": 21,
+    "LinkStringId": 1400461,
+    "LinkStringDev": "길드 척살대상 상태입니다."
+  },
+  {
+    "ErrorId": 45000047,
+    "ErrorType": 21,
+    "LinkStringId": 1400462,
+    "LinkStringDev": "길드가 존재합니다"
+  },
+  {
+    "ErrorId": 45000049,
+    "ErrorType": 21,
+    "LinkStringId": 1400479,
+    "LinkStringDev": "호법으로 지정하려는 유저는 이미 다른 멤버의 호법으로 지정되어있습니다"
+  },
+  {
+    "ErrorId": 45000050,
+    "ErrorType": 21,
+    "LinkStringId": 1400480,
+    "LinkStringDev": "대상을 호법으로 지정 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45000051,
+    "ErrorType": 21,
+    "LinkStringId": 1400571,
+    "LinkStringDev": "멤버 인원이 최대치를 넘었습니다."
+  },
+  {
+    "ErrorId": 45000053,
+    "ErrorType": 21,
+    "LinkStringId": 1400594,
+    "LinkStringDev": "동맹 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 45000054,
+    "ErrorType": 21,
+    "LinkStringId": 2100071,
+    "LinkStringDev": "원정대 진행 중에는 초대를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45000055,
+    "ErrorType": 21,
+    "LinkStringId": 2100072,
+    "LinkStringDev": "원정대 진행 중에는 사용할 수 없는 기능입니다."
+  },
+  {
+    "ErrorId": 45011001,
+    "ErrorType": 13,
+    "LinkStringId": 1400334,
+    "LinkStringDev": "적대 길드가 존재합니다."
+  },
+  {
+    "ErrorId": 45011002,
+    "ErrorType": 13,
+    "LinkStringId": 1400335,
+    "LinkStringDev": "적대 길드정보를 지우는 중입니다. 잠시 후 다시 진행해주세요."
+  },
+  {
+    "ErrorId": 45011003,
+    "ErrorType": 13,
+    "LinkStringId": 1400355,
+    "LinkStringDev": "동맹 길드가 존재합니다. 동맹길드를 제거해 주세요."
+  },
+  {
+    "ErrorId": 45011004,
+    "ErrorType": 13,
+    "LinkStringId": 1400356,
+    "LinkStringDev": "동맹 길드 신청 정보가 존재합니다. 동맹길드를 신청을 취소해 주세요."
+  },
+  {
+    "ErrorId": 45011005,
+    "ErrorType": 13,
+    "LinkStringId": 1400357,
+    "LinkStringDev": "동맹 길드 신청을 받은 정보가 존재합니다. 신청을 거절해 주세요."
+  },
+  {
+    "ErrorId": 45011006,
+    "ErrorType": 13,
+    "LinkStringId": 1400602,
+    "LinkStringDev": "야인 원정대 중에는 문파를 해체 할 수 없습니다"
+  },
+  {
+    "ErrorId": 45011007,
+    "ErrorType": 21,
+    "LinkStringId": 2100241,
+    "LinkStringDev": "정복서버 이용중에는 문파를 해체 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45050000,
+    "ErrorType": 13,
+    "LinkStringId": 1400278,
+    "LinkStringDev": "수정필요_가입신청이불가능한길드입니다"
+  },
+  {
+    "ErrorId": 45050001,
+    "ErrorType": 13,
+    "LinkStringId": 1400279,
+    "LinkStringDev": "수정필요_가입신청이가능수가다찼습니다"
+  },
+  {
+    "ErrorId": 45050002,
+    "ErrorType": 13,
+    "LinkStringId": 1400280,
+    "LinkStringDev": "수정필요_가입신청을한유저가아닙니다"
+  },
+  {
+    "ErrorId": 45050003,
+    "ErrorType": 13,
+    "LinkStringId": 1400281,
+    "LinkStringDev": "가입 신청을한 기록이 없음"
+  },
+  {
+    "ErrorId": 45050004,
+    "ErrorType": 13,
+    "LinkStringId": 1400365,
+    "LinkStringDev": "이미 초대를 받았습니다."
+  },
+  {
+    "ErrorId": 45050005,
+    "ErrorType": 21,
+    "LinkStringId": 1400424,
+    "LinkStringDev": "가입 신청이 가능 수가 다 찼습니다"
+  },
+  {
+    "ErrorId": 45050006,
+    "ErrorType": 21,
+    "LinkStringId": 1400437,
+    "LinkStringDev": "가입 신청이 정보를 로딩 중입니다."
+  },
+  {
+    "ErrorId": 45080000,
+    "ErrorType": 13,
+    "LinkStringId": 1400363,
+    "LinkStringDev": "문주는 탈퇴할 수 없습니다."
+  },
+  {
+    "ErrorId": 45080001,
+    "ErrorType": 13,
+    "LinkStringId": 1400603,
+    "LinkStringDev": "야인 원정대 중에는 문파를 탈퇴할 수 없습니다."
+  },
+  {
+    "ErrorId": 45080002,
+    "ErrorType": 21,
+    "LinkStringId": 2100080,
+    "LinkStringDev": "원정대 참여 중인 문파원은 추방할 수 없습니다."
+  },
+  {
+    "ErrorId": 45080003,
+    "ErrorType": 21,
+    "LinkStringId": 2100242,
+    "LinkStringDev": "정복서버 이용중에는 멤버 탈퇴를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45080004,
+    "ErrorType": 21,
+    "LinkStringId": 2100243,
+    "LinkStringDev": "정복서버 이용중에는 멤버 추방을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45100001,
+    "ErrorType": 13,
+    "LinkStringId": 1400282,
+    "LinkStringDev": "선전포고 가능 횟수 초과"
+  },
+  {
+    "ErrorId": 45100002,
+    "ErrorType": 13,
+    "LinkStringId": 1400336,
+    "LinkStringDev": "선전포고 데이터 처리 오류"
+  },
+  {
+    "ErrorId": 45100003,
+    "ErrorType": 13,
+    "LinkStringId": 1400358,
+    "LinkStringDev": "선전포고 상대 길드와 동맹중입니다."
+  },
+  {
+    "ErrorId": 45100004,
+    "ErrorType": 13,
+    "LinkStringId": 1400359,
+    "LinkStringDev": "항복이 불가능한 시간입니다."
+  },
+  {
+    "ErrorId": 45100005,
+    "ErrorType": 13,
+    "LinkStringId": 1400360,
+    "LinkStringDev": "적대 길드 정보가 없습니다."
+  },
+  {
+    "ErrorId": 45100006,
+    "ErrorType": 21,
+    "LinkStringId": 1400455,
+    "LinkStringDev": "적대 길드의 수가 최대입니다."
+  },
+  {
+    "ErrorId": 45100007,
+    "ErrorType": 21,
+    "LinkStringId": 1400456,
+    "LinkStringDev": "상대 길드 적대 길드수가 최대입니다."
+  },
+  {
+    "ErrorId": 45128001,
+    "ErrorType": 21,
+    "LinkStringId": 1400453,
+    "LinkStringDev": "직책을 줄 수 있는 상태가 아닙니다."
+  },
+  {
+    "ErrorId": 45128002,
+    "ErrorType": 21,
+    "LinkStringId": 1400454,
+    "LinkStringDev": "이미 다른 사람이 존재하는 직책입니다."
+  },
+  {
+    "ErrorId": 45130001,
+    "ErrorType": 13,
+    "LinkStringId": 1400337,
+    "LinkStringDev": "존재하지 않는 길드 등급입니다."
+  },
+  {
+    "ErrorId": 45130002,
+    "ErrorType": 21,
+    "LinkStringId": 1400426,
+    "LinkStringDev": "존재하지 않는 멤버 등급 옵션입니다."
+  },
+  {
+    "ErrorId": 45130003,
+    "ErrorType": 21,
+    "LinkStringId": 1400442,
+    "LinkStringDev": "존재하지 않는 권한 타입입니다."
+  },
+  {
+    "ErrorId": 45131001,
+    "ErrorType": 13,
+    "LinkStringId": 1400338,
+    "LinkStringDev": "길드 등급이름이 너무 깁니다."
+  },
+  {
+    "ErrorId": 45131002,
+    "ErrorType": 13,
+    "LinkStringId": 1400339,
+    "LinkStringDev": "길드 등급이름이 너무 짧습니다."
+  },
+  {
+    "ErrorId": 45131005,
+    "ErrorType": 21,
+    "LinkStringId": 1400428,
+    "LinkStringDev": "레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 45131006,
+    "ErrorType": 21,
+    "LinkStringId": 1400441,
+    "LinkStringDev": "이 문파에 가입하기 위한 전투력이 부족합니다."
+  },
+  {
+    "ErrorId": 45140001,
+    "ErrorType": 21,
+    "LinkStringId": 1400433,
+    "LinkStringDev": "기존과 같은 길드 이름입니다."
+  },
+  {
+    "ErrorId": 45140002,
+    "ErrorType": 21,
+    "LinkStringId": 1400434,
+    "LinkStringDev": "기존과 같은 길드 문양입니다."
+  },
+  {
+    "ErrorId": 45154001,
+    "ErrorType": 13,
+    "LinkStringId": 1400340,
+    "LinkStringDev": "잘못된 기부 인덱스 번호입니다."
+  },
+  {
+    "ErrorId": 45154002,
+    "ErrorType": 13,
+    "LinkStringId": 1400341,
+    "LinkStringDev": "기부 리소스의 인덱스 번호가 없는 번호 입니다."
+  },
+  {
+    "ErrorId": 45154003,
+    "ErrorType": 13,
+    "LinkStringId": 1400342,
+    "LinkStringDev": "기부 재료가 없습니다."
+  },
+  {
+    "ErrorId": 45154004,
+    "ErrorType": 13,
+    "LinkStringId": 1400343,
+    "LinkStringDev": "기부 재료가 부족합니다."
+  },
+  {
+    "ErrorId": 45154005,
+    "ErrorType": 13,
+    "LinkStringId": 1400344,
+    "LinkStringDev": "비용이 부족합니다."
+  },
+  {
+    "ErrorId": 45154006,
+    "ErrorType": 13,
+    "LinkStringId": 1400345,
+    "LinkStringDev": "보유 할 수 있는 최대 재화를 초과했습니다."
+  },
+  {
+    "ErrorId": 45154007,
+    "ErrorType": 13,
+    "LinkStringId": 1400346,
+    "LinkStringDev": "인벤토리가 가득찼습니다."
+  },
+  {
+    "ErrorId": 45154008,
+    "ErrorType": 13,
+    "LinkStringId": 1400347,
+    "LinkStringDev": "기부 정보를 로드하지 않았습니다."
+  },
+  {
+    "ErrorId": 45154009,
+    "ErrorType": 13,
+    "LinkStringId": 1400348,
+    "LinkStringDev": "더 이상 기부 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45154010,
+    "ErrorType": 13,
+    "LinkStringId": 1400349,
+    "LinkStringDev": "더 이상 기부 횟수를 초기화 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45154011,
+    "ErrorType": 13,
+    "LinkStringId": 1400350,
+    "LinkStringDev": "기부 횟수가 최대가 아니어서 초기화를 진행 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45154012,
+    "ErrorType": 21,
+    "LinkStringId": 1400572,
+    "LinkStringDev": "//생길리 없는 버그 그냥 안전코드"
+  },
+  {
+    "ErrorId": 45154013,
+    "ErrorType": 21,
+    "LinkStringId": 1400573,
+    "LinkStringDev": "//기부 아이템이 부족합니다."
+  },
+  {
+    "ErrorId": 45154014,
+    "ErrorType": 21,
+    "LinkStringId": 1400591,
+    "LinkStringDev": "// 오늘은 더 이상 기부를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45154015,
+    "ErrorType": 21,
+    "LinkStringId": 1400605,
+    "LinkStringDev": "//문파 가입 후 일정 시간 동안 기부를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45154016,
+    "ErrorType": 21,
+    "LinkStringId": 1063919,
+    "LinkStringDev": "캐릭터 레벨이 부족하여 기부를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45190030,
+    "ErrorType": 23,
+    "LinkStringId": 1063020,
+    "LinkStringDev": "동맹숫자가 최대치여서 더 이상 동맹을 맺을 수 없습니다."
+  },
+  {
+    "ErrorId": 45190031,
+    "ErrorType": 23,
+    "LinkStringId": 1400485,
+    "LinkStringDev": "더 이상 동맹 요청을 받을 수 없습니다."
+  },
+  {
+    "ErrorId": 45190032,
+    "ErrorType": 23,
+    "LinkStringId": 1400486,
+    "LinkStringDev": "동맹 요청을 받지 않는 문파입니다."
+  },
+  {
+    "ErrorId": 45190033,
+    "ErrorType": 23,
+    "LinkStringId": 1400487,
+    "LinkStringDev": "동맹 요청을 하지 않은 문파입니다."
+  },
+  {
+    "ErrorId": 45190034,
+    "ErrorType": 23,
+    "LinkStringId": 1400488,
+    "LinkStringDev": "동맹 요청을 취소한 문파입니다."
+  },
+  {
+    "ErrorId": 45190035,
+    "ErrorType": 23,
+    "LinkStringId": 1400489,
+    "LinkStringDev": "더 이상 동맹 요청을 받을 수 없는 문파입니다."
+  },
+  {
+    "ErrorId": 45190036,
+    "ErrorType": 23,
+    "LinkStringId": 1400490,
+    "LinkStringDev": "더 이상 동맹 요청을 받을 수 없는 문파입니다."
+  },
+  {
+    "ErrorId": 45190037,
+    "ErrorType": 23,
+    "LinkStringId": 1400491,
+    "LinkStringDev": "전쟁중인 문파여서 동맹을 맺을 수 없습니다."
+  },
+  {
+    "ErrorId": 45190038,
+    "ErrorType": 23,
+    "LinkStringId": 1400492,
+    "LinkStringDev": "이미 동맹을 맺은 문파입니다."
+  },
+  {
+    "ErrorId": 45190039,
+    "ErrorType": 13,
+    "LinkStringId": 1400364,
+    "LinkStringDev": "이미 동맹이 해제된 문파입니다."
+  },
+  {
+    "ErrorId": 45190040,
+    "ErrorType": 13,
+    "LinkStringId": 1400361,
+    "LinkStringDev": "이미 상대에게 동맹 신청을 받았습니다."
+  },
+  {
+    "ErrorId": 45190042,
+    "ErrorType": 21,
+    "LinkStringId": 1400425,
+    "LinkStringDev": "상대 길드는 동맹 신청 거부 상태 입니다."
+  },
+  {
+    "ErrorId": 45190043,
+    "ErrorType": 21,
+    "LinkStringId": 1400592,
+    "LinkStringDev": "점령전이 진행중일 때는 동맹 요청, 수락 및 해제를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45190044,
+    "ErrorType": 21,
+    "LinkStringId": 1042862,
+    "LinkStringDev": "공성전을 진행 중인 동안에는 동맹을 결성하거나 해제할 수 없습니다"
+  },
+  {
+    "ErrorId": 45190045,
+    "ErrorType": 21,
+    "LinkStringId": 1042863,
+    "LinkStringDev": "공성전을 진행 중인 문파와는 동맹을 결성하거나 해제할 수 없습니다."
+  },
+  {
+    "ErrorId": 45200001,
+    "ErrorType": 13,
+    "LinkStringId": 1400391,
+    "LinkStringDev": "문파를 탈퇴할 수 없습니다."
+  },
+  {
+    "ErrorId": 45200002,
+    "ErrorType": 13,
+    "LinkStringId": 1400392,
+    "LinkStringDev": "문파 파티 가입 상태에서는 문파를 탈퇴할 수 없습니다."
+  },
+  {
+    "ErrorId": 45200003,
+    "ErrorType": 13,
+    "LinkStringId": 1400393,
+    "LinkStringDev": "문파를 해체할 수 없습니다."
+  },
+  {
+    "ErrorId": 45200004,
+    "ErrorType": 13,
+    "LinkStringId": 1400394,
+    "LinkStringDev": "문파 파티 가입 상태에서는 문파를 해체할 수 없습니다."
+  },
+  {
+    "ErrorId": 45200005,
+    "ErrorType": 13,
+    "LinkStringId": 1400596,
+    "LinkStringDev": "공성전에 참가 중일 때는 이용할 수 없습니다."
+  },
+  {
+    "ErrorId": 45200006,
+    "ErrorType": 13,
+    "LinkStringId": 1400596,
+    "LinkStringDev": "공성전에 참가 중일 때는 이용할 수 없습니다."
+  },
+  {
+    "ErrorId": 45220001,
+    "ErrorType": 21,
+    "LinkStringId": 1400395,
+    "LinkStringDev": "잠긴 보급입니다."
+  },
+  {
+    "ErrorId": 45220002,
+    "ErrorType": 21,
+    "LinkStringId": 1400396,
+    "LinkStringDev": "보급 가능 시간이 아직 되지 않았습니다."
+  },
+  {
+    "ErrorId": 45230001,
+    "ErrorType": 23,
+    "LinkStringId": 1400493,
+    "LinkStringDev": "잠겨있는발전입니다"
+  },
+  {
+    "ErrorId": 45230002,
+    "ErrorType": 23,
+    "LinkStringId": 1400494,
+    "LinkStringDev": "발전레벨이최대치입니다"
+  },
+  {
+    "ErrorId": 45230003,
+    "ErrorType": 23,
+    "LinkStringId": 1400495,
+    "LinkStringDev": "발전에필요한경험치가부족합니다"
+  },
+  {
+    "ErrorId": 45230004,
+    "ErrorType": 23,
+    "LinkStringId": 1400496,
+    "LinkStringDev": "이미레벨업진행중입니다"
+  },
+  {
+    "ErrorId": 45230005,
+    "ErrorType": 23,
+    "LinkStringId": 1400497,
+    "LinkStringDev": "발전경험치가최대치입니다"
+  },
+  {
+    "ErrorId": 45230006,
+    "ErrorType": 23,
+    "LinkStringId": 1400498,
+    "LinkStringDev": "레벨업시간이아직끝나지않았습니다"
+  },
+  {
+    "ErrorId": 45230007,
+    "ErrorType": 23,
+    "LinkStringId": 1400499,
+    "LinkStringDev": "레벨업아직시작되지않았습니다"
+  },
+  {
+    "ErrorId": 45230008,
+    "ErrorType": 13,
+    "LinkStringId": 0,
+    "LinkStringDev": "문파발전 추천은 1개만 가능합니다."
+  },
+  {
+    "ErrorId": 45230010,
+    "ErrorType": 23,
+    "LinkStringId": 1400500,
+    "LinkStringDev": "문파 연구에 실패 했습니다."
+  },
+  {
+    "ErrorId": 45230011,
+    "ErrorType": 13,
+    "LinkStringId": 1400523,
+    "LinkStringDev": "문파 기술은 레벨 업 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45230012,
+    "ErrorType": 21,
+    "LinkStringId": 1400574,
+    "LinkStringDev": "스킬을사용할수 없음"
+  },
+  {
+    "ErrorId": 45230013,
+    "ErrorType": 21,
+    "LinkStringId": 1400575,
+    "LinkStringDev": "스킬 포인트 부족"
+  },
+  {
+    "ErrorId": 45230014,
+    "ErrorType": 13,
+    "LinkStringId": 1400533,
+    "LinkStringDev": "해당 기술은 이미 사용중입니다."
+  },
+  {
+    "ErrorId": 45290001,
+    "ErrorType": 21,
+    "LinkStringId": 1400457,
+    "LinkStringDev": "같은 깉드의 유저는 등록할 수 없습니다."
+  },
+  {
+    "ErrorId": 45290002,
+    "ErrorType": 21,
+    "LinkStringId": 1400458,
+    "LinkStringDev": "이미 등록 되어 있는 유저 입니다."
+  },
+  {
+    "ErrorId": 45290003,
+    "ErrorType": 21,
+    "LinkStringId": 1400459,
+    "LinkStringDev": "더 이상 척살 등록을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45290004,
+    "ErrorType": 21,
+    "LinkStringId": 1400460,
+    "LinkStringDev": "척살 등록에 실패했습니다."
+  },
+  {
+    "ErrorId": 45290005,
+    "ErrorType": 13,
+    "LinkStringId": 1400589,
+    "LinkStringDev": "동맹 문파원은 척살 대상자로 등록할 수 없습니다."
+  },
+  {
+    "ErrorId": 45290006,
+    "ErrorType": 21,
+    "LinkStringId": 2100073,
+    "LinkStringDev": "원정대 진행 중에는 척살 등록을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45300001,
+    "ErrorType": 21,
+    "LinkStringId": 1400538,
+    "LinkStringDev": "문파상점의 상품 개수가 부족합니다."
+  },
+  {
+    "ErrorId": 45400001,
+    "ErrorType": 13,
+    "LinkStringId": 1400501,
+    "LinkStringDev": "길드 금자가 너무 많아 상점을 오픈 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45400002,
+    "ErrorType": 13,
+    "LinkStringId": 1400502,
+    "LinkStringDev": "팔려는 재화가 MAX를 넘었습니다."
+  },
+  {
+    "ErrorId": 45400003,
+    "ErrorType": 13,
+    "LinkStringId": 1400503,
+    "LinkStringDev": "영지가 없어 상점을 오픈 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45400004,
+    "ErrorType": 13,
+    "LinkStringId": 1400504,
+    "LinkStringDev": "상점이 이미 오픈되어 있습니다."
+  },
+  {
+    "ErrorId": 45400005,
+    "ErrorType": 13,
+    "LinkStringId": 1400505,
+    "LinkStringDev": "상점이 비어있지 않습니다."
+  },
+  {
+    "ErrorId": 45400006,
+    "ErrorType": 13,
+    "LinkStringId": 1400506,
+    "LinkStringDev": "오늘은 더이상 상점을 열 수 없습니다."
+  },
+  {
+    "ErrorId": 45400007,
+    "ErrorType": 13,
+    "LinkStringId": 1400507,
+    "LinkStringDev": "상점이 열려있지 않습니다."
+  },
+  {
+    "ErrorId": 45400008,
+    "ErrorType": 13,
+    "LinkStringId": 1400508,
+    "LinkStringDev": "상점이 비어 있습니다."
+  },
+  {
+    "ErrorId": 45400009,
+    "ErrorType": 13,
+    "LinkStringId": 1400509,
+    "LinkStringDev": "설정된 가격이 너무 낮습니다."
+  },
+  {
+    "ErrorId": 45400010,
+    "ErrorType": 13,
+    "LinkStringId": 1400510,
+    "LinkStringDev": "설정된 가격이 너무 높습니다."
+  },
+  {
+    "ErrorId": 45400011,
+    "ErrorType": 13,
+    "LinkStringId": 1400511,
+    "LinkStringDev": "상품 수량이 부족합니다."
+  },
+  {
+    "ErrorId": 45400012,
+    "ErrorType": 13,
+    "LinkStringId": 1400512,
+    "LinkStringDev": "상품 판매가 중단되었습니다."
+  },
+  {
+    "ErrorId": 45400013,
+    "ErrorType": 13,
+    "LinkStringId": 1400513,
+    "LinkStringDev": "상품 판매가 중단되었습니다."
+  },
+  {
+    "ErrorId": 45400015,
+    "ErrorType": 13,
+    "LinkStringId": 1400516,
+    "LinkStringDev": "문파동맹 개방 불가"
+  },
+  {
+    "ErrorId": 45400016,
+    "ErrorType": 13,
+    "LinkStringId": 1400517,
+    "LinkStringDev": "문파전쟁 개방 불가"
+  },
+  {
+    "ErrorId": 45400017,
+    "ErrorType": 13,
+    "LinkStringId": 1400518,
+    "LinkStringDev": "문파척살 개방 불가"
+  },
+  {
+    "ErrorId": 45400018,
+    "ErrorType": 13,
+    "LinkStringId": 1400519,
+    "LinkStringDev": "문파상점 상품 개방 불가"
+  },
+  {
+    "ErrorId": 45400019,
+    "ErrorType": 13,
+    "LinkStringId": 1400520,
+    "LinkStringDev": "문파원정 순차 개방 불가"
+  },
+  {
+    "ErrorId": 45400020,
+    "ErrorType": 13,
+    "LinkStringId": 1400521,
+    "LinkStringDev": "기본선물 추가 선물 생성"
+  },
+  {
+    "ErrorId": 45400021,
+    "ErrorType": 13,
+    "LinkStringId": 1400522,
+    "LinkStringDev": "문파흑철이 부족하여 판매를 시작할 수 없습니다."
+  },
+  {
+    "ErrorId": 45400022,
+    "ErrorType": 13,
+    "LinkStringId": 1400604,
+    "LinkStringDev": "// 야인 원정대 중에는 흑철 상점을 이용 할 수 없습니다."
+  },
+  {
+    "ErrorId": 46000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400283,
+    "LinkStringDev": "점령중인 문파가 없습니다."
+  },
+  {
+    "ErrorId": 46000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400284,
+    "LinkStringDev": "점령중인 문파원이 없습니다."
+  },
+  {
+    "ErrorId": 46000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400285,
+    "LinkStringDev": "이미 점령된 전장입니다."
+  },
+  {
+    "ErrorId": 46000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400286,
+    "LinkStringDev": "공성전 정보를 저장하지 못했습니다."
+  },
+  {
+    "ErrorId": 46000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400287,
+    "LinkStringDev": "공성전이 진행중이 아니어서 점령할 수 없습니다."
+  },
+  {
+    "ErrorId": 46000008,
+    "ErrorType": 21,
+    "LinkStringId": 1400467,
+    "LinkStringDev": "존재하지 않는 공성전 정보입니다."
+  },
+  {
+    "ErrorId": 46000009,
+    "ErrorType": 21,
+    "LinkStringId": 1400468,
+    "LinkStringDev": "공성전 조건에 맞지 않습니다."
+  },
+  {
+    "ErrorId": 46000010,
+    "ErrorType": 21,
+    "LinkStringId": 1400469,
+    "LinkStringDev": "공성전 권한이 없습니다."
+  },
+  {
+    "ErrorId": 46000011,
+    "ErrorType": 21,
+    "LinkStringId": 1400470,
+    "LinkStringDev": "재 입찰 대기시간이 존재합니다."
+  },
+  {
+    "ErrorId": 46000012,
+    "ErrorType": 21,
+    "LinkStringId": 1400471,
+    "LinkStringDev": "입찰 금액이 부족합니다. 갱신 버튼을 터치해보세요."
+  },
+  {
+    "ErrorId": 46000013,
+    "ErrorType": 21,
+    "LinkStringId": 1400472,
+    "LinkStringDev": "최저 입찰금액 이상 입찰해야 합니다."
+  },
+  {
+    "ErrorId": 46000014,
+    "ErrorType": 21,
+    "LinkStringId": 1400473,
+    "LinkStringDev": "이미 입찰하여 다시 입찰할 수 없습니다."
+  },
+  {
+    "ErrorId": 46000015,
+    "ErrorType": 21,
+    "LinkStringId": 1400474,
+    "LinkStringDev": "공성전 진행이 결정된 문파는 입찰할 수 없습니다."
+  },
+  {
+    "ErrorId": 46000016,
+    "ErrorType": 21,
+    "LinkStringId": 1042842,
+    "LinkStringDev": "문파발전에서 수비대형을 발전시켜야 합니다."
+  },
+  {
+    "ErrorId": 46000017,
+    "ErrorType": 21,
+    "LinkStringId": 1042872,
+    "LinkStringDev": "최초 입찰 시에는 최저 입찰 금액만 입력할 수 있습니다."
+  },
+  {
+    "ErrorId": 46000020,
+    "ErrorType": 21,
+    "LinkStringId": 1400435,
+    "LinkStringDev": "상황판 갱신에 실패했습니다."
+  },
+  {
+    "ErrorId": 46000022,
+    "ErrorType": 21,
+    "LinkStringId": 1042843,
+    "LinkStringDev": "최근에 랭킹이 갱신되어 새로운 정보를 불러올 수 없습니다."
+  },
+  {
+    "ErrorId": 46000023,
+    "ErrorType": 13,
+    "LinkStringId": 1042844,
+    "LinkStringDev": "공성무기를 구입할 수 없는 상태입니다."
+  },
+  {
+    "ErrorId": 46000024,
+    "ErrorType": 21,
+    "LinkStringId": 1042869,
+    "LinkStringDev": "관리 중인 공성무기가 존재합니다. 파괴될 때까지 추가로 공성무기를 구입할 수 없습니다."
+  },
+  {
+    "ErrorId": 46000025,
+    "ErrorType": 21,
+    "LinkStringId": 1042845,
+    "LinkStringDev": "공성무기 구입을 처리 중에 있습니다."
+  },
+  {
+    "ErrorId": 46000026,
+    "ErrorType": 21,
+    "LinkStringId": 1042838,
+    "LinkStringDev": "설치 중인 공성무기가 존재합니다."
+  },
+  {
+    "ErrorId": 46000027,
+    "ErrorType": 21,
+    "LinkStringId": 1042867,
+    "LinkStringDev": "재료를 준비 중이라 아직은 할 수 없습니다."
+  },
+  {
+    "ErrorId": 46000028,
+    "ErrorType": 21,
+    "LinkStringId": 1042868,
+    "LinkStringDev": "공성전 종료 시간이 얼마 남지 않아 구매할 수 없습니다."
+  },
+  {
+    "ErrorId": 46000029,
+    "ErrorType": 21,
+    "LinkStringId": 1042870,
+    "LinkStringDev": "공성전에 선출된 문파만 구입할 수 있습니다."
+  },
+  {
+    "ErrorId": 46000030,
+    "ErrorType": 21,
+    "LinkStringId": 1042823,
+    "LinkStringDev": "수성 및 공성 자격을 획득한 문파만 입장할 수 있습니다."
+  },
+  {
+    "ErrorId": 46000031,
+    "ErrorType": 21,
+    "LinkStringId": 1042871,
+    "LinkStringDev": "소속한 문파에서 수성, 공성 모두 동맹인 상태입니다. 한 진영과만 동맹상태여야 합니다."
+  },
+  {
+    "ErrorId": 46000032,
+    "ErrorType": 21,
+    "LinkStringId": 1042876,
+    "LinkStringDev": "토벌 파티에 소속된 상태에서는 입장할 수 없습니다."
+  },
+  {
+    "ErrorId": 46000033,
+    "ErrorType": 21,
+    "LinkStringId": 1042878,
+    "LinkStringDev": "관전자 등급이 아닙니다."
+  },
+  {
+    "ErrorId": 46000034,
+    "ErrorType": 21,
+    "LinkStringId": 1042879,
+    "LinkStringDev": "대상이 맵에 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 46000035,
+    "ErrorType": 21,
+    "LinkStringId": 1042880,
+    "LinkStringDev": "대상이 사망한 상태입니다."
+  },
+  {
+    "ErrorId": 48000000,
+    "ErrorType": 21,
+    "LinkStringId": 2300037,
+    "LinkStringDev": "위상 생성에 실패하였습니다."
+  },
+  {
+    "ErrorId": 48000001,
+    "ErrorType": 21,
+    "LinkStringId": 2300038,
+    "LinkStringDev": "위상을 생성하기 위한 레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 48000002,
+    "ErrorType": 21,
+    "LinkStringId": 2300001,
+    "LinkStringDev": "동일한 직업의 위상은 생성하실 수 없습니다."
+  },
+  {
+    "ErrorId": 48000003,
+    "ErrorType": 21,
+    "LinkStringId": 2300039,
+    "LinkStringDev": "잘못된 위상입니다."
+  },
+  {
+    "ErrorId": 48000004,
+    "ErrorType": 21,
+    "LinkStringId": 2300002,
+    "LinkStringDev": "위상생성은 비천성에서 진행 가능합니다."
+  },
+  {
+    "ErrorId": 48000005,
+    "ErrorType": 21,
+    "LinkStringId": 2300003,
+    "LinkStringDev": "파티 및 토벌에서 탈퇴 후 위상 생성이 가능합니다."
+  },
+  {
+    "ErrorId": 48000006,
+    "ErrorType": 21,
+    "LinkStringId": 2300004,
+    "LinkStringDev": "위상전환 대기 시간 종료 후 위상 생성이 가능합니다."
+  },
+  {
+    "ErrorId": 48000007,
+    "ErrorType": 21,
+    "LinkStringId": 2300005,
+    "LinkStringDev": "위상생성에 필요한 금화가 부족합니다."
+  },
+  {
+    "ErrorId": 48000008,
+    "ErrorType": 21,
+    "LinkStringId": 2300040,
+    "LinkStringDev": "이미 생성된 위상입니다."
+  },
+  {
+    "ErrorId": 48000009,
+    "ErrorType": 21,
+    "LinkStringId": 2300041,
+    "LinkStringDev": "동일한 위상으로 생성할 수 없습니다."
+  },
+  {
+    "ErrorId": 48000010,
+    "ErrorType": 21,
+    "LinkStringId": 2300042,
+    "LinkStringDev": "위상 전환에 실패하였습니다."
+  },
+  {
+    "ErrorId": 48000011,
+    "ErrorType": 21,
+    "LinkStringId": 2300010,
+    "LinkStringDev": "동일한 직업으로 변경할 수 없습니다."
+  },
+  {
+    "ErrorId": 48000012,
+    "ErrorType": 21,
+    "LinkStringId": 2300043,
+    "LinkStringDev": "잘못된 직업입니다."
+  },
+  {
+    "ErrorId": 48000013,
+    "ErrorType": 21,
+    "LinkStringId": 2300011,
+    "LinkStringDev": "위상 변경은 비천성에서 진행 가능합니다."
+  },
+  {
+    "ErrorId": 48000014,
+    "ErrorType": 21,
+    "LinkStringId": 2300012,
+    "LinkStringDev": "파티 및 토벌에서 탈퇴 후 위상 변경이 가능합니다."
+  },
+  {
+    "ErrorId": 48000015,
+    "ErrorType": 21,
+    "LinkStringId": 2300013,
+    "LinkStringDev": "위상 전환 대기 시간 종료 후 위상 변경이 가능합니다."
+  },
+  {
+    "ErrorId": 48000016,
+    "ErrorType": 21,
+    "LinkStringId": 2300044,
+    "LinkStringDev": "생성되지 않은 위상입니다."
+  },
+  {
+    "ErrorId": 48002011,
+    "ErrorType": 13,
+    "LinkStringId": 1400293,
+    "LinkStringDev": "수정필요_스테이지 보상을 이미 받았습니다."
+  },
+  {
+    "ErrorId": 48002012,
+    "ErrorType": 13,
+    "LinkStringId": 1400475,
+    "LinkStringDev": "받을 수 있는 보상이 없습니다."
+  },
+  {
+    "ErrorId": 49000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400294,
+    "LinkStringDev": "이미 습득한 내공입니다."
+  },
+  {
+    "ErrorId": 49000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400295,
+    "LinkStringDev": "선택한 내공을 습득할 수 없는 직업입니다."
+  },
+  {
+    "ErrorId": 49000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400296,
+    "LinkStringDev": "재료 아이템이 없습니다."
+  },
+  {
+    "ErrorId": 49000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400297,
+    "LinkStringDev": "재료 아이템의 수량이 부족합니다."
+  },
+  {
+    "ErrorId": 49000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400298,
+    "LinkStringDev": "습득하지 않은 내공입니다."
+  },
+  {
+    "ErrorId": 49000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400542,
+    "LinkStringDev": "내공 레벨이 낮습니다."
+  },
+  {
+    "ErrorId": 49000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400543,
+    "LinkStringDev": "내공 수련이 진행중입니다."
+  },
+  {
+    "ErrorId": 49000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400544,
+    "LinkStringDev": "내공 수련이 진행중이 아닙니다."
+  },
+  {
+    "ErrorId": 49000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400545,
+    "LinkStringDev": "혈맥 최대 레벨에 도달하였습니다."
+  },
+  {
+    "ErrorId": 49000009,
+    "ErrorType": 13,
+    "LinkStringId": 1400546,
+    "LinkStringDev": "혈맥 레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 49000010,
+    "ErrorType": 13,
+    "LinkStringId": 1400547,
+    "LinkStringDev": "비용이 부족합니다."
+  },
+  {
+    "ErrorId": 49000011,
+    "ErrorType": 13,
+    "LinkStringId": 1400548,
+    "LinkStringDev": "내공을 수련할 시간이 되지 않았습니다."
+  },
+  {
+    "ErrorId": 49000012,
+    "ErrorType": 13,
+    "LinkStringId": 1400549,
+    "LinkStringDev": "캐릭터 레벨이 낮습니다."
+  },
+  {
+    "ErrorId": 49000100,
+    "ErrorType": 13,
+    "LinkStringId": 1400299,
+    "LinkStringDev": "혈맥 강화를 실패하였습니다."
+  },
+  {
+    "ErrorId": 49000101,
+    "ErrorType": 13,
+    "LinkStringId": 1400300,
+    "LinkStringDev": "주화 입마 상태에서는 혈맥을 강화할 수 없습니다."
+  },
+  {
+    "ErrorId": 49000102,
+    "ErrorType": 13,
+    "LinkStringId": 1400301,
+    "LinkStringDev": "혈맥을 강화할 레벨이 넘어섰습니다."
+  },
+  {
+    "ErrorId": 49000103,
+    "ErrorType": 13,
+    "LinkStringId": 1400302,
+    "LinkStringDev": "혈맥이 최대 레벨에 도달하였습니다."
+  },
+  {
+    "ErrorId": 49000104,
+    "ErrorType": 13,
+    "LinkStringId": 1400303,
+    "LinkStringDev": "혈맥을 강화할 진기가 부족합니다."
+  },
+  {
+    "ErrorId": 49000105,
+    "ErrorType": 13,
+    "LinkStringId": 1400304,
+    "LinkStringDev": "주화 입마 상태입니다."
+  },
+  {
+    "ErrorId": 49000106,
+    "ErrorType": 13,
+    "LinkStringId": 1400305,
+    "LinkStringDev": "주화 입마 상태가 아닙니다."
+  },
+  {
+    "ErrorId": 50000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400306,
+    "LinkStringDev": "<span color=\"#FF3A20\">상대가 비무를 거절했습니다.</>"
+  },
+  {
+    "ErrorId": 50000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400307,
+    "LinkStringDev": "<span color=\"#FF3A20\">상대가 비무를 거절했습니다.</>"
+  },
+  {
+    "ErrorId": 50000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400308,
+    "LinkStringDev": "<span color=\"#FF3A20\">상대가 비무를 거절했습니다.</>"
+  },
+  {
+    "ErrorId": 50000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400309,
+    "LinkStringDev": "<span color=\"#FF3A20\">이미 비무를 진행중입니다..</>"
+  },
+  {
+    "ErrorId": 50000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400310,
+    "LinkStringDev": "<span color=\"#FF3A20\">상대가 비무를 할 수 없는 상태입니다.</>"
+  },
+  {
+    "ErrorId": 50000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400311,
+    "LinkStringDev": "<span color=\"#FF3A20\">상대가 비무를 할 수 없는 상태입니다.</>"
+  },
+  {
+    "ErrorId": 50000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400312,
+    "LinkStringDev": "<span color=\"#FF3A20\">상대가 이미 비무를 진행중입니다.</>"
+  },
+  {
+    "ErrorId": 50000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400313,
+    "LinkStringDev": "<span color=\"#FF3A20\">비무 대상이 없습니다.</>"
+  },
+  {
+    "ErrorId": 50000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400314,
+    "LinkStringDev": "<span color=\"#FF3A20\">상대가 멀리 떨어져 있습니다.</>"
+  },
+  {
+    "ErrorId": 50000009,
+    "ErrorType": 13,
+    "LinkStringId": 1400315,
+    "LinkStringDev": "<span color=\"#FF3A20\">비무 수락 시간이 초과 하였습니다.</>"
+  },
+  {
+    "ErrorId": 50000010,
+    "ErrorType": 13,
+    "LinkStringId": 1400316,
+    "LinkStringDev": "비무 관련 System Data가 없습니다."
+  },
+  {
+    "ErrorId": 50000011,
+    "ErrorType": 13,
+    "LinkStringId": 1400317,
+    "LinkStringDev": "비무 관련 Object가 없습니다."
+  },
+  {
+    "ErrorId": 50000012,
+    "ErrorType": 13,
+    "LinkStringId": 1400318,
+    "LinkStringDev": "비무 관련 Zone이 없습니다."
+  },
+  {
+    "ErrorId": 50000013,
+    "ErrorType": 13,
+    "LinkStringId": 1400319,
+    "LinkStringDev": "수정필요_이미비무신청중"
+  },
+  {
+    "ErrorId": 50000014,
+    "ErrorType": 22,
+    "LinkStringId": 1400481,
+    "LinkStringDev": "안전 스테이지에서는 사용불가 "
+  },
+  {
+    "ErrorId": 50000015,
+    "ErrorType": 23,
+    "LinkStringId": 1400482,
+    "LinkStringDev": "탈것 탑승중에서는 사용불가"
+  },
+  {
+    "ErrorId": 50000016,
+    "ErrorType": 21,
+    "LinkStringId": 1400576,
+    "LinkStringDev": "비무중에 퀘스트 사용불가"
+  },
+  {
+    "ErrorId": 50000017,
+    "ErrorType": 21,
+    "LinkStringId": 1400577,
+    "LinkStringDev": "비무중에 초대 메시지 시간 초과"
+  },
+  {
+    "ErrorId": 50000018,
+    "ErrorType": 21,
+    "LinkStringId": 1400578,
+    "LinkStringDev": "비무중에 컷신상태에서는 할수 없게 처리"
+  },
+  {
+    "ErrorId": 51000000,
+    "ErrorType": 13,
+    "LinkStringId": 1400320,
+    "LinkStringDev": "수정필요_상점버전이틀리다."
+  },
+  {
+    "ErrorId": 51000001,
+    "ErrorType": 13,
+    "LinkStringId": 1400321,
+    "LinkStringDev": "수정필요_존재하지않는메인카테고리"
+  },
+  {
+    "ErrorId": 51000002,
+    "ErrorType": 13,
+    "LinkStringId": 1400322,
+    "LinkStringDev": "수정필요_존재하지않는서브카테고리"
+  },
+  {
+    "ErrorId": 51000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400323,
+    "LinkStringDev": "상품을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 51000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400324,
+    "LinkStringDev": "상품을 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 51000005,
+    "ErrorType": 13,
+    "LinkStringId": 1400325,
+    "LinkStringDev": "수정필요_이용할수없는상품"
+  },
+  {
+    "ErrorId": 51000006,
+    "ErrorType": 13,
+    "LinkStringId": 1400326,
+    "LinkStringDev": "수정필요_재화부족"
+  },
+  {
+    "ErrorId": 51000007,
+    "ErrorType": 13,
+    "LinkStringId": 1400327,
+    "LinkStringDev": "수정필요_정의안된상품타입"
+  },
+  {
+    "ErrorId": 51000008,
+    "ErrorType": 13,
+    "LinkStringId": 1400328,
+    "LinkStringDev": "상품이 매진되어 구매 할 수 없습니다."
+  },
+  {
+    "ErrorId": 51000009,
+    "ErrorType": 13,
+    "LinkStringId": 1400329,
+    "LinkStringDev": "수정필요_레벨제한"
+  },
+  {
+    "ErrorId": 51000010,
+    "ErrorType": 13,
+    "LinkStringId": 1400558,
+    "LinkStringDev": "스텝 상품 일 때 이전 상품을 구입하지 않았음"
+  },
+  {
+    "ErrorId": 51000011,
+    "ErrorType": 13,
+    "LinkStringId": 1400559,
+    "LinkStringDev": "이이템이 존재하지 않습니다.( 아이템으로 판매하는것 구입시"
+  },
+  {
+    "ErrorId": 51000012,
+    "ErrorType": 13,
+    "LinkStringId": 1400560,
+    "LinkStringDev": "이이템이 모자랍니다.( 아이템으로 판매하는것 구입시"
+  },
+  {
+    "ErrorId": 51000013,
+    "ErrorType": 31,
+    "LinkStringId": 1065328,
+    "LinkStringDev": "상점 정보 갱신중입니다."
+  },
+  {
+    "ErrorId": 51000014,
+    "ErrorType": 13,
+    "LinkStringId": 1100359,
+    "LinkStringDev": "매일지급 상품이 아닙니다."
+  },
+  {
+    "ErrorId": 51000015,
+    "ErrorType": 13,
+    "LinkStringId": 1100360,
+    "LinkStringDev": "구매된 매일지급 상품이 아닙니다."
+  },
+  {
+    "ErrorId": 51000016,
+    "ErrorType": 13,
+    "LinkStringId": 1100361,
+    "LinkStringDev": "종료된 매일지급 상품입니다."
+  },
+  {
+    "ErrorId": 51000017,
+    "ErrorType": 13,
+    "LinkStringId": 1100362,
+    "LinkStringDev": "이미 보상을 받았습니다."
+  },
+  {
+    "ErrorId": 51000018,
+    "ErrorType": 13,
+    "LinkStringId": 1100363,
+    "LinkStringDev": "매일지급 보상이 진행중인 상품입니다."
+  },
+  {
+    "ErrorId": 51000019,
+    "ErrorType": 13,
+    "LinkStringId": 1100657,
+    "LinkStringDev": "계정 구매제한이 설정된 매일지급 상품이 아닙니다."
+  },
+  {
+    "ErrorId": 51000021,
+    "ErrorType": 21,
+    "LinkStringId": 1400621,
+    "LinkStringDev": "판매 기간이 종료되어 구입할 수 없습니다."
+  },
+  {
+    "ErrorId": 52000021,
+    "ErrorType": 21,
+    "LinkStringId": 1060745,
+    "LinkStringDev": "추방된 토벌대에는 참가할 수 없습니다."
+  },
+  {
+    "ErrorId": 52000022,
+    "ErrorType": 21,
+    "LinkStringId": 1060703,
+    "LinkStringDev": "{1}님은 추방된 대상으로 초대할 수 없습니다."
+  },
+  {
+    "ErrorId": 53000008,
+    "ErrorType": 21,
+    "LinkStringId": 1400616,
+    "LinkStringDev": "전투력 부족으로 방이동 불가"
+  },
+  {
+    "ErrorId": 53050000,
+    "ErrorType": 21,
+    "LinkStringId": 1400550,
+    "LinkStringDev": "비정봉 내부에 있지 않습니다."
+  },
+  {
+    "ErrorId": 53050001,
+    "ErrorType": 21,
+    "LinkStringId": 1400551,
+    "LinkStringDev": "입장 비용이 비정봉 입장권이 아닙니다."
+  },
+  {
+    "ErrorId": 53050002,
+    "ErrorType": 21,
+    "LinkStringId": 1400552,
+    "LinkStringDev": "비정봉 입장권이 부족합니다."
+  },
+  {
+    "ErrorId": 53050003,
+    "ErrorType": 21,
+    "LinkStringId": 1400553,
+    "LinkStringDev": "비정봉 입장 시간이 만료되었습니다."
+  },
+  {
+    "ErrorId": 53050004,
+    "ErrorType": 21,
+    "LinkStringId": 1400554,
+    "LinkStringDev": "비정봉 입장 시간을 더 이상 추가할 수 없습니다."
+  },
+  {
+    "ErrorId": 54000000,
+    "ErrorType": 21,
+    "LinkStringId": 1094018,
+    "LinkStringDev": "이미 완료된 임무입니다."
+  },
+  {
+    "ErrorId": 54000001,
+    "ErrorType": 21,
+    "LinkStringId": 1094003,
+    "LinkStringDev": "일일 협동임무 완료횟수가 최대치에 도달하여 수락할 수 없습니다."
+  },
+  {
+    "ErrorId": 54000002,
+    "ErrorType": 21,
+    "LinkStringId": 1094004,
+    "LinkStringDev": "문파 가입 후 [ 24 ] 시간이 지나야 협동임무를 수락할 수 있습니다."
+  },
+  {
+    "ErrorId": 54010001,
+    "ErrorType": 21,
+    "LinkStringId": 1094001,
+    "LinkStringDev": "콘텐츠 이용 제약이 설정되어 지금은 이용할 수 없습니다."
+  },
+  {
+    "ErrorId": 54010002,
+    "ErrorType": 21,
+    "LinkStringId": 1094015,
+    "LinkStringDev": "소속된 문파가 없어 협동 보스를 소환할 수 없습니다."
+  },
+  {
+    "ErrorId": 54010003,
+    "ErrorType": 21,
+    "LinkStringId": 1094007,
+    "LinkStringDev": "협동 보스는 [전쟁]권한을 가진 문파원만 소환할 수 있습니다."
+  },
+  {
+    "ErrorId": 54010004,
+    "ErrorType": 21,
+    "LinkStringId": 1094010,
+    "LinkStringDev": "소환 가능한 횟수가 없어 소환할 수 없습니다."
+  },
+  {
+    "ErrorId": 54010005,
+    "ErrorType": 21,
+    "LinkStringId": 1094016,
+    "LinkStringDev": "문파기술 [협동의 길]을 연구하여 협동 보스를 소환할 수 있습니다."
+  },
+  {
+    "ErrorId": 54010006,
+    "ErrorType": 21,
+    "LinkStringId": 1094011,
+    "LinkStringDev": "원정대 이용 중에는 협동보스를 소환할 수 없습니다."
+  },
+  {
+    "ErrorId": 54010007,
+    "ErrorType": 21,
+    "LinkStringId": 1094009,
+    "LinkStringDev": "다른 지역에 소환되어 있는 협동보스가 있어 소환할 수 없습니다."
+  },
+  {
+    "ErrorId": 54020001,
+    "ErrorType": 21,
+    "LinkStringId": 1094014,
+    "LinkStringDev": "임무를 수락할 수 없습니다. 잠시후 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 54020002,
+    "ErrorType": 21,
+    "LinkStringId": 1094014,
+    "LinkStringDev": "임무를 수락할 수 없습니다. 잠시후 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 55000000,
+    "ErrorType": 21,
+    "LinkStringId": 1400371,
+    "LinkStringDev": "친구 요청을 실패하였습니다."
+  },
+  {
+    "ErrorId": 55000001,
+    "ErrorType": 21,
+    "LinkStringId": 1400372,
+    "LinkStringDev": "친구 요청을 최대로 보낸 상태입니다."
+  },
+  {
+    "ErrorId": 55000002,
+    "ErrorType": 21,
+    "LinkStringId": 1400373,
+    "LinkStringDev": "대상이 친구 요청을 더 이상 받을 수 없습니다."
+  },
+  {
+    "ErrorId": 55000003,
+    "ErrorType": 21,
+    "LinkStringId": 1400374,
+    "LinkStringDev": "존재하지 않는 이름입니다."
+  },
+  {
+    "ErrorId": 55000004,
+    "ErrorType": 21,
+    "LinkStringId": 1400375,
+    "LinkStringDev": "더 이상 친구를 추가할 수 없습니다."
+  },
+  {
+    "ErrorId": 55000005,
+    "ErrorType": 21,
+    "LinkStringId": 1400376,
+    "LinkStringDev": "대상의 친구가 가득차 더 이상 친구 신청을 보낼수 없습니다."
+  },
+  {
+    "ErrorId": 55000006,
+    "ErrorType": 21,
+    "LinkStringId": 1400377,
+    "LinkStringDev": "이미 친구 요청을 발송한 캐릭터입니다."
+  },
+  {
+    "ErrorId": 55000007,
+    "ErrorType": 21,
+    "LinkStringId": 1400378,
+    "LinkStringDev": "친구 상태입니다."
+  },
+  {
+    "ErrorId": 55000008,
+    "ErrorType": 21,
+    "LinkStringId": 1400379,
+    "LinkStringDev": "닉네임 검색에 실패하였습니다. 이름을 다시 확인해 주세요."
+  },
+  {
+    "ErrorId": 55000009,
+    "ErrorType": 21,
+    "LinkStringId": 1400380,
+    "LinkStringDev": "이미 삭제된 친구입니다. 다시 확인해 주세요."
+  },
+  {
+    "ErrorId": 55000010,
+    "ErrorType": 21,
+    "LinkStringId": 1400557,
+    "LinkStringDev": "자기 자신을 검색할 수 없습니다."
+  },
+  {
+    "ErrorId": 55000011,
+    "ErrorType": 21,
+    "LinkStringId": 1400595,
+    "LinkStringDev": "자기 자신에게 친구를 요청할 수 없습니다."
+  },
+  {
+    "ErrorId": 55000012,
+    "ErrorType": 21,
+    "LinkStringId": 2100077,
+    "LinkStringDev": "원정대 참여중인 원정대원은 친구 요청을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 55000013,
+    "ErrorType": 21,
+    "LinkStringId": 2100078,
+    "LinkStringDev": "원정대 참여중인 원정대원은 친구 수락을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100000,
+    "ErrorType": 21,
+    "LinkStringId": 1067511,
+    "LinkStringDev": "세금 인출에 실패하였습니다. 잠시 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 55100001,
+    "ErrorType": 21,
+    "LinkStringId": 1067512,
+    "LinkStringDev": "영지 정보가 없습니다."
+  },
+  {
+    "ErrorId": 55100002,
+    "ErrorType": 21,
+    "LinkStringId": 1067513,
+    "LinkStringDev": "문파 정보가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 55100003,
+    "ErrorType": 21,
+    "LinkStringId": 1067514,
+    "LinkStringDev": "인출할 세금이 부족합니다. 확인 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 55100004,
+    "ErrorType": 21,
+    "LinkStringId": 1067515,
+    "LinkStringDev": "점령중인 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 55100005,
+    "ErrorType": 21,
+    "LinkStringId": 1067500,
+    "LinkStringDev": "기능을 사용할 권한이 없습니다."
+  },
+  {
+    "ErrorId": 55100006,
+    "ErrorType": 21,
+    "LinkStringId": 1067516,
+    "LinkStringDev": "포상을 실패하였습니다. 잠시 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 55100007,
+    "ErrorType": 21,
+    "LinkStringId": 1067517,
+    "LinkStringDev": "문파가 없거나 문파원이 아닙니다."
+  },
+  {
+    "ErrorId": 55100008,
+    "ErrorType": 21,
+    "LinkStringId": 1067500,
+    "LinkStringDev": "기능을 사용할 권한이 없습니다."
+  },
+  {
+    "ErrorId": 55100009,
+    "ErrorType": 21,
+    "LinkStringId": 1067509,
+    "LinkStringDev": "재화가 부족하여 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100010,
+    "ErrorType": 21,
+    "LinkStringId": 1067519,
+    "LinkStringDev": "지급 제한 수량을 초과하였습니다."
+  },
+  {
+    "ErrorId": 55100011,
+    "ErrorType": 21,
+    "LinkStringId": 1067520,
+    "LinkStringDev": "점령한 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 55100012,
+    "ErrorType": 21,
+    "LinkStringId": 1067521,
+    "LinkStringDev": "칙명 발령에 실패했습니다. 잠시 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 55100013,
+    "ErrorType": 21,
+    "LinkStringId": 1067509,
+    "LinkStringDev": "재화가 부족하여 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100014,
+    "ErrorType": 21,
+    "LinkStringId": 1067500,
+    "LinkStringDev": "기능을 사용할 권한이 없습니다."
+  },
+  {
+    "ErrorId": 55100015,
+    "ErrorType": 21,
+    "LinkStringId": 1067517,
+    "LinkStringDev": "문파가 없거나 문파원이 아닙니다."
+  },
+  {
+    "ErrorId": 55100016,
+    "ErrorType": 21,
+    "LinkStringId": 1067520,
+    "LinkStringDev": "점령한 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 55100017,
+    "ErrorType": 21,
+    "LinkStringId": 1067522,
+    "LinkStringDev": "세율 변경에 실패하였습니다. 잠시 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 55100018,
+    "ErrorType": 21,
+    "LinkStringId": 1067512,
+    "LinkStringDev": "영지 정보가 없습니다."
+  },
+  {
+    "ErrorId": 55100019,
+    "ErrorType": 21,
+    "LinkStringId": 1067513,
+    "LinkStringDev": "문파 정보가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 55100020,
+    "ErrorType": 21,
+    "LinkStringId": 1067514,
+    "LinkStringDev": "인출할 세금이 부족합니다. 확인 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 55100021,
+    "ErrorType": 21,
+    "LinkStringId": 1067520,
+    "LinkStringDev": "점령한 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 55100022,
+    "ErrorType": 21,
+    "LinkStringId": 1067500,
+    "LinkStringDev": "기능을 사용할 권한이 없습니다."
+  },
+  {
+    "ErrorId": 55100023,
+    "ErrorType": 21,
+    "LinkStringId": 1067523,
+    "LinkStringDev": "칭호 변경에 실패하였습니다. 잠시 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 55100024,
+    "ErrorType": 21,
+    "LinkStringId": 1067512,
+    "LinkStringDev": "영지 정보가 없습니다."
+  },
+  {
+    "ErrorId": 55100025,
+    "ErrorType": 21,
+    "LinkStringId": 1067513,
+    "LinkStringDev": "문파 정보가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 55100026,
+    "ErrorType": 21,
+    "LinkStringId": 1067520,
+    "LinkStringDev": "점령한 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 55100027,
+    "ErrorType": 21,
+    "LinkStringId": 1067500,
+    "LinkStringDev": "기능을 사용할 권한이 없습니다."
+  },
+  {
+    "ErrorId": 55100028,
+    "ErrorType": 21,
+    "LinkStringId": 1067524,
+    "LinkStringDev": "이미 동일한 칭호를 가진 인원입니다."
+  },
+  {
+    "ErrorId": 55100029,
+    "ErrorType": 21,
+    "LinkStringId": 1067525,
+    "LinkStringDev": "존재하지 않는 사용자입니다."
+  },
+  {
+    "ErrorId": 55100030,
+    "ErrorType": 21,
+    "LinkStringId": 1067523,
+    "LinkStringDev": "칭호 변경에 실패하였습니다. 잠시 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 55100031,
+    "ErrorType": 21,
+    "LinkStringId": 1067526,
+    "LinkStringDev": "지명 수배 등록에 실패하였습니다. 잠시 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 55100032,
+    "ErrorType": 21,
+    "LinkStringId": 1067500,
+    "LinkStringDev": "기능을 사용할 권한이 없습니다."
+  },
+  {
+    "ErrorId": 55100033,
+    "ErrorType": 21,
+    "LinkStringId": 1067513,
+    "LinkStringDev": "문파 정보가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 55100034,
+    "ErrorType": 21,
+    "LinkStringId": 1067520,
+    "LinkStringDev": "점령한 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 55100035,
+    "ErrorType": 21,
+    "LinkStringId": 1067525,
+    "LinkStringDev": "존재하지 않는 사용자입니다."
+  },
+  {
+    "ErrorId": 55100036,
+    "ErrorType": 21,
+    "LinkStringId": 1067509,
+    "LinkStringDev": "재화가 부족하여 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100037,
+    "ErrorType": 21,
+    "LinkStringId": 1067527,
+    "LinkStringDev": "지명 수배에 이미 등록된 사용자입니다."
+  },
+  {
+    "ErrorId": 55100038,
+    "ErrorType": 21,
+    "LinkStringId": 1067526,
+    "LinkStringDev": "지명 수배 등록에 실패하였습니다. 잠시 후 다시 시도하여 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 55100039,
+    "ErrorType": 21,
+    "LinkStringId": 1067528,
+    "LinkStringDev": "칙명이 이미 발령중입니다."
+  },
+  {
+    "ErrorId": 55100040,
+    "ErrorType": 21,
+    "LinkStringId": 1400555,
+    "LinkStringDev": "세율을 변경할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100041,
+    "ErrorType": 21,
+    "LinkStringId": 1400556,
+    "LinkStringDev": "세금을 인출할 수 없습니다. 문파 창고를 확인하여 주세요."
+  },
+  {
+    "ErrorId": 55100042,
+    "ErrorType": 21,
+    "LinkStringId": 1067535,
+    "LinkStringDev": "영지에 보관중인 재화의 양이 부족합니다."
+  },
+  {
+    "ErrorId": 55100043,
+    "ErrorType": 21,
+    "LinkStringId": 1067533,
+    "LinkStringDev": "비곡 점령전 진행중에는 기능을 사용할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100044,
+    "ErrorType": 21,
+    "LinkStringId": 1067539,
+    "LinkStringDev": "관직을 부여할 수 없습니다. 잠시후 다시 사용하여 주세요."
+  },
+  {
+    "ErrorId": 55100045,
+    "ErrorType": 21,
+    "LinkStringId": 1067540,
+    "LinkStringDev": "관직을 부여할 수 없습니다. DB에러가 발생하였습니다."
+  },
+  {
+    "ErrorId": 55100046,
+    "ErrorType": 21,
+    "LinkStringId": 1067541,
+    "LinkStringDev": "관직을 부여할 권한이 없습니다."
+  },
+  {
+    "ErrorId": 55100047,
+    "ErrorType": 21,
+    "LinkStringId": 1067542,
+    "LinkStringDev": "관직을 부여할 수 있는 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 55100048,
+    "ErrorType": 21,
+    "LinkStringId": 1067543,
+    "LinkStringDev": "관직을 부여할 수 있는 문파원이 아닙니다."
+  },
+  {
+    "ErrorId": 55100049,
+    "ErrorType": 21,
+    "LinkStringId": 1067544,
+    "LinkStringDev": "존재하지 않는 문파로 관직을 부여할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100050,
+    "ErrorType": 21,
+    "LinkStringId": 1067545,
+    "LinkStringDev": "관직을 부여할 수 없습니다. 잘못된 관직입니다."
+  },
+  {
+    "ErrorId": 55100051,
+    "ErrorType": 21,
+    "LinkStringId": 1067546,
+    "LinkStringDev": "칭호를 변경할 수 없습니다. 관직이 아닙니다."
+  },
+  {
+    "ErrorId": 55100052,
+    "ErrorType": 21,
+    "LinkStringId": 1067549,
+    "LinkStringDev": "임기 내 사용할 수 있는 칙명 횟수를 모두 사용하였습니다."
+  },
+  {
+    "ErrorId": 55100053,
+    "ErrorType": 21,
+    "LinkStringId": 1067550,
+    "LinkStringDev": "동시에 다수의 인원에게 지명 수배를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100054,
+    "ErrorType": 21,
+    "LinkStringId": 1067551,
+    "LinkStringDev": "존재하지 않는 사용자입니다."
+  },
+  {
+    "ErrorId": 55100055,
+    "ErrorType": 21,
+    "LinkStringId": 1067552,
+    "LinkStringDev": "자신에게 칭호를 부여할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100056,
+    "ErrorType": 21,
+    "LinkStringId": 1067553,
+    "LinkStringDev": "국왕에게 칭호를 부여할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100057,
+    "ErrorType": 21,
+    "LinkStringId": 1067554,
+    "LinkStringDev": "동일한 관직입니다."
+  },
+  {
+    "ErrorId": 55100058,
+    "ErrorType": 21,
+    "LinkStringId": 1067555,
+    "LinkStringDev": "국왕에게 관직을 부여할 수 없습니다."
+  },
+  {
+    "ErrorId": 55100059,
+    "ErrorType": 21,
+    "LinkStringId": 1067561,
+    "LinkStringDev": "지명 수배 해제에 실패하였습니다."
+  },
+  {
+    "ErrorId": 55100060,
+    "ErrorType": 21,
+    "LinkStringId": 1067562,
+    "LinkStringDev": "지명 수배를 해제할 권한이 없습니다."
+  },
+  {
+    "ErrorId": 55100061,
+    "ErrorType": 21,
+    "LinkStringId": 1067563,
+    "LinkStringDev": "문파 정보가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 55100062,
+    "ErrorType": 21,
+    "LinkStringId": 1067564,
+    "LinkStringDev": "비천성을 점령하고 있는 문파만 지명 수배를 해제할 수 있습니다."
+  },
+  {
+    "ErrorId": 55100063,
+    "ErrorType": 21,
+    "LinkStringId": 1067565,
+    "LinkStringDev": "존재하지 않는 사용자입니다."
+  },
+  {
+    "ErrorId": 55100064,
+    "ErrorType": 21,
+    "LinkStringId": 1067566,
+    "LinkStringDev": "이미 수배 해제된 사용자입니다."
+  },
+  {
+    "ErrorId": 56000003,
+    "ErrorType": 13,
+    "LinkStringId": 1400617,
+    "LinkStringDev": "토벌/보스토벌 파티가 아니다"
+  },
+  {
+    "ErrorId": 56000004,
+    "ErrorType": 13,
+    "LinkStringId": 1400137,
+    "LinkStringDev": "파티장만 변경이 가능하다"
+  },
+  {
+    "ErrorId": 56100000,
+    "ErrorType": 13,
+    "LinkStringId": 1033968,
+    "LinkStringDev": "존재하지 않는 대상입니다."
+  },
+  {
+    "ErrorId": 56100001,
+    "ErrorType": 13,
+    "LinkStringId": 1033969,
+    "LinkStringDev": "자신은 등록할 수 없습니다."
+  },
+  {
+    "ErrorId": 56100002,
+    "ErrorType": 13,
+    "LinkStringId": 1033970,
+    "LinkStringDev": "이미 등록된 대상입니다."
+  },
+  {
+    "ErrorId": 56100003,
+    "ErrorType": 13,
+    "LinkStringId": 1033971,
+    "LinkStringDev": "차단 목록이 가득 찼습니다."
+  },
+  {
+    "ErrorId": 56100004,
+    "ErrorType": 13,
+    "LinkStringId": 1033978,
+    "LinkStringDev": "이미 삭제되었습니다."
+  },
+  {
+    "ErrorId": 56200000,
+    "ErrorType": 31,
+    "LinkStringId": 1100005,
+    "LinkStringDev": "가챠 뽑기에 실패 하였습니다."
+  },
+  {
+    "ErrorId": 56200001,
+    "ErrorType": 31,
+    "LinkStringId": 1100006,
+    "LinkStringDev": "무료 횟수가 모두 소진 되었습니다."
+  },
+  {
+    "ErrorId": 56200002,
+    "ErrorType": 31,
+    "LinkStringId": 1100007,
+    "LinkStringDev": "무료 뽑기 횟수를 초과 했습니다."
+  },
+  {
+    "ErrorId": 56200003,
+    "ErrorType": 31,
+    "LinkStringId": 1100008,
+    "LinkStringDev": "무료 뽑기 시간이 아직 부족합니다."
+  },
+  {
+    "ErrorId": 56200004,
+    "ErrorType": 31,
+    "LinkStringId": 1100009,
+    "LinkStringDev": "획득한 아이템이 없습니다."
+  },
+  {
+    "ErrorId": 56200005,
+    "ErrorType": 31,
+    "LinkStringId": 1100010,
+    "LinkStringDev": "소환권이 부족합니다."
+  },
+  {
+    "ErrorId": 56200006,
+    "ErrorType": 31,
+    "LinkStringId": 1100011,
+    "LinkStringDev": "일일 소환 횟수를 초과 했습니다."
+  },
+  {
+    "ErrorId": 56200007,
+    "ErrorType": 31,
+    "LinkStringId": 1100012,
+    "LinkStringDev": "재화가 부족합니다."
+  },
+  {
+    "ErrorId": 56200008,
+    "ErrorType": 31,
+    "LinkStringId": 1100013,
+    "LinkStringDev": "인벤토리 공간이 부족 합니다."
+  },
+  {
+    "ErrorId": 56200009,
+    "ErrorType": 31,
+    "LinkStringId": 1100014,
+    "LinkStringDev": "잘못된 물품의 타입입니다."
+  },
+  {
+    "ErrorId": 56200010,
+    "ErrorType": 31,
+    "LinkStringId": 1100015,
+    "LinkStringDev": "존재하지 않는 아이템 입니다."
+  },
+  {
+    "ErrorId": 56200011,
+    "ErrorType": 31,
+    "LinkStringId": 1100016,
+    "LinkStringDev": "레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 56200012,
+    "ErrorType": 21,
+    "LinkStringId": 1053050,
+    "LinkStringDev": "진행 중인 이벤트가 종료되었습니다."
+  },
+  {
+    "ErrorId": 56200013,
+    "ErrorType": 21,
+    "LinkStringId": 1053051,
+    "LinkStringDev": "이벤트 향로에 사용할 마일리지가 부족합니다."
+  },
+  {
+    "ErrorId": 56200014,
+    "ErrorType": 21,
+    "LinkStringId": 1053053,
+    "LinkStringDev": "일일 소환 횟수가 부족하여, 진행할 수 없습니다."
+  },
+  {
+    "ErrorId": 56200017,
+    "ErrorType": 21,
+    "LinkStringId": 2610024,
+    "LinkStringDev": "구매제한 - 일일. 주간. 월간 횟수 초과"
+  },
+  {
+    "ErrorId": 60000000,
+    "ErrorType": 13,
+    "LinkStringId": 1065301,
+    "LinkStringDev": "정령 정보가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 60000001,
+    "ErrorType": 13,
+    "LinkStringId": 1065302,
+    "LinkStringDev": "정령 스킬 정보가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 60000003,
+    "ErrorType": 13,
+    "LinkStringId": 1065303,
+    "LinkStringDev": "정령 슬롯 활성 조건 정보가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 60000006,
+    "ErrorType": 13,
+    "LinkStringId": 1065304,
+    "LinkStringDev": "정령 생성에 실패했습니다."
+  },
+  {
+    "ErrorId": 60000007,
+    "ErrorType": 13,
+    "LinkStringId": 1065305,
+    "LinkStringDev": "정령 스킬 생성에 실패했습니다."
+  },
+  {
+    "ErrorId": 60000008,
+    "ErrorType": 13,
+    "LinkStringId": 1065306,
+    "LinkStringDev": "정령 슬롯 생성에 실패했습니다."
+  },
+  {
+    "ErrorId": 60000010,
+    "ErrorType": 13,
+    "LinkStringId": 1065307,
+    "LinkStringDev": "이미 보유하고 있는 정령입니다."
+  },
+  {
+    "ErrorId": 60000011,
+    "ErrorType": 13,
+    "LinkStringId": 1065308,
+    "LinkStringDev": "이미 보유하고 있는 정령 스킬입니다."
+  },
+  {
+    "ErrorId": 60000012,
+    "ErrorType": 13,
+    "LinkStringId": 1065309,
+    "LinkStringDev": "정령이 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 60000013,
+    "ErrorType": 13,
+    "LinkStringId": 1065310,
+    "LinkStringDev": "정령 스킬을 보유하고 있지 않습니다."
+  },
+  {
+    "ErrorId": 60000014,
+    "ErrorType": 13,
+    "LinkStringId": 1065311,
+    "LinkStringDev": "정령 보물 아이템이 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 60000015,
+    "ErrorType": 13,
+    "LinkStringId": 1065325,
+    "LinkStringDev": "정령석이 없어 정령을 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 60000019,
+    "ErrorType": 13,
+    "LinkStringId": 1065326,
+    "LinkStringDev": "정령 스킬 획득에 실패했습니다."
+  },
+  {
+    "ErrorId": 60000020,
+    "ErrorType": 13,
+    "LinkStringId": 1065312,
+    "LinkStringDev": "이미 정령 슬롯에 등록되어 있는 정령입니다."
+  },
+  {
+    "ErrorId": 60000021,
+    "ErrorType": 13,
+    "LinkStringId": 1065313,
+    "LinkStringDev": "정령 슬롯 범위가 올바르지 않습니다."
+  },
+  {
+    "ErrorId": 60000022,
+    "ErrorType": 13,
+    "LinkStringId": 1065327,
+    "LinkStringDev": "캐릭터 레벨이 부족해서 정령 슬롯을 오픈할 수 없습니다."
+  },
+  {
+    "ErrorId": 60000024,
+    "ErrorType": 13,
+    "LinkStringId": 1065314,
+    "LinkStringDev": "정령 보물 장착 슬롯 범위가 올바르지 않습니다."
+  },
+  {
+    "ErrorId": 60000025,
+    "ErrorType": 13,
+    "LinkStringId": 1065315,
+    "LinkStringDev": "사용할 수 없는 정령 보물 슬롯입니다."
+  },
+  {
+    "ErrorId": 60000026,
+    "ErrorType": 13,
+    "LinkStringId": 1065316,
+    "LinkStringDev": "착용 할 정령 보물이 없습니다."
+  },
+  {
+    "ErrorId": 60000027,
+    "ErrorType": 13,
+    "LinkStringId": 1065317,
+    "LinkStringDev": "착용 해제 할 정령 보물이 없습니다."
+  },
+  {
+    "ErrorId": 60000028,
+    "ErrorType": 13,
+    "LinkStringId": 1065318,
+    "LinkStringDev": "이미 착용 중인 정령 보물입니다."
+  },
+  {
+    "ErrorId": 60000029,
+    "ErrorType": 13,
+    "LinkStringId": 1065319,
+    "LinkStringDev": "착용 중이 아닌 정령 보물입니다."
+  },
+  {
+    "ErrorId": 60000030,
+    "ErrorType": 13,
+    "LinkStringId": 1065320,
+    "LinkStringDev": "찾을 수 없는 정령 보물이라 해제할 수 없습니다."
+  },
+  {
+    "ErrorId": 60000035,
+    "ErrorType": 13,
+    "LinkStringId": 1065321,
+    "LinkStringDev": "정령이 착용할 수 없는 아이템 입니다."
+  },
+  {
+    "ErrorId": 60000036,
+    "ErrorType": 13,
+    "LinkStringId": 1065322,
+    "LinkStringDev": "정령 슬롯 범위가 올바르지 않습니다."
+  },
+  {
+    "ErrorId": 60000037,
+    "ErrorType": 13,
+    "LinkStringId": 1065322,
+    "LinkStringDev": "위업 조건을 만족하지 못한 정령 덱 입니다."
+  },
+  {
+    "ErrorId": 60000038,
+    "ErrorType": 13,
+    "LinkStringId": 1065323,
+    "LinkStringDev": "오픈 조건을 알 수 없는 정령 슬롯 입니다."
+  },
+  {
+    "ErrorId": 60000039,
+    "ErrorType": 13,
+    "LinkStringId": 1065066,
+    "LinkStringDev": "동일 아이템을 중복해서 착용할 수 없습니다."
+  },
+  {
+    "ErrorId": 60000040,
+    "ErrorType": 13,
+    "LinkStringId": 1065329,
+    "LinkStringDev": "최대 레벨입니다."
+  },
+  {
+    "ErrorId": 61000000,
+    "ErrorType": 13,
+    "LinkStringId": 1910001,
+    "LinkStringDev": "빈슬롯이 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 61000001,
+    "ErrorType": 13,
+    "LinkStringId": 1910002,
+    "LinkStringDev": "봉인 해제 아이템이 인벤토리에 없습니다."
+  },
+  {
+    "ErrorId": 61000002,
+    "ErrorType": 13,
+    "LinkStringId": 1910003,
+    "LinkStringDev": "봉인 해제 아이템 개수가 부족합니다."
+  },
+  {
+    "ErrorId": 61000003,
+    "ErrorType": 13,
+    "LinkStringId": 1910004,
+    "LinkStringDev": "등록에 필요한 재화가 부족합니다."
+  },
+  {
+    "ErrorId": 61000004,
+    "ErrorType": 13,
+    "LinkStringId": 1910005,
+    "LinkStringDev": "진행되고 있는 봉인 해제 데이터가 없습니다."
+  },
+  {
+    "ErrorId": 61000005,
+    "ErrorType": 13,
+    "LinkStringId": 1910006,
+    "LinkStringDev": "유효하지 않은 봉인 해제 슬롯입니다."
+  },
+  {
+    "ErrorId": 61000006,
+    "ErrorType": 13,
+    "LinkStringId": 1910007,
+    "LinkStringDev": "비어있는 슬롯입니다."
+  },
+  {
+    "ErrorId": 61000007,
+    "ErrorType": 13,
+    "LinkStringId": 1910008,
+    "LinkStringDev": "가속할 수 없습니다."
+  },
+  {
+    "ErrorId": 61000008,
+    "ErrorType": 13,
+    "LinkStringId": 1910009,
+    "LinkStringDev": "가속 아이템이 없습니다."
+  },
+  {
+    "ErrorId": 61000009,
+    "ErrorType": 13,
+    "LinkStringId": 1910010,
+    "LinkStringDev": "가속 아이템이 부족합니다."
+  },
+  {
+    "ErrorId": 61000010,
+    "ErrorType": 13,
+    "LinkStringId": 1910011,
+    "LinkStringDev": "가속에 필요한 재화가 부족합니다."
+  },
+  {
+    "ErrorId": 61000011,
+    "ErrorType": 13,
+    "LinkStringId": 1910012,
+    "LinkStringDev": "봉인해제 시간이 남아 있습니다."
+  },
+  {
+    "ErrorId": 61000012,
+    "ErrorType": 13,
+    "LinkStringId": 1910013,
+    "LinkStringDev": "인벤토리가 꽉 차 해제할 수 없습니다."
+  },
+  {
+    "ErrorId": 61000013,
+    "ErrorType": 13,
+    "LinkStringId": 1910014,
+    "LinkStringDev": "잠겨있는 슬롯 입니다."
+  },
+  {
+    "ErrorId": 61000014,
+    "ErrorType": 21,
+    "LinkStringId": 1056072,
+    "LinkStringDev": "이미 획득한 아이템 정보를 처리중입니다. 잠시 후 다시 시도해 주세요."
+  },
+  {
+    "ErrorId": 62000000,
+    "ErrorType": 21,
+    "LinkStringId": 1400443,
+    "LinkStringDev": "점령전 상황판 요청 실패 BY 잘못된 요청 이다."
+  },
+  {
+    "ErrorId": 62150000,
+    "ErrorType": 21,
+    "LinkStringId": 1099054,
+    "LinkStringDev": "유효한 아이템이 없습니다. "
+  },
+  {
+    "ErrorId": 62150001,
+    "ErrorType": 21,
+    "LinkStringId": 1099055,
+    "LinkStringDev": "등록 조건이 맞지 않습니다. "
+  },
+  {
+    "ErrorId": 62150002,
+    "ErrorType": 21,
+    "LinkStringId": 1099056,
+    "LinkStringDev": "등록에 실패하였습니다. "
+  },
+  {
+    "ErrorId": 62150003,
+    "ErrorType": 21,
+    "LinkStringId": 1099057,
+    "LinkStringDev": "유효한 등록 번호가 아닙니다. "
+  },
+  {
+    "ErrorId": 62150004,
+    "ErrorType": 21,
+    "LinkStringId": 1099079,
+    "LinkStringDev": "장착된 아이템은 보감에 등록할 수 없습니다."
+  },
+  {
+    "ErrorId": 63000000,
+    "ErrorType": 21,
+    "LinkStringId": 1400444,
+    "LinkStringDev": "거점전 맵의 경우, 적대만 가능"
+  },
+  {
+    "ErrorId": 63000001,
+    "ErrorType": 21,
+    "LinkStringId": 1400445,
+    "LinkStringDev": "거점전 길드 정보를 변경 할 수 없습니다."
+  },
+  {
+    "ErrorId": 63000002,
+    "ErrorType": 21,
+    "LinkStringId": 1400446,
+    "LinkStringDev": "거점전 길드을 찾을 수 없다."
+  },
+  {
+    "ErrorId": 63000003,
+    "ErrorType": 21,
+    "LinkStringId": 1400447,
+    "LinkStringDev": "거점전 필드가 아니다."
+  },
+  {
+    "ErrorId": 63000004,
+    "ErrorType": 21,
+    "LinkStringId": 1400448,
+    "LinkStringDev": "거점전 이미 점령한 길드 이다."
+  },
+  {
+    "ErrorId": 63000005,
+    "ErrorType": 21,
+    "LinkStringId": 1400449,
+    "LinkStringDev": "거점전 점령 정보가 없다."
+  },
+  {
+    "ErrorId": 63000006,
+    "ErrorType": 21,
+    "LinkStringId": 1400450,
+    "LinkStringDev": "거점전 요청 실패 BY 점령전 상태에 맞지 않는 요청"
+  },
+  {
+    "ErrorId": 63000007,
+    "ErrorType": 0,
+    "LinkStringId": 1066708,
+    "LinkStringDev": "비곡을 점령중인 문파가 없습니다."
+  },
+  {
+    "ErrorId": 63000008,
+    "ErrorType": 0,
+    "LinkStringId": 1066709,
+    "LinkStringDev": "비곡을 점령중인 문파가 아닙니다."
+  },
+  {
+    "ErrorId": 63000009,
+    "ErrorType": 0,
+    "LinkStringId": 1066710,
+    "LinkStringDev": "입력된 포고문이 기존과 동일합니다."
+  },
+  {
+    "ErrorId": 63000010,
+    "ErrorType": 21,
+    "LinkStringId": 1066711,
+    "LinkStringDev": "잠시 후 다시 시도해 주세요."
+  },
+  {
+    "ErrorId": 63000011,
+    "ErrorType": 21,
+    "LinkStringId": 1066712,
+    "LinkStringDev": "포고문은 최대 [ 1000 ] 자 까지 작성할 수 있습니다."
+  },
+  {
+    "ErrorId": 63100000,
+    "ErrorType": 21,
+    "LinkStringId": 1104009,
+    "LinkStringDev": "조건이 만족하지 못한 상태입니다. "
+  },
+  {
+    "ErrorId": 63100001,
+    "ErrorType": 21,
+    "LinkStringId": 1104010,
+    "LinkStringDev": "건물이 오픈되지 않았습니다."
+  },
+  {
+    "ErrorId": 63100002,
+    "ErrorType": 21,
+    "LinkStringId": 1104011,
+    "LinkStringDev": "정령 슬롯이 오픈되지 않았습니다."
+  },
+  {
+    "ErrorId": 63100003,
+    "ErrorType": 21,
+    "LinkStringId": 1104012,
+    "LinkStringDev": "지금은 이용할 수 없습니다. {1}초 후, 다시 시도해주세요."
+  },
+  {
+    "ErrorId": 63100004,
+    "ErrorType": 21,
+    "LinkStringId": 1104013,
+    "LinkStringDev": "업그레이드가 진행중입니다. "
+  },
+  {
+    "ErrorId": 63100005,
+    "ErrorType": 21,
+    "LinkStringId": 1104014,
+    "LinkStringDev": "업그레이드 준비가 되지 않았습니다."
+  },
+  {
+    "ErrorId": 63100006,
+    "ErrorType": 21,
+    "LinkStringId": 1104015,
+    "LinkStringDev": "가방이 가득찼습니다."
+  },
+  {
+    "ErrorId": 63100007,
+    "ErrorType": 21,
+    "LinkStringId": 1104016,
+    "LinkStringDev": "정령 슬롯이 부족합니다."
+  },
+  {
+    "ErrorId": 63100008,
+    "ErrorType": 21,
+    "LinkStringId": 1104017,
+    "LinkStringDev": "데이터 오류입니다."
+  },
+  {
+    "ErrorId": 63100009,
+    "ErrorType": 21,
+    "LinkStringId": 1104018,
+    "LinkStringDev": "정령 정보를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 63100010,
+    "ErrorType": 21,
+    "LinkStringId": 1104019,
+    "LinkStringDev": "동일한 정령 정보입니다. 확인 후, 다시 시도해 주세요."
+  },
+  {
+    "ErrorId": 63100011,
+    "ErrorType": 21,
+    "LinkStringId": 1104020,
+    "LinkStringDev": "유효하지 않은 정보입니다."
+  },
+  {
+    "ErrorId": 63100012,
+    "ErrorType": 21,
+    "LinkStringId": 1104021,
+    "LinkStringDev": "건물 정보를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 63100013,
+    "ErrorType": 21,
+    "LinkStringId": 1104022,
+    "LinkStringDev": "지금은 생산물을 수확할 수 없습니다."
+  },
+  {
+    "ErrorId": 63100014,
+    "ErrorType": 21,
+    "LinkStringId": 1104047,
+    "LinkStringDev": "업그레이드 조건을 만족하지 못한 상태입니다."
+  },
+  {
+    "ErrorId": 63110000,
+    "ErrorType": 21,
+    "LinkStringId": 1072100,
+    "LinkStringDev": "랭킹 정산 시간입니다."
+  },
+  {
+    "ErrorId": 63110001,
+    "ErrorType": 21,
+    "LinkStringId": 1072101,
+    "LinkStringDev": "유효하지 않은 랭킹 타입입닏."
+  },
+  {
+    "ErrorId": 63110002,
+    "ErrorType": 21,
+    "LinkStringId": 1072128,
+    "LinkStringDev": "유효하지 않은 랭크입니다."
+  },
+  {
+    "ErrorId": 63110003,
+    "ErrorType": 21,
+    "LinkStringId": 1072129,
+    "LinkStringDev": "랭킹 정보를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 63110004,
+    "ErrorType": 21,
+    "LinkStringId": 1072123,
+    "LinkStringDev": "오늘의 랭킹 보상을 이미 획득하여 더 이상 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 63110005,
+    "ErrorType": 21,
+    "LinkStringId": 1072129,
+    "LinkStringDev": "랭킹 정보를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 63110006,
+    "ErrorType": 21,
+    "LinkStringId": 1072122,
+    "LinkStringDev": "가방의 빈 공간이 부족하여 보상을 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 63110007,
+    "ErrorType": 21,
+    "LinkStringId": 1072130,
+    "LinkStringDev": "재화 보유량이 최대치를 넘어, 보상을 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 63200000,
+    "ErrorType": 21,
+    "LinkStringId": 1060508,
+    "LinkStringDev": "문파 원정에 에러가 있습니다. 잠시 후 다시 시도해주시기 바랍니다."
+  },
+  {
+    "ErrorId": 63200001,
+    "ErrorType": 21,
+    "LinkStringId": 1060505,
+    "LinkStringDev": "문파 원정이 이미 생성되어 있습니다."
+  },
+  {
+    "ErrorId": 63200002,
+    "ErrorType": 21,
+    "LinkStringId": 1060506,
+    "LinkStringDev": "문파 원정을 생성할 재화가 부족합니다."
+  },
+  {
+    "ErrorId": 63200003,
+    "ErrorType": 21,
+    "LinkStringId": 1060502,
+    "LinkStringDev": "입장 재화가 부족합니다."
+  },
+  {
+    "ErrorId": 63200004,
+    "ErrorType": 21,
+    "LinkStringId": 1060509,
+    "LinkStringDev": "문파 원정에 진입하지 못했습니다. 잠시 후 다시 시도해 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 63200005,
+    "ErrorType": 21,
+    "LinkStringId": 1060501,
+    "LinkStringDev": "입장 가능한 문파 원정이 없습니다."
+  },
+  {
+    "ErrorId": 63200006,
+    "ErrorType": 21,
+    "LinkStringId": 1060510,
+    "LinkStringDev": "문파 원정 생성 가능 기간이 아닙니다."
+  },
+  {
+    "ErrorId": 63200007,
+    "ErrorType": 21,
+    "LinkStringId": 1060512,
+    "LinkStringDev": "더 이상 문파 원정을 소환할 수 없습니다."
+  },
+  {
+    "ErrorId": 63200010,
+    "ErrorType": 21,
+    "LinkStringId": 1060918,
+    "LinkStringDev": "이미 문파 도전을 완료하였습니다."
+  },
+  {
+    "ErrorId": 63200011,
+    "ErrorType": 21,
+    "LinkStringId": 1060806,
+    "LinkStringDev": "문파 도전이 이미 생성되어 있습니다."
+  },
+  {
+    "ErrorId": 63200012,
+    "ErrorType": 21,
+    "LinkStringId": 1060807,
+    "LinkStringDev": "문파 도전을 생성할 재화가 부족합니다."
+  },
+  {
+    "ErrorId": 63200013,
+    "ErrorType": 21,
+    "LinkStringId": 1060810,
+    "LinkStringDev": "문파 도전에 진입하지 못했습니다. 잠시 후 다시 시도해 주시기 바랍니다."
+  },
+  {
+    "ErrorId": 63200014,
+    "ErrorType": 21,
+    "LinkStringId": 1060802,
+    "LinkStringDev": "입장 가능한 문파 도전이 없습니다."
+  },
+  {
+    "ErrorId": 63200015,
+    "ErrorType": 21,
+    "LinkStringId": 1060811,
+    "LinkStringDev": "문파 도전 생성 가능 기간이 아닙니다."
+  },
+  {
+    "ErrorId": 63200016,
+    "ErrorType": 21,
+    "LinkStringId": 1060813,
+    "LinkStringDev": "더 이상 문파 도전을 소환할 수 없습니다."
+  },
+  {
+    "ErrorId": 63210000,
+    "ErrorType": 21,
+    "LinkStringId": 1057508,
+    "LinkStringDev": "선물 확인 중 에러가 발생했습니다. 다시 시도해 주세요."
+  },
+  {
+    "ErrorId": 63210001,
+    "ErrorType": 21,
+    "LinkStringId": 1057509,
+    "LinkStringDev": "선물이 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 63210002,
+    "ErrorType": 21,
+    "LinkStringId": 1057510,
+    "LinkStringDev": "기간이 만료된 선물입니다."
+  },
+  {
+    "ErrorId": 63210003,
+    "ErrorType": 21,
+    "LinkStringId": 1057511,
+    "LinkStringDev": "가방이 가득차 더 이상 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 63210004,
+    "ErrorType": 21,
+    "LinkStringId": 1057512,
+    "LinkStringDev": "획득할 수 없는 시간입니다."
+  },
+  {
+    "ErrorId": 63210005,
+    "ErrorType": 21,
+    "LinkStringId": 1057513,
+    "LinkStringDev": "황금 열쇠가 부족합니다."
+  },
+  {
+    "ErrorId": 63210006,
+    "ErrorType": 21,
+    "LinkStringId": 1057514,
+    "LinkStringDev": "가방이 가득차 더 이상 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 63210007,
+    "ErrorType": 21,
+    "LinkStringId": 1057515,
+    "LinkStringDev": "데이터 오류입니다. 다시 시도해 주세요."
+  },
+  {
+    "ErrorId": 63210008,
+    "ErrorType": 21,
+    "LinkStringId": 1057516,
+    "LinkStringDev": "문파에 소속되어 있지 않습니다."
+  },
+  {
+    "ErrorId": 63210009,
+    "ErrorType": 21,
+    "LinkStringId": 1057524,
+    "LinkStringDev": "이미 획득한 선물입니다."
+  },
+  {
+    "ErrorId": 63210010,
+    "ErrorType": 21,
+    "LinkStringId": 1057526,
+    "LinkStringDev": "축복 상자를 이미 획득하였습니다."
+  },
+  {
+    "ErrorId": 63210011,
+    "ErrorType": 21,
+    "LinkStringId": 1057525,
+    "LinkStringDev": "재화가 가득차 더 이상 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 63210012,
+    "ErrorType": 21,
+    "LinkStringId": 1057528,
+    "LinkStringDev": "황금 상자가 문파 가입전에 활성화되어 열 수 없습니다."
+  },
+  {
+    "ErrorId": 63220000,
+    "ErrorType": 13,
+    "LinkStringId": 1073107,
+    "LinkStringDev": "수리할 수 없는 아이템 입니다."
+  },
+  {
+    "ErrorId": 63220001,
+    "ErrorType": 21,
+    "LinkStringId": 1073106,
+    "LinkStringDev": "수리에 필요한 재화가 부족합니다."
+  },
+  {
+    "ErrorId": 63220002,
+    "ErrorType": 13,
+    "LinkStringId": 1073108,
+    "LinkStringDev": "내구도가 충분하지 않습니다."
+  },
+  {
+    "ErrorId": 63220003,
+    "ErrorType": 21,
+    "LinkStringId": 1074103,
+    "LinkStringDev": "[부활후유증_문파지원]지원요청을 이미 보낸 경우 요청할 수 없음 메시지"
+  },
+  {
+    "ErrorId": 63220004,
+    "ErrorType": 21,
+    "LinkStringId": 1074104,
+    "LinkStringDev": "[부활후유증_문파지원]문파가 없는 경우"
+  },
+  {
+    "ErrorId": 63220005,
+    "ErrorType": 21,
+    "LinkStringId": 1074102,
+    "LinkStringDev": "[부활후유증_가속포인트]가속포인트가부족합니다."
+  },
+  {
+    "ErrorId": 63220006,
+    "ErrorType": 13,
+    "LinkStringId": 1074106,
+    "LinkStringDev": "금화가 부족합니다."
+  },
+  {
+    "ErrorId": 63230001,
+    "ErrorType": 13,
+    "LinkStringId": 1107100,
+    "LinkStringDev": "이벤트 데이터를 찾을 수 없습니다."
+  },
+  {
+    "ErrorId": 63230002,
+    "ErrorType": 13,
+    "LinkStringId": 1107101,
+    "LinkStringDev": "진행중이지 않은 이벤트입니다."
+  },
+  {
+    "ErrorId": 63230003,
+    "ErrorType": 13,
+    "LinkStringId": 1107102,
+    "LinkStringDev": "이미 참여한 이벤트입니다."
+  },
+  {
+    "ErrorId": 63230004,
+    "ErrorType": 13,
+    "LinkStringId": 1107103,
+    "LinkStringDev": "유효하지 않은 이벤트 조건입니다."
+  },
+  {
+    "ErrorId": 63230005,
+    "ErrorType": 13,
+    "LinkStringId": 1107104,
+    "LinkStringDev": "이벤트 조건을 만족하지 못합니다."
+  },
+  {
+    "ErrorId": 63230006,
+    "ErrorType": 13,
+    "LinkStringId": 1107105,
+    "LinkStringDev": "가방에 공간이 없습니다."
+  },
+  {
+    "ErrorId": 63230007,
+    "ErrorType": 13,
+    "LinkStringId": 1107108,
+    "LinkStringDev": "유효하지 않은 이벤트 타입입니다."
+  },
+  {
+    "ErrorId": 63230008,
+    "ErrorType": 13,
+    "LinkStringId": 1107109,
+    "LinkStringDev": "필요 재화가 부족합니다."
+  },
+  {
+    "ErrorId": 63230010,
+    "ErrorType": 13,
+    "LinkStringId": 1360007,
+    "LinkStringDev": "요구 아이템이 부족합니다."
+  },
+  {
+    "ErrorId": 63230013,
+    "ErrorType": 13,
+    "LinkStringId": 1360003,
+    "LinkStringDev": "응원 가능 횟수를 초과했습니다."
+  },
+  {
+    "ErrorId": 63500000,
+    "ErrorType": 13,
+    "LinkStringId": 1102110,
+    "LinkStringDev": "거래가능한 아이템이 없습니다."
+  },
+  {
+    "ErrorId": 63500001,
+    "ErrorType": 13,
+    "LinkStringId": 1102111,
+    "LinkStringDev": "거래 불가능한 아이템입니다."
+  },
+  {
+    "ErrorId": 63500002,
+    "ErrorType": 13,
+    "LinkStringId": 1102112,
+    "LinkStringDev": "사용 불가능한 아이템입니다."
+  },
+  {
+    "ErrorId": 63500003,
+    "ErrorType": 13,
+    "LinkStringId": 1102113,
+    "LinkStringDev": "수량이 부족합니다."
+  },
+  {
+    "ErrorId": 63500004,
+    "ErrorType": 13,
+    "LinkStringId": 1102114,
+    "LinkStringDev": "마석이 장착되어있습니다. 추출 후, 다시 시도하여주세요."
+  },
+  {
+    "ErrorId": 63500005,
+    "ErrorType": 13,
+    "LinkStringId": 1102115,
+    "LinkStringDev": "잘못된 판매등록 타입입니다. 확인 후, 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 63500006,
+    "ErrorType": 13,
+    "LinkStringId": 1102116,
+    "LinkStringDev": "잘못 입력하셨습니다. 확인 후, 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 63500007,
+    "ErrorType": 13,
+    "LinkStringId": 1102026,
+    "LinkStringDev": "등록 수수료가 부족합니다."
+  },
+  {
+    "ErrorId": 63500008,
+    "ErrorType": 13,
+    "LinkStringId": 1102117,
+    "LinkStringDev": "구매 비용이 부족합니다. "
+  },
+  {
+    "ErrorId": 63500009,
+    "ErrorType": 13,
+    "LinkStringId": 1102006,
+    "LinkStringDev": "가방에 공간이 없습니다."
+  },
+  {
+    "ErrorId": 63500010,
+    "ErrorType": 13,
+    "LinkStringId": 1102118,
+    "LinkStringDev": "등록정보가 없습니다."
+  },
+  {
+    "ErrorId": 63500011,
+    "ErrorType": 13,
+    "LinkStringId": 1102120,
+    "LinkStringDev": "판매중인 아이템이 없습니다. 확인 후, 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 63500012,
+    "ErrorType": 13,
+    "LinkStringId": 1102120,
+    "LinkStringDev": "판매중인 아이템이 없습니다. 확인 후, 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 63500013,
+    "ErrorType": 13,
+    "LinkStringId": 1102121,
+    "LinkStringDev": "판매 종료된 아이템입니다. "
+  },
+  {
+    "ErrorId": 63500014,
+    "ErrorType": 13,
+    "LinkStringId": 1102122,
+    "LinkStringDev": "잘못된 정산정보입니다. 확인 후, 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 63500015,
+    "ErrorType": 13,
+    "LinkStringId": 1102123,
+    "LinkStringDev": "정산 비용이 최대값에 도달하였습니다."
+  },
+  {
+    "ErrorId": 63500016,
+    "ErrorType": 13,
+    "LinkStringId": 1102137,
+    "LinkStringDev": "이미 진행중인 시스템이 있습니다. 확인 후, 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 63500017,
+    "ErrorType": 13,
+    "LinkStringId": 1102138,
+    "LinkStringDev": "잘못된 정보로 취소할 수 없습니다."
+  },
+  {
+    "ErrorId": 63500018,
+    "ErrorType": 13,
+    "LinkStringId": 1102139,
+    "LinkStringDev": "자신의 아이템은 구매할 수 없습니다."
+  },
+  {
+    "ErrorId": 63500019,
+    "ErrorType": 13,
+    "LinkStringId": 1102116,
+    "LinkStringDev": "잘못 입력하셨습니다. 확인 후, 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 63500020,
+    "ErrorType": 13,
+    "LinkStringId": 1102116,
+    "LinkStringDev": "잘못 입력하셨습니다. 확인 후, 다시 시도하여 주세요."
+  },
+  {
+    "ErrorId": 63500021,
+    "ErrorType": 21,
+    "LinkStringId": 1102151,
+    "LinkStringDev": "장착중인 아이템입니다. "
+  },
+  {
+    "ErrorId": 63500022,
+    "ErrorType": 21,
+    "LinkStringId": 1102152,
+    "LinkStringDev": "아이템을 수리한 후, 시도하여 주세요."
+  },
+  {
+    "ErrorId": 63500023,
+    "ErrorType": 21,
+    "LinkStringId": 1102153,
+    "LinkStringDev": "목록이 가득차서 더 이상 등록할 수 없습니다."
+  },
+  {
+    "ErrorId": 63500024,
+    "ErrorType": 13,
+    "LinkStringId": 1102157,
+    "LinkStringDev": "Lv. 40부터 이용할 수 있습니다."
+  },
+  {
+    "ErrorId": 63500025,
+    "ErrorType": 13,
+    "LinkStringId": 1102156,
+    "LinkStringDev": "Lv. 40부터 이용할 수 있습니다."
+  },
+  {
+    "ErrorId": 63500026,
+    "ErrorType": 21,
+    "LinkStringId": 1102167,
+    "LinkStringDev": "옵션감정이 완료되지 않은 아이템은 거래소에 등록할 수 없습니다."
+  },
+  {
+    "ErrorId": 63600000,
+    "ErrorType": 13,
+    "LinkStringId": 1074702,
+    "LinkStringDev": "사망 패널티 정보가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 63600001,
+    "ErrorType": 13,
+    "LinkStringId": 1074701,
+    "LinkStringDev": "일일 무료 회복 횟수가 부족합니다."
+  },
+  {
+    "ErrorId": 63600002,
+    "ErrorType": 13,
+    "LinkStringId": 1074703,
+    "LinkStringDev": "경험치 복구권이 부족합니다."
+  },
+  {
+    "ErrorId": 55100066,
+    "ErrorType": 13,
+    "LinkStringId": 1067573,
+    "LinkStringDev": "이미 해당 등급의 포상을 받은 캐릭터 입니다."
+  },
+  {
+    "ErrorId": 63700001,
+    "ErrorType": 13,
+    "LinkStringId": 1083021,
+    "LinkStringDev": "성소를 소환할 수 없는 지역입니다."
+  },
+  {
+    "ErrorId": 63700002,
+    "ErrorType": 13,
+    "LinkStringId": 1083022,
+    "LinkStringDev": "성소 소환 정보가 없습니다."
+  },
+  {
+    "ErrorId": 63700003,
+    "ErrorType": 13,
+    "LinkStringId": 1083019,
+    "LinkStringDev": "성소가 설치되어 있어 문파를 해체할 수 없습니다."
+  },
+  {
+    "ErrorId": 63700004,
+    "ErrorType": 13,
+    "LinkStringId": 1083002,
+    "LinkStringDev": "성소 기능을 점검 중입니다."
+  },
+  {
+    "ErrorId": 63700005,
+    "ErrorType": 13,
+    "LinkStringId": 1083007,
+    "LinkStringDev": "소환된 성소가 존재하여 성소를 소환할 수 없습니다."
+  },
+  {
+    "ErrorId": 63700006,
+    "ErrorType": 13,
+    "LinkStringId": 1083003,
+    "LinkStringDev": "원정대 상태에서는 이용할 수 없습니다."
+  },
+  {
+    "ErrorId": 63700007,
+    "ErrorType": 13,
+    "LinkStringId": 1083005,
+    "LinkStringDev": "성소를 소환하기 위한 문파기술을 습득하지 않았습니다."
+  },
+  {
+    "ErrorId": 63700008,
+    "ErrorType": 13,
+    "LinkStringId": 1083020,
+    "LinkStringDev": "영지를 보유한 상태에서는 성소를 소환 할 수 없습니다."
+  },
+  {
+    "ErrorId": 63700009,
+    "ErrorType": 13,
+    "LinkStringId": 1083006,
+    "LinkStringDev": "성소를 설치할 권한이 없습니다."
+  },
+  {
+    "ErrorId": 63800001,
+    "ErrorType": 13,
+    "LinkStringId": 2532019,
+    "LinkStringDev": "제련을 위한 흑철이 부족합니다."
+  },
+  {
+    "ErrorId": 63800002,
+    "ErrorType": 13,
+    "LinkStringId": 2532020,
+    "LinkStringDev": "허용되지 않은 요청이 전송되었습니다."
+  },
+  {
+    "ErrorId": 63800003,
+    "ErrorType": 13,
+    "LinkStringId": 2532021,
+    "LinkStringDev": "하루에 교환할 수 있는 일일 허용량을 초과하였습니다."
+  },
+  {
+    "ErrorId": 63800004,
+    "ErrorType": 13,
+    "LinkStringId": 2532022,
+    "LinkStringDev": "하루에 교환할 수 있는 총 허용량을 초과하였습니다."
+  },
+  {
+    "ErrorId": 63800005,
+    "ErrorType": 13,
+    "LinkStringId": 2532023,
+    "LinkStringDev": "요청 시간이 초과하였습니다."
+  },
+  {
+    "ErrorId": 63800006,
+    "ErrorType": 13,
+    "LinkStringId": 2532024,
+    "LinkStringDev": "WEMIX에서 에러가 전송되었습니다."
+  },
+  {
+    "ErrorId": 63800007,
+    "ErrorType": 13,
+    "LinkStringId": 2532025,
+    "LinkStringDev": "등록되지 않은 어드레스 사용자입니다."
+  },
+  {
+    "ErrorId": 63800008,
+    "ErrorType": 13,
+    "LinkStringId": 2532026,
+    "LinkStringDev": "등록한 어드레스와 맞지 않은 사용자입니다."
+  },
+  {
+    "ErrorId": 63800009,
+    "ErrorType": 13,
+    "LinkStringId": 2532027,
+    "LinkStringDev": "하루에 제련할 수 있는 수량을 초과하였습니다."
+  },
+  {
+    "ErrorId": 63800010,
+    "ErrorType": 13,
+    "LinkStringId": 2532028,
+    "LinkStringDev": "요청하신 정보와 서명이 일치하지 않습니다."
+  },
+  {
+    "ErrorId": 63800011,
+    "ErrorType": 13,
+    "LinkStringId": 2532029,
+    "LinkStringDev": "DERBY 정산 시간입니다."
+  },
+  {
+    "ErrorId": 63800012,
+    "ErrorType": 13,
+    "LinkStringId": 2532030,
+    "LinkStringDev": "대기 시간이 아닙니다."
+  },
+  {
+    "ErrorId": 63800039,
+    "ErrorType": 13,
+    "LinkStringId": 2532031,
+    "LinkStringDev": "정제를 위한 DRACO가 부족합니다."
+  },
+  {
+    "ErrorId": 63800040,
+    "ErrorType": 13,
+    "LinkStringId": 2532032,
+    "LinkStringDev": "정제를 위한 Septaria가 부족합니다."
+  },
+  {
+    "ErrorId": 63800041,
+    "ErrorType": 13,
+    "LinkStringId": 2532033,
+    "LinkStringDev": "허용되지 않은 요청이 전송되었습니다."
+  },
+  {
+    "ErrorId": 17000076,
+    "ErrorType": 13,
+    "LinkStringId": 1059706,
+    "LinkStringDev": "문파에 가입 후 문파 채팅창에 초대를 보낼 수 있습니다."
+  },
+  {
+    "ErrorId": 17000077,
+    "ErrorType": 13,
+    "LinkStringId": 1059707,
+    "LinkStringDev": "존재하지 않는 문파입니다."
+  },
+  {
+    "ErrorId": 17000078,
+    "ErrorType": 13,
+    "LinkStringId": 1059708,
+    "LinkStringDev": "동맹문파가 아니므로 초대를 보낼 수 없습니다."
+  },
+  {
+    "ErrorId": 17000079,
+    "ErrorType": 13,
+    "LinkStringId": 1059698,
+    "LinkStringDev": "상대 캐릭터는 미접속 상태입니다."
+  },
+  {
+    "ErrorId": 17000080,
+    "ErrorType": 13,
+    "LinkStringId": 1059624,
+    "LinkStringDev": "이미 참가중인 파티입니다."
+  },
+  {
+    "ErrorId": 17000081,
+    "ErrorType": 13,
+    "LinkStringId": 1059624,
+    "LinkStringDev": "이미 참가중인 파티입니다."
+  },
+  {
+    "ErrorId": 17000082,
+    "ErrorType": 13,
+    "LinkStringId": 1059713,
+    "LinkStringDev": "다른 서버 동맹 문파에는 파티 초대를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 17000083,
+    "ErrorType": 21,
+    "LinkStringId": 1059635,
+    "LinkStringDev": "토벌 시작 중에는 탈퇴할 수 없습니다."
+  },
+  {
+    "ErrorId": 17000100,
+    "ErrorType": 13,
+    "LinkStringId": 2600027,
+    "LinkStringDev": "<span color=\"#98CCFE\">{1}</>님의 자격의 증명 인증 시간이 30분 이하로 초대가 거절되었습니다."
+  },
+  {
+    "ErrorId": 16000050,
+    "ErrorType": 13,
+    "LinkStringId": 2531101,
+    "LinkStringDev": "xdraco창고 사용 가능 레벨이 아님"
+  },
+  {
+    "ErrorId": 16000051,
+    "ErrorType": 13,
+    "LinkStringId": 2531102,
+    "LinkStringDev": "xdraco창고 보관 실패 - 기타"
+  },
+  {
+    "ErrorId": 16000052,
+    "ErrorType": 13,
+    "LinkStringId": 2531103,
+    "LinkStringDev": "xdraco창고 보관 실패 - 저장하려는 아이템이 인벤에 존재하지 않음"
+  },
+  {
+    "ErrorId": 16000053,
+    "ErrorType": 13,
+    "LinkStringId": 2531104,
+    "LinkStringDev": "xdraco창고 보관 실패 - xdraco창고에 유효한 저장 장소가 부족"
+  },
+  {
+    "ErrorId": 16000054,
+    "ErrorType": 13,
+    "LinkStringId": 2531105,
+    "LinkStringDev": "xdraco창고 보관 실패 - xdraco창고에 이미 해당 아이템이 존재"
+  },
+  {
+    "ErrorId": 16000055,
+    "ErrorType": 13,
+    "LinkStringId": 2531106,
+    "LinkStringDev": "xdraco창고 꺼내기 실패 - 기타"
+  },
+  {
+    "ErrorId": 16000056,
+    "ErrorType": 13,
+    "LinkStringId": 2531107,
+    "LinkStringDev": "xdraco창고 꺼내기 실패 - xdraco창고에 해당 아이템이 없음"
+  },
+  {
+    "ErrorId": 16000057,
+    "ErrorType": 13,
+    "LinkStringId": 2531108,
+    "LinkStringDev": "xdraco창고 꺼내기 - 인벤이 꽉차서 꺼내지 못함"
+  },
+  {
+    "ErrorId": 16000058,
+    "ErrorType": 13,
+    "LinkStringId": 2531109,
+    "LinkStringDev": "xdraco창고 꺼내기 - 인벤에 이미 있음"
+  },
+  {
+    "ErrorId": 16000059,
+    "ErrorType": 13,
+    "LinkStringId": 2531110,
+    "LinkStringDev": "xdraco창고 정보가 로드되어 있지 않은 상태"
+  },
+  {
+    "ErrorId": 16000060,
+    "ErrorType": 13,
+    "LinkStringId": 2531111,
+    "LinkStringDev": "xdraco창고 보관 실패 - 장착 중인 아이템은 이동불가"
+  },
+  {
+    "ErrorId": 16000061,
+    "ErrorType": 13,
+    "LinkStringId": 2531112,
+    "LinkStringDev": "xdraco창고 보관 실패 -기간제 아이템은 이동불가"
+  },
+  {
+    "ErrorId": 16000062,
+    "ErrorType": 13,
+    "LinkStringId": 2531113,
+    "LinkStringDev": "xdraco창고 보관 실패 -옵션감정 진행중인 아이템 이동 불가"
+  },
+  {
+    "ErrorId": 16000063,
+    "ErrorType": 13,
+    "LinkStringId": 2531114,
+    "LinkStringDev": "xdraco창고 보관 실패 -xdraco아이템이 아님"
+  },
+  {
+    "ErrorId": 16000064,
+    "ErrorType": 13,
+    "LinkStringId": 2531115,
+    "LinkStringDev": "xdraco창고 보관 실패 -위믹스 로그인되지 않음"
+  },
+  {
+    "ErrorId": 16000065,
+    "ErrorType": 13,
+    "LinkStringId": 2531116,
+    "LinkStringDev": "xdraco창고 보관 실패 -xdraco창고 이동 비용 부족"
+  },
+  {
+    "ErrorId": 16000066,
+    "ErrorType": 13,
+    "LinkStringId": 2531117,
+    "LinkStringDev": "xdraco창고 보관 실패 -이동하려는 아이템이 창고에 있음"
+  },
+  {
+    "ErrorId": 16000067,
+    "ErrorType": 13,
+    "LinkStringId": 2531118,
+    "LinkStringDev": "xdraco창고 꺼내기 실패 - 거래소 등록 상태 아이템"
+  },
+  {
+    "ErrorId": 16000068,
+    "ErrorType": 13,
+    "LinkStringId": 2531119,
+    "LinkStringDev": "xdraco창고 꺼내기 실패 - 봉인딜레이 상태 아이템"
+  },
+  {
+    "ErrorId": 4000034,
+    "ErrorType": 13,
+    "LinkStringId": 1029171,
+    "LinkStringDev": "내상으로 인하여 흑철 채광이 불가능합니다. 내상 치료 후 시도해주세요."
+  },
+  {
+    "ErrorId": 63800022,
+    "ErrorType": 13,
+    "LinkStringId": 2532208,
+    "LinkStringDev": "흑철 {1}개 이상 보유해야 이용이 가능합니다. "
+  },
+  {
+    "ErrorId": 8000013,
+    "ErrorType": 13,
+    "LinkStringId": 2572001,
+    "LinkStringDev": "장착하려는 아이템이 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 8000014,
+    "ErrorType": 13,
+    "LinkStringId": 2572002,
+    "LinkStringDev": "보패가 아닌 아이템은 착용할 수 없습니다."
+  },
+  {
+    "ErrorId": 8000015,
+    "ErrorType": 13,
+    "LinkStringId": 2572003,
+    "LinkStringDev": "동일한 고유 능력치를 가진 아이템은 중복 착용할 수 없습니다."
+  },
+  {
+    "ErrorId": 63800013,
+    "ErrorType": 13,
+    "LinkStringId": 2530089,
+    "LinkStringDev": "캐릭터의 레벨이 낮아서 NFT 생성에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800014,
+    "ErrorType": 13,
+    "LinkStringId": 2530090,
+    "LinkStringDev": "캐릭터의 전투력이 낮아서 NFT 생성에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800015,
+    "ErrorType": 13,
+    "LinkStringId": 2530091,
+    "LinkStringDev": "캐릭터의 전투력이 낮아서 NFT 봉인에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800016,
+    "ErrorType": 13,
+    "LinkStringId": 2530092,
+    "LinkStringDev": "NFT 캐릭터 봉인은 비천성에서 진행할 수 있습니다."
+  },
+  {
+    "ErrorId": 63800017,
+    "ErrorType": 13,
+    "LinkStringId": 2530093,
+    "LinkStringDev": "서버 이전 대기 시간이 적용 중입니다."
+  },
+  {
+    "ErrorId": 63800018,
+    "ErrorType": 13,
+    "LinkStringId": 2530094,
+    "LinkStringDev": "위상 전환 대기 시간이 적용 중입니다."
+  },
+  {
+    "ErrorId": 63800019,
+    "ErrorType": 13,
+    "LinkStringId": 2530095,
+    "LinkStringDev": "캐릭터 봉인 대기 시간이 적용 중입니다."
+  },
+  {
+    "ErrorId": 63800020,
+    "ErrorType": 13,
+    "LinkStringId": 2530096,
+    "LinkStringDev": "재화가 부족하여 NFT에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800021,
+    "ErrorType": 13,
+    "LinkStringId": 2530097,
+    "LinkStringDev": "데이터 오류로 인해 NFT에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800023,
+    "ErrorType": 13,
+    "LinkStringId": 2530099,
+    "LinkStringDev": "NFT 등록되지 않은 캐릭터입니다."
+  },
+  {
+    "ErrorId": 63800024,
+    "ErrorType": 13,
+    "LinkStringId": 2530100,
+    "LinkStringDev": "이미 NFT 등록된 캐릭터입니다."
+  },
+  {
+    "ErrorId": 63800025,
+    "ErrorType": 13,
+    "LinkStringId": 2530101,
+    "LinkStringDev": "아직 NFT가 생성이 완료되지 않은 캐릭터입니다."
+  },
+  {
+    "ErrorId": 63800026,
+    "ErrorType": 13,
+    "LinkStringId": 2530102,
+    "LinkStringDev": "아직 캐릭터 봉인 처리가 완료되지 않은 캐릭터입니다."
+  },
+  {
+    "ErrorId": 63800027,
+    "ErrorType": 13,
+    "LinkStringId": 2530103,
+    "LinkStringDev": "캐릭터 NFT 생성에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800028,
+    "ErrorType": 13,
+    "LinkStringId": 2530104,
+    "LinkStringDev": "캐릭터 봉인에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800029,
+    "ErrorType": 13,
+    "LinkStringId": 2530105,
+    "LinkStringDev": "캐릭터 봉인 해제에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800030,
+    "ErrorType": 13,
+    "LinkStringId": 2530106,
+    "LinkStringDev": "EXD에 아이템을 등록한 상태입니다."
+  },
+  {
+    "ErrorId": 63800031,
+    "ErrorType": 13,
+    "LinkStringId": 2530107,
+    "LinkStringDev": "NFT 캐릭터 관련하여 잘못된 데이터입니다."
+  },
+  {
+    "ErrorId": 63800032,
+    "ErrorType": 13,
+    "LinkStringId": 2530108,
+    "LinkStringDev": "기간제 아이템을 착용 중이어서 봉인에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800033,
+    "ErrorType": 13,
+    "LinkStringId": 2530109,
+    "LinkStringDev": "파티 가입 상태여서 NFT 캐릭터 봉인에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800034,
+    "ErrorType": 13,
+    "LinkStringId": 2530110,
+    "LinkStringDev": "문파 가입 상태여서 NFT 캐릭터 봉인에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800035,
+    "ErrorType": 13,
+    "LinkStringId": 2530111,
+    "LinkStringDev": "NFT 서버 연결에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800036,
+    "ErrorType": 13,
+    "LinkStringId": 2530112,
+    "LinkStringDev": "NFT 봉인해제에 실패하였습니다.(이미 요청중인 데이터가 있습니다.)"
+  },
+  {
+    "ErrorId": 63800037,
+    "ErrorType": 13,
+    "LinkStringId": 2530113,
+    "LinkStringDev": "NFT 봉인해제에 실패하였습니다.(빈슬롯이 없습니다.)"
+  },
+  {
+    "ErrorId": 63800038,
+    "ErrorType": 13,
+    "LinkStringId": 2530114,
+    "LinkStringDev": "캐릭터 성향 점수가 0 미만이어서 봉인에 실패하였습니다."
+  },
+  {
+    "ErrorId": 63800043,
+    "ErrorType": 13,
+    "LinkStringId": 2530116,
+    "LinkStringDev": "NFT 캐릭터가 미라지에 스테이킹 중입니다."
+  },
+  {
+    "ErrorId": 26000037,
+    "ErrorType": 21,
+    "LinkStringId": 1085003,
+    "LinkStringDev": "입장 가능한 시간이 아닙니다."
+  },
+  {
+    "ErrorId": 45000056,
+    "ErrorType": 21,
+    "LinkStringId": 1085007,
+    "LinkStringDev": "약탈전 진행 중에는 문파를 탈퇴할 수 없습니다."
+  },
+  {
+    "ErrorId": 45000057,
+    "ErrorType": 21,
+    "LinkStringId": 1085006,
+    "LinkStringDev": "약탈전 진행 시간 동안에는 문파를 탈퇴할 수 없습니다."
+  },
+  {
+    "ErrorId": 45000058,
+    "ErrorType": 21,
+    "LinkStringId": 1085008,
+    "LinkStringDev": "약탈전 진행 시간 동안에는 문파원을 추방할 수 없습니다."
+  },
+  {
+    "ErrorId": 45000059,
+    "ErrorType": 21,
+    "LinkStringId": 1085009,
+    "LinkStringDev": "대상이 약탈전을 진행하고 있어 문파에서 추방할 수 없습니다."
+  },
+  {
+    "ErrorId": 45000060,
+    "ErrorType": 21,
+    "LinkStringId": 1085011,
+    "LinkStringDev": "약탈전을 진행중일 동안에는 문파를 해체할 수 없습니다."
+  },
+  {
+    "ErrorId": 45000061,
+    "ErrorType": 21,
+    "LinkStringId": 1085010,
+    "LinkStringDev": "약탈전 진행 시간 동안에는 문파를 해체할 수 없습니다."
+  },
+  {
+    "ErrorId": 45190046,
+    "ErrorType": 21,
+    "LinkStringId": 1085012,
+    "LinkStringDev": "약탈전 진행 시간 동안에는 문파동맹 기능을 이용할 수 없습니다."
+  },
+  {
+    "ErrorId": 45190047,
+    "ErrorType": 21,
+    "LinkStringId": 1071551,
+    "LinkStringDev": "지금은 이용을 할 수 없습니다. 잠시 후에 이용해 주세요."
+  },
+  {
+    "ErrorId": 50000020,
+    "ErrorType": 21,
+    "LinkStringId": 1045031,
+    "LinkStringDev": "이 지역에서는 비무를 진행할 수 없습니다."
+  },
+  {
+    "ErrorId": 50000021,
+    "ErrorType": 21,
+    "LinkStringId": 1400619,
+    "LinkStringDev": "최근에 비무를 진행하여 비무를 신청할 수 없습니다."
+  },
+  {
+    "ErrorId": 50000022,
+    "ErrorType": 21,
+    "LinkStringId": 1400620,
+    "LinkStringDev": "상대가 최근에 비무를 진행하여 비무를 할 수 없는 상태입니다."
+  },
+  {
+    "ErrorId": 63900001,
+    "ErrorType": 21,
+    "LinkStringId": 1085044,
+    "LinkStringDev": "약탈전 지역이 아닙니다."
+  },
+  {
+    "ErrorId": 63900002,
+    "ErrorType": 21,
+    "LinkStringId": 1085045,
+    "LinkStringDev": "약탈전 정보가 존재하지 않습니다."
+  },
+  {
+    "ErrorId": 63900003,
+    "ErrorType": 21,
+    "LinkStringId": 1085046,
+    "LinkStringDev": "요청을 진행할 수 없는 약탈전 상태입니다."
+  },
+  {
+    "ErrorId": 63900004,
+    "ErrorType": 21,
+    "LinkStringId": 1085048,
+    "LinkStringDev": "구매할 수 없는 함정입니다."
+  },
+  {
+    "ErrorId": 63900005,
+    "ErrorType": 21,
+    "LinkStringId": 1085028,
+    "LinkStringDev": "이미 설치되어 있는 함정입니다."
+  },
+  {
+    "ErrorId": 63900006,
+    "ErrorType": 21,
+    "LinkStringId": 1085047,
+    "LinkStringDev": "함정 제작 요청을 처리 중입니다."
+  },
+  {
+    "ErrorId": 63900007,
+    "ErrorType": 21,
+    "LinkStringId": 1085049,
+    "LinkStringDev": "생산 중인 함정입니다."
+  },
+  {
+    "ErrorId": 63900008,
+    "ErrorType": 21,
+    "LinkStringId": 1085050,
+    "LinkStringDev": "함정을 설치할 수 있는 시간이 아닙니다."
+  },
+  {
+    "ErrorId": 63900009,
+    "ErrorType": 21,
+    "LinkStringId": 1085051,
+    "LinkStringDev": "재 생산 대기 중입니다."
+  },
+  {
+    "ErrorId": 63900010,
+    "ErrorType": 21,
+    "LinkStringId": 1085050,
+    "LinkStringDev": "함정을 설치할 수 있는 시간이 아닙니다."
+  },
+  {
+    "ErrorId": 63900011,
+    "ErrorType": 21,
+    "LinkStringId": 1085052,
+    "LinkStringDev": "토벌 파티에 소속된 상태에서는 입장할 수 없습니다."
+  },
+  {
+    "ErrorId": 63900012,
+    "ErrorType": 21,
+    "LinkStringId": 1085053,
+    "LinkStringDev": "약탈팀만 상자를 오픈할 수 있습니다."
+  },
+  {
+    "ErrorId": 63900013,
+    "ErrorType": 21,
+    "LinkStringId": 1085054,
+    "LinkStringDev": "원정 중인 약탈팀만 보물상자를 오픈할 수 있습니다."
+  },
+  {
+    "ErrorId": 63900014,
+    "ErrorType": 21,
+    "LinkStringId": 1085055,
+    "LinkStringDev": "소속 문파의 문파 랭킹이 낮아 입장할 수 없습니다."
+  },
+  {
+    "ErrorId": 64000001,
+    "ErrorType": 13,
+    "LinkStringId": 1066837,
+    "LinkStringDev": "어둠의 제단 필드가 아니다."
+  },
+  {
+    "ErrorId": 64000002,
+    "ErrorType": 13,
+    "LinkStringId": 1066838,
+    "LinkStringDev": "어둠의 제단 점령 정보가 없다."
+  },
+  {
+    "ErrorId": 45400023,
+    "ErrorType": 11,
+    "LinkStringId": 2581003,
+    "LinkStringDev": "아직은 할 수 없습니다."
+  },
+  {
+    "ErrorId": 45400024,
+    "ErrorType": 11,
+    "LinkStringId": 2581007,
+    "LinkStringDev": "중복된 요청입니다."
+  },
+  {
+    "ErrorId": 45200100,
+    "ErrorType": 13,
+    "LinkStringId": 1071548,
+    "LinkStringDev": "공격제외 문파 최대 등록 상태입니다."
+  },
+  {
+    "ErrorId": 45200101,
+    "ErrorType": 13,
+    "LinkStringId": 1071549,
+    "LinkStringDev": "이미 공격제외 문파에 등록된 상태입니다."
+  },
+  {
+    "ErrorId": 51000020,
+    "ErrorType": 13,
+    "LinkStringId": 1029175,
+    "LinkStringDev": "흑철 상점 구매 레벨 제한 (40레벨)"
+  },
+  {
+    "ErrorId": 45400025,
+    "ErrorType": 21,
+    "LinkStringId": 1084023,
+    "LinkStringDev": "지급 가능한 금액이 한계를 넘었습니다."
+  },
+  {
+    "ErrorId": 1310000,
+    "ErrorType": 13,
+    "LinkStringId": 2100178,
+    "LinkStringDev": "본진 서버에서만 이동할 수 있습니다."
+  },
+  {
+    "ErrorId": 1310001,
+    "ErrorType": 13,
+    "LinkStringId": 2100184,
+    "LinkStringDev": "정복 서버 이동 중입니다."
+  },
+  {
+    "ErrorId": 1310002,
+    "ErrorType": 13,
+    "LinkStringId": 2100176,
+    "LinkStringDev": "캐릭터가 다른 행동 중이어서 정복 서버 신청을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310003,
+    "ErrorType": 13,
+    "LinkStringId": 2100189,
+    "LinkStringDev": "원정대 이용 상태에서는 정복 서버에 입장 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310004,
+    "ErrorType": 13,
+    "LinkStringId": 2100183,
+    "LinkStringDev": "데이터 테이블 문제로 정복 서버 진행이 불가합니다."
+  },
+  {
+    "ErrorId": 1310005,
+    "ErrorType": 13,
+    "LinkStringId": 2100190,
+    "LinkStringDev": "유효하지 않은 데이터여서 정복 서버 이동이 불가합니다."
+  },
+  {
+    "ErrorId": 1310006,
+    "ErrorType": 13,
+    "LinkStringId": 2100183,
+    "LinkStringDev": "데이터 테이블 문제로 정복 서버 진행이 불가합니다."
+  },
+  {
+    "ErrorId": 1310010,
+    "ErrorType": 13,
+    "LinkStringId": 2100152,
+    "LinkStringDev": "정복 서버 이용 시간이 아닙니다."
+  },
+  {
+    "ErrorId": 1310011,
+    "ErrorType": 13,
+    "LinkStringId": 2100191,
+    "LinkStringDev": "정복 서버 이용 시간이 10분 이하여서 입장을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310012,
+    "ErrorType": 13,
+    "LinkStringId": 2100192,
+    "LinkStringDev": "정복 서버 입장 횟수가 부족하여 입장 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310013,
+    "ErrorType": 13,
+    "LinkStringId": 2100193,
+    "LinkStringDev": "인증 키가 없어 입장을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310014,
+    "ErrorType": 13,
+    "LinkStringId": 2100194,
+    "LinkStringDev": "현재는 정복 서버에 입장할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310015,
+    "ErrorType": 13,
+    "LinkStringId": 2100154,
+    "LinkStringDev": "정복 서버 참여 인원 수가 최대여서 입장 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310016,
+    "ErrorType": 13,
+    "LinkStringId": 2100154,
+    "LinkStringDev": "정복 서버 참여 인원 수가 최대여서 입장 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310017,
+    "ErrorType": 13,
+    "LinkStringId": 2100195,
+    "LinkStringDev": "데이터 갱신 문제로 정복 서버에 입장 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310018,
+    "ErrorType": 13,
+    "LinkStringId": 2100182,
+    "LinkStringDev": "정복 서버에서는 이동 할 수 없는 지역입니다."
+  },
+  {
+    "ErrorId": 1310019,
+    "ErrorType": 13,
+    "LinkStringId": 2100196,
+    "LinkStringDev": "정복 서버에서는 이동 할 수 없는 서버입니다."
+  },
+  {
+    "ErrorId": 1310020,
+    "ErrorType": 13,
+    "LinkStringId": 2100182,
+    "LinkStringDev": "정복 서버에서는 이용 할 수 없는 지역입니다."
+  },
+  {
+    "ErrorId": 1310021,
+    "ErrorType": 13,
+    "LinkStringId": 2100197,
+    "LinkStringDev": "정복 서버 이용 레벨이 부족합니다."
+  },
+  {
+    "ErrorId": 1310022,
+    "ErrorType": 13,
+    "LinkStringId": 2100198,
+    "LinkStringDev": "파티 참여 상태입니다."
+  },
+  {
+    "ErrorId": 1310023,
+    "ErrorType": 13,
+    "LinkStringId": 2100199,
+    "LinkStringDev": "정복 서버에서 PK 사망으로 더 이상 드롭을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310024,
+    "ErrorType": 13,
+    "LinkStringId": 2100200,
+    "LinkStringDev": "정복 서버에서 PK 승리로 더 이상 획득 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310025,
+    "ErrorType": 13,
+    "LinkStringId": 2100201,
+    "LinkStringDev": "가방 저장 공간이 부족하여 더 이상 획득할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310026,
+    "ErrorType": 13,
+    "LinkStringId": 2100166,
+    "LinkStringDev": "생명력이 없기 때문에 지역 이동을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310027,
+    "ErrorType": 13,
+    "LinkStringId": 2100168,
+    "LinkStringDev": "서버 위치가 달라서 파티를 맺을 수 없습니다."
+  },
+  {
+    "ErrorId": 1310028,
+    "ErrorType": 13,
+    "LinkStringId": 2100169,
+    "LinkStringDev": "정복 서버에서 생성한 파티만 가입할 수 있습니다."
+  },
+  {
+    "ErrorId": 1310029,
+    "ErrorType": 13,
+    "LinkStringId": 2100174,
+    "LinkStringDev": "정복 서버 참여 중인 캐릭터는 추방을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310030,
+    "ErrorType": 13,
+    "LinkStringId": 2100175,
+    "LinkStringDev": "정복 서버 참여 중인 캐릭터가 존재하여 문파 해제를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310031,
+    "ErrorType": 13,
+    "LinkStringId": 2100185,
+    "LinkStringDev": "정복 서버 참여 중에는 척살 등록을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310032,
+    "ErrorType": 13,
+    "LinkStringId": 2100186,
+    "LinkStringDev": "정복 서버 참여중인 캐릭터에게 친구 요청을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310033,
+    "ErrorType": 13,
+    "LinkStringId": 2100187,
+    "LinkStringDev": "정복 서버 참여중인 캐릭터에게 친구 수락을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310034,
+    "ErrorType": 13,
+    "LinkStringId": 2100188,
+    "LinkStringDev": "정복 서버 참여중에는 문파 탈퇴를 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310035,
+    "ErrorType": 13,
+    "LinkStringId": 2100202,
+    "LinkStringDev": "본진 서버와 통신 문제로 이용을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 1310036,
+    "ErrorType": 13,
+    "LinkStringId": 2100167,
+    "LinkStringDev": "정복서버에서는 이용을 할 수 없습니다."
+  },
+  {
+    "ErrorId": 65000001,
+    "ErrorType": 13,
+    "LinkStringId": 1087038,
+    "LinkStringDev": "사북쟁패 지역이 아닙니다."
+  },
+  {
+    "ErrorId": 65000002,
+    "ErrorType": 13,
+    "LinkStringId": 1087039,
+    "LinkStringDev": "요청을 진행할 수 없는 사북쟁패 상태입니다."
+  },
+  {
+    "ErrorId": 65000003,
+    "ErrorType": 13,
+    "LinkStringId": 1087013,
+    "LinkStringDev": "사북쟁패 입장 가능 시간이 아닙니다."
+  },
+  {
+    "ErrorId": 65000004,
+    "ErrorType": 13,
+    "LinkStringId": 1087040,
+    "LinkStringDev": "랭킹을 업데이트 중입니다."
+  },
+  {
+    "ErrorId": 65000005,
+    "ErrorType": 13,
+    "LinkStringId": 1087041,
+    "LinkStringDev": "사북쟁패에 선출된 문파만 할 수 있습니다."
+  },
+  {
+    "ErrorId": 65000006,
+    "ErrorType": 13,
+    "LinkStringId": 1087042,
+    "LinkStringDev": "문파 파티만 입장할 수 있습니다."
+  },
+  {
+    "ErrorId": 65000007,
+    "ErrorType": 13,
+    "LinkStringId": 1087007,
+    "LinkStringDev": "사북쟁패 진행 시간 동안에는 문파를 탈퇴할 수 없습니다."
+  },
+  {
+    "ErrorId": 65000008,
+    "ErrorType": 13,
+    "LinkStringId": 1087009,
+    "LinkStringDev": "사북쟁패 진행 시간 동안에는 문파를 해체할 수 없습니다."
+  },
+  {
+    "ErrorId": 65000009,
+    "ErrorType": 13,
+    "LinkStringId": 1087043,
+    "LinkStringDev": "사북쟁패 진행 시간 동안에는 동맹을 결성할 수 없습니다."
+  },
+  {
+    "ErrorId": 65000010,
+    "ErrorType": 13,
+    "LinkStringId": 1045031,
+    "LinkStringDev": "이 지역에서는 비무를 진행할 수 없습니다."
+  },
+  {
+    "ErrorId": 65000011,
+    "ErrorType": 13,
+    "LinkStringId": 1087027,
+    "LinkStringDev": "설치 쿨타임 중입니다."
+  },
+  {
+    "ErrorId": 65000012,
+    "ErrorType": 13,
+    "LinkStringId": 1087026,
+    "LinkStringDev": "진영이 일치하지 않아 설치할 수 없습니다."
+  },
+  {
+    "ErrorId": 65000013,
+    "ErrorType": 13,
+    "LinkStringId": 1087025,
+    "LinkStringDev": "문파권한이 없어 전초기지를 설치할 수 없습니다."
+  }
+]

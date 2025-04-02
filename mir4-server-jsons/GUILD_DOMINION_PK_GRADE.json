@@ -1,0 +1,38 @@
+[
+  {
+    "DominionPKId": 1,
+    "DominionPkNameId": 3350001,
+    "DominionPkIconId": 1900,
+    "DominionPKRewardType": 1,
+    "DominionPKRewardTypeSub": 5,
+    "DominionPKRewardValue": 350,
+    "DominionPKDurationTime": 86400,
+    "DominionPKTargetDebuff": 500200,
+    "DominionPKCostType": 4,
+    "DominionPKCostValue": 500
+  },
+  {
+    "DominionPKId": 2,
+    "DominionPkNameId": 3350002,
+    "DominionPkIconId": 1901,
+    "DominionPKRewardType": 1,
+    "DominionPKRewardTypeSub": 5,
+    "DominionPKRewardValue": 1050,
+    "DominionPKDurationTime": 129600,
+    "DominionPKTargetDebuff": 500201,
+    "DominionPKCostType": 4,
+    "DominionPKCostValue": 1500
+  },
+  {
+    "DominionPKId": 3,
+    "DominionPkNameId": 3350003,
+    "DominionPkIconId": 1902,
+    "DominionPKRewardType": 1,
+    "DominionPKRewardTypeSub": 5,
+    "DominionPKRewardValue": 2100,
+    "DominionPKDurationTime": 201600,
+    "DominionPKTargetDebuff": 500202,
+    "DominionPKCostType": 4,
+    "DominionPKCostValue": 3000
+  }
+]

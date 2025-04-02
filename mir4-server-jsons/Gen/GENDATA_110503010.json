@@ -1,0 +1,138 @@
+[
+    {
+        "PosID": 1,
+        "Stage": 110503010,
+        "GenObjectID": 403001013,
+        "GenObjectType": 2,
+        "SpawnCount": 1,
+        "SpawnRange": 1,
+        "ActiveType": 0,
+        "RegMinTime": 0,
+        "RegMaxTime": 0,
+        "LocationX": -10170.0,
+        "LocationY": 13519.0,
+        "LocationZ": 7051.0,
+        "RotationYaw": 249,
+        "LinkGroup": 0,
+        "LinkGroupDistance": 0,
+        "GenType": 0,
+        "FirstGenDelayMin": 0,
+        "FirstGenDelayMax": 0,
+        "GroupGenID": 0,
+        "GroupGenCountThreshold": 0,
+        "RoamingType": 0,
+        "ScaleX": 1,
+        "ScaleY": 1,
+        "ScaleZ": 1,
+        "RoamingPath": [
+            "100,200,300",
+            "110,210,310"
+        ],
+        "RoamingPathDelay": [
+            5,
+            10
+        ]
+    },
+    {
+        "PosID": 2,
+        "Stage": 110503010,
+        "GenObjectID": 403001024,
+        "GenObjectType": 2,
+        "SpawnCount": 1,
+        "SpawnRange": 1,
+        "ActiveType": 0,
+        "RegMinTime": 0,
+        "RegMaxTime": 0,
+        "LocationX": 22740.0,
+        "LocationY": 15515.0,
+        "LocationZ": 7540.0,
+        "RotationYaw": 249,
+        "LinkGroup": 0,
+        "LinkGroupDistance": 0,
+        "GenType": 0,
+        "FirstGenDelayMin": 0,
+        "FirstGenDelayMax": 0,
+        "GroupGenID": 0,
+        "GroupGenCountThreshold": 0,
+        "RoamingType": 0,
+        "ScaleX": 1,
+        "ScaleY": 1,
+        "ScaleZ": 1,
+        "RoamingPath": [
+            "100,200,300",
+            "110,210,310"
+        ],
+        "RoamingPathDelay": [
+            5,
+            10
+        ]
+    },
+    {
+        "PosID": 3,
+        "Stage": 110503010,
+        "GenObjectID": 403001044,
+        "GenObjectType": 2,
+        "SpawnCount": 1,
+        "SpawnRange": 1,
+        "ActiveType": 0,
+        "RegMinTime": 0,
+        "RegMaxTime": 0,
+        "LocationX": -12866.0,
+        "LocationY": -10610.0,
+        "LocationZ": 9705.0,
+        "RotationYaw": 249,
+        "LinkGroup": 0,
+        "LinkGroupDistance": 0,
+        "GenType": 0,
+        "FirstGenDelayMin": 0,
+        "FirstGenDelayMax": 0,
+        "GroupGenID": 0,
+        "GroupGenCountThreshold": 0,
+        "RoamingType": 0,
+        "ScaleX": 1,
+        "ScaleY": 1,
+        "ScaleZ": 1,
+        "RoamingPath": [
+            "100,200,300",
+            "110,210,310"
+        ],
+        "RoamingPathDelay": [
+            5,
+            10
+        ]
+    },
+    {
+        "PosID": 4,
+        "Stage": 110503010,
+        "GenObjectID": 403001054,
+        "GenObjectType": 2,
+        "SpawnCount": 1,
+        "SpawnRange": 1,
+        "ActiveType": 0,
+        "RegMinTime": 0,
+        "RegMaxTime": 0,
+        "LocationX": -12337.0,
+        "LocationY": -22594.0,
+        "LocationZ": 11638.0,
+        "RotationYaw": 249,
+        "LinkGroup": 0,
+        "LinkGroupDistance": 0,
+        "GenType": 0,
+        "FirstGenDelayMin": 0,
+        "FirstGenDelayMax": 0,
+        "GroupGenID": 0,
+        "GroupGenCountThreshold": 0,
+        "RoamingType": 0,
+        "ScaleX": 1,
+        "ScaleY": 1,
+        "ScaleZ": 1,
+        "RoamingPath": [
+            "100,200,300",
+            "110,210,310"
+        ],
+        "RoamingPathDelay": [
+            5,
+            10
+        ]
+    }
+]

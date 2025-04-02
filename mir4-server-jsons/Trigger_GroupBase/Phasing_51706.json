@@ -1,0 +1,46 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "17890,-8856,5154",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": 2,
+    "TriggerLocation": "17891,-8857,5155",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "0.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": "ETriggerType::PHASEAREA",
+    "TriggerLocation": "17301,-6904,1900",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "3200.0"
+    ],
+    "Value2": [
+      "8.72508"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "CategoryId": 10000,
+    "HigherCategoryId": 3900,
+    "CategoryNameStrid": 1072002,
+    "CategoryPointStrId": 1072002,
+    "CategoryIconId": 0
+  },
+  {
+    "CategoryId": 10100,
+    "HigherCategoryId": 10000,
+    "CategoryNameStrid": 1072067,
+    "CategoryPointStrId": 1072090,
+    "CategoryIconId": 0
+  },
+  {
+    "CategoryId": 10101,
+    "HigherCategoryId": 10100,
+    "CategoryNameStrid": 1072058,
+    "CategoryPointStrId": 1072090,
+    "CategoryIconId": 3231004
+  },
+  {
+    "CategoryId": 10102,
+    "HigherCategoryId": 10100,
+    "CategoryNameStrid": 1072068,
+    "CategoryPointStrId": 1072090,
+    "CategoryIconId": 3231004
+  },
+  {
+    "CategoryId": 10103,
+    "HigherCategoryId": 10100,
+    "CategoryNameStrid": 1072069,
+    "CategoryPointStrId": 1072090,
+    "CategoryIconId": 3231004
+  },
+  {
+    "CategoryId": 10104,
+    "HigherCategoryId": 10100,
+    "CategoryNameStrid": 1072070,
+    "CategoryPointStrId": 1072090,
+    "CategoryIconId": 3231004
+  },
+  {
+    "CategoryId": 10105,
+    "HigherCategoryId": 10100,
+    "CategoryNameStrid": 1072072,
+    "CategoryPointStrId": 1072090,
+    "CategoryIconId": 3231004
+  },
+  {
+    "CategoryId": 10106,
+    "HigherCategoryId": 10100,
+    "CategoryNameStrid": 1072071,
+    "CategoryPointStrId": 1072090,
+    "CategoryIconId": 3231004
+  },
+  {
+    "CategoryId": 10400,
+    "HigherCategoryId": 10000,
+    "CategoryNameStrid": 1072057,
+    "CategoryPointStrId": 1072091,
+    "CategoryIconId": 0
+  },
+  {
+    "CategoryId": 10401,
+    "HigherCategoryId": 10400,
+    "CategoryNameStrid": 1072058,
+    "CategoryPointStrId": 1072091,
+    "CategoryIconId": 1370008
+  },
+  {
+    "CategoryId": 10402,
+    "HigherCategoryId": 10400,
+    "CategoryNameStrid": 1072059,
+    "CategoryPointStrId": 1072091,
+    "CategoryIconId": 1370008
+  },
+  {
+    "CategoryId": 10403,
+    "HigherCategoryId": 10400,
+    "CategoryNameStrid": 1072060,
+    "CategoryPointStrId": 1072091,
+    "CategoryIconId": 1370008
+  },
+  {
+    "CategoryId": 10404,
+    "HigherCategoryId": 10400,
+    "CategoryNameStrid": 1072061,
+    "CategoryPointStrId": 1072091,
+    "CategoryIconId": 1370008
+  },
+  {
+    "CategoryId": 10405,
+    "HigherCategoryId": 10400,
+    "CategoryNameStrid": 1072118,
+    "CategoryPointStrId": 1072091,
+    "CategoryIconId": 1370008
+  },
+  {
+    "CategoryId": 10406,
+    "HigherCategoryId": 10400,
+    "CategoryNameStrid": 1072062,
+    "CategoryPointStrId": 1072091,
+    "CategoryIconId": 1370008
+  },
+  {
+    "CategoryId": 10500,
+    "HigherCategoryId": 10000,
+    "CategoryNameStrid": 1072064,
+    "CategoryPointStrId": 1072093,
+    "CategoryIconId": 730130
+  },
+  {
+    "CategoryId": 10600,
+    "HigherCategoryId": 10000,
+    "CategoryNameStrid": 1072126,
+    "CategoryPointStrId": 1072127,
+    "CategoryIconId": 730129
+  },
+  {
+    "CategoryId": 20000,
+    "HigherCategoryId": 3910,
+    "CategoryNameStrid": 1072003,
+    "CategoryPointStrId": 1072003,
+    "CategoryIconId": 0
+  },
+  {
+    "CategoryId": 20100,
+    "HigherCategoryId": 20000,
+    "CategoryNameStrid": 1072044,
+    "CategoryPointStrId": 1072094,
+    "CategoryIconId": 3231004
+  }
+]

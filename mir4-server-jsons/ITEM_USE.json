@@ -1,0 +1,30 @@
+[
+    {
+        "UseGroupId": 1,
+        "ResultCountMin": 1,
+        "ResultCountMax": 3,
+        "ResultItemId01Rate": 50,
+        "ResultItemId01": 1001,
+        "ResultItemId01Count": 1,
+        "ResultItemId02Rate": 30,
+        "ResultItemId02": 1002,
+        "ResultItemId02Count": 1,
+        "ResultItemId03Rate": 20,
+        "ResultItemId03": 1003,
+        "ResultItemId03Count": 1
+    },
+    {
+        "UseGroupId": 2,
+        "ResultCountMin": 1,
+        "ResultCountMax": 3,
+        "ResultItemId01Rate": 50,
+        "ResultItemId01": 1101,
+        "ResultItemId01Count": 1,
+        "ResultItemId02Rate": 30,
+        "ResultItemId02": 1102,
+        "ResultItemId02Count": 1,
+        "ResultItemId03Rate": 20,
+        "ResultItemId03": 1103,
+        "ResultItemId03Count": 1
+    }
+]

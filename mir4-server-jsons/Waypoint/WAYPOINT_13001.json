@@ -1,0 +1,102 @@
+[
+  {
+    "UniqueID": 100000110,
+    "ActiveRadius": 0,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 0,
+    "WaypointWarpNeedItemCount": 0,
+    "WayPointName": 2190301,
+    "Location": {
+      "X": 13045,
+      "Y": 13974,
+      "Z": 2860.363
+    },
+    "WarpCoordinate": {
+      "X": 12921,
+      "Y": 13932,
+      "Z": 2860.363
+    }
+  },
+  {
+    "UniqueID": 100000111,
+    "ActiveRadius": 0,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 0,
+    "WaypointWarpNeedItemCount": 0,
+    "WayPointName": 2190302,
+    "Location": {
+      "X": -15045,
+      "Y": 742,
+      "Z": 1750.27
+    },
+    "WarpCoordinate": {
+      "X": -14928,
+      "Y": 753,
+      "Z": 1750.27
+    }
+  },
+  {
+    "UniqueID": 100000112,
+    "ActiveRadius": 0,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 0,
+    "WaypointWarpNeedItemCount": 0,
+    "WayPointName": 2190303,
+    "Location": {
+      "X": 15891,
+      "Y": 1485,
+      "Z": 1808.616
+    },
+    "WarpCoordinate": {
+      "X": 15781,
+      "Y": 1476,
+      "Z": 1808.616
+    }
+  },
+  {
+    "UniqueID": 100000113,
+    "ActiveRadius": 0,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 0,
+    "WaypointWarpNeedItemCount": 0,
+    "WayPointName": 2190304,
+    "Location": {
+      "X": -14196,
+      "Y": -16313,
+      "Z": 1185.172
+    },
+    "WarpCoordinate": {
+      "X": -14112,
+      "Y": -16249,
+      "Z": 1185.172
+    }
+  },
+  {
+    "UniqueID": 100000114,
+    "ActiveRadius": 0,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 0,
+    "WaypointWarpNeedItemCount": 0,
+    "WayPointName": 2190305,
+    "Location": {
+      "X": 19525,
+      "Y": -16058,
+      "Z": 3589.001
+    },
+    "WarpCoordinate": {
+      "X": 19414,
+      "Y": -16039,
+      "Z": 3589.001
+    }
+  }
+]

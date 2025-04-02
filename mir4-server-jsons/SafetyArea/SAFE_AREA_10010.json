@@ -1,0 +1,17 @@
+[
+    {
+        "StageID": 10010,
+        "SafetyArea": "SAFE_AREA_10010.json",
+        "SafetyAreas": [
+          {
+            "PosID": 1,
+            "ActiveRadius": 0,
+            "Location": {
+              "x": 196.0,
+              "y": 19719.0,
+              "z": 228.0
+            }
+          }
+        ]
+      }
+]

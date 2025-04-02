@@ -1,0 +1,242 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "-14104,-9056,617",
+    "TriggerRotation": 0,
+    "LinkID": [
+      11,
+      10,
+      5,
+      4,
+      12
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": "ETriggerType::DIRECTING",
+    "TriggerLocation": "-13614,-7809,1891",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "107015100"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": 2,
+    "TriggerLocation": "-13670,-6984,1232",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "4.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": "ETriggerType::GUARD_NPC_SPAWNER",
+    "TriggerLocation": "-14344,-8910,42",
+    "TriggerRotation": 89,
+    "LinkID": [],
+    "Value1": [
+      "207010046"
+    ],
+    "Value2": [],
+    "Value3": [
+      "0"
+    ],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": 4,
+    "TriggerLocation": "-13918,-8293,1209",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "207010042",
+      "207010043",
+      "207010043",
+      "207010042",
+      "207010041",
+      "207010041"
+    ],
+    "Value2": [
+      "-14091,-8232,65",
+      "-13489,-8292,75",
+      "-15118,-8253,75",
+      "-14521,-8232,65",
+      "-13846,-7852,65",
+      "-14801,-7852,65"
+    ],
+    "Value3": [
+      "-89",
+      "-140",
+      "-46",
+      "-89",
+      "-89",
+      "-89"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": 4,
+    "TriggerLocation": "-14185,-7525,1375",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "207010043",
+      "207010041",
+      "207010041",
+      "207010054",
+      "207010043"
+    ],
+    "Value2": [
+      "-14075,-6157,-190",
+      "-14246,-5697,-420",
+      "-14456,-5692,-420",
+      "-14311,-6497,-25",
+      "-14590,-6164,-175"
+    ],
+    "Value3": [
+      "-100",
+      "-89",
+      "-89",
+      "-89",
+      "-75"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": 5,
+    "TriggerLocation": "-13538,-7975,1379",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2,
+      6
+    ],
+    "Value1": [
+      "5"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 8,
+    "TriggerType": 5,
+    "TriggerLocation": "-14090,-7400,1510",
+    "TriggerRotation": 0,
+    "LinkID": [
+      3
+    ],
+    "Value1": [
+      "6"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 9,
+    "TriggerType": "ETriggerType::PHASEAREA",
+    "TriggerLocation": "-14395,-7260,-89",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "3000.0"
+    ],
+    "Value2": [
+      "5.0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 10,
+    "TriggerType": "ETriggerType::PLAYSOUND",
+    "TriggerLocation": "-14164,-9550,807",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "101007"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 11,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "-14893,-9515,522",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 12,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "-14519,-9106,927",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "CAMERAFOCUS (-14294,-4767,207) (-16,-90,0) 0 1 (-14362,-7158,295) (0,-90,0) 3 1",
+      "CAMERASET -89 -12 900 0.1"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

@@ -1,0 +1,542 @@
+{
+  "1": {
+     "InventoryID": 1,
+     "TabNameStringID": 2800006,
+     "TabSymbol": 2800001,
+     "TabSymbolSelected": 2800101,
+     "SortException": 0,
+     "ItemType": "((MainType=2),(MainType=20),(MainType=3),(MainType=4),(MainType=13,SubType=(3)),(MainType=13,SubType=(4)),(MainType=11,SubType=(1,2,3,5,7,8)),(MainType=22))",
+     "CustomItemFilterType": 0
+  },
+  "2": {
+     "InventoryID": 1,
+     "TabNameStringID": 2800007,
+     "TabSymbol": 2800002,
+     "TabSymbolSelected": 2800102,
+     "SortException": 1,
+     "ItemType": "((MainType=5,SubType=(1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,30)),(MainType=7,SubType=(1,2,3,4,6)),(MainType=9),(MainType=12),(MainType=19),(MainType=14,SubType=(3)))",
+     "CustomItemFilterType": 0
+  },
+  "3": {
+     "InventoryID": 1,
+     "TabNameStringID": 2800009,
+     "TabSymbol": 2800004,
+     "TabSymbolSelected": 2800104,
+     "SortException": 0,
+     "ItemType": "((MainType=8),(MainType=13,SubType=(2)),(MainType=21))",
+     "CustomItemFilterType": 0
+  },
+  "4": {
+     "InventoryID": 1,
+     "TabNameStringID": 2800010,
+     "TabSymbol": 2800010,
+     "TabSymbolSelected": 2800110,
+     "SortException": 0,
+     "ItemType": "((MainType=5,SubType=(3,22)),(MainType=7,SubType=(5)),(MainType=17))",
+     "CustomItemFilterType": 0
+  },
+  "5": {
+     "InventoryID": 1,
+     "TabNameStringID": 2800005,
+     "TabSymbol": 2800005,
+     "TabSymbolSelected": 2800105,
+     "SortException": 0,
+     "ItemType": "((MainType=6),(MainType=10),(MainType=14,SubType=(1,2,4,5,7,8)),(MainType=18),(MainType=13,SubType=(1)))",
+     "CustomItemFilterType": 0
+  },
+  "6": {
+     "InventoryID": 2,
+     "TabNameStringID": 2800009,
+     "TabSymbol": 2800004,
+     "TabSymbolSelected": 2800105,
+     "SortException": 0,
+     "ItemType": "((MainType=8))",
+     "CustomItemFilterType": 0
+  },
+  "7": {
+     "InventoryID": 3,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "8": {
+     "InventoryID": 3,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "9": {
+     "InventoryID": 3,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "11": {
+     "InventoryID": 4,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "((MainType=2),(MainType=20),(MainType=5,SubType=(8,23,24,25)))",
+     "CustomItemFilterType": 0
+  },
+  "12": {
+     "InventoryID": 4,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "((MainType=3),(MainType=5,SubType=(8,23,24,25)))",
+     "CustomItemFilterType": 0
+  },
+  "13": {
+     "InventoryID": 4,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "((MainType=4),(MainType=5,SubType=(8,23,24,25)))",
+     "CustomItemFilterType": 0
+  },
+  "15": {
+     "InventoryID": 4,
+     "TabNameStringID": 1000277,
+     "TabSymbol": 2800014,
+     "TabSymbolSelected": 2800114,
+     "SortException": 0,
+     "ItemType": "((MainType=13,SubType=(3)),(MainType=13,SubType=(4)),(MainType=5,SubType=(8,23,24,25)))",
+     "CustomItemFilterType": 0
+  },
+  "16": {
+     "InventoryID": 5,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "((MainType=2))",
+     "CustomItemFilterType": 0
+  },
+  "17": {
+     "InventoryID": 5,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "((MainType=3))",
+     "CustomItemFilterType": 0
+  },
+  "18": {
+     "InventoryID": 5,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "((MainType=4))",
+     "CustomItemFilterType": 0
+  },
+  "20": {
+     "InventoryID": 6,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "((MainType=2),(MainType=20))",
+     "CustomItemFilterType": 0
+  },
+  "21": {
+     "InventoryID": 6,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "((MainType=3))",
+     "CustomItemFilterType": 0
+  },
+  "22": {
+     "InventoryID": 6,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "((MainType=4))",
+     "CustomItemFilterType": 0
+  },
+  "23": {
+     "InventoryID": 7,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "((MainType=2))",
+     "CustomItemFilterType": 0
+  },
+  "24": {
+     "InventoryID": 7,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "((MainType=3))",
+     "CustomItemFilterType": 0
+  },
+  "25": {
+     "InventoryID": 7,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "((MainType=4))",
+     "CustomItemFilterType": 0
+  },
+  "26": {
+     "InventoryID": 8,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "((MainType=2))",
+     "CustomItemFilterType": 0
+  },
+  "27": {
+     "InventoryID": 8,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "((MainType=3))",
+     "CustomItemFilterType": 0
+  },
+  "28": {
+     "InventoryID": 8,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "((MainType=4))",
+     "CustomItemFilterType": 0
+  },
+  "29": {
+     "InventoryID": 9,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "((MainType=2,SubType=(0,1,2,3,4,5)))",
+     "CustomItemFilterType": 0
+  },
+  "30": {
+     "InventoryID": 9,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "((MainType=3,SubType=(1,2,3,4)))",
+     "CustomItemFilterType": 0
+  },
+  "31": {
+     "InventoryID": 9,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "((MainType=4,SubType=(1,2,3)))",
+     "CustomItemFilterType": 0
+  },
+  "32": {
+     "InventoryID": 13,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "33": {
+     "InventoryID": 13,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "34": {
+     "InventoryID": 13,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "35": {
+     "InventoryID": 14,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "36": {
+     "InventoryID": 14,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "37": {
+     "InventoryID": 14,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "38": {
+     "InventoryID": 15,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "39": {
+     "InventoryID": 15,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "40": {
+     "InventoryID": 15,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "",
+     "CustomItemFilterType": 0
+  },
+  "41": {
+     "InventoryID": 16,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "((MainType=2,SubType=(0,1,2,3,4,5)),(MainType=5,SubType=(18)))",
+     "CustomItemFilterType": 1241513984
+  },
+  "42": {
+     "InventoryID": 16,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "((MainType=3,SubType=(1,2,3,4)),(MainType=5,SubType=(19)))",
+     "CustomItemFilterType": 1375731712
+  },
+  "43": {
+     "InventoryID": 16,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "((MainType=4,SubType=(1,2,3)),(MainType=5,SubType=(20)))",
+     "CustomItemFilterType": 1644167168
+  },
+  "44": {
+     "InventoryID": 17,
+     "TabNameStringID": 0,
+     "TabSymbol": 2800010,
+     "TabSymbolSelected": 2800110,
+     "SortException": 0,
+     "ItemType": "((MainType=17,SubType=(2,4,5)))",
+     "CustomItemFilterType": 0
+  },
+  "45": {
+     "InventoryID": 18,
+     "TabNameStringID": 2800005,
+     "TabSymbol": 2800005,
+     "TabSymbolSelected": 2800105,
+     "SortException": 0,
+     "ItemType": "((MainType=16))",
+     "CustomItemFilterType": 0
+  },
+  "46": {
+     "InventoryID": 19,
+     "TabNameStringID": 2800009,
+     "TabSymbol": 2800004,
+     "TabSymbolSelected": 2800104,
+     "SortException": 0,
+     "ItemType": "((MainType=8))",
+     "CustomItemFilterType": 0
+  },
+  "47": {
+     "InventoryID": 20,
+     "TabNameStringID": 2800009,
+     "TabSymbol": 2800012,
+     "TabSymbolSelected": 2800112,
+     "SortException": 0,
+     "ItemType": "((MainType=8,SubType=(1,2,3,4,5,6,7,9)),(MainType=5,SubType=(27,28)))",
+     "CustomItemFilterType": 0
+  },
+  "48": {
+     "InventoryID": 20,
+     "TabNameStringID": 2800012,
+     "TabSymbol": 2800016,
+     "TabSymbolSelected": 2800116,
+     "SortException": 0,
+     "ItemType": "((MainType=8,SubType=(8)),(MainType=5,SubType=(27,28)))",
+     "CustomItemFilterType": 0
+  },
+  "49": {
+     "InventoryID": 20,
+     "TabNameStringID": 2800010,
+     "TabSymbol": 2800013,
+     "TabSymbolSelected": 2800113,
+     "SortException": 0,
+     "ItemType": "((MainType=17),(MainType=5,SubType=(27,28)))",
+     "CustomItemFilterType": 0
+  },
+  "50": {
+     "InventoryID": 20,
+     "TabNameStringID": 2800011,
+     "TabSymbol": 2800015,
+     "TabSymbolSelected": 2800115,
+     "SortException": 0,
+     "ItemType": "((MainType=21,SubType=(1,2)),(MainType=5,SubType=(27,28)))",
+     "CustomItemFilterType": 0
+  },
+  "52": {
+     "InventoryID": 21,
+     "TabNameStringID": 2800001,
+     "TabSymbol": 2800007,
+     "TabSymbolSelected": 2800107,
+     "SortException": 0,
+     "ItemType": "((MainType=2),(MainType=20),(MainType=5,SubType=(8)))",
+     "CustomItemFilterType": 0
+  },
+  "53": {
+     "InventoryID": 21,
+     "TabNameStringID": 2800002,
+     "TabSymbol": 2800008,
+     "TabSymbolSelected": 2800108,
+     "SortException": 0,
+     "ItemType": "((MainType=3),(MainType=5,SubType=(8)))",
+     "CustomItemFilterType": 0
+  },
+  "54": {
+     "InventoryID": 21,
+     "TabNameStringID": 2800003,
+     "TabSymbol": 2800009,
+     "TabSymbolSelected": 2800109,
+     "SortException": 0,
+     "ItemType": "((MainType=4),(MainType=5,SubType=(8)))",
+     "CustomItemFilterType": 0
+  },
+  "56": {
+     "InventoryID": 21,
+     "TabNameStringID": 1000277,
+     "TabSymbol": 2800014,
+     "TabSymbolSelected": 2800114,
+     "SortException": 0,
+     "ItemType": "((MainType=13,SubType=(3)),(MainType=13,SubType=(4)),(MainType=5,SubType=(8)))",
+     "CustomItemFilterType": 0
+  },
+  "57": {
+     "InventoryID": 22,
+     "TabNameStringID": 2800006,
+     "TabSymbol": 2800001,
+     "TabSymbolSelected": 2800101,
+     "SortException": 0,
+     "ItemType": "((MainType=2),(MainType=20),(MainType=3),(MainType=4),(MainType=13,SubType=(3)),(MainType=13,SubType=(4)),(MainType=11),(MainType=22))",
+     "CustomItemFilterType": 0
+  },
+  "58": {
+     "InventoryID": 22,
+     "TabNameStringID": 2800009,
+     "TabSymbol": 2800004,
+     "TabSymbolSelected": 2800104,
+     "SortException": 0,
+     "ItemType": "((MainType=8),(MainType=13,SubType=(2)),(MainType=21))",
+     "CustomItemFilterType": 0
+  },
+  "59": {
+     "InventoryID": 22,
+     "TabNameStringID": 2800010,
+     "TabSymbol": 2800010,
+     "TabSymbolSelected": 2800110,
+     "SortException": 0,
+     "ItemType": "((MainType=5,SubType=(3,22)),(MainType=7,SubType=(5)),(MainType=17))",
+     "CustomItemFilterType": 0
+  },
+  "60": {
+     "InventoryID": 22,
+     "TabNameStringID": 2800005,
+     "TabSymbol": 2800005,
+     "TabSymbolSelected": 2800105,
+     "SortException": 0,
+     "ItemType": "((MainType=6),(MainType=10),(MainType=14,SubType=(1,2,4,5,7,8)),(MainType=18),(MainType=13,SubType=(1)))",
+     "CustomItemFilterType": 0
+  },
+  "61": {
+     "InventoryID": 23,
+     "TabNameStringID": 2800011,
+     "TabSymbol": 2800015,
+     "TabSymbolSelected": 2800115,
+     "SortException": 0,
+     "ItemType": "((MainType = 21, SubType = (1, 2)))",
+     "CustomItemFilterType": 0
+  },
+  "62": {
+     "InventoryID": 4,
+     "TabNameStringID": 2800014,
+     "TabSymbol": 2800017,
+     "TabSymbolSelected": 2800117,
+     "SortException": 0,
+     "ItemType": "((MainType=22),(MainType=5,SubType=(29,30)))",
+     "CustomItemFilterType": 0
+  },
+  "63": {
+     "InventoryID": 6,
+     "TabNameStringID": 2800014,
+     "TabSymbol": 2800017,
+     "TabSymbolSelected": 2800117,
+     "SortException": 0,
+     "ItemType": "((MainType=22))",
+     "CustomItemFilterType": 0
+  },
+  "64": {
+     "InventoryID": 21,
+     "TabNameStringID": 2800014,
+     "TabSymbol": 2800017,
+     "TabSymbolSelected": 2800117,
+     "SortException": 0,
+     "ItemType": "((MainType=999))",
+     "CustomItemFilterType": 0
+  },
+  "65": {
+     "InventoryID": 24,
+     "TabNameStringID": 2800014,
+     "TabSymbol": 2800017,
+     "TabSymbolSelected": 2800117,
+     "SortException": 0,
+     "ItemType": "((MainType=22))",
+     "CustomItemFilterType": 0
+  }
+}

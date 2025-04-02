@@ -1,0 +1,2132 @@
+[
+  {
+    "CategoryID": 1,
+    "BelongedCategory": 0,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 2,
+    "BelongedCategory": 0,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 3,
+    "BelongedCategory": 0,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 4,
+    "BelongedCategory": 0,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 5,
+    "BelongedCategory": 0,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 11000,
+    "BelongedCategory": 1,
+    "UncheckedIconID": 2900000,
+    "CheckedIconID": 2900100,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 11001,
+    "BelongedCategory": 11000,
+    "UncheckedIconID": 2900004,
+    "CheckedIconID": 2900104,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 11002,
+    "BelongedCategory": 11000,
+    "UncheckedIconID": 2900005,
+    "CheckedIconID": 2900105,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 11003,
+    "BelongedCategory": 11001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650100,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 11004,
+    "BelongedCategory": 11002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650101,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12000,
+    "BelongedCategory": 1,
+    "UncheckedIconID": 2900001,
+    "CheckedIconID": 2900101,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12001,
+    "BelongedCategory": 12000,
+    "UncheckedIconID": 2900006,
+    "CheckedIconID": 2900106,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12002,
+    "BelongedCategory": 12001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650102,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12003,
+    "BelongedCategory": 12001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650103,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12004,
+    "BelongedCategory": 12001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650104,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12005,
+    "BelongedCategory": 12001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650105,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12006,
+    "BelongedCategory": 12001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650106,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12007,
+    "BelongedCategory": 12000,
+    "UncheckedIconID": 2900007,
+    "CheckedIconID": 2900107,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12008,
+    "BelongedCategory": 12007,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650113,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12009,
+    "BelongedCategory": 12007,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650114,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12010,
+    "BelongedCategory": 12000,
+    "UncheckedIconID": 2900008,
+    "CheckedIconID": 2900108,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12011,
+    "BelongedCategory": 12010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650115,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12012,
+    "BelongedCategory": 12010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650116,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12013,
+    "BelongedCategory": 12010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650117,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12014,
+    "BelongedCategory": 12010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650118,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12015,
+    "BelongedCategory": 12010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650119,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12016,
+    "BelongedCategory": 12010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650120,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12017,
+    "BelongedCategory": 12010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650121,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12018,
+    "BelongedCategory": 12000,
+    "UncheckedIconID": 2900009,
+    "CheckedIconID": 2900109,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12019,
+    "BelongedCategory": 12018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650107,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12020,
+    "BelongedCategory": 12018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650108,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12021,
+    "BelongedCategory": 12018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650109,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12022,
+    "BelongedCategory": 12000,
+    "UncheckedIconID": 2900010,
+    "CheckedIconID": 2900110,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12023,
+    "BelongedCategory": 12022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650110,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12024,
+    "BelongedCategory": 12022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650111,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12025,
+    "BelongedCategory": 12022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650112,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 12026,
+    "BelongedCategory": 12001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650277,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 13004,
+    "BelongedCategory": 11002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650278,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 13005,
+    "BelongedCategory": 11002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650123,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 13006,
+    "BelongedCategory": 11002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650124,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 14000,
+    "BelongedCategory": 1,
+    "UncheckedIconID": 2900012,
+    "CheckedIconID": 2900112,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 14001,
+    "BelongedCategory": 14000,
+    "UncheckedIconID": 2900012,
+    "CheckedIconID": 2900112,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 14002,
+    "BelongedCategory": 14000,
+    "UncheckedIconID": 2900013,
+    "CheckedIconID": 2900113,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 14003,
+    "BelongedCategory": 14001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650127,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 2
+  },
+  {
+    "CategoryID": 14004,
+    "BelongedCategory": 14001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650125,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 14005,
+    "BelongedCategory": 14002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650126,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 21000,
+    "BelongedCategory": 2,
+    "UncheckedIconID": 2900000,
+    "CheckedIconID": 2900100,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 21001,
+    "BelongedCategory": 21000,
+    "UncheckedIconID": 2900004,
+    "CheckedIconID": 2900104,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 21002,
+    "BelongedCategory": 21000,
+    "UncheckedIconID": 2900005,
+    "CheckedIconID": 2900105,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 21003,
+    "BelongedCategory": 21001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650100,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 21004,
+    "BelongedCategory": 21002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650101,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22000,
+    "BelongedCategory": 2,
+    "UncheckedIconID": 2900001,
+    "CheckedIconID": 2900101,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22001,
+    "BelongedCategory": 22000,
+    "UncheckedIconID": 2900006,
+    "CheckedIconID": 2900106,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22002,
+    "BelongedCategory": 22001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650102,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22003,
+    "BelongedCategory": 22001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650103,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22004,
+    "BelongedCategory": 22001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650104,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22005,
+    "BelongedCategory": 22001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650105,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22006,
+    "BelongedCategory": 22001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650106,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22007,
+    "BelongedCategory": 22000,
+    "UncheckedIconID": 2900007,
+    "CheckedIconID": 2900107,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22008,
+    "BelongedCategory": 22007,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650113,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22009,
+    "BelongedCategory": 22007,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650114,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22010,
+    "BelongedCategory": 22000,
+    "UncheckedIconID": 2900008,
+    "CheckedIconID": 2900108,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22011,
+    "BelongedCategory": 22010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650115,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22012,
+    "BelongedCategory": 22010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650116,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22013,
+    "BelongedCategory": 22010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650117,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22014,
+    "BelongedCategory": 22010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650118,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22015,
+    "BelongedCategory": 22010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650119,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22016,
+    "BelongedCategory": 22010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650120,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22017,
+    "BelongedCategory": 22010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650121,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22018,
+    "BelongedCategory": 22000,
+    "UncheckedIconID": 2900009,
+    "CheckedIconID": 2900109,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22019,
+    "BelongedCategory": 22018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650107,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22020,
+    "BelongedCategory": 22018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650108,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22021,
+    "BelongedCategory": 22018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650109,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22022,
+    "BelongedCategory": 22000,
+    "UncheckedIconID": 2900010,
+    "CheckedIconID": 2900110,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22023,
+    "BelongedCategory": 22022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650110,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22024,
+    "BelongedCategory": 22022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650111,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22025,
+    "BelongedCategory": 22022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650112,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 22026,
+    "BelongedCategory": 22001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650277,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 23004,
+    "BelongedCategory": 21002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650278,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 23005,
+    "BelongedCategory": 21002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650123,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 23006,
+    "BelongedCategory": 21002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650124,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 23007,
+    "BelongedCategory": 21002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650122,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 24000,
+    "BelongedCategory": 2,
+    "UncheckedIconID": 2900012,
+    "CheckedIconID": 2900112,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 24001,
+    "BelongedCategory": 24000,
+    "UncheckedIconID": 2900012,
+    "CheckedIconID": 2900112,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 24002,
+    "BelongedCategory": 24000,
+    "UncheckedIconID": 2900013,
+    "CheckedIconID": 2900113,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 24003,
+    "BelongedCategory": 24001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650127,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 2
+  },
+  {
+    "CategoryID": 24004,
+    "BelongedCategory": 24001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650125,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 24005,
+    "BelongedCategory": 24002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650126,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 31000,
+    "BelongedCategory": 3,
+    "UncheckedIconID": 2900000,
+    "CheckedIconID": 2900100,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 31001,
+    "BelongedCategory": 31000,
+    "UncheckedIconID": 2900004,
+    "CheckedIconID": 2900104,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 31002,
+    "BelongedCategory": 31000,
+    "UncheckedIconID": 2900005,
+    "CheckedIconID": 2900105,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 31003,
+    "BelongedCategory": 31001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650100,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 31004,
+    "BelongedCategory": 31002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650101,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32000,
+    "BelongedCategory": 3,
+    "UncheckedIconID": 2900001,
+    "CheckedIconID": 2900101,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32001,
+    "BelongedCategory": 32000,
+    "UncheckedIconID": 2900006,
+    "CheckedIconID": 2900106,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32002,
+    "BelongedCategory": 32001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650102,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32003,
+    "BelongedCategory": 32001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650103,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32004,
+    "BelongedCategory": 32001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650104,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32005,
+    "BelongedCategory": 32001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650105,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32006,
+    "BelongedCategory": 32001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650106,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32007,
+    "BelongedCategory": 32000,
+    "UncheckedIconID": 2900007,
+    "CheckedIconID": 2900107,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32008,
+    "BelongedCategory": 32007,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650113,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32009,
+    "BelongedCategory": 32007,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650114,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32010,
+    "BelongedCategory": 32000,
+    "UncheckedIconID": 2900008,
+    "CheckedIconID": 2900108,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32011,
+    "BelongedCategory": 32010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650115,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32012,
+    "BelongedCategory": 32010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650116,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32013,
+    "BelongedCategory": 32010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650117,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32014,
+    "BelongedCategory": 32010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650118,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32015,
+    "BelongedCategory": 32010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650119,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32016,
+    "BelongedCategory": 32010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650120,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32017,
+    "BelongedCategory": 32010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650121,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32018,
+    "BelongedCategory": 32000,
+    "UncheckedIconID": 2900009,
+    "CheckedIconID": 2900109,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32019,
+    "BelongedCategory": 32018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650107,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32020,
+    "BelongedCategory": 32018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650108,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32021,
+    "BelongedCategory": 32018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650109,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32022,
+    "BelongedCategory": 32000,
+    "UncheckedIconID": 2900010,
+    "CheckedIconID": 2900110,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32023,
+    "BelongedCategory": 32022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650110,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32024,
+    "BelongedCategory": 32022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650111,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32025,
+    "BelongedCategory": 32022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650112,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 32026,
+    "BelongedCategory": 32001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650277,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 33004,
+    "BelongedCategory": 31002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650278,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 33005,
+    "BelongedCategory": 31002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650123,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 33006,
+    "BelongedCategory": 31002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650124,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 33007,
+    "BelongedCategory": 31002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650122,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 34000,
+    "BelongedCategory": 3,
+    "UncheckedIconID": 2900012,
+    "CheckedIconID": 2900112,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 34001,
+    "BelongedCategory": 34000,
+    "UncheckedIconID": 2900012,
+    "CheckedIconID": 2900112,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 34002,
+    "BelongedCategory": 34000,
+    "UncheckedIconID": 2900013,
+    "CheckedIconID": 2900113,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 34003,
+    "BelongedCategory": 34001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650127,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 2
+  },
+  {
+    "CategoryID": 34004,
+    "BelongedCategory": 34001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650125,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 34005,
+    "BelongedCategory": 34002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650126,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 41000,
+    "BelongedCategory": 4,
+    "UncheckedIconID": 2900000,
+    "CheckedIconID": 2900100,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 41001,
+    "BelongedCategory": 41000,
+    "UncheckedIconID": 2900004,
+    "CheckedIconID": 2900104,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 41002,
+    "BelongedCategory": 41000,
+    "UncheckedIconID": 2900005,
+    "CheckedIconID": 2900105,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 41003,
+    "BelongedCategory": 41001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650100,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 41004,
+    "BelongedCategory": 41002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650101,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42000,
+    "BelongedCategory": 4,
+    "UncheckedIconID": 2900001,
+    "CheckedIconID": 2900101,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42001,
+    "BelongedCategory": 42000,
+    "UncheckedIconID": 2900006,
+    "CheckedIconID": 2900106,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42002,
+    "BelongedCategory": 42001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650102,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42003,
+    "BelongedCategory": 42001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650103,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42004,
+    "BelongedCategory": 42001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650104,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42005,
+    "BelongedCategory": 42001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650105,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42006,
+    "BelongedCategory": 42001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650106,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42007,
+    "BelongedCategory": 42000,
+    "UncheckedIconID": 2900007,
+    "CheckedIconID": 2900107,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42008,
+    "BelongedCategory": 42007,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650113,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42009,
+    "BelongedCategory": 42007,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650114,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42010,
+    "BelongedCategory": 42000,
+    "UncheckedIconID": 2900008,
+    "CheckedIconID": 2900108,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42011,
+    "BelongedCategory": 42010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650115,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42012,
+    "BelongedCategory": 42010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650116,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42013,
+    "BelongedCategory": 42010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650117,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42014,
+    "BelongedCategory": 42010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650118,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42015,
+    "BelongedCategory": 42010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650119,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42016,
+    "BelongedCategory": 42010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650120,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42017,
+    "BelongedCategory": 42010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650121,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42018,
+    "BelongedCategory": 42000,
+    "UncheckedIconID": 2900009,
+    "CheckedIconID": 2900109,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42019,
+    "BelongedCategory": 42018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650107,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42020,
+    "BelongedCategory": 42018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650108,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42021,
+    "BelongedCategory": 42018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650109,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42022,
+    "BelongedCategory": 42000,
+    "UncheckedIconID": 2900010,
+    "CheckedIconID": 2900110,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42023,
+    "BelongedCategory": 42022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650110,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42024,
+    "BelongedCategory": 42022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650111,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42025,
+    "BelongedCategory": 42022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650112,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 42026,
+    "BelongedCategory": 42001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650277,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 43004,
+    "BelongedCategory": 41002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650278,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 43005,
+    "BelongedCategory": 41002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650123,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 43006,
+    "BelongedCategory": 41002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650124,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 43007,
+    "BelongedCategory": 41002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650122,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 44000,
+    "BelongedCategory": 4,
+    "UncheckedIconID": 2900012,
+    "CheckedIconID": 2900112,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 44001,
+    "BelongedCategory": 44000,
+    "UncheckedIconID": 2900012,
+    "CheckedIconID": 2900112,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 44002,
+    "BelongedCategory": 44000,
+    "UncheckedIconID": 2900013,
+    "CheckedIconID": 2900113,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 44003,
+    "BelongedCategory": 44001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650127,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 2
+  },
+  {
+    "CategoryID": 44004,
+    "BelongedCategory": 44001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650125,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 44005,
+    "BelongedCategory": 44002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650126,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 51000,
+    "BelongedCategory": 5,
+    "UncheckedIconID": 2900000,
+    "CheckedIconID": 2900100,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 51001,
+    "BelongedCategory": 51000,
+    "UncheckedIconID": 2900004,
+    "CheckedIconID": 2900104,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 51002,
+    "BelongedCategory": 51000,
+    "UncheckedIconID": 2900005,
+    "CheckedIconID": 2900105,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 51003,
+    "BelongedCategory": 51001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650100,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 51004,
+    "BelongedCategory": 51002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650101,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52000,
+    "BelongedCategory": 5,
+    "UncheckedIconID": 2900001,
+    "CheckedIconID": 2900101,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52001,
+    "BelongedCategory": 52000,
+    "UncheckedIconID": 2900006,
+    "CheckedIconID": 2900106,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52002,
+    "BelongedCategory": 52001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650102,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52003,
+    "BelongedCategory": 52001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650103,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52004,
+    "BelongedCategory": 52001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650104,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52005,
+    "BelongedCategory": 52001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650105,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52006,
+    "BelongedCategory": 52001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650106,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52007,
+    "BelongedCategory": 52000,
+    "UncheckedIconID": 2900007,
+    "CheckedIconID": 2900107,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52008,
+    "BelongedCategory": 52007,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650113,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52009,
+    "BelongedCategory": 52007,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650114,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52010,
+    "BelongedCategory": 52000,
+    "UncheckedIconID": 2900008,
+    "CheckedIconID": 2900108,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52011,
+    "BelongedCategory": 52010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650115,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52012,
+    "BelongedCategory": 52010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650116,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52013,
+    "BelongedCategory": 52010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650117,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52014,
+    "BelongedCategory": 52010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650118,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52015,
+    "BelongedCategory": 52010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650119,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52016,
+    "BelongedCategory": 52010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650120,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52017,
+    "BelongedCategory": 52010,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650121,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52018,
+    "BelongedCategory": 52000,
+    "UncheckedIconID": 2900009,
+    "CheckedIconID": 2900109,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52019,
+    "BelongedCategory": 52018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650107,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52020,
+    "BelongedCategory": 52018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650108,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52021,
+    "BelongedCategory": 52018,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650109,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52022,
+    "BelongedCategory": 52000,
+    "UncheckedIconID": 2900010,
+    "CheckedIconID": 2900110,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52023,
+    "BelongedCategory": 52022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650110,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52024,
+    "BelongedCategory": 52022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650111,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52025,
+    "BelongedCategory": 52022,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650112,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 52026,
+    "BelongedCategory": 52001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650277,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 53004,
+    "BelongedCategory": 51002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650278,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 53005,
+    "BelongedCategory": 51002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650123,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 53006,
+    "BelongedCategory": 51002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650124,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 54000,
+    "BelongedCategory": 5,
+    "UncheckedIconID": 2900012,
+    "CheckedIconID": 2900112,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 54001,
+    "BelongedCategory": 54000,
+    "UncheckedIconID": 2900012,
+    "CheckedIconID": 2900112,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 54002,
+    "BelongedCategory": 54000,
+    "UncheckedIconID": 2900013,
+    "CheckedIconID": 2900113,
+    "NameStringID": 0,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 54003,
+    "BelongedCategory": 54001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650127,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 2
+  },
+  {
+    "CategoryID": 54004,
+    "BelongedCategory": 54001,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650125,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  },
+  {
+    "CategoryID": 54005,
+    "BelongedCategory": 54002,
+    "UncheckedIconID": 0,
+    "CheckedIconID": 0,
+    "NameStringID": 3650126,
+    "CameraArrayNumber": 0,
+    "CharacterRotation": 0,
+    "ContentsType": 1
+  }
+]

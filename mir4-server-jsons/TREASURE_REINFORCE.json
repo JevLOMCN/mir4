@@ -1,0 +1,44 @@
+[
+    {
+        "TreasureId": 1,
+        "Lv": 1,
+        "Material01": 1001,
+        "MaterialCount01": 10,
+        "Material02": 1002,
+        "MaterialCount02": 20,
+        "SpecialAttributeType": 1,
+        "SpecialAttributeValue": 100,
+        "AttributeType01": 2,
+        "AttributeValue01": 200,
+        "AttributeType02": 3,
+        "AttributeValue02": 300
+    },
+    {
+        "TreasureId": 1,
+        "Lv": 2,
+        "Material01": 1001,
+        "MaterialCount01": 20,
+        "Material02": 1002,
+        "MaterialCount02": 30,
+        "SpecialAttributeType": 2,
+        "SpecialAttributeValue": 150,
+        "AttributeType01": 1,
+        "AttributeValue01": 250,
+        "AttributeType02": 3,
+        "AttributeValue02": 350
+    },
+    {
+        "TreasureId": 2,
+        "Lv": 1,
+        "Material01": 1001,
+        "MaterialCount01": 5,
+        "Material02": 1002,
+        "MaterialCount02": 10,
+        "SpecialAttributeType": 3,
+        "SpecialAttributeValue": 200,
+        "AttributeType01": 1,
+        "AttributeValue01": 150,
+        "AttributeType02": 2,
+        "AttributeValue02": 250
+    }
+]

@@ -1,0 +1,527 @@
+[
+  {
+    "Name": 1,
+    "GroupId": 1000001,
+    "ListGroupId": 10000001
+  },
+  {
+    "Name": 2,
+    "GroupId": 1000001,
+    "ListGroupId": 10000002
+  },
+  {
+    "Name": 3,
+    "GroupId": 1000001,
+    "ListGroupId": 10000003
+  },
+  {
+    "Name": 4,
+    "GroupId": 2000001,
+    "ListGroupId": 20000001
+  },
+  {
+    "Name": 5,
+    "GroupId": 2000001,
+    "ListGroupId": 20000002
+  },
+  {
+    "Name": 6,
+    "GroupId": 2000001,
+    "ListGroupId": 20000003
+  },
+  {
+    "Name": 7,
+    "GroupId": 3000001,
+    "ListGroupId": 30000001
+  },
+  {
+    "Name": 8,
+    "GroupId": 3000001,
+    "ListGroupId": 30000002
+  },
+  {
+    "Name": 9,
+    "GroupId": 3000001,
+    "ListGroupId": 30000003
+  },
+  {
+    "Name": 10,
+    "GroupId": 4000001,
+    "ListGroupId": 40000001
+  },
+  {
+    "Name": 11,
+    "GroupId": 4000001,
+    "ListGroupId": 40000002
+  },
+  {
+    "Name": 12,
+    "GroupId": 4000001,
+    "ListGroupId": 40000003
+  },
+  {
+    "Name": 13,
+    "GroupId": 5000001,
+    "ListGroupId": 50000001
+  },
+  {
+    "Name": 14,
+    "GroupId": 5000001,
+    "ListGroupId": 50000002
+  },
+  {
+    "Name": 15,
+    "GroupId": 5000001,
+    "ListGroupId": 50000003
+  },
+  {
+    "Name": 16,
+    "GroupId": 6000001,
+    "ListGroupId": 60000001
+  },
+  {
+    "Name": 17,
+    "GroupId": 6000001,
+    "ListGroupId": 60000002
+  },
+  {
+    "Name": 18,
+    "GroupId": 6000001,
+    "ListGroupId": 60000003
+  },
+  {
+    "Name": 19,
+    "GroupId": 1100001,
+    "ListGroupId": 11000001
+  },
+  {
+    "Name": 20,
+    "GroupId": 1100001,
+    "ListGroupId": 11000002
+  },
+  {
+    "Name": 21,
+    "GroupId": 1100001,
+    "ListGroupId": 11000003
+  },
+  {
+    "Name": 22,
+    "GroupId": 1100002,
+    "ListGroupId": 11100001
+  },
+  {
+    "Name": 23,
+    "GroupId": 1100002,
+    "ListGroupId": 11100002
+  },
+  {
+    "Name": 24,
+    "GroupId": 1100002,
+    "ListGroupId": 11100003
+  },
+  {
+    "Name": 25,
+    "GroupId": 1100003,
+    "ListGroupId": 11200001
+  },
+  {
+    "Name": 26,
+    "GroupId": 1100003,
+    "ListGroupId": 11200002
+  },
+  {
+    "Name": 27,
+    "GroupId": 1100003,
+    "ListGroupId": 11200003
+  },
+  {
+    "Name": 28,
+    "GroupId": 1100004,
+    "ListGroupId": 12000001
+  },
+  {
+    "Name": 29,
+    "GroupId": 1100004,
+    "ListGroupId": 12000002
+  },
+  {
+    "Name": 30,
+    "GroupId": 1100004,
+    "ListGroupId": 12000003
+  },
+  {
+    "Name": 31,
+    "GroupId": 1100005,
+    "ListGroupId": 12100001
+  },
+  {
+    "Name": 32,
+    "GroupId": 1100005,
+    "ListGroupId": 12100002
+  },
+  {
+    "Name": 33,
+    "GroupId": 1100005,
+    "ListGroupId": 12100003
+  },
+  {
+    "Name": 34,
+    "GroupId": 1100006,
+    "ListGroupId": 12200001
+  },
+  {
+    "Name": 35,
+    "GroupId": 1100006,
+    "ListGroupId": 12200002
+  },
+  {
+    "Name": 36,
+    "GroupId": 1100006,
+    "ListGroupId": 12200003
+  },
+  {
+    "Name": 37,
+    "GroupId": 1100007,
+    "ListGroupId": 13000001
+  },
+  {
+    "Name": 38,
+    "GroupId": 1100007,
+    "ListGroupId": 13000002
+  },
+  {
+    "Name": 39,
+    "GroupId": 1100007,
+    "ListGroupId": 13000003
+  },
+  {
+    "Name": 40,
+    "GroupId": 1100008,
+    "ListGroupId": 13100001
+  },
+  {
+    "Name": 41,
+    "GroupId": 1100008,
+    "ListGroupId": 13100002
+  },
+  {
+    "Name": 42,
+    "GroupId": 1100008,
+    "ListGroupId": 13100003
+  },
+  {
+    "Name": 43,
+    "GroupId": 1100009,
+    "ListGroupId": 13200001
+  },
+  {
+    "Name": 44,
+    "GroupId": 1100009,
+    "ListGroupId": 13200002
+  },
+  {
+    "Name": 45,
+    "GroupId": 1100009,
+    "ListGroupId": 13200003
+  },
+  {
+    "Name": 46,
+    "GroupId": 1200000,
+    "ListGroupId": 21000000
+  },
+  {
+    "Name": 47,
+    "GroupId": 1200001,
+    "ListGroupId": 22000000
+  },
+  {
+    "Name": 48,
+    "GroupId": 1200002,
+    "ListGroupId": 23000000
+  },
+  {
+    "Name": 49,
+    "GroupId": 1200002,
+    "ListGroupId": 23000001
+  },
+  {
+    "Name": 50,
+    "GroupId": 1200003,
+    "ListGroupId": 23100000
+  },
+  {
+    "Name": 51,
+    "GroupId": 1200003,
+    "ListGroupId": 23100001
+  },
+  {
+    "Name": 52,
+    "GroupId": 1200004,
+    "ListGroupId": 24000000
+  },
+  {
+    "Name": 53,
+    "GroupId": 1200004,
+    "ListGroupId": 24000001
+  },
+  {
+    "Name": 54,
+    "GroupId": 1200010,
+    "ListGroupId": 25000001
+  },
+  {
+    "Name": 55,
+    "GroupId": 1200011,
+    "ListGroupId": 25000002
+  },
+  {
+    "Name": 56,
+    "GroupId": 1200012,
+    "ListGroupId": 25000003
+  },
+  {
+    "Name": 57,
+    "GroupId": 1200013,
+    "ListGroupId": 25000004
+  },
+  {
+    "Name": 58,
+    "GroupId": 1200014,
+    "ListGroupId": 25000005
+  },
+  {
+    "Name": 59,
+    "GroupId": 1200005,
+    "ListGroupId": 23000002
+  },
+  {
+    "Name": 60,
+    "GroupId": 1200006,
+    "ListGroupId": 23100002
+  },
+  {
+    "Name": 61,
+    "GroupId": 1200007,
+    "ListGroupId": 24000002
+  },
+  {
+    "Name": 78,
+    "GroupId": 1400020,
+    "ListGroupId": 27000020
+  },
+  {
+    "Name": 79,
+    "GroupId": 1400021,
+    "ListGroupId": 27000021
+  },
+  {
+    "Name": 80,
+    "GroupId": 1400022,
+    "ListGroupId": 27000022
+  },
+  {
+    "Name": 81,
+    "GroupId": 1400023,
+    "ListGroupId": 27000023
+  },
+  {
+    "Name": 82,
+    "GroupId": 1500001,
+    "ListGroupId": 28000001
+  },
+  {
+    "Name": 83,
+    "GroupId": 1500002,
+    "ListGroupId": 28000002
+  },
+  {
+    "Name": 84,
+    "GroupId": 1500003,
+    "ListGroupId": 28000003
+  },
+  {
+    "Name": 85,
+    "GroupId": 1500004,
+    "ListGroupId": 28000004
+  },
+  {
+    "Name": 86,
+    "GroupId": 1500005,
+    "ListGroupId": 28000005
+  },
+  {
+    "Name": 87,
+    "GroupId": 1500006,
+    "ListGroupId": 28000006
+  },
+  {
+    "Name": 88,
+    "GroupId": 1600001,
+    "ListGroupId": 29000001
+  },
+  {
+    "Name": 89,
+    "GroupId": 1600001,
+    "ListGroupId": 29000002
+  },
+  {
+    "Name": 90,
+    "GroupId": 1600001,
+    "ListGroupId": 29000003
+  },
+  {
+    "Name": 91,
+    "GroupId": 1600002,
+    "ListGroupId": 29000004
+  },
+  {
+    "Name": 92,
+    "GroupId": 7000001,
+    "ListGroupId": 70000001
+  },
+  {
+    "Name": 93,
+    "GroupId": 7000001,
+    "ListGroupId": 70000002
+  },
+  {
+    "Name": 94,
+    "GroupId": 7000001,
+    "ListGroupId": 70000003
+  },
+  {
+    "Name": 95,
+    "GroupId": 8000001,
+    "ListGroupId": 80000001
+  },
+  {
+    "Name": 96,
+    "GroupId": 8000001,
+    "ListGroupId": 80000002
+  },
+  {
+    "Name": 97,
+    "GroupId": 8000001,
+    "ListGroupId": 80000003
+  },
+  {
+    "Name": 98,
+    "GroupId": 1500007,
+    "ListGroupId": 70000003
+  },
+  {
+    "Name": 99,
+    "GroupId": 1500008,
+    "ListGroupId": 80000003
+  },
+  {
+    "Name": 100,
+    "GroupId": 9000001,
+    "ListGroupId": 90000001
+  },
+  {
+    "Name": 101,
+    "GroupId": 9000001,
+    "ListGroupId": 90000002
+  },
+  {
+    "Name": 102,
+    "GroupId": 9000001,
+    "ListGroupId": 90000003
+  },
+  {
+    "Name": 103,
+    "GroupId": 9000001,
+    "ListGroupId": 90000004
+  },
+  {
+    "Name": 104,
+    "GroupId": 9100001,
+    "ListGroupId": 91000001
+  },
+  {
+    "Name": 105,
+    "GroupId": 9100001,
+    "ListGroupId": 91000002
+  },
+  {
+    "Name": 106,
+    "GroupId": 9100001,
+    "ListGroupId": 91000003
+  },
+  {
+    "Name": 107,
+    "GroupId": 9100001,
+    "ListGroupId": 91000004
+  },
+  {
+    "Name": 108,
+    "GroupId": 9200001,
+    "ListGroupId": 92000001
+  },
+  {
+    "Name": 109,
+    "GroupId": 9200001,
+    "ListGroupId": 92000002
+  },
+  {
+    "Name": 110,
+    "GroupId": 9200001,
+    "ListGroupId": 92000003
+  },
+  {
+    "Name": 111,
+    "GroupId": 9300001,
+    "ListGroupId": 93000001
+  },
+  {
+    "Name": 112,
+    "GroupId": 9300001,
+    "ListGroupId": 93000002
+  },
+  {
+    "Name": 113,
+    "GroupId": 9300001,
+    "ListGroupId": 93000003
+  },
+  {
+    "Name": 114,
+    "GroupId": 9400001,
+    "ListGroupId": 94000001
+  },
+  {
+    "Name": 115,
+    "GroupId": 9400001,
+    "ListGroupId": 94000002
+  },
+  {
+    "Name": 116,
+    "GroupId": 9400001,
+    "ListGroupId": 94000003
+  },
+  {
+    "Name": 117,
+    "GroupId": 9400001,
+    "ListGroupId": 94000004
+  },
+  {
+    "Name": 118,
+    "GroupId": 9500001,
+    "ListGroupId": 95000001
+  },
+  {
+    "Name": 119,
+    "GroupId": 9500001,
+    "ListGroupId": 95000002
+  },
+  {
+    "Name": 120,
+    "GroupId": 9500001,
+    "ListGroupId": 95000003
+  },
+  {
+    "Name": 121,
+    "GroupId": 1500009,
+    "ListGroupId": 95000003
+  }
+]

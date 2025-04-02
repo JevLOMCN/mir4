@@ -1,0 +1,1625 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NICKNAME",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'NicknameTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Id": 1,
+        "NameA": "냉혈",
+        "NameB": "비자",
+        "NameA_W": "구음",
+        "NameB_W": "마녀"
+      },
+      "2": {
+        "Id": 2,
+        "NameA": "귀검",
+        "NameB": "사영",
+        "NameA_W": "구천",
+        "NameB_W": "옥녀"
+      },
+      "3": {
+        "Id": 3,
+        "NameA": "구천",
+        "NameB": "마제",
+        "NameA_W": "남해",
+        "NameB_W": "낭자"
+      },
+      "4": {
+        "Id": 4,
+        "NameA": "단학",
+        "NameB": "대사",
+        "NameA_W": "냉혈",
+        "NameB_W": "선자"
+      },
+      "5": {
+        "Id": 5,
+        "NameA": "날수",
+        "NameB": "서생",
+        "NameA_W": "독벽",
+        "NameB_W": "신니"
+      },
+      "6": {
+        "Id": 6,
+        "NameA": "금륜",
+        "NameB": "범왕",
+        "NameA_W": "동해",
+        "NameB_W": "옹녀"
+      },
+      "7": {
+        "Id": 7,
+        "NameA": "그마",
+        "NameB": "혈번",
+        "NameA_W": "망아",
+        "NameB_W": "사태"
+      },
+      "8": {
+        "Id": 8,
+        "NameA": "독수",
+        "NameB": "절도",
+        "NameA_W": "매롸",
+        "NameB_W": "랑랑"
+      },
+      "9": {
+        "Id": 9,
+        "NameA": "독비",
+        "NameB": "염라",
+        "NameA_W": "무산",
+        "NameB_W": "일화"
+      },
+      "10": {
+        "Id": 10,
+        "NameA": "백미",
+        "NameB": "응왕",
+        "NameA_W": "성심",
+        "NameB_W": "천녀"
+      },
+      "11": {
+        "Id": 11,
+        "NameA": "사검",
+        "NameB": "귀랑",
+        "NameA_W": "소혼",
+        "NameB_W": "미랑"
+      },
+      "12": {
+        "Id": 12,
+        "NameA": "음양",
+        "NameB": "쌍마",
+        "NameA_W": "시눨",
+        "NameB_W": "공주"
+      },
+      "13": {
+        "Id": 13,
+        "NameA": "천응",
+        "NameB": "교주",
+        "NameA_W": "신화",
+        "NameB_W": "옥봉"
+      },
+      "14": {
+        "Id": 14,
+        "NameA": "자양",
+        "NameB": "노군",
+        "NameA_W": "아라",
+        "NameB_W": "옹주"
+      },
+      "15": {
+        "Id": 15,
+        "NameA": "천풍",
+        "NameB": "월도",
+        "NameA_W": "옥골",
+        "NameB_W": "음외"
+      },
+      "16": {
+        "Id": 16,
+        "NameA": "패천",
+        "NameB": "일도",
+        "NameA_W": "옥혈",
+        "NameB_W": "귀비"
+      },
+      "17": {
+        "Id": 17,
+        "NameA": "포천",
+        "NameB": "화상",
+        "NameA_W": "칠절",
+        "NameB_W": "봉미"
+      },
+      "18": {
+        "Id": 18,
+        "NameA": "혈뇌",
+        "NameB": "사야",
+        "NameA_W": "표향",
+        "NameB_W": "선미"
+      },
+      "19": {
+        "Id": 19,
+        "NameA": "태상",
+        "NameB": "주군",
+        "NameA_W": "혈지",
+        "NameB_W": "매화"
+      },
+      "20": {
+        "Id": 20,
+        "NameA": "한단",
+        "NameB": "지마",
+        "NameA_W": "원앙",
+        "NameB_W": "옥소"
+      },
+      "21": {
+        "Id": 21,
+        "NameA": "가",
+        "NameB": "풍개",
+        "NameA_W": "설",
+        "NameB_W": "모용"
+      },
+      "22": {
+        "Id": 22,
+        "NameA": "간",
+        "NameB": "단룡",
+        "NameA_W": "성",
+        "NameB_W": "은리"
+      },
+      "23": {
+        "Id": 23,
+        "NameA": "강",
+        "NameB": "여룡",
+        "NameA_W": "소",
+        "NameB_W": "의림"
+      },
+      "24": {
+        "Id": 24,
+        "NameA": "건",
+        "NameB": "천악",
+        "NameA_W": "심",
+        "NameB_W": "이해"
+      },
+      "25": {
+        "Id": 25,
+        "NameA": "경",
+        "NameB": "천걸",
+        "NameA_W": "양",
+        "NameB_W": "소소"
+      },
+      "26": {
+        "Id": 26,
+        "NameA": "고",
+        "NameB": "불군",
+        "NameA_W": "여",
+        "NameB_W": "수려"
+      },
+      "27": {
+        "Id": 27,
+        "NameA": "공",
+        "NameB": "대룡",
+        "NameA_W": "묘",
+        "NameB_W": "사민"
+      },
+      "28": {
+        "Id": 28,
+        "NameA": "곽",
+        "NameB": "무원",
+        "NameA_W": "요",
+        "NameB_W": "시호"
+      },
+      "29": {
+        "Id": 29,
+        "NameA": "교",
+        "NameB": "출성",
+        "NameA_W": "가",
+        "NameB_W": "여선"
+      },
+      "30": {
+        "Id": 30,
+        "NameA": "구",
+        "NameB": "좌량",
+        "NameA_W": "고",
+        "NameB_W": "연나"
+      },
+      "31": {
+        "Id": 31,
+        "NameA": "궁",
+        "NameB": "파랑",
+        "NameA_W": "노",
+        "NameB_W": "여운"
+      },
+      "32": {
+        "Id": 32,
+        "NameA": "권",
+        "NameB": "운엽",
+        "NameA_W": "라",
+        "NameB_W": "빙"
+      },
+      "33": {
+        "Id": 33,
+        "NameA": "금",
+        "NameB": "일비",
+        "NameA_W": "금",
+        "NameB_W": "유화"
+      },
+      "34": {
+        "Id": 34,
+        "NameA": "기",
+        "NameB": "추혼",
+        "NameA_W": "기",
+        "NameB_W": "선하"
+      },
+      "35": {
+        "Id": 35,
+        "NameA": "노",
+        "NameB": "자셕",
+        "NameA_W": "노",
+        "NameB_W": "린"
+      },
+      "36": {
+        "Id": 36,
+        "NameA": "단",
+        "NameB": "갈휘",
+        "NameA_W": "단",
+        "NameB_W": "소"
+      },
+      "37": {
+        "Id": 37,
+        "NameA": "담",
+        "NameB": "자강",
+        "NameA_W": "담",
+        "NameB_W": "조"
+      },
+      "38": {
+        "Id": 38,
+        "NameA": "당",
+        "NameB": "세곤",
+        "NameA_W": "당",
+        "NameB_W": "리"
+      },
+      "39": {
+        "Id": 39,
+        "NameA": "대",
+        "NameB": "정계",
+        "NameA_W": "대",
+        "NameB_W": "손"
+      },
+      "40": {
+        "Id": 40,
+        "NameA": "도",
+        "NameB": "정문",
+        "NameA_W": "도",
+        "NameB_W": "효부"
+      },
+      "41": {
+        "Id": 41,
+        "NameA": "동",
+        "NameB": "정현",
+        "NameA_W": "동",
+        "NameB_W": "효화"
+      },
+      "42": {
+        "Id": 42,
+        "NameA": "두",
+        "NameB": "창원",
+        "NameA_W": "두",
+        "NameB_W": "예린"
+      },
+      "43": {
+        "Id": 43,
+        "NameA": "등",
+        "NameB": "사부",
+        "NameA_W": "등",
+        "NameB_W": "영령"
+      },
+      "44": {
+        "Id": 44,
+        "NameA": "라",
+        "NameB": "태사부",
+        "NameA_W": "라",
+        "NameB_W": "나영"
+      },
+      "45": {
+        "Id": 45,
+        "NameA": "뢰",
+        "NameB": "사숙조",
+        "NameA_W": "뢰",
+        "NameB_W": "우경"
+      },
+      "46": {
+        "Id": 46,
+        "NameA": "류",
+        "NameB": "가가",
+        "NameA_W": "류",
+        "NameB_W": "채린"
+      },
+      "47": {
+        "Id": 47,
+        "NameA": "림",
+        "NameB": "대협",
+        "NameA_W": "림",
+        "NameB_W": "사모"
+      },
+      "48": {
+        "Id": 48,
+        "NameA": "마",
+        "NameB": "소협",
+        "NameA_W": "마",
+        "NameB_W": "사숙"
+      },
+      "49": {
+        "Id": 49,
+        "NameA": "막",
+        "NameB": "사형",
+        "NameA_W": "막",
+        "NameB_W": "사저"
+      },
+      "50": {
+        "Id": 50,
+        "NameA": "만",
+        "NameB": "사제",
+        "NameA_W": "만",
+        "NameB_W": "사매"
+      },
+      "51": {
+        "Id": 51,
+        "NameA": "남궁",
+        "NameB": "기현",
+        "NameA_W": "남궁",
+        "NameB_W": "경연"
+      },
+      "52": {
+        "Id": 52,
+        "NameA": "독고",
+        "NameB": "공찬",
+        "NameA_W": "독고",
+        "NameB_W": "가령"
+      },
+      "53": {
+        "Id": 53,
+        "NameA": "모용",
+        "NameB": "경현",
+        "NameA_W": "모용",
+        "NameB_W": "나영"
+      },
+      "54": {
+        "Id": 54,
+        "NameA": "선우",
+        "NameB": "강찬",
+        "NameA_W": "선우",
+        "NameB_W": "나정"
+      },
+      "55": {
+        "Id": 55,
+        "NameA": "제갈",
+        "NameB": "강현",
+        "NameA_W": "제갈",
+        "NameB_W": "나현"
+      },
+      "56": {
+        "Id": 56,
+        "NameA": "관",
+        "NameB": "교평",
+        "NameA_W": "관",
+        "NameB_W": "난화"
+      },
+      "57": {
+        "Id": 57,
+        "NameA": "국",
+        "NameB": "낙연",
+        "NameA_W": "국",
+        "NameB_W": "난정"
+      },
+      "58": {
+        "Id": 58,
+        "NameA": "김",
+        "NameB": "낙현",
+        "NameA_W": "김",
+        "NameB_W": "도경"
+      },
+      "59": {
+        "Id": 59,
+        "NameA": "남",
+        "NameB": "낙성",
+        "NameA_W": "남",
+        "NameB_W": "두경"
+      },
+      "60": {
+        "Id": 60,
+        "NameA": "맹",
+        "NameB": "동현",
+        "NameA_W": "맹",
+        "NameB_W": "라희"
+      },
+      "61": {
+        "Id": 61,
+        "NameA": "명",
+        "NameB": "동천",
+        "NameA_W": "명",
+        "NameB_W": "라현"
+      },
+      "62": {
+        "Id": 62,
+        "NameA": "모",
+        "NameB": "동윤",
+        "NameA_W": "모",
+        "NameB_W": "류화"
+      },
+      "63": {
+        "Id": 63,
+        "NameA": "무",
+        "NameB": "동주",
+        "NameA_W": "무",
+        "NameB_W": "몽희"
+      },
+      "64": {
+        "Id": 64,
+        "NameA": "묵",
+        "NameB": "동찬",
+        "NameA_W": "묵",
+        "NameB_W": "몽여"
+      },
+      "65": {
+        "Id": 65,
+        "NameA": "문",
+        "NameB": "동평",
+        "NameA_W": "문",
+        "NameB_W": "명연"
+      },
+      "66": {
+        "Id": 66,
+        "NameA": "반",
+        "NameB": "동녕",
+        "NameA_W": "반",
+        "NameB_W": "명야"
+      },
+      "67": {
+        "Id": 67,
+        "NameA": "백",
+        "NameB": "동휘",
+        "NameA_W": "백",
+        "NameB_W": "소영"
+      },
+      "68": {
+        "Id": 68,
+        "NameA": "상",
+        "NameB": "도평",
+        "NameA_W": "상",
+        "NameB_W": "수영"
+      },
+      "69": {
+        "Id": 69,
+        "NameA": "서",
+        "NameB": "도황",
+        "NameA_W": "서",
+        "NameB_W": "세희"
+      },
+      "70": {
+        "Id": 70,
+        "NameA": "석",
+        "NameB": "도령",
+        "NameA_W": "석",
+        "NameB_W": "세연"
+      },
+      "71": {
+        "Id": 71,
+        "NameA": "손",
+        "NameB": "도봉",
+        "NameA_W": "손",
+        "NameB_W": "상연"
+      },
+      "72": {
+        "Id": 72,
+        "NameA": "송",
+        "NameB": "도윤",
+        "NameA_W": "송",
+        "NameB_W": "상희"
+      },
+      "73": {
+        "Id": 73,
+        "NameA": "양",
+        "NameB": "도정",
+        "NameA_W": "양",
+        "NameB_W": "성희"
+      },
+      "74": {
+        "Id": 74,
+        "NameA": "엄",
+        "NameB": "도성",
+        "NameA_W": "엄",
+        "NameB_W": "연희"
+      },
+      "75": {
+        "Id": 75,
+        "NameA": "염",
+        "NameB": "두평",
+        "NameA_W": "염",
+        "NameB_W": "연화"
+      },
+      "76": {
+        "Id": 76,
+        "NameA": "오",
+        "NameB": "두산",
+        "NameA_W": "오",
+        "NameB_W": "영화"
+      },
+      "77": {
+        "Id": 77,
+        "NameA": "왕",
+        "NameB": "두한",
+        "NameA_W": "왕",
+        "NameB_W": "이화"
+      },
+      "78": {
+        "Id": 78,
+        "NameA": "요",
+        "NameB": "두종",
+        "NameA_W": "요",
+        "NameB_W": "이연"
+      },
+      "79": {
+        "Id": 79,
+        "NameA": "용",
+        "NameB": "두봉",
+        "NameA_W": "용",
+        "NameB_W": "유상"
+      },
+      "80": {
+        "Id": 80,
+        "NameA": "원",
+        "NameB": "류영",
+        "NameA_W": "원",
+        "NameB_W": "유령"
+      },
+      "81": {
+        "Id": 81,
+        "NameA": "위",
+        "NameB": "류현",
+        "NameA_W": "위",
+        "NameB_W": "주희"
+      },
+      "82": {
+        "Id": 82,
+        "NameA": "유",
+        "NameB": "몽산",
+        "NameA_W": "유",
+        "NameB_W": "주영"
+      },
+      "83": {
+        "Id": 83,
+        "NameA": "육",
+        "NameB": "몽룡",
+        "NameA_W": "육",
+        "NameB_W": "주령"
+      },
+      "84": {
+        "Id": 84,
+        "NameA": "이",
+        "NameB": "류영",
+        "NameA_W": "이",
+        "NameB_W": "재령"
+      },
+      "85": {
+        "Id": 85,
+        "NameA": "장",
+        "NameB": "류현",
+        "NameA_W": "장",
+        "NameB_W": "재화"
+      },
+      "86": {
+        "Id": 86,
+        "NameA": "전",
+        "NameB": "몽산",
+        "NameA_W": "전",
+        "NameB_W": "자인"
+      },
+      "87": {
+        "Id": 87,
+        "NameA": "정",
+        "NameB": "몽룡",
+        "NameA_W": "정",
+        "NameB_W": "자영"
+      },
+      "88": {
+        "Id": 88,
+        "NameA": "최",
+        "NameB": "문성",
+        "NameA_W": "최",
+        "NameB_W": "자희"
+      },
+      "89": {
+        "Id": 89,
+        "NameA": "태",
+        "NameB": "문휴",
+        "NameA_W": "태",
+        "NameB_W": "자경"
+      },
+      "90": {
+        "Id": 90,
+        "NameA": "팽",
+        "NameB": "보현",
+        "NameA_W": "팽",
+        "NameB_W": "지희"
+      },
+      "91": {
+        "Id": 91,
+        "NameA": "표",
+        "NameB": "방윤",
+        "NameA_W": "표",
+        "NameB_W": "지수"
+      },
+      "92": {
+        "Id": 92,
+        "NameA": "호",
+        "NameB": "방현",
+        "NameA_W": "호",
+        "NameB_W": "지윤"
+      },
+      "93": {
+        "Id": 93,
+        "NameA": "황",
+        "NameB": "수환",
+        "NameA_W": "황",
+        "NameB_W": "장미"
+      },
+      "94": {
+        "Id": 94,
+        "NameA": "소아",
+        "NameB": "수현",
+        "NameA_W": "소아",
+        "NameB_W": "혜령"
+      },
+      "95": {
+        "Id": 95,
+        "NameA": "황보",
+        "NameB": "상현",
+        "NameA_W": "황보",
+        "NameB_W": "혜영"
+      },
+      "96": {
+        "Id": 96,
+        "NameA": "견",
+        "NameB": "성찬",
+        "NameA_W": "견",
+        "NameB_W": "효린"
+      },
+      "97": {
+        "Id": 97,
+        "NameA": "길",
+        "NameB": "성룡",
+        "NameA_W": "길",
+        "NameB_W": "희연"
+      },
+      "98": {
+        "Id": 98,
+        "NameA": "매",
+        "NameB": "연철",
+        "NameA_W": "매",
+        "NameB_W": "희진"
+      },
+      "99": {
+        "Id": 99,
+        "NameA": "목",
+        "NameB": "연휘",
+        "NameA_W": "목",
+        "NameB_W": "류연"
+      },
+      "100": {
+        "Id": 100,
+        "NameA": "민",
+        "NameB": "연수",
+        "NameA_W": "민",
+        "NameB_W": "나희"
+      },
+      "101": {
+        "Id": 101,
+        "NameA": "박",
+        "NameB": "진백",
+        "NameA_W": "박",
+        "NameB_W": "희재"
+      },
+      "102": {
+        "Id": 102,
+        "NameA": "방",
+        "NameB": "종휘",
+        "NameA_W": "방",
+        "NameB_W": "지혜"
+      },
+      "103": {
+        "Id": 103,
+        "NameA": "배",
+        "NameB": "진성",
+        "NameA_W": "배",
+        "NameB_W": "종려"
+      },
+      "104": {
+        "Id": 104,
+        "NameA": "복",
+        "NameB": "주가",
+        "NameA_W": "복",
+        "NameB_W": "난초"
+      },
+      "105": {
+        "Id": 105,
+        "NameA": "봉",
+        "NameB": "감철",
+        "NameA_W": "봉",
+        "NameB_W": "난희"
+      },
+      "106": {
+        "Id": 106,
+        "NameA": "부",
+        "NameB": "성준",
+        "NameA_W": "부",
+        "NameB_W": "유진"
+      },
+      "107": {
+        "Id": 107,
+        "NameA": "사",
+        "NameB": "찬초",
+        "NameA_W": "사",
+        "NameB_W": "려원"
+      },
+      "108": {
+        "Id": 108,
+        "NameA": "설",
+        "NameB": "권휘",
+        "NameA_W": "설",
+        "NameB_W": "원희"
+      },
+      "109": {
+        "Id": 109,
+        "NameA": "성",
+        "NameB": "백철",
+        "NameA_W": "성",
+        "NameB_W": "성아"
+      },
+      "110": {
+        "Id": 110,
+        "NameA": "소",
+        "NameB": "준영",
+        "NameA_W": "소",
+        "NameB_W": "아영"
+      },
+      "111": {
+        "Id": 111,
+        "NameA": "신",
+        "NameB": "승주",
+        "NameA_W": "신",
+        "NameB_W": "사나"
+      },
+      "112": {
+        "Id": 112,
+        "NameA": "심",
+        "NameB": "주현",
+        "NameA_W": "심",
+        "NameB_W": "주랑"
+      },
+      "113": {
+        "Id": 113,
+        "NameA": "안",
+        "NameB": "정철",
+        "NameA_W": "안",
+        "NameB_W": "초희"
+      },
+      "114": {
+        "Id": 114,
+        "NameA": "여",
+        "NameB": "철규",
+        "NameA_W": "여",
+        "NameB_W": "가희"
+      },
+      "115": {
+        "Id": 115,
+        "NameA": "영",
+        "NameB": "규원",
+        "NameA_W": "영",
+        "NameB_W": "현희"
+      },
+      "116": {
+        "Id": 116,
+        "NameA": "어",
+        "NameB": "민성",
+        "NameA_W": "어",
+        "NameB_W": "나래"
+      },
+      "117": {
+        "Id": 117,
+        "NameA": "연",
+        "NameB": "여준",
+        "NameA_W": "연",
+        "NameB_W": "정원"
+      },
+      "118": {
+        "Id": 118,
+        "NameA": "옥",
+        "NameB": "천비",
+        "NameA_W": "옥",
+        "NameB_W": "수지"
+      },
+      "119": {
+        "Id": 119,
+        "NameA": "우",
+        "NameB": "용진",
+        "NameA_W": "우",
+        "NameB_W": "수련"
+      },
+      "120": {
+        "Id": 120,
+        "NameA": "윤",
+        "NameB": "진철",
+        "NameA_W": "윤",
+        "NameB_W": "시은"
+      },
+      "121": {
+        "Id": 121,
+        "NameA": "임",
+        "NameB": "민준",
+        "NameA_W": "임",
+        "NameB_W": "조미"
+      },
+      "122": {
+        "Id": 122,
+        "NameA": "조",
+        "NameB": "정한",
+        "NameA_W": "조",
+        "NameB_W": "가은"
+      },
+      "123": {
+        "Id": 123,
+        "NameA": "주",
+        "NameB": "한백",
+        "NameA_W": "주",
+        "NameB_W": "미령"
+      },
+      "124": {
+        "Id": 124,
+        "NameA": "진",
+        "NameB": "백진",
+        "NameA_W": "진",
+        "NameB_W": "성아"
+      },
+      "125": {
+        "Id": 125,
+        "NameA": "채",
+        "NameB": "근성",
+        "NameA_W": "채",
+        "NameB_W": "천아"
+      },
+      "126": {
+        "Id": 126,
+        "NameA": "초",
+        "NameB": "진규",
+        "NameA_W": "초",
+        "NameB_W": "송이"
+      },
+      "127": {
+        "Id": 127,
+        "NameA": "하",
+        "NameB": "지성",
+        "NameA_W": "하",
+        "NameB_W": "유아"
+      },
+      "128": {
+        "Id": 128,
+        "NameA": "한",
+        "NameB": "이관",
+        "NameA_W": "한",
+        "NameB_W": "유진"
+      },
+      "129": {
+        "Id": 129,
+        "NameA": "해",
+        "NameB": "철진",
+        "NameA_W": "해",
+        "NameB_W": "나리"
+      },
+      "130": {
+        "Id": 130,
+        "NameA": "홍",
+        "NameB": "천권",
+        "NameA_W": "홍",
+        "NameB_W": "은설"
+      },
+      "131": {
+        "Id": 131,
+        "NameA": "안정",
+        "NameB": "철권",
+        "NameA_W": "백묘",
+        "NameB_W": "마희"
+      },
+      "132": {
+        "Id": 132,
+        "NameA": "무적",
+        "NameB": "진권",
+        "NameA_W": "혈요",
+        "NameB_W": "영마"
+      },
+      "133": {
+        "Id": 133,
+        "NameA": "태성",
+        "NameB": "마황",
+        "NameA_W": "악의",
+        "NameB_W": "한라"
+      },
+      "134": {
+        "Id": 134,
+        "NameA": "천수",
+        "NameB": "진반",
+        "NameA_W": "백미",
+        "NameB_W": "소진"
+      },
+      "135": {
+        "Id": 135,
+        "NameA": "신투",
+        "NameB": "나한",
+        "NameA_W": "백발",
+        "NameB_W": "비자"
+      },
+      "136": {
+        "Id": 136,
+        "NameA": "진퇴",
+        "NameB": "한일",
+        "NameA_W": "도수",
+        "NameB_W": "태후"
+      },
+      "137": {
+        "Id": 137,
+        "NameA": "성운",
+        "NameB": "진환",
+        "NameA_W": "벽안",
+        "NameB_W": "아름"
+      },
+      "138": {
+        "Id": 138,
+        "NameA": "백팔",
+        "NameB": "신사",
+        "NameA_W": "도용",
+        "NameB_W": "미호"
+      },
+      "139": {
+        "Id": 139,
+        "NameA": "신중",
+        "NameB": "호준",
+        "NameA_W": "독려",
+        "NameB_W": "빙희"
+      },
+      "140": {
+        "Id": 140,
+        "NameA": "비천",
+        "NameB": "태산",
+        "NameA_W": "비연",
+        "NameB_W": "무희"
+      },
+      "141": {
+        "Id": 141,
+        "NameA": "시랑",
+        "NameB": "번뇌",
+        "NameA_W": "혈사",
+        "NameB_W": "경라"
+      },
+      "142": {
+        "Id": 142,
+        "NameA": "비어",
+        "NameB": "길혼",
+        "NameA_W": "신의",
+        "NameB_W": "경운"
+      },
+      "143": {
+        "Id": 143,
+        "NameA": "독려",
+        "NameB": "화백",
+        "NameA_W": "봉명",
+        "NameB_W": "신녀"
+      },
+      "144": {
+        "Id": 144,
+        "NameA": "혈두",
+        "NameB": "신자",
+        "NameA_W": "봉환",
+        "NameB_W": "비화"
+      },
+      "145": {
+        "Id": 145,
+        "NameA": "혈사",
+        "NameB": "태진",
+        "NameA_W": "암흑",
+        "NameB_W": "사요"
+      },
+      "146": {
+        "Id": 146,
+        "NameA": "신의",
+        "NameB": "재현",
+        "NameA_W": "설산",
+        "NameB_W": "정향"
+      },
+      "147": {
+        "Id": 147,
+        "NameA": "혈륜",
+        "NameB": "진인",
+        "NameA_W": "소수",
+        "NameB_W": "신안"
+      },
+      "148": {
+        "Id": 148,
+        "NameA": "사밀",
+        "NameB": "삼살",
+        "NameA_W": "희비",
+        "NameB_W": "아리"
+      },
+      "149": {
+        "Id": 149,
+        "NameA": "암흑",
+        "NameB": "마살",
+        "NameA_W": "겸손",
+        "NameB_W": "종화"
+      },
+      "150": {
+        "Id": 150,
+        "NameA": "박하",
+        "NameB": "아름",
+        "NameA_W": "무영",
+        "NameB_W": "교화"
+      },
+      "151": {
+        "Id": 151,
+        "NameA": "기립",
+        "NameB": "천존",
+        "NameA_W": "차인",
+        "NameB_W": "소랑"
+      },
+      "152": {
+        "Id": 152,
+        "NameA": "식객",
+        "NameB": "현성",
+        "NameA_W": "영광",
+        "NameB_W": "신혜"
+      },
+      "153": {
+        "Id": 153,
+        "NameA": "희비",
+        "NameB": "재희",
+        "NameA_W": "현녀",
+        "NameB_W": "아인"
+      },
+      "154": {
+        "Id": 154,
+        "NameA": "청송",
+        "NameB": "오경",
+        "NameA_W": "백타",
+        "NameB_W": "오경"
+      },
+      "155": {
+        "Id": 155,
+        "NameA": "유한",
+        "NameB": "신검",
+        "NameA_W": "현인",
+        "NameB_W": "아심"
+      },
+      "156": {
+        "Id": 156,
+        "NameA": "차인",
+        "NameB": "검호",
+        "NameA_W": "허영",
+        "NameB_W": "지마"
+      },
+      "157": {
+        "Id": 157,
+        "NameA": "영광",
+        "NameB": "지서",
+        "NameA_W": "신비",
+        "NameB_W": "신별"
+      },
+      "158": {
+        "Id": 158,
+        "NameA": "구궁",
+        "NameB": "도주",
+        "NameA_W": "음산",
+        "NameB_W": "영나"
+      },
+      "159": {
+        "Id": 159,
+        "NameA": "폐인",
+        "NameB": "야도",
+        "NameA_W": "음풍",
+        "NameB_W": "미성"
+      },
+      "160": {
+        "Id": 160,
+        "NameA": "현인",
+        "NameB": "라한",
+        "NameA_W": "자영",
+        "NameB_W": "라한"
+      },
+      "161": {
+        "Id": 161,
+        "NameA": "허영",
+        "NameB": "영효",
+        "NameA_W": "온정",
+        "NameB_W": "영효"
+      },
+      "162": {
+        "Id": 162,
+        "NameA": "신비",
+        "NameB": "신추",
+        "NameA_W": "지옥",
+        "NameB_W": "서선"
+      },
+      "163": {
+        "Id": 163,
+        "NameA": "패왕",
+        "NameB": "신군",
+        "NameA_W": "삼매",
+        "NameB_W": "진화"
+      },
+      "164": {
+        "Id": 164,
+        "NameA": "온정",
+        "NameB": "서신",
+        "NameA_W": "소면",
+        "NameB_W": "혜자"
+      },
+      "165": {
+        "Id": 165,
+        "NameA": "지옥",
+        "NameB": "철희",
+        "NameA_W": "자허",
+        "NameB_W": "예해"
+      },
+      "166": {
+        "Id": 166,
+        "NameA": "금각",
+        "NameB": "추호",
+        "NameA_W": "풍비",
+        "NameB_W": "정혜"
+      },
+      "167": {
+        "Id": 167,
+        "NameA": "검절",
+        "NameB": "대제",
+        "NameA_W": "효녀",
+        "NameB_W": "혜정"
+      },
+      "168": {
+        "Id": 168,
+        "NameA": "삼매",
+        "NameB": "민후",
+        "NameA_W": "조양",
+        "NameB_W": "일효"
+      },
+      "169": {
+        "Id": 169,
+        "NameA": "진동",
+        "NameB": "판관",
+        "NameA_W": "정인",
+        "NameB_W": "지영"
+      },
+      "170": {
+        "Id": 170,
+        "NameA": "뇌광",
+        "NameB": "비수",
+        "NameA_W": "경국",
+        "NameB_W": "일선"
+      },
+      "171": {
+        "Id": 171,
+        "NameA": "풍비",
+        "NameB": "도장",
+        "NameA_W": "팔비",
+        "NameB_W": "쌍마"
+      },
+      "172": {
+        "Id": 172,
+        "NameA": "구유",
+        "NameB": "삼마",
+        "NameA_W": "절세",
+        "NameB_W": "지우"
+      },
+      "173": {
+        "Id": 173,
+        "NameA": "도룡",
+        "NameB": "서민",
+        "NameA_W": "강의",
+        "NameB_W": "서현"
+      },
+      "174": {
+        "Id": 174,
+        "NameA": "도곡",
+        "NameB": "구패",
+        "NameA_W": "선녀",
+        "NameB_W": "나연"
+      },
+      "175": {
+        "Id": 175,
+        "NameA": "경국",
+        "NameB": "진화",
+        "NameA_W": "악사",
+        "NameB_W": "삼살"
+      },
+      "176": {
+        "Id": 176,
+        "NameA": "독로",
+        "NameB": "동자",
+        "NameA_W": "약사",
+        "NameB_W": "빙모"
+      },
+      "177": {
+        "Id": 177,
+        "NameA": "절세",
+        "NameB": "가람",
+        "NameA_W": "자미",
+        "NameB_W": "가람"
+      },
+      "178": {
+        "Id": 178,
+        "NameA": "강의",
+        "NameB": "박산",
+        "NameA_W": "옥룡",
+        "NameB_W": "박산"
+      },
+      "179": {
+        "Id": 179,
+        "NameA": "악사",
+        "NameB": "재후",
+        "NameA_W": "한단",
+        "NameB_W": "미사"
+      },
+      "180": {
+        "Id": 180,
+        "NameA": "약사",
+        "NameB": "소인",
+        "NameA_W": "악녀",
+        "NameB_W": "봉후"
+      },
+      "181": {
+        "Id": 181,
+        "NameA": "능외",
+        "NameB": "대인",
+        "NameA_W": "백화",
+        "NameB_W": "사월"
+      },
+      "182": {
+        "Id": 182,
+        "NameA": "현자",
+        "NameB": "신승",
+        "NameA_W": "신성",
+        "NameB_W": "희주"
+      },
+      "183": {
+        "Id": 183,
+        "NameA": "공포",
+        "NameB": "어은",
+        "NameA_W": "정령",
+        "NameB_W": "아연"
+      },
+      "184": {
+        "Id": 184,
+        "NameA": "신산",
+        "NameB": "도영",
+        "NameA_W": "강한",
+        "NameB_W": "도영"
+      },
+      "185": {
+        "Id": 185,
+        "NameA": "악남",
+        "NameB": "용휘",
+        "NameA_W": "천상",
+        "NameB_W": "용녀"
+      },
+      "186": {
+        "Id": 186,
+        "NameA": "선남",
+        "NameB": "무쌍",
+        "NameA_W": "신중",
+        "NameB_W": "무쌍"
+      },
+      "187": {
+        "Id": 187,
+        "NameA": "신성",
+        "NameB": "지신",
+        "NameA_W": "전설",
+        "NameB_W": "지색"
+      },
+      "188": {
+        "Id": 188,
+        "NameA": "신뢰",
+        "NameB": "광의",
+        "NameA_W": "경외",
+        "NameB_W": "사색"
+      },
+      "189": {
+        "Id": 189,
+        "NameA": "자",
+        "NameB": "마간",
+        "NameA_W": "비",
+        "NameB_W": "미녀"
+      },
+      "190": {
+        "Id": 190,
+        "NameA": "순",
+        "NameB": "오마",
+        "NameA_W": "경",
+        "NameB_W": "아현"
+      },
+      "191": {
+        "Id": 191,
+        "NameA": "판",
+        "NameB": "비응",
+        "NameA_W": "나",
+        "NameB_W": "기린"
+      },
+      "192": {
+        "Id": 192,
+        "NameA": "종",
+        "NameB": "일학",
+        "NameA_W": "구",
+        "NameB_W": "세영"
+      },
+      "193": {
+        "Id": 193,
+        "NameA": "승",
+        "NameB": "강호",
+        "NameA_W": "순",
+        "NameB_W": "지주"
+      },
+      "194": {
+        "Id": 194,
+        "NameA": "시",
+        "NameB": "강해",
+        "NameA_W": "수",
+        "NameB_W": "주사"
+      },
+      "195": {
+        "Id": 195,
+        "NameA": "범",
+        "NameB": "세혁",
+        "NameA_W": "천",
+        "NameB_W": "가영"
+      },
+      "196": {
+        "Id": 196,
+        "NameA": "마",
+        "NameB": "세준",
+        "NameA_W": "토",
+        "NameB_W": "가인"
+      },
+      "197": {
+        "Id": 197,
+        "NameA": "지",
+        "NameB": "사자",
+        "NameA_W": "혈",
+        "NameB_W": "소희"
+      },
+      "198": {
+        "Id": 198,
+        "NameA": "천",
+        "NameB": "군자",
+        "NameA_W": "지",
+        "NameB_W": "현지"
+      },
+      "199": {
+        "Id": 199,
+        "NameA": "혜",
+        "NameB": "진천",
+        "NameA_W": "공",
+        "NameB_W": "지현"
+      },
+      "200": {
+        "Id": 200,
+        "NameA": "현",
+        "NameB": "대후",
+        "NameA_W": "현",
+        "NameB_W": "민주"
+      },
+      "201": {
+        "Id": 201,
+        "NameA": "비",
+        "NameB": "시경",
+        "NameA_W": "강",
+        "NameB_W": "슬하"
+      },
+      "202": {
+        "Id": 202,
+        "NameA": "나",
+        "NameB": "집혼",
+        "NameA_W": "권",
+        "NameB_W": "혜인"
+      },
+      "203": {
+        "Id": 203,
+        "NameA": "미",
+        "NameB": "마존",
+        "NameA_W": "미",
+        "NameB_W": "혜진"
+      },
+      "204": {
+        "Id": 204,
+        "NameA": "허",
+        "NameB": "현군",
+        "NameA_W": "허",
+        "NameB_W": "보석"
+      },
+      "205": {
+        "Id": 205,
+        "NameA": "함",
+        "NameB": "준현",
+        "NameA_W": "함",
+        "NameB_W": "세야"
+      },
+      "206": {
+        "Id": 206,
+        "NameA": "변",
+        "NameB": "재황",
+        "NameA_W": "변",
+        "NameB_W": "면왕"
+      },
+      "207": {
+        "Id": 207,
+        "NameA": "후",
+        "NameB": "대원",
+        "NameA_W": "후",
+        "NameB_W": "설하"
+      },
+      "208": {
+        "Id": 208,
+        "NameA": "선",
+        "NameB": "대호",
+        "NameA_W": "선",
+        "NameB_W": "아린"
+      },
+      "209": {
+        "Id": 209,
+        "NameA": "인",
+        "NameB": "법사",
+        "NameA_W": "인",
+        "NameB_W": "예주"
+      },
+      "210": {
+        "Id": 210,
+        "NameA": "은",
+        "NameB": "라현",
+        "NameA_W": "은",
+        "NameB_W": "예승"
+      },
+      "211": {
+        "Id": 211,
+        "NameA": "화",
+        "NameB": "유천",
+        "NameA_W": "화",
+        "NameB_W": "예하"
+      },
+      "212": {
+        "Id": 212,
+        "NameA": "옹",
+        "NameB": "강인",
+        "NameA_W": "옹",
+        "NameB_W": "유이"
+      },
+      "213": {
+        "Id": 213,
+        "NameA": "아",
+        "NameB": "현수",
+        "NameA_W": "아",
+        "NameB_W": "은효"
+      },
+      "214": {
+        "Id": 214,
+        "NameA": "예",
+        "NameB": "현진",
+        "NameA_W": "예",
+        "NameB_W": "무영"
+      },
+      "215": {
+        "Id": 215,
+        "NameA": "창",
+        "NameB": "진우",
+        "NameA_W": "창",
+        "NameB_W": "채아"
+      },
+      "216": {
+        "Id": 216,
+        "NameA": "근",
+        "NameB": "비홍",
+        "NameA_W": "근",
+        "NameB_W": "채원"
+      },
+      "217": {
+        "Id": 217,
+        "NameA": "빈",
+        "NameB": "상섭",
+        "NameA_W": "빈",
+        "NameB_W": "초율"
+      },
+      "218": {
+        "Id": 218,
+        "NameA": "점",
+        "NameB": "만덕",
+        "NameA_W": "점",
+        "NameB_W": "초이"
+      },
+      "219": {
+        "Id": 219,
+        "NameA": "운",
+        "NameB": "검제",
+        "NameA_W": "운",
+        "NameB_W": "하윤"
+      },
+      "220": {
+        "Id": 220,
+        "NameA": "학",
+        "NameB": "만지",
+        "NameA_W": "학",
+        "NameB_W": "하율"
+      },
+      "221": {
+        "Id": 221,
+        "NameA": "차",
+        "NameB": "천화",
+        "NameA_W": "차",
+        "NameB_W": "혜솔"
+      },
+      "222": {
+        "Id": 222,
+        "NameA": "군",
+        "NameB": "근호",
+        "NameA_W": "곽",
+        "NameB_W": "지화"
+      },
+      "223": {
+        "Id": 223,
+        "NameA": "추",
+        "NameB": "도리",
+        "NameA_W": "추",
+        "NameB_W": "태라"
+      },
+      "224": {
+        "Id": 224,
+        "NameA": "제",
+        "NameB": "도희",
+        "NameA_W": "제",
+        "NameB_W": "별하"
+      },
+      "225": {
+        "Id": 225,
+        "NameA": "탁",
+        "NameB": "희중",
+        "NameA_W": "탁",
+        "NameB_W": "항아"
+      },
+      "226": {
+        "Id": 226,
+        "NameA": "편",
+        "NameB": "중환",
+        "NameA_W": "편",
+        "NameB_W": "령자"
+      },
+      "227": {
+        "Id": 227,
+        "NameA": "형",
+        "NameB": "준환",
+        "NameA_W": "형",
+        "NameB_W": "송자"
+      },
+      "228": {
+        "Id": 228,
+        "NameA": "피",
+        "NameB": "귀왕",
+        "NameA_W": "피",
+        "NameB_W": "규하"
+      },
+      "229": {
+        "Id": 229,
+        "NameA": "음",
+        "NameB": "기성",
+        "NameA_W": "음",
+        "NameB_W": "규희"
+      },
+      "230": {
+        "Id": 230,
+        "NameA": "풍",
+        "NameB": "오공",
+        "NameA_W": "풍",
+        "NameB_W": "이설"
+      }
+    }
+  }
+]

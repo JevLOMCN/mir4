@@ -1,0 +1,7522 @@
+[
+  {
+    "ExchangeID": 3001,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      200101010,
+      200201010
+    ],
+    "Exchange_Output_Item_List1": [
+      200201011
+    ],
+    "Exchange_Input_Item_List2": [
+      200102010,
+      200202010
+    ],
+    "Exchange_Output_Item_List2": [
+      200202011
+    ],
+    "Exchange_Input_Item_List3": [
+      200103010,
+      200203010
+    ],
+    "Exchange_Output_Item_List3": [
+      200203011
+    ],
+    "Exchange_Input_Item_List4": [
+      200104010,
+      200204010
+    ],
+    "Exchange_Output_Item_List4": [
+      200204011
+    ],
+    "Exchange_Input_Item_List5": [
+      200105010,
+      200205010
+    ],
+    "Exchange_Output_Item_List5": [
+      200205011
+    ]
+  },
+  {
+    "ExchangeID": 3002,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      200101011,
+      200201011
+    ],
+    "Exchange_Output_Item_List1": [
+      200201010
+    ],
+    "Exchange_Input_Item_List2": [
+      200102011,
+      200202011
+    ],
+    "Exchange_Output_Item_List2": [
+      200202010
+    ],
+    "Exchange_Input_Item_List3": [
+      200103011,
+      200203011
+    ],
+    "Exchange_Output_Item_List3": [
+      200203010
+    ],
+    "Exchange_Input_Item_List4": [
+      200104011,
+      200204011
+    ],
+    "Exchange_Output_Item_List4": [
+      200204010
+    ],
+    "Exchange_Input_Item_List5": [
+      200105011,
+      200205011
+    ],
+    "Exchange_Output_Item_List5": [
+      200205010
+    ]
+  },
+  {
+    "ExchangeID": 3003,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      301101010,
+      301201010
+    ],
+    "Exchange_Output_Item_List1": [
+      301201011
+    ],
+    "Exchange_Input_Item_List2": [
+      301102010,
+      301202010
+    ],
+    "Exchange_Output_Item_List2": [
+      301202011
+    ],
+    "Exchange_Input_Item_List3": [
+      301103010,
+      301203010
+    ],
+    "Exchange_Output_Item_List3": [
+      301203011
+    ],
+    "Exchange_Input_Item_List4": [
+      301104010,
+      301204010
+    ],
+    "Exchange_Output_Item_List4": [
+      301204011
+    ],
+    "Exchange_Input_Item_List5": [
+      301105010,
+      301205010
+    ],
+    "Exchange_Output_Item_List5": [
+      301205011
+    ]
+  },
+  {
+    "ExchangeID": 3004,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      301101011,
+      301201011
+    ],
+    "Exchange_Output_Item_List1": [
+      301201010
+    ],
+    "Exchange_Input_Item_List2": [
+      301102011,
+      301202011
+    ],
+    "Exchange_Output_Item_List2": [
+      301202010
+    ],
+    "Exchange_Input_Item_List3": [
+      301103011,
+      301203011
+    ],
+    "Exchange_Output_Item_List3": [
+      301203010
+    ],
+    "Exchange_Input_Item_List4": [
+      301104011,
+      301204011
+    ],
+    "Exchange_Output_Item_List4": [
+      301204010
+    ],
+    "Exchange_Input_Item_List5": [
+      301105011,
+      301205011
+    ],
+    "Exchange_Output_Item_List5": [
+      301205010
+    ]
+  },
+  {
+    "ExchangeID": 3005,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      302101010,
+      302201010
+    ],
+    "Exchange_Output_Item_List1": [
+      302201011
+    ],
+    "Exchange_Input_Item_List2": [
+      302102010,
+      302202010
+    ],
+    "Exchange_Output_Item_List2": [
+      302202011
+    ],
+    "Exchange_Input_Item_List3": [
+      302103010,
+      302203010
+    ],
+    "Exchange_Output_Item_List3": [
+      302203011
+    ],
+    "Exchange_Input_Item_List4": [
+      302104010,
+      302204010
+    ],
+    "Exchange_Output_Item_List4": [
+      302204011
+    ],
+    "Exchange_Input_Item_List5": [
+      302105010,
+      302205010
+    ],
+    "Exchange_Output_Item_List5": [
+      302205011
+    ]
+  },
+  {
+    "ExchangeID": 3006,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      302101011,
+      302201011
+    ],
+    "Exchange_Output_Item_List1": [
+      302201010
+    ],
+    "Exchange_Input_Item_List2": [
+      302102011,
+      302202011
+    ],
+    "Exchange_Output_Item_List2": [
+      302202010
+    ],
+    "Exchange_Input_Item_List3": [
+      302103011,
+      302203011
+    ],
+    "Exchange_Output_Item_List3": [
+      302203010
+    ],
+    "Exchange_Input_Item_List4": [
+      302104011,
+      302204011
+    ],
+    "Exchange_Output_Item_List4": [
+      302204010
+    ],
+    "Exchange_Input_Item_List5": [
+      302105011,
+      302205011
+    ],
+    "Exchange_Output_Item_List5": [
+      302205010
+    ]
+  },
+  {
+    "ExchangeID": 3007,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      303101010,
+      303201010
+    ],
+    "Exchange_Output_Item_List1": [
+      303201011
+    ],
+    "Exchange_Input_Item_List2": [
+      303102010,
+      303202010
+    ],
+    "Exchange_Output_Item_List2": [
+      303202011
+    ],
+    "Exchange_Input_Item_List3": [
+      303103010,
+      303203010
+    ],
+    "Exchange_Output_Item_List3": [
+      303203011
+    ],
+    "Exchange_Input_Item_List4": [
+      303104010,
+      303204010
+    ],
+    "Exchange_Output_Item_List4": [
+      303204011
+    ],
+    "Exchange_Input_Item_List5": [
+      303105010,
+      303205010
+    ],
+    "Exchange_Output_Item_List5": [
+      303205011
+    ]
+  },
+  {
+    "ExchangeID": 3008,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      303101011,
+      303201011
+    ],
+    "Exchange_Output_Item_List1": [
+      303201010
+    ],
+    "Exchange_Input_Item_List2": [
+      303102011,
+      303202011
+    ],
+    "Exchange_Output_Item_List2": [
+      303202010
+    ],
+    "Exchange_Input_Item_List3": [
+      303103011,
+      303203011
+    ],
+    "Exchange_Output_Item_List3": [
+      303203010
+    ],
+    "Exchange_Input_Item_List4": [
+      303104011,
+      303204011
+    ],
+    "Exchange_Output_Item_List4": [
+      303204010
+    ],
+    "Exchange_Input_Item_List5": [
+      303105011,
+      303205011
+    ],
+    "Exchange_Output_Item_List5": [
+      303205010
+    ]
+  },
+  {
+    "ExchangeID": 3009,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      304101010,
+      304201010
+    ],
+    "Exchange_Output_Item_List1": [
+      304201011
+    ],
+    "Exchange_Input_Item_List2": [
+      304102010,
+      304202010
+    ],
+    "Exchange_Output_Item_List2": [
+      304202011
+    ],
+    "Exchange_Input_Item_List3": [
+      304103010,
+      304203010
+    ],
+    "Exchange_Output_Item_List3": [
+      304203011
+    ],
+    "Exchange_Input_Item_List4": [
+      304104010,
+      304204010
+    ],
+    "Exchange_Output_Item_List4": [
+      304204011
+    ],
+    "Exchange_Input_Item_List5": [
+      304105010,
+      304205010
+    ],
+    "Exchange_Output_Item_List5": [
+      304205011
+    ]
+  },
+  {
+    "ExchangeID": 3010,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      304101011,
+      304201011
+    ],
+    "Exchange_Output_Item_List1": [
+      304201010
+    ],
+    "Exchange_Input_Item_List2": [
+      304102011,
+      304202011
+    ],
+    "Exchange_Output_Item_List2": [
+      304202010
+    ],
+    "Exchange_Input_Item_List3": [
+      304103011,
+      304203011
+    ],
+    "Exchange_Output_Item_List3": [
+      304203010
+    ],
+    "Exchange_Input_Item_List4": [
+      304104011,
+      304204011
+    ],
+    "Exchange_Output_Item_List4": [
+      304204010
+    ],
+    "Exchange_Input_Item_List5": [
+      304105011,
+      304205011
+    ],
+    "Exchange_Output_Item_List5": [
+      304205010
+    ]
+  },
+  {
+    "ExchangeID": 3011,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      401101010,
+      401201010
+    ],
+    "Exchange_Output_Item_List1": [
+      401201011
+    ],
+    "Exchange_Input_Item_List2": [
+      401101010,
+      401201010
+    ],
+    "Exchange_Output_Item_List2": [
+      401201011
+    ],
+    "Exchange_Input_Item_List3": [
+      401101010,
+      401201010
+    ],
+    "Exchange_Output_Item_List3": [
+      401201011
+    ],
+    "Exchange_Input_Item_List4": [
+      401101010,
+      401201010
+    ],
+    "Exchange_Output_Item_List4": [
+      401201011
+    ],
+    "Exchange_Input_Item_List5": [
+      401101010,
+      401201010
+    ],
+    "Exchange_Output_Item_List5": [
+      401201011
+    ]
+  },
+  {
+    "ExchangeID": 3012,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      401101011,
+      401201011
+    ],
+    "Exchange_Output_Item_List1": [
+      401201010
+    ],
+    "Exchange_Input_Item_List2": [
+      401101011,
+      401201011
+    ],
+    "Exchange_Output_Item_List2": [
+      401201010
+    ],
+    "Exchange_Input_Item_List3": [
+      401101011,
+      401201011
+    ],
+    "Exchange_Output_Item_List3": [
+      401201010
+    ],
+    "Exchange_Input_Item_List4": [
+      401101011,
+      401201011
+    ],
+    "Exchange_Output_Item_List4": [
+      401201010
+    ],
+    "Exchange_Input_Item_List5": [
+      401101011,
+      401201011
+    ],
+    "Exchange_Output_Item_List5": [
+      401201010
+    ]
+  },
+  {
+    "ExchangeID": 3013,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      402101010,
+      402201010
+    ],
+    "Exchange_Output_Item_List1": [
+      402201011
+    ],
+    "Exchange_Input_Item_List2": [
+      402101010,
+      402201010
+    ],
+    "Exchange_Output_Item_List2": [
+      402201011
+    ],
+    "Exchange_Input_Item_List3": [
+      402101010,
+      402201010
+    ],
+    "Exchange_Output_Item_List3": [
+      402201011
+    ],
+    "Exchange_Input_Item_List4": [
+      402101010,
+      402201010
+    ],
+    "Exchange_Output_Item_List4": [
+      402201011
+    ],
+    "Exchange_Input_Item_List5": [
+      402101010,
+      402201010
+    ],
+    "Exchange_Output_Item_List5": [
+      402201011
+    ]
+  },
+  {
+    "ExchangeID": 3014,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      402101011,
+      402201011
+    ],
+    "Exchange_Output_Item_List1": [
+      402201010
+    ],
+    "Exchange_Input_Item_List2": [
+      402101011,
+      402201011
+    ],
+    "Exchange_Output_Item_List2": [
+      402201010
+    ],
+    "Exchange_Input_Item_List3": [
+      402101011,
+      402201011
+    ],
+    "Exchange_Output_Item_List3": [
+      402201010
+    ],
+    "Exchange_Input_Item_List4": [
+      402101011,
+      402201011
+    ],
+    "Exchange_Output_Item_List4": [
+      402201010
+    ],
+    "Exchange_Input_Item_List5": [
+      402101011,
+      402201011
+    ],
+    "Exchange_Output_Item_List5": [
+      402201010
+    ]
+  },
+  {
+    "ExchangeID": 3015,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      403101010,
+      403201010
+    ],
+    "Exchange_Output_Item_List1": [
+      403201011
+    ],
+    "Exchange_Input_Item_List2": [
+      403101010,
+      403201010
+    ],
+    "Exchange_Output_Item_List2": [
+      403201011
+    ],
+    "Exchange_Input_Item_List3": [
+      403101010,
+      403201010
+    ],
+    "Exchange_Output_Item_List3": [
+      403201011
+    ],
+    "Exchange_Input_Item_List4": [
+      403101010,
+      403201010
+    ],
+    "Exchange_Output_Item_List4": [
+      403201011
+    ],
+    "Exchange_Input_Item_List5": [
+      403101010,
+      403201010
+    ],
+    "Exchange_Output_Item_List5": [
+      403201011
+    ]
+  },
+  {
+    "ExchangeID": 3016,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      403101011,
+      403201011
+    ],
+    "Exchange_Output_Item_List1": [
+      403201010
+    ],
+    "Exchange_Input_Item_List2": [
+      403101011,
+      403201011
+    ],
+    "Exchange_Output_Item_List2": [
+      403201010
+    ],
+    "Exchange_Input_Item_List3": [
+      403101011,
+      403201011
+    ],
+    "Exchange_Output_Item_List3": [
+      403201010
+    ],
+    "Exchange_Input_Item_List4": [
+      403101011,
+      403201011
+    ],
+    "Exchange_Output_Item_List4": [
+      403201010
+    ],
+    "Exchange_Input_Item_List5": [
+      403101011,
+      403201011
+    ],
+    "Exchange_Output_Item_List5": [
+      403201010
+    ]
+  },
+  {
+    "ExchangeID": 3017,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      200101012,
+      200201012
+    ],
+    "Exchange_Output_Item_List1": [
+      200201013
+    ],
+    "Exchange_Input_Item_List2": [
+      200102012,
+      200202012
+    ],
+    "Exchange_Output_Item_List2": [
+      200202013
+    ],
+    "Exchange_Input_Item_List3": [
+      200103012,
+      200203012
+    ],
+    "Exchange_Output_Item_List3": [
+      200203013
+    ],
+    "Exchange_Input_Item_List4": [
+      200104012,
+      200204012
+    ],
+    "Exchange_Output_Item_List4": [
+      200204013
+    ],
+    "Exchange_Input_Item_List5": [
+      200105012,
+      200205012
+    ],
+    "Exchange_Output_Item_List5": [
+      200205013
+    ]
+  },
+  {
+    "ExchangeID": 3018,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      200101013,
+      200201013
+    ],
+    "Exchange_Output_Item_List1": [
+      200201012
+    ],
+    "Exchange_Input_Item_List2": [
+      200102013,
+      200202013
+    ],
+    "Exchange_Output_Item_List2": [
+      200202012
+    ],
+    "Exchange_Input_Item_List3": [
+      200103013,
+      200203013
+    ],
+    "Exchange_Output_Item_List3": [
+      200203012
+    ],
+    "Exchange_Input_Item_List4": [
+      200104013,
+      200204013
+    ],
+    "Exchange_Output_Item_List4": [
+      200204012
+    ],
+    "Exchange_Input_Item_List5": [
+      200105013,
+      200205013
+    ],
+    "Exchange_Output_Item_List5": [
+      200205012
+    ]
+  },
+  {
+    "ExchangeID": 3019,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      301101012,
+      301201012
+    ],
+    "Exchange_Output_Item_List1": [
+      301201013
+    ],
+    "Exchange_Input_Item_List2": [
+      301102012,
+      301202012
+    ],
+    "Exchange_Output_Item_List2": [
+      301202013
+    ],
+    "Exchange_Input_Item_List3": [
+      301103012,
+      301203012
+    ],
+    "Exchange_Output_Item_List3": [
+      301203013
+    ],
+    "Exchange_Input_Item_List4": [
+      301104012,
+      301204012
+    ],
+    "Exchange_Output_Item_List4": [
+      301204013
+    ],
+    "Exchange_Input_Item_List5": [
+      301105012,
+      301205012
+    ],
+    "Exchange_Output_Item_List5": [
+      301205013
+    ]
+  },
+  {
+    "ExchangeID": 3020,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      301101013,
+      301201013
+    ],
+    "Exchange_Output_Item_List1": [
+      301201012
+    ],
+    "Exchange_Input_Item_List2": [
+      301102013,
+      301202013
+    ],
+    "Exchange_Output_Item_List2": [
+      301202012
+    ],
+    "Exchange_Input_Item_List3": [
+      301103013,
+      301203013
+    ],
+    "Exchange_Output_Item_List3": [
+      301203012
+    ],
+    "Exchange_Input_Item_List4": [
+      301104013,
+      301204013
+    ],
+    "Exchange_Output_Item_List4": [
+      301204012
+    ],
+    "Exchange_Input_Item_List5": [
+      301105013,
+      301205013
+    ],
+    "Exchange_Output_Item_List5": [
+      301205012
+    ]
+  },
+  {
+    "ExchangeID": 3021,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      302101012,
+      302201012
+    ],
+    "Exchange_Output_Item_List1": [
+      302201013
+    ],
+    "Exchange_Input_Item_List2": [
+      302102012,
+      302202012
+    ],
+    "Exchange_Output_Item_List2": [
+      302202013
+    ],
+    "Exchange_Input_Item_List3": [
+      302103012,
+      302203012
+    ],
+    "Exchange_Output_Item_List3": [
+      302203013
+    ],
+    "Exchange_Input_Item_List4": [
+      302104012,
+      302204012
+    ],
+    "Exchange_Output_Item_List4": [
+      302204013
+    ],
+    "Exchange_Input_Item_List5": [
+      302105012,
+      302205012
+    ],
+    "Exchange_Output_Item_List5": [
+      302205013
+    ]
+  },
+  {
+    "ExchangeID": 3022,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      302101013,
+      302201013
+    ],
+    "Exchange_Output_Item_List1": [
+      302201012
+    ],
+    "Exchange_Input_Item_List2": [
+      302102013,
+      302202013
+    ],
+    "Exchange_Output_Item_List2": [
+      302202012
+    ],
+    "Exchange_Input_Item_List3": [
+      302103013,
+      302203013
+    ],
+    "Exchange_Output_Item_List3": [
+      302203012
+    ],
+    "Exchange_Input_Item_List4": [
+      302104013,
+      302204013
+    ],
+    "Exchange_Output_Item_List4": [
+      302204012
+    ],
+    "Exchange_Input_Item_List5": [
+      302105013,
+      302205013
+    ],
+    "Exchange_Output_Item_List5": [
+      302205012
+    ]
+  },
+  {
+    "ExchangeID": 3023,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      303101012,
+      303201012
+    ],
+    "Exchange_Output_Item_List1": [
+      303201013
+    ],
+    "Exchange_Input_Item_List2": [
+      303102012,
+      303202012
+    ],
+    "Exchange_Output_Item_List2": [
+      303202013
+    ],
+    "Exchange_Input_Item_List3": [
+      303103012,
+      303203012
+    ],
+    "Exchange_Output_Item_List3": [
+      303203013
+    ],
+    "Exchange_Input_Item_List4": [
+      303104012,
+      303204012
+    ],
+    "Exchange_Output_Item_List4": [
+      303204013
+    ],
+    "Exchange_Input_Item_List5": [
+      303105012,
+      303205012
+    ],
+    "Exchange_Output_Item_List5": [
+      303205013
+    ]
+  },
+  {
+    "ExchangeID": 3024,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      303101013,
+      303201013
+    ],
+    "Exchange_Output_Item_List1": [
+      303201012
+    ],
+    "Exchange_Input_Item_List2": [
+      303102013,
+      303202013
+    ],
+    "Exchange_Output_Item_List2": [
+      303202012
+    ],
+    "Exchange_Input_Item_List3": [
+      303103013,
+      303203013
+    ],
+    "Exchange_Output_Item_List3": [
+      303203012
+    ],
+    "Exchange_Input_Item_List4": [
+      303104013,
+      303204013
+    ],
+    "Exchange_Output_Item_List4": [
+      303204012
+    ],
+    "Exchange_Input_Item_List5": [
+      303105013,
+      303205013
+    ],
+    "Exchange_Output_Item_List5": [
+      303205012
+    ]
+  },
+  {
+    "ExchangeID": 3025,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      304101012,
+      304201012
+    ],
+    "Exchange_Output_Item_List1": [
+      304201013
+    ],
+    "Exchange_Input_Item_List2": [
+      304102012,
+      304202012
+    ],
+    "Exchange_Output_Item_List2": [
+      304202013
+    ],
+    "Exchange_Input_Item_List3": [
+      304103012,
+      304203012
+    ],
+    "Exchange_Output_Item_List3": [
+      304203013
+    ],
+    "Exchange_Input_Item_List4": [
+      304104012,
+      304204012
+    ],
+    "Exchange_Output_Item_List4": [
+      304204013
+    ],
+    "Exchange_Input_Item_List5": [
+      304105012,
+      304205012
+    ],
+    "Exchange_Output_Item_List5": [
+      304205013
+    ]
+  },
+  {
+    "ExchangeID": 3026,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      304101013,
+      304201013
+    ],
+    "Exchange_Output_Item_List1": [
+      304201012
+    ],
+    "Exchange_Input_Item_List2": [
+      304102013,
+      304202013
+    ],
+    "Exchange_Output_Item_List2": [
+      304202012
+    ],
+    "Exchange_Input_Item_List3": [
+      304103013,
+      304203013
+    ],
+    "Exchange_Output_Item_List3": [
+      304203012
+    ],
+    "Exchange_Input_Item_List4": [
+      304104013,
+      304204013
+    ],
+    "Exchange_Output_Item_List4": [
+      304204012
+    ],
+    "Exchange_Input_Item_List5": [
+      304105013,
+      304205013
+    ],
+    "Exchange_Output_Item_List5": [
+      304205012
+    ]
+  },
+  {
+    "ExchangeID": 3027,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      401101012,
+      401201012
+    ],
+    "Exchange_Output_Item_List1": [
+      401201013
+    ],
+    "Exchange_Input_Item_List2": [
+      401101012,
+      401201012
+    ],
+    "Exchange_Output_Item_List2": [
+      401201013
+    ],
+    "Exchange_Input_Item_List3": [
+      401101012,
+      401201012
+    ],
+    "Exchange_Output_Item_List3": [
+      401201013
+    ],
+    "Exchange_Input_Item_List4": [
+      401101012,
+      401201012
+    ],
+    "Exchange_Output_Item_List4": [
+      401201013
+    ],
+    "Exchange_Input_Item_List5": [
+      401101012,
+      401201012
+    ],
+    "Exchange_Output_Item_List5": [
+      401201013
+    ]
+  },
+  {
+    "ExchangeID": 3028,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      401101013,
+      401201013
+    ],
+    "Exchange_Output_Item_List1": [
+      401201012
+    ],
+    "Exchange_Input_Item_List2": [
+      401101013,
+      401201013
+    ],
+    "Exchange_Output_Item_List2": [
+      401201012
+    ],
+    "Exchange_Input_Item_List3": [
+      401101013,
+      401201013
+    ],
+    "Exchange_Output_Item_List3": [
+      401201012
+    ],
+    "Exchange_Input_Item_List4": [
+      401101013,
+      401201013
+    ],
+    "Exchange_Output_Item_List4": [
+      401201012
+    ],
+    "Exchange_Input_Item_List5": [
+      401101013,
+      401201013
+    ],
+    "Exchange_Output_Item_List5": [
+      401201012
+    ]
+  },
+  {
+    "ExchangeID": 3029,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      402101012,
+      402201012
+    ],
+    "Exchange_Output_Item_List1": [
+      402201013
+    ],
+    "Exchange_Input_Item_List2": [
+      402101012,
+      402201012
+    ],
+    "Exchange_Output_Item_List2": [
+      402201013
+    ],
+    "Exchange_Input_Item_List3": [
+      402101012,
+      402201012
+    ],
+    "Exchange_Output_Item_List3": [
+      402201013
+    ],
+    "Exchange_Input_Item_List4": [
+      402101012,
+      402201012
+    ],
+    "Exchange_Output_Item_List4": [
+      402201013
+    ],
+    "Exchange_Input_Item_List5": [
+      402101012,
+      402201012
+    ],
+    "Exchange_Output_Item_List5": [
+      402201013
+    ]
+  },
+  {
+    "ExchangeID": 3030,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      402101013,
+      402201013
+    ],
+    "Exchange_Output_Item_List1": [
+      402201012
+    ],
+    "Exchange_Input_Item_List2": [
+      402101013,
+      402201013
+    ],
+    "Exchange_Output_Item_List2": [
+      402201012
+    ],
+    "Exchange_Input_Item_List3": [
+      402101013,
+      402201013
+    ],
+    "Exchange_Output_Item_List3": [
+      402201012
+    ],
+    "Exchange_Input_Item_List4": [
+      402101013,
+      402201013
+    ],
+    "Exchange_Output_Item_List4": [
+      402201012
+    ],
+    "Exchange_Input_Item_List5": [
+      402101013,
+      402201013
+    ],
+    "Exchange_Output_Item_List5": [
+      402201012
+    ]
+  },
+  {
+    "ExchangeID": 3031,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      403101012,
+      403201012
+    ],
+    "Exchange_Output_Item_List1": [
+      403201013
+    ],
+    "Exchange_Input_Item_List2": [
+      403101012,
+      403201012
+    ],
+    "Exchange_Output_Item_List2": [
+      403201013
+    ],
+    "Exchange_Input_Item_List3": [
+      403101012,
+      403201012
+    ],
+    "Exchange_Output_Item_List3": [
+      403201013
+    ],
+    "Exchange_Input_Item_List4": [
+      403101012,
+      403201012
+    ],
+    "Exchange_Output_Item_List4": [
+      403201013
+    ],
+    "Exchange_Input_Item_List5": [
+      403101012,
+      403201012
+    ],
+    "Exchange_Output_Item_List5": [
+      403201013
+    ]
+  },
+  {
+    "ExchangeID": 3032,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      403101013,
+      403201013
+    ],
+    "Exchange_Output_Item_List1": [
+      403201012
+    ],
+    "Exchange_Input_Item_List2": [
+      403101013,
+      403201013
+    ],
+    "Exchange_Output_Item_List2": [
+      403201012
+    ],
+    "Exchange_Input_Item_List3": [
+      403101013,
+      403201013
+    ],
+    "Exchange_Output_Item_List3": [
+      403201012
+    ],
+    "Exchange_Input_Item_List4": [
+      403101013,
+      403201013
+    ],
+    "Exchange_Output_Item_List4": [
+      403201012
+    ],
+    "Exchange_Input_Item_List5": [
+      403101013,
+      403201013
+    ],
+    "Exchange_Output_Item_List5": [
+      403201012
+    ]
+  },
+  {
+    "ExchangeID": 3033,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      200101014,
+      200201014
+    ],
+    "Exchange_Output_Item_List1": [
+      200201015
+    ],
+    "Exchange_Input_Item_List2": [
+      200102014,
+      200202014
+    ],
+    "Exchange_Output_Item_List2": [
+      200202015
+    ],
+    "Exchange_Input_Item_List3": [
+      200103014,
+      200203014
+    ],
+    "Exchange_Output_Item_List3": [
+      200203015
+    ],
+    "Exchange_Input_Item_List4": [
+      200104014,
+      200204014
+    ],
+    "Exchange_Output_Item_List4": [
+      200204015
+    ],
+    "Exchange_Input_Item_List5": [
+      200105014,
+      200205014
+    ],
+    "Exchange_Output_Item_List5": [
+      200205015
+    ]
+  },
+  {
+    "ExchangeID": 3034,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      200101015,
+      200201015
+    ],
+    "Exchange_Output_Item_List1": [
+      200201014
+    ],
+    "Exchange_Input_Item_List2": [
+      200102015,
+      200202015
+    ],
+    "Exchange_Output_Item_List2": [
+      200202014
+    ],
+    "Exchange_Input_Item_List3": [
+      200103015,
+      200203015
+    ],
+    "Exchange_Output_Item_List3": [
+      200203014
+    ],
+    "Exchange_Input_Item_List4": [
+      200104015,
+      200204015
+    ],
+    "Exchange_Output_Item_List4": [
+      200204014
+    ],
+    "Exchange_Input_Item_List5": [
+      200105015,
+      200205015
+    ],
+    "Exchange_Output_Item_List5": [
+      200205014
+    ]
+  },
+  {
+    "ExchangeID": 3035,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      301101014,
+      301201014
+    ],
+    "Exchange_Output_Item_List1": [
+      301201015
+    ],
+    "Exchange_Input_Item_List2": [
+      301102014,
+      301202014
+    ],
+    "Exchange_Output_Item_List2": [
+      301202015
+    ],
+    "Exchange_Input_Item_List3": [
+      301103014,
+      301203014
+    ],
+    "Exchange_Output_Item_List3": [
+      301203015
+    ],
+    "Exchange_Input_Item_List4": [
+      301104014,
+      301204014
+    ],
+    "Exchange_Output_Item_List4": [
+      301204015
+    ],
+    "Exchange_Input_Item_List5": [
+      301105014,
+      301205014
+    ],
+    "Exchange_Output_Item_List5": [
+      301205015
+    ]
+  },
+  {
+    "ExchangeID": 3036,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      301101015,
+      301201015
+    ],
+    "Exchange_Output_Item_List1": [
+      301201014
+    ],
+    "Exchange_Input_Item_List2": [
+      301102015,
+      301202015
+    ],
+    "Exchange_Output_Item_List2": [
+      301202014
+    ],
+    "Exchange_Input_Item_List3": [
+      301103015,
+      301203015
+    ],
+    "Exchange_Output_Item_List3": [
+      301203014
+    ],
+    "Exchange_Input_Item_List4": [
+      301104015,
+      301204015
+    ],
+    "Exchange_Output_Item_List4": [
+      301204014
+    ],
+    "Exchange_Input_Item_List5": [
+      301105015,
+      301205015
+    ],
+    "Exchange_Output_Item_List5": [
+      301205014
+    ]
+  },
+  {
+    "ExchangeID": 3037,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      302101014,
+      302201014
+    ],
+    "Exchange_Output_Item_List1": [
+      302201015
+    ],
+    "Exchange_Input_Item_List2": [
+      302102014,
+      302202014
+    ],
+    "Exchange_Output_Item_List2": [
+      302202015
+    ],
+    "Exchange_Input_Item_List3": [
+      302103014,
+      302203014
+    ],
+    "Exchange_Output_Item_List3": [
+      302203015
+    ],
+    "Exchange_Input_Item_List4": [
+      302104014,
+      302204014
+    ],
+    "Exchange_Output_Item_List4": [
+      302204015
+    ],
+    "Exchange_Input_Item_List5": [
+      302105014,
+      302205014
+    ],
+    "Exchange_Output_Item_List5": [
+      302205015
+    ]
+  },
+  {
+    "ExchangeID": 3038,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      302101015,
+      302201015
+    ],
+    "Exchange_Output_Item_List1": [
+      302201014
+    ],
+    "Exchange_Input_Item_List2": [
+      302102015,
+      302202015
+    ],
+    "Exchange_Output_Item_List2": [
+      302202014
+    ],
+    "Exchange_Input_Item_List3": [
+      302103015,
+      302203015
+    ],
+    "Exchange_Output_Item_List3": [
+      302203014
+    ],
+    "Exchange_Input_Item_List4": [
+      302104015,
+      302204015
+    ],
+    "Exchange_Output_Item_List4": [
+      302204014
+    ],
+    "Exchange_Input_Item_List5": [
+      302105015,
+      302205015
+    ],
+    "Exchange_Output_Item_List5": [
+      302205014
+    ]
+  },
+  {
+    "ExchangeID": 3039,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      303101014,
+      303201014
+    ],
+    "Exchange_Output_Item_List1": [
+      303201015
+    ],
+    "Exchange_Input_Item_List2": [
+      303102014,
+      303202014
+    ],
+    "Exchange_Output_Item_List2": [
+      303202015
+    ],
+    "Exchange_Input_Item_List3": [
+      303103014,
+      303203014
+    ],
+    "Exchange_Output_Item_List3": [
+      303203015
+    ],
+    "Exchange_Input_Item_List4": [
+      303104014,
+      303204014
+    ],
+    "Exchange_Output_Item_List4": [
+      303204015
+    ],
+    "Exchange_Input_Item_List5": [
+      303105014,
+      303205014
+    ],
+    "Exchange_Output_Item_List5": [
+      303205015
+    ]
+  },
+  {
+    "ExchangeID": 3040,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      303101015,
+      303201015
+    ],
+    "Exchange_Output_Item_List1": [
+      303201014
+    ],
+    "Exchange_Input_Item_List2": [
+      303102015,
+      303202015
+    ],
+    "Exchange_Output_Item_List2": [
+      303202014
+    ],
+    "Exchange_Input_Item_List3": [
+      303103015,
+      303203015
+    ],
+    "Exchange_Output_Item_List3": [
+      303203014
+    ],
+    "Exchange_Input_Item_List4": [
+      303104015,
+      303204015
+    ],
+    "Exchange_Output_Item_List4": [
+      303204014
+    ],
+    "Exchange_Input_Item_List5": [
+      303105015,
+      303205015
+    ],
+    "Exchange_Output_Item_List5": [
+      303205014
+    ]
+  },
+  {
+    "ExchangeID": 3041,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      304101014,
+      304201014
+    ],
+    "Exchange_Output_Item_List1": [
+      304201015
+    ],
+    "Exchange_Input_Item_List2": [
+      304102014,
+      304202014
+    ],
+    "Exchange_Output_Item_List2": [
+      304202015
+    ],
+    "Exchange_Input_Item_List3": [
+      304103014,
+      304203014
+    ],
+    "Exchange_Output_Item_List3": [
+      304203015
+    ],
+    "Exchange_Input_Item_List4": [
+      304104014,
+      304204014
+    ],
+    "Exchange_Output_Item_List4": [
+      304204015
+    ],
+    "Exchange_Input_Item_List5": [
+      304105014,
+      304205014
+    ],
+    "Exchange_Output_Item_List5": [
+      304205015
+    ]
+  },
+  {
+    "ExchangeID": 3042,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      304101015,
+      304201015
+    ],
+    "Exchange_Output_Item_List1": [
+      304201014
+    ],
+    "Exchange_Input_Item_List2": [
+      304102015,
+      304202015
+    ],
+    "Exchange_Output_Item_List2": [
+      304202014
+    ],
+    "Exchange_Input_Item_List3": [
+      304103015,
+      304203015
+    ],
+    "Exchange_Output_Item_List3": [
+      304203014
+    ],
+    "Exchange_Input_Item_List4": [
+      304104015,
+      304204015
+    ],
+    "Exchange_Output_Item_List4": [
+      304204014
+    ],
+    "Exchange_Input_Item_List5": [
+      304105015,
+      304205015
+    ],
+    "Exchange_Output_Item_List5": [
+      304205014
+    ]
+  },
+  {
+    "ExchangeID": 3043,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      401101014,
+      401201014
+    ],
+    "Exchange_Output_Item_List1": [
+      401201015
+    ],
+    "Exchange_Input_Item_List2": [
+      401101014,
+      401201014
+    ],
+    "Exchange_Output_Item_List2": [
+      401201015
+    ],
+    "Exchange_Input_Item_List3": [
+      401101014,
+      401201014
+    ],
+    "Exchange_Output_Item_List3": [
+      401201015
+    ],
+    "Exchange_Input_Item_List4": [
+      401101014,
+      401201014
+    ],
+    "Exchange_Output_Item_List4": [
+      401201015
+    ],
+    "Exchange_Input_Item_List5": [
+      401101014,
+      401201014
+    ],
+    "Exchange_Output_Item_List5": [
+      401201015
+    ]
+  },
+  {
+    "ExchangeID": 3044,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      401101015,
+      401201015
+    ],
+    "Exchange_Output_Item_List1": [
+      401201014
+    ],
+    "Exchange_Input_Item_List2": [
+      401101015,
+      401201015
+    ],
+    "Exchange_Output_Item_List2": [
+      401201014
+    ],
+    "Exchange_Input_Item_List3": [
+      401101015,
+      401201015
+    ],
+    "Exchange_Output_Item_List3": [
+      401201014
+    ],
+    "Exchange_Input_Item_List4": [
+      401101015,
+      401201015
+    ],
+    "Exchange_Output_Item_List4": [
+      401201014
+    ],
+    "Exchange_Input_Item_List5": [
+      401101015,
+      401201015
+    ],
+    "Exchange_Output_Item_List5": [
+      401201014
+    ]
+  },
+  {
+    "ExchangeID": 3045,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      402101014,
+      402201014
+    ],
+    "Exchange_Output_Item_List1": [
+      402201015
+    ],
+    "Exchange_Input_Item_List2": [
+      402101014,
+      402201014
+    ],
+    "Exchange_Output_Item_List2": [
+      402201015
+    ],
+    "Exchange_Input_Item_List3": [
+      402101014,
+      402201014
+    ],
+    "Exchange_Output_Item_List3": [
+      402201015
+    ],
+    "Exchange_Input_Item_List4": [
+      402101014,
+      402201014
+    ],
+    "Exchange_Output_Item_List4": [
+      402201015
+    ],
+    "Exchange_Input_Item_List5": [
+      402101014,
+      402201014
+    ],
+    "Exchange_Output_Item_List5": [
+      402201015
+    ]
+  },
+  {
+    "ExchangeID": 3046,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      402101015,
+      402201015
+    ],
+    "Exchange_Output_Item_List1": [
+      402201014
+    ],
+    "Exchange_Input_Item_List2": [
+      402101015,
+      402201015
+    ],
+    "Exchange_Output_Item_List2": [
+      402201014
+    ],
+    "Exchange_Input_Item_List3": [
+      402101015,
+      402201015
+    ],
+    "Exchange_Output_Item_List3": [
+      402201014
+    ],
+    "Exchange_Input_Item_List4": [
+      402101015,
+      402201015
+    ],
+    "Exchange_Output_Item_List4": [
+      402201014
+    ],
+    "Exchange_Input_Item_List5": [
+      402101015,
+      402201015
+    ],
+    "Exchange_Output_Item_List5": [
+      402201014
+    ]
+  },
+  {
+    "ExchangeID": 3047,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      403101014,
+      403201014
+    ],
+    "Exchange_Output_Item_List1": [
+      403201015
+    ],
+    "Exchange_Input_Item_List2": [
+      403101014,
+      403201014
+    ],
+    "Exchange_Output_Item_List2": [
+      403201015
+    ],
+    "Exchange_Input_Item_List3": [
+      403101014,
+      403201014
+    ],
+    "Exchange_Output_Item_List3": [
+      403201015
+    ],
+    "Exchange_Input_Item_List4": [
+      403101014,
+      403201014
+    ],
+    "Exchange_Output_Item_List4": [
+      403201015
+    ],
+    "Exchange_Input_Item_List5": [
+      403101014,
+      403201014
+    ],
+    "Exchange_Output_Item_List5": [
+      403201015
+    ]
+  },
+  {
+    "ExchangeID": 3048,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      403101015,
+      403201015
+    ],
+    "Exchange_Output_Item_List1": [
+      403201014
+    ],
+    "Exchange_Input_Item_List2": [
+      403101015,
+      403201015
+    ],
+    "Exchange_Output_Item_List2": [
+      403201014
+    ],
+    "Exchange_Input_Item_List3": [
+      403101015,
+      403201015
+    ],
+    "Exchange_Output_Item_List3": [
+      403201014
+    ],
+    "Exchange_Input_Item_List4": [
+      403101015,
+      403201015
+    ],
+    "Exchange_Output_Item_List4": [
+      403201014
+    ],
+    "Exchange_Input_Item_List5": [
+      403101015,
+      403201015
+    ],
+    "Exchange_Output_Item_List5": [
+      403201014
+    ]
+  },
+  {
+    "ExchangeID": 3049,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      200101016,
+      200201016
+    ],
+    "Exchange_Output_Item_List1": [
+      200201017
+    ],
+    "Exchange_Input_Item_List2": [
+      200102016,
+      200202016
+    ],
+    "Exchange_Output_Item_List2": [
+      200202017
+    ],
+    "Exchange_Input_Item_List3": [
+      200103016,
+      200203016
+    ],
+    "Exchange_Output_Item_List3": [
+      200203017
+    ],
+    "Exchange_Input_Item_List4": [
+      200104016,
+      200204016
+    ],
+    "Exchange_Output_Item_List4": [
+      200204017
+    ],
+    "Exchange_Input_Item_List5": [
+      200105016,
+      200205016
+    ],
+    "Exchange_Output_Item_List5": [
+      200205017
+    ]
+  },
+  {
+    "ExchangeID": 3050,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      200101017,
+      200201017
+    ],
+    "Exchange_Output_Item_List1": [
+      200201016
+    ],
+    "Exchange_Input_Item_List2": [
+      200102017,
+      200202017
+    ],
+    "Exchange_Output_Item_List2": [
+      200202016
+    ],
+    "Exchange_Input_Item_List3": [
+      200103017,
+      200203017
+    ],
+    "Exchange_Output_Item_List3": [
+      200203016
+    ],
+    "Exchange_Input_Item_List4": [
+      200104017,
+      200204017
+    ],
+    "Exchange_Output_Item_List4": [
+      200204016
+    ],
+    "Exchange_Input_Item_List5": [
+      200105017,
+      200205017
+    ],
+    "Exchange_Output_Item_List5": [
+      200205016
+    ]
+  },
+  {
+    "ExchangeID": 3051,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      301101016,
+      301201016
+    ],
+    "Exchange_Output_Item_List1": [
+      301201017
+    ],
+    "Exchange_Input_Item_List2": [
+      301102016,
+      301202016
+    ],
+    "Exchange_Output_Item_List2": [
+      301202017
+    ],
+    "Exchange_Input_Item_List3": [
+      301103016,
+      301203016
+    ],
+    "Exchange_Output_Item_List3": [
+      301203017
+    ],
+    "Exchange_Input_Item_List4": [
+      301104016,
+      301204016
+    ],
+    "Exchange_Output_Item_List4": [
+      301204017
+    ],
+    "Exchange_Input_Item_List5": [
+      301105016,
+      301205016
+    ],
+    "Exchange_Output_Item_List5": [
+      301205017
+    ]
+  },
+  {
+    "ExchangeID": 3052,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      301101017,
+      301201017
+    ],
+    "Exchange_Output_Item_List1": [
+      301201016
+    ],
+    "Exchange_Input_Item_List2": [
+      301102017,
+      301202017
+    ],
+    "Exchange_Output_Item_List2": [
+      301202016
+    ],
+    "Exchange_Input_Item_List3": [
+      301103017,
+      301203017
+    ],
+    "Exchange_Output_Item_List3": [
+      301203016
+    ],
+    "Exchange_Input_Item_List4": [
+      301104017,
+      301204017
+    ],
+    "Exchange_Output_Item_List4": [
+      301204016
+    ],
+    "Exchange_Input_Item_List5": [
+      301105017,
+      301205017
+    ],
+    "Exchange_Output_Item_List5": [
+      301205016
+    ]
+  },
+  {
+    "ExchangeID": 3053,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      302101016,
+      302201016
+    ],
+    "Exchange_Output_Item_List1": [
+      302201017
+    ],
+    "Exchange_Input_Item_List2": [
+      302102016,
+      302202016
+    ],
+    "Exchange_Output_Item_List2": [
+      302202017
+    ],
+    "Exchange_Input_Item_List3": [
+      302103016,
+      302203016
+    ],
+    "Exchange_Output_Item_List3": [
+      302203017
+    ],
+    "Exchange_Input_Item_List4": [
+      302104016,
+      302204016
+    ],
+    "Exchange_Output_Item_List4": [
+      302204017
+    ],
+    "Exchange_Input_Item_List5": [
+      302105016,
+      302205016
+    ],
+    "Exchange_Output_Item_List5": [
+      302205017
+    ]
+  },
+  {
+    "ExchangeID": 3054,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      302101017,
+      302201017
+    ],
+    "Exchange_Output_Item_List1": [
+      302201016
+    ],
+    "Exchange_Input_Item_List2": [
+      302102017,
+      302202017
+    ],
+    "Exchange_Output_Item_List2": [
+      302202016
+    ],
+    "Exchange_Input_Item_List3": [
+      302103017,
+      302203017
+    ],
+    "Exchange_Output_Item_List3": [
+      302203016
+    ],
+    "Exchange_Input_Item_List4": [
+      302104017,
+      302204017
+    ],
+    "Exchange_Output_Item_List4": [
+      302204016
+    ],
+    "Exchange_Input_Item_List5": [
+      302105017,
+      302205017
+    ],
+    "Exchange_Output_Item_List5": [
+      302205016
+    ]
+  },
+  {
+    "ExchangeID": 3055,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      303101016,
+      303201016
+    ],
+    "Exchange_Output_Item_List1": [
+      303201017
+    ],
+    "Exchange_Input_Item_List2": [
+      303102016,
+      303202016
+    ],
+    "Exchange_Output_Item_List2": [
+      303202017
+    ],
+    "Exchange_Input_Item_List3": [
+      303103016,
+      303203016
+    ],
+    "Exchange_Output_Item_List3": [
+      303203017
+    ],
+    "Exchange_Input_Item_List4": [
+      303104016,
+      303204016
+    ],
+    "Exchange_Output_Item_List4": [
+      303204017
+    ],
+    "Exchange_Input_Item_List5": [
+      303105016,
+      303205016
+    ],
+    "Exchange_Output_Item_List5": [
+      303205017
+    ]
+  },
+  {
+    "ExchangeID": 3056,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      303101017,
+      303201017
+    ],
+    "Exchange_Output_Item_List1": [
+      303201016
+    ],
+    "Exchange_Input_Item_List2": [
+      303102017,
+      303202017
+    ],
+    "Exchange_Output_Item_List2": [
+      303202016
+    ],
+    "Exchange_Input_Item_List3": [
+      303103017,
+      303203017
+    ],
+    "Exchange_Output_Item_List3": [
+      303203016
+    ],
+    "Exchange_Input_Item_List4": [
+      303104017,
+      303204017
+    ],
+    "Exchange_Output_Item_List4": [
+      303204016
+    ],
+    "Exchange_Input_Item_List5": [
+      303105017,
+      303205017
+    ],
+    "Exchange_Output_Item_List5": [
+      303205016
+    ]
+  },
+  {
+    "ExchangeID": 3057,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      304101016,
+      304201016
+    ],
+    "Exchange_Output_Item_List1": [
+      304201017
+    ],
+    "Exchange_Input_Item_List2": [
+      304102016,
+      304202016
+    ],
+    "Exchange_Output_Item_List2": [
+      304202017
+    ],
+    "Exchange_Input_Item_List3": [
+      304103016,
+      304203016
+    ],
+    "Exchange_Output_Item_List3": [
+      304203017
+    ],
+    "Exchange_Input_Item_List4": [
+      304104016,
+      304204016
+    ],
+    "Exchange_Output_Item_List4": [
+      304204017
+    ],
+    "Exchange_Input_Item_List5": [
+      304105016,
+      304205016
+    ],
+    "Exchange_Output_Item_List5": [
+      304205017
+    ]
+  },
+  {
+    "ExchangeID": 3058,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      304101017,
+      304201017
+    ],
+    "Exchange_Output_Item_List1": [
+      304201016
+    ],
+    "Exchange_Input_Item_List2": [
+      304102017,
+      304202017
+    ],
+    "Exchange_Output_Item_List2": [
+      304202016
+    ],
+    "Exchange_Input_Item_List3": [
+      304103017,
+      304203017
+    ],
+    "Exchange_Output_Item_List3": [
+      304203016
+    ],
+    "Exchange_Input_Item_List4": [
+      304104017,
+      304204017
+    ],
+    "Exchange_Output_Item_List4": [
+      304204016
+    ],
+    "Exchange_Input_Item_List5": [
+      304105017,
+      304205017
+    ],
+    "Exchange_Output_Item_List5": [
+      304205016
+    ]
+  },
+  {
+    "ExchangeID": 3059,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      401101016,
+      401201016
+    ],
+    "Exchange_Output_Item_List1": [
+      401201017
+    ],
+    "Exchange_Input_Item_List2": [
+      401101016,
+      401201016
+    ],
+    "Exchange_Output_Item_List2": [
+      401201017
+    ],
+    "Exchange_Input_Item_List3": [
+      401101016,
+      401201016
+    ],
+    "Exchange_Output_Item_List3": [
+      401201017
+    ],
+    "Exchange_Input_Item_List4": [
+      401101016,
+      401201016
+    ],
+    "Exchange_Output_Item_List4": [
+      401201017
+    ],
+    "Exchange_Input_Item_List5": [
+      401101016,
+      401201016
+    ],
+    "Exchange_Output_Item_List5": [
+      401201017
+    ]
+  },
+  {
+    "ExchangeID": 3060,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      401101017,
+      401201017
+    ],
+    "Exchange_Output_Item_List1": [
+      401201016
+    ],
+    "Exchange_Input_Item_List2": [
+      401101017,
+      401201017
+    ],
+    "Exchange_Output_Item_List2": [
+      401201016
+    ],
+    "Exchange_Input_Item_List3": [
+      401101017,
+      401201017
+    ],
+    "Exchange_Output_Item_List3": [
+      401201016
+    ],
+    "Exchange_Input_Item_List4": [
+      401101017,
+      401201017
+    ],
+    "Exchange_Output_Item_List4": [
+      401201016
+    ],
+    "Exchange_Input_Item_List5": [
+      401101017,
+      401201017
+    ],
+    "Exchange_Output_Item_List5": [
+      401201016
+    ]
+  },
+  {
+    "ExchangeID": 3061,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      402101016,
+      402201016
+    ],
+    "Exchange_Output_Item_List1": [
+      402201017
+    ],
+    "Exchange_Input_Item_List2": [
+      402101016,
+      402201016
+    ],
+    "Exchange_Output_Item_List2": [
+      402201017
+    ],
+    "Exchange_Input_Item_List3": [
+      402101016,
+      402201016
+    ],
+    "Exchange_Output_Item_List3": [
+      402201017
+    ],
+    "Exchange_Input_Item_List4": [
+      402101016,
+      402201016
+    ],
+    "Exchange_Output_Item_List4": [
+      402201017
+    ],
+    "Exchange_Input_Item_List5": [
+      402101016,
+      402201016
+    ],
+    "Exchange_Output_Item_List5": [
+      402201017
+    ]
+  },
+  {
+    "ExchangeID": 3062,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      402101017,
+      402201017
+    ],
+    "Exchange_Output_Item_List1": [
+      402201016
+    ],
+    "Exchange_Input_Item_List2": [
+      402101017,
+      402201017
+    ],
+    "Exchange_Output_Item_List2": [
+      402201016
+    ],
+    "Exchange_Input_Item_List3": [
+      402101017,
+      402201017
+    ],
+    "Exchange_Output_Item_List3": [
+      402201016
+    ],
+    "Exchange_Input_Item_List4": [
+      402101017,
+      402201017
+    ],
+    "Exchange_Output_Item_List4": [
+      402201016
+    ],
+    "Exchange_Input_Item_List5": [
+      402101017,
+      402201017
+    ],
+    "Exchange_Output_Item_List5": [
+      402201016
+    ]
+  },
+  {
+    "ExchangeID": 3063,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      403101016,
+      403201016
+    ],
+    "Exchange_Output_Item_List1": [
+      403201017
+    ],
+    "Exchange_Input_Item_List2": [
+      403101016,
+      403201016
+    ],
+    "Exchange_Output_Item_List2": [
+      403201017
+    ],
+    "Exchange_Input_Item_List3": [
+      403101016,
+      403201016
+    ],
+    "Exchange_Output_Item_List3": [
+      403201017
+    ],
+    "Exchange_Input_Item_List4": [
+      403101016,
+      403201016
+    ],
+    "Exchange_Output_Item_List4": [
+      403201017
+    ],
+    "Exchange_Input_Item_List5": [
+      403101016,
+      403201016
+    ],
+    "Exchange_Output_Item_List5": [
+      403201017
+    ]
+  },
+  {
+    "ExchangeID": 3064,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      403101017,
+      403201017
+    ],
+    "Exchange_Output_Item_List1": [
+      403201016
+    ],
+    "Exchange_Input_Item_List2": [
+      403101017,
+      403201017
+    ],
+    "Exchange_Output_Item_List2": [
+      403201016
+    ],
+    "Exchange_Input_Item_List3": [
+      403101017,
+      403201017
+    ],
+    "Exchange_Output_Item_List3": [
+      403201016
+    ],
+    "Exchange_Input_Item_List4": [
+      403101017,
+      403201017
+    ],
+    "Exchange_Output_Item_List4": [
+      403201016
+    ],
+    "Exchange_Input_Item_List5": [
+      403101017,
+      403201017
+    ],
+    "Exchange_Output_Item_List5": [
+      403201016
+    ]
+  },
+  {
+    "ExchangeID": 3065,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      201101008,
+      201201008
+    ],
+    "Exchange_Output_Item_List1": [
+      201201009
+    ],
+    "Exchange_Input_Item_List2": [
+      201102008,
+      201202008
+    ],
+    "Exchange_Output_Item_List2": [
+      201202009
+    ],
+    "Exchange_Input_Item_List3": [
+      201103008,
+      201203008
+    ],
+    "Exchange_Output_Item_List3": [
+      201203009
+    ],
+    "Exchange_Input_Item_List4": [
+      201104008,
+      201204008
+    ],
+    "Exchange_Output_Item_List4": [
+      201204009
+    ],
+    "Exchange_Input_Item_List5": [
+      201105008,
+      201205008
+    ],
+    "Exchange_Output_Item_List5": [
+      201205009
+    ]
+  },
+  {
+    "ExchangeID": 3066,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      201101009,
+      201201009
+    ],
+    "Exchange_Output_Item_List1": [
+      201201008
+    ],
+    "Exchange_Input_Item_List2": [
+      201102009,
+      201202009
+    ],
+    "Exchange_Output_Item_List2": [
+      201202008
+    ],
+    "Exchange_Input_Item_List3": [
+      201103009,
+      201203009
+    ],
+    "Exchange_Output_Item_List3": [
+      201203008
+    ],
+    "Exchange_Input_Item_List4": [
+      201104009,
+      201204009
+    ],
+    "Exchange_Output_Item_List4": [
+      201204008
+    ],
+    "Exchange_Input_Item_List5": [
+      201105009,
+      201205009
+    ],
+    "Exchange_Output_Item_List5": [
+      201205008
+    ]
+  },
+  {
+    "ExchangeID": 3067,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      201101010,
+      201201010
+    ],
+    "Exchange_Output_Item_List1": [
+      201201011
+    ],
+    "Exchange_Input_Item_List2": [
+      201102010,
+      201202010
+    ],
+    "Exchange_Output_Item_List2": [
+      201202011
+    ],
+    "Exchange_Input_Item_List3": [
+      201103010,
+      201203010
+    ],
+    "Exchange_Output_Item_List3": [
+      201203011
+    ],
+    "Exchange_Input_Item_List4": [
+      201104010,
+      201204010
+    ],
+    "Exchange_Output_Item_List4": [
+      201204011
+    ],
+    "Exchange_Input_Item_List5": [
+      201105010,
+      201205010
+    ],
+    "Exchange_Output_Item_List5": [
+      201205011
+    ]
+  },
+  {
+    "ExchangeID": 3068,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      201101011,
+      201201011
+    ],
+    "Exchange_Output_Item_List1": [
+      201201010
+    ],
+    "Exchange_Input_Item_List2": [
+      201102011,
+      201202011
+    ],
+    "Exchange_Output_Item_List2": [
+      201202010
+    ],
+    "Exchange_Input_Item_List3": [
+      201103011,
+      201203011
+    ],
+    "Exchange_Output_Item_List3": [
+      201203010
+    ],
+    "Exchange_Input_Item_List4": [
+      201104011,
+      201204011
+    ],
+    "Exchange_Output_Item_List4": [
+      201204010
+    ],
+    "Exchange_Input_Item_List5": [
+      201105011,
+      201205011
+    ],
+    "Exchange_Output_Item_List5": [
+      201205010
+    ]
+  },
+  {
+    "ExchangeID": 3069,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      201101012,
+      201201012
+    ],
+    "Exchange_Output_Item_List1": [
+      201201013
+    ],
+    "Exchange_Input_Item_List2": [
+      201102012,
+      201202012
+    ],
+    "Exchange_Output_Item_List2": [
+      201202013
+    ],
+    "Exchange_Input_Item_List3": [
+      201103012,
+      201203012
+    ],
+    "Exchange_Output_Item_List3": [
+      201203013
+    ],
+    "Exchange_Input_Item_List4": [
+      201104012,
+      201204012
+    ],
+    "Exchange_Output_Item_List4": [
+      201204013
+    ],
+    "Exchange_Input_Item_List5": [
+      201105012,
+      201205012
+    ],
+    "Exchange_Output_Item_List5": [
+      201205013
+    ]
+  },
+  {
+    "ExchangeID": 3070,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      201101013,
+      201201013
+    ],
+    "Exchange_Output_Item_List1": [
+      201201012
+    ],
+    "Exchange_Input_Item_List2": [
+      201102013,
+      201202013
+    ],
+    "Exchange_Output_Item_List2": [
+      201202012
+    ],
+    "Exchange_Input_Item_List3": [
+      201103013,
+      201203013
+    ],
+    "Exchange_Output_Item_List3": [
+      201203012
+    ],
+    "Exchange_Input_Item_List4": [
+      201104013,
+      201204013
+    ],
+    "Exchange_Output_Item_List4": [
+      201204012
+    ],
+    "Exchange_Input_Item_List5": [
+      201105013,
+      201205013
+    ],
+    "Exchange_Output_Item_List5": [
+      201205012
+    ]
+  },
+  {
+    "ExchangeID": 3071,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      201101014,
+      201201014
+    ],
+    "Exchange_Output_Item_List1": [
+      201201015
+    ],
+    "Exchange_Input_Item_List2": [
+      201102014,
+      201202014
+    ],
+    "Exchange_Output_Item_List2": [
+      201202015
+    ],
+    "Exchange_Input_Item_List3": [
+      201103014,
+      201203014
+    ],
+    "Exchange_Output_Item_List3": [
+      201203015
+    ],
+    "Exchange_Input_Item_List4": [
+      201104014,
+      201204014
+    ],
+    "Exchange_Output_Item_List4": [
+      201204015
+    ],
+    "Exchange_Input_Item_List5": [
+      201105014,
+      201205014
+    ],
+    "Exchange_Output_Item_List5": [
+      201205015
+    ]
+  },
+  {
+    "ExchangeID": 3072,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      201101015,
+      201201015
+    ],
+    "Exchange_Output_Item_List1": [
+      201201014
+    ],
+    "Exchange_Input_Item_List2": [
+      201102015,
+      201202015
+    ],
+    "Exchange_Output_Item_List2": [
+      201202014
+    ],
+    "Exchange_Input_Item_List3": [
+      201103015,
+      201203015
+    ],
+    "Exchange_Output_Item_List3": [
+      201203014
+    ],
+    "Exchange_Input_Item_List4": [
+      201104015,
+      201204015
+    ],
+    "Exchange_Output_Item_List4": [
+      201204014
+    ],
+    "Exchange_Input_Item_List5": [
+      201105015,
+      201205015
+    ],
+    "Exchange_Output_Item_List5": [
+      201205014
+    ]
+  },
+  {
+    "ExchangeID": 3073,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      404101008,
+      404201008
+    ],
+    "Exchange_Output_Item_List1": [
+      404201009
+    ],
+    "Exchange_Input_Item_List2": [
+      404101008,
+      404201008
+    ],
+    "Exchange_Output_Item_List2": [
+      404201009
+    ],
+    "Exchange_Input_Item_List3": [
+      404101008,
+      404201008
+    ],
+    "Exchange_Output_Item_List3": [
+      404201009
+    ],
+    "Exchange_Input_Item_List4": [
+      404101008,
+      404201008
+    ],
+    "Exchange_Output_Item_List4": [
+      404201009
+    ],
+    "Exchange_Input_Item_List5": [
+      404101008,
+      404201008
+    ],
+    "Exchange_Output_Item_List5": [
+      404201009
+    ]
+  },
+  {
+    "ExchangeID": 3074,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      404101009,
+      404201009
+    ],
+    "Exchange_Output_Item_List1": [
+      404201008
+    ],
+    "Exchange_Input_Item_List2": [
+      404101009,
+      404201009
+    ],
+    "Exchange_Output_Item_List2": [
+      404201008
+    ],
+    "Exchange_Input_Item_List3": [
+      404101009,
+      404201009
+    ],
+    "Exchange_Output_Item_List3": [
+      404201008
+    ],
+    "Exchange_Input_Item_List4": [
+      404101009,
+      404201009
+    ],
+    "Exchange_Output_Item_List4": [
+      404201008
+    ],
+    "Exchange_Input_Item_List5": [
+      404101009,
+      404201009
+    ],
+    "Exchange_Output_Item_List5": [
+      404201008
+    ]
+  },
+  {
+    "ExchangeID": 3075,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      404101010,
+      404201010
+    ],
+    "Exchange_Output_Item_List1": [
+      404201011
+    ],
+    "Exchange_Input_Item_List2": [
+      404101010,
+      404201010
+    ],
+    "Exchange_Output_Item_List2": [
+      404201011
+    ],
+    "Exchange_Input_Item_List3": [
+      404101010,
+      404201010
+    ],
+    "Exchange_Output_Item_List3": [
+      404201011
+    ],
+    "Exchange_Input_Item_List4": [
+      404101010,
+      404201010
+    ],
+    "Exchange_Output_Item_List4": [
+      404201011
+    ],
+    "Exchange_Input_Item_List5": [
+      404101010,
+      404201010
+    ],
+    "Exchange_Output_Item_List5": [
+      404201011
+    ]
+  },
+  {
+    "ExchangeID": 3076,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      404101011,
+      404201011
+    ],
+    "Exchange_Output_Item_List1": [
+      404201010
+    ],
+    "Exchange_Input_Item_List2": [
+      404101011,
+      404201011
+    ],
+    "Exchange_Output_Item_List2": [
+      404201010
+    ],
+    "Exchange_Input_Item_List3": [
+      404101011,
+      404201011
+    ],
+    "Exchange_Output_Item_List3": [
+      404201010
+    ],
+    "Exchange_Input_Item_List4": [
+      404101011,
+      404201011
+    ],
+    "Exchange_Output_Item_List4": [
+      404201010
+    ],
+    "Exchange_Input_Item_List5": [
+      404101011,
+      404201011
+    ],
+    "Exchange_Output_Item_List5": [
+      404201010
+    ]
+  },
+  {
+    "ExchangeID": 3077,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      404101012,
+      404201012
+    ],
+    "Exchange_Output_Item_List1": [
+      404201013
+    ],
+    "Exchange_Input_Item_List2": [
+      404101012,
+      404201012
+    ],
+    "Exchange_Output_Item_List2": [
+      404201013
+    ],
+    "Exchange_Input_Item_List3": [
+      404101012,
+      404201012
+    ],
+    "Exchange_Output_Item_List3": [
+      404201013
+    ],
+    "Exchange_Input_Item_List4": [
+      404101012,
+      404201012
+    ],
+    "Exchange_Output_Item_List4": [
+      404201013
+    ],
+    "Exchange_Input_Item_List5": [
+      404101012,
+      404201012
+    ],
+    "Exchange_Output_Item_List5": [
+      404201013
+    ]
+  },
+  {
+    "ExchangeID": 3078,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      404101013,
+      404201013
+    ],
+    "Exchange_Output_Item_List1": [
+      404201012
+    ],
+    "Exchange_Input_Item_List2": [
+      404101013,
+      404201013
+    ],
+    "Exchange_Output_Item_List2": [
+      404201012
+    ],
+    "Exchange_Input_Item_List3": [
+      404101013,
+      404201013
+    ],
+    "Exchange_Output_Item_List3": [
+      404201012
+    ],
+    "Exchange_Input_Item_List4": [
+      404101013,
+      404201013
+    ],
+    "Exchange_Output_Item_List4": [
+      404201012
+    ],
+    "Exchange_Input_Item_List5": [
+      404101013,
+      404201013
+    ],
+    "Exchange_Output_Item_List5": [
+      404201012
+    ]
+  },
+  {
+    "ExchangeID": 3079,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      404101014,
+      404201014
+    ],
+    "Exchange_Output_Item_List1": [
+      404201015
+    ],
+    "Exchange_Input_Item_List2": [
+      404101014,
+      404201014
+    ],
+    "Exchange_Output_Item_List2": [
+      404201015
+    ],
+    "Exchange_Input_Item_List3": [
+      404101014,
+      404201014
+    ],
+    "Exchange_Output_Item_List3": [
+      404201015
+    ],
+    "Exchange_Input_Item_List4": [
+      404101014,
+      404201014
+    ],
+    "Exchange_Output_Item_List4": [
+      404201015
+    ],
+    "Exchange_Input_Item_List5": [
+      404101014,
+      404201014
+    ],
+    "Exchange_Output_Item_List5": [
+      404201015
+    ]
+  },
+  {
+    "ExchangeID": 3080,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 3,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200017,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 990,
+    "Exchange_Input_Item_List1": [
+      404101015,
+      404201015
+    ],
+    "Exchange_Output_Item_List1": [
+      404201014
+    ],
+    "Exchange_Input_Item_List2": [
+      404101015,
+      404201015
+    ],
+    "Exchange_Output_Item_List2": [
+      404201014
+    ],
+    "Exchange_Input_Item_List3": [
+      404101015,
+      404201015
+    ],
+    "Exchange_Output_Item_List3": [
+      404201014
+    ],
+    "Exchange_Input_Item_List4": [
+      404101015,
+      404201015
+    ],
+    "Exchange_Output_Item_List4": [
+      404201014
+    ],
+    "Exchange_Input_Item_List5": [
+      404101015,
+      404201015
+    ],
+    "Exchange_Output_Item_List5": [
+      404201014
+    ]
+  },
+  {
+    "ExchangeID": 4001,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      200101018,
+      200201018
+    ],
+    "Exchange_Output_Item_List1": [
+      200201019
+    ],
+    "Exchange_Input_Item_List2": [
+      200102018,
+      200202018
+    ],
+    "Exchange_Output_Item_List2": [
+      200202019
+    ],
+    "Exchange_Input_Item_List3": [
+      200103018,
+      200203018
+    ],
+    "Exchange_Output_Item_List3": [
+      200203019
+    ],
+    "Exchange_Input_Item_List4": [
+      200104018,
+      200204018
+    ],
+    "Exchange_Output_Item_List4": [
+      200204019
+    ],
+    "Exchange_Input_Item_List5": [
+      200105018,
+      200205018
+    ],
+    "Exchange_Output_Item_List5": [
+      200205019
+    ]
+  },
+  {
+    "ExchangeID": 4002,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      200101019,
+      200201019
+    ],
+    "Exchange_Output_Item_List1": [
+      200201018
+    ],
+    "Exchange_Input_Item_List2": [
+      200102019,
+      200202019
+    ],
+    "Exchange_Output_Item_List2": [
+      200202018
+    ],
+    "Exchange_Input_Item_List3": [
+      200103019,
+      200203019
+    ],
+    "Exchange_Output_Item_List3": [
+      200203018
+    ],
+    "Exchange_Input_Item_List4": [
+      200104019,
+      200204019
+    ],
+    "Exchange_Output_Item_List4": [
+      200204018
+    ],
+    "Exchange_Input_Item_List5": [
+      200105019,
+      200205019
+    ],
+    "Exchange_Output_Item_List5": [
+      200205018
+    ]
+  },
+  {
+    "ExchangeID": 4003,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      301101018,
+      301201018
+    ],
+    "Exchange_Output_Item_List1": [
+      301201019
+    ],
+    "Exchange_Input_Item_List2": [
+      301102018,
+      301202018
+    ],
+    "Exchange_Output_Item_List2": [
+      301202019
+    ],
+    "Exchange_Input_Item_List3": [
+      301103018,
+      301203018
+    ],
+    "Exchange_Output_Item_List3": [
+      301203019
+    ],
+    "Exchange_Input_Item_List4": [
+      301104018,
+      301204018
+    ],
+    "Exchange_Output_Item_List4": [
+      301204019
+    ],
+    "Exchange_Input_Item_List5": [
+      301105018,
+      301205018
+    ],
+    "Exchange_Output_Item_List5": [
+      301205019
+    ]
+  },
+  {
+    "ExchangeID": 4004,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      301101019,
+      301201019
+    ],
+    "Exchange_Output_Item_List1": [
+      301201018
+    ],
+    "Exchange_Input_Item_List2": [
+      301102019,
+      301202019
+    ],
+    "Exchange_Output_Item_List2": [
+      301202018
+    ],
+    "Exchange_Input_Item_List3": [
+      301103019,
+      301203019
+    ],
+    "Exchange_Output_Item_List3": [
+      301203018
+    ],
+    "Exchange_Input_Item_List4": [
+      301104019,
+      301204019
+    ],
+    "Exchange_Output_Item_List4": [
+      301204018
+    ],
+    "Exchange_Input_Item_List5": [
+      301105019,
+      301205019
+    ],
+    "Exchange_Output_Item_List5": [
+      301205018
+    ]
+  },
+  {
+    "ExchangeID": 4005,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      302101018,
+      302201018
+    ],
+    "Exchange_Output_Item_List1": [
+      302201019
+    ],
+    "Exchange_Input_Item_List2": [
+      302102018,
+      302202018
+    ],
+    "Exchange_Output_Item_List2": [
+      302202019
+    ],
+    "Exchange_Input_Item_List3": [
+      302103018,
+      302203018
+    ],
+    "Exchange_Output_Item_List3": [
+      302203019
+    ],
+    "Exchange_Input_Item_List4": [
+      302104018,
+      302204018
+    ],
+    "Exchange_Output_Item_List4": [
+      302204019
+    ],
+    "Exchange_Input_Item_List5": [
+      302105018,
+      302205018
+    ],
+    "Exchange_Output_Item_List5": [
+      302205019
+    ]
+  },
+  {
+    "ExchangeID": 4006,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      302101019,
+      302201019
+    ],
+    "Exchange_Output_Item_List1": [
+      302201018
+    ],
+    "Exchange_Input_Item_List2": [
+      302102019,
+      302202019
+    ],
+    "Exchange_Output_Item_List2": [
+      302202018
+    ],
+    "Exchange_Input_Item_List3": [
+      302103019,
+      302203019
+    ],
+    "Exchange_Output_Item_List3": [
+      302203018
+    ],
+    "Exchange_Input_Item_List4": [
+      302104019,
+      302204019
+    ],
+    "Exchange_Output_Item_List4": [
+      302204018
+    ],
+    "Exchange_Input_Item_List5": [
+      302105019,
+      302205019
+    ],
+    "Exchange_Output_Item_List5": [
+      302205018
+    ]
+  },
+  {
+    "ExchangeID": 4007,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      303101018,
+      303201018
+    ],
+    "Exchange_Output_Item_List1": [
+      303201019
+    ],
+    "Exchange_Input_Item_List2": [
+      303102018,
+      303202018
+    ],
+    "Exchange_Output_Item_List2": [
+      303202019
+    ],
+    "Exchange_Input_Item_List3": [
+      303103018,
+      303203018
+    ],
+    "Exchange_Output_Item_List3": [
+      303203019
+    ],
+    "Exchange_Input_Item_List4": [
+      303104018,
+      303204018
+    ],
+    "Exchange_Output_Item_List4": [
+      303204019
+    ],
+    "Exchange_Input_Item_List5": [
+      303105018,
+      303205018
+    ],
+    "Exchange_Output_Item_List5": [
+      303205019
+    ]
+  },
+  {
+    "ExchangeID": 4008,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      303101019,
+      303201019
+    ],
+    "Exchange_Output_Item_List1": [
+      303201018
+    ],
+    "Exchange_Input_Item_List2": [
+      303102019,
+      303202019
+    ],
+    "Exchange_Output_Item_List2": [
+      303202018
+    ],
+    "Exchange_Input_Item_List3": [
+      303103019,
+      303203019
+    ],
+    "Exchange_Output_Item_List3": [
+      303203018
+    ],
+    "Exchange_Input_Item_List4": [
+      303104019,
+      303204019
+    ],
+    "Exchange_Output_Item_List4": [
+      303204018
+    ],
+    "Exchange_Input_Item_List5": [
+      303105019,
+      303205019
+    ],
+    "Exchange_Output_Item_List5": [
+      303205018
+    ]
+  },
+  {
+    "ExchangeID": 4009,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      304101018,
+      304201018
+    ],
+    "Exchange_Output_Item_List1": [
+      304201019
+    ],
+    "Exchange_Input_Item_List2": [
+      304102018,
+      304202018
+    ],
+    "Exchange_Output_Item_List2": [
+      304202019
+    ],
+    "Exchange_Input_Item_List3": [
+      304103018,
+      304203018
+    ],
+    "Exchange_Output_Item_List3": [
+      304203019
+    ],
+    "Exchange_Input_Item_List4": [
+      304104018,
+      304204018
+    ],
+    "Exchange_Output_Item_List4": [
+      304204019
+    ],
+    "Exchange_Input_Item_List5": [
+      304105018,
+      304205018
+    ],
+    "Exchange_Output_Item_List5": [
+      304205019
+    ]
+  },
+  {
+    "ExchangeID": 4010,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      304101019,
+      304201019
+    ],
+    "Exchange_Output_Item_List1": [
+      304201018
+    ],
+    "Exchange_Input_Item_List2": [
+      304102019,
+      304202019
+    ],
+    "Exchange_Output_Item_List2": [
+      304202018
+    ],
+    "Exchange_Input_Item_List3": [
+      304103019,
+      304203019
+    ],
+    "Exchange_Output_Item_List3": [
+      304203018
+    ],
+    "Exchange_Input_Item_List4": [
+      304104019,
+      304204019
+    ],
+    "Exchange_Output_Item_List4": [
+      304204018
+    ],
+    "Exchange_Input_Item_List5": [
+      304105019,
+      304205019
+    ],
+    "Exchange_Output_Item_List5": [
+      304205018
+    ]
+  },
+  {
+    "ExchangeID": 4011,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      401101018,
+      401201018
+    ],
+    "Exchange_Output_Item_List1": [
+      401201019
+    ],
+    "Exchange_Input_Item_List2": [
+      401101018,
+      401201018
+    ],
+    "Exchange_Output_Item_List2": [
+      401201019
+    ],
+    "Exchange_Input_Item_List3": [
+      401101018,
+      401201018
+    ],
+    "Exchange_Output_Item_List3": [
+      401201019
+    ],
+    "Exchange_Input_Item_List4": [
+      401101018,
+      401201018
+    ],
+    "Exchange_Output_Item_List4": [
+      401201019
+    ],
+    "Exchange_Input_Item_List5": [
+      401101018,
+      401201018
+    ],
+    "Exchange_Output_Item_List5": [
+      401201019
+    ]
+  },
+  {
+    "ExchangeID": 4012,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      401101019,
+      401201019
+    ],
+    "Exchange_Output_Item_List1": [
+      401201018
+    ],
+    "Exchange_Input_Item_List2": [
+      401101019,
+      401201019
+    ],
+    "Exchange_Output_Item_List2": [
+      401201018
+    ],
+    "Exchange_Input_Item_List3": [
+      401101019,
+      401201019
+    ],
+    "Exchange_Output_Item_List3": [
+      401201018
+    ],
+    "Exchange_Input_Item_List4": [
+      401101019,
+      401201019
+    ],
+    "Exchange_Output_Item_List4": [
+      401201018
+    ],
+    "Exchange_Input_Item_List5": [
+      401101019,
+      401201019
+    ],
+    "Exchange_Output_Item_List5": [
+      401201018
+    ]
+  },
+  {
+    "ExchangeID": 4013,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      402101018,
+      402201018
+    ],
+    "Exchange_Output_Item_List1": [
+      402201019
+    ],
+    "Exchange_Input_Item_List2": [
+      402101018,
+      402201018
+    ],
+    "Exchange_Output_Item_List2": [
+      402201019
+    ],
+    "Exchange_Input_Item_List3": [
+      402101018,
+      402201018
+    ],
+    "Exchange_Output_Item_List3": [
+      402201019
+    ],
+    "Exchange_Input_Item_List4": [
+      402101018,
+      402201018
+    ],
+    "Exchange_Output_Item_List4": [
+      402201019
+    ],
+    "Exchange_Input_Item_List5": [
+      402101018,
+      402201018
+    ],
+    "Exchange_Output_Item_List5": [
+      402201019
+    ]
+  },
+  {
+    "ExchangeID": 4014,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      402101019,
+      402201019
+    ],
+    "Exchange_Output_Item_List1": [
+      402201018
+    ],
+    "Exchange_Input_Item_List2": [
+      402101019,
+      402201019
+    ],
+    "Exchange_Output_Item_List2": [
+      402201018
+    ],
+    "Exchange_Input_Item_List3": [
+      402101019,
+      402201019
+    ],
+    "Exchange_Output_Item_List3": [
+      402201018
+    ],
+    "Exchange_Input_Item_List4": [
+      402101019,
+      402201019
+    ],
+    "Exchange_Output_Item_List4": [
+      402201018
+    ],
+    "Exchange_Input_Item_List5": [
+      402101019,
+      402201019
+    ],
+    "Exchange_Output_Item_List5": [
+      402201018
+    ]
+  },
+  {
+    "ExchangeID": 4015,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      403101018,
+      403201018
+    ],
+    "Exchange_Output_Item_List1": [
+      403201019
+    ],
+    "Exchange_Input_Item_List2": [
+      403101018,
+      403201018
+    ],
+    "Exchange_Output_Item_List2": [
+      403201019
+    ],
+    "Exchange_Input_Item_List3": [
+      403101018,
+      403201018
+    ],
+    "Exchange_Output_Item_List3": [
+      403201019
+    ],
+    "Exchange_Input_Item_List4": [
+      403101018,
+      403201018
+    ],
+    "Exchange_Output_Item_List4": [
+      403201019
+    ],
+    "Exchange_Input_Item_List5": [
+      403101018,
+      403201018
+    ],
+    "Exchange_Output_Item_List5": [
+      403201019
+    ]
+  },
+  {
+    "ExchangeID": 4016,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      403101019,
+      403201019
+    ],
+    "Exchange_Output_Item_List1": [
+      403201018
+    ],
+    "Exchange_Input_Item_List2": [
+      403101019,
+      403201019
+    ],
+    "Exchange_Output_Item_List2": [
+      403201018
+    ],
+    "Exchange_Input_Item_List3": [
+      403101019,
+      403201019
+    ],
+    "Exchange_Output_Item_List3": [
+      403201018
+    ],
+    "Exchange_Input_Item_List4": [
+      403101019,
+      403201019
+    ],
+    "Exchange_Output_Item_List4": [
+      403201018
+    ],
+    "Exchange_Input_Item_List5": [
+      403101019,
+      403201019
+    ],
+    "Exchange_Output_Item_List5": [
+      403201018
+    ]
+  },
+  {
+    "ExchangeID": 4017,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      200101020,
+      200201020
+    ],
+    "Exchange_Output_Item_List1": [
+      200201021
+    ],
+    "Exchange_Input_Item_List2": [
+      200102020,
+      200202020
+    ],
+    "Exchange_Output_Item_List2": [
+      200202021
+    ],
+    "Exchange_Input_Item_List3": [
+      200103020,
+      200203020
+    ],
+    "Exchange_Output_Item_List3": [
+      200203021
+    ],
+    "Exchange_Input_Item_List4": [
+      200104020,
+      200204020
+    ],
+    "Exchange_Output_Item_List4": [
+      200204021
+    ],
+    "Exchange_Input_Item_List5": [
+      200105020,
+      200205020
+    ],
+    "Exchange_Output_Item_List5": [
+      200205021
+    ]
+  },
+  {
+    "ExchangeID": 4018,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      200101021,
+      200201021
+    ],
+    "Exchange_Output_Item_List1": [
+      200201020
+    ],
+    "Exchange_Input_Item_List2": [
+      200102021,
+      200202021
+    ],
+    "Exchange_Output_Item_List2": [
+      200202020
+    ],
+    "Exchange_Input_Item_List3": [
+      200103021,
+      200203021
+    ],
+    "Exchange_Output_Item_List3": [
+      200203020
+    ],
+    "Exchange_Input_Item_List4": [
+      200104021,
+      200204021
+    ],
+    "Exchange_Output_Item_List4": [
+      200204020
+    ],
+    "Exchange_Input_Item_List5": [
+      200105021,
+      200205021
+    ],
+    "Exchange_Output_Item_List5": [
+      200205020
+    ]
+  },
+  {
+    "ExchangeID": 4019,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      301101020,
+      301201020
+    ],
+    "Exchange_Output_Item_List1": [
+      301201021
+    ],
+    "Exchange_Input_Item_List2": [
+      301102020,
+      301202020
+    ],
+    "Exchange_Output_Item_List2": [
+      301202021
+    ],
+    "Exchange_Input_Item_List3": [
+      301103020,
+      301203020
+    ],
+    "Exchange_Output_Item_List3": [
+      301203021
+    ],
+    "Exchange_Input_Item_List4": [
+      301104020,
+      301204020
+    ],
+    "Exchange_Output_Item_List4": [
+      301204021
+    ],
+    "Exchange_Input_Item_List5": [
+      301105020,
+      301205020
+    ],
+    "Exchange_Output_Item_List5": [
+      301205021
+    ]
+  },
+  {
+    "ExchangeID": 4020,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      301101021,
+      301201021
+    ],
+    "Exchange_Output_Item_List1": [
+      301201020
+    ],
+    "Exchange_Input_Item_List2": [
+      301102021,
+      301202021
+    ],
+    "Exchange_Output_Item_List2": [
+      301202020
+    ],
+    "Exchange_Input_Item_List3": [
+      301103021,
+      301203021
+    ],
+    "Exchange_Output_Item_List3": [
+      301203020
+    ],
+    "Exchange_Input_Item_List4": [
+      301104021,
+      301204021
+    ],
+    "Exchange_Output_Item_List4": [
+      301204020
+    ],
+    "Exchange_Input_Item_List5": [
+      301105021,
+      301205021
+    ],
+    "Exchange_Output_Item_List5": [
+      301205020
+    ]
+  },
+  {
+    "ExchangeID": 4021,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      302101020,
+      302201020
+    ],
+    "Exchange_Output_Item_List1": [
+      302201021
+    ],
+    "Exchange_Input_Item_List2": [
+      302102020,
+      302202020
+    ],
+    "Exchange_Output_Item_List2": [
+      302202021
+    ],
+    "Exchange_Input_Item_List3": [
+      302103020,
+      302203020
+    ],
+    "Exchange_Output_Item_List3": [
+      302203021
+    ],
+    "Exchange_Input_Item_List4": [
+      302104020,
+      302204020
+    ],
+    "Exchange_Output_Item_List4": [
+      302204021
+    ],
+    "Exchange_Input_Item_List5": [
+      302105020,
+      302205020
+    ],
+    "Exchange_Output_Item_List5": [
+      302205021
+    ]
+  },
+  {
+    "ExchangeID": 4022,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      302101021,
+      302201021
+    ],
+    "Exchange_Output_Item_List1": [
+      302201020
+    ],
+    "Exchange_Input_Item_List2": [
+      302102021,
+      302202021
+    ],
+    "Exchange_Output_Item_List2": [
+      302202020
+    ],
+    "Exchange_Input_Item_List3": [
+      302103021,
+      302203021
+    ],
+    "Exchange_Output_Item_List3": [
+      302203020
+    ],
+    "Exchange_Input_Item_List4": [
+      302104021,
+      302204021
+    ],
+    "Exchange_Output_Item_List4": [
+      302204020
+    ],
+    "Exchange_Input_Item_List5": [
+      302105021,
+      302205021
+    ],
+    "Exchange_Output_Item_List5": [
+      302205020
+    ]
+  },
+  {
+    "ExchangeID": 4023,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      303101020,
+      303201020
+    ],
+    "Exchange_Output_Item_List1": [
+      303201021
+    ],
+    "Exchange_Input_Item_List2": [
+      303102020,
+      303202020
+    ],
+    "Exchange_Output_Item_List2": [
+      303202021
+    ],
+    "Exchange_Input_Item_List3": [
+      303103020,
+      303203020
+    ],
+    "Exchange_Output_Item_List3": [
+      303203021
+    ],
+    "Exchange_Input_Item_List4": [
+      303104020,
+      303204020
+    ],
+    "Exchange_Output_Item_List4": [
+      303204021
+    ],
+    "Exchange_Input_Item_List5": [
+      303105020,
+      303205020
+    ],
+    "Exchange_Output_Item_List5": [
+      303205021
+    ]
+  },
+  {
+    "ExchangeID": 4024,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      303101021,
+      303201021
+    ],
+    "Exchange_Output_Item_List1": [
+      303201020
+    ],
+    "Exchange_Input_Item_List2": [
+      303102021,
+      303202021
+    ],
+    "Exchange_Output_Item_List2": [
+      303202020
+    ],
+    "Exchange_Input_Item_List3": [
+      303103021,
+      303203021
+    ],
+    "Exchange_Output_Item_List3": [
+      303203020
+    ],
+    "Exchange_Input_Item_List4": [
+      303104021,
+      303204021
+    ],
+    "Exchange_Output_Item_List4": [
+      303204020
+    ],
+    "Exchange_Input_Item_List5": [
+      303105021,
+      303205021
+    ],
+    "Exchange_Output_Item_List5": [
+      303205020
+    ]
+  },
+  {
+    "ExchangeID": 4025,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      304101020,
+      304201020
+    ],
+    "Exchange_Output_Item_List1": [
+      304201021
+    ],
+    "Exchange_Input_Item_List2": [
+      304102020,
+      304202020
+    ],
+    "Exchange_Output_Item_List2": [
+      304202021
+    ],
+    "Exchange_Input_Item_List3": [
+      304103020,
+      304203020
+    ],
+    "Exchange_Output_Item_List3": [
+      304203021
+    ],
+    "Exchange_Input_Item_List4": [
+      304104020,
+      304204020
+    ],
+    "Exchange_Output_Item_List4": [
+      304204021
+    ],
+    "Exchange_Input_Item_List5": [
+      304105020,
+      304205020
+    ],
+    "Exchange_Output_Item_List5": [
+      304205021
+    ]
+  },
+  {
+    "ExchangeID": 4026,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      304101021,
+      304201021
+    ],
+    "Exchange_Output_Item_List1": [
+      304201020
+    ],
+    "Exchange_Input_Item_List2": [
+      304102021,
+      304202021
+    ],
+    "Exchange_Output_Item_List2": [
+      304202020
+    ],
+    "Exchange_Input_Item_List3": [
+      304103021,
+      304203021
+    ],
+    "Exchange_Output_Item_List3": [
+      304203020
+    ],
+    "Exchange_Input_Item_List4": [
+      304104021,
+      304204021
+    ],
+    "Exchange_Output_Item_List4": [
+      304204020
+    ],
+    "Exchange_Input_Item_List5": [
+      304105021,
+      304205021
+    ],
+    "Exchange_Output_Item_List5": [
+      304205020
+    ]
+  },
+  {
+    "ExchangeID": 4027,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      401101020,
+      401201020
+    ],
+    "Exchange_Output_Item_List1": [
+      401201021
+    ],
+    "Exchange_Input_Item_List2": [
+      401101020,
+      401201020
+    ],
+    "Exchange_Output_Item_List2": [
+      401201021
+    ],
+    "Exchange_Input_Item_List3": [
+      401101020,
+      401201020
+    ],
+    "Exchange_Output_Item_List3": [
+      401201021
+    ],
+    "Exchange_Input_Item_List4": [
+      401101020,
+      401201020
+    ],
+    "Exchange_Output_Item_List4": [
+      401201021
+    ],
+    "Exchange_Input_Item_List5": [
+      401101020,
+      401201020
+    ],
+    "Exchange_Output_Item_List5": [
+      401201021
+    ]
+  },
+  {
+    "ExchangeID": 4028,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      401101021,
+      401201021
+    ],
+    "Exchange_Output_Item_List1": [
+      401201020
+    ],
+    "Exchange_Input_Item_List2": [
+      401101021,
+      401201021
+    ],
+    "Exchange_Output_Item_List2": [
+      401201020
+    ],
+    "Exchange_Input_Item_List3": [
+      401101021,
+      401201021
+    ],
+    "Exchange_Output_Item_List3": [
+      401201020
+    ],
+    "Exchange_Input_Item_List4": [
+      401101021,
+      401201021
+    ],
+    "Exchange_Output_Item_List4": [
+      401201020
+    ],
+    "Exchange_Input_Item_List5": [
+      401101021,
+      401201021
+    ],
+    "Exchange_Output_Item_List5": [
+      401201020
+    ]
+  },
+  {
+    "ExchangeID": 4029,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      402101020,
+      402201020
+    ],
+    "Exchange_Output_Item_List1": [
+      402201021
+    ],
+    "Exchange_Input_Item_List2": [
+      402101020,
+      402201020
+    ],
+    "Exchange_Output_Item_List2": [
+      402201021
+    ],
+    "Exchange_Input_Item_List3": [
+      402101020,
+      402201020
+    ],
+    "Exchange_Output_Item_List3": [
+      402201021
+    ],
+    "Exchange_Input_Item_List4": [
+      402101020,
+      402201020
+    ],
+    "Exchange_Output_Item_List4": [
+      402201021
+    ],
+    "Exchange_Input_Item_List5": [
+      402101020,
+      402201020
+    ],
+    "Exchange_Output_Item_List5": [
+      402201021
+    ]
+  },
+  {
+    "ExchangeID": 4030,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      402101021,
+      402201021
+    ],
+    "Exchange_Output_Item_List1": [
+      402201020
+    ],
+    "Exchange_Input_Item_List2": [
+      402101021,
+      402201021
+    ],
+    "Exchange_Output_Item_List2": [
+      402201020
+    ],
+    "Exchange_Input_Item_List3": [
+      402101021,
+      402201021
+    ],
+    "Exchange_Output_Item_List3": [
+      402201020
+    ],
+    "Exchange_Input_Item_List4": [
+      402101021,
+      402201021
+    ],
+    "Exchange_Output_Item_List4": [
+      402201020
+    ],
+    "Exchange_Input_Item_List5": [
+      402101021,
+      402201021
+    ],
+    "Exchange_Output_Item_List5": [
+      402201020
+    ]
+  },
+  {
+    "ExchangeID": 4031,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      403101020,
+      403201020
+    ],
+    "Exchange_Output_Item_List1": [
+      403201021
+    ],
+    "Exchange_Input_Item_List2": [
+      403101020,
+      403201020
+    ],
+    "Exchange_Output_Item_List2": [
+      403201021
+    ],
+    "Exchange_Input_Item_List3": [
+      403101020,
+      403201020
+    ],
+    "Exchange_Output_Item_List3": [
+      403201021
+    ],
+    "Exchange_Input_Item_List4": [
+      403101020,
+      403201020
+    ],
+    "Exchange_Output_Item_List4": [
+      403201021
+    ],
+    "Exchange_Input_Item_List5": [
+      403101020,
+      403201020
+    ],
+    "Exchange_Output_Item_List5": [
+      403201021
+    ]
+  },
+  {
+    "ExchangeID": 4032,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      403101021,
+      403201021
+    ],
+    "Exchange_Output_Item_List1": [
+      403201020
+    ],
+    "Exchange_Input_Item_List2": [
+      403101021,
+      403201021
+    ],
+    "Exchange_Output_Item_List2": [
+      403201020
+    ],
+    "Exchange_Input_Item_List3": [
+      403101021,
+      403201021
+    ],
+    "Exchange_Output_Item_List3": [
+      403201020
+    ],
+    "Exchange_Input_Item_List4": [
+      403101021,
+      403201021
+    ],
+    "Exchange_Output_Item_List4": [
+      403201020
+    ],
+    "Exchange_Input_Item_List5": [
+      403101021,
+      403201021
+    ],
+    "Exchange_Output_Item_List5": [
+      403201020
+    ]
+  },
+  {
+    "ExchangeID": 4033,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      200101022,
+      200201022
+    ],
+    "Exchange_Output_Item_List1": [
+      200201023
+    ],
+    "Exchange_Input_Item_List2": [
+      200102022,
+      200202022
+    ],
+    "Exchange_Output_Item_List2": [
+      200202023
+    ],
+    "Exchange_Input_Item_List3": [
+      200103022,
+      200203022
+    ],
+    "Exchange_Output_Item_List3": [
+      200203023
+    ],
+    "Exchange_Input_Item_List4": [
+      200104022,
+      200204022
+    ],
+    "Exchange_Output_Item_List4": [
+      200204023
+    ],
+    "Exchange_Input_Item_List5": [
+      200105022,
+      200205022
+    ],
+    "Exchange_Output_Item_List5": [
+      200205023
+    ]
+  },
+  {
+    "ExchangeID": 4034,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      200101023,
+      200201023
+    ],
+    "Exchange_Output_Item_List1": [
+      200201022
+    ],
+    "Exchange_Input_Item_List2": [
+      200102023,
+      200202023
+    ],
+    "Exchange_Output_Item_List2": [
+      200202022
+    ],
+    "Exchange_Input_Item_List3": [
+      200103023,
+      200203023
+    ],
+    "Exchange_Output_Item_List3": [
+      200203022
+    ],
+    "Exchange_Input_Item_List4": [
+      200104023,
+      200204023
+    ],
+    "Exchange_Output_Item_List4": [
+      200204022
+    ],
+    "Exchange_Input_Item_List5": [
+      200105023,
+      200205023
+    ],
+    "Exchange_Output_Item_List5": [
+      200205022
+    ]
+  },
+  {
+    "ExchangeID": 4035,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      301101022,
+      301201022
+    ],
+    "Exchange_Output_Item_List1": [
+      301201023
+    ],
+    "Exchange_Input_Item_List2": [
+      301102022,
+      301202022
+    ],
+    "Exchange_Output_Item_List2": [
+      301202023
+    ],
+    "Exchange_Input_Item_List3": [
+      301103022,
+      301203022
+    ],
+    "Exchange_Output_Item_List3": [
+      301203023
+    ],
+    "Exchange_Input_Item_List4": [
+      301104022,
+      301204022
+    ],
+    "Exchange_Output_Item_List4": [
+      301204023
+    ],
+    "Exchange_Input_Item_List5": [
+      301105022,
+      301205022
+    ],
+    "Exchange_Output_Item_List5": [
+      301205023
+    ]
+  },
+  {
+    "ExchangeID": 4036,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      301101023,
+      301201023
+    ],
+    "Exchange_Output_Item_List1": [
+      301201022
+    ],
+    "Exchange_Input_Item_List2": [
+      301102023,
+      301202023
+    ],
+    "Exchange_Output_Item_List2": [
+      301202022
+    ],
+    "Exchange_Input_Item_List3": [
+      301103023,
+      301203023
+    ],
+    "Exchange_Output_Item_List3": [
+      301203022
+    ],
+    "Exchange_Input_Item_List4": [
+      301104023,
+      301204023
+    ],
+    "Exchange_Output_Item_List4": [
+      301204022
+    ],
+    "Exchange_Input_Item_List5": [
+      301105023,
+      301205023
+    ],
+    "Exchange_Output_Item_List5": [
+      301205022
+    ]
+  },
+  {
+    "ExchangeID": 4037,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      302101022,
+      302201022
+    ],
+    "Exchange_Output_Item_List1": [
+      302201023
+    ],
+    "Exchange_Input_Item_List2": [
+      302102022,
+      302202022
+    ],
+    "Exchange_Output_Item_List2": [
+      302202023
+    ],
+    "Exchange_Input_Item_List3": [
+      302103022,
+      302203022
+    ],
+    "Exchange_Output_Item_List3": [
+      302203023
+    ],
+    "Exchange_Input_Item_List4": [
+      302104022,
+      302204022
+    ],
+    "Exchange_Output_Item_List4": [
+      302204023
+    ],
+    "Exchange_Input_Item_List5": [
+      302105022,
+      302205022
+    ],
+    "Exchange_Output_Item_List5": [
+      302205023
+    ]
+  },
+  {
+    "ExchangeID": 4038,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      302101023,
+      302201023
+    ],
+    "Exchange_Output_Item_List1": [
+      302201022
+    ],
+    "Exchange_Input_Item_List2": [
+      302102023,
+      302202023
+    ],
+    "Exchange_Output_Item_List2": [
+      302202022
+    ],
+    "Exchange_Input_Item_List3": [
+      302103023,
+      302203023
+    ],
+    "Exchange_Output_Item_List3": [
+      302203022
+    ],
+    "Exchange_Input_Item_List4": [
+      302104023,
+      302204023
+    ],
+    "Exchange_Output_Item_List4": [
+      302204022
+    ],
+    "Exchange_Input_Item_List5": [
+      302105023,
+      302205023
+    ],
+    "Exchange_Output_Item_List5": [
+      302205022
+    ]
+  },
+  {
+    "ExchangeID": 4039,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      303101022,
+      303201022
+    ],
+    "Exchange_Output_Item_List1": [
+      303201023
+    ],
+    "Exchange_Input_Item_List2": [
+      303102022,
+      303202022
+    ],
+    "Exchange_Output_Item_List2": [
+      303202023
+    ],
+    "Exchange_Input_Item_List3": [
+      303103022,
+      303203022
+    ],
+    "Exchange_Output_Item_List3": [
+      303203023
+    ],
+    "Exchange_Input_Item_List4": [
+      303104022,
+      303204022
+    ],
+    "Exchange_Output_Item_List4": [
+      303204023
+    ],
+    "Exchange_Input_Item_List5": [
+      303105022,
+      303205022
+    ],
+    "Exchange_Output_Item_List5": [
+      303205023
+    ]
+  },
+  {
+    "ExchangeID": 4040,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      303101023,
+      303201023
+    ],
+    "Exchange_Output_Item_List1": [
+      303201022
+    ],
+    "Exchange_Input_Item_List2": [
+      303102023,
+      303202023
+    ],
+    "Exchange_Output_Item_List2": [
+      303202022
+    ],
+    "Exchange_Input_Item_List3": [
+      303103023,
+      303203023
+    ],
+    "Exchange_Output_Item_List3": [
+      303203022
+    ],
+    "Exchange_Input_Item_List4": [
+      303104023,
+      303204023
+    ],
+    "Exchange_Output_Item_List4": [
+      303204022
+    ],
+    "Exchange_Input_Item_List5": [
+      303105023,
+      303205023
+    ],
+    "Exchange_Output_Item_List5": [
+      303205022
+    ]
+  },
+  {
+    "ExchangeID": 4041,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      304101022,
+      304201022
+    ],
+    "Exchange_Output_Item_List1": [
+      304201023
+    ],
+    "Exchange_Input_Item_List2": [
+      304102022,
+      304202022
+    ],
+    "Exchange_Output_Item_List2": [
+      304202023
+    ],
+    "Exchange_Input_Item_List3": [
+      304103022,
+      304203022
+    ],
+    "Exchange_Output_Item_List3": [
+      304203023
+    ],
+    "Exchange_Input_Item_List4": [
+      304104022,
+      304204022
+    ],
+    "Exchange_Output_Item_List4": [
+      304204023
+    ],
+    "Exchange_Input_Item_List5": [
+      304105022,
+      304205022
+    ],
+    "Exchange_Output_Item_List5": [
+      304205023
+    ]
+  },
+  {
+    "ExchangeID": 4042,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      304101023,
+      304201023
+    ],
+    "Exchange_Output_Item_List1": [
+      304201022
+    ],
+    "Exchange_Input_Item_List2": [
+      304102023,
+      304202023
+    ],
+    "Exchange_Output_Item_List2": [
+      304202022
+    ],
+    "Exchange_Input_Item_List3": [
+      304103023,
+      304203023
+    ],
+    "Exchange_Output_Item_List3": [
+      304203022
+    ],
+    "Exchange_Input_Item_List4": [
+      304104023,
+      304204023
+    ],
+    "Exchange_Output_Item_List4": [
+      304204022
+    ],
+    "Exchange_Input_Item_List5": [
+      304105023,
+      304205023
+    ],
+    "Exchange_Output_Item_List5": [
+      304205022
+    ]
+  },
+  {
+    "ExchangeID": 4043,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      401101022,
+      401201022
+    ],
+    "Exchange_Output_Item_List1": [
+      401201023
+    ],
+    "Exchange_Input_Item_List2": [
+      401101022,
+      401201022
+    ],
+    "Exchange_Output_Item_List2": [
+      401201023
+    ],
+    "Exchange_Input_Item_List3": [
+      401101022,
+      401201022
+    ],
+    "Exchange_Output_Item_List3": [
+      401201023
+    ],
+    "Exchange_Input_Item_List4": [
+      401101022,
+      401201022
+    ],
+    "Exchange_Output_Item_List4": [
+      401201023
+    ],
+    "Exchange_Input_Item_List5": [
+      401101022,
+      401201022
+    ],
+    "Exchange_Output_Item_List5": [
+      401201023
+    ]
+  },
+  {
+    "ExchangeID": 4044,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      401101023,
+      401201023
+    ],
+    "Exchange_Output_Item_List1": [
+      401201022
+    ],
+    "Exchange_Input_Item_List2": [
+      401101023,
+      401201023
+    ],
+    "Exchange_Output_Item_List2": [
+      401201022
+    ],
+    "Exchange_Input_Item_List3": [
+      401101023,
+      401201023
+    ],
+    "Exchange_Output_Item_List3": [
+      401201022
+    ],
+    "Exchange_Input_Item_List4": [
+      401101023,
+      401201023
+    ],
+    "Exchange_Output_Item_List4": [
+      401201022
+    ],
+    "Exchange_Input_Item_List5": [
+      401101023,
+      401201023
+    ],
+    "Exchange_Output_Item_List5": [
+      401201022
+    ]
+  },
+  {
+    "ExchangeID": 4045,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      402101022,
+      402201022
+    ],
+    "Exchange_Output_Item_List1": [
+      402201023
+    ],
+    "Exchange_Input_Item_List2": [
+      402101022,
+      402201022
+    ],
+    "Exchange_Output_Item_List2": [
+      402201023
+    ],
+    "Exchange_Input_Item_List3": [
+      402101022,
+      402201022
+    ],
+    "Exchange_Output_Item_List3": [
+      402201023
+    ],
+    "Exchange_Input_Item_List4": [
+      402101022,
+      402201022
+    ],
+    "Exchange_Output_Item_List4": [
+      402201023
+    ],
+    "Exchange_Input_Item_List5": [
+      402101022,
+      402201022
+    ],
+    "Exchange_Output_Item_List5": [
+      402201023
+    ]
+  },
+  {
+    "ExchangeID": 4046,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      402101023,
+      402201023
+    ],
+    "Exchange_Output_Item_List1": [
+      402201022
+    ],
+    "Exchange_Input_Item_List2": [
+      402101023,
+      402201023
+    ],
+    "Exchange_Output_Item_List2": [
+      402201022
+    ],
+    "Exchange_Input_Item_List3": [
+      402101023,
+      402201023
+    ],
+    "Exchange_Output_Item_List3": [
+      402201022
+    ],
+    "Exchange_Input_Item_List4": [
+      402101023,
+      402201023
+    ],
+    "Exchange_Output_Item_List4": [
+      402201022
+    ],
+    "Exchange_Input_Item_List5": [
+      402101023,
+      402201023
+    ],
+    "Exchange_Output_Item_List5": [
+      402201022
+    ]
+  },
+  {
+    "ExchangeID": 4047,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      403101022,
+      403201022
+    ],
+    "Exchange_Output_Item_List1": [
+      403201023
+    ],
+    "Exchange_Input_Item_List2": [
+      403101022,
+      403201022
+    ],
+    "Exchange_Output_Item_List2": [
+      403201023
+    ],
+    "Exchange_Input_Item_List3": [
+      403101022,
+      403201022
+    ],
+    "Exchange_Output_Item_List3": [
+      403201023
+    ],
+    "Exchange_Input_Item_List4": [
+      403101022,
+      403201022
+    ],
+    "Exchange_Output_Item_List4": [
+      403201023
+    ],
+    "Exchange_Input_Item_List5": [
+      403101022,
+      403201022
+    ],
+    "Exchange_Output_Item_List5": [
+      403201023
+    ]
+  },
+  {
+    "ExchangeID": 4048,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      403101023,
+      403201023
+    ],
+    "Exchange_Output_Item_List1": [
+      403201022
+    ],
+    "Exchange_Input_Item_List2": [
+      403101023,
+      403201023
+    ],
+    "Exchange_Output_Item_List2": [
+      403201022
+    ],
+    "Exchange_Input_Item_List3": [
+      403101023,
+      403201023
+    ],
+    "Exchange_Output_Item_List3": [
+      403201022
+    ],
+    "Exchange_Input_Item_List4": [
+      403101023,
+      403201023
+    ],
+    "Exchange_Output_Item_List4": [
+      403201022
+    ],
+    "Exchange_Input_Item_List5": [
+      403101023,
+      403201023
+    ],
+    "Exchange_Output_Item_List5": [
+      403201022
+    ]
+  },
+  {
+    "ExchangeID": 4049,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      200101024,
+      200201024
+    ],
+    "Exchange_Output_Item_List1": [
+      200201025
+    ],
+    "Exchange_Input_Item_List2": [
+      200102024,
+      200202024
+    ],
+    "Exchange_Output_Item_List2": [
+      200202025
+    ],
+    "Exchange_Input_Item_List3": [
+      200103024,
+      200203024
+    ],
+    "Exchange_Output_Item_List3": [
+      200203025
+    ],
+    "Exchange_Input_Item_List4": [
+      200104024,
+      200204024
+    ],
+    "Exchange_Output_Item_List4": [
+      200204025
+    ],
+    "Exchange_Input_Item_List5": [
+      200105024,
+      200205024
+    ],
+    "Exchange_Output_Item_List5": [
+      200205025
+    ]
+  },
+  {
+    "ExchangeID": 4050,
+    "Item_Main_Type": 2,
+    "Item_Sub_type": 0,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      200101025,
+      200201025
+    ],
+    "Exchange_Output_Item_List1": [
+      200201024
+    ],
+    "Exchange_Input_Item_List2": [
+      200102025,
+      200202025
+    ],
+    "Exchange_Output_Item_List2": [
+      200202024
+    ],
+    "Exchange_Input_Item_List3": [
+      200103025,
+      200203025
+    ],
+    "Exchange_Output_Item_List3": [
+      200203024
+    ],
+    "Exchange_Input_Item_List4": [
+      200104025,
+      200204025
+    ],
+    "Exchange_Output_Item_List4": [
+      200204024
+    ],
+    "Exchange_Input_Item_List5": [
+      200105025,
+      200205025
+    ],
+    "Exchange_Output_Item_List5": [
+      200205024
+    ]
+  },
+  {
+    "ExchangeID": 4051,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      301101024,
+      301201024
+    ],
+    "Exchange_Output_Item_List1": [
+      301201025
+    ],
+    "Exchange_Input_Item_List2": [
+      301102024,
+      301202024
+    ],
+    "Exchange_Output_Item_List2": [
+      301202025
+    ],
+    "Exchange_Input_Item_List3": [
+      301103024,
+      301203024
+    ],
+    "Exchange_Output_Item_List3": [
+      301203025
+    ],
+    "Exchange_Input_Item_List4": [
+      301104024,
+      301204024
+    ],
+    "Exchange_Output_Item_List4": [
+      301204025
+    ],
+    "Exchange_Input_Item_List5": [
+      301105024,
+      301205024
+    ],
+    "Exchange_Output_Item_List5": [
+      301205025
+    ]
+  },
+  {
+    "ExchangeID": 4052,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      301101025,
+      301201025
+    ],
+    "Exchange_Output_Item_List1": [
+      301201024
+    ],
+    "Exchange_Input_Item_List2": [
+      301102025,
+      301202025
+    ],
+    "Exchange_Output_Item_List2": [
+      301202024
+    ],
+    "Exchange_Input_Item_List3": [
+      301103025,
+      301203025
+    ],
+    "Exchange_Output_Item_List3": [
+      301203024
+    ],
+    "Exchange_Input_Item_List4": [
+      301104025,
+      301204025
+    ],
+    "Exchange_Output_Item_List4": [
+      301204024
+    ],
+    "Exchange_Input_Item_List5": [
+      301105025,
+      301205025
+    ],
+    "Exchange_Output_Item_List5": [
+      301205024
+    ]
+  },
+  {
+    "ExchangeID": 4053,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      302101024,
+      302201024
+    ],
+    "Exchange_Output_Item_List1": [
+      302201025
+    ],
+    "Exchange_Input_Item_List2": [
+      302102024,
+      302202024
+    ],
+    "Exchange_Output_Item_List2": [
+      302202025
+    ],
+    "Exchange_Input_Item_List3": [
+      302103024,
+      302203024
+    ],
+    "Exchange_Output_Item_List3": [
+      302203025
+    ],
+    "Exchange_Input_Item_List4": [
+      302104024,
+      302204024
+    ],
+    "Exchange_Output_Item_List4": [
+      302204025
+    ],
+    "Exchange_Input_Item_List5": [
+      302105024,
+      302205024
+    ],
+    "Exchange_Output_Item_List5": [
+      302205025
+    ]
+  },
+  {
+    "ExchangeID": 4054,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      302101025,
+      302201025
+    ],
+    "Exchange_Output_Item_List1": [
+      302201024
+    ],
+    "Exchange_Input_Item_List2": [
+      302102025,
+      302202025
+    ],
+    "Exchange_Output_Item_List2": [
+      302202024
+    ],
+    "Exchange_Input_Item_List3": [
+      302103025,
+      302203025
+    ],
+    "Exchange_Output_Item_List3": [
+      302203024
+    ],
+    "Exchange_Input_Item_List4": [
+      302104025,
+      302204025
+    ],
+    "Exchange_Output_Item_List4": [
+      302204024
+    ],
+    "Exchange_Input_Item_List5": [
+      302105025,
+      302205025
+    ],
+    "Exchange_Output_Item_List5": [
+      302205024
+    ]
+  },
+  {
+    "ExchangeID": 4055,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      303101024,
+      303201024
+    ],
+    "Exchange_Output_Item_List1": [
+      303201025
+    ],
+    "Exchange_Input_Item_List2": [
+      303102024,
+      303202024
+    ],
+    "Exchange_Output_Item_List2": [
+      303202025
+    ],
+    "Exchange_Input_Item_List3": [
+      303103024,
+      303203024
+    ],
+    "Exchange_Output_Item_List3": [
+      303203025
+    ],
+    "Exchange_Input_Item_List4": [
+      303104024,
+      303204024
+    ],
+    "Exchange_Output_Item_List4": [
+      303204025
+    ],
+    "Exchange_Input_Item_List5": [
+      303105024,
+      303205024
+    ],
+    "Exchange_Output_Item_List5": [
+      303205025
+    ]
+  },
+  {
+    "ExchangeID": 4056,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      303101025,
+      303201025
+    ],
+    "Exchange_Output_Item_List1": [
+      303201024
+    ],
+    "Exchange_Input_Item_List2": [
+      303102025,
+      303202025
+    ],
+    "Exchange_Output_Item_List2": [
+      303202024
+    ],
+    "Exchange_Input_Item_List3": [
+      303103025,
+      303203025
+    ],
+    "Exchange_Output_Item_List3": [
+      303203024
+    ],
+    "Exchange_Input_Item_List4": [
+      303104025,
+      303204025
+    ],
+    "Exchange_Output_Item_List4": [
+      303204024
+    ],
+    "Exchange_Input_Item_List5": [
+      303105025,
+      303205025
+    ],
+    "Exchange_Output_Item_List5": [
+      303205024
+    ]
+  },
+  {
+    "ExchangeID": 4057,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      304101024,
+      304201024
+    ],
+    "Exchange_Output_Item_List1": [
+      304201025
+    ],
+    "Exchange_Input_Item_List2": [
+      304102024,
+      304202024
+    ],
+    "Exchange_Output_Item_List2": [
+      304202025
+    ],
+    "Exchange_Input_Item_List3": [
+      304103024,
+      304203024
+    ],
+    "Exchange_Output_Item_List3": [
+      304203025
+    ],
+    "Exchange_Input_Item_List4": [
+      304104024,
+      304204024
+    ],
+    "Exchange_Output_Item_List4": [
+      304204025
+    ],
+    "Exchange_Input_Item_List5": [
+      304105024,
+      304205024
+    ],
+    "Exchange_Output_Item_List5": [
+      304205025
+    ]
+  },
+  {
+    "ExchangeID": 4058,
+    "Item_Main_Type": 3,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      304101025,
+      304201025
+    ],
+    "Exchange_Output_Item_List1": [
+      304201024
+    ],
+    "Exchange_Input_Item_List2": [
+      304102025,
+      304202025
+    ],
+    "Exchange_Output_Item_List2": [
+      304202024
+    ],
+    "Exchange_Input_Item_List3": [
+      304103025,
+      304203025
+    ],
+    "Exchange_Output_Item_List3": [
+      304203024
+    ],
+    "Exchange_Input_Item_List4": [
+      304104025,
+      304204025
+    ],
+    "Exchange_Output_Item_List4": [
+      304204024
+    ],
+    "Exchange_Input_Item_List5": [
+      304105025,
+      304205025
+    ],
+    "Exchange_Output_Item_List5": [
+      304205024
+    ]
+  },
+  {
+    "ExchangeID": 4059,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      401101024,
+      401201024
+    ],
+    "Exchange_Output_Item_List1": [
+      401201025
+    ],
+    "Exchange_Input_Item_List2": [
+      401101024,
+      401201024
+    ],
+    "Exchange_Output_Item_List2": [
+      401201025
+    ],
+    "Exchange_Input_Item_List3": [
+      401101024,
+      401201024
+    ],
+    "Exchange_Output_Item_List3": [
+      401201025
+    ],
+    "Exchange_Input_Item_List4": [
+      401101024,
+      401201024
+    ],
+    "Exchange_Output_Item_List4": [
+      401201025
+    ],
+    "Exchange_Input_Item_List5": [
+      401101024,
+      401201024
+    ],
+    "Exchange_Output_Item_List5": [
+      401201025
+    ]
+  },
+  {
+    "ExchangeID": 4060,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      401101025,
+      401201025
+    ],
+    "Exchange_Output_Item_List1": [
+      401201024
+    ],
+    "Exchange_Input_Item_List2": [
+      401101025,
+      401201025
+    ],
+    "Exchange_Output_Item_List2": [
+      401201024
+    ],
+    "Exchange_Input_Item_List3": [
+      401101025,
+      401201025
+    ],
+    "Exchange_Output_Item_List3": [
+      401201024
+    ],
+    "Exchange_Input_Item_List4": [
+      401101025,
+      401201025
+    ],
+    "Exchange_Output_Item_List4": [
+      401201024
+    ],
+    "Exchange_Input_Item_List5": [
+      401101025,
+      401201025
+    ],
+    "Exchange_Output_Item_List5": [
+      401201024
+    ]
+  },
+  {
+    "ExchangeID": 4061,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      402101024,
+      402201024
+    ],
+    "Exchange_Output_Item_List1": [
+      402201025
+    ],
+    "Exchange_Input_Item_List2": [
+      402101024,
+      402201024
+    ],
+    "Exchange_Output_Item_List2": [
+      402201025
+    ],
+    "Exchange_Input_Item_List3": [
+      402101024,
+      402201024
+    ],
+    "Exchange_Output_Item_List3": [
+      402201025
+    ],
+    "Exchange_Input_Item_List4": [
+      402101024,
+      402201024
+    ],
+    "Exchange_Output_Item_List4": [
+      402201025
+    ],
+    "Exchange_Input_Item_List5": [
+      402101024,
+      402201024
+    ],
+    "Exchange_Output_Item_List5": [
+      402201025
+    ]
+  },
+  {
+    "ExchangeID": 4062,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 2,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      402101025,
+      402201025
+    ],
+    "Exchange_Output_Item_List1": [
+      402201024
+    ],
+    "Exchange_Input_Item_List2": [
+      402101025,
+      402201025
+    ],
+    "Exchange_Output_Item_List2": [
+      402201024
+    ],
+    "Exchange_Input_Item_List3": [
+      402101025,
+      402201025
+    ],
+    "Exchange_Output_Item_List3": [
+      402201024
+    ],
+    "Exchange_Input_Item_List4": [
+      402101025,
+      402201025
+    ],
+    "Exchange_Output_Item_List4": [
+      402201024
+    ],
+    "Exchange_Input_Item_List5": [
+      402101025,
+      402201025
+    ],
+    "Exchange_Output_Item_List5": [
+      402201024
+    ]
+  },
+  {
+    "ExchangeID": 4063,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      403101024,
+      403201024
+    ],
+    "Exchange_Output_Item_List1": [
+      403201025
+    ],
+    "Exchange_Input_Item_List2": [
+      403101024,
+      403201024
+    ],
+    "Exchange_Output_Item_List2": [
+      403201025
+    ],
+    "Exchange_Input_Item_List3": [
+      403101024,
+      403201024
+    ],
+    "Exchange_Output_Item_List3": [
+      403201025
+    ],
+    "Exchange_Input_Item_List4": [
+      403101024,
+      403201024
+    ],
+    "Exchange_Output_Item_List4": [
+      403201025
+    ],
+    "Exchange_Input_Item_List5": [
+      403101024,
+      403201024
+    ],
+    "Exchange_Output_Item_List5": [
+      403201025
+    ]
+  },
+  {
+    "ExchangeID": 4064,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 3,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      403101025,
+      403201025
+    ],
+    "Exchange_Output_Item_List1": [
+      403201024
+    ],
+    "Exchange_Input_Item_List2": [
+      403101025,
+      403201025
+    ],
+    "Exchange_Output_Item_List2": [
+      403201024
+    ],
+    "Exchange_Input_Item_List3": [
+      403101025,
+      403201025
+    ],
+    "Exchange_Output_Item_List3": [
+      403201024
+    ],
+    "Exchange_Input_Item_List4": [
+      403101025,
+      403201025
+    ],
+    "Exchange_Output_Item_List4": [
+      403201024
+    ],
+    "Exchange_Input_Item_List5": [
+      403101025,
+      403201025
+    ],
+    "Exchange_Output_Item_List5": [
+      403201024
+    ]
+  },
+  {
+    "ExchangeID": 4065,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      201101016,
+      201201016
+    ],
+    "Exchange_Output_Item_List1": [
+      201201017
+    ],
+    "Exchange_Input_Item_List2": [
+      201102016,
+      201202016
+    ],
+    "Exchange_Output_Item_List2": [
+      201202017
+    ],
+    "Exchange_Input_Item_List3": [
+      201103016,
+      201203016
+    ],
+    "Exchange_Output_Item_List3": [
+      201203017
+    ],
+    "Exchange_Input_Item_List4": [
+      201104016,
+      201204016
+    ],
+    "Exchange_Output_Item_List4": [
+      201204017
+    ],
+    "Exchange_Input_Item_List5": [
+      201105016,
+      201205016
+    ],
+    "Exchange_Output_Item_List5": [
+      201205017
+    ]
+  },
+  {
+    "ExchangeID": 4066,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      201101017,
+      201201017
+    ],
+    "Exchange_Output_Item_List1": [
+      201201016
+    ],
+    "Exchange_Input_Item_List2": [
+      201102017,
+      201202017
+    ],
+    "Exchange_Output_Item_List2": [
+      201202016
+    ],
+    "Exchange_Input_Item_List3": [
+      201103017,
+      201203017
+    ],
+    "Exchange_Output_Item_List3": [
+      201203016
+    ],
+    "Exchange_Input_Item_List4": [
+      201104017,
+      201204017
+    ],
+    "Exchange_Output_Item_List4": [
+      201204016
+    ],
+    "Exchange_Input_Item_List5": [
+      201105017,
+      201205017
+    ],
+    "Exchange_Output_Item_List5": [
+      201205016
+    ]
+  },
+  {
+    "ExchangeID": 4067,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      201101018,
+      201201018
+    ],
+    "Exchange_Output_Item_List1": [
+      201201019
+    ],
+    "Exchange_Input_Item_List2": [
+      201102018,
+      201202018
+    ],
+    "Exchange_Output_Item_List2": [
+      201202019
+    ],
+    "Exchange_Input_Item_List3": [
+      201103018,
+      201203018
+    ],
+    "Exchange_Output_Item_List3": [
+      201203019
+    ],
+    "Exchange_Input_Item_List4": [
+      201104018,
+      201204018
+    ],
+    "Exchange_Output_Item_List4": [
+      201204019
+    ],
+    "Exchange_Input_Item_List5": [
+      201105018,
+      201205018
+    ],
+    "Exchange_Output_Item_List5": [
+      201205019
+    ]
+  },
+  {
+    "ExchangeID": 4068,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      201101019,
+      201201019
+    ],
+    "Exchange_Output_Item_List1": [
+      201201018
+    ],
+    "Exchange_Input_Item_List2": [
+      201102019,
+      201202019
+    ],
+    "Exchange_Output_Item_List2": [
+      201202018
+    ],
+    "Exchange_Input_Item_List3": [
+      201103019,
+      201203019
+    ],
+    "Exchange_Output_Item_List3": [
+      201203018
+    ],
+    "Exchange_Input_Item_List4": [
+      201104019,
+      201204019
+    ],
+    "Exchange_Output_Item_List4": [
+      201204018
+    ],
+    "Exchange_Input_Item_List5": [
+      201105019,
+      201205019
+    ],
+    "Exchange_Output_Item_List5": [
+      201205018
+    ]
+  },
+  {
+    "ExchangeID": 4069,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      201101020,
+      201201020
+    ],
+    "Exchange_Output_Item_List1": [
+      201201021
+    ],
+    "Exchange_Input_Item_List2": [
+      201102020,
+      201202020
+    ],
+    "Exchange_Output_Item_List2": [
+      201202021
+    ],
+    "Exchange_Input_Item_List3": [
+      201103020,
+      201203020
+    ],
+    "Exchange_Output_Item_List3": [
+      201203021
+    ],
+    "Exchange_Input_Item_List4": [
+      201104020,
+      201204020
+    ],
+    "Exchange_Output_Item_List4": [
+      201204021
+    ],
+    "Exchange_Input_Item_List5": [
+      201105020,
+      201205020
+    ],
+    "Exchange_Output_Item_List5": [
+      201205021
+    ]
+  },
+  {
+    "ExchangeID": 4070,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      201101021,
+      201201021
+    ],
+    "Exchange_Output_Item_List1": [
+      201201020
+    ],
+    "Exchange_Input_Item_List2": [
+      201102021,
+      201202021
+    ],
+    "Exchange_Output_Item_List2": [
+      201202020
+    ],
+    "Exchange_Input_Item_List3": [
+      201103021,
+      201203021
+    ],
+    "Exchange_Output_Item_List3": [
+      201203020
+    ],
+    "Exchange_Input_Item_List4": [
+      201104021,
+      201204021
+    ],
+    "Exchange_Output_Item_List4": [
+      201204020
+    ],
+    "Exchange_Input_Item_List5": [
+      201105021,
+      201205021
+    ],
+    "Exchange_Output_Item_List5": [
+      201205020
+    ]
+  },
+  {
+    "ExchangeID": 4071,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      201101022,
+      201201022
+    ],
+    "Exchange_Output_Item_List1": [
+      201201023
+    ],
+    "Exchange_Input_Item_List2": [
+      201102022,
+      201202022
+    ],
+    "Exchange_Output_Item_List2": [
+      201202023
+    ],
+    "Exchange_Input_Item_List3": [
+      201103022,
+      201203022
+    ],
+    "Exchange_Output_Item_List3": [
+      201203023
+    ],
+    "Exchange_Input_Item_List4": [
+      201104022,
+      201204022
+    ],
+    "Exchange_Output_Item_List4": [
+      201204023
+    ],
+    "Exchange_Input_Item_List5": [
+      201105022,
+      201205022
+    ],
+    "Exchange_Output_Item_List5": [
+      201205023
+    ]
+  },
+  {
+    "ExchangeID": 4072,
+    "Item_Main_Type": 20,
+    "Item_Sub_type": 1,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      201101023,
+      201201023
+    ],
+    "Exchange_Output_Item_List1": [
+      201201022
+    ],
+    "Exchange_Input_Item_List2": [
+      201102023,
+      201202023
+    ],
+    "Exchange_Output_Item_List2": [
+      201202022
+    ],
+    "Exchange_Input_Item_List3": [
+      201103023,
+      201203023
+    ],
+    "Exchange_Output_Item_List3": [
+      201203022
+    ],
+    "Exchange_Input_Item_List4": [
+      201104023,
+      201204023
+    ],
+    "Exchange_Output_Item_List4": [
+      201204022
+    ],
+    "Exchange_Input_Item_List5": [
+      201105023,
+      201205023
+    ],
+    "Exchange_Output_Item_List5": [
+      201205022
+    ]
+  },
+  {
+    "ExchangeID": 4073,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      404101016,
+      404201016
+    ],
+    "Exchange_Output_Item_List1": [
+      404201017
+    ],
+    "Exchange_Input_Item_List2": [
+      404101016,
+      404201016
+    ],
+    "Exchange_Output_Item_List2": [
+      404201017
+    ],
+    "Exchange_Input_Item_List3": [
+      404101016,
+      404201016
+    ],
+    "Exchange_Output_Item_List3": [
+      404201017
+    ],
+    "Exchange_Input_Item_List4": [
+      404101016,
+      404201016
+    ],
+    "Exchange_Output_Item_List4": [
+      404201017
+    ],
+    "Exchange_Input_Item_List5": [
+      404101016,
+      404201016
+    ],
+    "Exchange_Output_Item_List5": [
+      404201017
+    ]
+  },
+  {
+    "ExchangeID": 4074,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 1,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      404101017,
+      404201017
+    ],
+    "Exchange_Output_Item_List1": [
+      404201016
+    ],
+    "Exchange_Input_Item_List2": [
+      404101017,
+      404201017
+    ],
+    "Exchange_Output_Item_List2": [
+      404201016
+    ],
+    "Exchange_Input_Item_List3": [
+      404101017,
+      404201017
+    ],
+    "Exchange_Output_Item_List3": [
+      404201016
+    ],
+    "Exchange_Input_Item_List4": [
+      404101017,
+      404201017
+    ],
+    "Exchange_Output_Item_List4": [
+      404201016
+    ],
+    "Exchange_Input_Item_List5": [
+      404101017,
+      404201017
+    ],
+    "Exchange_Output_Item_List5": [
+      404201016
+    ]
+  },
+  {
+    "ExchangeID": 4075,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      404101018,
+      404201018
+    ],
+    "Exchange_Output_Item_List1": [
+      404201019
+    ],
+    "Exchange_Input_Item_List2": [
+      404101018,
+      404201018
+    ],
+    "Exchange_Output_Item_List2": [
+      404201019
+    ],
+    "Exchange_Input_Item_List3": [
+      404101018,
+      404201018
+    ],
+    "Exchange_Output_Item_List3": [
+      404201019
+    ],
+    "Exchange_Input_Item_List4": [
+      404101018,
+      404201018
+    ],
+    "Exchange_Output_Item_List4": [
+      404201019
+    ],
+    "Exchange_Input_Item_List5": [
+      404101018,
+      404201018
+    ],
+    "Exchange_Output_Item_List5": [
+      404201019
+    ]
+  },
+  {
+    "ExchangeID": 4076,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 2,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      404101019,
+      404201019
+    ],
+    "Exchange_Output_Item_List1": [
+      404201018
+    ],
+    "Exchange_Input_Item_List2": [
+      404101019,
+      404201019
+    ],
+    "Exchange_Output_Item_List2": [
+      404201018
+    ],
+    "Exchange_Input_Item_List3": [
+      404101019,
+      404201019
+    ],
+    "Exchange_Output_Item_List3": [
+      404201018
+    ],
+    "Exchange_Input_Item_List4": [
+      404101019,
+      404201019
+    ],
+    "Exchange_Output_Item_List4": [
+      404201018
+    ],
+    "Exchange_Input_Item_List5": [
+      404101019,
+      404201019
+    ],
+    "Exchange_Output_Item_List5": [
+      404201018
+    ]
+  },
+  {
+    "ExchangeID": 4077,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      404101020,
+      404201020
+    ],
+    "Exchange_Output_Item_List1": [
+      404201021
+    ],
+    "Exchange_Input_Item_List2": [
+      404101020,
+      404201020
+    ],
+    "Exchange_Output_Item_List2": [
+      404201021
+    ],
+    "Exchange_Input_Item_List3": [
+      404101020,
+      404201020
+    ],
+    "Exchange_Output_Item_List3": [
+      404201021
+    ],
+    "Exchange_Input_Item_List4": [
+      404101020,
+      404201020
+    ],
+    "Exchange_Output_Item_List4": [
+      404201021
+    ],
+    "Exchange_Input_Item_List5": [
+      404101020,
+      404201020
+    ],
+    "Exchange_Output_Item_List5": [
+      404201021
+    ]
+  },
+  {
+    "ExchangeID": 4078,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 3,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      404101021,
+      404201021
+    ],
+    "Exchange_Output_Item_List1": [
+      404201020
+    ],
+    "Exchange_Input_Item_List2": [
+      404101021,
+      404201021
+    ],
+    "Exchange_Output_Item_List2": [
+      404201020
+    ],
+    "Exchange_Input_Item_List3": [
+      404101021,
+      404201021
+    ],
+    "Exchange_Output_Item_List3": [
+      404201020
+    ],
+    "Exchange_Input_Item_List4": [
+      404101021,
+      404201021
+    ],
+    "Exchange_Output_Item_List4": [
+      404201020
+    ],
+    "Exchange_Input_Item_List5": [
+      404101021,
+      404201021
+    ],
+    "Exchange_Output_Item_List5": [
+      404201020
+    ]
+  },
+  {
+    "ExchangeID": 4079,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 2,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      404101022,
+      404201022
+    ],
+    "Exchange_Output_Item_List1": [
+      404201023
+    ],
+    "Exchange_Input_Item_List2": [
+      404101022,
+      404201022
+    ],
+    "Exchange_Output_Item_List2": [
+      404201023
+    ],
+    "Exchange_Input_Item_List3": [
+      404101022,
+      404201022
+    ],
+    "Exchange_Output_Item_List3": [
+      404201023
+    ],
+    "Exchange_Input_Item_List4": [
+      404101022,
+      404201022
+    ],
+    "Exchange_Output_Item_List4": [
+      404201023
+    ],
+    "Exchange_Input_Item_List5": [
+      404101022,
+      404201022
+    ],
+    "Exchange_Output_Item_List5": [
+      404201023
+    ]
+  },
+  {
+    "ExchangeID": 4080,
+    "Item_Main_Type": 4,
+    "Item_Sub_type": 4,
+    "Item_Grade": 4,
+    "Item_Tier": 4,
+    "Item_SmeltingType": 3,
+    "Exchange_Cost_ItemId": 1802200018,
+    "Exchange_Cost_ItemValue": 1,
+    "Exchange_Cost_Type": 4,
+    "Exchange_Cost_Value": 9900,
+    "Exchange_Input_Item_List1": [
+      404101023,
+      404201023
+    ],
+    "Exchange_Output_Item_List1": [
+      404201022
+    ],
+    "Exchange_Input_Item_List2": [
+      404101023,
+      404201023
+    ],
+    "Exchange_Output_Item_List2": [
+      404201022
+    ],
+    "Exchange_Input_Item_List3": [
+      404101023,
+      404201023
+    ],
+    "Exchange_Output_Item_List3": [
+      404201022
+    ],
+    "Exchange_Input_Item_List4": [
+      404101023,
+      404201023
+    ],
+    "Exchange_Output_Item_List4": [
+      404201022
+    ],
+    "Exchange_Input_Item_List5": [
+      404101023,
+      404201023
+    ],
+    "Exchange_Output_Item_List5": [
+      404201022
+    ]
+  }
+]

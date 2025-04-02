@@ -1,0 +1,252 @@
+[
+    {
+      "Name": 11,
+      "RowId": 11,
+      "Tier": 1,
+      "Grade": 1,
+      "SlotCount": 2,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 100
+    },
+    {
+      "Name": 12,
+      "RowId": 12,
+      "Tier": 1,
+      "Grade": 2,
+      "SlotCount": 2,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 500
+    },
+    {
+      "Name": 13,
+      "RowId": 13,
+      "Tier": 1,
+      "Grade": 3,
+      "SlotCount": 3,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 1000
+    },
+    {
+      "Name": 14,
+      "RowId": 14,
+      "Tier": 1,
+      "Grade": 4,
+      "SlotCount": 4,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 2000
+    },
+    {
+      "Name": 15,
+      "RowId": 15,
+      "Tier": 1,
+      "Grade": 5,
+      "SlotCount": 4,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 4000
+    },
+    {
+      "Name": 21,
+      "RowId": 21,
+      "Tier": 2,
+      "Grade": 1,
+      "SlotCount": 2,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 100
+    },
+    {
+      "Name": 22,
+      "RowId": 22,
+      "Tier": 2,
+      "Grade": 2,
+      "SlotCount": 2,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 500
+    },
+    {
+      "Name": 23,
+      "RowId": 23,
+      "Tier": 2,
+      "Grade": 3,
+      "SlotCount": 3,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 1000
+    },
+    {
+      "Name": 24,
+      "RowId": 24,
+      "Tier": 2,
+      "Grade": 4,
+      "SlotCount": 4,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 2000
+    },
+    {
+      "Name": 25,
+      "RowId": 25,
+      "Tier": 2,
+      "Grade": 5,
+      "SlotCount": 4,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 4000
+    },
+    {
+      "Name": 31,
+      "RowId": 31,
+      "Tier": 3,
+      "Grade": 1,
+      "SlotCount": 2,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 100
+    },
+    {
+      "Name": 32,
+      "RowId": 32,
+      "Tier": 3,
+      "Grade": 2,
+      "SlotCount": 2,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 500
+    },
+    {
+      "Name": 33,
+      "RowId": 33,
+      "Tier": 3,
+      "Grade": 3,
+      "SlotCount": 3,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 1000
+    },
+    {
+      "Name": 34,
+      "RowId": 34,
+      "Tier": 3,
+      "Grade": 4,
+      "SlotCount": 4,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 2000
+    },
+    {
+      "Name": 35,
+      "RowId": 35,
+      "Tier": 3,
+      "Grade": 5,
+      "SlotCount": 4,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 4000
+    },
+    {
+      "Name": 41,
+      "RowId": 41,
+      "Tier": 4,
+      "Grade": 1,
+      "SlotCount": 2,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 100
+    },
+    {
+      "Name": 42,
+      "RowId": 42,
+      "Tier": 4,
+      "Grade": 2,
+      "SlotCount": 2,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 500
+    },
+    {
+      "Name": 43,
+      "RowId": 43,
+      "Tier": 4,
+      "Grade": 3,
+      "SlotCount": 3,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 1000
+    },
+    {
+      "Name": 44,
+      "RowId": 44,
+      "Tier": 4,
+      "Grade": 4,
+      "SlotCount": 4,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 2000
+    },
+    {
+      "Name": 45,
+      "RowId": 45,
+      "Tier": 4,
+      "Grade": 5,
+      "SlotCount": 4,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 4000
+    },
+    {
+      "Name": 51,
+      "RowId": 51,
+      "Tier": 5,
+      "Grade": 1,
+      "SlotCount": 2,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 100
+    },
+    {
+      "Name": 52,
+      "RowId": 52,
+      "Tier": 5,
+      "Grade": 2,
+      "SlotCount": 2,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 500
+    },
+    {
+      "Name": 53,
+      "RowId": 53,
+      "Tier": 5,
+      "Grade": 3,
+      "SlotCount": 3,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 1000
+    },
+    {
+      "Name": 54,
+      "RowId": 54,
+      "Tier": 5,
+      "Grade": 4,
+      "SlotCount": 4,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 2000
+    },
+    {
+      "Name": 55,
+      "RowId": 55,
+      "Tier": 5,
+      "Grade": 5,
+      "SlotCount": 4,
+      "RainbowSlotCount": 1,
+      "ComposeCostType": 2,
+      "ComposeCostValue": 4000
+    }
+   ]

@@ -1,0 +1,410 @@
+[
+  {
+    "Name": 1,
+    "KeyId": 1,
+    "KeyType": 1,
+    "NameSid": 1040001,
+    "Defaultkey": "W",
+    "ActionName": "MoveUp"
+  },
+  {
+    "Name": 2,
+    "KeyId": 2,
+    "KeyType": 1,
+    "NameSid": 1040005,
+    "Defaultkey": "LeftShift",
+    "ActionName": "Avoid"
+  },
+  {
+    "Name": 3,
+    "KeyId": 3,
+    "KeyType": 1,
+    "NameSid": 1040002,
+    "Defaultkey": "A",
+    "ActionName": "MoveLeft"
+  },
+  {
+    "Name": 4,
+    "KeyId": 4,
+    "KeyType": 1,
+    "NameSid": 1040006,
+    "Defaultkey": "SpaceBar",
+    "ActionName": "KeySpace"
+  },
+  {
+    "Name": 5,
+    "KeyId": 5,
+    "KeyType": 1,
+    "NameSid": 1040003,
+    "Defaultkey": "D",
+    "ActionName": "MoveRight"
+  },
+  {
+    "Name": 6,
+    "KeyId": 6,
+    "KeyType": 1,
+    "NameSid": 1040007,
+    "Defaultkey": "V",
+    "ActionName": "WallJump"
+  },
+  {
+    "Name": 7,
+    "KeyId": 7,
+    "KeyType": 1,
+    "NameSid": 1040004,
+    "Defaultkey": "S",
+    "ActionName": "MoveDown"
+  },
+  {
+    "Name": 8,
+    "KeyId": 8,
+    "KeyType": 1,
+    "NameSid": 1040008,
+    "Defaultkey": "G",
+    "ActionName": "Dash"
+  },
+  {
+    "Name": 9,
+    "KeyId": 9,
+    "KeyType": 2,
+    "NameSid": 1040009,
+    "Defaultkey": "One",
+    "ActionName": "Skill01"
+  },
+  {
+    "Name": 10,
+    "KeyId": 10,
+    "KeyType": 2,
+    "NameSid": 1040015,
+    "Defaultkey": "F",
+    "ActionName": "Attack"
+  },
+  {
+    "Name": 11,
+    "KeyId": 11,
+    "KeyType": 2,
+    "NameSid": 1040010,
+    "Defaultkey": "Two",
+    "ActionName": "Skill02"
+  },
+  {
+    "Name": 12,
+    "KeyId": 12,
+    "KeyType": 2,
+    "NameSid": 1040016,
+    "Defaultkey": "R",
+    "ActionName": "SpecialSkill"
+  },
+  {
+    "Name": 13,
+    "KeyId": 13,
+    "KeyType": 2,
+    "NameSid": 1040011,
+    "Defaultkey": "Three",
+    "ActionName": "Skill03"
+  },
+  {
+    "Name": 14,
+    "KeyId": 14,
+    "KeyType": 2,
+    "NameSid": 1040017,
+    "Defaultkey": "Tab",
+    "ActionName": "LockOn"
+  },
+  {
+    "Name": 15,
+    "KeyId": 15,
+    "KeyType": 2,
+    "NameSid": 1040012,
+    "Defaultkey": "Four",
+    "ActionName": "Skill04"
+  },
+  {
+    "Name": 16,
+    "KeyId": 16,
+    "KeyType": 2,
+    "NameSid": 1040018,
+    "Defaultkey": "Tilde",
+    "ActionName": "SkillDeckChange"
+  },
+  {
+    "Name": 17,
+    "KeyId": 17,
+    "KeyType": 2,
+    "NameSid": 1040013,
+    "Defaultkey": "Five",
+    "ActionName": "Skill05"
+  },
+  {
+    "Name": 18,
+    "KeyId": 18,
+    "KeyType": 2,
+    "NameSid": 1040019,
+    "Defaultkey": "B",
+    "ActionName": "AutoBattle"
+  },
+  {
+    "Name": 19,
+    "KeyId": 19,
+    "KeyType": 2,
+    "NameSid": 1040014,
+    "Defaultkey": "Six",
+    "ActionName": "Skill06"
+  },
+  {
+    "Name": 20,
+    "KeyId": 20,
+    "KeyType": 2,
+    "NameSid": 1040020,
+    "Defaultkey": "N",
+    "ActionName": "AutoCollect"
+  },
+  {
+    "Name": 21,
+    "KeyId": 21,
+    "KeyType": 3,
+    "NameSid": 1040021,
+    "Defaultkey": "Eight",
+    "ActionName": "Quick01"
+  },
+  {
+    "Name": 22,
+    "KeyId": 22,
+    "KeyType": 3,
+    "NameSid": 1040024,
+    "Defaultkey": "Hyphen",
+    "ActionName": "SlotChange"
+  },
+  {
+    "Name": 23,
+    "KeyId": 23,
+    "KeyType": 3,
+    "NameSid": 1040022,
+    "Defaultkey": "Nine",
+    "ActionName": "Quick02"
+  },
+  {
+    "Name": 24,
+    "KeyId": 24,
+    "KeyType": 3,
+    "NameSid": 1040025,
+    "Defaultkey": "C",
+    "ActionName": "QuickSetting"
+  },
+  {
+    "Name": 25,
+    "KeyId": 25,
+    "KeyType": 3,
+    "NameSid": 1040023,
+    "Defaultkey": "Zero",
+    "ActionName": "Quick03"
+  },
+  {
+    "Name": 26,
+    "KeyId": 26,
+    "KeyType": 4,
+    "NameSid": 1040026,
+    "Defaultkey": "F1",
+    "ActionName": "MyInfo"
+  },
+  {
+    "Name": 27,
+    "KeyId": 27,
+    "KeyType": 4,
+    "NameSid": 1040027,
+    "Defaultkey": "F2",
+    "ActionName": "Post"
+  },
+  {
+    "Name": 28,
+    "KeyId": 28,
+    "KeyType": 4,
+    "NameSid": 1040028,
+    "Defaultkey": "F3",
+    "ActionName": "Event"
+  },
+  {
+    "Name": 29,
+    "KeyId": 29,
+    "KeyType": 4,
+    "NameSid": 1040029,
+    "Defaultkey": "F4",
+    "ActionName": "Shop"
+  },
+  {
+    "Name": 30,
+    "KeyId": 30,
+    "KeyType": 4,
+    "NameSid": 1040030,
+    "Defaultkey": "F5",
+    "ActionName": "Guild"
+  },
+  {
+    "Name": 31,
+    "KeyId": 31,
+    "KeyType": 4,
+    "NameSid": 1040031,
+    "Defaultkey": "F6",
+    "ActionName": "Mission"
+  },
+  {
+    "Name": 32,
+    "KeyId": 32,
+    "KeyType": 4,
+    "NameSid": 1040032,
+    "Defaultkey": "F7",
+    "ActionName": "Equip"
+  },
+  {
+    "Name": 33,
+    "KeyId": 33,
+    "KeyType": 4,
+    "NameSid": 1040033,
+    "Defaultkey": "F8",
+    "ActionName": "Alarm"
+  },
+  {
+    "Name": 34,
+    "KeyId": 34,
+    "KeyType": 4,
+    "NameSid": 1040034,
+    "Defaultkey": "F9",
+    "ActionName": "Menu"
+  },
+  {
+    "Name": 35,
+    "KeyId": 35,
+    "KeyType": 5,
+    "NameSid": 1040035,
+    "Defaultkey": "F10",
+    "ActionName": "Map"
+  },
+  {
+    "Name": 36,
+    "KeyId": 36,
+    "KeyType": 5,
+    "NameSid": 1040040,
+    "Defaultkey": "Q",
+    "ActionName": "Quest"
+  },
+  {
+    "Name": 37,
+    "KeyId": 37,
+    "KeyType": 5,
+    "NameSid": 1040036,
+    "Defaultkey": "P",
+    "ActionName": "Party"
+  },
+  {
+    "Name": 38,
+    "KeyId": 38,
+    "KeyType": 5,
+    "NameSid": 1040044,
+    "Defaultkey": "Enter",
+    "ActionName": "Chat"
+  },
+  {
+    "Name": 39,
+    "KeyId": 39,
+    "KeyType": 5,
+    "NameSid": 1040041,
+    "Defaultkey": "Z",
+    "ActionName": "Camera"
+  },
+  {
+    "Name": 40,
+    "KeyId": 40,
+    "KeyType": 5,
+    "NameSid": 1040037,
+    "Defaultkey": "O",
+    "ActionName": "PartySearch"
+  },
+  {
+    "Name": 41,
+    "KeyId": 41,
+    "KeyType": 5,
+    "NameSid": 1040042,
+    "Defaultkey": "X",
+    "ActionName": "Ride"
+  },
+  {
+    "Name": 42,
+    "KeyId": 42,
+    "KeyType": 5,
+    "NameSid": 1040038,
+    "Defaultkey": "E",
+    "ActionName": "Act"
+  },
+  {
+    "Name": 43,
+    "KeyId": 43,
+    "KeyType": 0,
+    "NameSid": 1040043,
+    "Defaultkey": "Escape",
+    "ActionName": "DeviceBack"
+  },
+  {
+    "Name": 44,
+    "KeyId": 44,
+    "KeyType": 5,
+    "NameSid": 1040039,
+    "Defaultkey": "LeftAlt",
+    "ActionName": "KeyView"
+  },
+  {
+    "Name": 45,
+    "KeyId": 45,
+    "KeyType": 2,
+    "NameSid": 1040045,
+    "Defaultkey": "PageUp",
+    "ActionName": "PreviousTarget"
+  },
+  {
+    "Name": 46,
+    "KeyId": 46,
+    "KeyType": 2,
+    "NameSid": 1040046,
+    "Defaultkey": "PageDown",
+    "ActionName": "NextTarget"
+  },
+  {
+    "Name": 47,
+    "KeyId": 47,
+    "KeyType": 2,
+    "NameSid": 1040047,
+    "Defaultkey": "Comma",
+    "ActionName": "MagicStoneDeckChange"
+  },
+  {
+    "Name": 48,
+    "KeyId": 48,
+    "KeyType": 2,
+    "NameSid": 1040048,
+    "Defaultkey": "Period",
+    "ActionName": "PetDeckChange"
+  },
+  {
+    "Name": 49,
+    "KeyId": 49,
+    "KeyType": 2,
+    "NameSid": 1040049,
+    "Defaultkey": "H",
+    "ActionName": "PKModeChange"
+  },
+  {
+    "Name": 50,
+    "KeyId": 50,
+    "KeyType": 2,
+    "NameSid": 1040050,
+    "Defaultkey": "U",
+    "ActionName": "OnlyUserTargetChange"
+  },
+  {
+    "Name": 51,
+    "KeyId": 51,
+    "KeyType": 1,
+    "NameSid": 1040051,
+    "Defaultkey": "T",
+    "ActionName": "FastRun"
+  }
+]

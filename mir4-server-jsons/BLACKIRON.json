@@ -1,0 +1,32 @@
+[
+    {
+        "FunctionId": 1,
+        "NeedCosts": [
+            {
+                "NeedCostId": 101,
+                "NeedCostCount": 10
+            },
+            {
+                "NeedCostId": 102,
+                "NeedCostCount": 5
+            }
+        ],
+        "ResultItemId": 12,
+        "ResultItemIdCount": 1
+    },
+    {
+        "FunctionId": 2,
+        "NeedCosts": [
+            {
+                "NeedCostId": 103,
+                "NeedCostCount": 20
+            },
+            {
+                "NeedCostId": 104,
+                "NeedCostCount": 10
+            }
+        ],
+        "ResultItemId": 12,
+        "ResultItemIdCount": 2
+    }
+]

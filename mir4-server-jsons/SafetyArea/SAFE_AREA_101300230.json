@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WAYPOINT_300230",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'WaypointTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "3000201": {
+        "ActiveRadius": 0,
+        "DefaultState": true,
+        "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+        "WaypointWarpNeedCostCount": 0,
+        "WaypointWarpNeedItemId": 61301001,
+        "WaypointWarpNeedItemCount": 1,
+        "WayPointName": 3702957,
+        "Location": {
+          "X": 12749.0,
+          "Y": 3832.0,
+          "Z": 2275.0
+        },
+        "WarpCoordinate": {
+          "X": 12749.0,
+          "Y": 3832.0,
+          "Z": 2275.0
+        }
+      }
+    }
+  }
+]

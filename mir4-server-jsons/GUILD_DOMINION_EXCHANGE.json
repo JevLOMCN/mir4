@@ -1,0 +1,57 @@
+[
+  {
+    "Name": 101,
+    "ExchangeId": 101,
+    "ExchangeDominionId": 3005,
+    "ExchangeStringId": 1063899,
+    "MoneyId_Send": 12,
+    "MoneyId_Receive": 12,
+    "PayCommissionRate": 3000,
+    "PayMailPresetId": 12025,
+    "PayMoneyMinValue": 10
+  },
+  {
+    "Name": 102,
+    "ExchangeId": 102,
+    "ExchangeDominionId": 3010,
+    "ExchangeStringId": 1063899,
+    "MoneyId_Send": 12,
+    "MoneyId_Receive": 12,
+    "PayCommissionRate": 3000,
+    "PayMailPresetId": 12025,
+    "PayMoneyMinValue": 10
+  },
+  {
+    "Name": 103,
+    "ExchangeId": 103,
+    "ExchangeDominionId": 3024,
+    "ExchangeStringId": 1063899,
+    "MoneyId_Send": 12,
+    "MoneyId_Receive": 12,
+    "PayCommissionRate": 3000,
+    "PayMailPresetId": 12025,
+    "PayMoneyMinValue": 10
+  },
+  {
+    "Name": 201,
+    "ExchangeId": 201,
+    "ExchangeDominionId": 2001,
+    "ExchangeStringId": 1063899,
+    "MoneyId_Send": 12,
+    "MoneyId_Receive": 12,
+    "PayCommissionRate": 3000,
+    "PayMailPresetId": 12025,
+    "PayMoneyMinValue": 10
+  },
+  {
+    "Name": 202,
+    "ExchangeId": 202,
+    "ExchangeDominionId": 2001,
+    "ExchangeStringId": 1063899,
+    "MoneyId_Send": 4,
+    "MoneyId_Receive": 4,
+    "PayCommissionRate": 3000,
+    "PayMailPresetId": 12026,
+    "PayMoneyMinValue": 10
+  }
+]

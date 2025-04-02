@@ -1,0 +1,40 @@
+[
+    {
+        "GroupNo": 1,
+        "MainPosition": "1.0, 2.0, 3.0",
+        "MainPositionRadius": 5,
+        "StageID": 1,
+        "Direction": 0,
+        "Position": [
+            {
+                "X": 1.0,
+                "Y": 2.0,
+                "Z": 3.0
+            },
+            {
+                "X": 4.0,
+                "Y": 5.0,
+                "Z": 6.0
+            }
+        ]
+    },
+    {
+        "GroupNo": 2,
+        "MainPosition": "4.0, 5.0, 6.0",
+        "MainPositionRadius": 7,
+        "StageID": 2,
+        "Direction": 1,
+        "Position": [
+            {
+                "X": 7.0,
+                "Y": 8.0,
+                "Z": 9.0
+            },
+            {
+                "X": 10.0,
+                "Y": 11.0,
+                "Z": 12.0
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BOSS_WORLD",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'BossTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {}
+  }
+]

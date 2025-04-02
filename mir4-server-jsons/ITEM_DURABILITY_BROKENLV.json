@@ -1,0 +1,42 @@
+[
+  {
+    "BrokenID": 1,
+    "BrokenLV": 1,
+    "IsDestroyed": false,
+    "DurabilityMinRate": 5000,
+    "Item_StatusPanaltyRate": 0,
+    "HUD_Alarm": false,
+    "IconID": false,
+    "Color_index": 964001
+  },
+  {
+    "BrokenID": 2,
+    "BrokenLV": 2,
+    "IsDestroyed": false,
+    "DurabilityMinRate": 2000,
+    "Item_StatusPanaltyRate": 0,
+    "HUD_Alarm": true,
+    "IconID": true,
+    "Color_index": 964002
+  },
+  {
+    "BrokenID": 3,
+    "BrokenLV": 3,
+    "IsDestroyed": false,
+    "DurabilityMinRate": 0,
+    "Item_StatusPanaltyRate": 2000,
+    "HUD_Alarm": true,
+    "IconID": true,
+    "Color_index": 964003
+  },
+  {
+    "BrokenID": 4,
+    "BrokenLV": 4,
+    "IsDestroyed": true,
+    "DurabilityMinRate": 0,
+    "Item_StatusPanaltyRate": 10000,
+    "HUD_Alarm": true,
+    "IconID": true,
+    "Color_index": 964004
+  }
+]

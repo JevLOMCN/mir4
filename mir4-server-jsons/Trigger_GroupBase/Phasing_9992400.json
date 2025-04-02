@@ -1,0 +1,186 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "20380,-24830,1500",
+    "TriggerRotation": 0,
+    "LinkID": [
+      10
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": "ETriggerType::COUNT",
+    "TriggerLocation": "22370,-25390,1500",
+    "TriggerRotation": 0,
+    "LinkID": [
+      3
+    ],
+    "Value1": [
+      "6"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": 2,
+    "TriggerLocation": "22680,-24980,1500",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "0.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": "ETriggerType::OPOBJECT",
+    "TriggerLocation": "21760,-25290,1180",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2
+    ],
+    "Value1": [
+      "109002010"
+    ],
+    "Value2": [
+      "false"
+    ],
+    "Value3": [
+      "true"
+    ],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": "ETriggerType::OPOBJECT",
+    "TriggerLocation": "21140,-25890,1180",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2
+    ],
+    "Value1": [
+      "109002005"
+    ],
+    "Value2": [
+      "false"
+    ],
+    "Value3": [
+      "true"
+    ],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": "ETriggerType::OPOBJECT",
+    "TriggerLocation": "20560,-25500,1170",
+    "TriggerRotation": 0,
+    "LinkID": [
+      5,
+      2
+    ],
+    "Value1": [
+      "42"
+    ],
+    "Value2": [
+      "true"
+    ],
+    "Value3": [
+      "true"
+    ],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": "ETriggerType::OPOBJECT",
+    "TriggerLocation": "21470,-24640,1180",
+    "TriggerRotation": 0,
+    "LinkID": [
+      9,
+      2
+    ],
+    "Value1": [
+      "42"
+    ],
+    "Value2": [
+      "true"
+    ],
+    "Value3": [
+      "true"
+    ],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 8,
+    "TriggerType": "ETriggerType::OPOBJECT",
+    "TriggerLocation": "21050,-25180,1180",
+    "TriggerRotation": 0,
+    "LinkID": [
+      4,
+      2
+    ],
+    "Value1": [
+      "42"
+    ],
+    "Value2": [
+      "true"
+    ],
+    "Value3": [
+      "true"
+    ],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 9,
+    "TriggerType": "ETriggerType::OPOBJECT",
+    "TriggerLocation": "21880,-24430,1180",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2
+    ],
+    "Value1": [
+      "42"
+    ],
+    "Value2": [
+      "false"
+    ],
+    "Value3": [
+      "true"
+    ],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 10,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "20740,-24570,1500",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2
+    ],
+    "Value1": [
+      "DELAY 0.5",
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

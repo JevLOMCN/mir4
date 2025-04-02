@@ -1,0 +1,338 @@
+[
+  {
+    "Name": 1,
+    "ItemUseId": 631130001,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004924,
+    "FailPointType": 1,
+    "FailPoint": 1
+  },
+  {
+    "Name": 11,
+    "ItemUseId": 631140001,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004924,
+    "FailPointType": 2,
+    "FailPoint": 1
+  },
+  {
+    "Name": 21,
+    "ItemUseId": 631131001,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004925,
+    "FailPointType": 3,
+    "FailPoint": 1
+  },
+  {
+    "Name": 31,
+    "ItemUseId": 631141001,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004925,
+    "FailPointType": 4,
+    "FailPoint": 1
+  },
+  {
+    "Name": 41,
+    "ItemUseId": 631132001,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004926,
+    "FailPointType": 5,
+    "FailPoint": 1
+  },
+  {
+    "Name": 51,
+    "ItemUseId": 631142001,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004926,
+    "FailPointType": 6,
+    "FailPoint": 1
+  },
+  {
+    "Name": 61,
+    "ItemUseId": 631133001,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004927,
+    "FailPointType": 7,
+    "FailPoint": 1
+  },
+  {
+    "Name": 71,
+    "ItemUseId": 631143001,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004927,
+    "FailPointType": 8,
+    "FailPoint": 1
+  },
+  {
+    "Name": 81,
+    "ItemUseId": 631134001,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004928,
+    "FailPointType": 9,
+    "FailPoint": 1
+  },
+  {
+    "Name": 91,
+    "ItemUseId": 631144001,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004928,
+    "FailPointType": 10,
+    "FailPoint": 1
+  },
+  {
+    "Name": 101,
+    "ItemUseId": 631135001,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004929,
+    "FailPointType": 11,
+    "FailPoint": 1
+  },
+  {
+    "Name": 111,
+    "ItemUseId": 631145001,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004929,
+    "FailPointType": 12,
+    "FailPoint": 1
+  },
+  {
+    "Name": 121,
+    "ItemUseId": 631136001,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004930,
+    "FailPointType": 13,
+    "FailPoint": 1
+  },
+  {
+    "Name": 131,
+    "ItemUseId": 631146001,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004930,
+    "FailPointType": 14,
+    "FailPoint": 1
+  },
+  {
+    "Name": 141,
+    "ItemUseId": 631137001,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004939,
+    "FailPointType": 38,
+    "FailPoint": 1
+  },
+  {
+    "Name": 151,
+    "ItemUseId": 631147001,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004939,
+    "FailPointType": 39,
+    "FailPoint": 1
+  },
+  {
+    "Name": 161,
+    "ItemUseId": 631138001,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004940,
+    "FailPointType": 43,
+    "FailPoint": 1
+  },
+  {
+    "Name": 171,
+    "ItemUseId": 631148001,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004940,
+    "FailPointType": 44,
+    "FailPoint": 1
+  },
+  {
+    "Name": 181,
+    "ItemUseId": 631139001,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004941,
+    "FailPointType": 48,
+    "FailPoint": 1
+  },
+  {
+    "Name": 191,
+    "ItemUseId": 631149001,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004941,
+    "FailPointType": 49,
+    "FailPoint": 1
+  },
+  {
+    "Name": 201,
+    "ItemUseId": 631131101,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004942,
+    "FailPointType": 53,
+    "FailPoint": 1
+  },
+  {
+    "Name": 211,
+    "ItemUseId": 631141101,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004942,
+    "FailPointType": 54,
+    "FailPoint": 1
+  },
+  {
+    "Name": 221,
+    "ItemUseId": 631131201,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004943,
+    "FailPointType": 58,
+    "FailPoint": 1
+  },
+  {
+    "Name": 231,
+    "ItemUseId": 631141201,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004943,
+    "FailPointType": 59,
+    "FailPoint": 1
+  },
+  {
+    "Name": 241,
+    "ItemUseId": 631131301,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004944,
+    "FailPointType": 64,
+    "FailPoint": 1
+  },
+  {
+    "Name": 251,
+    "ItemUseId": 631141401,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004944,
+    "FailPointType": 65,
+    "FailPoint": 1
+  },
+  {
+    "Name": 341,
+    "ItemUseId": 631131501,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004945,
+    "FailPointType": 74,
+    "FailPoint": 1
+  },
+  {
+    "Name": 351,
+    "ItemUseId": 631141501,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004945,
+    "FailPointType": 75,
+    "FailPoint": 1
+  },
+  {
+    "Name": 361,
+    "ItemUseId": 631131601,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004946,
+    "FailPointType": 84,
+    "FailPoint": 1
+  },
+  {
+    "Name": 371,
+    "ItemUseId": 631141601,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004946,
+    "FailPointType": 85,
+    "FailPoint": 1
+  },
+  {
+    "Name": 381,
+    "ItemUseId": 631131701,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004947,
+    "FailPointType": 94,
+    "FailPoint": 1
+  },
+  {
+    "Name": 391,
+    "ItemUseId": 631141701,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004947,
+    "FailPointType": 95,
+    "FailPoint": 1
+  },
+  {
+    "Name": 401,
+    "ItemUseId": 631131801,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004948,
+    "FailPointType": 104,
+    "FailPoint": 1
+  },
+  {
+    "Name": 411,
+    "ItemUseId": 631141801,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004948,
+    "FailPointType": 105,
+    "FailPoint": 1
+  },
+  {
+    "Name": 421,
+    "ItemUseId": 631131901,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004949,
+    "FailPointType": 114,
+    "FailPoint": 1
+  },
+  {
+    "Name": 431,
+    "ItemUseId": 631141901,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004949,
+    "FailPointType": 115,
+    "FailPoint": 1
+  },
+  {
+    "Name": 441,
+    "ItemUseId": 631130101,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004950,
+    "FailPointType": 124,
+    "FailPoint": 1
+  },
+  {
+    "Name": 451,
+    "ItemUseId": 631140101,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004950,
+    "FailPointType": 125,
+    "FailPoint": 1
+  },
+  {
+    "Name": 461,
+    "ItemUseId": 631130201,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004951,
+    "FailPointType": 134,
+    "FailPoint": 1
+  },
+  {
+    "Name": 481,
+    "ItemUseId": 631140201,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004951,
+    "FailPointType": 135,
+    "FailPoint": 1
+  },
+  {
+    "Name": 501,
+    "ItemUseId": 631130301,
+    "TypeString": 2004936,
+    "ComposeGradeString": 2004952,
+    "FailPointType": 144,
+    "FailPoint": 1
+  },
+  {
+    "Name": 511,
+    "ItemUseId": 631140301,
+    "TypeString": 2004937,
+    "ComposeGradeString": 2004952,
+    "FailPointType": 145,
+    "FailPoint": 1
+  }
+]

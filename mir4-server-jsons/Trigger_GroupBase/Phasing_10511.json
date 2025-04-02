@@ -1,0 +1,84 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "19580,17920,-172",
+    "TriggerRotation": -170,
+    "LinkID": [
+      5,
+      3
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": 2,
+    "TriggerLocation": "22334,18511,244",
+    "TriggerRotation": -170,
+    "LinkID": [],
+    "Value1": [
+      "2.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": 4,
+    "TriggerLocation": "22127,17864,443",
+    "TriggerRotation": -170,
+    "LinkID": [],
+    "Value1": [
+      "105005025"
+    ],
+    "Value2": [
+      "22910,17926,-235"
+    ],
+    "Value3": [
+      "-175"
+    ],
+    "Value4": [
+      "0",
+      "0.0"
+    ],
+    "Value5": [
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": 5,
+    "TriggerLocation": "22298,18049,175",
+    "TriggerRotation": -170,
+    "LinkID": [
+      2
+    ],
+    "Value1": [
+      "3"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": "ETriggerType::PLAYSOUND",
+    "TriggerLocation": "20893,17210,-6",
+    "TriggerRotation": -170,
+    "LinkID": [],
+    "Value1": [
+      "100110"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

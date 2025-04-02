@@ -1,0 +1,1767 @@
+[
+  {
+    "MenuId": 1,
+    "GroupType": 1,
+    "MenuDepth": 1,
+    "MenuName": 1012002,
+    "MenuSymbol": 730101,
+    "ChildMenu": [
+      101,
+      502,
+      103,
+      104
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 2,
+    "GroupType": 1,
+    "MenuDepth": 1,
+    "MenuName": 1012003,
+    "MenuSymbol": 730113,
+    "ChildMenu": [
+      2008,
+      2009,
+      2010,
+      0
+    ],
+    "ChildContentsId": [
+      1400,
+      1500,
+      6900
+    ],
+    "LinkContents": 1400,
+    "IndicatorContentsId": [
+      1400,
+      1500,
+      6900
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 3,
+    "GroupType": 1,
+    "MenuDepth": 1,
+    "MenuName": 1012007,
+    "MenuSymbol": 3400004,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      5300,
+      0,
+      0
+    ],
+    "LinkContents": 5300,
+    "IndicatorContentsId": [
+      5300
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 4,
+    "GroupType": 1,
+    "MenuDepth": 1,
+    "MenuName": 1012004,
+    "MenuSymbol": 730115,
+    "ChildMenu": [
+      301,
+      302,
+      303,
+      0
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 5,
+    "GroupType": 2,
+    "MenuDepth": 1,
+    "MenuName": 1012006,
+    "MenuSymbol": 730117,
+    "ChildMenu": [
+      504,
+      505,
+      509,
+      0
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 6,
+    "GroupType": 2,
+    "MenuDepth": 1,
+    "MenuName": 1012008,
+    "MenuSymbol": 730119,
+    "ChildMenu": [
+      506,
+      503,
+      507,
+      508
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 7,
+    "GroupType": 2,
+    "MenuDepth": 1,
+    "MenuName": 1012024,
+    "MenuSymbol": 730130,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      6100,
+      0,
+      0
+    ],
+    "LinkContents": 6100,
+    "IndicatorContentsId": [
+      6100
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 8,
+    "GroupType": 2,
+    "MenuDepth": 1,
+    "MenuName": 1012009,
+    "MenuSymbol": 730111,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      5900,
+      0,
+      0
+    ],
+    "LinkContents": 5900,
+    "IndicatorContentsId": [
+      5900
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 9,
+    "GroupType": 3,
+    "MenuDepth": 1,
+    "MenuName": 1012010,
+    "MenuSymbol": 730120,
+    "ChildMenu": [
+      901,
+      902,
+      4500,
+      0
+    ],
+    "ChildContentsId": [
+      901,
+      902,
+      4500
+    ],
+    "LinkContents": 901,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 10,
+    "GroupType": 3,
+    "MenuDepth": 1,
+    "MenuName": 1012005,
+    "MenuSymbol": 3900019,
+    "ChildMenu": [
+      1901,
+      1902,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 11,
+    "GroupType": 3,
+    "MenuDepth": 1,
+    "MenuName": 1012026,
+    "MenuSymbol": 730155,
+    "ChildMenu": [
+      2002,
+      2004,
+      904,
+      2005
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 12,
+    "GroupType": 3,
+    "MenuDepth": 1,
+    "MenuName": 1012025,
+    "MenuSymbol": 730154,
+    "ChildMenu": [
+      903,
+      1001,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 13,
+    "GroupType": 4,
+    "MenuDepth": 1,
+    "MenuName": 1012015,
+    "MenuSymbol": 730109,
+    "ChildMenu": [
+      1401,
+      1402,
+      1403,
+      0
+    ],
+    "ChildContentsId": [
+      1401,
+      1402,
+      1403
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 14,
+    "GroupType": 4,
+    "MenuDepth": 1,
+    "MenuName": 1013019,
+    "MenuSymbol": 730129,
+    "ChildMenu": [
+      1501,
+      1502,
+      1503,
+      0
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 15,
+    "GroupType": 4,
+    "MenuDepth": 1,
+    "MenuName": 1012018,
+    "MenuSymbol": 730108,
+    "ChildMenu": [
+      1701,
+      1702,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 16,
+    "GroupType": 4,
+    "MenuDepth": 1,
+    "MenuName": 1012019,
+    "MenuSymbol": 730153,
+    "ChildMenu": [
+      1804,
+      1805,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 17,
+    "GroupType": 5,
+    "MenuDepth": 1,
+    "MenuName": 1020224,
+    "MenuSymbol": 730159,
+    "ChildMenu": [
+      5002,
+      5003,
+      5005,
+      0
+    ],
+    "ChildContentsId": [
+      5002,
+      5003,
+      5005
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 18,
+    "GroupType": 5,
+    "MenuDepth": 1,
+    "MenuName": 1012017,
+    "MenuSymbol": 730112,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3901,
+      3902,
+      0
+    ],
+    "LinkContents": 3901,
+    "IndicatorContentsId": [
+      3901,
+      3902
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 19,
+    "GroupType": 5,
+    "MenuDepth": 1,
+    "MenuName": 1020210,
+    "MenuSymbol": 730157,
+    "ChildMenu": [
+      2006,
+      2007,
+      2011,
+      0
+    ],
+    "ChildContentsId": [
+      0,
+      0,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 20,
+    "GroupType": 5,
+    "MenuDepth": 1,
+    "MenuName": 1012021,
+    "MenuSymbol": 730106,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3700,
+      0,
+      0
+    ],
+    "LinkContents": 3700,
+    "IndicatorContentsId": [
+      3700
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 101,
+    "GroupType": 1,
+    "MenuDepth": 2,
+    "MenuName": 1013002,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      1100,
+      7400,
+      1000
+    ],
+    "LinkContents": 1100,
+    "IndicatorContentsId": [
+      1100,
+      7400,
+      1000
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 103,
+    "GroupType": 1,
+    "MenuDepth": 2,
+    "MenuName": 1020221,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      1900,
+      7000,
+      0
+    ],
+    "LinkContents": 7000,
+    "IndicatorContentsId": [
+      1900,
+      7000
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 104,
+    "GroupType": 1,
+    "MenuDepth": 2,
+    "MenuName": 1020105,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      1200,
+      1600,
+      7100
+    ],
+    "LinkContents": 1200,
+    "IndicatorContentsId": [
+      1200,
+      1600,
+      7100
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 301,
+    "GroupType": 1,
+    "MenuDepth": 2,
+    "MenuName": 1013004,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      1700,
+      1800,
+      1850
+    ],
+    "LinkContents": 1700,
+    "IndicatorContentsId": [
+      1700
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 302,
+    "GroupType": 1,
+    "MenuDepth": 2,
+    "MenuName": 1013005,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      1700,
+      1800,
+      1850
+    ],
+    "LinkContents": 1800,
+    "IndicatorContentsId": [
+      1800
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 303,
+    "GroupType": 1,
+    "MenuDepth": 2,
+    "MenuName": 1013045,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      1700,
+      1800,
+      1850
+    ],
+    "LinkContents": 1850,
+    "IndicatorContentsId": [
+      1850
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 502,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 1013007,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      1900,
+      7000,
+      0
+    ],
+    "LinkContents": 1900,
+    "IndicatorContentsId": [
+      1900,
+      7000
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 503,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 1013031,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3380,
+      3381,
+      3382
+    ],
+    "LinkContents": 3380,
+    "IndicatorContentsId": [
+      3380,
+      3381,
+      3382
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 504,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 1020111,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3320,
+      3340,
+      3390
+    ],
+    "LinkContents": 3320,
+    "IndicatorContentsId": [
+      3320
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 505,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 1020112,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3320,
+      3340,
+      3390
+    ],
+    "LinkContents": 3340,
+    "IndicatorContentsId": [
+      3340
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 506,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 1013032,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2000,
+      2001,
+      2004
+    ],
+    "LinkContents": 2000,
+    "IndicatorContentsId": [
+      2000,
+      2001,
+      2004
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 507,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 1020162,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3370,
+      0,
+      0
+    ],
+    "LinkContents": 3370,
+    "IndicatorContentsId": [
+      3370
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 508,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 1013042,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      6600,
+      0,
+      0
+    ],
+    "LinkContents": 6600,
+    "IndicatorContentsId": [
+      6600
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 509,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 1013044,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3320,
+      3340,
+      3390
+    ],
+    "LinkContents": 3390,
+    "IndicatorContentsId": [
+      3390
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 901,
+    "GroupType": 3,
+    "MenuDepth": 2,
+    "MenuName": 1000132,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2400,
+      2300,
+      4500
+    ],
+    "LinkContents": 2400,
+    "IndicatorContentsId": [
+      2400
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 902,
+    "GroupType": 3,
+    "MenuDepth": 2,
+    "MenuName": 1013011,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2400,
+      2300,
+      4500
+    ],
+    "LinkContents": 2300,
+    "IndicatorContentsId": [
+      2300
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 903,
+    "GroupType": 3,
+    "MenuDepth": 2,
+    "MenuName": 1010112,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      4000,
+      2500,
+      0
+    ],
+    "LinkContents": 4000,
+    "IndicatorContentsId": [
+      4000
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 904,
+    "GroupType": 3,
+    "MenuDepth": 2,
+    "MenuName": 1013029,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      4300,
+      5700,
+      5800
+    ],
+    "LinkContents": 5700,
+    "IndicatorContentsId": [
+      5700
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 1001,
+    "GroupType": 3,
+    "MenuDepth": 2,
+    "MenuName": 1013012,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      4000,
+      2500,
+      0
+    ],
+    "LinkContents": 2500,
+    "IndicatorContentsId": [
+      2500
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 1002,
+    "GroupType": 3,
+    "MenuDepth": 2,
+    "MenuName": 1013013,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2600,
+      0,
+      0
+    ],
+    "LinkContents": 2600,
+    "IndicatorContentsId": [
+      2600
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 1401,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013017,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      4800,
+      4900,
+      4950
+    ],
+    "LinkContents": 4800,
+    "IndicatorContentsId": [
+      4800
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 1402,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013018,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      4800,
+      4900,
+      4950
+    ],
+    "LinkContents": 4900,
+    "IndicatorContentsId": [
+      4900
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 1403,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013049,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      4800,
+      4900,
+      4950
+    ],
+    "LinkContents": 4950,
+    "IndicatorContentsId": [
+      4950
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 1501,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013019,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3200,
+      3100,
+      3150
+    ],
+    "LinkContents": 3200,
+    "IndicatorContentsId": [
+      3200
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 1502,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013020,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3200,
+      3100,
+      3150
+    ],
+    "LinkContents": 3100,
+    "IndicatorContentsId": [
+      3100
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 1503,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013051,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3200,
+      3100,
+      3150
+    ],
+    "LinkContents": 3150,
+    "IndicatorContentsId": [
+      3150
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 1504,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013021,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      4700,
+      0,
+      0
+    ],
+    "LinkContents": 4700,
+    "IndicatorContentsId": [
+      4700
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 1701,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1013036,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2800,
+      0,
+      0
+    ],
+    "LinkContents": 2800,
+    "IndicatorContentsId": [
+      2800
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 1702,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1013037,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2710,
+      2730,
+      0
+    ],
+    "LinkContents": 2710,
+    "IndicatorContentsId": [
+      2710
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 1804,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1013039,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2930,
+      0,
+      0
+    ],
+    "LinkContents": 2930,
+    "IndicatorContentsId": [
+      2930
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 1805,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1013047,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2970,
+      0,
+      0
+    ],
+    "LinkContents": 2970,
+    "IndicatorContentsId": [
+      2970
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 1901,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1012005,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      5400,
+      0,
+      0
+    ],
+    "LinkContents": 5400,
+    "IndicatorContentsId": [
+      5400
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 1902,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1013048,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      7200,
+      0,
+      0
+    ],
+    "LinkContents": 7200,
+    "IndicatorContentsId": [
+      7200
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 2001,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1013026,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3700,
+      0,
+      0
+    ],
+    "LinkContents": 3700,
+    "IndicatorContentsId": [
+      3700
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 2002,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1013027,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3800,
+      0,
+      0
+    ],
+    "LinkContents": 3800,
+    "IndicatorContentsId": [
+      3800
+    ],
+    "CheckAbleButton": true
+  },
+  {
+    "MenuId": 2004,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1013040,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      4300,
+      5700,
+      5800
+    ],
+    "LinkContents": 4300,
+    "IndicatorContentsId": [
+      4300
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 2005,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1013041,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      4300,
+      5700,
+      5800
+    ],
+    "LinkContents": 5800,
+    "IndicatorContentsId": [
+      5800
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 2006,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1020203,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      6800,
+      6801,
+      6802
+    ],
+    "LinkContents": 6800,
+    "IndicatorContentsId": [
+      6800
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 2007,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1020209,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      6800,
+      6801,
+      6802
+    ],
+    "LinkContents": 6801,
+    "IndicatorContentsId": [
+      6801
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 2008,
+    "GroupType": 1,
+    "MenuDepth": 2,
+    "MenuName": 1012003,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      1400,
+      1500,
+      6900
+    ],
+    "LinkContents": 1400,
+    "IndicatorContentsId": [
+      1400
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 2009,
+    "GroupType": 1,
+    "MenuDepth": 2,
+    "MenuName": 1020159,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      1400,
+      1500,
+      6900
+    ],
+    "LinkContents": 1500,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 2010,
+    "GroupType": 1,
+    "MenuDepth": 2,
+    "MenuName": 1013046,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      1400,
+      1500,
+      6900
+    ],
+    "LinkContents": 6900,
+    "IndicatorContentsId": [
+      0
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 2011,
+    "GroupType": 5,
+    "MenuDepth": 2,
+    "MenuName": 1020226,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      6800,
+      6801,
+      6802
+    ],
+    "LinkContents": 6802,
+    "IndicatorContentsId": [
+      6802
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 3001,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013043,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2851,
+      2853,
+      0
+    ],
+    "LinkContents": 2851,
+    "IndicatorContentsId": [
+      2851
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 3002,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013030,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2851,
+      2853,
+      0
+    ],
+    "LinkContents": 2853,
+    "IndicatorContentsId": [
+      2853
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 3010,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013052,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2820,
+      2990,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      2820
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 3011,
+    "GroupType": 4,
+    "MenuDepth": 2,
+    "MenuName": 1013053,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2820,
+      2990,
+      0
+    ],
+    "LinkContents": 0,
+    "IndicatorContentsId": [
+      2990
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 3600,
+    "GroupType": 0,
+    "MenuDepth": 0,
+    "MenuName": 1000190,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3600,
+      3604,
+      0
+    ],
+    "LinkContents": 3600,
+    "IndicatorContentsId": [
+      3600
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 3604,
+    "GroupType": 0,
+    "MenuDepth": 0,
+    "MenuName": 1020220,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      3600,
+      3604,
+      0
+    ],
+    "LinkContents": 3604,
+    "IndicatorContentsId": [
+      3604
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 4000,
+    "GroupType": 5,
+    "MenuDepth": 1,
+    "MenuName": 1013039,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2950,
+      2960,
+      0
+    ],
+    "LinkContents": 2950,
+    "IndicatorContentsId": [
+      2950,
+      2960
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 4500,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 1012013,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      2400,
+      2300,
+      4500
+    ],
+    "LinkContents": 4500,
+    "IndicatorContentsId": [
+      4500
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 5001,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 1012009,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      5900,
+      0,
+      0
+    ],
+    "LinkContents": 5900,
+    "IndicatorContentsId": [
+      5900
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 5002,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 5800001,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      5910,
+      5913,
+      5914
+    ],
+    "LinkContents": 5910,
+    "IndicatorContentsId": [
+      5910,
+      5913,
+      5914
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 5003,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 5800003,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      5911,
+      5912,
+      0
+    ],
+    "LinkContents": 5911,
+    "IndicatorContentsId": [
+      5911,
+      5912
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 5004,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 5800005,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      5911,
+      5912,
+      0
+    ],
+    "LinkContents": 5912,
+    "IndicatorContentsId": [
+      5912
+    ],
+    "CheckAbleButton": false
+  },
+  {
+    "MenuId": 5005,
+    "GroupType": 2,
+    "MenuDepth": 2,
+    "MenuName": 5800002,
+    "MenuSymbol": 0,
+    "ChildMenu": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChildContentsId": [
+      6851,
+      0,
+      0
+    ],
+    "LinkContents": 6851,
+    "IndicatorContentsId": [
+      6851
+    ],
+    "CheckAbleButton": false
+  }
+]

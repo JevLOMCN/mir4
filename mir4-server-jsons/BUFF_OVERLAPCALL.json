@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BUFF_OVERLAPCALL",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'BuffOverlapCallTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "101": {
+        "OverLapCallID": 101,
+        "OverLapCallGroupID": 1,
+        "BuffOverlapCntMin": 10,
+        "BuffOverlapCntMax": 14,
+        "AttachBuffID": [
+          500003
+        ],
+        "BuffOverlapLevel": 1
+      },
+      "102": {
+        "OverLapCallID": 102,
+        "OverLapCallGroupID": 1,
+        "BuffOverlapCntMin": 15,
+        "BuffOverlapCntMax": 19,
+        "AttachBuffID": [
+          500004
+        ],
+        "BuffOverlapLevel": 2
+      },
+      "103": {
+        "OverLapCallID": 103,
+        "OverLapCallGroupID": 1,
+        "BuffOverlapCntMin": 20,
+        "BuffOverlapCntMax": 50,
+        "AttachBuffID": [
+          500005
+        ],
+        "BuffOverlapLevel": 3
+      },
+      "201": {
+        "OverLapCallID": 201,
+        "OverLapCallGroupID": 2,
+        "BuffOverlapCntMin": 3,
+        "BuffOverlapCntMax": 5,
+        "AttachBuffID": [
+          41011
+        ],
+        "BuffOverlapLevel": 1
+      },
+      "202": {
+        "OverLapCallID": 202,
+        "OverLapCallGroupID": 2,
+        "BuffOverlapCntMin": 6,
+        "BuffOverlapCntMax": 8,
+        "AttachBuffID": [
+          41012
+        ],
+        "BuffOverlapLevel": 2
+      },
+      "203": {
+        "OverLapCallID": 203,
+        "OverLapCallGroupID": 2,
+        "BuffOverlapCntMin": 9,
+        "BuffOverlapCntMax": 10,
+        "AttachBuffID": [
+          41013
+        ],
+        "BuffOverlapLevel": 3
+      },
+      "301": {
+        "OverLapCallID": 301,
+        "OverLapCallGroupID": 3,
+        "BuffOverlapCntMin": 1,
+        "BuffOverlapCntMax": 1,
+        "AttachBuffID": [
+          705000
+        ],
+        "BuffOverlapLevel": 1
+      }
+    }
+  }
+]

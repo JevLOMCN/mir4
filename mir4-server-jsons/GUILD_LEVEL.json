@@ -1,0 +1,802 @@
+[
+  {
+    "Name": 1,
+    "Level": 1,
+    "ReqExp": 816,
+    "MaxMember": 20,
+    "MaxAlliance": 1,
+    "MaxDeclaration": 1
+  },
+  {
+    "Name": 2,
+    "Level": 2,
+    "ReqExp": 2275,
+    "MaxMember": 25,
+    "MaxAlliance": 1,
+    "MaxDeclaration": 2
+  },
+  {
+    "Name": 3,
+    "Level": 3,
+    "ReqExp": 4889,
+    "MaxMember": 30,
+    "MaxAlliance": 2,
+    "MaxDeclaration": 3
+  },
+  {
+    "Name": 4,
+    "Level": 4,
+    "ReqExp": 9100,
+    "MaxMember": 35,
+    "MaxAlliance": 2,
+    "MaxDeclaration": 4
+  },
+  {
+    "Name": 5,
+    "Level": 5,
+    "ReqExp": 15384,
+    "MaxMember": 40,
+    "MaxAlliance": 3,
+    "MaxDeclaration": 5
+  },
+  {
+    "Name": 6,
+    "Level": 6,
+    "ReqExp": 24257,
+    "MaxMember": 42,
+    "MaxAlliance": 3,
+    "MaxDeclaration": 6
+  },
+  {
+    "Name": 7,
+    "Level": 7,
+    "ReqExp": 36280,
+    "MaxMember": 44,
+    "MaxAlliance": 4,
+    "MaxDeclaration": 7
+  },
+  {
+    "Name": 8,
+    "Level": 8,
+    "ReqExp": 52063,
+    "MaxMember": 46,
+    "MaxAlliance": 4,
+    "MaxDeclaration": 8
+  },
+  {
+    "Name": 9,
+    "Level": 9,
+    "ReqExp": 72266,
+    "MaxMember": 48,
+    "MaxAlliance": 5,
+    "MaxDeclaration": 9
+  },
+  {
+    "Name": 10,
+    "Level": 10,
+    "ReqExp": 97609,
+    "MaxMember": 50,
+    "MaxAlliance": 5,
+    "MaxDeclaration": 10
+  },
+  {
+    "Name": 11,
+    "Level": 11,
+    "ReqExp": 128871,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 12,
+    "Level": 12,
+    "ReqExp": 166897,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 13,
+    "Level": 13,
+    "ReqExp": 212602,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 14,
+    "Level": 14,
+    "ReqExp": 266973,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 15,
+    "Level": 15,
+    "ReqExp": 331076,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 16,
+    "Level": 16,
+    "ReqExp": 406060,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 17,
+    "Level": 17,
+    "ReqExp": 493159,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 18,
+    "Level": 18,
+    "ReqExp": 593698,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 19,
+    "Level": 19,
+    "ReqExp": 709096,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 20,
+    "Level": 20,
+    "ReqExp": 840872,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 21,
+    "Level": 21,
+    "ReqExp": 990648,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 22,
+    "Level": 22,
+    "ReqExp": 1160153,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 23,
+    "Level": 23,
+    "ReqExp": 1351227,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 24,
+    "Level": 24,
+    "ReqExp": 1562448,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 25,
+    "Level": 25,
+    "ReqExp": 1791213,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 26,
+    "Level": 26,
+    "ReqExp": 2038224,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 27,
+    "Level": 27,
+    "ReqExp": 2304182,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 28,
+    "Level": 28,
+    "ReqExp": 2589789,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 29,
+    "Level": 29,
+    "ReqExp": 2895747,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 30,
+    "Level": 30,
+    "ReqExp": 3222757,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 31,
+    "Level": 31,
+    "ReqExp": 3571522,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 32,
+    "Level": 32,
+    "ReqExp": 3942743,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 33,
+    "Level": 33,
+    "ReqExp": 4337122,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 34,
+    "Level": 34,
+    "ReqExp": 4755361,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 35,
+    "Level": 35,
+    "ReqExp": 5198161,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 36,
+    "Level": 36,
+    "ReqExp": 5666224,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 37,
+    "Level": 37,
+    "ReqExp": 6160252,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 38,
+    "Level": 38,
+    "ReqExp": 6680947,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 39,
+    "Level": 39,
+    "ReqExp": 7229010,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 40,
+    "Level": 40,
+    "ReqExp": 7859162,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 41,
+    "Level": 41,
+    "ReqExp": 8612593,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 42,
+    "Level": 42,
+    "ReqExp": 9534349,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 43,
+    "Level": 43,
+    "ReqExp": 10673536,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 44,
+    "Level": 44,
+    "ReqExp": 12083525,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 45,
+    "Level": 45,
+    "ReqExp": 13822152,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 46,
+    "Level": 46,
+    "ReqExp": 15951930,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 47,
+    "Level": 47,
+    "ReqExp": 18540243,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 48,
+    "Level": 48,
+    "ReqExp": 21659560,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 49,
+    "Level": 49,
+    "ReqExp": 25387630,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 50,
+    "Level": 50,
+    "ReqExp": 29183400,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 51,
+    "Level": 51,
+    "ReqExp": 33053640,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 52,
+    "Level": 52,
+    "ReqExp": 37005120,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 53,
+    "Level": 53,
+    "ReqExp": 41044610,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 54,
+    "Level": 54,
+    "ReqExp": 45178881,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 55,
+    "Level": 55,
+    "ReqExp": 49414701,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 56,
+    "Level": 56,
+    "ReqExp": 53758841,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 57,
+    "Level": 57,
+    "ReqExp": 58218071,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 58,
+    "Level": 58,
+    "ReqExp": 62799161,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 59,
+    "Level": 59,
+    "ReqExp": 67508881,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 60,
+    "Level": 60,
+    "ReqExp": 72354001,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 61,
+    "Level": 61,
+    "ReqExp": 77341291,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 62,
+    "Level": 62,
+    "ReqExp": 82477521,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 63,
+    "Level": 63,
+    "ReqExp": 87769462,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 64,
+    "Level": 64,
+    "ReqExp": 93223882,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 65,
+    "Level": 65,
+    "ReqExp": 98847552,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 66,
+    "Level": 66,
+    "ReqExp": 104647242,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 67,
+    "Level": 67,
+    "ReqExp": 110629722,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 68,
+    "Level": 68,
+    "ReqExp": 116801762,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 69,
+    "Level": 69,
+    "ReqExp": 123170132,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 70,
+    "Level": 70,
+    "ReqExp": 129741602,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 71,
+    "Level": 71,
+    "ReqExp": 136522942,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 72,
+    "Level": 72,
+    "ReqExp": 143520922,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 73,
+    "Level": 73,
+    "ReqExp": 150742313,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 74,
+    "Level": 74,
+    "ReqExp": 158193883,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 75,
+    "Level": 75,
+    "ReqExp": 165882403,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 76,
+    "Level": 76,
+    "ReqExp": 173814643,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 77,
+    "Level": 77,
+    "ReqExp": 181997373,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 78,
+    "Level": 78,
+    "ReqExp": 190437363,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 79,
+    "Level": 79,
+    "ReqExp": 199141383,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 80,
+    "Level": 80,
+    "ReqExp": 208116203,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 81,
+    "Level": 81,
+    "ReqExp": 217368593,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 82,
+    "Level": 82,
+    "ReqExp": 226905324,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 83,
+    "Level": 83,
+    "ReqExp": 236733164,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 84,
+    "Level": 84,
+    "ReqExp": 246858884,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 85,
+    "Level": 85,
+    "ReqExp": 257289254,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 86,
+    "Level": 86,
+    "ReqExp": 268031044,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 87,
+    "Level": 87,
+    "ReqExp": 279091024,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 88,
+    "Level": 88,
+    "ReqExp": 290475964,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 89,
+    "Level": 89,
+    "ReqExp": 302192634,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 90,
+    "Level": 90,
+    "ReqExp": 314247804,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 91,
+    "Level": 91,
+    "ReqExp": 326648244,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 92,
+    "Level": 92,
+    "ReqExp": 339400725,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 93,
+    "Level": 93,
+    "ReqExp": 352512015,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 94,
+    "Level": 94,
+    "ReqExp": 365988885,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 95,
+    "Level": 95,
+    "ReqExp": 379838105,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 96,
+    "Level": 96,
+    "ReqExp": 394066445,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 97,
+    "Level": 97,
+    "ReqExp": 408680675,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 98,
+    "Level": 98,
+    "ReqExp": 423687565,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 99,
+    "Level": 99,
+    "ReqExp": 439093885,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  },
+  {
+    "Name": 100,
+    "Level": 100,
+    "ReqExp": 439093885,
+    "MaxMember": 0,
+    "MaxAlliance": 0,
+    "MaxDeclaration": 0
+  }
+]

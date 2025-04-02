@@ -1,0 +1,59 @@
+[
+  {
+    "Name": 101,
+    "BdragonID": 101,
+    "BDragonName": 421907,
+    "BDragonInfo": 4000101,
+    "BDragonThumbnail": 430061,
+    "StageId": 201500010,
+    "IsShow": 1,
+    "MinLevel": 95,
+    "MaxLevel": 120,
+    "NeedEnterItemID": 140400001,
+    "NeedEnterItemCount": 1,
+    "BDragonTimer": 0,
+    "MonsterLevel": [
+      105,
+      130
+    ],
+    "PositionLocation": 801
+  },
+  {
+    "Name": 102,
+    "BdragonID": 102,
+    "BDragonName": 421908,
+    "BDragonInfo": 4000101,
+    "BDragonThumbnail": 430062,
+    "StageId": 201500020,
+    "IsShow": 1,
+    "MinLevel": 105,
+    "MaxLevel": 130,
+    "NeedEnterItemID": 140400001,
+    "NeedEnterItemCount": 1,
+    "BDragonTimer": 0,
+    "MonsterLevel": [
+      115,
+      140
+    ],
+    "PositionLocation": 802
+  },
+  {
+    "Name": 103,
+    "BdragonID": 103,
+    "BDragonName": 421909,
+    "BDragonInfo": 4000101,
+    "BDragonThumbnail": 430063,
+    "StageId": 201500030,
+    "IsShow": 1,
+    "MinLevel": 115,
+    "MaxLevel": 0,
+    "NeedEnterItemID": 140400001,
+    "NeedEnterItemCount": 1,
+    "BDragonTimer": 0,
+    "MonsterLevel": [
+      125,
+      150
+    ],
+    "PositionLocation": 803
+  }
+]

@@ -1,0 +1,1442 @@
+[
+  {
+    "Name": 10101,
+    "TrainingStatusID": 10101,
+    "StatusId": 40,
+    "TrainingGroupID": 1001,
+    "OrderNum": 1,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10102,
+    "TrainingStatusID": 10102,
+    "StatusId": 42,
+    "TrainingGroupID": 1001,
+    "OrderNum": 2,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10103,
+    "TrainingStatusID": 10103,
+    "StatusId": 41,
+    "TrainingGroupID": 1001,
+    "OrderNum": 3,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10104,
+    "TrainingStatusID": 10104,
+    "StatusId": 43,
+    "TrainingGroupID": 1001,
+    "OrderNum": 4,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10105,
+    "TrainingStatusID": 10105,
+    "StatusId": 89,
+    "TrainingGroupID": 1001,
+    "OrderNum": 5,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10106,
+    "TrainingStatusID": 10106,
+    "StatusId": 82,
+    "TrainingGroupID": 1001,
+    "OrderNum": 6,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10107,
+    "TrainingStatusID": 10107,
+    "StatusId": 84,
+    "TrainingGroupID": 1001,
+    "OrderNum": 7,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10108,
+    "TrainingStatusID": 10108,
+    "StatusId": 93,
+    "TrainingGroupID": 1001,
+    "OrderNum": 8,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10201,
+    "TrainingStatusID": 10201,
+    "StatusId": 119,
+    "TrainingGroupID": 1002,
+    "OrderNum": 1,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10202,
+    "TrainingStatusID": 10202,
+    "StatusId": 50,
+    "TrainingGroupID": 1002,
+    "OrderNum": 2,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10203,
+    "TrainingStatusID": 10203,
+    "StatusId": 52,
+    "TrainingGroupID": 1002,
+    "OrderNum": 3,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10204,
+    "TrainingStatusID": 10204,
+    "StatusId": 48,
+    "TrainingGroupID": 1002,
+    "OrderNum": 4,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10205,
+    "TrainingStatusID": 10205,
+    "StatusId": 120,
+    "TrainingGroupID": 1002,
+    "OrderNum": 5,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10206,
+    "TrainingStatusID": 10206,
+    "StatusId": 51,
+    "TrainingGroupID": 1002,
+    "OrderNum": 6,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10207,
+    "TrainingStatusID": 10207,
+    "StatusId": 53,
+    "TrainingGroupID": 1002,
+    "OrderNum": 7,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10208,
+    "TrainingStatusID": 10208,
+    "StatusId": 49,
+    "TrainingGroupID": 1002,
+    "OrderNum": 8,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10301,
+    "TrainingStatusID": 10301,
+    "StatusId": 44,
+    "TrainingGroupID": 1003,
+    "OrderNum": 1,
+    "OpenConditionLevel": 90,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10302,
+    "TrainingStatusID": 10302,
+    "StatusId": 45,
+    "TrainingGroupID": 1003,
+    "OrderNum": 2,
+    "OpenConditionLevel": 90,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10303,
+    "TrainingStatusID": 10303,
+    "StatusId": 32,
+    "TrainingGroupID": 1003,
+    "OrderNum": 3,
+    "OpenConditionLevel": 95,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10304,
+    "TrainingStatusID": 10304,
+    "StatusId": 33,
+    "TrainingGroupID": 1003,
+    "OrderNum": 4,
+    "OpenConditionLevel": 95,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10305,
+    "TrainingStatusID": 10305,
+    "StatusId": 34,
+    "TrainingGroupID": 1003,
+    "OrderNum": 5,
+    "OpenConditionLevel": 100,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10306,
+    "TrainingStatusID": 10306,
+    "StatusId": 35,
+    "TrainingGroupID": 1003,
+    "OrderNum": 6,
+    "OpenConditionLevel": 100,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10307,
+    "TrainingStatusID": 10307,
+    "StatusId": 38,
+    "TrainingGroupID": 1003,
+    "OrderNum": 7,
+    "OpenConditionLevel": 105,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10308,
+    "TrainingStatusID": 10308,
+    "StatusId": 39,
+    "TrainingGroupID": 1003,
+    "OrderNum": 8,
+    "OpenConditionLevel": 105,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10401,
+    "TrainingStatusID": 10401,
+    "StatusId": 1,
+    "TrainingGroupID": 1004,
+    "OrderNum": 1,
+    "OpenConditionLevel": 110,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10402,
+    "TrainingStatusID": 10402,
+    "StatusId": 6,
+    "TrainingGroupID": 1004,
+    "OrderNum": 2,
+    "OpenConditionLevel": 110,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10403,
+    "TrainingStatusID": 10403,
+    "StatusId": 20,
+    "TrainingGroupID": 1004,
+    "OrderNum": 3,
+    "OpenConditionLevel": 115,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10404,
+    "TrainingStatusID": 10404,
+    "StatusId": 22,
+    "TrainingGroupID": 1004,
+    "OrderNum": 4,
+    "OpenConditionLevel": 115,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10405,
+    "TrainingStatusID": 10405,
+    "StatusId": 24,
+    "TrainingGroupID": 1004,
+    "OrderNum": 5,
+    "OpenConditionLevel": 120,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10406,
+    "TrainingStatusID": 10406,
+    "StatusId": 26,
+    "TrainingGroupID": 1004,
+    "OrderNum": 6,
+    "OpenConditionLevel": 120,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10407,
+    "TrainingStatusID": 10407,
+    "StatusId": 28,
+    "TrainingGroupID": 1004,
+    "OrderNum": 7,
+    "OpenConditionLevel": 125,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 10408,
+    "TrainingStatusID": 10408,
+    "StatusId": 29,
+    "TrainingGroupID": 1004,
+    "OrderNum": 8,
+    "OpenConditionLevel": 125,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20101,
+    "TrainingStatusID": 20101,
+    "StatusId": 40,
+    "TrainingGroupID": 2001,
+    "OrderNum": 1,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20102,
+    "TrainingStatusID": 20102,
+    "StatusId": 42,
+    "TrainingGroupID": 2001,
+    "OrderNum": 2,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20103,
+    "TrainingStatusID": 20103,
+    "StatusId": 41,
+    "TrainingGroupID": 2001,
+    "OrderNum": 3,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20104,
+    "TrainingStatusID": 20104,
+    "StatusId": 43,
+    "TrainingGroupID": 2001,
+    "OrderNum": 4,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20105,
+    "TrainingStatusID": 20105,
+    "StatusId": 89,
+    "TrainingGroupID": 2001,
+    "OrderNum": 5,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20106,
+    "TrainingStatusID": 20106,
+    "StatusId": 82,
+    "TrainingGroupID": 2001,
+    "OrderNum": 6,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20107,
+    "TrainingStatusID": 20107,
+    "StatusId": 84,
+    "TrainingGroupID": 2001,
+    "OrderNum": 7,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20108,
+    "TrainingStatusID": 20108,
+    "StatusId": 93,
+    "TrainingGroupID": 2001,
+    "OrderNum": 8,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20201,
+    "TrainingStatusID": 20201,
+    "StatusId": 119,
+    "TrainingGroupID": 2002,
+    "OrderNum": 1,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20202,
+    "TrainingStatusID": 20202,
+    "StatusId": 50,
+    "TrainingGroupID": 2002,
+    "OrderNum": 2,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20203,
+    "TrainingStatusID": 20203,
+    "StatusId": 52,
+    "TrainingGroupID": 2002,
+    "OrderNum": 3,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20204,
+    "TrainingStatusID": 20204,
+    "StatusId": 48,
+    "TrainingGroupID": 2002,
+    "OrderNum": 4,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20205,
+    "TrainingStatusID": 20205,
+    "StatusId": 120,
+    "TrainingGroupID": 2002,
+    "OrderNum": 5,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20206,
+    "TrainingStatusID": 20206,
+    "StatusId": 51,
+    "TrainingGroupID": 2002,
+    "OrderNum": 6,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20207,
+    "TrainingStatusID": 20207,
+    "StatusId": 53,
+    "TrainingGroupID": 2002,
+    "OrderNum": 7,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20208,
+    "TrainingStatusID": 20208,
+    "StatusId": 49,
+    "TrainingGroupID": 2002,
+    "OrderNum": 8,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20301,
+    "TrainingStatusID": 20301,
+    "StatusId": 44,
+    "TrainingGroupID": 2003,
+    "OrderNum": 1,
+    "OpenConditionLevel": 90,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20302,
+    "TrainingStatusID": 20302,
+    "StatusId": 45,
+    "TrainingGroupID": 2003,
+    "OrderNum": 2,
+    "OpenConditionLevel": 90,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20303,
+    "TrainingStatusID": 20303,
+    "StatusId": 32,
+    "TrainingGroupID": 2003,
+    "OrderNum": 3,
+    "OpenConditionLevel": 95,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20304,
+    "TrainingStatusID": 20304,
+    "StatusId": 33,
+    "TrainingGroupID": 2003,
+    "OrderNum": 4,
+    "OpenConditionLevel": 95,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20305,
+    "TrainingStatusID": 20305,
+    "StatusId": 34,
+    "TrainingGroupID": 2003,
+    "OrderNum": 5,
+    "OpenConditionLevel": 100,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20306,
+    "TrainingStatusID": 20306,
+    "StatusId": 35,
+    "TrainingGroupID": 2003,
+    "OrderNum": 6,
+    "OpenConditionLevel": 100,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20307,
+    "TrainingStatusID": 20307,
+    "StatusId": 38,
+    "TrainingGroupID": 2003,
+    "OrderNum": 7,
+    "OpenConditionLevel": 105,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20308,
+    "TrainingStatusID": 20308,
+    "StatusId": 39,
+    "TrainingGroupID": 2003,
+    "OrderNum": 8,
+    "OpenConditionLevel": 105,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20401,
+    "TrainingStatusID": 20401,
+    "StatusId": 1,
+    "TrainingGroupID": 2004,
+    "OrderNum": 1,
+    "OpenConditionLevel": 110,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20402,
+    "TrainingStatusID": 20402,
+    "StatusId": 6,
+    "TrainingGroupID": 2004,
+    "OrderNum": 2,
+    "OpenConditionLevel": 110,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20403,
+    "TrainingStatusID": 20403,
+    "StatusId": 20,
+    "TrainingGroupID": 2004,
+    "OrderNum": 3,
+    "OpenConditionLevel": 115,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20404,
+    "TrainingStatusID": 20404,
+    "StatusId": 22,
+    "TrainingGroupID": 2004,
+    "OrderNum": 4,
+    "OpenConditionLevel": 115,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20405,
+    "TrainingStatusID": 20405,
+    "StatusId": 24,
+    "TrainingGroupID": 2004,
+    "OrderNum": 5,
+    "OpenConditionLevel": 120,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20406,
+    "TrainingStatusID": 20406,
+    "StatusId": 26,
+    "TrainingGroupID": 2004,
+    "OrderNum": 6,
+    "OpenConditionLevel": 120,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20407,
+    "TrainingStatusID": 20407,
+    "StatusId": 28,
+    "TrainingGroupID": 2004,
+    "OrderNum": 7,
+    "OpenConditionLevel": 125,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 20408,
+    "TrainingStatusID": 20408,
+    "StatusId": 29,
+    "TrainingGroupID": 2004,
+    "OrderNum": 8,
+    "OpenConditionLevel": 125,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30101,
+    "TrainingStatusID": 30101,
+    "StatusId": 40,
+    "TrainingGroupID": 3001,
+    "OrderNum": 1,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30102,
+    "TrainingStatusID": 30102,
+    "StatusId": 42,
+    "TrainingGroupID": 3001,
+    "OrderNum": 2,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30103,
+    "TrainingStatusID": 30103,
+    "StatusId": 41,
+    "TrainingGroupID": 3001,
+    "OrderNum": 3,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30104,
+    "TrainingStatusID": 30104,
+    "StatusId": 43,
+    "TrainingGroupID": 3001,
+    "OrderNum": 4,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30105,
+    "TrainingStatusID": 30105,
+    "StatusId": 89,
+    "TrainingGroupID": 3001,
+    "OrderNum": 5,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30106,
+    "TrainingStatusID": 30106,
+    "StatusId": 82,
+    "TrainingGroupID": 3001,
+    "OrderNum": 6,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30107,
+    "TrainingStatusID": 30107,
+    "StatusId": 84,
+    "TrainingGroupID": 3001,
+    "OrderNum": 7,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30108,
+    "TrainingStatusID": 30108,
+    "StatusId": 93,
+    "TrainingGroupID": 3001,
+    "OrderNum": 8,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30201,
+    "TrainingStatusID": 30201,
+    "StatusId": 119,
+    "TrainingGroupID": 3002,
+    "OrderNum": 1,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30202,
+    "TrainingStatusID": 30202,
+    "StatusId": 50,
+    "TrainingGroupID": 3002,
+    "OrderNum": 2,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30203,
+    "TrainingStatusID": 30203,
+    "StatusId": 52,
+    "TrainingGroupID": 3002,
+    "OrderNum": 3,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30204,
+    "TrainingStatusID": 30204,
+    "StatusId": 48,
+    "TrainingGroupID": 3002,
+    "OrderNum": 4,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30205,
+    "TrainingStatusID": 30205,
+    "StatusId": 120,
+    "TrainingGroupID": 3002,
+    "OrderNum": 5,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30206,
+    "TrainingStatusID": 30206,
+    "StatusId": 51,
+    "TrainingGroupID": 3002,
+    "OrderNum": 6,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30207,
+    "TrainingStatusID": 30207,
+    "StatusId": 53,
+    "TrainingGroupID": 3002,
+    "OrderNum": 7,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30208,
+    "TrainingStatusID": 30208,
+    "StatusId": 49,
+    "TrainingGroupID": 3002,
+    "OrderNum": 8,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30301,
+    "TrainingStatusID": 30301,
+    "StatusId": 44,
+    "TrainingGroupID": 3003,
+    "OrderNum": 1,
+    "OpenConditionLevel": 90,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30302,
+    "TrainingStatusID": 30302,
+    "StatusId": 45,
+    "TrainingGroupID": 3003,
+    "OrderNum": 2,
+    "OpenConditionLevel": 90,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30303,
+    "TrainingStatusID": 30303,
+    "StatusId": 32,
+    "TrainingGroupID": 3003,
+    "OrderNum": 3,
+    "OpenConditionLevel": 95,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30304,
+    "TrainingStatusID": 30304,
+    "StatusId": 33,
+    "TrainingGroupID": 3003,
+    "OrderNum": 4,
+    "OpenConditionLevel": 95,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30305,
+    "TrainingStatusID": 30305,
+    "StatusId": 34,
+    "TrainingGroupID": 3003,
+    "OrderNum": 5,
+    "OpenConditionLevel": 100,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30306,
+    "TrainingStatusID": 30306,
+    "StatusId": 35,
+    "TrainingGroupID": 3003,
+    "OrderNum": 6,
+    "OpenConditionLevel": 100,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30307,
+    "TrainingStatusID": 30307,
+    "StatusId": 38,
+    "TrainingGroupID": 3003,
+    "OrderNum": 7,
+    "OpenConditionLevel": 105,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30308,
+    "TrainingStatusID": 30308,
+    "StatusId": 39,
+    "TrainingGroupID": 3003,
+    "OrderNum": 8,
+    "OpenConditionLevel": 105,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30401,
+    "TrainingStatusID": 30401,
+    "StatusId": 1,
+    "TrainingGroupID": 3004,
+    "OrderNum": 1,
+    "OpenConditionLevel": 110,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30402,
+    "TrainingStatusID": 30402,
+    "StatusId": 6,
+    "TrainingGroupID": 3004,
+    "OrderNum": 2,
+    "OpenConditionLevel": 110,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30403,
+    "TrainingStatusID": 30403,
+    "StatusId": 20,
+    "TrainingGroupID": 3004,
+    "OrderNum": 3,
+    "OpenConditionLevel": 115,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30404,
+    "TrainingStatusID": 30404,
+    "StatusId": 22,
+    "TrainingGroupID": 3004,
+    "OrderNum": 4,
+    "OpenConditionLevel": 115,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30405,
+    "TrainingStatusID": 30405,
+    "StatusId": 24,
+    "TrainingGroupID": 3004,
+    "OrderNum": 5,
+    "OpenConditionLevel": 120,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30406,
+    "TrainingStatusID": 30406,
+    "StatusId": 26,
+    "TrainingGroupID": 3004,
+    "OrderNum": 6,
+    "OpenConditionLevel": 120,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30407,
+    "TrainingStatusID": 30407,
+    "StatusId": 28,
+    "TrainingGroupID": 3004,
+    "OrderNum": 7,
+    "OpenConditionLevel": 125,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 30408,
+    "TrainingStatusID": 30408,
+    "StatusId": 29,
+    "TrainingGroupID": 3004,
+    "OrderNum": 8,
+    "OpenConditionLevel": 125,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40101,
+    "TrainingStatusID": 40101,
+    "StatusId": 40,
+    "TrainingGroupID": 4001,
+    "OrderNum": 1,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40102,
+    "TrainingStatusID": 40102,
+    "StatusId": 42,
+    "TrainingGroupID": 4001,
+    "OrderNum": 2,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40103,
+    "TrainingStatusID": 40103,
+    "StatusId": 41,
+    "TrainingGroupID": 4001,
+    "OrderNum": 3,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40104,
+    "TrainingStatusID": 40104,
+    "StatusId": 43,
+    "TrainingGroupID": 4001,
+    "OrderNum": 4,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40105,
+    "TrainingStatusID": 40105,
+    "StatusId": 89,
+    "TrainingGroupID": 4001,
+    "OrderNum": 5,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40106,
+    "TrainingStatusID": 40106,
+    "StatusId": 82,
+    "TrainingGroupID": 4001,
+    "OrderNum": 6,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40107,
+    "TrainingStatusID": 40107,
+    "StatusId": 84,
+    "TrainingGroupID": 4001,
+    "OrderNum": 7,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40108,
+    "TrainingStatusID": 40108,
+    "StatusId": 93,
+    "TrainingGroupID": 4001,
+    "OrderNum": 8,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40201,
+    "TrainingStatusID": 40201,
+    "StatusId": 119,
+    "TrainingGroupID": 4002,
+    "OrderNum": 1,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40202,
+    "TrainingStatusID": 40202,
+    "StatusId": 50,
+    "TrainingGroupID": 4002,
+    "OrderNum": 2,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40203,
+    "TrainingStatusID": 40203,
+    "StatusId": 52,
+    "TrainingGroupID": 4002,
+    "OrderNum": 3,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40204,
+    "TrainingStatusID": 40204,
+    "StatusId": 48,
+    "TrainingGroupID": 4002,
+    "OrderNum": 4,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40205,
+    "TrainingStatusID": 40205,
+    "StatusId": 120,
+    "TrainingGroupID": 4002,
+    "OrderNum": 5,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40206,
+    "TrainingStatusID": 40206,
+    "StatusId": 51,
+    "TrainingGroupID": 4002,
+    "OrderNum": 6,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40207,
+    "TrainingStatusID": 40207,
+    "StatusId": 53,
+    "TrainingGroupID": 4002,
+    "OrderNum": 7,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40208,
+    "TrainingStatusID": 40208,
+    "StatusId": 49,
+    "TrainingGroupID": 4002,
+    "OrderNum": 8,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40301,
+    "TrainingStatusID": 40301,
+    "StatusId": 44,
+    "TrainingGroupID": 4003,
+    "OrderNum": 1,
+    "OpenConditionLevel": 90,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40302,
+    "TrainingStatusID": 40302,
+    "StatusId": 45,
+    "TrainingGroupID": 4003,
+    "OrderNum": 2,
+    "OpenConditionLevel": 90,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40303,
+    "TrainingStatusID": 40303,
+    "StatusId": 32,
+    "TrainingGroupID": 4003,
+    "OrderNum": 3,
+    "OpenConditionLevel": 95,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40304,
+    "TrainingStatusID": 40304,
+    "StatusId": 33,
+    "TrainingGroupID": 4003,
+    "OrderNum": 4,
+    "OpenConditionLevel": 95,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40305,
+    "TrainingStatusID": 40305,
+    "StatusId": 34,
+    "TrainingGroupID": 4003,
+    "OrderNum": 5,
+    "OpenConditionLevel": 100,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40306,
+    "TrainingStatusID": 40306,
+    "StatusId": 35,
+    "TrainingGroupID": 4003,
+    "OrderNum": 6,
+    "OpenConditionLevel": 100,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40307,
+    "TrainingStatusID": 40307,
+    "StatusId": 38,
+    "TrainingGroupID": 4003,
+    "OrderNum": 7,
+    "OpenConditionLevel": 105,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40308,
+    "TrainingStatusID": 40308,
+    "StatusId": 39,
+    "TrainingGroupID": 4003,
+    "OrderNum": 8,
+    "OpenConditionLevel": 105,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40401,
+    "TrainingStatusID": 40401,
+    "StatusId": 1,
+    "TrainingGroupID": 4004,
+    "OrderNum": 1,
+    "OpenConditionLevel": 110,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40402,
+    "TrainingStatusID": 40402,
+    "StatusId": 6,
+    "TrainingGroupID": 4004,
+    "OrderNum": 2,
+    "OpenConditionLevel": 110,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40403,
+    "TrainingStatusID": 40403,
+    "StatusId": 20,
+    "TrainingGroupID": 4004,
+    "OrderNum": 3,
+    "OpenConditionLevel": 115,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40404,
+    "TrainingStatusID": 40404,
+    "StatusId": 22,
+    "TrainingGroupID": 4004,
+    "OrderNum": 4,
+    "OpenConditionLevel": 115,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40405,
+    "TrainingStatusID": 40405,
+    "StatusId": 24,
+    "TrainingGroupID": 4004,
+    "OrderNum": 5,
+    "OpenConditionLevel": 120,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40406,
+    "TrainingStatusID": 40406,
+    "StatusId": 26,
+    "TrainingGroupID": 4004,
+    "OrderNum": 6,
+    "OpenConditionLevel": 120,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40407,
+    "TrainingStatusID": 40407,
+    "StatusId": 28,
+    "TrainingGroupID": 4004,
+    "OrderNum": 7,
+    "OpenConditionLevel": 125,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 40408,
+    "TrainingStatusID": 40408,
+    "StatusId": 29,
+    "TrainingGroupID": 4004,
+    "OrderNum": 8,
+    "OpenConditionLevel": 125,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50101,
+    "TrainingStatusID": 50101,
+    "StatusId": 40,
+    "TrainingGroupID": 5001,
+    "OrderNum": 1,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50102,
+    "TrainingStatusID": 50102,
+    "StatusId": 42,
+    "TrainingGroupID": 5001,
+    "OrderNum": 2,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50103,
+    "TrainingStatusID": 50103,
+    "StatusId": 41,
+    "TrainingGroupID": 5001,
+    "OrderNum": 3,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50104,
+    "TrainingStatusID": 50104,
+    "StatusId": 43,
+    "TrainingGroupID": 5001,
+    "OrderNum": 4,
+    "OpenConditionLevel": 70,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50105,
+    "TrainingStatusID": 50105,
+    "StatusId": 89,
+    "TrainingGroupID": 5001,
+    "OrderNum": 5,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50106,
+    "TrainingStatusID": 50106,
+    "StatusId": 82,
+    "TrainingGroupID": 5001,
+    "OrderNum": 6,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50107,
+    "TrainingStatusID": 50107,
+    "StatusId": 84,
+    "TrainingGroupID": 5001,
+    "OrderNum": 7,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50108,
+    "TrainingStatusID": 50108,
+    "StatusId": 93,
+    "TrainingGroupID": 5001,
+    "OrderNum": 8,
+    "OpenConditionLevel": 75,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50201,
+    "TrainingStatusID": 50201,
+    "StatusId": 119,
+    "TrainingGroupID": 5002,
+    "OrderNum": 1,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50202,
+    "TrainingStatusID": 50202,
+    "StatusId": 50,
+    "TrainingGroupID": 5002,
+    "OrderNum": 2,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50203,
+    "TrainingStatusID": 50203,
+    "StatusId": 52,
+    "TrainingGroupID": 5002,
+    "OrderNum": 3,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50204,
+    "TrainingStatusID": 50204,
+    "StatusId": 48,
+    "TrainingGroupID": 5002,
+    "OrderNum": 4,
+    "OpenConditionLevel": 80,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50205,
+    "TrainingStatusID": 50205,
+    "StatusId": 120,
+    "TrainingGroupID": 5002,
+    "OrderNum": 5,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50206,
+    "TrainingStatusID": 50206,
+    "StatusId": 51,
+    "TrainingGroupID": 5002,
+    "OrderNum": 6,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50207,
+    "TrainingStatusID": 50207,
+    "StatusId": 53,
+    "TrainingGroupID": 5002,
+    "OrderNum": 7,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50208,
+    "TrainingStatusID": 50208,
+    "StatusId": 49,
+    "TrainingGroupID": 5002,
+    "OrderNum": 8,
+    "OpenConditionLevel": 85,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50301,
+    "TrainingStatusID": 50301,
+    "StatusId": 44,
+    "TrainingGroupID": 5003,
+    "OrderNum": 1,
+    "OpenConditionLevel": 90,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50302,
+    "TrainingStatusID": 50302,
+    "StatusId": 45,
+    "TrainingGroupID": 5003,
+    "OrderNum": 2,
+    "OpenConditionLevel": 90,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50303,
+    "TrainingStatusID": 50303,
+    "StatusId": 32,
+    "TrainingGroupID": 5003,
+    "OrderNum": 3,
+    "OpenConditionLevel": 95,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50304,
+    "TrainingStatusID": 50304,
+    "StatusId": 33,
+    "TrainingGroupID": 5003,
+    "OrderNum": 4,
+    "OpenConditionLevel": 95,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50305,
+    "TrainingStatusID": 50305,
+    "StatusId": 34,
+    "TrainingGroupID": 5003,
+    "OrderNum": 5,
+    "OpenConditionLevel": 100,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50306,
+    "TrainingStatusID": 50306,
+    "StatusId": 35,
+    "TrainingGroupID": 5003,
+    "OrderNum": 6,
+    "OpenConditionLevel": 100,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50307,
+    "TrainingStatusID": 50307,
+    "StatusId": 38,
+    "TrainingGroupID": 5003,
+    "OrderNum": 7,
+    "OpenConditionLevel": 105,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50308,
+    "TrainingStatusID": 50308,
+    "StatusId": 39,
+    "TrainingGroupID": 5003,
+    "OrderNum": 8,
+    "OpenConditionLevel": 105,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50401,
+    "TrainingStatusID": 50401,
+    "StatusId": 1,
+    "TrainingGroupID": 5004,
+    "OrderNum": 1,
+    "OpenConditionLevel": 110,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50402,
+    "TrainingStatusID": 50402,
+    "StatusId": 6,
+    "TrainingGroupID": 5004,
+    "OrderNum": 2,
+    "OpenConditionLevel": 110,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50403,
+    "TrainingStatusID": 50403,
+    "StatusId": 20,
+    "TrainingGroupID": 5004,
+    "OrderNum": 3,
+    "OpenConditionLevel": 115,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50404,
+    "TrainingStatusID": 50404,
+    "StatusId": 22,
+    "TrainingGroupID": 5004,
+    "OrderNum": 4,
+    "OpenConditionLevel": 115,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50405,
+    "TrainingStatusID": 50405,
+    "StatusId": 24,
+    "TrainingGroupID": 5004,
+    "OrderNum": 5,
+    "OpenConditionLevel": 120,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50406,
+    "TrainingStatusID": 50406,
+    "StatusId": 26,
+    "TrainingGroupID": 5004,
+    "OrderNum": 6,
+    "OpenConditionLevel": 120,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50407,
+    "TrainingStatusID": 50407,
+    "StatusId": 28,
+    "TrainingGroupID": 5004,
+    "OrderNum": 7,
+    "OpenConditionLevel": 125,
+    "TrainingMaxLevel": 10
+  },
+  {
+    "Name": 50408,
+    "TrainingStatusID": 50408,
+    "StatusId": 29,
+    "TrainingGroupID": 5004,
+    "OrderNum": 8,
+    "OpenConditionLevel": 125,
+    "TrainingMaxLevel": 10
+  }
+]

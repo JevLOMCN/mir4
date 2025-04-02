@@ -1,0 +1,1586 @@
+[
+  {
+    "Name": 1,
+    "GuildShopId": 1,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 4748001,
+    "GuildShopNo": 1,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 603200803,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 13000
+  },
+  {
+    "Name": 2,
+    "GuildShopId": 2,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 2,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 603200804,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 13000
+  },
+  {
+    "Name": 3,
+    "GuildShopId": 3,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 3,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 603200805,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 13000
+  },
+  {
+    "Name": 4,
+    "GuildShopId": 4,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 4,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 603201105,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 125,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 55000
+  },
+  {
+    "Name": 5,
+    "GuildShopId": 5,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 5,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 603200402,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 31000
+  },
+  {
+    "Name": 6,
+    "GuildShopId": 6,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 6,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 603200302,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 31000
+  },
+  {
+    "Name": 7,
+    "GuildShopId": 7,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 7,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 603200502,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 31000
+  },
+  {
+    "Name": 8,
+    "GuildShopId": 8,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 8,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 603200602,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 31000
+  },
+  {
+    "Name": 9,
+    "GuildShopId": 9,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 9,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 603200102,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 31000
+  },
+  {
+    "Name": 10,
+    "GuildShopId": 10,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 10,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 8,
+    "GuildShopItemId": 603200403,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 90000
+  },
+  {
+    "Name": 11,
+    "GuildShopId": 11,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 11,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 8,
+    "GuildShopItemId": 603200303,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 90000
+  },
+  {
+    "Name": 12,
+    "GuildShopId": 12,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 12,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 9,
+    "GuildShopItemId": 603200503,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 90000
+  },
+  {
+    "Name": 13,
+    "GuildShopId": 13,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 13,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 9,
+    "GuildShopItemId": 603200603,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 90000
+  },
+  {
+    "Name": 14,
+    "GuildShopId": 14,
+    "GuildShopGroup": 4,
+    "ShopGroupName": 0,
+    "GuildShopNo": 14,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 10,
+    "GuildShopItemId": 603200103,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 90000
+  },
+  {
+    "Name": 15,
+    "GuildShopId": 15,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 4748002,
+    "GuildShopNo": 1,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 601200506,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 2000
+  },
+  {
+    "Name": 16,
+    "GuildShopId": 16,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 2,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 601200109,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 2000
+  },
+  {
+    "Name": 17,
+    "GuildShopId": 17,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 3,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 1,
+    "GuildShopItemId": 606201324,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 3000
+  },
+  {
+    "Name": 18,
+    "GuildShopId": 18,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 4,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 1,
+    "GuildShopItemId": 606201323,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 3000
+  },
+  {
+    "Name": 19,
+    "GuildShopId": 19,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 6,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 1,
+    "GuildShopItemId": 601200507,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 75,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 5000
+  },
+  {
+    "Name": 20,
+    "GuildShopId": 20,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 7,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 2,
+    "GuildShopItemId": 625200602,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 4000
+  },
+  {
+    "Name": 21,
+    "GuildShopId": 21,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 8,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 2,
+    "GuildShopItemId": 601200110,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 4000
+  },
+  {
+    "Name": 22,
+    "GuildShopId": 22,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 9,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 606201308,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 100,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 10000
+  },
+  {
+    "Name": 23,
+    "GuildShopId": 23,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 10,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 606201309,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 100,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 10000
+  },
+  {
+    "Name": 24,
+    "GuildShopId": 24,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 12,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 601200508,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 9000
+  },
+  {
+    "Name": 25,
+    "GuildShopId": 25,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 13,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 7,
+    "GuildShopItemId": 606201304,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 30000
+  },
+  {
+    "Name": 26,
+    "GuildShopId": 26,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 14,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 7,
+    "GuildShopItemId": 606201305,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 30000
+  },
+  {
+    "Name": 27,
+    "GuildShopId": 27,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 16,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 10,
+    "GuildShopItemId": 601200510,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 475,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 14400
+  },
+  {
+    "Name": 28,
+    "GuildShopId": 28,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 4748003,
+    "GuildShopNo": 1,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 601200111,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 500,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 7000
+  },
+  {
+    "Name": 29,
+    "GuildShopId": 29,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 2,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 601200112,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 500,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 7000
+  },
+  {
+    "Name": 30,
+    "GuildShopId": 30,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 3,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 601202332,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 94,
+    "GuildShopItemRegCostValue": 500,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 7000
+  },
+  {
+    "Name": 31,
+    "GuildShopId": 31,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 4,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 601202333,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 94,
+    "GuildShopItemRegCostValue": 500,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 7000
+  },
+  {
+    "Name": 32,
+    "GuildShopId": 32,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 5,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 601202334,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 3000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 35000
+  },
+  {
+    "Name": 33,
+    "GuildShopId": 33,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 6,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 601202335,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 3000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 35000
+  },
+  {
+    "Name": 34,
+    "GuildShopId": 34,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 7,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 4,
+    "GuildShopItemId": 601202336,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 94,
+    "GuildShopItemRegCostValue": 3000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 35000
+  },
+  {
+    "Name": 35,
+    "GuildShopId": 35,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 8,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 4,
+    "GuildShopItemId": 601202337,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 94,
+    "GuildShopItemRegCostValue": 3000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 35000
+  },
+  {
+    "Name": 36,
+    "GuildShopId": 36,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 9,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 7,
+    "GuildShopItemId": 601202338,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 20000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 350000
+  },
+  {
+    "Name": 37,
+    "GuildShopId": 37,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 10,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 7,
+    "GuildShopItemId": 601202339,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 20000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 350000
+  },
+  {
+    "Name": 38,
+    "GuildShopId": 38,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 11,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 8,
+    "GuildShopItemId": 601202340,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 94,
+    "GuildShopItemRegCostValue": 20000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 350000
+  },
+  {
+    "Name": 39,
+    "GuildShopId": 39,
+    "GuildShopGroup": 6,
+    "ShopGroupName": 0,
+    "GuildShopNo": 12,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 8,
+    "GuildShopItemId": 601202341,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 94,
+    "GuildShopItemRegCostValue": 20000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 350000
+  },
+  {
+    "Name": 40,
+    "GuildShopId": 40,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 4748004,
+    "GuildShopNo": 1,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 601200101,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 4000
+  },
+  {
+    "Name": 41,
+    "GuildShopId": 41,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 2,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 601200103,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 4000
+  },
+  {
+    "Name": 42,
+    "GuildShopId": 42,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 3,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 601202342,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 30,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 2200
+  },
+  {
+    "Name": 43,
+    "GuildShopId": 43,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 4,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 601202343,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 30,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 2200
+  },
+  {
+    "Name": 44,
+    "GuildShopId": 44,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 5,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 601200102,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 150,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 18000
+  },
+  {
+    "Name": 45,
+    "GuildShopId": 45,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 6,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 601200104,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 150,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 18000
+  },
+  {
+    "Name": 46,
+    "GuildShopId": 46,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 8,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 6,
+    "GuildShopItemId": 601202344,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 100,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 9000
+  },
+  {
+    "Name": 47,
+    "GuildShopId": 47,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 9,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 6,
+    "GuildShopItemId": 601202345,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 100,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 9000
+  },
+  {
+    "Name": 48,
+    "GuildShopId": 48,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 10,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 9,
+    "GuildShopItemId": 601202346,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 600,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 90000
+  },
+  {
+    "Name": 49,
+    "GuildShopId": 49,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 11,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 9,
+    "GuildShopItemId": 601202347,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 600,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 90000
+  },
+  {
+    "Name": 50,
+    "GuildShopId": 50,
+    "GuildShopGroup": 1,
+    "ShopGroupName": 4748005,
+    "GuildShopNo": 1,
+    "GuildShopItemUnLockDominionId": [
+      3005,
+      3010,
+      3024
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 1401100756,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 2000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 160
+  },
+  {
+    "Name": 51,
+    "GuildShopId": 51,
+    "GuildShopGroup": 1,
+    "ShopGroupName": 0,
+    "GuildShopNo": 2,
+    "GuildShopItemUnLockDominionId": [
+      3005,
+      3010,
+      3024
+    ],
+    "GuildShopItemUnLockDevId": 0,
+    "GuildShopItemUnLockDevLevel": 0,
+    "GuildShopItemId": 1401100757,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 4500,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 375
+  },
+  {
+    "Name": 52,
+    "GuildShopId": 52,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 4748006,
+    "GuildShopNo": 1,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 1,
+    "GuildShopItemId": 601202357,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 3000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 750
+  },
+  {
+    "Name": 53,
+    "GuildShopId": 53,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 2,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 1,
+    "GuildShopItemId": 601202358,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 1200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 300
+  },
+  {
+    "Name": 54,
+    "GuildShopId": 54,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 3,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 2,
+    "GuildShopItemId": 601200506,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 5000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 1250
+  },
+  {
+    "Name": 55,
+    "GuildShopId": 55,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 4,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 1401100332,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 6000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 1500
+  },
+  {
+    "Name": 56,
+    "GuildShopId": 56,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 5,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 902200203,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 1300,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 325
+  },
+  {
+    "Name": 57,
+    "GuildShopId": 57,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 6,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 901200503,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 4600,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 1150
+  },
+  {
+    "Name": 58,
+    "GuildShopId": 58,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 7,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 901200802,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 4600,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 1150
+  },
+  {
+    "Name": 59,
+    "GuildShopId": 59,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 8,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 901200603,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 6500,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 1625
+  },
+  {
+    "Name": 60,
+    "GuildShopId": 60,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 9,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 901200902,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 6500,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 1625
+  },
+  {
+    "Name": 61,
+    "GuildShopId": 61,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 10,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 902200302,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 1900,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 475
+  },
+  {
+    "Name": 62,
+    "GuildShopId": 62,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 11,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 901200703,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 6500,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 1625
+  },
+  {
+    "Name": 63,
+    "GuildShopId": 63,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 12,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 3,
+    "GuildShopItemId": 901201002,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 6500,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 1625
+  },
+  {
+    "Name": 64,
+    "GuildShopId": 64,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 13,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 4,
+    "GuildShopItemId": 625200603,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 10000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 2500
+  },
+  {
+    "Name": 65,
+    "GuildShopId": 65,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 14,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 606201307,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 30000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 7500
+  },
+  {
+    "Name": 66,
+    "GuildShopId": 66,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 15,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 606201308,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 30000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 7500
+  },
+  {
+    "Name": 67,
+    "GuildShopId": 67,
+    "GuildShopGroup": 3,
+    "ShopGroupName": 0,
+    "GuildShopNo": 16,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 606201309,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 93,
+    "GuildShopItemRegCostValue": 50000,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 12500
+  },
+  {
+    "Name": 69,
+    "GuildShopId": 69,
+    "GuildShopGroup": 2,
+    "ShopGroupName": 0,
+    "GuildShopNo": 2,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 6,
+    "GuildShopItemId": 602202427,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 91,
+    "GuildShopItemRegCostValue": 600,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 26000
+  },
+  {
+    "Name": 70,
+    "GuildShopId": 70,
+    "GuildShopGroup": 2,
+    "ShopGroupName": 0,
+    "GuildShopNo": 3,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 6,
+    "GuildShopItemId": 602202428,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 91,
+    "GuildShopItemRegCostValue": 600,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 26000
+  },
+  {
+    "Name": 71,
+    "GuildShopId": 71,
+    "GuildShopGroup": 2,
+    "ShopGroupName": 4748007,
+    "GuildShopNo": 1,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 4,
+    "GuildShopItemId": 1802200014,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 91,
+    "GuildShopItemRegCostValue": 200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 13000
+  },
+  {
+    "Name": 72,
+    "GuildShopId": 72,
+    "GuildShopGroup": 2,
+    "ShopGroupName": 0,
+    "GuildShopNo": 4,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 6,
+    "GuildShopItemId": 602202429,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 91,
+    "GuildShopItemRegCostValue": 600,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 26000
+  },
+  {
+    "Name": 73,
+    "GuildShopId": 73,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 5,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 1,
+    "GuildShopItemId": 606201325,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 3000
+  },
+  {
+    "Name": 74,
+    "GuildShopId": 74,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 11,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 606201307,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 100,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 10000
+  },
+  {
+    "Name": 75,
+    "GuildShopId": 75,
+    "GuildShopGroup": 5,
+    "ShopGroupName": 0,
+    "GuildShopNo": 15,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 7,
+    "GuildShopItemId": 606201303,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 200,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 30000
+  },
+  {
+    "Name": 76,
+    "GuildShopId": 76,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 7,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 5,
+    "GuildShopItemId": 1301201406,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 50,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 4000
+  },
+  {
+    "Name": 77,
+    "GuildShopId": 77,
+    "GuildShopGroup": 7,
+    "ShopGroupName": 0,
+    "GuildShopNo": 12,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 10,
+    "GuildShopItemId": 1301201407,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 300,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 39000
+  },
+  {
+    "Name": 78,
+    "GuildShopId": 78,
+    "GuildShopGroup": 2,
+    "ShopGroupName": 0,
+    "GuildShopNo": 5,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 6,
+    "GuildShopItemId": 602202430,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 91,
+    "GuildShopItemRegCostValue": 600,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 26000
+  },
+  {
+    "Name": 79,
+    "GuildShopId": 79,
+    "GuildShopGroup": 2,
+    "ShopGroupName": 0,
+    "GuildShopNo": 6,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 6,
+    "GuildShopItemId": 602202431,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 91,
+    "GuildShopItemRegCostValue": 600,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 26000
+  },
+  {
+    "Name": 82,
+    "GuildShopId": 82,
+    "GuildShopGroup": 2,
+    "ShopGroupName": 0,
+    "GuildShopNo": 9,
+    "GuildShopItemUnLockDominionId": [
+      0
+    ],
+    "GuildShopItemUnLockDevId": 101006,
+    "GuildShopItemUnLockDevLevel": 4,
+    "GuildShopItemId": 1301201497,
+    "GuildShopItemCnt": 1,
+    "GuildShopItemRegCostType": 1,
+    "GuildShopItemRegCostTypeSub": 92,
+    "GuildShopItemRegCostValue": 500,
+    "GuildShopItemBuyCostType": 1,
+    "GuildShopItemBuyCostTypeSub": 17,
+    "GuildShopItemBuyCostValue": 30000
+  }
+]

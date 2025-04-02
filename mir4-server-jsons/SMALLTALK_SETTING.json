@@ -1,0 +1,512 @@
+[
+  {
+    "UniqueID": 7,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 30,
+    "Condition": 2100023,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 8,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 30,
+    "Condition": 2100023,
+    "Count": 5,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 9,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 35,
+    "Condition": 0,
+    "Count": 3,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 10,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 40,
+    "Condition": 130001,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 11,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 40,
+    "Condition": 130001,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 12,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 40,
+    "Condition": 130001,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 13,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 40,
+    "Condition": 130001,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 14,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 45,
+    "Condition": 11010,
+    "Count": 1,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 15,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 45,
+    "Condition": 11010,
+    "Count": 2,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 16,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 55,
+    "Condition": 2100023,
+    "Count": 90,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 17,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 56,
+    "Condition": 0,
+    "Count": 90,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 18,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 3,
+    "Condition": 10014,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 19,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 30,
+    "Condition": 1031006,
+    "Count": 1,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 20,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 3,
+    "Condition": 10029,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 21,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 2,
+    "Condition": 10031,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 22,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 3,
+    "Condition": 10034,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 23,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 3,
+    "Condition": 10025,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 24,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 2,
+    "Condition": 10059,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 25,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 2,
+    "Condition": 10070,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 26,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 30,
+    "Condition": 1031009,
+    "Count": 1,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 27,
+    "StageId": 0,
+    "SmalltTalkDialogueId": 0,
+    "SmallTalkType": 3,
+    "Condition": 10045,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 101,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1001,
+    "SmallTalkType": 40,
+    "Condition": 1032,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 102,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1011,
+    "SmallTalkType": 4,
+    "Condition": 1002,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 103,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1021,
+    "SmallTalkType": 4,
+    "Condition": 1009,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 104,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1041,
+    "SmallTalkType": 4,
+    "Condition": 1022,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 105,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1051,
+    "SmallTalkType": 4,
+    "Condition": 1030,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 106,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1061,
+    "SmallTalkType": 4,
+    "Condition": 1005,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 107,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1071,
+    "SmallTalkType": 4,
+    "Condition": 1013,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 108,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1091,
+    "SmallTalkType": 4,
+    "Condition": 1021,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 109,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1101,
+    "SmallTalkType": 4,
+    "Condition": 1025,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 110,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1110,
+    "SmallTalkType": 60,
+    "Condition": 1110,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 111,
+    "StageId": 1057,
+    "SmalltTalkDialogueId": 1120,
+    "SmallTalkType": 60,
+    "Condition": 1120,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 112,
+    "StageId": 1057,
+    "SmalltTalkDialogueId": 1130,
+    "SmallTalkType": 60,
+    "Condition": 1130,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 113,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1140,
+    "SmallTalkType": 60,
+    "Condition": 1140,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 114,
+    "StageId": 1032,
+    "SmalltTalkDialogueId": 1150,
+    "SmallTalkType": 60,
+    "Condition": 1150,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 115,
+    "StageId": 1051,
+    "SmalltTalkDialogueId": 1160,
+    "SmallTalkType": 60,
+    "Condition": 1160,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 116,
+    "StageId": 1051,
+    "SmalltTalkDialogueId": 1170,
+    "SmallTalkType": 60,
+    "Condition": 1170,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 117,
+    "StageId": 1051,
+    "SmalltTalkDialogueId": 1180,
+    "SmallTalkType": 60,
+    "Condition": 1180,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 118,
+    "StageId": 1052,
+    "SmalltTalkDialogueId": 1190,
+    "SmallTalkType": 60,
+    "Condition": 1190,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 119,
+    "StageId": 1052,
+    "SmalltTalkDialogueId": 1200,
+    "SmallTalkType": 60,
+    "Condition": 1200,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 120,
+    "StageId": 1053,
+    "SmalltTalkDialogueId": 1210,
+    "SmallTalkType": 60,
+    "Condition": 1210,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 121,
+    "StageId": 1053,
+    "SmalltTalkDialogueId": 1220,
+    "SmallTalkType": 60,
+    "Condition": 1220,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 122,
+    "StageId": 1011,
+    "SmalltTalkDialogueId": 1230,
+    "SmallTalkType": 60,
+    "Condition": 1230,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 123,
+    "StageId": 1011,
+    "SmalltTalkDialogueId": 1240,
+    "SmallTalkType": 60,
+    "Condition": 1240,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 124,
+    "StageId": 1034,
+    "SmalltTalkDialogueId": 1250,
+    "SmallTalkType": 60,
+    "Condition": 1250,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 125,
+    "StageId": 1034,
+    "SmalltTalkDialogueId": 1260,
+    "SmallTalkType": 60,
+    "Condition": 1260,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 126,
+    "StageId": 1034,
+    "SmalltTalkDialogueId": 1270,
+    "SmallTalkType": 60,
+    "Condition": 1270,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 127,
+    "StageId": 1034,
+    "SmalltTalkDialogueId": 1280,
+    "SmallTalkType": 60,
+    "Condition": 1280,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 128,
+    "StageId": 1034,
+    "SmalltTalkDialogueId": 1290,
+    "SmallTalkType": 60,
+    "Condition": 1290,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 129,
+    "StageId": 1034,
+    "SmalltTalkDialogueId": 1300,
+    "SmallTalkType": 60,
+    "Condition": 1300,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  },
+  {
+    "UniqueID": 130,
+    "StageId": 1034,
+    "SmalltTalkDialogueId": 1310,
+    "SmallTalkType": 60,
+    "Condition": 1310,
+    "Count": 0,
+    "MinLevel": 98,
+    "MaxLevel": 99
+  }
+]

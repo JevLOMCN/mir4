@@ -1,0 +1,27 @@
+[
+  {
+    "StatusID": 95,
+    "LimitMIN": -10000,
+    "LimitMAX": 9900
+  },
+  {
+    "StatusID": 114,
+    "LimitMIN": 0,
+    "LimitMAX": 5000
+  },
+  {
+    "StatusID": 115,
+    "LimitMIN": 0,
+    "LimitMAX": 5000
+  },
+  {
+    "StatusID": 116,
+    "LimitMIN": 0,
+    "LimitMAX": 5000
+  },
+  {
+    "StatusID": 10003,
+    "LimitMIN": 0,
+    "LimitMAX": 2000
+  }
+]

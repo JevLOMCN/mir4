@@ -1,0 +1,1042 @@
+[
+  {
+    "CameraName": "0",
+    "CameraLocation": {
+      "X": 164,
+      "Y": 0,
+      "Z": 211
+    },
+    "CameraRotation": {
+      "Pitch": -8,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 44.4442,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": []
+  },
+  {
+    "CameraName": "1전사_눈기본",
+    "CameraLocation": {
+      "X": 120,
+      "Y": -1,
+      "Z": 195
+    },
+    "CameraRotation": {
+      "Pitch": -1,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      12008,
+      12009,
+      12011,
+      12012,
+      12013,
+      12014,
+      12015,
+      12016,
+      12017
+    ]
+  },
+  {
+    "CameraName": "1전사_얼굴기본",
+    "CameraLocation": {
+      "X": 270,
+      "Y": -1,
+      "Z": 193
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 15,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      11003,
+      11004,
+      13004,
+      13006
+    ]
+  },
+  {
+    "CameraName": "1전사_얼굴대각",
+    "CameraLocation": {
+      "X": 135,
+      "Y": -1,
+      "Z": 192
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -24.9999,
+    "LinkCategoryArray": [
+      12003,
+      12004
+    ]
+  },
+  {
+    "CameraName": "1전사_얼굴윤곽",
+    "CameraLocation": {
+      "X": 270,
+      "Y": -1,
+      "Z": 193
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 15,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      12026
+    ]
+  },
+  {
+    "CameraName": "1전사_얼굴측면",
+    "CameraLocation": {
+      "X": 130,
+      "Y": 7,
+      "Z": 195
+    },
+    "CameraRotation": {
+      "Pitch": -1,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 80,
+    "LinkCategoryArray": [
+      12005
+    ]
+  },
+  {
+    "CameraName": "1전사_입술",
+    "CameraLocation": {
+      "X": 120,
+      "Y": -1,
+      "Z": 189.8
+    },
+    "CameraRotation": {
+      "Pitch": -1,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      12023,
+      12024,
+      12025
+    ]
+  },
+  {
+    "CameraName": "1전사_전신",
+    "CameraLocation": {
+      "X": 582,
+      "Y": -19,
+      "Z": 108.1
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 40,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      14003,
+      14004
+    ]
+  },
+  {
+    "CameraName": "1전사_코정면",
+    "CameraLocation": {
+      "X": 130,
+      "Y": -1,
+      "Z": 192.6
+    },
+    "CameraRotation": {
+      "Pitch": -1,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      12019,
+      12020
+    ]
+  },
+  {
+    "CameraName": "1전사_코측면",
+    "CameraLocation": {
+      "X": 130,
+      "Y": 5,
+      "Z": 192.6
+    },
+    "CameraRotation": {
+      "Pitch": -1,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 80,
+    "LinkCategoryArray": [
+      12021
+    ]
+  },
+  {
+    "CameraName": "1전사_턱정면",
+    "CameraLocation": {
+      "X": 130,
+      "Y": -1,
+      "Z": 189
+    },
+    "CameraRotation": {
+      "Pitch": -1,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      12002
+    ]
+  },
+  {
+    "CameraName": "1전사_턱측면",
+    "CameraLocation": {
+      "X": 130,
+      "Y": -3,
+      "Z": 192
+    },
+    "CameraRotation": {
+      "Pitch": -1,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -35,
+    "LinkCategoryArray": [
+      12006
+    ]
+  },
+  {
+    "CameraName": "2술사_눈기본",
+    "CameraLocation": {
+      "X": 130,
+      "Y": 0,
+      "Z": 184
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      22008,
+      22009,
+      22011,
+      22012,
+      22013,
+      22014,
+      22015,
+      22016,
+      22017
+    ]
+  },
+  {
+    "CameraName": "2술사_얼굴기본",
+    "CameraLocation": {
+      "X": 180,
+      "Y": 0,
+      "Z": 184.2
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      21003,
+      21004,
+      23004,
+      23005,
+      23006,
+      22026
+    ]
+  },
+  {
+    "CameraName": "2술사_얼굴대각",
+    "CameraLocation": {
+      "X": 120,
+      "Y": 0,
+      "Z": 183.6
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -24.9997,
+    "LinkCategoryArray": [
+      22003,
+      22004
+    ]
+  },
+  {
+    "CameraName": "2술사_얼굴측면",
+    "CameraLocation": {
+      "X": 140,
+      "Y": -3,
+      "Z": 185.2
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -80,
+    "LinkCategoryArray": [
+      22005
+    ]
+  },
+  {
+    "CameraName": "2술사_입술",
+    "CameraLocation": {
+      "X": 120,
+      "Y": 0,
+      "Z": 178.9
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      22023,
+      22024,
+      22025
+    ]
+  },
+  {
+    "CameraName": "2술사_전신",
+    "CameraLocation": {
+      "X": 590.9,
+      "Y": -10.8,
+      "Z": 133.4
+    },
+    "CameraRotation": {
+      "Pitch": -3,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 40,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      24003,
+      24004
+    ]
+  },
+  {
+    "CameraName": "2술사_코정면",
+    "CameraLocation": {
+      "X": 120,
+      "Y": 0,
+      "Z": 183.1
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      22019,
+      22020
+    ]
+  },
+  {
+    "CameraName": "2술사_코측면",
+    "CameraLocation": {
+      "X": 120,
+      "Y": -5,
+      "Z": 184.1
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -79.9999,
+    "LinkCategoryArray": [
+      22021
+    ]
+  },
+  {
+    "CameraName": "2술사_턱정면",
+    "CameraLocation": {
+      "X": 130,
+      "Y": 0,
+      "Z": 178.8
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      22002
+    ]
+  },
+  {
+    "CameraName": "2술사_턱측면",
+    "CameraLocation": {
+      "X": 120,
+      "Y": -5,
+      "Z": 179.1
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -79.9999,
+    "LinkCategoryArray": [
+      22006
+    ]
+  },
+  {
+    "CameraName": "3도사_눈기본",
+    "CameraLocation": {
+      "X": 120,
+      "Y": -1,
+      "Z": 175.3
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      32008,
+      32009,
+      32011,
+      32012,
+      32013,
+      32014,
+      32015,
+      32016,
+      32017
+    ]
+  },
+  {
+    "CameraName": "3도사_얼굴기본",
+    "CameraLocation": {
+      "X": 170,
+      "Y": -2.2,
+      "Z": 175.4
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      31003,
+      31004,
+      33004,
+      33005,
+      33006,
+      32026
+    ]
+  },
+  {
+    "CameraName": "3도사_얼굴대각",
+    "CameraLocation": {
+      "X": 120,
+      "Y": -2.2,
+      "Z": 174.9
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -24.9999,
+    "LinkCategoryArray": [
+      32003,
+      32004
+    ]
+  },
+  {
+    "CameraName": "3도사_얼굴측면",
+    "CameraLocation": {
+      "X": 157,
+      "Y": 2.8,
+      "Z": 177.4
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 79.9999,
+    "LinkCategoryArray": [
+      32005
+    ]
+  },
+  {
+    "CameraName": "3도사_입술",
+    "CameraLocation": {
+      "X": 120,
+      "Y": -2.2,
+      "Z": 170.4
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      32023,
+      32024,
+      32025
+    ]
+  },
+  {
+    "CameraName": "3도사_전신",
+    "CameraLocation": {
+      "X": 548.9,
+      "Y": -10.8,
+      "Z": 127.4
+    },
+    "CameraRotation": {
+      "Pitch": -3,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 40,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      34003,
+      34004
+    ]
+  },
+  {
+    "CameraName": "3도사_코정면",
+    "CameraLocation": {
+      "X": 110,
+      "Y": -2.2,
+      "Z": 174.8
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      32019,
+      32020
+    ]
+  },
+  {
+    "CameraName": "3도사_코측면",
+    "CameraLocation": {
+      "X": 97.8,
+      "Y": 4.8,
+      "Z": 174.8
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 80,
+    "LinkCategoryArray": [
+      32021
+    ]
+  },
+  {
+    "CameraName": "3도사_턱정면",
+    "CameraLocation": {
+      "X": 110,
+      "Y": -2.2,
+      "Z": 172.3
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      32002
+    ]
+  },
+  {
+    "CameraName": "3도사_턱측면",
+    "CameraLocation": {
+      "X": 110,
+      "Y": 3,
+      "Z": 170.9
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 79.9999,
+    "LinkCategoryArray": [
+      32006
+    ]
+  },
+  {
+    "CameraName": "4석궁_눈기본",
+    "CameraLocation": {
+      "X": 118,
+      "Y": -1,
+      "Z": 151.3
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      42008,
+      42009,
+      42011,
+      42012,
+      42013,
+      42014,
+      42015,
+      42016,
+      42017
+    ]
+  },
+  {
+    "CameraName": "4석궁_얼굴기본",
+    "CameraLocation": {
+      "X": 155,
+      "Y": -2.2,
+      "Z": 153.4
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      42026,
+      41003,
+      41004,
+      43004,
+      43005,
+      43006
+    ]
+  },
+  {
+    "CameraName": "4석궁_얼굴대각",
+    "CameraLocation": {
+      "X": 120,
+      "Y": -2.2,
+      "Z": 150.9
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -24.9999,
+    "LinkCategoryArray": [
+      42003,
+      42004
+    ]
+  },
+  {
+    "CameraName": "4석궁_얼굴측면",
+    "CameraLocation": {
+      "X": 148,
+      "Y": 2.8,
+      "Z": 151.4
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 79.9999,
+    "LinkCategoryArray": [
+      42005
+    ]
+  },
+  {
+    "CameraName": "4석궁_입술",
+    "CameraLocation": {
+      "X": 98,
+      "Y": -2.2,
+      "Z": 147.8
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      42025,
+      42023,
+      42024
+    ]
+  },
+  {
+    "CameraName": "4석궁_전신",
+    "CameraLocation": {
+      "X": 502.9,
+      "Y": -10.8,
+      "Z": 121.4
+    },
+    "CameraRotation": {
+      "Pitch": -3,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 40,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      44004,
+      44003
+    ]
+  },
+  {
+    "CameraName": "4석궁_코정면",
+    "CameraLocation": {
+      "X": 109,
+      "Y": -2.2,
+      "Z": 150.8
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      42019,
+      42020
+    ]
+  },
+  {
+    "CameraName": "4석궁_코측면",
+    "CameraLocation": {
+      "X": 97.8,
+      "Y": 4.8,
+      "Z": 150.8
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 80,
+    "LinkCategoryArray": [
+      42021
+    ]
+  },
+  {
+    "CameraName": "4석궁_턱정면",
+    "CameraLocation": {
+      "X": 108,
+      "Y": -2.2,
+      "Z": 149.3
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      42002
+    ]
+  },
+  {
+    "CameraName": "4석궁_턱측면",
+    "CameraLocation": {
+      "X": 110,
+      "Y": 3,
+      "Z": 148.9
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 79.9999,
+    "LinkCategoryArray": [
+      42006
+    ]
+  },
+  {
+    "CameraName": "5무사_광대",
+    "CameraLocation": {
+      "X": 140.1,
+      "Y": -4.8,
+      "Z": 194
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -28,
+    "LinkCategoryArray": [
+      52003,
+      52004
+    ]
+  },
+  {
+    "CameraName": "5무사_기본",
+    "CameraLocation": {
+      "X": 520,
+      "Y": 0,
+      "Z": 66.4
+    },
+    "CameraRotation": {
+      "Pitch": 5,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 45,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      0
+    ]
+  },
+  {
+    "CameraName": "5무사_눈썹",
+    "CameraLocation": {
+      "X": 108.1,
+      "Y": 0,
+      "Z": 194
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      52008,
+      52009,
+      52011,
+      52012,
+      52013,
+      52014,
+      52015,
+      52016,
+      5201
+    ]
+  },
+  {
+    "CameraName": "5무사_머리",
+    "CameraLocation": {
+      "X": 226.8,
+      "Y": -1.8,
+      "Z": 194.2
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 1,
+    "LinkCategoryArray": [
+      51003,
+      51004,
+      53004,
+      53005,
+      53006
+    ]
+  },
+  {
+    "CameraName": "5무사_얼굴기본",
+    "CameraLocation": {
+      "X": 270,
+      "Y": -1,
+      "Z": 193
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 15,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      52026
+    ]
+  },
+  {
+    "CameraName": "5무사_이마돌출",
+    "CameraLocation": {
+      "X": 139,
+      "Y": -4.8,
+      "Z": 195
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -90,
+    "LinkCategoryArray": [
+      52005
+    ]
+  },
+  {
+    "CameraName": "5무사_전체",
+    "CameraLocation": {
+      "X": 520,
+      "Y": 0,
+      "Z": 105.4
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 45,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      54003,
+      54004
+    ]
+  },
+  {
+    "CameraName": "5무사_코",
+    "CameraLocation": {
+      "X": 118.1,
+      "Y": 0,
+      "Z": 191.9
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      52019,
+      52020
+    ]
+  },
+  {
+    "CameraName": "5무사_코 높이",
+    "CameraLocation": {
+      "X": 111,
+      "Y": 5,
+      "Z": 193.6
+    },
+    "CameraRotation": {
+      "Pitch": -1,
+      "Yaw": -180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 79.9999,
+    "LinkCategoryArray": [
+      52021
+    ]
+  },
+  {
+    "CameraName": "5무사_턱",
+    "CameraLocation": {
+      "X": 116.1,
+      "Y": 0,
+      "Z": 189.4
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": 0,
+    "LinkCategoryArray": [
+      52002,
+      52023,
+      52024,
+      52025
+    ]
+  },
+  {
+    "CameraName": "5무사_턱 돌출",
+    "CameraLocation": {
+      "X": 126.1,
+      "Y": -3.2,
+      "Z": 191
+    },
+    "CameraRotation": {
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0
+    },
+    "CameraFOV": 18,
+    "CharacterYaw": -34,
+    "LinkCategoryArray": [
+      52006
+    ]
+  }
+]

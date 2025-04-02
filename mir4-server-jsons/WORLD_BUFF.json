@@ -1,0 +1,73 @@
+[
+  {
+    "WorldBuffID": 12001,
+    "BuffStageID": [
+      0
+    ],
+    "BuffID": 900000,
+    "BuffTime": 601200
+  },
+  {
+    "WorldBuffID": 12002,
+    "BuffStageID": [
+      0
+    ],
+    "BuffID": 900001,
+    "BuffTime": 601200
+  },
+  {
+    "WorldBuffID": 201003013,
+    "BuffStageID": [
+      201003010,
+      201003011,
+      201003012,
+      201003013
+    ],
+    "BuffID": 900002,
+    "BuffTime": 259200
+  },
+  {
+    "WorldBuffID": 201003033,
+    "BuffStageID": [
+      201003030,
+      201003031,
+      201003032,
+      201003033
+    ],
+    "BuffID": 900003,
+    "BuffTime": 259200
+  },
+  {
+    "WorldBuffID": 201003043,
+    "BuffStageID": [
+      201003040,
+      201003041,
+      201003042,
+      201003043
+    ],
+    "BuffID": 900004,
+    "BuffTime": 259200
+  },
+  {
+    "WorldBuffID": 201004043,
+    "BuffStageID": [
+      201004040,
+      201004041,
+      201004042,
+      201004043
+    ],
+    "BuffID": 900005,
+    "BuffTime": 259200
+  },
+  {
+    "WorldBuffID": 201004053,
+    "BuffStageID": [
+      201004050,
+      201004051,
+      201004052,
+      201004053
+    ],
+    "BuffID": 900006,
+    "BuffTime": 259200
+  }
+]

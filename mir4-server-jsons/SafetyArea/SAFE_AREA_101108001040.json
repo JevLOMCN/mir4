@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WAYPOINT_108001040",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'WaypointTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "4150221": {
+        "ActiveRadius": 0,
+        "DefaultState": true,
+        "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+        "WaypointWarpNeedCostCount": 0,
+        "WaypointWarpNeedItemId": 621000001,
+        "WaypointWarpNeedItemCount": 1,
+        "WayPointName": 3750812,
+        "Location": {
+          "X": 12997.0,
+          "Y": -12611.0,
+          "Z": 3332.0
+        },
+        "WarpCoordinate": {
+          "X": 12997.0,
+          "Y": -12611.0,
+          "Z": 3332.0
+        }
+      },
+      "4150222": {
+        "ActiveRadius": 0,
+        "DefaultState": true,
+        "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+        "WaypointWarpNeedCostCount": 0,
+        "WaypointWarpNeedItemId": 621000001,
+        "WaypointWarpNeedItemCount": 1,
+        "WayPointName": 3750817,
+        "Location": {
+          "X": -3859.0,
+          "Y": -14601.0,
+          "Z": 4026.0
+        },
+        "WarpCoordinate": {
+          "X": -3859.0,
+          "Y": -14601.0,
+          "Z": 4026.0
+        }
+      },
+      "4150223": {
+        "ActiveRadius": 0,
+        "DefaultState": true,
+        "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+        "WaypointWarpNeedCostCount": 0,
+        "WaypointWarpNeedItemId": 621000001,
+        "WaypointWarpNeedItemCount": 1,
+        "WayPointName": 3750821,
+        "Location": {
+          "X": 15110.0,
+          "Y": 12652.0,
+          "Z": 3057.0
+        },
+        "WarpCoordinate": {
+          "X": 15110.0,
+          "Y": 12652.0,
+          "Z": 3057.0
+        }
+      },
+      "4150224": {
+        "ActiveRadius": 0,
+        "DefaultState": true,
+        "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+        "WaypointWarpNeedCostCount": 0,
+        "WaypointWarpNeedItemId": 621000001,
+        "WaypointWarpNeedItemCount": 1,
+        "WayPointName": 3750829,
+        "Location": {
+          "X": -11387.0,
+          "Y": 12471.0,
+          "Z": 2400.0
+        },
+        "WarpCoordinate": {
+          "X": -11387.0,
+          "Y": 12471.0,
+          "Z": 2400.0
+        }
+      },
+      "4150225": {
+        "ActiveRadius": 0,
+        "DefaultState": true,
+        "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+        "WaypointWarpNeedCostCount": 0,
+        "WaypointWarpNeedItemId": 621000001,
+        "WaypointWarpNeedItemCount": 1,
+        "WayPointName": 3750825,
+        "Location": {
+          "X": -19626.0,
+          "Y": -2356.0,
+          "Z": 4021.0
+        },
+        "WarpCoordinate": {
+          "X": -19626.0,
+          "Y": -2356.0,
+          "Z": 4021.0
+        }
+      },
+      "4150102": {
+        "ActiveRadius": 0,
+        "DefaultState": true,
+        "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+        "WaypointWarpNeedCostCount": 0,
+        "WaypointWarpNeedItemId": 621000001,
+        "WaypointWarpNeedItemCount": 1,
+        "WayPointName": 410504,
+        "Location": {
+          "X": 11166.83,
+          "Y": 4154.247,
+          "Z": 3178.353
+        },
+        "WarpCoordinate": {
+          "X": 11699.192,
+          "Y": 4296.984,
+          "Z": 3164.353
+        }
+      },
+      "4150103": {
+        "ActiveRadius": 0,
+        "DefaultState": true,
+        "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+        "WaypointWarpNeedCostCount": 0,
+        "WaypointWarpNeedItemId": 621000001,
+        "WaypointWarpNeedItemCount": 1,
+        "WayPointName": 410506,
+        "Location": {
+          "X": 8833.383,
+          "Y": -6030.258,
+          "Z": 2891.983
+        },
+        "WarpCoordinate": {
+          "X": 8261.87,
+          "Y": -6289.544,
+          "Z": 2897.983
+        }
+      },
+      "4150101": {
+        "ActiveRadius": 0,
+        "DefaultState": true,
+        "WaypointWarpNeedCostId": "ECostType::TYPE_NONE",
+        "WaypointWarpNeedCostCount": 0,
+        "WaypointWarpNeedItemId": 621000001,
+        "WaypointWarpNeedItemCount": 1,
+        "WayPointName": 410505,
+        "Location": {
+          "X": -12869.532,
+          "Y": -2291.5,
+          "Z": 3493.652
+        },
+        "WarpCoordinate": {
+          "X": -12793.153,
+          "Y": -1848.1,
+          "Z": 3494.652
+        }
+      }
+    }
+  }
+]

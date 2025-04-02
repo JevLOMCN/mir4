@@ -1,0 +1,35 @@
+[
+  {
+    "TimeTicketId": 12,
+    "NameSid": 52,
+    "Icon": 52,
+    "IconSmall": 152,
+    "ChargeTime": 300,
+    "ChargeCount": 10,
+    "LimitType": 2,
+    "LimitUserMax": 50,
+    "LimitSystemMax": 1000
+  },
+  {
+    "TimeTicketId": 13,
+    "NameSid": 53,
+    "Icon": 53,
+    "IconSmall": 153,
+    "ChargeTime": 600,
+    "ChargeCount": 1,
+    "LimitType": 2,
+    "LimitUserMax": 3,
+    "LimitSystemMax": 15
+  },
+  {
+    "TimeTicketId": 15,
+    "NameSid": 55,
+    "Icon": 52,
+    "IconSmall": 152,
+    "ChargeTime": 1800,
+    "ChargeCount": 1,
+    "LimitType": 2,
+    "LimitUserMax": 24,
+    "LimitSystemMax": 100
+  }
+]

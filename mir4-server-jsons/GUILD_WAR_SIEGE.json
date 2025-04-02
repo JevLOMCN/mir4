@@ -1,0 +1,163 @@
+[
+  {
+    "SiegeId": 10101,
+    "Siege_StageId": 101,
+    "NameSId": 455101,
+    "SiegeOpenDate": [
+      2021,
+      11,
+      1
+    ],
+    "AuctionOpenStartWeek": [
+      2021,
+      10,
+      24
+    ],
+    "AuctionStartWeekInterval": 4,
+    "AuctionStartDayOfWeek": 4,
+    "AuctionStartTime": [
+      0,
+      1
+    ],
+    "AuctionRunTimeMinute": 2879,
+    "AuctionExtensionTimeMinute": 360,
+    "AuctionMoneyId": 92,
+    "AuctionMoneyValueMin": 100000,
+    "AuctionIncreaseRate": 10,
+    "AuctionGuildDevLevel": 1,
+    "AuctionEndRunTimeMinute": 2390,
+    "SiegeRunTimeMinute": 60,
+    "EnterWarpLocationId_Defense": 401,
+    "EnterWarpRadius_Defencse": 500,
+    "EnterWarpLocationId_Offense": 402,
+    "EnterWarpRadius_Offense": 500,
+    "ReadyZoneLocation_Defense": {
+      "X": -11640,
+      "Y": -11660,
+      "Z": 360
+    },
+    "ReadyZoneAxisYaw_Defense": 0,
+    "ReadyZoneDistanceX_Defense": 5500,
+    "ReadyZoneDistanceY_Defense": 6500,
+    "ReadyZoneLocation_Offense": {
+      "X": -1200,
+      "Y": 24390,
+      "Z": 350
+    },
+    "ReadyZoneAxisYaw_Offense": 0,
+    "ReadyZoneDistanceX_Offense": 7400,
+    "ReadyZoneDistanceY_Offense": 6400,
+    "CastleGateIconId": 2632112,
+    "CastleGateBGIconId": 2631001,
+    "CastleGateId": 1100011,
+    "CastleGate_DieIconLocation": {
+      "X": -1142,
+      "Y": 4795,
+      "Z": 369
+    },
+    "GateLeverIconId": 2632122,
+    "GateLeverBGIconId": 2631001,
+    "GateLeverId01": 1100021,
+    "GateLeverId01_DieIconLocation": {
+      "X": -12416,
+      "Y": -1042,
+      "Z": 336
+    },
+    "GateLeverId02": 1100022,
+    "GateLeverId02_DieIconLocation": {
+      "X": -4991,
+      "Y": 398,
+      "Z": 1986
+    },
+    "GateLeverId03": 1100023,
+    "GateLeverId03_DieIconLocation": {
+      "X": 2887,
+      "Y": 572,
+      "Z": 2033
+    },
+    "GateLeverId04": 1100024,
+    "GateLeverId04_DieIconLocation": {
+      "X": 10197,
+      "Y": -1033,
+      "Z": 353
+    },
+    "CaptureIconId": 2632102,
+    "CaptureId_SiegeWin": 1100031,
+    "RevivalFlagIconID": [
+      2632142,
+      2632143
+    ],
+    "RevivalFlagBGIconId": [
+      2631001,
+      2631002
+    ],
+    "RevivalFlag_Defence": 900001001,
+    "RevivalFlag_Offence": 900001002,
+    "RevivalFlag01": 900001003,
+    "RevivalFlag02": 900001004,
+    "SiegeTowerIdIconID": 2632133,
+    "SiegeTowerIdBGIconId": 2631002,
+    "SiegeTowerId01": 1100041,
+    "SiegeTowerId02": 1100042,
+    "SiegeTowerId03": 1100043,
+    "SiegeTowerId04": 1100044,
+    "CatapultIconId": 2632162,
+    "CatapultBGIconId": 2631001,
+    "CatapultId01": 1100051,
+    "CatapultId02": 1100052,
+    "CatapultId03": 0,
+    "CatapultId04": 0,
+    "SiegeTowerId01_EffectLocation": {
+      "X": -10045,
+      "Y": 18745,
+      "Z": 379
+    },
+    "SiegeTowerId01_EffectRotationYaw": 310,
+    "SiegeTowerId02_EffectLocation": {
+      "X": -4006,
+      "Y": 18313,
+      "Z": 379
+    },
+    "SiegeTowerId02_EffectRotationYaw": 270,
+    "SiegeTowerId03_EffectLocation": {
+      "X": 2305,
+      "Y": 18235,
+      "Z": 374
+    },
+    "SiegeTowerId03_EffectRotationYaw": 270,
+    "SiegeTowerId04_EffectLocation": {
+      "X": 8624,
+      "Y": 19041,
+      "Z": 374
+    },
+    "SiegeTowerId04_EffectRotationYaw": 223,
+    "Catapultid01_EffectLocation": {
+      "X": -7675,
+      "Y": -2517,
+      "Z": 344
+    },
+    "CatapultId01_EffectRotationYaw": 90,
+    "Catapultid02_EffectLocation": {
+      "X": 5745,
+      "Y": -2507,
+      "Z": 349
+    },
+    "CatapultId02_EffectRotationYaw": 90,
+    "Catapultid03_EffectLocation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "CatapultId03_EffectRotationYaw": 0,
+    "Catapultid04_EffectLocation": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "CatapultId04_EffectRotationYaw": 0,
+    "Reward_DominionId": 2001,
+    "MailPresetId_RewardGuild": 18101,
+    "MailPresetId_Dominion_Return": 18201,
+    "MailPresetId_Dominion_Change": 18202
+  }
+]

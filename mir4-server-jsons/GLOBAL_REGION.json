@@ -1,0 +1,502 @@
+[
+  {
+    "RegionKey": "ASIA1",
+    "RegionGroupKey": "ASIA1",
+    "WSRegionCode": 1,
+    "RegionName": 2520001,
+    "RegionGroupName": 2520025,
+    "RegionUTC": 2520014,
+    "RegionIcon": 4700001,
+    "RegionOrder": 101
+  },
+  {
+    "RegionKey": "ASIA2",
+    "RegionGroupKey": "ASIA1",
+    "WSRegionCode": 11,
+    "RegionName": 2520021,
+    "RegionGroupName": 2520025,
+    "RegionUTC": 2520014,
+    "RegionIcon": 4700001,
+    "RegionOrder": 102
+  },
+  {
+    "RegionKey": "ASIA3",
+    "RegionGroupKey": "ASIA1",
+    "WSRegionCode": 21,
+    "RegionName": 2520029,
+    "RegionGroupName": 2520025,
+    "RegionUTC": 2520014,
+    "RegionIcon": 4700001,
+    "RegionOrder": 103
+  },
+  {
+    "RegionKey": "ASIA4",
+    "RegionGroupKey": "ASIA1",
+    "WSRegionCode": 31,
+    "RegionName": 2520037,
+    "RegionGroupName": 2520025,
+    "RegionUTC": 2520014,
+    "RegionIcon": 4700001,
+    "RegionOrder": 104
+  },
+  {
+    "RegionKey": "ASIA5",
+    "RegionGroupKey": "ASIA1",
+    "WSRegionCode": 41,
+    "RegionName": 2520038,
+    "RegionGroupName": 2520025,
+    "RegionUTC": 2520014,
+    "RegionIcon": 4700001,
+    "RegionOrder": 105
+  },
+  {
+    "RegionKey": "ASIA6",
+    "RegionGroupKey": "ASIA1",
+    "WSRegionCode": 51,
+    "RegionName": 2520039,
+    "RegionGroupName": 2520025,
+    "RegionUTC": 2520014,
+    "RegionIcon": 4700001,
+    "RegionOrder": 106
+  },
+  {
+    "RegionKey": "ASIA7",
+    "RegionGroupKey": "ASIA1",
+    "WSRegionCode": 61,
+    "RegionName": 2520040,
+    "RegionGroupName": 2520025,
+    "RegionUTC": 2520014,
+    "RegionIcon": 4700001,
+    "RegionOrder": 107
+  },
+  {
+    "RegionKey": "ASIA8",
+    "RegionGroupKey": "ASIA1",
+    "WSRegionCode": 71,
+    "RegionName": 2520041,
+    "RegionGroupName": 2520025,
+    "RegionUTC": 2520014,
+    "RegionIcon": 4700001,
+    "RegionOrder": 108
+  },
+  {
+    "RegionKey": "ASIA9",
+    "RegionGroupKey": "ASIA1",
+    "WSRegionCode": 81,
+    "RegionName": 2520042,
+    "RegionGroupName": 2520025,
+    "RegionUTC": 2520014,
+    "RegionIcon": 4700001,
+    "RegionOrder": 109
+  },
+  {
+    "RegionKey": "ASIA10",
+    "RegionGroupKey": "ASIA1",
+    "WSRegionCode": 91,
+    "RegionName": 2520043,
+    "RegionGroupName": 2520025,
+    "RegionUTC": 2520014,
+    "RegionIcon": 4700001,
+    "RegionOrder": 110
+  },
+  {
+    "RegionKey": "EU1",
+    "RegionGroupKey": "EU1",
+    "WSRegionCode": 3,
+    "RegionName": 2520003,
+    "RegionGroupName": 2520027,
+    "RegionUTC": 2520016,
+    "RegionIcon": 4700004,
+    "RegionOrder": 401
+  },
+  {
+    "RegionKey": "EU2",
+    "RegionGroupKey": "EU1",
+    "WSRegionCode": 13,
+    "RegionName": 2520044,
+    "RegionGroupName": 2520027,
+    "RegionUTC": 2520016,
+    "RegionIcon": 4700004,
+    "RegionOrder": 402
+  },
+  {
+    "RegionKey": "EU3",
+    "RegionGroupKey": "EU1",
+    "WSRegionCode": 23,
+    "RegionName": 2520045,
+    "RegionGroupName": 2520027,
+    "RegionUTC": 2520016,
+    "RegionIcon": 4700004,
+    "RegionOrder": 403
+  },
+  {
+    "RegionKey": "EU4",
+    "RegionGroupKey": "EU1",
+    "WSRegionCode": 33,
+    "RegionName": 2520046,
+    "RegionGroupName": 2520027,
+    "RegionUTC": 2520016,
+    "RegionIcon": 4700004,
+    "RegionOrder": 404
+  },
+  {
+    "RegionKey": "EU5",
+    "RegionGroupKey": "EU1",
+    "WSRegionCode": 43,
+    "RegionName": 2520047,
+    "RegionGroupName": 2520027,
+    "RegionUTC": 2520016,
+    "RegionIcon": 4700004,
+    "RegionOrder": 405
+  },
+  {
+    "RegionKey": "EU6",
+    "RegionGroupKey": "EU1",
+    "WSRegionCode": 53,
+    "RegionName": 2520048,
+    "RegionGroupName": 2520027,
+    "RegionUTC": 2520016,
+    "RegionIcon": 4700004,
+    "RegionOrder": 406
+  },
+  {
+    "RegionKey": "EU7",
+    "RegionGroupKey": "EU1",
+    "WSRegionCode": 63,
+    "RegionName": 2520049,
+    "RegionGroupName": 2520027,
+    "RegionUTC": 2520016,
+    "RegionIcon": 4700004,
+    "RegionOrder": 407
+  },
+  {
+    "RegionKey": "EU8",
+    "RegionGroupKey": "EU1",
+    "WSRegionCode": 73,
+    "RegionName": 2520050,
+    "RegionGroupName": 2520027,
+    "RegionUTC": 2520016,
+    "RegionIcon": 4700004,
+    "RegionOrder": 408
+  },
+  {
+    "RegionKey": "EU9",
+    "RegionGroupKey": "EU1",
+    "WSRegionCode": 83,
+    "RegionName": 2520051,
+    "RegionGroupName": 2520027,
+    "RegionUTC": 2520016,
+    "RegionIcon": 4700004,
+    "RegionOrder": 409
+  },
+  {
+    "RegionKey": "EU10",
+    "RegionGroupKey": "EU1",
+    "WSRegionCode": 93,
+    "RegionName": 2520052,
+    "RegionGroupName": 2520027,
+    "RegionUTC": 2520016,
+    "RegionIcon": 4700004,
+    "RegionOrder": 410
+  },
+  {
+    "RegionKey": "NA1",
+    "RegionGroupKey": "NA1",
+    "WSRegionCode": 2,
+    "RegionName": 2520002,
+    "RegionGroupName": 2520026,
+    "RegionUTC": 2520015,
+    "RegionIcon": 4700002,
+    "RegionOrder": 601
+  },
+  {
+    "RegionKey": "NA2",
+    "RegionGroupKey": "NA1",
+    "WSRegionCode": 12,
+    "RegionName": 2520022,
+    "RegionGroupName": 2520026,
+    "RegionUTC": 2520015,
+    "RegionIcon": 4700002,
+    "RegionOrder": 602
+  },
+  {
+    "RegionKey": "NA3",
+    "RegionGroupKey": "NA1",
+    "WSRegionCode": 22,
+    "RegionName": 2520053,
+    "RegionGroupName": 2520026,
+    "RegionUTC": 2520015,
+    "RegionIcon": 4700002,
+    "RegionOrder": 603
+  },
+  {
+    "RegionKey": "NA4",
+    "RegionGroupKey": "NA1",
+    "WSRegionCode": 32,
+    "RegionName": 2520054,
+    "RegionGroupName": 2520026,
+    "RegionUTC": 2520015,
+    "RegionIcon": 4700002,
+    "RegionOrder": 604
+  },
+  {
+    "RegionKey": "NA5",
+    "RegionGroupKey": "NA1",
+    "WSRegionCode": 42,
+    "RegionName": 2520055,
+    "RegionGroupName": 2520026,
+    "RegionUTC": 2520015,
+    "RegionIcon": 4700002,
+    "RegionOrder": 605
+  },
+  {
+    "RegionKey": "NA6",
+    "RegionGroupKey": "NA1",
+    "WSRegionCode": 52,
+    "RegionName": 2520056,
+    "RegionGroupName": 2520026,
+    "RegionUTC": 2520015,
+    "RegionIcon": 4700002,
+    "RegionOrder": 606
+  },
+  {
+    "RegionKey": "NA7",
+    "RegionGroupKey": "NA1",
+    "WSRegionCode": 62,
+    "RegionName": 2520057,
+    "RegionGroupName": 2520026,
+    "RegionUTC": 2520015,
+    "RegionIcon": 4700002,
+    "RegionOrder": 607
+  },
+  {
+    "RegionKey": "NA8",
+    "RegionGroupKey": "NA1",
+    "WSRegionCode": 72,
+    "RegionName": 2520058,
+    "RegionGroupName": 2520026,
+    "RegionUTC": 2520015,
+    "RegionIcon": 4700002,
+    "RegionOrder": 608
+  },
+  {
+    "RegionKey": "NA9",
+    "RegionGroupKey": "NA1",
+    "WSRegionCode": 82,
+    "RegionName": 2520059,
+    "RegionGroupName": 2520026,
+    "RegionUTC": 2520015,
+    "RegionIcon": 4700002,
+    "RegionOrder": 609
+  },
+  {
+    "RegionKey": "NA10",
+    "RegionGroupKey": "NA1",
+    "WSRegionCode": 92,
+    "RegionName": 2520060,
+    "RegionGroupName": 2520026,
+    "RegionUTC": 2520015,
+    "RegionIcon": 4700002,
+    "RegionOrder": 610
+  },
+  {
+    "RegionKey": "SA1",
+    "RegionGroupKey": "SA1",
+    "WSRegionCode": 5,
+    "RegionName": 2520023,
+    "RegionGroupName": 2520028,
+    "RegionUTC": 2520030,
+    "RegionIcon": 4700003,
+    "RegionOrder": 501
+  },
+  {
+    "RegionKey": "SA2",
+    "RegionGroupKey": "SA1",
+    "WSRegionCode": 15,
+    "RegionName": 2520061,
+    "RegionGroupName": 2520028,
+    "RegionUTC": 2520030,
+    "RegionIcon": 4700003,
+    "RegionOrder": 502
+  },
+  {
+    "RegionKey": "SA3",
+    "RegionGroupKey": "SA1",
+    "WSRegionCode": 25,
+    "RegionName": 2520062,
+    "RegionGroupName": 2520028,
+    "RegionUTC": 2520030,
+    "RegionIcon": 4700003,
+    "RegionOrder": 503
+  },
+  {
+    "RegionKey": "SA4",
+    "RegionGroupKey": "SA1",
+    "WSRegionCode": 35,
+    "RegionName": 2520063,
+    "RegionGroupName": 2520028,
+    "RegionUTC": 2520030,
+    "RegionIcon": 4700003,
+    "RegionOrder": 504
+  },
+  {
+    "RegionKey": "SA5",
+    "RegionGroupKey": "SA1",
+    "WSRegionCode": 45,
+    "RegionName": 2520064,
+    "RegionGroupName": 2520028,
+    "RegionUTC": 2520030,
+    "RegionIcon": 4700003,
+    "RegionOrder": 505
+  },
+  {
+    "RegionKey": "SA6",
+    "RegionGroupKey": "SA1",
+    "WSRegionCode": 55,
+    "RegionName": 2520065,
+    "RegionGroupName": 2520028,
+    "RegionUTC": 2520030,
+    "RegionIcon": 4700003,
+    "RegionOrder": 506
+  },
+  {
+    "RegionKey": "SA7",
+    "RegionGroupKey": "SA1",
+    "WSRegionCode": 65,
+    "RegionName": 2520066,
+    "RegionGroupName": 2520028,
+    "RegionUTC": 2520030,
+    "RegionIcon": 4700003,
+    "RegionOrder": 507
+  },
+  {
+    "RegionKey": "SA8",
+    "RegionGroupKey": "SA1",
+    "WSRegionCode": 75,
+    "RegionName": 2520067,
+    "RegionGroupName": 2520028,
+    "RegionUTC": 2520030,
+    "RegionIcon": 4700003,
+    "RegionOrder": 508
+  },
+  {
+    "RegionKey": "SA9",
+    "RegionGroupKey": "SA1",
+    "WSRegionCode": 85,
+    "RegionName": 2520068,
+    "RegionGroupName": 2520028,
+    "RegionUTC": 2520030,
+    "RegionIcon": 4700003,
+    "RegionOrder": 509
+  },
+  {
+    "RegionKey": "SA10",
+    "RegionGroupKey": "SA1",
+    "WSRegionCode": 95,
+    "RegionName": 2520069,
+    "RegionGroupName": 2520028,
+    "RegionUTC": 2520030,
+    "RegionIcon": 4700003,
+    "RegionOrder": 510
+  },
+  {
+    "RegionKey": "INMENA1",
+    "RegionGroupKey": "INMENA1",
+    "WSRegionCode": 6,
+    "RegionName": 2520088,
+    "RegionGroupName": 2520098,
+    "RegionUTC": 2520035,
+    "RegionIcon": 4700008,
+    "RegionOrder": 201
+  },
+  {
+    "RegionKey": "INMENA2",
+    "RegionGroupKey": "INMENA1",
+    "WSRegionCode": 16,
+    "RegionName": 2520089,
+    "RegionGroupName": 2520098,
+    "RegionUTC": 2520035,
+    "RegionIcon": 4700008,
+    "RegionOrder": 202
+  },
+  {
+    "RegionKey": "INMENA3",
+    "RegionGroupKey": "INMENA1",
+    "WSRegionCode": 26,
+    "RegionName": 2520090,
+    "RegionGroupName": 2520098,
+    "RegionUTC": 2520035,
+    "RegionIcon": 4700008,
+    "RegionOrder": 203
+  },
+  {
+    "RegionKey": "INMENA4",
+    "RegionGroupKey": "INMENA1",
+    "WSRegionCode": 36,
+    "RegionName": 2520091,
+    "RegionGroupName": 2520098,
+    "RegionUTC": 2520035,
+    "RegionIcon": 4700008,
+    "RegionOrder": 204
+  },
+  {
+    "RegionKey": "INMENA5",
+    "RegionGroupKey": "INMENA1",
+    "WSRegionCode": 46,
+    "RegionName": 2520092,
+    "RegionGroupName": 2520098,
+    "RegionUTC": 2520035,
+    "RegionIcon": 4700008,
+    "RegionOrder": 205
+  },
+  {
+    "RegionKey": "INMENA6",
+    "RegionGroupKey": "INMENA1",
+    "WSRegionCode": 56,
+    "RegionName": 2520093,
+    "RegionGroupName": 2520098,
+    "RegionUTC": 2520035,
+    "RegionIcon": 4700008,
+    "RegionOrder": 206
+  },
+  {
+    "RegionKey": "INMENA7",
+    "RegionGroupKey": "INMENA1",
+    "WSRegionCode": 66,
+    "RegionName": 2520094,
+    "RegionGroupName": 2520098,
+    "RegionUTC": 2520035,
+    "RegionIcon": 4700008,
+    "RegionOrder": 207
+  },
+  {
+    "RegionKey": "INMENA8",
+    "RegionGroupKey": "INMENA1",
+    "WSRegionCode": 76,
+    "RegionName": 2520095,
+    "RegionGroupName": 2520098,
+    "RegionUTC": 2520035,
+    "RegionIcon": 4700008,
+    "RegionOrder": 208
+  },
+  {
+    "RegionKey": "INMENA9",
+    "RegionGroupKey": "INMENA1",
+    "WSRegionCode": 86,
+    "RegionName": 2520096,
+    "RegionGroupName": 2520098,
+    "RegionUTC": 2520035,
+    "RegionIcon": 4700008,
+    "RegionOrder": 209
+  },
+  {
+    "RegionKey": "INMENA10",
+    "RegionGroupKey": "INMENA1",
+    "WSRegionCode": 96,
+    "RegionName": 2520097,
+    "RegionGroupName": 2520098,
+    "RegionUTC": 2520035,
+    "RegionIcon": 4700008,
+    "RegionOrder": 210
+  }
+]

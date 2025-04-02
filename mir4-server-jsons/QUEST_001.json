@@ -1,0 +1,2833 @@
+[
+  {
+    "QuestId": 100000000,
+    "QuestLevel": 1,
+    "StepNo": 0,
+    "StartScript": "FADE 1 1 1/MOVIE 2/CUTSCENEDELAY/FADE 1 1 0",
+    "EndScript": "HUDHIDE/PCWARP (29718,74324,9061,-64)/CAMERASET -61 -14 718 6/DELAY 1/FADE 1 0 4/DELAY 2/EFFECTSHOW 1020301 (29774,74233,9005,-62)/EFFECTSHOW 1020302 (30348,73159,9005,-62)/DELAY 2/HUDSHOW",
+    "MissionType": "QuestMissionType::ScriptPlay",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001001,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 29868.318,
+      "Y": 74042.86,
+      "Z": 9044.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 6000000,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      632200003,
+      632200003,
+      632200003,
+      632200003,
+      632200003
+    ],
+    "RewardItem01Count": 8,
+    "RewardItem02Id": [
+      1701100012,
+      1701100012,
+      1701100012,
+      1701100012,
+      1701100012
+    ],
+    "RewardItem02Count": 2,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000010,
+    "QuestLevel": 1,
+    "StepNo": 0,
+    "StartScript": "CAMERASET -61 -14 718 1/EFFECTSHOW 1020301 (29774,74233,9005,-62)/EFFECTSHOW 1020302 (30348,73159,9005,-62)/EFFECTSHOW 1020331 (30822,70304,8991,0)/NPCSHOW 40401 (35409,69988,8954,56)",
+    "EndScript": "EFFECTHIDE 1020301/EFFECTHIDE 1020302/HUDHIDE",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001001,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 1000,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 31109.0,
+      "Y": 71743.0,
+      "Z": 9006.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      601101601,
+      601101601,
+      601101601,
+      601101601,
+      601101601
+    ],
+    "RewardItem01Count": 12,
+    "RewardItem02Id": [
+      601101602,
+      601101602,
+      601101602,
+      601101602,
+      601101602
+    ],
+    "RewardItem02Count": 12,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 0,
+    "QuestLevel": 1,
+    "StepNo": 0,
+    "StartScript": "0",
+    "EndScript": "NPCHIDE 40401/HUDHIDE/CAMERAFOCUS (31058,71799,9196) (-1,-65,0) 0 2 (31292,71318,9142) (-4,-107,0) 1 1/DELAY 2/EFFECTHIDE 1020331/SEQUENCE 1000002/NPCSHOW 2031 (35466,69930,9041,163)/PCWARP (31669,70928,9037,-149)/CUTSCENEDELAY/FADE 1 0 1/CINEMATIC 100000050/CUTSCENEDELAY/NPCSHOW 37461 (31417,70744,9042,36)/FADE 1 1 0/HUDHIDE/DELAY 0.5/FADE 1 0 1/CAMERAFOCUS (32062,71095,9110) (14,-149,0) 0 8 (32013,71065,9125) (14,-149,0) 1 1/SMALLTALK 100000105/DELAY 5/NPCANIM 37461 0/DELAY 2/NPCHIDE 37461/DELAY 0.5/CAMERASET -16 -2 722 1/CAMERAFOCUS (32013,71065,9125) (14,-149,0) 0.1 1 (33410,70458,9357) (3,-15,0) 1 3.5/DELAY 0.5/NPCRUN 2031 (33816,70474,9042,166) 1/DELAY 0.6/PCWARP (31749,71038,9011,-16)/SMALLTALK 100000100/DELAY 4.5/HUDSHOW",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001001,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 31262.0,
+      "Y": 71350.0,
+      "Z": 9029.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000020,
+    "QuestLevel": 1,
+    "StepNo": 1,
+    "StartScript": "NPCSHOW 40401 (37638,67947,8954,50)",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001002,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 33612.0,
+      "Y": 70532.0,
+      "Z": 9024.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      601101603,
+      601101603,
+      601101603,
+      601101603,
+      601101603
+    ],
+    "RewardItem01Count": 12,
+    "RewardItem02Id": [
+      601101604,
+      601101604,
+      601101604,
+      601101604,
+      601101604
+    ],
+    "RewardItem02Count": 12,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000030,
+    "QuestLevel": 1,
+    "StepNo": 2,
+    "StartScript": "0",
+    "EndScript": "CINEMATIC 100000060/CUTSCENEDELAY/CAMERASET -16 -12 722 0.1/NPCRUN 2031 (37483,68211,9130,-43) 3 3.5/SMALLTALK 100000102",
+    "MissionType": "QuestMissionType::TalkNPCFind",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001003,
+    "MissionTarget": 2031,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 33816.0,
+      "Y": 70474.0,
+      "Z": 9042.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      606201307,
+      606201307,
+      606201307,
+      606201307,
+      606201307
+    ],
+    "RewardItem01Count": 12,
+    "RewardItem02Id": [
+      606201308,
+      606201308,
+      606201308,
+      606201308,
+      606201308
+    ],
+    "RewardItem02Count": 12,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000035,
+    "QuestLevel": 1,
+    "StepNo": 3,
+    "StartScript": "0",
+    "EndScript": "NPCHIDE 40401/FADE 0 1 0.3/DELAY 1",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001004,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 1000,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 37380.348,
+      "Y": 68553.586,
+      "Z": 9137.712
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      606201309,
+      606201309,
+      606201309,
+      606201309,
+      606201309
+    ],
+    "RewardItem01Count": 20,
+    "RewardItem02Id": [
+      401201008,
+      401201008,
+      401201008,
+      401201008,
+      401201008
+    ],
+    "RewardItem02Count": 2,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000040,
+    "QuestLevel": 1,
+    "StepNo": 3,
+    "StartScript": "0",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::Warp",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001004,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 147,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 12180.0,
+      "Y": -383.0,
+      "Z": 6232.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      402201008,
+      402201008,
+      402201008,
+      402201008,
+      402201008
+    ],
+    "RewardItem01Count": 2,
+    "RewardItem02Id": [
+      403201008,
+      403201008,
+      403201008,
+      403201008,
+      403201008
+    ],
+    "RewardItem02Count": 2,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000050,
+    "QuestLevel": 1,
+    "StepNo": 4,
+    "StartScript": "SEQUENCE 1001801/CUTSCENEDELAY/FADE 1 0 3/CAMERASET 114 -13 722 0.1/NPCSHOW 5094 (12217,1567,6132,-109)/NPCSHOW 2025 (11430,760,6450,30)/NPCSHOW 1002 (11930,-240,6237,-43)/NPCSHOW 4040 (7205,-2451,6268,39)/HUDSHOW",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::ScriptPlay",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001005,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 14320.0,
+      "Y": -730.0,
+      "Z": 6230.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      200201008,
+      200202008,
+      200203008,
+      200204008,
+      200205008
+    ],
+    "RewardItem01Count": 2,
+    "RewardItem02Id": [
+      301201008,
+      301202008,
+      301203008,
+      301204008,
+      301205008
+    ],
+    "RewardItem02Count": 2,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000100,
+    "QuestLevel": 1,
+    "StepNo": 4,
+    "StartScript": "NPCSHOW 5094 (12217,1567,6132,-109)/NPCSHOW 2025 (11430,760,6450,30)/NPCSHOW 1002 (11930,-240,6237,-29)/NPCSHOW 4040 (7205,-2451,6268,39)",
+    "EndScript": "CINEMATIC 100000100/CUTSCENEDELAY/CAMERASET -154 -12 600 0.1/NPCHIDE 4040/SMALLTALK 100000000",
+    "MissionType": "QuestMissionType::TalkNPCFindToPos",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001005,
+    "MissionTarget": 1002,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 12191.269,
+      "Y": -351.8416,
+      "Z": 6232.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      302201008,
+      302202008,
+      302203008,
+      302204008,
+      302205008
+    ],
+    "RewardItem01Count": 2,
+    "RewardItem02Id": [
+      303201008,
+      303202008,
+      303203008,
+      303204008,
+      303205008
+    ],
+    "RewardItem02Count": 2,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000200,
+    "QuestLevel": 1,
+    "StepNo": 5,
+    "StartScript": "AUTOFLIGHT 1000040102/NPCSHOW 5094 (12217,1567,6132,-109)/NPCSHOW 2025 (11430,760,6450,30)/NPCSHOW 1002 (11930,-240,6237,-29)",
+    "EndScript": "SEQUENCE 1001901/CUTSCENEDELAY/CAMERASET 174 -9 668 1",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001006,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 500,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [
+      {
+        "X": 819.0,
+        "Y": -5710.0,
+        "Z": 4399.0
+      }
+    ],
+    "MissionCoordinate": {
+      "X": 2150.0,
+      "Y": -5650.0,
+      "Z": 6450.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      304201008,
+      304202008,
+      304203008,
+      304204008,
+      304205008
+    ],
+    "RewardItem01Count": 2,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000300,
+    "QuestLevel": 1,
+    "StepNo": 6,
+    "StartScript": "AUTOFLIGHT 1000040101/MONSTERSHOW 100001045 0 0 (-2650,-5160,4012,-178)/MONSTERSHOW 100001076 0 2 (-2660,-4740,3980,-110)/MONSTERSHOW 100001075 0 4 (-2790,-5520,4050,39)/MONSTERSHOW 100001077 0 1 (-3070,-4660,4010,-55)/MONSTERSHOW 100001076 0 3 (-3140,-5200,4000,-15)/MONSTERSHOW 100001077 0 5 (-3410,-5370,4040,-15)",
+    "EndScript": "CAMERASET 164 -14 600 1.5",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001007,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 300,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [
+      {
+        "X": 2120.0,
+        "Y": -5510.0,
+        "Z": 6370.0
+      }
+    ],
+    "MissionCoordinate": {
+      "X": -1025.0,
+      "Y": -5512.0,
+      "Z": 4189.0
+    },
+    "PhaseExitCoordinate": {
+      "X": -250.0,
+      "Y": -5400.0,
+      "Z": 4300.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 100,
+    "RewardGOLD": 192,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      604200101,
+      604200101,
+      604200101,
+      604200101,
+      604200101
+    ],
+    "RewardItem01Count": 40,
+    "RewardItem02Id": [
+      605200101,
+      605200101,
+      605200101,
+      605200101,
+      605200101
+    ],
+    "RewardItem02Count": 40,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 0,
+    "QuestLevel": 1,
+    "StepNo": 7,
+    "StartScript": "0",
+    "EndScript": "MONSTERHIDE 100001045 0",
+    "MissionType": "QuestMissionType::PhaseQuestComplete",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001008,
+    "MissionTarget": 10025,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -1025.0,
+      "Y": -5512.0,
+      "Z": 4189.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000400,
+    "QuestLevel": 1,
+    "StepNo": 8,
+    "StartScript": "NPCSHOW 1003 (-2650,-5160,4011,-10)/NPCRUN 1003 (-7470,1640,3762,133) 2/DELAY 0.5/SMALLTALK 100000030/DELAY 7/NPCBB 1003 0 3 1000021/EFFECTSHOW 1020327 (-10570,3980,4470,0)",
+    "EndScript": "CINEMATIC 100000200/CUTSCENEDELAY/SMALLTALK 100000035",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001004,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -7428.4146,
+      "Y": 1777.9668,
+      "Z": 3780.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 1.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000500,
+    "QuestLevel": 1,
+    "StepNo": 9,
+    "StartScript": "EFFECTSHOW 1020327 (-10570,3980,4470,0)/NPCSHOW 1003 (-7470,1640,3762,133)",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::MonsterKill",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001009,
+    "MissionTarget": 100001066,
+    "Parameter1": 3,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": true,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -9910.0,
+      "Y": 3610.0,
+      "Z": 4350.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 100,
+    "RewardGOLD": 192,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000700,
+    "QuestLevel": 1,
+    "StepNo": 10,
+    "StartScript": "0",
+    "EndScript": "NPCHIDE 1003/STRINGMESSAGE 10022 3",
+    "MissionType": "QuestMissionType::ObjectQuestItemGet",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001010,
+    "MissionTarget": 100001007,
+    "Parameter1": 1,
+    "Parameter2": 100000,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -9910.0,
+      "Y": 3610.0,
+      "Z": 4350.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 80,
+    "RewardGOLD": 132,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      604200101,
+      604200101,
+      604200101,
+      604200101,
+      604200101
+    ],
+    "RewardItem01Count": 80,
+    "RewardItem02Id": [
+      605200101,
+      605200101,
+      605200101,
+      605200101,
+      605200101
+    ],
+    "RewardItem02Count": 80,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100000750,
+    "QuestLevel": 1,
+    "StepNo": 11,
+    "StartScript": "MONSTERSHOW 100001045 0 5 (-7120,2210,3655,-13)",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001011,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 900,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -8117.0,
+      "Y": 3012.0,
+      "Z": 3875.0
+    },
+    "PhaseExitCoordinate": {
+      "X": -9970.0,
+      "Y": 3520.0,
+      "Z": 4210.0
+    },
+    "QuestTrackerType": 2.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 80,
+    "RewardGOLD": 132,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 0,
+    "QuestLevel": 1,
+    "StepNo": 12,
+    "StartScript": "0",
+    "EndScript": "NPCHIDE 5094/NPCHIDE 2025",
+    "MissionType": "QuestMissionType::PhaseQuestComplete",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001014,
+    "MissionTarget": 10026,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -9510.0,
+      "Y": 3420.0,
+      "Z": 4150.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001300,
+    "QuestLevel": 1,
+    "StepNo": 13,
+    "StartScript": "MONSTERSHOW 100001081 0 0 (10135,2845,5980,70)/EFFECTSHOW 1020325 (9630,3100,7450,0)/EFFECTSHOW 1020326 (9520,3580,6760,0)/SEQUENCE 1002002/CUTSCENEDELAY/CINEMATIC 100000250/CUTSCENEDELAY/FADE 1 1 0",
+    "EndScript": "CAMERASET 64 -12 600 0.1/PCWARP (12233,3444,8129,50)/FADE 1 0 2",
+    "MissionType": "QuestMissionType::ScriptPlay",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001015,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -9510.0,
+      "Y": 3420.0,
+      "Z": 4150.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001400,
+    "QuestLevel": 1,
+    "StepNo": 13,
+    "StartScript": "MONSTERSHOW 100001081 0 0 (10135,2845,5980,70)/EFFECTHIDE 1020015/EFFECTHIDE 1020016/NPCSHOW 1001 (14352,7853,8110,-90)/NPCSHOW 1002 (14565,7800,8110,-117)/NPCSHOW 1003 (14143,7753,8020,-87)",
+    "EndScript": "SEQUENCE 1001201/CUTSCENEDELAY/FADE 0 1 0",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001015,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 12570.0,
+      "Y": 4130.0,
+      "Z": 8110.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001500,
+    "QuestLevel": 1,
+    "StepNo": 13,
+    "StartScript": "0",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::Warp",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001015,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 120.0,
+      "Y": 4351.0,
+      "Z": -370.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001600,
+    "QuestLevel": 1,
+    "StepNo": 13,
+    "StartScript": "FADE 1 0 1/CAMERAFOCUS (1386,4765,-36) (-5,-143,0) 2 1",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::ScriptPlay",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001015,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 120.0,
+      "Y": 4351.0,
+      "Z": -370.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001700,
+    "QuestLevel": 2,
+    "StepNo": 13,
+    "StartScript": "NPCSHOW 1002 (120,4130,-370,0)/NPCSHOW 402305 (2331,11983,99,0)/NPCSHOW 402306 (-2591,8961,1505,90)",
+    "EndScript": "NPCRUN 1002 (3520,4600,100,90) 2",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001001,
+    "QuestMissionSID": 2001015,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 120.0,
+      "Y": 4351.0,
+      "Z": -370.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001800,
+    "QuestLevel": 2,
+    "StepNo": 1,
+    "StartScript": "0",
+    "EndScript": "HUDHIDE/CAMERASET 88 -15 726 5/SMALLTALK 100000110/DELAY 3/NPCJUMP 1002 (3710,12310,90,-129)/CAMERAFOCUS (3380,4212,290) (9,90,0) 0.1 2 (3371,5468,475) (8,89,0) 1 1/HUDSHOW",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001016,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 3220.0,
+      "Y": 4600.0,
+      "Z": 100.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001850,
+    "QuestLevel": 2,
+    "StepNo": 2,
+    "StartScript": "AUTOFLIGHT 1000040204/DELAY 3/NPCHIDE 1002/DELAY 2/NPCSHOW 1002 (3078,12023,90,-42)/NPCSHOW 40226 (3380,15010,1870,-90)",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001017,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 800,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [
+      {
+        "X": 3368.0,
+        "Y": 6080.0,
+        "Z": 2.0
+      }
+    ],
+    "MissionCoordinate": {
+      "X": 3370.0,
+      "Y": 8710.0,
+      "Z": 0.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001900,
+    "QuestLevel": 2,
+    "StepNo": 2,
+    "StartScript": "0",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001017,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 3203.0,
+      "Y": 11843.0,
+      "Z": 90.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 250,
+    "RewardGOLD": 204,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001930,
+    "QuestLevel": 2,
+    "StepNo": 3,
+    "StartScript": "NPCSHOW 1002 (3078,12023,90,-42)",
+    "EndScript": "CINEMATIC 100000300/CUTSCENEDELAY/SEQUENCE 1002003/CAMERASET 176 -12 559 0.1/NPCHIDE 1002/PCWARP (3300,12000,100,-180)/CUTSCENEDELAY/NPCHIDE 402305",
+    "MissionType": "QuestMissionType::TalkNPCFind",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001005,
+    "MissionTarget": 1002,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": 3078.0,
+      "Y": 12023.0,
+      "Z": 90.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001940,
+    "QuestLevel": 2,
+    "StepNo": 4,
+    "StartScript": "0",
+    "EndScript": "CAMERAFOCUS (-533,9619,328) (8,179,0) 1 4 (-2386,9534,1235) (33,-111,0) 1 1/HUDHIDE/SMALLTALK 100000120/DELAY 7/HUDSHOW",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001018,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -1020.0,
+      "Y": 9660.0,
+      "Z": 90.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100001950,
+    "QuestLevel": 2,
+    "StepNo": 5,
+    "StartScript": "0",
+    "EndScript": "FADE 1 1 0/NPCHIDE 402306",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001018,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -2454.9192,
+      "Y": 9333.183,
+      "Z": 90.32688
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100002000,
+    "QuestLevel": 2,
+    "StepNo": 6,
+    "StartScript": "PCWARP (-2610,8880,1510,-70)/CAMERASET -69 -18 131 1/DELAY 0.2/FADE 1 0 0",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001019,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -2590.0,
+      "Y": 8950.0,
+      "Z": 1470.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 250,
+    "RewardGOLD": 204,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100002100,
+    "QuestLevel": 2,
+    "StepNo": 7,
+    "StartScript": "AUTOFLIGHT 1000040203/NPCSHOW 40225 (-3400,8110,1470,0)",
+    "EndScript": "CAMERASET -1 -12 600 1",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001020,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 120,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [
+      {
+        "X": -2595.549,
+        "Y": 9975.541,
+        "Z": 71.70325
+      }
+    ],
+    "MissionCoordinate": {
+      "X": -2220.0,
+      "Y": 8440.0,
+      "Z": 1500.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 250,
+    "RewardGOLD": 204,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 99,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100002300,
+    "QuestLevel": 2,
+    "StepNo": 8,
+    "StartScript": "AUTOFLIGHT 1000040203/NPCSHOW 40161 (-4340,9050,130,89)",
+    "EndScript": "FADE 0 1 1/SEQUENCE 1002001/CUTSCENEDELAY/FADE 0 1 0/HUDHIDE/PCWARP (-4100,8080,90,-180)/CAMERASET -179 -9 173 0.1/DELAY 1/FADE 1 0 2/NPCHIDE 40225",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001021,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [
+      {
+        "X": -2220.0,
+        "Y": 8440.0,
+        "Z": 1410.0
+      },
+      {
+        "X": -2595.549,
+        "Y": 9975.541,
+        "Z": 71.70325
+      }
+    ],
+    "MissionCoordinate": {
+      "X": -2500.0,
+      "Y": 7820.0,
+      "Z": 1530.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100002330,
+    "QuestLevel": 2,
+    "StepNo": 9,
+    "StartScript": "AUTOFLIGHT 1000040203/MONSTERSHOW 100001069 0 1 (-4750,8110,20,0)",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001022,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [
+      {
+        "X": -2220.0,
+        "Y": 8440.0,
+        "Z": 1410.0
+      },
+      {
+        "X": -2595.549,
+        "Y": 9975.541,
+        "Z": 71.70325
+      }
+    ],
+    "MissionCoordinate": {
+      "X": -4100.0,
+      "Y": 8080.0,
+      "Z": 90.0
+    },
+    "PhaseExitCoordinate": {
+      "X": -3730.0,
+      "Y": 8080.0,
+      "Z": 90.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 0,
+    "RewardExp": 250,
+    "RewardGOLD": 204,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 0,
+    "QuestLevel": 2,
+    "StepNo": 9,
+    "StartScript": "NPCSHOW 4019 (-8542,9993,90,0)",
+    "EndScript": "NPCSHOW 402307 (-4320,9030,100,0)/NPCHIDE 40161",
+    "MissionType": "QuestMissionType::PhaseQuestComplete",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001022,
+    "MissionTarget": 10027,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -3820.0,
+      "Y": 8080.0,
+      "Z": 80.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100002350,
+    "QuestLevel": 2,
+    "StepNo": 10,
+    "StartScript": "AUTOFLIGHT 1000040203/NPCSHOW 4019 (-8542,9993,90,0)/NPCSHOW 40228 (-8543,9982,90,0)/MONSTERSHOW 100001078 0 0 (-4330,9050,13,89)/NPCHIDE 402307",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001023,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [
+      {
+        "X": -2220.0,
+        "Y": 8440.0,
+        "Z": 1410.0
+      },
+      {
+        "X": -2595.549,
+        "Y": 9975.541,
+        "Z": 71.70325
+      }
+    ],
+    "MissionCoordinate": {
+      "X": -4360.0,
+      "Y": 8740.0,
+      "Z": 80.0
+    },
+    "PhaseExitCoordinate": {
+      "X": -4150.0,
+      "Y": 8080.0,
+      "Z": 80.0
+    },
+    "QuestTrackerType": 1.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 250,
+    "RewardGOLD": 204,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      302201000,
+      302202000,
+      302203000,
+      302204000,
+      302205000
+    ],
+    "RewardItem01Count": 4,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 0,
+    "QuestLevel": 2,
+    "StepNo": 11,
+    "StartScript": "0",
+    "EndScript": "SMALLTALK 100000170",
+    "MissionType": "QuestMissionType::PhaseQuestComplete",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001024,
+    "MissionTarget": 10028,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -4360.0,
+      "Y": 8740.0,
+      "Z": 80.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100002450,
+    "QuestLevel": 2,
+    "StepNo": 12,
+    "StartScript": "AUTOFLIGHT 1000040203/NPCSHOW 4019 (-8542,9993,90,0)/NPCSHOW 40228 (-8543,9982,90,0)",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001025,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [
+      {
+        "X": -2220.0,
+        "Y": 8440.0,
+        "Z": 1410.0
+      },
+      {
+        "X": -2595.549,
+        "Y": 9975.541,
+        "Z": 71.70325
+      }
+    ],
+    "MissionCoordinate": {
+      "X": -8450.0,
+      "Y": 9986.0,
+      "Z": 111.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 1,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100002480,
+    "QuestLevel": 2,
+    "StepNo": 13,
+    "StartScript": "AUTOFLIGHT 1000040203/NPCSHOW 4019 (-8542,9993,90,0)/NPCSHOW 40228 (-8543,9982,90,0)/NPCSHOW 4016 (-13100,10000,160,180)/NPCSHOW 2032 (-13440,9980,90,0)",
+    "EndScript": "NPCHIDE 40228/NPCANIM 4019 0/DELAY 2/NPCHIDE 4019 2",
+    "MissionType": "QuestMissionType::ObjectQuestItemGet",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001026,
+    "MissionTarget": 100002004,
+    "Parameter1": 1,
+    "Parameter2": 100000,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [
+      {
+        "X": -2220.0,
+        "Y": 8440.0,
+        "Z": 1410.0
+      },
+      {
+        "X": -2595.549,
+        "Y": 9975.541,
+        "Z": 71.70325
+      }
+    ],
+    "MissionCoordinate": {
+      "X": -8493.0,
+      "Y": 9980.0,
+      "Z": 101.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 250,
+    "RewardGOLD": 204,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100002500,
+    "QuestLevel": 2,
+    "StepNo": 14,
+    "StartScript": "AUTOFLIGHT 1000040203/NPCSHOW 40229 (-13100,10000,160,180)",
+    "EndScript": "NPCHIDE 40229/NPCANIM 4016 0/DELAY 2/NPCHIDE 4016 2",
+    "MissionType": "QuestMissionType::ObjectQuestItemGet",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001028,
+    "MissionTarget": 100002005,
+    "Parameter1": 1,
+    "Parameter2": 100000,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [
+      {
+        "X": -2220.0,
+        "Y": 8440.0,
+        "Z": 1410.0
+      },
+      {
+        "X": -2595.549,
+        "Y": 9975.541,
+        "Z": 71.70325
+      }
+    ],
+    "MissionCoordinate": {
+      "X": -13048.0,
+      "Y": 9960.0,
+      "Z": 100.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 250,
+    "RewardGOLD": 204,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100002550,
+    "QuestLevel": 2,
+    "StepNo": 15,
+    "StartScript": "AUTOFLIGHT 1000040203",
+    "EndScript": "CINEMATIC 100000500/CUTSCENEDELAY/PCWARP (-13208,9982,90,-179)/CAMERASET 15 -10 760 1/DELAY 0.1",
+    "MissionType": "QuestMissionType::TalkNPCFind",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001029,
+    "MissionTarget": 2032,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [
+      {
+        "X": -2220.0,
+        "Y": 8440.0,
+        "Z": 1410.0
+      },
+      {
+        "X": -2595.549,
+        "Y": 9975.541,
+        "Z": 71.70325
+      }
+    ],
+    "MissionCoordinate": {
+      "X": -13440.0,
+      "Y": 9970.0,
+      "Z": 90.0
+    },
+    "PhaseExitCoordinate": {
+      "X": -13280.0,
+      "Y": 9970.0,
+      "Z": 100.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 0,
+    "QuestLevel": 2,
+    "StepNo": 16,
+    "StartScript": "NPCSHOW 3730 (-7491,9908,100,-178)/NPCSHOW 37301 (-7485,10117,100,-178)/NPCSHOW 37302 (-7286,9912,100,-178)/NPCSHOW 37303 (-7283,10121,100,-178)/NPCSHOW 37304 (-7202,9913,100,-178)/NPCSHOW 37305 (-7206,10122,100,-178)/DELAY 0.3/NPCRUN 2032 (-11450,9980,90,0) 2/DELAY 0.9/NPCRUN 3730 (-9242,9865,100,-176) 2/NPCRUN 37301 (-9244,10123,100,172) 2/NPCRUN 37302 (-9017,9878,100,-178) 2/NPCRUN 37303 (-9009,10087,100,-178) 2/NPCRUN 37304 (-8778,9882,100,-178) 2/NPCRUN 37305 (-8766,10092,100,-178) 2",
+    "EndScript": "FADE 1 1 0/NPCHIDE 2032/NPCHIDE 3730/NPCHIDE 37301/NPCHIDE 37302/NPCHIDE 37303/NPCHIDE 37304/NPCHIDE 37305",
+    "MissionType": "QuestMissionType::MoveTo",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001030,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": 200,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -10913.0,
+      "Y": 9980.0,
+      "Z": 100.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 1020008,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 0,
+    "QuestLevel": 2,
+    "StepNo": 17,
+    "StartScript": "0",
+    "EndScript": "FADE 1 1 0",
+    "MissionType": "QuestMissionType::PhaseQuestComplete",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001031,
+    "MissionTarget": 10032,
+    "Parameter1": 1,
+    "Parameter2": 0,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100004020,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -11160.0,
+      "Y": 9980.0,
+      "Z": 100.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.0,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  },
+  {
+    "QuestId": 100002600,
+    "QuestLevel": 2,
+    "StepNo": 17,
+    "StartScript": "0",
+    "EndScript": "0",
+    "MissionType": "QuestMissionType::Warp",
+    "AutoBattleType": 0,
+    "PcTargetSearchDist": 0,
+    "CoordinateRange": 0,
+    "QuestTitleSID": 1001002,
+    "QuestMissionSID": 2001031,
+    "MissionTarget": 0,
+    "Parameter1": 1,
+    "Parameter2": -71,
+    "ParameterClass": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "CountIndication": false,
+    "MissionStageId": 100002010,
+    "ViaCoordinate": [],
+    "MissionCoordinate": {
+      "X": -1166.0,
+      "Y": -2499.0,
+      "Z": 9970.0
+    },
+    "PhaseExitCoordinate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "QuestTrackerType": 0.1,
+    "SoundId": 0,
+    "SoundRange": 0.0,
+    "EffectId": 0,
+    "IconId": 0,
+    "RewardExp": 0,
+    "RewardGOLD": 0,
+    "RewardCostId": 0,
+    "RewardCostCount": 0,
+    "RewardItem01Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem01Count": 0,
+    "RewardItem02Id": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "RewardItem02Count": 0,
+    "CountSmallTalk": [],
+    "TutorialGroupId": 0,
+    "ContentOpenPage": 0,
+    "StringMESSAGE": 0
+  }
+]

@@ -1,0 +1,4751 @@
+[
+  {
+    "StatusID": 1,
+    "Status_CalculateID": 1,
+    "AddStatusType": 0,
+    "AddStatusID": 2,
+    "AddStatusValue": 1,
+    "RateAddStatusID": 0,
+    "StringId": 510001,
+    "UpgradeStringId": 510001,
+    "IconBlood": 120003,
+    "IconMasteryOff": 120003,
+    "IconMasteryOn": 120003,
+    "InfoViewType": 1,
+    "InfoViewOrder": 1,
+    "InfoViewRate": [
+      1
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120003,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 2,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510002,
+    "UpgradeStringId": 510002,
+    "IconBlood": 120042,
+    "IconMasteryOff": 120042,
+    "IconMasteryOn": 120042,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120042,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 3,
+    "Status_CalculateID": 3,
+    "AddStatusType": 0,
+    "AddStatusID": 5,
+    "AddStatusValue": 1,
+    "RateAddStatusID": 0,
+    "StringId": 510003,
+    "UpgradeStringId": 510003,
+    "IconBlood": 120004,
+    "IconMasteryOff": 120004,
+    "IconMasteryOn": 120004,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      3
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "IconStatusInfo": 120004,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 4,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510004,
+    "UpgradeStringId": 510004,
+    "IconBlood": 120043,
+    "IconMasteryOff": 120043,
+    "IconMasteryOn": 120043,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120043,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 5,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510005,
+    "UpgradeStringId": 510005,
+    "IconBlood": 120043,
+    "IconMasteryOff": 120043,
+    "IconMasteryOn": 120043,
+    "InfoViewType": 3,
+    "InfoViewOrder": 1,
+    "InfoViewRate": [
+      5
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120043,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 6,
+    "Status_CalculateID": 6,
+    "AddStatusType": 0,
+    "AddStatusID": 7,
+    "AddStatusValue": 6,
+    "RateAddStatusID": 0,
+    "StringId": 510006,
+    "UpgradeStringId": 510006,
+    "IconBlood": 120005,
+    "IconMasteryOff": 120005,
+    "IconMasteryOn": 120005,
+    "InfoViewType": 2,
+    "InfoViewOrder": 1,
+    "InfoViewRate": [
+      6
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14,
+      19,
+      23,
+      24
+    ],
+    "IconStatusInfo": 120005,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 7,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510007,
+    "UpgradeStringId": 510007,
+    "IconBlood": 120044,
+    "IconMasteryOff": 120044,
+    "IconMasteryOn": 120044,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      7
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120044,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 8,
+    "Status_CalculateID": 8,
+    "AddStatusType": 0,
+    "AddStatusID": 10,
+    "AddStatusValue": 6,
+    "RateAddStatusID": 0,
+    "StringId": 510008,
+    "UpgradeStringId": 510008,
+    "IconBlood": 120006,
+    "IconMasteryOff": 120006,
+    "IconMasteryOn": 120006,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      8
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "IconStatusInfo": 120006,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 9,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510009,
+    "UpgradeStringId": 510009,
+    "IconBlood": 120045,
+    "IconMasteryOff": 120045,
+    "IconMasteryOn": 120045,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      9
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120045,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 10,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510010,
+    "UpgradeStringId": 510010,
+    "IconBlood": 120092,
+    "IconMasteryOff": 120092,
+    "IconMasteryOn": 120092,
+    "InfoViewType": 4,
+    "InfoViewOrder": 1,
+    "InfoViewRate": [
+      10
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120092,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 11,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510011,
+    "UpgradeStringId": 510011,
+    "IconBlood": 120007,
+    "IconMasteryOff": 120007,
+    "IconMasteryOn": 120007,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120007,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 12,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510012,
+    "UpgradeStringId": 510012,
+    "IconBlood": 120046,
+    "IconMasteryOff": 120046,
+    "IconMasteryOn": 120046,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120046,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 13,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510013,
+    "UpgradeStringId": 510013,
+    "IconBlood": 120008,
+    "IconMasteryOff": 120008,
+    "IconMasteryOn": 120008,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120008,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 14,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510014,
+    "UpgradeStringId": 510014,
+    "IconBlood": 120047,
+    "IconMasteryOff": 120047,
+    "IconMasteryOn": 120047,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120047,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 15,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510015,
+    "UpgradeStringId": 510015,
+    "IconBlood": 120090,
+    "IconMasteryOff": 120090,
+    "IconMasteryOn": 120090,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120090,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 16,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510016,
+    "UpgradeStringId": 510016,
+    "IconBlood": 120091,
+    "IconMasteryOff": 120091,
+    "IconMasteryOn": 120091,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120091,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 17,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510017,
+    "UpgradeStringId": 510017,
+    "IconBlood": 120100,
+    "IconMasteryOff": 120100,
+    "IconMasteryOn": 120100,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120100,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 18,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510018,
+    "UpgradeStringId": 510018,
+    "IconBlood": 120096,
+    "IconMasteryOff": 120096,
+    "IconMasteryOn": 120096,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120096,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 19,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510019,
+    "UpgradeStringId": 510019,
+    "IconBlood": 120096,
+    "IconMasteryOff": 120096,
+    "IconMasteryOn": 120096,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120096,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 20,
+    "Status_CalculateID": 20,
+    "AddStatusType": 0,
+    "AddStatusID": 21,
+    "AddStatusValue": 20,
+    "RateAddStatusID": 0,
+    "StringId": 510020,
+    "UpgradeStringId": 510020,
+    "IconBlood": 120001,
+    "IconMasteryOff": 120001,
+    "IconMasteryOn": 120001,
+    "InfoViewType": 1,
+    "InfoViewOrder": 2,
+    "InfoViewRate": [
+      20
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9,
+      10,
+      11,
+      14,
+      19,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120001,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 21,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510021,
+    "UpgradeStringId": 510021,
+    "IconBlood": 120040,
+    "IconMasteryOff": 120040,
+    "IconMasteryOn": 120040,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      21
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120040,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 22,
+    "Status_CalculateID": 22,
+    "AddStatusType": 0,
+    "AddStatusID": 23,
+    "AddStatusValue": 22,
+    "RateAddStatusID": 0,
+    "StringId": 510022,
+    "UpgradeStringId": 510022,
+    "IconBlood": 120002,
+    "IconMasteryOff": 120002,
+    "IconMasteryOn": 120002,
+    "InfoViewType": 1,
+    "InfoViewOrder": 3,
+    "InfoViewRate": [
+      22
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9,
+      10,
+      11,
+      14,
+      19,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120002,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 23,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510023,
+    "UpgradeStringId": 510023,
+    "IconBlood": 120041,
+    "IconMasteryOff": 120041,
+    "IconMasteryOn": 120041,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      23
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120041,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 24,
+    "Status_CalculateID": 24,
+    "AddStatusType": 0,
+    "AddStatusID": 25,
+    "AddStatusValue": 24,
+    "RateAddStatusID": 0,
+    "StringId": 510024,
+    "UpgradeStringId": 510024,
+    "IconBlood": 120009,
+    "IconMasteryOff": 120009,
+    "IconMasteryOn": 120009,
+    "InfoViewType": 2,
+    "InfoViewOrder": 2,
+    "InfoViewRate": [
+      24
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9,
+      10,
+      11,
+      14,
+      19,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120009,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 25,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510025,
+    "UpgradeStringId": 510025,
+    "IconBlood": 120048,
+    "IconMasteryOff": 120048,
+    "IconMasteryOn": 120048,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      25
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120048,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 26,
+    "Status_CalculateID": 26,
+    "AddStatusType": 0,
+    "AddStatusID": 27,
+    "AddStatusValue": 26,
+    "RateAddStatusID": 0,
+    "StringId": 510026,
+    "UpgradeStringId": 510026,
+    "IconBlood": 120010,
+    "IconMasteryOff": 120010,
+    "IconMasteryOn": 120010,
+    "InfoViewType": 2,
+    "InfoViewOrder": 3,
+    "InfoViewRate": [
+      26
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9,
+      10,
+      11,
+      14,
+      19,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120010,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 27,
+    "Status_CalculateID": 0,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510027,
+    "UpgradeStringId": 510027,
+    "IconBlood": 120049,
+    "IconMasteryOff": 120049,
+    "IconMasteryOn": 120049,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      27
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120049,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 28,
+    "Status_CalculateID": 28,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510028,
+    "UpgradeStringId": 510028,
+    "IconBlood": 120011,
+    "IconMasteryOff": 120011,
+    "IconMasteryOn": 120011,
+    "InfoViewType": 1,
+    "InfoViewOrder": 4,
+    "InfoViewRate": [
+      28
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      14,
+      19,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120011,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 29,
+    "Status_CalculateID": 29,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510029,
+    "UpgradeStringId": 510029,
+    "IconBlood": 120012,
+    "IconMasteryOff": 120012,
+    "IconMasteryOn": 120012,
+    "InfoViewType": 2,
+    "InfoViewOrder": 4,
+    "InfoViewRate": [
+      29
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      14,
+      19,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120012,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 30,
+    "Status_CalculateID": 30,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510030,
+    "UpgradeStringId": 510030,
+    "IconBlood": 120013,
+    "IconMasteryOff": 120013,
+    "IconMasteryOn": 120013,
+    "InfoViewType": 1,
+    "InfoViewOrder": 5,
+    "InfoViewRate": [
+      30
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      11,
+      14,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120013,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 31,
+    "Status_CalculateID": 31,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510031,
+    "UpgradeStringId": 510031,
+    "IconBlood": 120014,
+    "IconMasteryOff": 120014,
+    "IconMasteryOn": 120014,
+    "InfoViewType": 2,
+    "InfoViewOrder": 5,
+    "InfoViewRate": [
+      31
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      11,
+      14,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120014,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 32,
+    "Status_CalculateID": 32,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510032,
+    "UpgradeStringId": 510032,
+    "IconBlood": 120015,
+    "IconMasteryOff": 120015,
+    "IconMasteryOn": 120015,
+    "InfoViewType": 1,
+    "InfoViewOrder": 6,
+    "InfoViewRate": [
+      32
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      14,
+      19,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120015,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 33,
+    "Status_CalculateID": 33,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510033,
+    "UpgradeStringId": 510033,
+    "IconBlood": 120120,
+    "IconMasteryOff": 120120,
+    "IconMasteryOn": 120120,
+    "InfoViewType": 2,
+    "InfoViewOrder": 6,
+    "InfoViewRate": [
+      33
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      14,
+      19,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120120,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 34,
+    "Status_CalculateID": 34,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510034,
+    "UpgradeStringId": 510034,
+    "IconBlood": 120121,
+    "IconMasteryOff": 120121,
+    "IconMasteryOn": 120121,
+    "InfoViewType": 1,
+    "InfoViewOrder": 7,
+    "InfoViewRate": [
+      34
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      11,
+      14,
+      15,
+      19,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120121,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 35,
+    "Status_CalculateID": 35,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510035,
+    "UpgradeStringId": 510035,
+    "IconBlood": 120122,
+    "IconMasteryOff": 120122,
+    "IconMasteryOn": 120122,
+    "InfoViewType": 2,
+    "InfoViewOrder": 7,
+    "InfoViewRate": [
+      35
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      11,
+      14,
+      19,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120122,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 36,
+    "Status_CalculateID": 36,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510036,
+    "UpgradeStringId": 510036,
+    "IconBlood": 120062,
+    "IconMasteryOff": 120062,
+    "IconMasteryOn": 120062,
+    "InfoViewType": 3,
+    "InfoViewOrder": 9,
+    "InfoViewRate": [
+      36
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      5,
+      6,
+      7,
+      23,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120062,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 37,
+    "Status_CalculateID": 37,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510037,
+    "UpgradeStringId": 510037,
+    "IconBlood": 120021,
+    "IconMasteryOff": 120021,
+    "IconMasteryOn": 120021,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      37
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      11,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120021,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 38,
+    "Status_CalculateID": 38,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510038,
+    "UpgradeStringId": 510038,
+    "IconBlood": 120026,
+    "IconMasteryOff": 120026,
+    "IconMasteryOn": 120026,
+    "InfoViewType": 1,
+    "InfoViewOrder": 8,
+    "InfoViewRate": [
+      38
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      14,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120026,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 39,
+    "Status_CalculateID": 39,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510039,
+    "UpgradeStringId": 510039,
+    "IconBlood": 120027,
+    "IconMasteryOff": 120027,
+    "IconMasteryOn": 120027,
+    "InfoViewType": 2,
+    "InfoViewOrder": 8,
+    "InfoViewRate": [
+      39
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      14,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120027,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 40,
+    "Status_CalculateID": 40,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510040,
+    "UpgradeStringId": 510040,
+    "IconBlood": 3900010,
+    "IconMasteryOff": 3900010,
+    "IconMasteryOn": 3900010,
+    "InfoViewType": 1,
+    "InfoViewOrder": 9,
+    "InfoViewRate": [
+      40
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      14,
+      15,
+      19,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 3900010,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 41,
+    "Status_CalculateID": 41,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510041,
+    "UpgradeStringId": 510041,
+    "IconBlood": 500043,
+    "IconMasteryOff": 500043,
+    "IconMasteryOn": 500043,
+    "InfoViewType": 1,
+    "InfoViewOrder": 10,
+    "InfoViewRate": [
+      41
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      14,
+      15,
+      19,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 500043,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 42,
+    "Status_CalculateID": 42,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510042,
+    "UpgradeStringId": 510042,
+    "IconBlood": 120123,
+    "IconMasteryOff": 120123,
+    "IconMasteryOn": 120123,
+    "InfoViewType": 2,
+    "InfoViewOrder": 9,
+    "InfoViewRate": [
+      42
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      14,
+      19,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120123,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 43,
+    "Status_CalculateID": 43,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510043,
+    "UpgradeStringId": 510043,
+    "IconBlood": 500044,
+    "IconMasteryOff": 500044,
+    "IconMasteryOn": 500044,
+    "InfoViewType": 2,
+    "InfoViewOrder": 10,
+    "InfoViewRate": [
+      43
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      14,
+      15,
+      19,
+      23,
+      24,
+      26,
+      28,
+      29
+    ],
+    "IconStatusInfo": 500044,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 44,
+    "Status_CalculateID": 44,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510044,
+    "UpgradeStringId": 510044,
+    "IconBlood": 120071,
+    "IconMasteryOff": 120071,
+    "IconMasteryOn": 120071,
+    "InfoViewType": 1,
+    "InfoViewOrder": 11,
+    "InfoViewRate": [
+      44
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      11,
+      14,
+      15,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120071,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 45,
+    "Status_CalculateID": 45,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510045,
+    "UpgradeStringId": 510045,
+    "IconBlood": 120124,
+    "IconMasteryOff": 120124,
+    "IconMasteryOn": 120124,
+    "InfoViewType": 2,
+    "InfoViewOrder": 11,
+    "InfoViewRate": [
+      45
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      11,
+      14,
+      15,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120124,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 46,
+    "Status_CalculateID": 46,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510046,
+    "UpgradeStringId": 510046,
+    "IconBlood": 120072,
+    "IconMasteryOff": 120072,
+    "IconMasteryOn": 120072,
+    "InfoViewType": 1,
+    "InfoViewOrder": 12,
+    "InfoViewRate": [
+      46
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      11,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120072,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 47,
+    "Status_CalculateID": 47,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510047,
+    "UpgradeStringId": 510047,
+    "IconBlood": 120073,
+    "IconMasteryOff": 120073,
+    "IconMasteryOn": 120073,
+    "InfoViewType": 2,
+    "InfoViewOrder": 12,
+    "InfoViewRate": [
+      47
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      11,
+      15,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120073,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 48,
+    "Status_CalculateID": 48,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510048,
+    "UpgradeStringId": 510048,
+    "IconBlood": 120125,
+    "IconMasteryOff": 120125,
+    "IconMasteryOn": 120125,
+    "InfoViewType": 1,
+    "InfoViewOrder": 13,
+    "InfoViewRate": [
+      48
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      4,
+      6,
+      7,
+      9,
+      11,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120125,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 49,
+    "Status_CalculateID": 49,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510049,
+    "UpgradeStringId": 510049,
+    "IconBlood": 120126,
+    "IconMasteryOff": 120126,
+    "IconMasteryOn": 120126,
+    "InfoViewType": 2,
+    "InfoViewOrder": 13,
+    "InfoViewRate": [
+      49
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      4,
+      6,
+      7,
+      9,
+      11,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120126,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 50,
+    "Status_CalculateID": 50,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510050,
+    "UpgradeStringId": 510050,
+    "IconBlood": 120127,
+    "IconMasteryOff": 120127,
+    "IconMasteryOn": 120127,
+    "InfoViewType": 1,
+    "InfoViewOrder": 14,
+    "InfoViewRate": [
+      50
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      9,
+      11,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120127,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 51,
+    "Status_CalculateID": 51,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510051,
+    "UpgradeStringId": 510051,
+    "IconBlood": 120128,
+    "IconMasteryOff": 120128,
+    "IconMasteryOn": 120128,
+    "InfoViewType": 2,
+    "InfoViewOrder": 14,
+    "InfoViewRate": [
+      51
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      4,
+      6,
+      7,
+      9,
+      11,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120128,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 52,
+    "Status_CalculateID": 52,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510052,
+    "UpgradeStringId": 510052,
+    "IconBlood": 120129,
+    "IconMasteryOff": 120129,
+    "IconMasteryOn": 120129,
+    "InfoViewType": 1,
+    "InfoViewOrder": 15,
+    "InfoViewRate": [
+      52
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      4,
+      6,
+      7,
+      9,
+      11,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120129,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 53,
+    "Status_CalculateID": 53,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510053,
+    "UpgradeStringId": 510053,
+    "IconBlood": 120130,
+    "IconMasteryOff": 120130,
+    "IconMasteryOn": 120130,
+    "InfoViewType": 2,
+    "InfoViewOrder": 15,
+    "InfoViewRate": [
+      53
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      4,
+      6,
+      7,
+      9,
+      11,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120130,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 54,
+    "Status_CalculateID": 54,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510054,
+    "UpgradeStringId": 510054,
+    "IconBlood": 120111,
+    "IconMasteryOff": 120111,
+    "IconMasteryOn": 120111,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      54
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120111,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 55,
+    "Status_CalculateID": 55,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510055,
+    "UpgradeStringId": 510055,
+    "IconBlood": 120112,
+    "IconMasteryOff": 120112,
+    "IconMasteryOn": 120112,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      55
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120112,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 56,
+    "Status_CalculateID": 56,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510056,
+    "UpgradeStringId": 510056,
+    "IconBlood": 120112,
+    "IconMasteryOff": 120112,
+    "IconMasteryOn": 120112,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      56
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120112,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 57,
+    "Status_CalculateID": 57,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510057,
+    "UpgradeStringId": 510057,
+    "IconBlood": 120112,
+    "IconMasteryOff": 120112,
+    "IconMasteryOn": 120112,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120112,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 58,
+    "Status_CalculateID": 58,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510058,
+    "UpgradeStringId": 510058,
+    "IconBlood": 120070,
+    "IconMasteryOff": 120070,
+    "IconMasteryOn": 120070,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120070,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 59,
+    "Status_CalculateID": 59,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510059,
+    "UpgradeStringId": 510059,
+    "IconBlood": 120071,
+    "IconMasteryOff": 120071,
+    "IconMasteryOn": 120071,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120071,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 60,
+    "Status_CalculateID": 60,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510060,
+    "UpgradeStringId": 510060,
+    "IconBlood": 120050,
+    "IconMasteryOff": 120050,
+    "IconMasteryOn": 120050,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120050,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 61,
+    "Status_CalculateID": 61,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510061,
+    "UpgradeStringId": 510061,
+    "IconBlood": 120051,
+    "IconMasteryOff": 120051,
+    "IconMasteryOn": 120051,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120051,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 62,
+    "Status_CalculateID": 62,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510062,
+    "UpgradeStringId": 510062,
+    "IconBlood": 120052,
+    "IconMasteryOff": 120052,
+    "IconMasteryOn": 120052,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120052,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 63,
+    "Status_CalculateID": 63,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510063,
+    "UpgradeStringId": 510063,
+    "IconBlood": 120053,
+    "IconMasteryOff": 120053,
+    "IconMasteryOn": 120053,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120053,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 64,
+    "Status_CalculateID": 64,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510064,
+    "UpgradeStringId": 510064,
+    "IconBlood": 120054,
+    "IconMasteryOff": 120054,
+    "IconMasteryOn": 120054,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120054,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 65,
+    "Status_CalculateID": 65,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510065,
+    "UpgradeStringId": 510065,
+    "IconBlood": 120043,
+    "IconMasteryOff": 120043,
+    "IconMasteryOn": 120043,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120043,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 66,
+    "Status_CalculateID": 66,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510066,
+    "UpgradeStringId": 510066,
+    "IconBlood": 120065,
+    "IconMasteryOff": 120065,
+    "IconMasteryOn": 120065,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120065,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 67,
+    "Status_CalculateID": 67,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510067,
+    "UpgradeStringId": 510067,
+    "IconBlood": 120066,
+    "IconMasteryOff": 120066,
+    "IconMasteryOn": 120066,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120066,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 68,
+    "Status_CalculateID": 68,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510068,
+    "UpgradeStringId": 510068,
+    "IconBlood": 120112,
+    "IconMasteryOff": 120112,
+    "IconMasteryOn": 120112,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120112,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 69,
+    "Status_CalculateID": 69,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510069,
+    "UpgradeStringId": 510069,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 70,
+    "Status_CalculateID": 70,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510070,
+    "UpgradeStringId": 510070,
+    "IconBlood": 3900010,
+    "IconMasteryOff": 3900010,
+    "IconMasteryOn": 3900010,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 3900010,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 71,
+    "Status_CalculateID": 71,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510071,
+    "UpgradeStringId": 510071,
+    "IconBlood": 500043,
+    "IconMasteryOff": 500043,
+    "IconMasteryOn": 500043,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 500043,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 72,
+    "Status_CalculateID": 72,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510072,
+    "UpgradeStringId": 510072,
+    "IconBlood": 3900014,
+    "IconMasteryOff": 3900014,
+    "IconMasteryOn": 3900014,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 3900014,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 73,
+    "Status_CalculateID": 73,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510073,
+    "UpgradeStringId": 510073,
+    "IconBlood": 500044,
+    "IconMasteryOff": 500044,
+    "IconMasteryOn": 500044,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 500044,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 74,
+    "Status_CalculateID": 74,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510074,
+    "UpgradeStringId": 510074,
+    "IconBlood": 120072,
+    "IconMasteryOff": 120072,
+    "IconMasteryOn": 120072,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120072,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 75,
+    "Status_CalculateID": 75,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510075,
+    "UpgradeStringId": 510075,
+    "IconBlood": 120073,
+    "IconMasteryOff": 120073,
+    "IconMasteryOn": 120073,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120073,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 76,
+    "Status_CalculateID": 76,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510076,
+    "UpgradeStringId": 510076,
+    "IconBlood": 120031,
+    "IconMasteryOff": 120031,
+    "IconMasteryOn": 120031,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120031,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 77,
+    "Status_CalculateID": 77,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510077,
+    "UpgradeStringId": 510077,
+    "IconBlood": 120074,
+    "IconMasteryOff": 120074,
+    "IconMasteryOn": 120074,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120074,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 78,
+    "Status_CalculateID": 78,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510078,
+    "UpgradeStringId": 510078,
+    "IconBlood": 120035,
+    "IconMasteryOff": 120035,
+    "IconMasteryOn": 120035,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120035,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 79,
+    "Status_CalculateID": 79,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510079,
+    "UpgradeStringId": 510079,
+    "IconBlood": 120036,
+    "IconMasteryOff": 120036,
+    "IconMasteryOn": 120036,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120036,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 80,
+    "Status_CalculateID": 80,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510080,
+    "UpgradeStringId": 510080,
+    "IconBlood": 120078,
+    "IconMasteryOff": 120078,
+    "IconMasteryOn": 120078,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120078,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 81,
+    "Status_CalculateID": 81,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510081,
+    "UpgradeStringId": 510081,
+    "IconBlood": 120079,
+    "IconMasteryOff": 120079,
+    "IconMasteryOn": 120079,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120079,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 82,
+    "Status_CalculateID": 82,
+    "AddStatusType": 1,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 161,
+    "StringId": 510082,
+    "UpgradeStringId": 510082,
+    "IconBlood": 120080,
+    "IconMasteryOff": 120080,
+    "IconMasteryOn": 120080,
+    "InfoViewType": 3,
+    "InfoViewOrder": 2,
+    "InfoViewRate": [
+      82
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      13,
+      19,
+      20,
+      22,
+      23,
+      24,
+      26,
+      27
+    ],
+    "IconStatusInfo": 120080,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 83,
+    "Status_CalculateID": 83,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510083,
+    "UpgradeStringId": 510083,
+    "IconBlood": 120109,
+    "IconMasteryOff": 120109,
+    "IconMasteryOn": 120109,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120109,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 84,
+    "Status_CalculateID": 84,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510084,
+    "UpgradeStringId": 510084,
+    "IconBlood": 120081,
+    "IconMasteryOff": 120081,
+    "IconMasteryOn": 120081,
+    "InfoViewType": 4,
+    "InfoViewOrder": 2,
+    "InfoViewRate": [
+      84
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      6,
+      7,
+      10,
+      11,
+      19,
+      23,
+      24,
+      26,
+      27
+    ],
+    "IconStatusInfo": 120081,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 85,
+    "Status_CalculateID": 85,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510085,
+    "UpgradeStringId": 510085,
+    "IconBlood": 120110,
+    "IconMasteryOff": 120110,
+    "IconMasteryOn": 120110,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120110,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 86,
+    "Status_CalculateID": 86,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510086,
+    "UpgradeStringId": 510086,
+    "IconBlood": 120082,
+    "IconMasteryOff": 120082,
+    "IconMasteryOn": 120082,
+    "InfoViewType": 3,
+    "InfoViewOrder": 3,
+    "InfoViewRate": [
+      86
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      6,
+      10,
+      11,
+      26
+    ],
+    "IconStatusInfo": 120082,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 87,
+    "Status_CalculateID": 87,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510087,
+    "UpgradeStringId": 510087,
+    "IconBlood": 120114,
+    "IconMasteryOff": 120114,
+    "IconMasteryOn": 120114,
+    "InfoViewType": 4,
+    "InfoViewOrder": 3,
+    "InfoViewRate": [
+      87
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      5,
+      10,
+      11,
+      26
+    ],
+    "IconStatusInfo": 120114,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 88,
+    "Status_CalculateID": 88,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510088,
+    "UpgradeStringId": 510088,
+    "IconBlood": 120098,
+    "IconMasteryOff": 120098,
+    "IconMasteryOn": 120098,
+    "InfoViewType": 3,
+    "InfoViewOrder": 4,
+    "InfoViewRate": [
+      88
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      4,
+      6,
+      7,
+      11,
+      14,
+      23,
+      24,
+      26,
+      27
+    ],
+    "IconStatusInfo": 120098,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 89,
+    "Status_CalculateID": 89,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510089,
+    "UpgradeStringId": 510089,
+    "IconBlood": 120104,
+    "IconMasteryOff": 120104,
+    "IconMasteryOn": 120104,
+    "InfoViewType": 4,
+    "InfoViewOrder": 4,
+    "InfoViewRate": [
+      89
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      4,
+      6,
+      7,
+      11,
+      19,
+      23,
+      24,
+      26,
+      27
+    ],
+    "IconStatusInfo": 120104,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 90,
+    "Status_CalculateID": 90,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510090,
+    "UpgradeStringId": 510090,
+    "IconBlood": 120104,
+    "IconMasteryOff": 120104,
+    "IconMasteryOn": 120104,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120104,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 91,
+    "Status_CalculateID": 91,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510091,
+    "UpgradeStringId": 510091,
+    "IconBlood": 120083,
+    "IconMasteryOff": 120083,
+    "IconMasteryOn": 120083,
+    "InfoViewType": 4,
+    "InfoViewOrder": 6,
+    "InfoViewRate": [
+      91
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      5,
+      6,
+      7,
+      23,
+      24
+    ],
+    "IconStatusInfo": 120083,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 92,
+    "Status_CalculateID": 92,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510092,
+    "UpgradeStringId": 510092,
+    "IconBlood": 120084,
+    "IconMasteryOff": 120084,
+    "IconMasteryOn": 120084,
+    "InfoViewType": 4,
+    "InfoViewOrder": 5,
+    "InfoViewRate": [
+      92
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      5,
+      6
+    ],
+    "IconStatusInfo": 120084,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 93,
+    "Status_CalculateID": 93,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510093,
+    "UpgradeStringId": 510093,
+    "IconBlood": 120113,
+    "IconMasteryOff": 120113,
+    "IconMasteryOn": 120113,
+    "InfoViewType": 3,
+    "InfoViewOrder": 6,
+    "InfoViewRate": [
+      93
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      5,
+      6,
+      7,
+      19,
+      23,
+      24
+    ],
+    "IconStatusInfo": 120113,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 94,
+    "Status_CalculateID": 94,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510094,
+    "UpgradeStringId": 510094,
+    "IconBlood": 120097,
+    "IconMasteryOff": 120097,
+    "IconMasteryOn": 120097,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120097,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 95,
+    "Status_CalculateID": 95,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510095,
+    "UpgradeStringId": 510095,
+    "IconBlood": 120077,
+    "IconMasteryOff": 120077,
+    "IconMasteryOn": 120077,
+    "InfoViewType": 3,
+    "InfoViewOrder": 5,
+    "InfoViewRate": [
+      95
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      6,
+      11
+    ],
+    "IconStatusInfo": 120077,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 96,
+    "Status_CalculateID": 96,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510096,
+    "UpgradeStringId": 510096,
+    "IconBlood": 120101,
+    "IconMasteryOff": 120101,
+    "IconMasteryOn": 120101,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120101,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 97,
+    "Status_CalculateID": 97,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510097,
+    "UpgradeStringId": 510097,
+    "IconBlood": 120076,
+    "IconMasteryOff": 120076,
+    "IconMasteryOn": 120076,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120076,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 98,
+    "Status_CalculateID": 98,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510098,
+    "UpgradeStringId": 510098,
+    "IconBlood": 120037,
+    "IconMasteryOff": 120037,
+    "IconMasteryOn": 120037,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120037,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 99,
+    "Status_CalculateID": 99,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510099,
+    "UpgradeStringId": 510099,
+    "IconBlood": 120038,
+    "IconMasteryOff": 120038,
+    "IconMasteryOn": 120038,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120038,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 100,
+    "Status_CalculateID": 100,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510100,
+    "UpgradeStringId": 510100,
+    "IconBlood": 120039,
+    "IconMasteryOff": 120039,
+    "IconMasteryOn": 120039,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120039,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 101,
+    "Status_CalculateID": 101,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510101,
+    "UpgradeStringId": 510101,
+    "IconBlood": 120095,
+    "IconMasteryOff": 120095,
+    "IconMasteryOn": 120095,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120095,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 102,
+    "Status_CalculateID": 102,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510102,
+    "UpgradeStringId": 510102,
+    "IconBlood": 120083,
+    "IconMasteryOff": 120083,
+    "IconMasteryOn": 120083,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120083,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 103,
+    "Status_CalculateID": 103,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510103,
+    "UpgradeStringId": 510103,
+    "IconBlood": 3900011,
+    "IconMasteryOff": 3900011,
+    "IconMasteryOn": 3900011,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 3900011,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 104,
+    "Status_CalculateID": 104,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510104,
+    "UpgradeStringId": 510104,
+    "IconBlood": 3900015,
+    "IconMasteryOff": 3900015,
+    "IconMasteryOn": 3900015,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 3900015,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 105,
+    "Status_CalculateID": 105,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510105,
+    "UpgradeStringId": 510105,
+    "IconBlood": 3900012,
+    "IconMasteryOff": 3900012,
+    "IconMasteryOn": 3900012,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 3900012,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 106,
+    "Status_CalculateID": 106,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510106,
+    "UpgradeStringId": 510106,
+    "IconBlood": 3900013,
+    "IconMasteryOff": 3900013,
+    "IconMasteryOn": 3900013,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 3900013,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 107,
+    "Status_CalculateID": 107,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510107,
+    "UpgradeStringId": 510107,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 108,
+    "Status_CalculateID": 108,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510108,
+    "UpgradeStringId": 510108,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 109,
+    "Status_CalculateID": 109,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510109,
+    "UpgradeStringId": 510109,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 110,
+    "Status_CalculateID": 110,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510110,
+    "UpgradeStringId": 510110,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 111,
+    "Status_CalculateID": 111,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510111,
+    "UpgradeStringId": 510111,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 112,
+    "Status_CalculateID": 112,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510112,
+    "UpgradeStringId": 510112,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 113,
+    "Status_CalculateID": 113,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510113,
+    "UpgradeStringId": 510113,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 114,
+    "Status_CalculateID": 114,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510114,
+    "UpgradeStringId": 510114,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 115,
+    "Status_CalculateID": 115,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510115,
+    "UpgradeStringId": 510115,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 116,
+    "Status_CalculateID": 116,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510116,
+    "UpgradeStringId": 510116,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 117,
+    "Status_CalculateID": 117,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510117,
+    "UpgradeStringId": 510117,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 118,
+    "Status_CalculateID": 118,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510118,
+    "UpgradeStringId": 510118,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 119,
+    "Status_CalculateID": 119,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510119,
+    "UpgradeStringId": 510119,
+    "IconBlood": 120131,
+    "IconMasteryOff": 120131,
+    "IconMasteryOn": 120131,
+    "InfoViewType": 1,
+    "InfoViewOrder": 16,
+    "InfoViewRate": [
+      119
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      4,
+      6,
+      7,
+      9,
+      11,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120131,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 120,
+    "Status_CalculateID": 120,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510120,
+    "UpgradeStringId": 510120,
+    "IconBlood": 120132,
+    "IconMasteryOff": 120132,
+    "IconMasteryOn": 120132,
+    "InfoViewType": 2,
+    "InfoViewOrder": 16,
+    "InfoViewRate": [
+      120
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      4,
+      6,
+      7,
+      9,
+      11,
+      19,
+      23,
+      24,
+      28,
+      29
+    ],
+    "IconStatusInfo": 120132,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 121,
+    "Status_CalculateID": 121,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510121,
+    "UpgradeStringId": 510121,
+    "IconBlood": 120125,
+    "IconMasteryOff": 120125,
+    "IconMasteryOn": 120125,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120125,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 122,
+    "Status_CalculateID": 122,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510122,
+    "UpgradeStringId": 510122,
+    "IconBlood": 120126,
+    "IconMasteryOff": 120126,
+    "IconMasteryOn": 120126,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120126,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 123,
+    "Status_CalculateID": 123,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510123,
+    "UpgradeStringId": 510123,
+    "IconBlood": 120127,
+    "IconMasteryOff": 120127,
+    "IconMasteryOn": 120127,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120127,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 124,
+    "Status_CalculateID": 124,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510124,
+    "UpgradeStringId": 510124,
+    "IconBlood": 120128,
+    "IconMasteryOff": 120128,
+    "IconMasteryOn": 120128,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120128,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 125,
+    "Status_CalculateID": 125,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510125,
+    "UpgradeStringId": 510125,
+    "IconBlood": 120129,
+    "IconMasteryOff": 120129,
+    "IconMasteryOn": 120129,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120129,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 126,
+    "Status_CalculateID": 126,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510126,
+    "UpgradeStringId": 510126,
+    "IconBlood": 120130,
+    "IconMasteryOff": 120130,
+    "IconMasteryOn": 120130,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120130,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 127,
+    "Status_CalculateID": 127,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510127,
+    "UpgradeStringId": 510127,
+    "IconBlood": 120131,
+    "IconMasteryOff": 120131,
+    "IconMasteryOn": 120131,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120131,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 128,
+    "Status_CalculateID": 128,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510128,
+    "UpgradeStringId": 510128,
+    "IconBlood": 120132,
+    "IconMasteryOff": 120132,
+    "IconMasteryOn": 120132,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120132,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 129,
+    "Status_CalculateID": 129,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510129,
+    "UpgradeStringId": 510129,
+    "IconBlood": 120125,
+    "IconMasteryOff": 120125,
+    "IconMasteryOn": 120125,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120125,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 130,
+    "Status_CalculateID": 130,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510130,
+    "UpgradeStringId": 510130,
+    "IconBlood": 120126,
+    "IconMasteryOff": 120126,
+    "IconMasteryOn": 120126,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120126,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 131,
+    "Status_CalculateID": 131,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510131,
+    "UpgradeStringId": 510131,
+    "IconBlood": 120127,
+    "IconMasteryOff": 120127,
+    "IconMasteryOn": 120127,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120127,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 132,
+    "Status_CalculateID": 132,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510132,
+    "UpgradeStringId": 510132,
+    "IconBlood": 120128,
+    "IconMasteryOff": 120128,
+    "IconMasteryOn": 120128,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120128,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 133,
+    "Status_CalculateID": 133,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510133,
+    "UpgradeStringId": 510133,
+    "IconBlood": 120129,
+    "IconMasteryOff": 120129,
+    "IconMasteryOn": 120129,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120129,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 134,
+    "Status_CalculateID": 134,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510134,
+    "UpgradeStringId": 510134,
+    "IconBlood": 120130,
+    "IconMasteryOff": 120130,
+    "IconMasteryOn": 120130,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120130,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 135,
+    "Status_CalculateID": 135,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510135,
+    "UpgradeStringId": 510135,
+    "IconBlood": 120131,
+    "IconMasteryOff": 120131,
+    "IconMasteryOn": 120131,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120131,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 136,
+    "Status_CalculateID": 136,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510136,
+    "UpgradeStringId": 510136,
+    "IconBlood": 120132,
+    "IconMasteryOff": 120132,
+    "IconMasteryOn": 120132,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120132,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 137,
+    "Status_CalculateID": 137,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510137,
+    "UpgradeStringId": 510137,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 138,
+    "Status_CalculateID": 138,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510138,
+    "UpgradeStringId": 510138,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 139,
+    "Status_CalculateID": 139,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510139,
+    "UpgradeStringId": 510139,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 140,
+    "Status_CalculateID": 140,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510140,
+    "UpgradeStringId": 510140,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 141,
+    "Status_CalculateID": 141,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510141,
+    "UpgradeStringId": 510141,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 142,
+    "Status_CalculateID": 142,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510142,
+    "UpgradeStringId": 510142,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 143,
+    "Status_CalculateID": 143,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510143,
+    "UpgradeStringId": 510143,
+    "IconBlood": 120111,
+    "IconMasteryOff": 120111,
+    "IconMasteryOn": 120111,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120111,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 144,
+    "Status_CalculateID": 144,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510144,
+    "UpgradeStringId": 510144,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 145,
+    "Status_CalculateID": 145,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510145,
+    "UpgradeStringId": 510145,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 146,
+    "Status_CalculateID": 146,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510146,
+    "UpgradeStringId": 510146,
+    "IconBlood": 120133,
+    "IconMasteryOff": 120133,
+    "IconMasteryOn": 120133,
+    "InfoViewType": 3,
+    "InfoViewOrder": 7,
+    "InfoViewRate": [
+      146
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      6,
+      7,
+      15,
+      26
+    ],
+    "IconStatusInfo": 120133,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 147,
+    "Status_CalculateID": 147,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510147,
+    "UpgradeStringId": 510147,
+    "IconBlood": 120134,
+    "IconMasteryOff": 120134,
+    "IconMasteryOn": 120134,
+    "InfoViewType": 4,
+    "InfoViewOrder": 7,
+    "InfoViewRate": [
+      147
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      6,
+      7,
+      15,
+      26
+    ],
+    "IconStatusInfo": 120134,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 148,
+    "Status_CalculateID": 148,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510148,
+    "UpgradeStringId": 510148,
+    "IconBlood": 120135,
+    "IconMasteryOff": 120135,
+    "IconMasteryOn": 120135,
+    "InfoViewType": 3,
+    "InfoViewOrder": 8,
+    "InfoViewRate": [
+      148
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      6,
+      7,
+      15
+    ],
+    "IconStatusInfo": 120135,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 149,
+    "Status_CalculateID": 149,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510149,
+    "UpgradeStringId": 510149,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 150,
+    "Status_CalculateID": 150,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510150,
+    "UpgradeStringId": 510150,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 151,
+    "Status_CalculateID": 151,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510151,
+    "UpgradeStringId": 510151,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 152,
+    "Status_CalculateID": 152,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510152,
+    "UpgradeStringId": 510152,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 153,
+    "Status_CalculateID": 153,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510153,
+    "UpgradeStringId": 510153,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 3
+  },
+  {
+    "StatusID": 154,
+    "Status_CalculateID": 154,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510154,
+    "UpgradeStringId": 510154,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 3
+  },
+  {
+    "StatusID": 155,
+    "Status_CalculateID": 155,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510155,
+    "UpgradeStringId": 510155,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 3
+  },
+  {
+    "StatusID": 156,
+    "Status_CalculateID": 156,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510155,
+    "UpgradeStringId": 510155,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 157,
+    "Status_CalculateID": 157,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510156,
+    "UpgradeStringId": 510156,
+    "IconBlood": 120138,
+    "IconMasteryOff": 120138,
+    "IconMasteryOn": 120138,
+    "InfoViewType": 4,
+    "InfoViewOrder": 8,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120137,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 158,
+    "Status_CalculateID": 158,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510157,
+    "UpgradeStringId": 510157,
+    "IconBlood": 3900013,
+    "IconMasteryOff": 3900013,
+    "IconMasteryOn": 3900013,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 3900013,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 159,
+    "Status_CalculateID": 159,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510159,
+    "UpgradeStringId": 510159,
+    "IconBlood": 120159,
+    "IconMasteryOff": 120159,
+    "IconMasteryOn": 120159,
+    "InfoViewType": 1,
+    "InfoViewOrder": 17,
+    "InfoViewRate": [
+      159
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "IconStatusInfo": 120159,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 160,
+    "Status_CalculateID": 160,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510160,
+    "UpgradeStringId": 510160,
+    "IconBlood": 120160,
+    "IconMasteryOff": 120160,
+    "IconMasteryOn": 120160,
+    "InfoViewType": 2,
+    "InfoViewOrder": 17,
+    "InfoViewRate": [
+      160
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      2,
+      3
+    ],
+    "IconStatusInfo": 120160,
+    "ValueFormat": 2
+  },
+  {
+    "StatusID": 161,
+    "Status_CalculateID": 161,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510082,
+    "UpgradeStringId": 510082,
+    "IconBlood": 120080,
+    "IconMasteryOff": 120080,
+    "IconMasteryOn": 120080,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      161
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      13
+    ],
+    "IconStatusInfo": 120080,
+    "ValueFormat": 1
+  },
+  {
+    "StatusID": 162,
+    "Status_CalculateID": 162,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510162,
+    "UpgradeStringId": 510162,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 163,
+    "Status_CalculateID": 163,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510163,
+    "UpgradeStringId": 510163,
+    "IconBlood": 120000,
+    "IconMasteryOff": 120000,
+    "IconMasteryOn": 120000,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 120000,
+    "ValueFormat": 0
+  },
+  {
+    "StatusID": 164,
+    "Status_CalculateID": 164,
+    "AddStatusType": 0,
+    "AddStatusID": 0,
+    "AddStatusValue": 0,
+    "RateAddStatusID": 0,
+    "StringId": 510158,
+    "UpgradeStringId": 510158,
+    "IconBlood": 3900020,
+    "IconMasteryOff": 3900020,
+    "IconMasteryOn": 3900020,
+    "InfoViewType": 0,
+    "InfoViewOrder": 0,
+    "InfoViewRate": [
+      0
+    ],
+    "InfoFocus": [
+      0
+    ],
+    "StatusInfoId": [
+      0
+    ],
+    "IconStatusInfo": 3900020,
+    "ValueFormat": 0
+  }
+]

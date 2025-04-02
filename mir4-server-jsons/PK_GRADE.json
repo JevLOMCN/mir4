@@ -1,0 +1,62 @@
+[
+  {
+    "RowId": 1,
+    "PkGradeType": 1,
+    "PkName": 2710002,
+    "PkPointMin": 5000,
+    "PkPointMax": 6000,
+    "GetPkPoint": -500,
+    "BuffId": 112051,
+    "WantedFamePoint": 0,
+    "PKGradeAttachBuffId": 0,
+    "penaltyString": 0
+  },
+  {
+    "RowId": 2,
+    "PkGradeType": 2,
+    "PkName": 2710003,
+    "PkPointMin": -499,
+    "PkPointMax": 4999,
+    "GetPkPoint": -500,
+    "BuffId": 112051,
+    "WantedFamePoint": 10,
+    "PKGradeAttachBuffId": 0,
+    "penaltyString": 0
+  },
+  {
+    "RowId": 3,
+    "PkGradeType": 3,
+    "PkName": 2710004,
+    "PkPointMin": -3499,
+    "PkPointMax": -500,
+    "GetPkPoint": -500,
+    "BuffId": 112051,
+    "WantedFamePoint": 20,
+    "PKGradeAttachBuffId": 500503,
+    "penaltyString": 1029172
+  },
+  {
+    "RowId": 4,
+    "PkGradeType": 4,
+    "PkName": 2710005,
+    "PkPointMin": -9999,
+    "PkPointMax": -3500,
+    "GetPkPoint": -500,
+    "BuffId": 112051,
+    "WantedFamePoint": 30,
+    "PKGradeAttachBuffId": 500504,
+    "penaltyString": 1029173
+  },
+  {
+    "RowId": 5,
+    "PkGradeType": 5,
+    "PkName": 2710006,
+    "PkPointMin": -100000,
+    "PkPointMax": -10000,
+    "GetPkPoint": -500,
+    "BuffId": 112051,
+    "WantedFamePoint": 40,
+    "PKGradeAttachBuffId": 500505,
+    "penaltyString": 1029174
+  }
+]

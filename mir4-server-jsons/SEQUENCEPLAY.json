@@ -1,0 +1,3842 @@
+[
+  {
+    "Name": 1000001,
+    "SequencePlayId": 1000001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt00/FG_Tutorial/Story/FG_Tutorial_Fire_LeeEun.FG_Tutorial_Fire_LeeEun",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1000002,
+    "SequencePlayId": 1000002,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_BicheonCave/Pet_Rabbit01_FD_BicheonCave.Pet_Rabbit01_FD_BicheonCave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1000014,
+    "SequencePlayId": 1000014,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/TW_Bicheon/wooyeoki_int_TW_Bicheon.wooyeoki_int_TW_Bicheon",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1000020,
+    "SequencePlayId": 1000020,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 180,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_BicheonCave/player_Airwalk_FD_BicheonCave.player_Airwalk_FD_BicheonCave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1000021,
+    "SequencePlayId": 1000021,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 180,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_BicheonJail/player_Airwalk_01_FD_BicheonJail.player_airwalk_01_FD_BicheonJail",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1000022,
+    "SequencePlayId": 1000022,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 180,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Eunhaeng/player_Airwalk_FG_Eunhaeng.player_Airwalk_FG_Eunhaeng",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1000501,
+    "SequencePlayId": 1000501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T00/04/T00_04_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1000601,
+    "SequencePlayId": 1000601,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T00/05/T00_05-0_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1000901,
+    "SequencePlayId": 1000901,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T00/06/T00_06_Master.T00_06_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1001001,
+    "SequencePlayId": 1001001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T00/07/T00_07_Master_clean.T00_07_Master_clean",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1001101,
+    "SequencePlayId": 1001101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T00/08/T00_08_Master_clean.T00_08_Master_clean",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1001201,
+    "SequencePlayId": 1001201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T00/00_0_1/T00_00_0_1.T00_00_0_1",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1001302,
+    "SequencePlayId": 1001302,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T00/0-0-1/0-0-1_01.0-0-1_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1001303,
+    "SequencePlayId": 1001303,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T00/0-0-1/0-0-1_02.0-0-1_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1001401,
+    "SequencePlayId": 1001401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T00/C/T00_C_Master.T00_C_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1001501,
+    "SequencePlayId": 1001501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_BicheonCave/Undead21_int_FD_BicheonCave.Undead21_int_FD_BicheonCave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1001801,
+    "SequencePlayId": 1001801,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_BicheonCave/sarmati_battle_FD_BicheonCave.sarmati_battle_FD_BicheonCave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1001901,
+    "SequencePlayId": 1001901,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_BicheonCave/LeeEun_battle_FD_BicheonCave.LeeEun_battle_FD_BicheonCave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1002001,
+    "SequencePlayId": 1002001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_BicheonJail/player_airwalk_FD_BicheonJail.player_airwalk_FD_BicheonJail",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1002002,
+    "SequencePlayId": 1002002,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_BicheonCave/LeeEun_battle02_FD_BicheonCave.LeeEun_battle02_FD_BicheonCave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1002003,
+    "SequencePlayId": 1002003,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_BicheonJail/Sangbaek_airwalk_FD_BicheonJail.sangbaek_airwalk_FD_BicheonJail",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1010101,
+    "SequencePlayId": 1010101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T01/01_0/T01_01_0_Master.T01_01_0_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1010201,
+    "SequencePlayId": 1010201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T01/01/T01_01_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1010401,
+    "SequencePlayId": 1010401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T01/02_1/T01_02_1_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1010601,
+    "SequencePlayId": 1010601,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T01/04/T01_04_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1010801,
+    "SequencePlayId": 1010801,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T01/05/T01_05_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1011501,
+    "SequencePlayId": 1011501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T01/7/T01_07_Master.T01_07_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1012101,
+    "SequencePlayId": 1012101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T01/9/T01_09_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1012201,
+    "SequencePlayId": 1012201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T01/10/T01_10_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1012401,
+    "SequencePlayId": 1012401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_Oma01_01/sarmati_01_FD_Oma01_01.sarmati_01_FD_Oma01_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1012501,
+    "SequencePlayId": 1012501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_Oma01_01/sarmati_02_FD_Oma01_01.sarmati_02_FD_Oma01_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1012601,
+    "SequencePlayId": 1012601,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_Oma01_01/sarmati_03_FD_Oma01_01.sarmati_03_FD_Oma01_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1012701,
+    "SequencePlayId": 1012701,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Backstreet/SonDuk_FG_Backstreet.SonDuk_FG_Backstreet",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1013001,
+    "SequencePlayId": 1013001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/ST_Cave/Player_med_ST_Cave.Player_med_ST_Cave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1020401,
+    "SequencePlayId": 1020401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/01-1/T02_01_1_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1020601,
+    "SequencePlayId": 1020601,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/02/T02_02_Master.T02_02_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1020701,
+    "SequencePlayId": 1020701,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/03/T02_03_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1021001,
+    "SequencePlayId": 1021001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/05/T02_05_Master.T02_05_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1021401,
+    "SequencePlayId": 1021401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/05_1/T02_05_1_Master.T02_05_1_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1022101,
+    "SequencePlayId": 1022101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/06/T02_06_Master.T02_06_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1022201,
+    "SequencePlayId": 1022201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/08_1/T02_08_1_Master.T02_08_1_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1022301,
+    "SequencePlayId": 1022301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/09_1/T02_09_1_Master.T02_09_1_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1022701,
+    "SequencePlayId": 1022701,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/10/T02_10_Master.T02_10_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1022901,
+    "SequencePlayId": 1022901,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/11/T02_11_Master.T02_11_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1023001,
+    "SequencePlayId": 1023001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T02/11_1/T02_11_1_Master.T02_11_1_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1023101,
+    "SequencePlayId": 1023101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_Oma02_01/eunsogyo_airwalk_FD_Oma02_01.eunsogyo_airwalk_FD_Oma02_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1023201,
+    "SequencePlayId": 1023201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/FD_Uma_03/uma02_int_FD_Uma03.uma02_int_FD_Uma03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1023301,
+    "SequencePlayId": 1023301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_R_Forest/NPC/MaWonJi01_Int_FG_R_Forest.MaWonJi01_Int_FG_R_Forest",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1023401,
+    "SequencePlayId": 1023401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/FD_Uma_03/Highbishop_escape_FD_Uma_03.Highbishop_escape_FD_Uma_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1023501,
+    "SequencePlayId": 1023501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Bicheon/Ara_FG_Bicheon.Ara_FG_Bicheon",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1030201,
+    "SequencePlayId": 1030201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_SnakeValley/snakeDragon21_int_FG_SnakeValley.snakeDragon21_int_FG_SnakeValley",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1030301,
+    "SequencePlayId": 1030301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T03/01_0/T03_01_0_Master.T03_01_0_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1030401,
+    "SequencePlayId": 1030401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T03/02/T03_02_Master.T03_02_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1030501,
+    "SequencePlayId": 1030501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T03/10/T03_10_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1030601,
+    "SequencePlayId": 1030601,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T03/10_1/T03_10_1_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1030701,
+    "SequencePlayId": 1030701,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_SnakeValley/Osher_Int_FG_SnakeValley.Osher_Int_FG_SnakeValley",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1030801,
+    "SequencePlayId": 1030801,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_Sayo/Mawonji_Int_FG_Sayo.Mawonji_Int_FG_Sayo",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1033001,
+    "SequencePlayId": 1033001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/ST_Uma_Boss/Uma22_int01__ST_Uma_Boss.Uma22_int01__ST_Uma_Boss",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1034001,
+    "SequencePlayId": 1034001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/ST_Uma_Boss/Uma22_int02__ST_Uma_Boss.Uma22_int02__ST_Uma_Boss",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1035001,
+    "SequencePlayId": 1035001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/ST_Uma_Boss/Uma22_die__ST_Uma_Boss.Uma22_die__ST_Uma_Boss",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1040101,
+    "SequencePlayId": 1040101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T04/01/T04_01_Master.T04_01_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1040201,
+    "SequencePlayId": 1040201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T04/02/4_2_Master.4_2_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1040301,
+    "SequencePlayId": 1040301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T04/03/T04_03_Master.T04_03_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1050801,
+    "SequencePlayId": 1050801,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T05/08/T05_08_Master.T05_08_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1050802,
+    "SequencePlayId": 1050802,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T05/08_2/T05_08_2_Master.T05_08_2_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1050901,
+    "SequencePlayId": 1050901,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T05/09/T05_09_Master.T05_09_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1060203,
+    "SequencePlayId": 1060203,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T06/02_3/T06_02_3_Master.T06_02_3_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1060401,
+    "SequencePlayId": 1060401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T06/04/T06_04_Master.T06_04_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1060501,
+    "SequencePlayId": 1060501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T06/05/T06_05_Master.T06_05_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1060601,
+    "SequencePlayId": 1060601,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T06/06/T06_06_Master.T06_06_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1061501,
+    "SequencePlayId": 1061501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T06/15/T06_15_Master.T06_15_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1070101,
+    "SequencePlayId": 1070101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Backstreet/WooYeoKi_NoWoonJang_FG_Backstreet.WooYeoKi_NoWoonJang_FG_Backstreet",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 1070201,
+    "SequencePlayId": 1070201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Bicheon/WooYeoKi_NoWoonJang_FG_Bicheon.WooYeoKi_NoWoonJang_FG_Bicheon",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 2000201,
+    "SequencePlayId": 2000201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/ST_Uma_Boss/Monster/ED_Raid_Uma_Die.ED_Raid_Uma_Die",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 2000301,
+    "SequencePlayId": 2000301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/FD_Uma_03/Highbishop_FD_Uma_03.Highbishop_FD_Uma_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 2000401,
+    "SequencePlayId": 2000401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Event/ED/ED_Spirit/PC_ED_Spirit.PC_ED_Spirit",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 2010101,
+    "SequencePlayId": 2010101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Eunhaeng/Monster/Boss_DarkMen21.Boss_DarkMen21",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 2020101,
+    "SequencePlayId": 2020101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/ST_Uma_Boss/Monster/ED_Raid_Uma_Int.ED_Raid_Uma_Int",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 3000101,
+    "SequencePlayId": 3000101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Backstreet/WangSanHae_FG_Backstreet_Master.WangSanHae_FG_Backstreet_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 3000201,
+    "SequencePlayId": 3000201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Backstreet/NoWoonJang_FG_Backstreet_Master.NoWoonJang_FG_Backstreet_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 3000401,
+    "SequencePlayId": 3000401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Bicheon/RockBreak_FG_Bicheon.RockBreak_FG_Bicheon",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 3000501,
+    "SequencePlayId": 3000501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/FD_Uma_01/YeoYul_FD_Uma_01_Master.YeoYul_FD_Uma_01_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 3000601,
+    "SequencePlayId": 3000601,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_SnakeValley/snakeDragon21_int02_FG_SnakeValley.snakeDragon21_int02_FG_SnakeValley",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 3000701,
+    "SequencePlayId": 3000701,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_VillainTown/Danbo_int_FG_VillainTown.Danbo_int_FG_VillainTown",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 3000801,
+    "SequencePlayId": 3000801,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_VillainTown/Danbo_die_FG_VillainTown.Danbo_die_FG_VillainTown",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 3001301,
+    "SequencePlayId": 3001301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/FD_Uma_03/DoorOpen2_FD_Uma_03.DoorOpen2_FD_Uma_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4000101,
+    "SequencePlayId": 4000101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_MineTop/Osher_FD_MineTop.Osher_FD_MineTop",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4000201,
+    "SequencePlayId": 4000201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine01_01/Osher_EunSoGyo_Mine01_01.Osher_EunSoGyo_Mine01_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4000301,
+    "SequencePlayId": 4000301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine01_01/EunSoGyo_FD_Mine01_01.EunSoGyo_FD_Mine01_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4000401,
+    "SequencePlayId": 4000401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine01_02/LeeEun01_FD_Mine01_02.LeeEun01_FD_Mine01_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4000501,
+    "SequencePlayId": 4000501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/ST_Mine_Boss_02/ST_Mine_Boss_02_04_05.ST_Mine_Boss_02_04_05",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4000601,
+    "SequencePlayId": 4000601,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/ST_Mine_Boss_02/LeeEun_ST_Mine_Boss_02.LeeEun_ST_Mine_Boss_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4000701,
+    "SequencePlayId": 4000701,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine01_01/Mon_Whitewalker21_int_FD_Mine01_01.Mon_Whitewalker21_int_FD_Mine01_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4000801,
+    "SequencePlayId": 4000801,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine02_02/Player_FD_Mine02_02.Player_FD_Mine02_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4000901,
+    "SequencePlayId": 4000901,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine02_01/DonDon21_int_FD_Mine02_01.DonDon21_int_FD_Mine02_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4001001,
+    "SequencePlayId": 4001001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_EightAngle/Osher_FD_EightAngle.Osher_FD_EightAngle",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4001101,
+    "SequencePlayId": 4001101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine01_02/DoorOpen01_FD_Mine01_02.DoorOpen01_FD_Mine01_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 4001201,
+    "SequencePlayId": 4001201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine01_03/Player_FD_Mine01_03.Player_FD_Mine01_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5000201,
+    "SequencePlayId": 5000201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_Oma01_02/FD_Oma01_02_Door02.FD_Oma01_02_Door02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5000601,
+    "SequencePlayId": 5000601,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_Oma02_01/FD_Oma02_01_Door01.FD_Oma02_01_Door01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5001101,
+    "SequencePlayId": 5001101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_01/EunSoGyo01_FG_Mountain_00.EunSoGyo01_FG_Mountain_00",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5001201,
+    "SequencePlayId": 5001201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_01/EunSoGyo01_FG_Mountain_01.EunSoGyo01_FG_Mountain_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5001301,
+    "SequencePlayId": 5001301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_02/Mawonji_FG_Mountain02.Mawonji_FG_Mountain02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5001401,
+    "SequencePlayId": 5001401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/ST_Inn/player_ST_inn.player_ST_inn",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5002000,
+    "SequencePlayId": 5002000,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_03/OmaView_FG_Mountain_03.OmaView_FG_Mountain_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5002001,
+    "SequencePlayId": 5002001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_03/BarukaMove_FG_Mountain_03.BarukaMove_FG_Mountain_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5002002,
+    "SequencePlayId": 5002002,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_03/BarukaEscape_FG_Mountain_03.BarukaEscape_FG_Mountain_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5003001,
+    "SequencePlayId": 5003001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_02/Baruka_FG_Mountain_02.Baruka_FG_Mountain_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5003002,
+    "SequencePlayId": 5003002,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_02/haosu_FG_Mountain_02.haosu_FG_Mountain_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5003003,
+    "SequencePlayId": 5003003,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_02/AraSpawn_FG_Mountain_02.AraSpawn_FG_Mountain_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5003004,
+    "SequencePlayId": 5003004,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_02/Beruja_FG_Mountain_02.Beruja_FG_Mountain_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5003005,
+    "SequencePlayId": 5003005,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_02/MawonJi_FG_Mountain_02.MawonJi_FG_Mountain_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5003006,
+    "SequencePlayId": 5003006,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_02/OmaTalk_FG_Mountain_02.OmaTalk_FG_Mountain_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5004001,
+    "SequencePlayId": 5004001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_01/SoSaMeaRun_FG_Mountain_01.SoSaMeaRun_FG_Mountain_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 5004002,
+    "SequencePlayId": 5004002,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Mountain_01/YachaSpawn_FG_Mountain_01.YachaSpawn_FG_Mountain_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6000101,
+    "SequencePlayId": 6000101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt06/TW_DoGwan/expedition_TW_DoGwan.expedition_TW_DoGwan",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6000201,
+    "SequencePlayId": 6000201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt06/ST_Redvalley_Boss/Bloody22_int_ST_Redvalley_Boss.Bloody22_int_ST_Redvalley_Boss",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6000202,
+    "SequencePlayId": 6000202,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt06/ST_Redvalley_Boss/Bloody22_int02_ST_Redvalley_Boss.Bloody22_int02_ST_Redvalley_Boss",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6101001,
+    "SequencePlayId": 6101001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/ST_Wall/Jangsu01Appear_ST_Wall.Jangsu01Appear_ST_Wall",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6101002,
+    "SequencePlayId": 6101002,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/ST_Wall/Jangsu01Die_ST_Wall.Jangsu01Die_ST_Wall",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6101003,
+    "SequencePlayId": 6101003,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_Oma02_02/Ascetic22Appear_FD_Oma02_02.Ascetic22Appear_FD_Oma02_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6101004,
+    "SequencePlayId": 6101004,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_Oma02_02/Ascetic22Die_FD_Oma02_02.Ascetic22Die_FD_Oma02_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251001,
+    "SequencePlayId": 6251001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/ST_Uma_Boss/Monster/ED_Raid_Uma_Int.ED_Raid_Uma_Int",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251002,
+    "SequencePlayId": 6251002,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/ST_Uma_Boss/Monster/ED_Raid_Uma_Die.ED_Raid_Uma_Die",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251003,
+    "SequencePlayId": 6251003,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/ST_Cave/Undead22_Int_ST_Cave.Undead22_Int_ST_Cave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251004,
+    "SequencePlayId": 6251004,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/ST_Cave/Undead22_Die_ST_Cave.Undead22_Die_ST_Cave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251005,
+    "SequencePlayId": 6251005,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 0,
+    "FadeInTime": 0,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/PVE/Raid_Snake/Raid_Snake_Master.Raid_Snake_Master",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251006,
+    "SequencePlayId": 6251006,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/PVE/Raid_Snake/D_Centipede_die_Raid_Snake.D_Centipede_die_Raid_Snake",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251007,
+    "SequencePlayId": 6251007,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_DeathValley_02/snakeDragon21_int_FG_DeathValley_02.snakeDragon21_int_FG_DeathValley_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251008,
+    "SequencePlayId": 6251008,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_DeathValley_02/snakeDragon21_die_FG_DeathValley_02.snakeDragon21_die_FG_DeathValley_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251009,
+    "SequencePlayId": 6251009,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_Oma02_02/OmaCrimson23Appear_FD_Oma02_02.OmaCrimson23Appear_FD_Oma02_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251010,
+    "SequencePlayId": 6251010,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FD_Oma02_02/OmaCrimson23Die_FD_Oma02_02.OmaCrimson23Die_FD_Oma02_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251011,
+    "SequencePlayId": 6251011,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_EightAngle/whitewalker21_int_FD_EightAngle.whitewalker21_int_FD_EightAngle",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251012,
+    "SequencePlayId": 6251012,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_EightAngle/whitewalker21_die_FD_EightAngle.whitewalker21_die_FD_EightAngle",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251013,
+    "SequencePlayId": 6251013,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/TW_DoGwan/Yupo01_int_TW_DoGwan.Yupo01_int_TW_DoGwan",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251014,
+    "SequencePlayId": 6251014,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/TW_DoGwan/Yupo01_Die_TW_DoGwan.Yupo01_Die_TW_DoGwan",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251015,
+    "SequencePlayId": 6251015,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/Party/Party_BasementJail/Jangsu02_int_Party_BasementJail.Jangsu02_int_Party_BasementJail",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251016,
+    "SequencePlayId": 6251016,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/Party/Party_BasementJail/Jangsu02_die_Party_BasementJail.Jangsu02_die_Party_BasementJail",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251017,
+    "SequencePlayId": 6251017,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/Party/Party_BasementJail/Jangsu01_int_Party_BasementJail.Jangsu01_int_Party_BasementJail",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251018,
+    "SequencePlayId": 6251018,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Backstreet/Danbo_int_FG_Backstreet.Danbo_int_FG_Backstreet",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251019,
+    "SequencePlayId": 6251019,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Backstreet/Danbo_die_FG_Backstreet.Danbo_die_FG_Backstreet",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251020,
+    "SequencePlayId": 6251020,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Backstreet/DarkMonk21_int_FG_Backstreet.DarkMonk21_int_FG_Backstreet",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251021,
+    "SequencePlayId": 6251021,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Elite/Elite_A02/whitewalker21_int_Elite_A02.whitewalker21_int_Elite_A02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251022,
+    "SequencePlayId": 6251022,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Elite/Elite_A02/whitewalker21_die_Elite_A02.whitewalker21_die_Elite_A02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251023,
+    "SequencePlayId": 6251023,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Elite/Elite_A02/Undead22_Int_Elite_A02.Undead22_Int_Elite_A02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251024,
+    "SequencePlayId": 6251024,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine02_02/Mon_Armadillo01_Int_FD_Mine02_02.Mon_Armadillo01_Int_FD_Mine02_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251025,
+    "SequencePlayId": 6251025,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine02_02/Mon_Armadillo21_Int_FD_Mine02_02.Mon_Armadillo21_Int_FD_Mine02_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251026,
+    "SequencePlayId": 6251026,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine02_02/Mon_Armadillo21_Die_FD_Mine02_02.Mon_Armadillo21_Die_FD_Mine02_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251027,
+    "SequencePlayId": 6251027,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/ST_Mine_Boss_02/whitewalker21_int_ST_Mine_Boss_02.whitewalker21_int_ST_Mine_Boss_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251028,
+    "SequencePlayId": 6251028,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/ST_Mine_Boss_02/whitewalker21_die_ST_Mine_Boss_02.whitewalker21_die_ST_Mine_Boss_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251029,
+    "SequencePlayId": 6251029,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/Party/Party_Occupation/DarkMen21_int_Party_BasementJail.DarkMen21_int_Party_BasementJail",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251030,
+    "SequencePlayId": 6251030,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/Party/Party_Occupation/DarkMen21_die_Party_BasementJail.DarkMen21_die_Party_BasementJail",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251031,
+    "SequencePlayId": 6251031,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/Party/Party_Occupation/DarkMen02_int_Party_Occupation.DarkMen02_int_Party_Occupation",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251032,
+    "SequencePlayId": 6251032,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Elite/Elite_A02/DonDon21_int_Elite_A02.DonDon21_int_Elite_A02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251033,
+    "SequencePlayId": 6251033,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Elite/Elite_A02/DonDon21_die_Elite_A02.DonDon21_die_Elite_A02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251034,
+    "SequencePlayId": 6251034,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Elite/Elite_A02/DonDon03_int_Elite_A02.DonDon03_int_Elite_A02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251035,
+    "SequencePlayId": 6251035,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Backstreet/DarkMonk21_int01_FG_Backstreet.DarkMonk21_int01_FG_Backstreet",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251036,
+    "SequencePlayId": 6251036,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Backstreet/DarkMonk21_die01_FG_Backstreet.DarkMonk21_die01_FG_Backstreet",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251037,
+    "SequencePlayId": 6251037,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_Backstreet/DarkMonk21_int_FG_Backstreet.DarkMonk21_int_FG_Backstreet",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251038,
+    "SequencePlayId": 6251038,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Forest/Ascetic22_int_FG_Forest.Ascetic22_int_FG_Forest",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251039,
+    "SequencePlayId": 6251039,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/FG_Forest/Ascetic22_die_FG_Forest.Ascetic22_die_FG_Forest",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251040,
+    "SequencePlayId": 6251040,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FD_SnakeCave/SnakeDragon02_int_FD_SnakeCave.SnakeDragon02_int_FD_SnakeCave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 1
+    }
+  },
+  {
+    "Name": 6251041,
+    "SequencePlayId": 6251041,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FD_SnakeCave/snakeDragon21_int_FD_SnakeCave.snakeDragon21_int_FD_SnakeCave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251042,
+    "SequencePlayId": 6251042,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FD_SnakeCave/snakeDragon21_die_FD_SnakeCave.snakeDragon21_die_FD_SnakeCave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251043,
+    "SequencePlayId": 6251043,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_DeathValley_01/Bloody04_int_FG_DeathValley_01.Bloody04_int_FG_DeathValley_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251044,
+    "SequencePlayId": 6251044,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_DeathValley_01/Bloody21_int_FG_DeathValley_01.Bloody21_int_FG_DeathValley_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251045,
+    "SequencePlayId": 6251045,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_DeathValley_01/Bloody21_die_FG_DeathValley_01.Bloody21_die_FG_DeathValley_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251046,
+    "SequencePlayId": 6251046,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine01_01/Mon_Mungko01_int_FD_Mine01_01.Mon_Mungko01_int_FD_Mine01_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251047,
+    "SequencePlayId": 6251047,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine01_01/Mon_Mungko21_int_FD_Mine01_01.Mon_Mungko21_int_FD_Mine01_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251048,
+    "SequencePlayId": 6251048,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_Mine01_01/Mon_Mungko21_die_FD_Mine01_01.Mon_Mungko21_die_FD_Mine01_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251049,
+    "SequencePlayId": 6251049,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt06/FD_SecretJail01/Beast21_int_FD_SecretJail01.Beast21_int_FD_SecretJail01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251050,
+    "SequencePlayId": 6251050,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt06/FD_SecretJail01/Sinsu01_int_FD_SecretJail01.Sinsu01_int_FD_SecretJail01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251051,
+    "SequencePlayId": 6251051,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt06/FD_SecretJail01/Sinsu01_die_FD_SecretJail01.Sinsu01_die_FD_SecretJail01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251052,
+    "SequencePlayId": 6251052,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/UnderWorld/FG_Under03/Undead01_Int_FG_Under03.Undead01_Int_FG_Under03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251053,
+    "SequencePlayId": 6251053,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/UnderWorld/FG_Under03/Undead22_Int_FG_Under03.Undead22_Int_FG_Under03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251054,
+    "SequencePlayId": 6251054,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/UnderWorld/FG_Under03/Undead22_Die_FG_Under03.Undead22_Die_FG_Under03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251055,
+    "SequencePlayId": 6251055,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt06/ST_Redvalley_Boss/Bloody22_die_ST_Redvalley_Boss.Bloody22_die_ST_Redvalley_Boss",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251056,
+    "SequencePlayId": 6251056,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/PVE/WorldBoss/Golem/StoneGolem03_die_ED_WorldBoss_Golem.StoneGolem03_die_ED_WorldBoss_Golem",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251057,
+    "SequencePlayId": 6251057,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_R_Forest/Monk21_int_FG_R_Forest.Monk21_int_FG_R_Forest",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251058,
+    "SequencePlayId": 6251058,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/FG_R_Forest/Monk21_die_FG_R_Forest.Monk21_die_FG_R_Forest",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251059,
+    "SequencePlayId": 6251059,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_EightAngle/OmaCrimsonRide31_int_FD_EightAngle.OmaCrimsonRide31_int_FD_EightAngle",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251060,
+    "SequencePlayId": 6251060,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_EightAngle/OmaCrimson31_int_FD_EightAngle.OmaCrimson31_int_FD_EightAngle",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251061,
+    "SequencePlayId": 6251061,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt04/FD_EightAngle/OmaCrimson31_die_FD_EightAngle.OmaCrimson31_die_FD_EightAngle",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251062,
+    "SequencePlayId": 6251062,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/TW_DoGwan/Undead23_int_TW_DoGwan.Undead23_int_TW_DoGwan",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251063,
+    "SequencePlayId": 6251063,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt05/TW_DoGwan/Undead23_die_TW_DoGwan.Undead23_die_TW_DoGwan",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251064,
+    "SequencePlayId": 6251064,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/RD_BloodTusa/Undead21_int_RD_BloodTusa.Undead21_int_RD_BloodTusa",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251065,
+    "SequencePlayId": 6251065,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/RD_BloodTusa/Undead21_die_RD_BloodTusa.Undead21_die_RD_BloodTusa",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251066,
+    "SequencePlayId": 6251066,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/RD_Underwater/Goat21_int_RD_Underwater.Goat21_int_RD_Underwater",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251067,
+    "SequencePlayId": 6251067,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt01/RD_Underwater/Goat21_die_RD_Underwater.Goat21_die_RD_Underwater",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251068,
+    "SequencePlayId": 6251068,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/FD_Uma_01/Uma22_int__FD_Uma_01.Uma22_int__FD_Uma_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251069,
+    "SequencePlayId": 6251069,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt02/FD_Uma_01/Uma22_die__FD_Uma_01.Uma22_die__FD_Uma_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251070,
+    "SequencePlayId": 6251070,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAway_Sinsu21/Sinsu21_int_GuildAway_Sinsu21.Sinsu21_int_GuildAway_Sinsu21",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251071,
+    "SequencePlayId": 6251071,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAway_Sinsu21/Sinsu21_die_GuildAway_Sinsu21.Sinsu21_die_GuildAway_Sinsu21",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251072,
+    "SequencePlayId": 6251072,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Demon21_int_GuildAwayFirst.Demon21_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251073,
+    "SequencePlayId": 6251073,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Demon21_die_GuildAwayFirst.Demon21_die_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251074,
+    "SequencePlayId": 6251074,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAway_Drake21/Drake21_int_GuildAway_Drake21.Drake21_int_GuildAway_Drake21",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251075,
+    "SequencePlayId": 6251075,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAway_Drake21/Drake21_die_GuildAway_Drake21.Drake21_die_GuildAway_Drake21",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251076,
+    "SequencePlayId": 6251076,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAway_Second/Drake22_int_GuildAway_Second.Drake22_int_GuildAway_Second",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251077,
+    "SequencePlayId": 6251077,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAway_Second/Drake22_die_GuildAway_Second.Drake22_die_GuildAway_Second",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251078,
+    "SequencePlayId": 6251078,
+    "SequenceType": 1,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt03/FG_VillainTown/Danbo_Airwalk_FG_VillainTown.Danbo_Airwalk_FG_VillainTown",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251079,
+    "SequencePlayId": 6251079,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/PVE/WorldBoss/Golem/StoneGolem03_int_ED_WorldBoss_Golem.StoneGolem03_int_ED_WorldBoss_Golem",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251080,
+    "SequencePlayId": 6251080,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt06/FD_Redvalley_01/Goblin31_int_FD_Redvalley_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251081,
+    "SequencePlayId": 6251081,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt06/FD_Redvalley_01/Goblin31_die_FD_Redvalley_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251082,
+    "SequencePlayId": 6251082,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Armadillo21_Int_GuildAwayFirst.Armadillo21_Int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251083,
+    "SequencePlayId": 6251083,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Ascetic22_int_GuildAwayFirst.Ascetic22_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251084,
+    "SequencePlayId": 6251084,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Bloody21_int_GuildAwayFirst.Bloody21_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251085,
+    "SequencePlayId": 6251085,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Danbo_int_GuildAwayFirst.Danbo_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251086,
+    "SequencePlayId": 6251086,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/DarkMen21_int_GuildAwayFirst.DarkMen21_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251087,
+    "SequencePlayId": 6251087,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/DonDon21_int_GuildAwayFirst.DonDon21_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251089,
+    "SequencePlayId": 6251089,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Monk21_int_GuildAwayFirst.Monk21_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251090,
+    "SequencePlayId": 6251090,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/OmaCrimson31_int_GuildAwayFirst.OmaCrimson31_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251091,
+    "SequencePlayId": 6251091,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Sinsu01_int_GuildAwayFirst.Sinsu01_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251092,
+    "SequencePlayId": 6251092,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Uma22_int_GuildAwayFirst.Uma22_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251093,
+    "SequencePlayId": 6251093,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Undead21_int_GuildAwayFirst.Undead21_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251094,
+    "SequencePlayId": 6251094,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/whitewalker21_GuildAwayFirst.whitewalker21_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251095,
+    "SequencePlayId": 6251095,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAwayFirst/Undead23_int_GuildAwayFirst.Undead23_int_GuildAwayFirst",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251098,
+    "SequencePlayId": 6251098,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAway_Wall/Demon22_int_GuildAway_Wall.Demon22_int_GuildAway_Wall",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251099,
+    "SequencePlayId": 6251099,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAway_Wall/Demon22_die_GuildAway_Wall.Demon22_die_GuildAway_Wall",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251100,
+    "SequencePlayId": 6251100,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/TW_Sabuk_renewal/Jangsu21_Jangsu22_int_TW_Sabuk.Jangsu21_Jangsu22_int_TW_Sabuk",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251101,
+    "SequencePlayId": 6251101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/TW_Sabuk_renewal/Jangsu21_Jangsu22_die_TW_Sabuk.Jangsu21_Jangsu22_die_TW_Sabuk",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251113,
+    "SequencePlayId": 6251113,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAway_Drake21/Goat23_int_GuildAway_Drake21.Goat23_int_GuildAway_Drake21",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251114,
+    "SequencePlayId": 6251114,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Instance/GuildAway/GuildAway_Drake21/Goat23_die_GuildAway_Drake21.Goat23_die_GuildAway_Drake21",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251115,
+    "SequencePlayId": 6251115,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt07/FG_R_Desert/Dragonb31_int_FG_R_Desert.Dragonb31_int_FG_R_Desert",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251116,
+    "SequencePlayId": 6251116,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt07/FG_R_Desert/Dragonb31_die_FG_R_Desert.Dragonb31_die_FG_R_Desert",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251117,
+    "SequencePlayId": 6251117,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt10/FG_IceField/TigerSol21_int_FG_IceField.TigerSol21_int_FG_IceField",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251118,
+    "SequencePlayId": 6251118,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt10/FG_IceField/TigerSol21_die_FG_IceField.TigerSol21_die_FG_IceField",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 6251119,
+    "SequencePlayId": 6251119,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt07/FG_R_Desert/Jangsu22_die_FG_R_Desert.Jangsu22_die_FG_R_Desert",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 7000101,
+    "SequencePlayId": 7000101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T07/T07_01/T07_01.T07_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 7000201,
+    "SequencePlayId": 7000201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T07/T07_02/T07_02.T07_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 7000301,
+    "SequencePlayId": 7000301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T07/T07_03/T07_03.T07_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 7000401,
+    "SequencePlayId": 7000401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T07/T07_04/T07_04.T07_04",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 7000501,
+    "SequencePlayId": 7000501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T07/T07_05/T07_05.T07_05",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 7100001,
+    "SequencePlayId": 7100001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt07/FD_AntTunnel_02/Mon_Insect21_int_FD_AntTunnel_02.Mon_Insect21_int_FD_AntTunnel_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 8000101,
+    "SequencePlayId": 8000101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T08/01/T08_01.8-1",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 8000201,
+    "SequencePlayId": 8000201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T08/02/T08_02.8-2",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 8000301,
+    "SequencePlayId": 8000301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T08/03/T08_03.8-3",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 8000401,
+    "SequencePlayId": 8000401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T08/04/T08_04.8-4",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 8000501,
+    "SequencePlayId": 8000501,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T08/05/T08_05.8-5",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 8001001,
+    "SequencePlayId": 8001001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt08/FD_SwordGrave_01/sonduk_chogye_FD_SwordGrave_01.Sonduk_Chogye_FD_SwordGrave_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 8001002,
+    "SequencePlayId": 8001002,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt08/FD_StoneGrave_03/Mon_DonDon22_int_FD_StoneGrave_03.Mon_DonDon22_int_FD_StoneGrave_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 8001003,
+    "SequencePlayId": 8001003,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt08/FD_SwordGrave_02/Osher_SwordGrave_02.Osher_SwordGrave_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 8001004,
+    "SequencePlayId": 8001004,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt08/FD_StoneGrave_03/DragonBall_FD_StoneGrave_03.DragonBall_FD_StoneGrave_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 8001005,
+    "SequencePlayId": 8001005,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt07/FG_Sabuk/player_Airwalk_FG_Sabuk.player_Airwalk_FG_Sabuk",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9000101,
+    "SequencePlayId": 9000101,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T09/T09_01/T09_01.T09_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9000201,
+    "SequencePlayId": 9000201,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T09/T09_02/T09_02.T09_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9000301,
+    "SequencePlayId": 9000301,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T09/T09_03/T09_03.T09_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9000401,
+    "SequencePlayId": 9000401,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/Cinematic_Cutscene/Sequence_Cutscene/T09/T09_04/T09_04.T09_04",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9001001,
+    "SequencePlayId": 9001001,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/FD_SabukValleycave/Sarmati_FD_SabukValleycave.Sarmati_FD_SabukValleycave",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9001002,
+    "SequencePlayId": 9001002,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/FG_SabukValley/Sol_FG_SabukValley.Sol_FG_SabukValley",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9001003,
+    "SequencePlayId": 9001003,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/FD_SabukWall_01/DarkMonk21_int01_FD_SabukWall_01.DarkMonk21_int01_FD_SabukWall_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9001004,
+    "SequencePlayId": 9001004,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/FD_SabukWall_01/DarkMonk21_int02_FD_SabukWall_01.DarkMonk21_int02_FD_SabukWall_01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9001005,
+    "SequencePlayId": 9001005,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/FD_SabukWall_01/Mon_Jangsu21_FD_SabukWall01.Mon_Jangsu21_FD_SabukWall01",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9001006,
+    "SequencePlayId": 9001006,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/FD_SabukWall_02/Mon_Leesuk_FD_SabukWall_02.Mon_Leesuk_FD_SabukWall_02",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9001007,
+    "SequencePlayId": 9001007,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/FD_SabukWall_03/ZombieUma21_FD_SabukWall_03.ZombieUma21_FD_SabukWall_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9001008,
+    "SequencePlayId": 9001008,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/FD_SabukWall_03/Jangsu25_int01_FD_SabukWall_03.Jangsu25_int01_FD_SabukWall_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  {
+    "Name": 9001009,
+    "SequencePlayId": 9001009,
+    "SequenceType": 0,
+    "SequenceSkipDelay": 1,
+    "FadeOutTime": 1.5,
+    "FadeInTime": 1.5,
+    "ClassCheck": false,
+    "SequenceResourceName": "/Game/Cinematics/InGame_CutScene/Chapt09/FD_SabukWall_03/Jangsu25_int02_FD_SabukWall_03.Jangsu25_int02_FD_SabukWall_03",
+    "CoordinateOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "Id": 1,
+    "ChangeCondtionType": 1,
+    "MinLevel": 1,
+    "MaxLevel": 190,
+    "ServerChangeCostType": 2,
+    "NeedMoneyType": 0,
+    "NeedMoneyValue": 0,
+    "NeedItemUseId": 1802200016,
+    "NeedItemCount": 1
+  },
+  {
+    "Id": 1001,
+    "ChangeCondtionType": 2,
+    "MinLevel": 1,
+    "MaxLevel": 190,
+    "ServerChangeCostType": 2,
+    "NeedMoneyType": 0,
+    "NeedMoneyValue": 0,
+    "NeedItemUseId": 1802209001,
+    "NeedItemCount": 1
+  },
+  {
+    "Id": 4001,
+    "ChangeCondtionType": 4,
+    "MinLevel": 1,
+    "MaxLevel": 190,
+    "ServerChangeCostType": 1,
+    "NeedMoneyType": 4,
+    "NeedMoneyValue": 4000,
+    "NeedItemUseId": 0,
+    "NeedItemCount": 0
+  },
+  {
+    "Id": 5001,
+    "ChangeCondtionType": 5,
+    "MinLevel": 1,
+    "MaxLevel": 190,
+    "ServerChangeCostType": 1,
+    "NeedMoneyType": 4,
+    "NeedMoneyValue": 1000,
+    "NeedItemUseId": 0,
+    "NeedItemCount": 0
+  },
+  {
+    "Id": 6001,
+    "ChangeCondtionType": 11,
+    "MinLevel": 1,
+    "MaxLevel": 190,
+    "ServerChangeCostType": 2,
+    "NeedMoneyType": 0,
+    "NeedMoneyValue": 0,
+    "NeedItemUseId": 1802200016,
+    "NeedItemCount": 1
+  },
+  {
+    "Id": 6002,
+    "ChangeCondtionType": 12,
+    "MinLevel": 1,
+    "MaxLevel": 190,
+    "ServerChangeCostType": 2,
+    "NeedMoneyType": 0,
+    "NeedMoneyValue": 0,
+    "NeedItemUseId": 1802200016,
+    "NeedItemCount": 1
+  },
+  {
+    "Id": 6003,
+    "ChangeCondtionType": 13,
+    "MinLevel": 1,
+    "MaxLevel": 190,
+    "ServerChangeCostType": 2,
+    "NeedMoneyType": 0,
+    "NeedMoneyValue": 0,
+    "NeedItemUseId": 1802200016,
+    "NeedItemCount": 2
+  }
+]

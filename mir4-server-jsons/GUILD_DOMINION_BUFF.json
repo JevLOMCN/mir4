@@ -1,0 +1,38 @@
+[
+  {
+    "DominionBuffId": 1,
+    "DominionType": 1,
+    "DominionBuffCostType": 12,
+    "DominionBuffCostValue": 10000000,
+    "DominionBuffNameId": 3350010,
+    "DominionBuffIconId": 4500001,
+    "DominionBuffDescId": 3350016,
+    "DominionWorldBuffId": 500203,
+    "DominionBuffCnt": 1,
+    "NotifyMessage": 1067567
+  },
+  {
+    "DominionBuffId": 2,
+    "DominionType": 1,
+    "DominionBuffCostType": 12,
+    "DominionBuffCostValue": 4000000,
+    "DominionBuffNameId": 3350011,
+    "DominionBuffIconId": 4500002,
+    "DominionBuffDescId": 3350017,
+    "DominionWorldBuffId": 500204,
+    "DominionBuffCnt": 1,
+    "NotifyMessage": 1067568
+  },
+  {
+    "DominionBuffId": 3,
+    "DominionType": 1,
+    "DominionBuffCostType": 12,
+    "DominionBuffCostValue": 2000000,
+    "DominionBuffNameId": 3350012,
+    "DominionBuffIconId": 4500003,
+    "DominionBuffDescId": 3350018,
+    "DominionWorldBuffId": 500205,
+    "DominionBuffCnt": 1,
+    "NotifyMessage": 1067569
+  }
+]

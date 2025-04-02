@@ -1,0 +1,86 @@
+[
+  {
+    "UniqueId": 11,
+    "Priority": 1,
+    "OverTake": false,
+    "FileName": "/Game/UI/UMGBP/Contents/Occupation/Renewal/New_Occupation_KingAscension"
+  },
+  {
+    "UniqueId": 101,
+    "Priority": 2,
+    "OverTake": false,
+    "FileName": "/Game/UI/WBP/Common/LevelUp"
+  },
+  {
+    "UniqueId": 201,
+    "Priority": 3,
+    "OverTake": false,
+    "FileName": "/Game/UI/UMGBP/Common/Popup_Contents_Notice"
+  },
+  {
+    "UniqueId": 301,
+    "Priority": 4,
+    "OverTake": false,
+    "FileName": "/Game/UI/UMGBP/Contents/Common_Contents/Message/HudGetSpecialItemMsg"
+  },
+  {
+    "UniqueId": 401,
+    "Priority": 5,
+    "OverTake": false,
+    "FileName": "/Game/UI/UMGBP/Contents/Common_Contents/Message/RelationQuestMsg"
+  },
+  {
+    "UniqueId": 402,
+    "Priority": 6,
+    "OverTake": false,
+    "FileName": "/Game/UI/UMGBP/Contents/Common_Contents/Message/RelationQuestCompleteMsg"
+  },
+  {
+    "UniqueId": 403,
+    "Priority": 7,
+    "OverTake": false,
+    "FileName": "/Game/UI/UMGBP/HUD/Hud_QuestMessage"
+  },
+  {
+    "UniqueId": 601,
+    "Priority": 8,
+    "OverTake": false,
+    "FileName": "/Game/UI/WBP/Common/Boss_Appear"
+  },
+  {
+    "UniqueId": 602,
+    "Priority": 9,
+    "OverTake": false,
+    "FileName": "/Game/UI/UMGBP/Contents/Boss/Popup_Boss_appearance"
+  },
+  {
+    "UniqueId": 701,
+    "Priority": 10,
+    "OverTake": true,
+    "FileName": "/Game/UI/UMGBP/Contents/Occupation/Occupation_Battle_Start"
+  },
+  {
+    "UniqueId": 801,
+    "Priority": 11,
+    "OverTake": true,
+    "FileName": "/Game/UI/UMGBP/Common/PopUp_Common_Info"
+  },
+  {
+    "UniqueId": 901,
+    "Priority": 12,
+    "OverTake": true,
+    "FileName": "/Game/UI/UMGBP/Contents/Boss/Popup_boss_time"
+  },
+  {
+    "UniqueId": 1001,
+    "Priority": 13,
+    "OverTake": false,
+    "FileName": "/Game/UI/UMGBP/HUD/Hud_Alarm_Town"
+  },
+  {
+    "UniqueId": 1101,
+    "Priority": 14,
+    "OverTake": false,
+    "FileName": "/Game/UI/UMGBP/Contents/Occupation/Popup_StageOccupation"
+  }
+]

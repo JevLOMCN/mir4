@@ -1,0 +1,110 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "-10760,8230,0",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": 2,
+    "TriggerLocation": "-10940,8550,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "2.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": "ETriggerType::PHASEAREA",
+    "TriggerLocation": "-10680,9810,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "4500.0"
+    ],
+    "Value2": [
+      "5.0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": "ETriggerType::WALL",
+    "TriggerLocation": "-10460,7320,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "23.500000,1.000000,10.750000"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": "ETriggerType::WALL",
+    "TriggerLocation": "-10460,12200,0",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "23.500000,1.000000,10.750000"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": "ETriggerType::WALL",
+    "TriggerLocation": "-8690,9570,0",
+    "TriggerRotation": -89,
+    "LinkID": [],
+    "Value1": [
+      "14.750000,1.000000,10.750000"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": "ETriggerType::WALL",
+    "TriggerLocation": "-14630,9570,0",
+    "TriggerRotation": -89,
+    "LinkID": [],
+    "Value1": [
+      "14.750000,1.000000,10.750000"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "Name": 16,
+    "RowId": 8010001,
+    "PeriodId": 8010001,
+    "Period": 14,
+    "FirstRewardKindCount": 1,
+    "FirstRewardType": [
+      1
+    ],
+    "FirstRewardId": [
+      4
+    ],
+    "FirstRewardCount": [
+      240
+    ],
+    "DailyRewardKindCount": 1,
+    "DailyRewardType": [
+      1
+    ],
+    "DailyRewardId": [
+      5
+    ],
+    "DailyRewardCount": [
+      120
+    ]
+  },
+  {
+    "Name": 17,
+    "RowId": 8010002,
+    "PeriodId": 8010002,
+    "Period": 14,
+    "FirstRewardKindCount": 2,
+    "FirstRewardType": [
+      1,
+      2
+    ],
+    "FirstRewardId": [
+      4,
+      625200602
+    ],
+    "FirstRewardCount": [
+      200,
+      3
+    ],
+    "DailyRewardKindCount": 2,
+    "DailyRewardType": [
+      1,
+      2
+    ],
+    "DailyRewardId": [
+      5,
+      625200602
+    ],
+    "DailyRewardCount": [
+      100,
+      2
+    ]
+  },
+  {
+    "Name": 18,
+    "RowId": 8010003,
+    "PeriodId": 8010003,
+    "Period": 14,
+    "FirstRewardKindCount": 2,
+    "FirstRewardType": [
+      1,
+      2
+    ],
+    "FirstRewardId": [
+      4,
+      602200606
+    ],
+    "FirstRewardCount": [
+      200,
+      2
+    ],
+    "DailyRewardKindCount": 2,
+    "DailyRewardType": [
+      1,
+      2
+    ],
+    "DailyRewardId": [
+      5,
+      602200606
+    ],
+    "DailyRewardCount": [
+      100,
+      1
+    ]
+  },
+  {
+    "Name": 19,
+    "RowId": 8010004,
+    "PeriodId": 8010004,
+    "Period": 14,
+    "FirstRewardKindCount": 2,
+    "FirstRewardType": [
+      1,
+      2
+    ],
+    "FirstRewardId": [
+      4,
+      602200604
+    ],
+    "FirstRewardCount": [
+      200,
+      2
+    ],
+    "DailyRewardKindCount": 2,
+    "DailyRewardType": [
+      1,
+      2
+    ],
+    "DailyRewardId": [
+      5,
+      602200604
+    ],
+    "DailyRewardCount": [
+      100,
+      1
+    ]
+  },
+  {
+    "Name": 20,
+    "RowId": 8010005,
+    "PeriodId": 8010005,
+    "Period": 14,
+    "FirstRewardKindCount": 2,
+    "FirstRewardType": [
+      1,
+      2
+    ],
+    "FirstRewardId": [
+      4,
+      602200605
+    ],
+    "FirstRewardCount": [
+      200,
+      2
+    ],
+    "DailyRewardKindCount": 2,
+    "DailyRewardType": [
+      1,
+      2
+    ],
+    "DailyRewardId": [
+      5,
+      602200605
+    ],
+    "DailyRewardCount": [
+      100,
+      1
+    ]
+  }
+]

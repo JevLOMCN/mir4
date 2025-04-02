@@ -1,0 +1,5672 @@
+[
+  {
+    "TranceID": 1,
+    "ItemUseID": 1702000063,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 93,
+    "StatusValue": 157,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 2,
+    "ItemUseID": 1702000063,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 93,
+    "StatusValue": 315,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 3,
+    "ItemUseID": 1702000063,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 93,
+    "StatusValue": 472,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 4,
+    "ItemUseID": 1702000063,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 93,
+    "StatusValue": 630,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 5,
+    "ItemUseID": 1702000063,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 93,
+    "StatusValue": 787,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 6,
+    "ItemUseID": 1702000063,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 93,
+    "StatusValue": 945,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 7,
+    "ItemUseID": 1702000063,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 93,
+    "StatusValue": 1102,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 8,
+    "ItemUseID": 1702000064,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 91,
+    "StatusValue": 157,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 9,
+    "ItemUseID": 1702000064,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 91,
+    "StatusValue": 315,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 10,
+    "ItemUseID": 1702000064,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 91,
+    "StatusValue": 472,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 11,
+    "ItemUseID": 1702000064,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 91,
+    "StatusValue": 630,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 12,
+    "ItemUseID": 1702000064,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 91,
+    "StatusValue": 787,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 13,
+    "ItemUseID": 1702000064,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 91,
+    "StatusValue": 945,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 14,
+    "ItemUseID": 1702000064,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 91,
+    "StatusValue": 1102,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 15,
+    "ItemUseID": 1702000065,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 82,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 16,
+    "ItemUseID": 1702000065,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 82,
+    "StatusValue": 210,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 17,
+    "ItemUseID": 1702000065,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 82,
+    "StatusValue": 315,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 18,
+    "ItemUseID": 1702000065,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 82,
+    "StatusValue": 420,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 19,
+    "ItemUseID": 1702000065,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 82,
+    "StatusValue": 525,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 20,
+    "ItemUseID": 1702000065,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 82,
+    "StatusValue": 630,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 21,
+    "ItemUseID": 1702000065,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 82,
+    "StatusValue": 735,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 22,
+    "ItemUseID": 1702000066,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 84,
+    "StatusValue": 157,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 23,
+    "ItemUseID": 1702000066,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 84,
+    "StatusValue": 315,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 24,
+    "ItemUseID": 1702000066,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 84,
+    "StatusValue": 472,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 25,
+    "ItemUseID": 1702000066,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 84,
+    "StatusValue": 630,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 26,
+    "ItemUseID": 1702000066,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 84,
+    "StatusValue": 787,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 27,
+    "ItemUseID": 1702000066,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 84,
+    "StatusValue": 945,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 28,
+    "ItemUseID": 1702000066,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 84,
+    "StatusValue": 1102,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 29,
+    "ItemUseID": 1702000067,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 88,
+    "StatusValue": 157,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 30,
+    "ItemUseID": 1702000067,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 88,
+    "StatusValue": 315,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 31,
+    "ItemUseID": 1702000067,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 88,
+    "StatusValue": 472,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 32,
+    "ItemUseID": 1702000067,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 88,
+    "StatusValue": 630,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 33,
+    "ItemUseID": 1702000067,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 88,
+    "StatusValue": 787,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 34,
+    "ItemUseID": 1702000067,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 88,
+    "StatusValue": 945,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 35,
+    "ItemUseID": 1702000067,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 88,
+    "StatusValue": 1102,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 36,
+    "ItemUseID": 1702000068,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 89,
+    "StatusValue": 78,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 37,
+    "ItemUseID": 1702000068,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 89,
+    "StatusValue": 156,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 38,
+    "ItemUseID": 1702000068,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 89,
+    "StatusValue": 234,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 39,
+    "ItemUseID": 1702000068,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 89,
+    "StatusValue": 312,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 40,
+    "ItemUseID": 1702000068,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 89,
+    "StatusValue": 390,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 41,
+    "ItemUseID": 1702000068,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 89,
+    "StatusValue": 468,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 42,
+    "ItemUseID": 1702000068,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 89,
+    "StatusValue": 546,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 43,
+    "ItemUseID": 1702000069,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 146,
+    "StatusValue": 6,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 44,
+    "ItemUseID": 1702000069,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 146,
+    "StatusValue": 12,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 45,
+    "ItemUseID": 1702000069,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 146,
+    "StatusValue": 18,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 46,
+    "ItemUseID": 1702000069,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 146,
+    "StatusValue": 25,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 47,
+    "ItemUseID": 1702000069,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 146,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 48,
+    "ItemUseID": 1702000069,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 146,
+    "StatusValue": 37,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 49,
+    "ItemUseID": 1702000069,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 146,
+    "StatusValue": 44,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 50,
+    "ItemUseID": 1702000070,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 147,
+    "StatusValue": 2,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 51,
+    "ItemUseID": 1702000070,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 147,
+    "StatusValue": 5,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 52,
+    "ItemUseID": 1702000070,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 147,
+    "StatusValue": 7,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 53,
+    "ItemUseID": 1702000070,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 147,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 54,
+    "ItemUseID": 1702000070,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 147,
+    "StatusValue": 12,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 55,
+    "ItemUseID": 1702000070,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 147,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 56,
+    "ItemUseID": 1702000070,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 147,
+    "StatusValue": 17,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 57,
+    "ItemUseID": 1702000071,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 148,
+    "StatusValue": 7,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 58,
+    "ItemUseID": 1702000071,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 148,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 59,
+    "ItemUseID": 1702000071,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 148,
+    "StatusValue": 23,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 60,
+    "ItemUseID": 1702000071,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 148,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 61,
+    "ItemUseID": 1702000071,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 148,
+    "StatusValue": 39,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 62,
+    "ItemUseID": 1702000071,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 148,
+    "StatusValue": 46,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 63,
+    "ItemUseID": 1702000071,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 148,
+    "StatusValue": 54,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 64,
+    "ItemUseID": 1702000072,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 1,
+    "StatusValue": 175,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 65,
+    "ItemUseID": 1702000072,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 1,
+    "StatusValue": 351,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 66,
+    "ItemUseID": 1702000072,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 1,
+    "StatusValue": 527,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 67,
+    "ItemUseID": 1702000072,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 1,
+    "StatusValue": 703,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 68,
+    "ItemUseID": 1702000072,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 1,
+    "StatusValue": 879,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 69,
+    "ItemUseID": 1702000072,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 1,
+    "StatusValue": 1054,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 70,
+    "ItemUseID": 1702000072,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 1,
+    "StatusValue": 1230,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 71,
+    "ItemUseID": 1702000073,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 6,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 72,
+    "ItemUseID": 1702000073,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 6,
+    "StatusValue": 84,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 73,
+    "ItemUseID": 1702000073,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 6,
+    "StatusValue": 126,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 74,
+    "ItemUseID": 1702000073,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 6,
+    "StatusValue": 168,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 75,
+    "ItemUseID": 1702000073,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 6,
+    "StatusValue": 210,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 76,
+    "ItemUseID": 1702000073,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 6,
+    "StatusValue": 252,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 77,
+    "ItemUseID": 1702000073,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 6,
+    "StatusValue": 294,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 78,
+    "ItemUseID": 1702000074,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 38,
+    "StatusValue": 3,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 79,
+    "ItemUseID": 1702000074,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 38,
+    "StatusValue": 6,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 80,
+    "ItemUseID": 1702000074,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 38,
+    "StatusValue": 9,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 81,
+    "ItemUseID": 1702000074,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 38,
+    "StatusValue": 12,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 82,
+    "ItemUseID": 1702000074,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 38,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 83,
+    "ItemUseID": 1702000074,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 38,
+    "StatusValue": 18,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 84,
+    "ItemUseID": 1702000074,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 38,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 85,
+    "ItemUseID": 1702000075,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 39,
+    "StatusValue": 3,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 86,
+    "ItemUseID": 1702000075,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 39,
+    "StatusValue": 6,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 87,
+    "ItemUseID": 1702000075,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 39,
+    "StatusValue": 9,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 88,
+    "ItemUseID": 1702000075,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 39,
+    "StatusValue": 12,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 89,
+    "ItemUseID": 1702000075,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 39,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 90,
+    "ItemUseID": 1702000075,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 39,
+    "StatusValue": 18,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 91,
+    "ItemUseID": 1702000075,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 39,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 92,
+    "ItemUseID": 1702000076,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 40,
+    "StatusValue": 5,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 93,
+    "ItemUseID": 1702000076,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 40,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 94,
+    "ItemUseID": 1702000076,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 40,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 95,
+    "ItemUseID": 1702000076,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 40,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 96,
+    "ItemUseID": 1702000076,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 40,
+    "StatusValue": 26,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 97,
+    "ItemUseID": 1702000076,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 40,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 98,
+    "ItemUseID": 1702000076,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 40,
+    "StatusValue": 36,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 99,
+    "ItemUseID": 1702000077,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 42,
+    "StatusValue": 5,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 100,
+    "ItemUseID": 1702000077,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 42,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 101,
+    "ItemUseID": 1702000077,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 42,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 102,
+    "ItemUseID": 1702000077,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 42,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 103,
+    "ItemUseID": 1702000077,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 42,
+    "StatusValue": 26,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 104,
+    "ItemUseID": 1702000077,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 42,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 105,
+    "ItemUseID": 1702000077,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 42,
+    "StatusValue": 36,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 106,
+    "ItemUseID": 1702000078,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 41,
+    "StatusValue": 5,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 107,
+    "ItemUseID": 1702000078,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 41,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 108,
+    "ItemUseID": 1702000078,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 41,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 109,
+    "ItemUseID": 1702000078,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 41,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 110,
+    "ItemUseID": 1702000078,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 41,
+    "StatusValue": 26,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 111,
+    "ItemUseID": 1702000078,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 41,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 112,
+    "ItemUseID": 1702000078,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 41,
+    "StatusValue": 36,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 113,
+    "ItemUseID": 1702000079,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 32,
+    "StatusValue": 9,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 114,
+    "ItemUseID": 1702000079,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 32,
+    "StatusValue": 18,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 115,
+    "ItemUseID": 1702000079,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 32,
+    "StatusValue": 28,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 116,
+    "ItemUseID": 1702000079,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 32,
+    "StatusValue": 37,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 117,
+    "ItemUseID": 1702000079,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 32,
+    "StatusValue": 47,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 118,
+    "ItemUseID": 1702000079,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 32,
+    "StatusValue": 56,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 119,
+    "ItemUseID": 1702000079,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 32,
+    "StatusValue": 66,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 120,
+    "ItemUseID": 1702000080,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 33,
+    "StatusValue": 9,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 121,
+    "ItemUseID": 1702000080,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 33,
+    "StatusValue": 18,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 122,
+    "ItemUseID": 1702000080,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 33,
+    "StatusValue": 28,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 123,
+    "ItemUseID": 1702000080,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 33,
+    "StatusValue": 37,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 124,
+    "ItemUseID": 1702000080,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 33,
+    "StatusValue": 47,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 125,
+    "ItemUseID": 1702000080,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 33,
+    "StatusValue": 56,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 126,
+    "ItemUseID": 1702000080,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 33,
+    "StatusValue": 66,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 127,
+    "ItemUseID": 1702000081,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 48,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 128,
+    "ItemUseID": 1702000081,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 48,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 129,
+    "ItemUseID": 1702000081,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 48,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 130,
+    "ItemUseID": 1702000081,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 48,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 131,
+    "ItemUseID": 1702000081,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 48,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 132,
+    "ItemUseID": 1702000081,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 48,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 133,
+    "ItemUseID": 1702000081,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 48,
+    "StatusValue": 73,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 134,
+    "ItemUseID": 1702000082,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 49,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 135,
+    "ItemUseID": 1702000082,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 49,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 136,
+    "ItemUseID": 1702000082,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 49,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 137,
+    "ItemUseID": 1702000082,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 49,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 138,
+    "ItemUseID": 1702000082,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 49,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 139,
+    "ItemUseID": 1702000082,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 49,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 140,
+    "ItemUseID": 1702000082,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 49,
+    "StatusValue": 73,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 141,
+    "ItemUseID": 1702000083,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 50,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 142,
+    "ItemUseID": 1702000083,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 50,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 143,
+    "ItemUseID": 1702000083,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 50,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 144,
+    "ItemUseID": 1702000083,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 50,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 145,
+    "ItemUseID": 1702000083,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 50,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 146,
+    "ItemUseID": 1702000083,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 50,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 147,
+    "ItemUseID": 1702000083,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 50,
+    "StatusValue": 73,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 148,
+    "ItemUseID": 1702000084,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 51,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 149,
+    "ItemUseID": 1702000084,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 51,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 150,
+    "ItemUseID": 1702000084,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 51,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 151,
+    "ItemUseID": 1702000084,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 51,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 152,
+    "ItemUseID": 1702000084,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 51,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 153,
+    "ItemUseID": 1702000084,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 51,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 154,
+    "ItemUseID": 1702000084,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 51,
+    "StatusValue": 73,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 155,
+    "ItemUseID": 1702000085,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 52,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 156,
+    "ItemUseID": 1702000085,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 52,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 157,
+    "ItemUseID": 1702000085,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 52,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 158,
+    "ItemUseID": 1702000085,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 52,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 159,
+    "ItemUseID": 1702000085,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 52,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 160,
+    "ItemUseID": 1702000085,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 52,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 161,
+    "ItemUseID": 1702000085,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 52,
+    "StatusValue": 73,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 162,
+    "ItemUseID": 1702000086,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 53,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 163,
+    "ItemUseID": 1702000086,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 53,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 164,
+    "ItemUseID": 1702000086,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 53,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 165,
+    "ItemUseID": 1702000086,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 53,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 166,
+    "ItemUseID": 1702000086,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 53,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 167,
+    "ItemUseID": 1702000086,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 53,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 168,
+    "ItemUseID": 1702000086,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 53,
+    "StatusValue": 73,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 169,
+    "ItemUseID": 1702000087,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 119,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 170,
+    "ItemUseID": 1702000087,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 119,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 171,
+    "ItemUseID": 1702000087,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 119,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 172,
+    "ItemUseID": 1702000087,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 119,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 173,
+    "ItemUseID": 1702000087,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 119,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 174,
+    "ItemUseID": 1702000087,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 119,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 175,
+    "ItemUseID": 1702000087,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 119,
+    "StatusValue": 73,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 176,
+    "ItemUseID": 1702000088,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 120,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 177,
+    "ItemUseID": 1702000088,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 120,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 178,
+    "ItemUseID": 1702000088,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 120,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 179,
+    "ItemUseID": 1702000088,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 120,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 180,
+    "ItemUseID": 1702000088,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 120,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 181,
+    "ItemUseID": 1702000088,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 120,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 182,
+    "ItemUseID": 1702000088,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 120,
+    "StatusValue": 73,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 183,
+    "ItemUseID": 1702000127,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 43,
+    "StatusValue": 5,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 184,
+    "ItemUseID": 1702000127,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 43,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 185,
+    "ItemUseID": 1702000127,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 43,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 186,
+    "ItemUseID": 1702000127,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 43,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 187,
+    "ItemUseID": 1702000127,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 43,
+    "StatusValue": 26,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 188,
+    "ItemUseID": 1702000127,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 43,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 189,
+    "ItemUseID": 1702000127,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 43,
+    "StatusValue": 36,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 190,
+    "ItemUseID": 1702000153,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 34,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 191,
+    "ItemUseID": 1702000153,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 34,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 192,
+    "ItemUseID": 1702000153,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 34,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 193,
+    "ItemUseID": 1702000153,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 34,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 194,
+    "ItemUseID": 1702000153,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 34,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 195,
+    "ItemUseID": 1702000153,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 34,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 196,
+    "ItemUseID": 1702000153,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 34,
+    "StatusValue": 73,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 197,
+    "ItemUseID": 1702000154,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 35,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 198,
+    "ItemUseID": 1702000154,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 35,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 199,
+    "ItemUseID": 1702000154,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 35,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 200,
+    "ItemUseID": 1702000154,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 35,
+    "StatusValue": 42,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 201,
+    "ItemUseID": 1702000154,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 35,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 202,
+    "ItemUseID": 1702000154,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 35,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 203,
+    "ItemUseID": 1702000154,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 35,
+    "StatusValue": 73,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 204,
+    "ItemUseID": 1702000160,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 36,
+    "StatusValue": 5,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 205,
+    "ItemUseID": 1702000160,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 36,
+    "StatusValue": 10,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 206,
+    "ItemUseID": 1702000160,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 36,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 207,
+    "ItemUseID": 1702000160,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 36,
+    "StatusValue": 21,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 208,
+    "ItemUseID": 1702000160,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 36,
+    "StatusValue": 26,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 209,
+    "ItemUseID": 1702000160,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 36,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 210,
+    "ItemUseID": 1702000160,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 36,
+    "StatusValue": 36,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 211,
+    "ItemUseID": 1702000094,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 93,
+    "StatusValue": 225,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 212,
+    "ItemUseID": 1702000094,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 93,
+    "StatusValue": 450,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 213,
+    "ItemUseID": 1702000094,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 93,
+    "StatusValue": 675,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 214,
+    "ItemUseID": 1702000094,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 93,
+    "StatusValue": 900,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 215,
+    "ItemUseID": 1702000094,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 93,
+    "StatusValue": 1125,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 216,
+    "ItemUseID": 1702000094,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 93,
+    "StatusValue": 1350,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 217,
+    "ItemUseID": 1702000094,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 93,
+    "StatusValue": 1575,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 218,
+    "ItemUseID": 1702000095,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 91,
+    "StatusValue": 225,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 219,
+    "ItemUseID": 1702000095,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 91,
+    "StatusValue": 450,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 220,
+    "ItemUseID": 1702000095,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 91,
+    "StatusValue": 675,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 221,
+    "ItemUseID": 1702000095,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 91,
+    "StatusValue": 900,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 222,
+    "ItemUseID": 1702000095,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 91,
+    "StatusValue": 1125,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 223,
+    "ItemUseID": 1702000095,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 91,
+    "StatusValue": 1350,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 224,
+    "ItemUseID": 1702000095,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 91,
+    "StatusValue": 1575,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 225,
+    "ItemUseID": 1702000096,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 82,
+    "StatusValue": 150,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 226,
+    "ItemUseID": 1702000096,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 82,
+    "StatusValue": 300,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 227,
+    "ItemUseID": 1702000096,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 82,
+    "StatusValue": 450,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 228,
+    "ItemUseID": 1702000096,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 82,
+    "StatusValue": 600,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 229,
+    "ItemUseID": 1702000096,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 82,
+    "StatusValue": 750,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 230,
+    "ItemUseID": 1702000096,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 82,
+    "StatusValue": 900,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 231,
+    "ItemUseID": 1702000096,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 82,
+    "StatusValue": 1050,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 232,
+    "ItemUseID": 1702000097,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 84,
+    "StatusValue": 225,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 233,
+    "ItemUseID": 1702000097,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 84,
+    "StatusValue": 450,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 234,
+    "ItemUseID": 1702000097,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 84,
+    "StatusValue": 675,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 235,
+    "ItemUseID": 1702000097,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 84,
+    "StatusValue": 900,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 236,
+    "ItemUseID": 1702000097,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 84,
+    "StatusValue": 1125,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 237,
+    "ItemUseID": 1702000097,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 84,
+    "StatusValue": 1350,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 238,
+    "ItemUseID": 1702000097,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 84,
+    "StatusValue": 1575,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 239,
+    "ItemUseID": 1702000098,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 88,
+    "StatusValue": 225,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 240,
+    "ItemUseID": 1702000098,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 88,
+    "StatusValue": 450,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 241,
+    "ItemUseID": 1702000098,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 88,
+    "StatusValue": 675,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 242,
+    "ItemUseID": 1702000098,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 88,
+    "StatusValue": 900,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 243,
+    "ItemUseID": 1702000098,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 88,
+    "StatusValue": 1125,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 244,
+    "ItemUseID": 1702000098,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 88,
+    "StatusValue": 1350,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 245,
+    "ItemUseID": 1702000098,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 88,
+    "StatusValue": 1575,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 246,
+    "ItemUseID": 1702000099,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 89,
+    "StatusValue": 112,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 247,
+    "ItemUseID": 1702000099,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 89,
+    "StatusValue": 225,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 248,
+    "ItemUseID": 1702000099,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 89,
+    "StatusValue": 337,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 249,
+    "ItemUseID": 1702000099,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 89,
+    "StatusValue": 450,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 250,
+    "ItemUseID": 1702000099,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 89,
+    "StatusValue": 562,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 251,
+    "ItemUseID": 1702000099,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 89,
+    "StatusValue": 675,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 252,
+    "ItemUseID": 1702000099,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 89,
+    "StatusValue": 787,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 253,
+    "ItemUseID": 1702000100,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 146,
+    "StatusValue": 9,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 254,
+    "ItemUseID": 1702000100,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 146,
+    "StatusValue": 18,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 255,
+    "ItemUseID": 1702000100,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 146,
+    "StatusValue": 27,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 256,
+    "ItemUseID": 1702000100,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 146,
+    "StatusValue": 36,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 257,
+    "ItemUseID": 1702000100,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 146,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 258,
+    "ItemUseID": 1702000100,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 146,
+    "StatusValue": 54,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 259,
+    "ItemUseID": 1702000100,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 146,
+    "StatusValue": 63,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 260,
+    "ItemUseID": 1702000101,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 147,
+    "StatusValue": 3,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 261,
+    "ItemUseID": 1702000101,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 147,
+    "StatusValue": 7,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 262,
+    "ItemUseID": 1702000101,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 147,
+    "StatusValue": 11,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 263,
+    "ItemUseID": 1702000101,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 147,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 264,
+    "ItemUseID": 1702000101,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 147,
+    "StatusValue": 18,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 265,
+    "ItemUseID": 1702000101,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 147,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 266,
+    "ItemUseID": 1702000101,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 147,
+    "StatusValue": 26,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 267,
+    "ItemUseID": 1702000102,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 148,
+    "StatusValue": 11,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 268,
+    "ItemUseID": 1702000102,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 148,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 269,
+    "ItemUseID": 1702000102,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 148,
+    "StatusValue": 33,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 270,
+    "ItemUseID": 1702000102,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 148,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 271,
+    "ItemUseID": 1702000102,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 148,
+    "StatusValue": 56,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 272,
+    "ItemUseID": 1702000102,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 148,
+    "StatusValue": 67,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 273,
+    "ItemUseID": 1702000102,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 148,
+    "StatusValue": 78,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 274,
+    "ItemUseID": 1702000103,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 1,
+    "StatusValue": 251,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 275,
+    "ItemUseID": 1702000103,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 1,
+    "StatusValue": 502,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 276,
+    "ItemUseID": 1702000103,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 1,
+    "StatusValue": 753,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 277,
+    "ItemUseID": 1702000103,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 1,
+    "StatusValue": 1005,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 278,
+    "ItemUseID": 1702000103,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 1,
+    "StatusValue": 1256,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 279,
+    "ItemUseID": 1702000103,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 1,
+    "StatusValue": 1507,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 280,
+    "ItemUseID": 1702000103,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 1,
+    "StatusValue": 1758,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 281,
+    "ItemUseID": 1702000104,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 6,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 282,
+    "ItemUseID": 1702000104,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 6,
+    "StatusValue": 120,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 283,
+    "ItemUseID": 1702000104,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 6,
+    "StatusValue": 180,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 284,
+    "ItemUseID": 1702000104,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 6,
+    "StatusValue": 240,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 285,
+    "ItemUseID": 1702000104,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 6,
+    "StatusValue": 300,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 286,
+    "ItemUseID": 1702000104,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 6,
+    "StatusValue": 360,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 287,
+    "ItemUseID": 1702000104,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 6,
+    "StatusValue": 420,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 288,
+    "ItemUseID": 1702000105,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 38,
+    "StatusValue": 4,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 289,
+    "ItemUseID": 1702000105,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 38,
+    "StatusValue": 9,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 290,
+    "ItemUseID": 1702000105,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 38,
+    "StatusValue": 13,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 291,
+    "ItemUseID": 1702000105,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 38,
+    "StatusValue": 18,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 292,
+    "ItemUseID": 1702000105,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 38,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 293,
+    "ItemUseID": 1702000105,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 38,
+    "StatusValue": 27,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 294,
+    "ItemUseID": 1702000105,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 38,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 295,
+    "ItemUseID": 1702000106,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 39,
+    "StatusValue": 4,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 296,
+    "ItemUseID": 1702000106,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 39,
+    "StatusValue": 9,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 297,
+    "ItemUseID": 1702000106,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 39,
+    "StatusValue": 13,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 298,
+    "ItemUseID": 1702000106,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 39,
+    "StatusValue": 18,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 299,
+    "ItemUseID": 1702000106,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 39,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 300,
+    "ItemUseID": 1702000106,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 39,
+    "StatusValue": 27,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 301,
+    "ItemUseID": 1702000106,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 39,
+    "StatusValue": 31,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 302,
+    "ItemUseID": 1702000107,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 40,
+    "StatusValue": 7,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 303,
+    "ItemUseID": 1702000107,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 40,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 304,
+    "ItemUseID": 1702000107,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 40,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 305,
+    "ItemUseID": 1702000107,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 40,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 306,
+    "ItemUseID": 1702000107,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 40,
+    "StatusValue": 37,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 307,
+    "ItemUseID": 1702000107,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 40,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 308,
+    "ItemUseID": 1702000107,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 40,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 309,
+    "ItemUseID": 1702000108,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 42,
+    "StatusValue": 7,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 310,
+    "ItemUseID": 1702000108,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 42,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 311,
+    "ItemUseID": 1702000108,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 42,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 312,
+    "ItemUseID": 1702000108,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 42,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 313,
+    "ItemUseID": 1702000108,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 42,
+    "StatusValue": 37,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 314,
+    "ItemUseID": 1702000108,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 42,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 315,
+    "ItemUseID": 1702000108,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 42,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 316,
+    "ItemUseID": 1702000109,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 41,
+    "StatusValue": 7,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 317,
+    "ItemUseID": 1702000109,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 41,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 318,
+    "ItemUseID": 1702000109,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 41,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 319,
+    "ItemUseID": 1702000109,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 41,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 320,
+    "ItemUseID": 1702000109,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 41,
+    "StatusValue": 37,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 321,
+    "ItemUseID": 1702000109,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 41,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 322,
+    "ItemUseID": 1702000109,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 41,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 323,
+    "ItemUseID": 1702000110,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 32,
+    "StatusValue": 13,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 324,
+    "ItemUseID": 1702000110,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 32,
+    "StatusValue": 27,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 325,
+    "ItemUseID": 1702000110,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 32,
+    "StatusValue": 40,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 326,
+    "ItemUseID": 1702000110,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 32,
+    "StatusValue": 54,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 327,
+    "ItemUseID": 1702000110,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 32,
+    "StatusValue": 67,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 328,
+    "ItemUseID": 1702000110,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 32,
+    "StatusValue": 81,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 329,
+    "ItemUseID": 1702000110,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 32,
+    "StatusValue": 94,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 330,
+    "ItemUseID": 1702000111,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 33,
+    "StatusValue": 13,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 331,
+    "ItemUseID": 1702000111,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 33,
+    "StatusValue": 27,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 332,
+    "ItemUseID": 1702000111,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 33,
+    "StatusValue": 40,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 333,
+    "ItemUseID": 1702000111,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 33,
+    "StatusValue": 54,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 334,
+    "ItemUseID": 1702000111,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 33,
+    "StatusValue": 67,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 335,
+    "ItemUseID": 1702000111,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 33,
+    "StatusValue": 81,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 336,
+    "ItemUseID": 1702000111,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 33,
+    "StatusValue": 94,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 337,
+    "ItemUseID": 1702000112,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 48,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 338,
+    "ItemUseID": 1702000112,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 48,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 339,
+    "ItemUseID": 1702000112,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 48,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 340,
+    "ItemUseID": 1702000112,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 48,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 341,
+    "ItemUseID": 1702000112,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 48,
+    "StatusValue": 75,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 342,
+    "ItemUseID": 1702000112,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 48,
+    "StatusValue": 90,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 343,
+    "ItemUseID": 1702000112,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 48,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 344,
+    "ItemUseID": 1702000113,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 49,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 345,
+    "ItemUseID": 1702000113,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 49,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 346,
+    "ItemUseID": 1702000113,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 49,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 347,
+    "ItemUseID": 1702000113,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 49,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 348,
+    "ItemUseID": 1702000113,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 49,
+    "StatusValue": 75,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 349,
+    "ItemUseID": 1702000113,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 49,
+    "StatusValue": 90,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 350,
+    "ItemUseID": 1702000113,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 49,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 351,
+    "ItemUseID": 1702000114,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 50,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 352,
+    "ItemUseID": 1702000114,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 50,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 353,
+    "ItemUseID": 1702000114,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 50,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 354,
+    "ItemUseID": 1702000114,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 50,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 355,
+    "ItemUseID": 1702000114,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 50,
+    "StatusValue": 75,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 356,
+    "ItemUseID": 1702000114,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 50,
+    "StatusValue": 90,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 357,
+    "ItemUseID": 1702000114,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 50,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 358,
+    "ItemUseID": 1702000115,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 51,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 359,
+    "ItemUseID": 1702000115,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 51,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 360,
+    "ItemUseID": 1702000115,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 51,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 361,
+    "ItemUseID": 1702000115,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 51,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 362,
+    "ItemUseID": 1702000115,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 51,
+    "StatusValue": 75,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 363,
+    "ItemUseID": 1702000115,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 51,
+    "StatusValue": 90,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 364,
+    "ItemUseID": 1702000115,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 51,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 365,
+    "ItemUseID": 1702000116,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 52,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 366,
+    "ItemUseID": 1702000116,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 52,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 367,
+    "ItemUseID": 1702000116,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 52,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 368,
+    "ItemUseID": 1702000116,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 52,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 369,
+    "ItemUseID": 1702000116,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 52,
+    "StatusValue": 75,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 370,
+    "ItemUseID": 1702000116,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 52,
+    "StatusValue": 90,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 371,
+    "ItemUseID": 1702000116,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 52,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 372,
+    "ItemUseID": 1702000117,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 53,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 373,
+    "ItemUseID": 1702000117,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 53,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 374,
+    "ItemUseID": 1702000117,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 53,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 375,
+    "ItemUseID": 1702000117,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 53,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 376,
+    "ItemUseID": 1702000117,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 53,
+    "StatusValue": 75,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 377,
+    "ItemUseID": 1702000117,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 53,
+    "StatusValue": 90,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 378,
+    "ItemUseID": 1702000117,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 53,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 379,
+    "ItemUseID": 1702000118,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 119,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 380,
+    "ItemUseID": 1702000118,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 119,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 381,
+    "ItemUseID": 1702000118,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 119,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 382,
+    "ItemUseID": 1702000118,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 119,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 383,
+    "ItemUseID": 1702000118,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 119,
+    "StatusValue": 75,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 384,
+    "ItemUseID": 1702000118,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 119,
+    "StatusValue": 90,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 385,
+    "ItemUseID": 1702000118,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 119,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 386,
+    "ItemUseID": 1702000119,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 120,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 387,
+    "ItemUseID": 1702000119,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 120,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 388,
+    "ItemUseID": 1702000119,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 120,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 389,
+    "ItemUseID": 1702000119,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 120,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 390,
+    "ItemUseID": 1702000119,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 120,
+    "StatusValue": 75,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 391,
+    "ItemUseID": 1702000119,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 120,
+    "StatusValue": 90,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 392,
+    "ItemUseID": 1702000119,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 120,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 393,
+    "ItemUseID": 1702000128,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 43,
+    "StatusValue": 7,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 394,
+    "ItemUseID": 1702000128,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 43,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 395,
+    "ItemUseID": 1702000128,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 43,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 396,
+    "ItemUseID": 1702000128,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 43,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 397,
+    "ItemUseID": 1702000128,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 43,
+    "StatusValue": 37,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 398,
+    "ItemUseID": 1702000128,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 43,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 399,
+    "ItemUseID": 1702000128,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 43,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 400,
+    "ItemUseID": 1702000155,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 34,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 401,
+    "ItemUseID": 1702000155,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 34,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 402,
+    "ItemUseID": 1702000155,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 34,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 403,
+    "ItemUseID": 1702000155,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 34,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 404,
+    "ItemUseID": 1702000155,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 34,
+    "StatusValue": 75,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 405,
+    "ItemUseID": 1702000155,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 34,
+    "StatusValue": 90,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 406,
+    "ItemUseID": 1702000155,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 34,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 407,
+    "ItemUseID": 1702000156,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 35,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 408,
+    "ItemUseID": 1702000156,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 35,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 409,
+    "ItemUseID": 1702000156,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 35,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 410,
+    "ItemUseID": 1702000156,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 35,
+    "StatusValue": 60,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 411,
+    "ItemUseID": 1702000156,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 35,
+    "StatusValue": 75,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 412,
+    "ItemUseID": 1702000156,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 35,
+    "StatusValue": 90,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 413,
+    "ItemUseID": 1702000156,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 35,
+    "StatusValue": 105,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 414,
+    "ItemUseID": 1702000161,
+    "TranceType": 1,
+    "TranceStep": 1,
+    "StatusID": 36,
+    "StatusValue": 7,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 415,
+    "ItemUseID": 1702000161,
+    "TranceType": 1,
+    "TranceStep": 2,
+    "StatusID": 36,
+    "StatusValue": 15,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 416,
+    "ItemUseID": 1702000161,
+    "TranceType": 1,
+    "TranceStep": 3,
+    "StatusID": 36,
+    "StatusValue": 22,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 417,
+    "ItemUseID": 1702000161,
+    "TranceType": 1,
+    "TranceStep": 4,
+    "StatusID": 36,
+    "StatusValue": 30,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 418,
+    "ItemUseID": 1702000161,
+    "TranceType": 1,
+    "TranceStep": 5,
+    "StatusID": 36,
+    "StatusValue": 37,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 419,
+    "ItemUseID": 1702000161,
+    "TranceType": 1,
+    "TranceStep": 6,
+    "StatusID": 36,
+    "StatusValue": 45,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 420,
+    "ItemUseID": 1702000161,
+    "TranceType": 1,
+    "TranceStep": 7,
+    "StatusID": 36,
+    "StatusValue": 52,
+    "PassiveLv": 0
+  },
+  {
+    "TranceID": 421,
+    "ItemUseID": 1702000089,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 422,
+    "ItemUseID": 1702000089,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 423,
+    "ItemUseID": 1702000089,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 424,
+    "ItemUseID": 1702000089,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 425,
+    "ItemUseID": 1702000089,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 426,
+    "ItemUseID": 1702000089,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 427,
+    "ItemUseID": 1702000089,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 428,
+    "ItemUseID": 1702000090,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 429,
+    "ItemUseID": 1702000090,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 430,
+    "ItemUseID": 1702000090,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 431,
+    "ItemUseID": 1702000090,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 432,
+    "ItemUseID": 1702000090,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 433,
+    "ItemUseID": 1702000090,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 434,
+    "ItemUseID": 1702000090,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 435,
+    "ItemUseID": 1702000091,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 436,
+    "ItemUseID": 1702000091,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 437,
+    "ItemUseID": 1702000091,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 438,
+    "ItemUseID": 1702000091,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 439,
+    "ItemUseID": 1702000091,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 440,
+    "ItemUseID": 1702000091,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 441,
+    "ItemUseID": 1702000091,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 442,
+    "ItemUseID": 1702000092,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 443,
+    "ItemUseID": 1702000092,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 444,
+    "ItemUseID": 1702000092,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 445,
+    "ItemUseID": 1702000092,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 446,
+    "ItemUseID": 1702000092,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 447,
+    "ItemUseID": 1702000092,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 448,
+    "ItemUseID": 1702000092,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 449,
+    "ItemUseID": 1702000093,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 450,
+    "ItemUseID": 1702000093,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 451,
+    "ItemUseID": 1702000093,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 452,
+    "ItemUseID": 1702000093,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 453,
+    "ItemUseID": 1702000093,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 454,
+    "ItemUseID": 1702000093,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 455,
+    "ItemUseID": 1702000093,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 456,
+    "ItemUseID": 1702000129,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 457,
+    "ItemUseID": 1702000129,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 458,
+    "ItemUseID": 1702000129,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 459,
+    "ItemUseID": 1702000129,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 460,
+    "ItemUseID": 1702000129,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 461,
+    "ItemUseID": 1702000129,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 462,
+    "ItemUseID": 1702000129,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 463,
+    "ItemUseID": 1702000137,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 464,
+    "ItemUseID": 1702000137,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 465,
+    "ItemUseID": 1702000137,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 466,
+    "ItemUseID": 1702000137,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 467,
+    "ItemUseID": 1702000137,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 468,
+    "ItemUseID": 1702000137,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 469,
+    "ItemUseID": 1702000137,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 470,
+    "ItemUseID": 1702000139,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 471,
+    "ItemUseID": 1702000139,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 472,
+    "ItemUseID": 1702000139,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 473,
+    "ItemUseID": 1702000139,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 474,
+    "ItemUseID": 1702000139,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 475,
+    "ItemUseID": 1702000139,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 476,
+    "ItemUseID": 1702000139,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 477,
+    "ItemUseID": 1702000141,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 478,
+    "ItemUseID": 1702000141,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 479,
+    "ItemUseID": 1702000141,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 480,
+    "ItemUseID": 1702000141,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 481,
+    "ItemUseID": 1702000141,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 482,
+    "ItemUseID": 1702000141,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 483,
+    "ItemUseID": 1702000141,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 484,
+    "ItemUseID": 1702000143,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 485,
+    "ItemUseID": 1702000143,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 486,
+    "ItemUseID": 1702000143,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 487,
+    "ItemUseID": 1702000143,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 488,
+    "ItemUseID": 1702000143,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 489,
+    "ItemUseID": 1702000143,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 490,
+    "ItemUseID": 1702000143,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 491,
+    "ItemUseID": 1702000145,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 492,
+    "ItemUseID": 1702000145,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 493,
+    "ItemUseID": 1702000145,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 494,
+    "ItemUseID": 1702000145,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 495,
+    "ItemUseID": 1702000145,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 496,
+    "ItemUseID": 1702000145,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 497,
+    "ItemUseID": 1702000145,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 498,
+    "ItemUseID": 1702000147,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 499,
+    "ItemUseID": 1702000147,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 500,
+    "ItemUseID": 1702000147,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 501,
+    "ItemUseID": 1702000147,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 502,
+    "ItemUseID": 1702000147,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 503,
+    "ItemUseID": 1702000147,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 504,
+    "ItemUseID": 1702000147,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 505,
+    "ItemUseID": 1702000120,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 506,
+    "ItemUseID": 1702000120,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 507,
+    "ItemUseID": 1702000120,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 508,
+    "ItemUseID": 1702000120,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 509,
+    "ItemUseID": 1702000120,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 510,
+    "ItemUseID": 1702000120,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 511,
+    "ItemUseID": 1702000120,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 512,
+    "ItemUseID": 1702000121,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 513,
+    "ItemUseID": 1702000121,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 514,
+    "ItemUseID": 1702000121,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 515,
+    "ItemUseID": 1702000121,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 516,
+    "ItemUseID": 1702000121,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 517,
+    "ItemUseID": 1702000121,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 518,
+    "ItemUseID": 1702000121,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 519,
+    "ItemUseID": 1702000122,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 520,
+    "ItemUseID": 1702000122,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 521,
+    "ItemUseID": 1702000122,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 522,
+    "ItemUseID": 1702000122,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 523,
+    "ItemUseID": 1702000122,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 524,
+    "ItemUseID": 1702000122,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 525,
+    "ItemUseID": 1702000122,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 526,
+    "ItemUseID": 1702000123,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 527,
+    "ItemUseID": 1702000123,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 528,
+    "ItemUseID": 1702000123,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 529,
+    "ItemUseID": 1702000123,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 530,
+    "ItemUseID": 1702000123,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 531,
+    "ItemUseID": 1702000123,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 532,
+    "ItemUseID": 1702000123,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 533,
+    "ItemUseID": 1702000124,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 534,
+    "ItemUseID": 1702000124,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 535,
+    "ItemUseID": 1702000124,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 536,
+    "ItemUseID": 1702000124,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 537,
+    "ItemUseID": 1702000124,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 538,
+    "ItemUseID": 1702000124,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 539,
+    "ItemUseID": 1702000124,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 540,
+    "ItemUseID": 1702000130,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 541,
+    "ItemUseID": 1702000130,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 542,
+    "ItemUseID": 1702000130,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 543,
+    "ItemUseID": 1702000130,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 544,
+    "ItemUseID": 1702000130,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 545,
+    "ItemUseID": 1702000130,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 546,
+    "ItemUseID": 1702000130,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 547,
+    "ItemUseID": 1702000131,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 548,
+    "ItemUseID": 1702000131,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 549,
+    "ItemUseID": 1702000131,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 550,
+    "ItemUseID": 1702000131,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 551,
+    "ItemUseID": 1702000131,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 552,
+    "ItemUseID": 1702000131,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 553,
+    "ItemUseID": 1702000131,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 554,
+    "ItemUseID": 1702000132,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 555,
+    "ItemUseID": 1702000132,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 556,
+    "ItemUseID": 1702000132,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 557,
+    "ItemUseID": 1702000132,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 558,
+    "ItemUseID": 1702000132,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 559,
+    "ItemUseID": 1702000132,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 560,
+    "ItemUseID": 1702000132,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 561,
+    "ItemUseID": 1702000133,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 562,
+    "ItemUseID": 1702000133,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 563,
+    "ItemUseID": 1702000133,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 564,
+    "ItemUseID": 1702000133,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 565,
+    "ItemUseID": 1702000133,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 566,
+    "ItemUseID": 1702000133,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 567,
+    "ItemUseID": 1702000133,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 568,
+    "ItemUseID": 1702000134,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 569,
+    "ItemUseID": 1702000134,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 570,
+    "ItemUseID": 1702000134,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 571,
+    "ItemUseID": 1702000134,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 572,
+    "ItemUseID": 1702000134,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 573,
+    "ItemUseID": 1702000134,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 574,
+    "ItemUseID": 1702000134,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 575,
+    "ItemUseID": 1702000135,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 576,
+    "ItemUseID": 1702000135,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 577,
+    "ItemUseID": 1702000135,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 578,
+    "ItemUseID": 1702000135,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 579,
+    "ItemUseID": 1702000135,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 580,
+    "ItemUseID": 1702000135,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 581,
+    "ItemUseID": 1702000135,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 582,
+    "ItemUseID": 1702000136,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 583,
+    "ItemUseID": 1702000136,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 584,
+    "ItemUseID": 1702000136,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 585,
+    "ItemUseID": 1702000136,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 586,
+    "ItemUseID": 1702000136,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 587,
+    "ItemUseID": 1702000136,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 588,
+    "ItemUseID": 1702000136,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 589,
+    "ItemUseID": 1702000138,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 590,
+    "ItemUseID": 1702000138,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 591,
+    "ItemUseID": 1702000138,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 592,
+    "ItemUseID": 1702000138,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 593,
+    "ItemUseID": 1702000138,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 594,
+    "ItemUseID": 1702000138,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 595,
+    "ItemUseID": 1702000138,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 596,
+    "ItemUseID": 1702000140,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 597,
+    "ItemUseID": 1702000140,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 598,
+    "ItemUseID": 1702000140,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 599,
+    "ItemUseID": 1702000140,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 600,
+    "ItemUseID": 1702000140,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 601,
+    "ItemUseID": 1702000140,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 602,
+    "ItemUseID": 1702000140,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 603,
+    "ItemUseID": 1702000142,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 604,
+    "ItemUseID": 1702000142,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 605,
+    "ItemUseID": 1702000142,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 606,
+    "ItemUseID": 1702000142,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 607,
+    "ItemUseID": 1702000142,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 608,
+    "ItemUseID": 1702000142,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 609,
+    "ItemUseID": 1702000142,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 610,
+    "ItemUseID": 1702000144,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 611,
+    "ItemUseID": 1702000144,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 612,
+    "ItemUseID": 1702000144,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 613,
+    "ItemUseID": 1702000144,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 614,
+    "ItemUseID": 1702000144,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 615,
+    "ItemUseID": 1702000144,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 616,
+    "ItemUseID": 1702000144,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 617,
+    "ItemUseID": 1702000146,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 618,
+    "ItemUseID": 1702000146,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 619,
+    "ItemUseID": 1702000146,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 620,
+    "ItemUseID": 1702000146,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 621,
+    "ItemUseID": 1702000146,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 622,
+    "ItemUseID": 1702000146,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 623,
+    "ItemUseID": 1702000146,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  },
+  {
+    "TranceID": 624,
+    "ItemUseID": 1702000148,
+    "TranceType": 2,
+    "TranceStep": 1,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 5
+  },
+  {
+    "TranceID": 625,
+    "ItemUseID": 1702000148,
+    "TranceType": 2,
+    "TranceStep": 2,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 10
+  },
+  {
+    "TranceID": 626,
+    "ItemUseID": 1702000148,
+    "TranceType": 2,
+    "TranceStep": 3,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 15
+  },
+  {
+    "TranceID": 627,
+    "ItemUseID": 1702000148,
+    "TranceType": 2,
+    "TranceStep": 4,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 20
+  },
+  {
+    "TranceID": 628,
+    "ItemUseID": 1702000148,
+    "TranceType": 2,
+    "TranceStep": 5,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 25
+  },
+  {
+    "TranceID": 629,
+    "ItemUseID": 1702000148,
+    "TranceType": 2,
+    "TranceStep": 6,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 30
+  },
+  {
+    "TranceID": 630,
+    "ItemUseID": 1702000148,
+    "TranceType": 2,
+    "TranceStep": 7,
+    "StatusID": 0,
+    "StatusValue": 0,
+    "PassiveLv": 35
+  }
+]

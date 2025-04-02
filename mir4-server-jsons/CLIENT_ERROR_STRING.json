@@ -1,0 +1,67 @@
+[
+   {
+      "MonsterTableError": {
+        "ErrorString": "%d ID is missing from monster table"
+      },
+      "TotemTableError": {
+        "ErrorString": "%d ID is missing from totem table"
+      },
+      "NpcTableError": {
+        "ErrorString": "%d ID is missing from NPC table"
+      },
+      "CinematicTableError": {
+        "ErrorString": "There is no %d ID in the dialogue presentation table."
+      },
+      "LevelSequenceLoadFail": {
+        "ErrorString": "Level sequence load failed. Please check SequencePlay table \\r\\n ID %d \\r\\n Path: %s"
+      },
+      "ResourceAssetLoadFail": {
+        "ErrorString": "Failed to load resource. Please check data \\r\\n Path: %s"
+      },
+      "ShowEffectLoadFail": {
+        "ErrorString": "Failed to load SHOWEFFECT script effect \\r\\n EffectID: %d"
+      },
+      "DoorObjectNotFound": {
+        "ErrorString": "DoorObject not found Please check DoorObject ID and trigger level \\r\\n DoorObjectID: %d"
+      },
+      "ScriptNotExist": {
+        "ErrorString": "This script does not exist. \\r\\n %s"
+      },
+      "MeshAsyncFailSyncSucess": {
+        "ErrorString": "Asynchronous load failed, synchronous load succeeded \\r\\n Table ID %d \\r\\n Path: %s"
+      },
+      "MeshSyncLoadFail": {
+        "ErrorString": "Synchronous load failure \\r\\n Table ID: %d \\r\\n Path: %s"
+      },
+      "DontDestroyTalkingNpc": {
+        "ErrorString": "Do not delete NPCs during conversation."
+      },
+      "PhasingTriggerError": {
+        "ErrorString": "Do not use phase trigger at normal level: %s"
+      },
+      "AutoFlightIDError": {
+        "ErrorString": "%d id is missing from auto light table"
+      },
+      "AutoFlightPathError": {
+        "ErrorString": "There is a problem with automatic light path ID: %d"
+      },
+      "QuestLocationError": {
+        "ErrorString": "Quest completion coordinates cannot be <automatically moved>, so please check the planning data.."
+      },
+      "NavMeshError": {
+        "ErrorString": "There is a problem with the navigation mesh.\\r\\nLevel name: %s\\r\\nCoordinates where the navigation mesh was searched\\r\\n%s\\r\\n%s\\r\\n%s"
+      },
+      "VerticesNumberError": {
+        "ErrorString": "Customized mesh vertex count is different\\r\\n%s\\r\\n%s"
+      },
+      "BGMTriggerEmpty": {
+        "ErrorString": "BGM sound is empty in BGM trigger\\r\\nActor name : %s"
+      },
+      "LocalSaveNull": {
+        "ErrorString": "Do not use it before loading local save data. Please check the order."
+      },
+      "PresetGroupIDError": {
+        "ErrorString": "There is no customizing preset group ID.\\r\\nCustomizingPreset Please check the table\\r\\nGroup ID : %d"
+      }
+    }  
+]

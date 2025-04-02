@@ -1,0 +1,1602 @@
+[
+  {
+    "DeviationId": 1,
+    "LevelMin": 1,
+    "LevelMax": 1,
+    "HighDeviation1": 42,
+    "HighDeviation2": 36,
+    "LowDeviation1": 28
+  },
+  {
+    "DeviationId": 2,
+    "LevelMin": 2,
+    "LevelMax": 2,
+    "HighDeviation1": 386,
+    "HighDeviation2": 342,
+    "LowDeviation1": 252
+  },
+  {
+    "DeviationId": 3,
+    "LevelMin": 3,
+    "LevelMax": 3,
+    "HighDeviation1": 168,
+    "HighDeviation2": 148,
+    "LowDeviation1": 110
+  },
+  {
+    "DeviationId": 4,
+    "LevelMin": 4,
+    "LevelMax": 4,
+    "HighDeviation1": 545,
+    "HighDeviation2": 482,
+    "LowDeviation1": 356
+  },
+  {
+    "DeviationId": 5,
+    "LevelMin": 5,
+    "LevelMax": 5,
+    "HighDeviation1": 340,
+    "HighDeviation2": 301,
+    "LowDeviation1": 223
+  },
+  {
+    "DeviationId": 6,
+    "LevelMin": 6,
+    "LevelMax": 6,
+    "HighDeviation1": 303,
+    "HighDeviation2": 268,
+    "LowDeviation1": 198
+  },
+  {
+    "DeviationId": 7,
+    "LevelMin": 7,
+    "LevelMax": 7,
+    "HighDeviation1": 614,
+    "HighDeviation2": 543,
+    "LowDeviation1": 401
+  },
+  {
+    "DeviationId": 8,
+    "LevelMin": 8,
+    "LevelMax": 8,
+    "HighDeviation1": 723,
+    "HighDeviation2": 639,
+    "LowDeviation1": 473
+  },
+  {
+    "DeviationId": 9,
+    "LevelMin": 9,
+    "LevelMax": 9,
+    "HighDeviation1": 388,
+    "HighDeviation2": 344,
+    "LowDeviation1": 254
+  },
+  {
+    "DeviationId": 10,
+    "LevelMin": 10,
+    "LevelMax": 10,
+    "HighDeviation1": 394,
+    "HighDeviation2": 349,
+    "LowDeviation1": 257
+  },
+  {
+    "DeviationId": 11,
+    "LevelMin": 11,
+    "LevelMax": 11,
+    "HighDeviation1": 1771,
+    "HighDeviation2": 1566,
+    "LowDeviation1": 1158
+  },
+  {
+    "DeviationId": 12,
+    "LevelMin": 12,
+    "LevelMax": 12,
+    "HighDeviation1": 417,
+    "HighDeviation2": 369,
+    "LowDeviation1": 273
+  },
+  {
+    "DeviationId": 13,
+    "LevelMin": 13,
+    "LevelMax": 13,
+    "HighDeviation1": 371,
+    "HighDeviation2": 328,
+    "LowDeviation1": 242
+  },
+  {
+    "DeviationId": 14,
+    "LevelMin": 14,
+    "LevelMax": 14,
+    "HighDeviation1": 451,
+    "HighDeviation2": 399,
+    "LowDeviation1": 295
+  },
+  {
+    "DeviationId": 15,
+    "LevelMin": 15,
+    "LevelMax": 15,
+    "HighDeviation1": 352,
+    "HighDeviation2": 312,
+    "LowDeviation1": 230
+  },
+  {
+    "DeviationId": 16,
+    "LevelMin": 16,
+    "LevelMax": 16,
+    "HighDeviation1": 1340,
+    "HighDeviation2": 1185,
+    "LowDeviation1": 877
+  },
+  {
+    "DeviationId": 17,
+    "LevelMin": 17,
+    "LevelMax": 17,
+    "HighDeviation1": 526,
+    "HighDeviation2": 465,
+    "LowDeviation1": 343
+  },
+  {
+    "DeviationId": 18,
+    "LevelMin": 18,
+    "LevelMax": 18,
+    "HighDeviation1": 641,
+    "HighDeviation2": 567,
+    "LowDeviation1": 419
+  },
+  {
+    "DeviationId": 19,
+    "LevelMin": 19,
+    "LevelMax": 19,
+    "HighDeviation1": 351,
+    "HighDeviation2": 310,
+    "LowDeviation1": 230
+  },
+  {
+    "DeviationId": 20,
+    "LevelMin": 20,
+    "LevelMax": 20,
+    "HighDeviation1": 2419,
+    "HighDeviation2": 2140,
+    "LowDeviation1": 1582
+  },
+  {
+    "DeviationId": 21,
+    "LevelMin": 21,
+    "LevelMax": 21,
+    "HighDeviation1": 714,
+    "HighDeviation2": 632,
+    "LowDeviation1": 466
+  },
+  {
+    "DeviationId": 22,
+    "LevelMin": 22,
+    "LevelMax": 22,
+    "HighDeviation1": 388,
+    "HighDeviation2": 344,
+    "LowDeviation1": 254
+  },
+  {
+    "DeviationId": 23,
+    "LevelMin": 23,
+    "LevelMax": 23,
+    "HighDeviation1": 353,
+    "HighDeviation2": 311,
+    "LowDeviation1": 231
+  },
+  {
+    "DeviationId": 24,
+    "LevelMin": 24,
+    "LevelMax": 24,
+    "HighDeviation1": 318,
+    "HighDeviation2": 282,
+    "LowDeviation1": 208
+  },
+  {
+    "DeviationId": 25,
+    "LevelMin": 25,
+    "LevelMax": 25,
+    "HighDeviation1": 1278,
+    "HighDeviation2": 1130,
+    "LowDeviation1": 836
+  },
+  {
+    "DeviationId": 26,
+    "LevelMin": 26,
+    "LevelMax": 26,
+    "HighDeviation1": 448,
+    "HighDeviation2": 397,
+    "LowDeviation1": 293
+  },
+  {
+    "DeviationId": 27,
+    "LevelMin": 27,
+    "LevelMax": 27,
+    "HighDeviation1": 2455,
+    "HighDeviation2": 2171,
+    "LowDeviation1": 1605
+  },
+  {
+    "DeviationId": 28,
+    "LevelMin": 28,
+    "LevelMax": 28,
+    "HighDeviation1": 337,
+    "HighDeviation2": 298,
+    "LowDeviation1": 220
+  },
+  {
+    "DeviationId": 29,
+    "LevelMin": 29,
+    "LevelMax": 29,
+    "HighDeviation1": 370,
+    "HighDeviation2": 328,
+    "LowDeviation1": 242
+  },
+  {
+    "DeviationId": 30,
+    "LevelMin": 30,
+    "LevelMax": 30,
+    "HighDeviation1": 6826,
+    "HighDeviation2": 6039,
+    "LowDeviation1": 4463
+  },
+  {
+    "DeviationId": 31,
+    "LevelMin": 31,
+    "LevelMax": 31,
+    "HighDeviation1": 802,
+    "HighDeviation2": 709,
+    "LowDeviation1": 525
+  },
+  {
+    "DeviationId": 32,
+    "LevelMin": 32,
+    "LevelMax": 32,
+    "HighDeviation1": 406,
+    "HighDeviation2": 359,
+    "LowDeviation1": 265
+  },
+  {
+    "DeviationId": 33,
+    "LevelMin": 33,
+    "LevelMax": 33,
+    "HighDeviation1": 372,
+    "HighDeviation2": 329,
+    "LowDeviation1": 243
+  },
+  {
+    "DeviationId": 34,
+    "LevelMin": 34,
+    "LevelMax": 34,
+    "HighDeviation1": 508,
+    "HighDeviation2": 450,
+    "LowDeviation1": 332
+  },
+  {
+    "DeviationId": 35,
+    "LevelMin": 35,
+    "LevelMax": 35,
+    "HighDeviation1": 6499,
+    "HighDeviation2": 5748,
+    "LowDeviation1": 4250
+  },
+  {
+    "DeviationId": 36,
+    "LevelMin": 36,
+    "LevelMax": 36,
+    "HighDeviation1": 539,
+    "HighDeviation2": 478,
+    "LowDeviation1": 352
+  },
+  {
+    "DeviationId": 37,
+    "LevelMin": 37,
+    "LevelMax": 37,
+    "HighDeviation1": 617,
+    "HighDeviation2": 545,
+    "LowDeviation1": 403
+  },
+  {
+    "DeviationId": 38,
+    "LevelMin": 38,
+    "LevelMax": 38,
+    "HighDeviation1": 512,
+    "HighDeviation2": 453,
+    "LowDeviation1": 335
+  },
+  {
+    "DeviationId": 39,
+    "LevelMin": 39,
+    "LevelMax": 39,
+    "HighDeviation1": 478,
+    "HighDeviation2": 423,
+    "LowDeviation1": 313
+  },
+  {
+    "DeviationId": 40,
+    "LevelMin": 40,
+    "LevelMax": 40,
+    "HighDeviation1": 2800,
+    "HighDeviation2": 2477,
+    "LowDeviation1": 1831
+  },
+  {
+    "DeviationId": 41,
+    "LevelMin": 41,
+    "LevelMax": 41,
+    "HighDeviation1": 2862,
+    "HighDeviation2": 2531,
+    "LowDeviation1": 1871
+  },
+  {
+    "DeviationId": 42,
+    "LevelMin": 42,
+    "LevelMax": 42,
+    "HighDeviation1": 530,
+    "HighDeviation2": 470,
+    "LowDeviation1": 347
+  },
+  {
+    "DeviationId": 43,
+    "LevelMin": 43,
+    "LevelMax": 43,
+    "HighDeviation1": 1468,
+    "HighDeviation2": 1298,
+    "LowDeviation1": 959
+  },
+  {
+    "DeviationId": 44,
+    "LevelMin": 44,
+    "LevelMax": 44,
+    "HighDeviation1": 426,
+    "HighDeviation2": 377,
+    "LowDeviation1": 279
+  },
+  {
+    "DeviationId": 45,
+    "LevelMin": 45,
+    "LevelMax": 45,
+    "HighDeviation1": 3973,
+    "HighDeviation2": 3514,
+    "LowDeviation1": 2598
+  },
+  {
+    "DeviationId": 46,
+    "LevelMin": 46,
+    "LevelMax": 46,
+    "HighDeviation1": 417,
+    "HighDeviation2": 370,
+    "LowDeviation1": 272
+  },
+  {
+    "DeviationId": 47,
+    "LevelMin": 47,
+    "LevelMax": 47,
+    "HighDeviation1": 1467,
+    "HighDeviation2": 1297,
+    "LowDeviation1": 959
+  },
+  {
+    "DeviationId": 48,
+    "LevelMin": 48,
+    "LevelMax": 48,
+    "HighDeviation1": 425,
+    "HighDeviation2": 376,
+    "LowDeviation1": 278
+  },
+  {
+    "DeviationId": 49,
+    "LevelMin": 49,
+    "LevelMax": 49,
+    "HighDeviation1": 461,
+    "HighDeviation2": 408,
+    "LowDeviation1": 302
+  },
+  {
+    "DeviationId": 50,
+    "LevelMin": 50,
+    "LevelMax": 50,
+    "HighDeviation1": 2758,
+    "HighDeviation2": 2439,
+    "LowDeviation1": 1803
+  },
+  {
+    "DeviationId": 51,
+    "LevelMin": 51,
+    "LevelMax": 51,
+    "HighDeviation1": 1337,
+    "HighDeviation2": 1184,
+    "LowDeviation1": 874
+  },
+  {
+    "DeviationId": 52,
+    "LevelMin": 52,
+    "LevelMax": 52,
+    "HighDeviation1": 671,
+    "HighDeviation2": 593,
+    "LowDeviation1": 439
+  },
+  {
+    "DeviationId": 53,
+    "LevelMin": 53,
+    "LevelMax": 53,
+    "HighDeviation1": 783,
+    "HighDeviation2": 692,
+    "LowDeviation1": 512
+  },
+  {
+    "DeviationId": 54,
+    "LevelMin": 54,
+    "LevelMax": 54,
+    "HighDeviation1": 475,
+    "HighDeviation2": 421,
+    "LowDeviation1": 311
+  },
+  {
+    "DeviationId": 55,
+    "LevelMin": 55,
+    "LevelMax": 55,
+    "HighDeviation1": 3665,
+    "HighDeviation2": 3242,
+    "LowDeviation1": 2396
+  },
+  {
+    "DeviationId": 56,
+    "LevelMin": 56,
+    "LevelMax": 56,
+    "HighDeviation1": 707,
+    "HighDeviation2": 626,
+    "LowDeviation1": 462
+  },
+  {
+    "DeviationId": 57,
+    "LevelMin": 57,
+    "LevelMax": 57,
+    "HighDeviation1": 398,
+    "HighDeviation2": 352,
+    "LowDeviation1": 260
+  },
+  {
+    "DeviationId": 58,
+    "LevelMin": 58,
+    "LevelMax": 58,
+    "HighDeviation1": 274,
+    "HighDeviation2": 242,
+    "LowDeviation1": 180
+  },
+  {
+    "DeviationId": 59,
+    "LevelMin": 59,
+    "LevelMax": 59,
+    "HighDeviation1": 389,
+    "HighDeviation2": 344,
+    "LowDeviation1": 254
+  },
+  {
+    "DeviationId": 60,
+    "LevelMin": 60,
+    "LevelMax": 60,
+    "HighDeviation1": 1270,
+    "HighDeviation2": 1124,
+    "LowDeviation1": 830
+  },
+  {
+    "DeviationId": 61,
+    "LevelMin": 61,
+    "LevelMax": 61,
+    "HighDeviation1": 319,
+    "HighDeviation2": 281,
+    "LowDeviation1": 209
+  },
+  {
+    "DeviationId": 62,
+    "LevelMin": 62,
+    "LevelMax": 62,
+    "HighDeviation1": 370,
+    "HighDeviation2": 328,
+    "LowDeviation1": 242
+  },
+  {
+    "DeviationId": 63,
+    "LevelMin": 63,
+    "LevelMax": 63,
+    "HighDeviation1": 776,
+    "HighDeviation2": 687,
+    "LowDeviation1": 507
+  },
+  {
+    "DeviationId": 64,
+    "LevelMin": 64,
+    "LevelMax": 64,
+    "HighDeviation1": 514,
+    "HighDeviation2": 454,
+    "LowDeviation1": 336
+  },
+  {
+    "DeviationId": 65,
+    "LevelMin": 65,
+    "LevelMax": 65,
+    "HighDeviation1": 1466,
+    "HighDeviation2": 1297,
+    "LowDeviation1": 959
+  },
+  {
+    "DeviationId": 66,
+    "LevelMin": 66,
+    "LevelMax": 66,
+    "HighDeviation1": 377,
+    "HighDeviation2": 334,
+    "LowDeviation1": 246
+  },
+  {
+    "DeviationId": 67,
+    "LevelMin": 67,
+    "LevelMax": 67,
+    "HighDeviation1": 472,
+    "HighDeviation2": 417,
+    "LowDeviation1": 309
+  },
+  {
+    "DeviationId": 68,
+    "LevelMin": 68,
+    "LevelMax": 68,
+    "HighDeviation1": 407,
+    "HighDeviation2": 360,
+    "LowDeviation1": 266
+  },
+  {
+    "DeviationId": 69,
+    "LevelMin": 69,
+    "LevelMax": 69,
+    "HighDeviation1": 442,
+    "HighDeviation2": 391,
+    "LowDeviation1": 289
+  },
+  {
+    "DeviationId": 70,
+    "LevelMin": 70,
+    "LevelMax": 70,
+    "HighDeviation1": 4034,
+    "HighDeviation2": 3568,
+    "LowDeviation1": 2638
+  },
+  {
+    "DeviationId": 71,
+    "LevelMin": 71,
+    "LevelMax": 71,
+    "HighDeviation1": 361,
+    "HighDeviation2": 320,
+    "LowDeviation1": 236
+  },
+  {
+    "DeviationId": 72,
+    "LevelMin": 72,
+    "LevelMax": 72,
+    "HighDeviation1": 381,
+    "HighDeviation2": 337,
+    "LowDeviation1": 249
+  },
+  {
+    "DeviationId": 73,
+    "LevelMin": 73,
+    "LevelMax": 73,
+    "HighDeviation1": 328,
+    "HighDeviation2": 290,
+    "LowDeviation1": 214
+  },
+  {
+    "DeviationId": 74,
+    "LevelMin": 74,
+    "LevelMax": 74,
+    "HighDeviation1": 335,
+    "HighDeviation2": 297,
+    "LowDeviation1": 219
+  },
+  {
+    "DeviationId": 75,
+    "LevelMin": 75,
+    "LevelMax": 75,
+    "HighDeviation1": 821,
+    "HighDeviation2": 725,
+    "LowDeviation1": 537
+  },
+  {
+    "DeviationId": 76,
+    "LevelMin": 76,
+    "LevelMax": 76,
+    "HighDeviation1": 370,
+    "HighDeviation2": 328,
+    "LowDeviation1": 242
+  },
+  {
+    "DeviationId": 77,
+    "LevelMin": 77,
+    "LevelMax": 77,
+    "HighDeviation1": 407,
+    "HighDeviation2": 360,
+    "LowDeviation1": 266
+  },
+  {
+    "DeviationId": 78,
+    "LevelMin": 78,
+    "LevelMax": 78,
+    "HighDeviation1": 341,
+    "HighDeviation2": 301,
+    "LowDeviation1": 223
+  },
+  {
+    "DeviationId": 79,
+    "LevelMin": 79,
+    "LevelMax": 79,
+    "HighDeviation1": 438,
+    "HighDeviation2": 388,
+    "LowDeviation1": 286
+  },
+  {
+    "DeviationId": 80,
+    "LevelMin": 80,
+    "LevelMax": 80,
+    "HighDeviation1": 2453,
+    "HighDeviation2": 2170,
+    "LowDeviation1": 1604
+  },
+  {
+    "DeviationId": 81,
+    "LevelMin": 81,
+    "LevelMax": 81,
+    "HighDeviation1": 1440,
+    "HighDeviation2": 1274,
+    "LowDeviation1": 942
+  },
+  {
+    "DeviationId": 82,
+    "LevelMin": 82,
+    "LevelMax": 82,
+    "HighDeviation1": 302,
+    "HighDeviation2": 267,
+    "LowDeviation1": 197
+  },
+  {
+    "DeviationId": 83,
+    "LevelMin": 83,
+    "LevelMax": 83,
+    "HighDeviation1": 361,
+    "HighDeviation2": 320,
+    "LowDeviation1": 236
+  },
+  {
+    "DeviationId": 84,
+    "LevelMin": 84,
+    "LevelMax": 84,
+    "HighDeviation1": 381,
+    "HighDeviation2": 337,
+    "LowDeviation1": 250
+  },
+  {
+    "DeviationId": 85,
+    "LevelMin": 85,
+    "LevelMax": 85,
+    "HighDeviation1": 326,
+    "HighDeviation2": 288,
+    "LowDeviation1": 213
+  },
+  {
+    "DeviationId": 86,
+    "LevelMin": 86,
+    "LevelMax": 86,
+    "HighDeviation1": 1800,
+    "HighDeviation2": 1592,
+    "LowDeviation1": 1176
+  },
+  {
+    "DeviationId": 87,
+    "LevelMin": 87,
+    "LevelMax": 87,
+    "HighDeviation1": 768,
+    "HighDeviation2": 679,
+    "LowDeviation1": 503
+  },
+  {
+    "DeviationId": 88,
+    "LevelMin": 88,
+    "LevelMax": 88,
+    "HighDeviation1": 342,
+    "HighDeviation2": 303,
+    "LowDeviation1": 223
+  },
+  {
+    "DeviationId": 89,
+    "LevelMin": 89,
+    "LevelMax": 89,
+    "HighDeviation1": 435,
+    "HighDeviation2": 385,
+    "LowDeviation1": 285
+  },
+  {
+    "DeviationId": 90,
+    "LevelMin": 90,
+    "LevelMax": 90,
+    "HighDeviation1": 2453,
+    "HighDeviation2": 2170,
+    "LowDeviation1": 1604
+  },
+  {
+    "DeviationId": 91,
+    "LevelMin": 91,
+    "LevelMax": 91,
+    "HighDeviation1": 1556,
+    "HighDeviation2": 1377,
+    "LowDeviation1": 1017
+  },
+  {
+    "DeviationId": 92,
+    "LevelMin": 92,
+    "LevelMax": 92,
+    "HighDeviation1": 401,
+    "HighDeviation2": 354,
+    "LowDeviation1": 262
+  },
+  {
+    "DeviationId": 93,
+    "LevelMin": 93,
+    "LevelMax": 93,
+    "HighDeviation1": 483,
+    "HighDeviation2": 428,
+    "LowDeviation1": 316
+  },
+  {
+    "DeviationId": 94,
+    "LevelMin": 94,
+    "LevelMax": 94,
+    "HighDeviation1": 296,
+    "HighDeviation2": 261,
+    "LowDeviation1": 193
+  },
+  {
+    "DeviationId": 95,
+    "LevelMin": 95,
+    "LevelMax": 95,
+    "HighDeviation1": 1322,
+    "HighDeviation2": 1169,
+    "LowDeviation1": 865
+  },
+  {
+    "DeviationId": 96,
+    "LevelMin": 96,
+    "LevelMax": 96,
+    "HighDeviation1": 2038,
+    "HighDeviation2": 1804,
+    "LowDeviation1": 1333
+  },
+  {
+    "DeviationId": 97,
+    "LevelMin": 97,
+    "LevelMax": 97,
+    "HighDeviation1": 264,
+    "HighDeviation2": 233,
+    "LowDeviation1": 172
+  },
+  {
+    "DeviationId": 98,
+    "LevelMin": 98,
+    "LevelMax": 98,
+    "HighDeviation1": 294,
+    "HighDeviation2": 260,
+    "LowDeviation1": 192
+  },
+  {
+    "DeviationId": 99,
+    "LevelMin": 99,
+    "LevelMax": 99,
+    "HighDeviation1": 862,
+    "HighDeviation2": 762,
+    "LowDeviation1": 564
+  },
+  {
+    "DeviationId": 100,
+    "LevelMin": 100,
+    "LevelMax": 100,
+    "HighDeviation1": 8771,
+    "HighDeviation2": 7759,
+    "LowDeviation1": 5735
+  },
+  {
+    "DeviationId": 101,
+    "LevelMin": 101,
+    "LevelMax": 101,
+    "HighDeviation1": 1850,
+    "HighDeviation2": 1637,
+    "LowDeviation1": 1209
+  },
+  {
+    "DeviationId": 102,
+    "LevelMin": 102,
+    "LevelMax": 102,
+    "HighDeviation1": 293,
+    "HighDeviation2": 260,
+    "LowDeviation1": 192
+  },
+  {
+    "DeviationId": 103,
+    "LevelMin": 103,
+    "LevelMax": 103,
+    "HighDeviation1": 484,
+    "HighDeviation2": 428,
+    "LowDeviation1": 317
+  },
+  {
+    "DeviationId": 104,
+    "LevelMin": 104,
+    "LevelMax": 104,
+    "HighDeviation1": 0,
+    "HighDeviation2": 0,
+    "LowDeviation1": 0
+  },
+  {
+    "DeviationId": 105,
+    "LevelMin": 105,
+    "LevelMax": 105,
+    "HighDeviation1": 2117,
+    "HighDeviation2": 1872,
+    "LowDeviation1": 1384
+  },
+  {
+    "DeviationId": 106,
+    "LevelMin": 106,
+    "LevelMax": 106,
+    "HighDeviation1": 1710,
+    "HighDeviation2": 1513,
+    "LowDeviation1": 1119
+  },
+  {
+    "DeviationId": 107,
+    "LevelMin": 107,
+    "LevelMax": 107,
+    "HighDeviation1": 264,
+    "HighDeviation2": 234,
+    "LowDeviation1": 172
+  },
+  {
+    "DeviationId": 108,
+    "LevelMin": 108,
+    "LevelMax": 108,
+    "HighDeviation1": 514,
+    "HighDeviation2": 454,
+    "LowDeviation1": 336
+  },
+  {
+    "DeviationId": 109,
+    "LevelMin": 109,
+    "LevelMax": 109,
+    "HighDeviation1": 387,
+    "HighDeviation2": 343,
+    "LowDeviation1": 253
+  },
+  {
+    "DeviationId": 110,
+    "LevelMin": 110,
+    "LevelMax": 110,
+    "HighDeviation1": 1286,
+    "HighDeviation2": 1137,
+    "LowDeviation1": 841
+  },
+  {
+    "DeviationId": 111,
+    "LevelMin": 111,
+    "LevelMax": 111,
+    "HighDeviation1": 751,
+    "HighDeviation2": 665,
+    "LowDeviation1": 491
+  },
+  {
+    "DeviationId": 112,
+    "LevelMin": 112,
+    "LevelMax": 112,
+    "HighDeviation1": 293,
+    "HighDeviation2": 258,
+    "LowDeviation1": 192
+  },
+  {
+    "DeviationId": 113,
+    "LevelMin": 113,
+    "LevelMax": 113,
+    "HighDeviation1": 264,
+    "HighDeviation2": 234,
+    "LowDeviation1": 172
+  },
+  {
+    "DeviationId": 114,
+    "LevelMin": 114,
+    "LevelMax": 114,
+    "HighDeviation1": 514,
+    "HighDeviation2": 455,
+    "LowDeviation1": 337
+  },
+  {
+    "DeviationId": 115,
+    "LevelMin": 115,
+    "LevelMax": 115,
+    "HighDeviation1": 1324,
+    "HighDeviation2": 1171,
+    "LowDeviation1": 865
+  },
+  {
+    "DeviationId": 116,
+    "LevelMin": 116,
+    "LevelMax": 116,
+    "HighDeviation1": 294,
+    "HighDeviation2": 260,
+    "LowDeviation1": 192
+  },
+  {
+    "DeviationId": 117,
+    "LevelMin": 117,
+    "LevelMax": 117,
+    "HighDeviation1": 483,
+    "HighDeviation2": 428,
+    "LowDeviation1": 316
+  },
+  {
+    "DeviationId": 118,
+    "LevelMin": 118,
+    "LevelMax": 118,
+    "HighDeviation1": 295,
+    "HighDeviation2": 261,
+    "LowDeviation1": 193
+  },
+  {
+    "DeviationId": 119,
+    "LevelMin": 119,
+    "LevelMax": 119,
+    "HighDeviation1": 386,
+    "HighDeviation2": 341,
+    "LowDeviation1": 253
+  },
+  {
+    "DeviationId": 120,
+    "LevelMin": 120,
+    "LevelMax": 120,
+    "HighDeviation1": 3133,
+    "HighDeviation2": 2772,
+    "LowDeviation1": 2048
+  },
+  {
+    "DeviationId": 121,
+    "LevelMin": 121,
+    "LevelMax": 121,
+    "HighDeviation1": 169,
+    "HighDeviation2": 149,
+    "LowDeviation1": 111
+  },
+  {
+    "DeviationId": 122,
+    "LevelMin": 122,
+    "LevelMax": 122,
+    "HighDeviation1": 294,
+    "HighDeviation2": 260,
+    "LowDeviation1": 192
+  },
+  {
+    "DeviationId": 123,
+    "LevelMin": 123,
+    "LevelMax": 123,
+    "HighDeviation1": 484,
+    "HighDeviation2": 428,
+    "LowDeviation1": 316
+  },
+  {
+    "DeviationId": 124,
+    "LevelMin": 124,
+    "LevelMax": 124,
+    "HighDeviation1": 295,
+    "HighDeviation2": 261,
+    "LowDeviation1": 193
+  },
+  {
+    "DeviationId": 125,
+    "LevelMin": 125,
+    "LevelMax": 125,
+    "HighDeviation1": 1322,
+    "HighDeviation2": 1170,
+    "LowDeviation1": 865
+  },
+  {
+    "DeviationId": 126,
+    "LevelMin": 126,
+    "LevelMax": 126,
+    "HighDeviation1": 875,
+    "HighDeviation2": 773,
+    "LowDeviation1": 572
+  },
+  {
+    "DeviationId": 127,
+    "LevelMin": 127,
+    "LevelMax": 127,
+    "HighDeviation1": 264,
+    "HighDeviation2": 234,
+    "LowDeviation1": 172
+  },
+  {
+    "DeviationId": 128,
+    "LevelMin": 128,
+    "LevelMax": 128,
+    "HighDeviation1": 295,
+    "HighDeviation2": 261,
+    "LowDeviation1": 193
+  },
+  {
+    "DeviationId": 129,
+    "LevelMin": 129,
+    "LevelMax": 129,
+    "HighDeviation1": 607,
+    "HighDeviation2": 537,
+    "LowDeviation1": 397
+  },
+  {
+    "DeviationId": 130,
+    "LevelMin": 130,
+    "LevelMax": 130,
+    "HighDeviation1": 2347,
+    "HighDeviation2": 2076,
+    "LowDeviation1": 1534
+  },
+  {
+    "DeviationId": 131,
+    "LevelMin": 131,
+    "LevelMax": 131,
+    "HighDeviation1": 287,
+    "HighDeviation2": 254,
+    "LowDeviation1": 188
+  },
+  {
+    "DeviationId": 132,
+    "LevelMin": 132,
+    "LevelMax": 132,
+    "HighDeviation1": 515,
+    "HighDeviation2": 455,
+    "LowDeviation1": 337
+  },
+  {
+    "DeviationId": 133,
+    "LevelMin": 133,
+    "LevelMax": 133,
+    "HighDeviation1": 264,
+    "HighDeviation2": 234,
+    "LowDeviation1": 172
+  },
+  {
+    "DeviationId": 134,
+    "LevelMin": 134,
+    "LevelMax": 134,
+    "HighDeviation1": 293,
+    "HighDeviation2": 260,
+    "LowDeviation1": 192
+  },
+  {
+    "DeviationId": 135,
+    "LevelMin": 135,
+    "LevelMax": 135,
+    "HighDeviation1": 484,
+    "HighDeviation2": 427,
+    "LowDeviation1": 317
+  },
+  {
+    "DeviationId": 136,
+    "LevelMin": 136,
+    "LevelMax": 136,
+    "HighDeviation1": 1300,
+    "HighDeviation2": 1150,
+    "LowDeviation1": 850
+  },
+  {
+    "DeviationId": 137,
+    "LevelMin": 137,
+    "LevelMax": 137,
+    "HighDeviation1": 264,
+    "HighDeviation2": 234,
+    "LowDeviation1": 172
+  },
+  {
+    "DeviationId": 138,
+    "LevelMin": 138,
+    "LevelMax": 138,
+    "HighDeviation1": 515,
+    "HighDeviation2": 455,
+    "LowDeviation1": 337
+  },
+  {
+    "DeviationId": 139,
+    "LevelMin": 139,
+    "LevelMax": 139,
+    "HighDeviation1": 386,
+    "HighDeviation2": 342,
+    "LowDeviation1": 252
+  },
+  {
+    "DeviationId": 140,
+    "LevelMin": 140,
+    "LevelMax": 140,
+    "HighDeviation1": 3098,
+    "HighDeviation2": 2740,
+    "LowDeviation1": 2026
+  },
+  {
+    "DeviationId": 141,
+    "LevelMin": 141,
+    "LevelMax": 141,
+    "HighDeviation1": 1688,
+    "HighDeviation2": 1494,
+    "LowDeviation1": 1104
+  },
+  {
+    "DeviationId": 142,
+    "LevelMin": 142,
+    "LevelMax": 142,
+    "HighDeviation1": 713,
+    "HighDeviation2": 630,
+    "LowDeviation1": 466
+  },
+  {
+    "DeviationId": 143,
+    "LevelMin": 143,
+    "LevelMax": 143,
+    "HighDeviation1": 799,
+    "HighDeviation2": 708,
+    "LowDeviation1": 522
+  },
+  {
+    "DeviationId": 144,
+    "LevelMin": 144,
+    "LevelMax": 144,
+    "HighDeviation1": 878,
+    "HighDeviation2": 776,
+    "LowDeviation1": 574
+  },
+  {
+    "DeviationId": 145,
+    "LevelMin": 145,
+    "LevelMax": 145,
+    "HighDeviation1": 15354,
+    "HighDeviation2": 13583,
+    "LowDeviation1": 10040
+  },
+  {
+    "DeviationId": 146,
+    "LevelMin": 146,
+    "LevelMax": 146,
+    "HighDeviation1": 2384,
+    "HighDeviation2": 2109,
+    "LowDeviation1": 1558
+  },
+  {
+    "DeviationId": 147,
+    "LevelMin": 147,
+    "LevelMax": 147,
+    "HighDeviation1": 1086,
+    "HighDeviation2": 960,
+    "LowDeviation1": 710
+  },
+  {
+    "DeviationId": 148,
+    "LevelMin": 148,
+    "LevelMax": 148,
+    "HighDeviation1": 2604,
+    "HighDeviation2": 2303,
+    "LowDeviation1": 1703
+  },
+  {
+    "DeviationId": 149,
+    "LevelMin": 149,
+    "LevelMax": 149,
+    "HighDeviation1": 1224,
+    "HighDeviation2": 1084,
+    "LowDeviation1": 800
+  },
+  {
+    "DeviationId": 150,
+    "LevelMin": 150,
+    "LevelMax": 150,
+    "HighDeviation1": 1294,
+    "HighDeviation2": 1144,
+    "LowDeviation1": 846
+  },
+  {
+    "DeviationId": 151,
+    "LevelMin": 151,
+    "LevelMax": 151,
+    "HighDeviation1": 1292,
+    "HighDeviation2": 1143,
+    "LowDeviation1": 845
+  },
+  {
+    "DeviationId": 152,
+    "LevelMin": 152,
+    "LevelMax": 152,
+    "HighDeviation1": 836,
+    "HighDeviation2": 739,
+    "LowDeviation1": 547
+  },
+  {
+    "DeviationId": 153,
+    "LevelMin": 153,
+    "LevelMax": 153,
+    "HighDeviation1": 938,
+    "HighDeviation2": 831,
+    "LowDeviation1": 613
+  },
+  {
+    "DeviationId": 154,
+    "LevelMin": 154,
+    "LevelMax": 154,
+    "HighDeviation1": 1033,
+    "HighDeviation2": 913,
+    "LowDeviation1": 675
+  },
+  {
+    "DeviationId": 155,
+    "LevelMin": 155,
+    "LevelMax": 155,
+    "HighDeviation1": 1111,
+    "HighDeviation2": 983,
+    "LowDeviation1": 727
+  },
+  {
+    "DeviationId": 156,
+    "LevelMin": 156,
+    "LevelMax": 156,
+    "HighDeviation1": 1197,
+    "HighDeviation2": 1059,
+    "LowDeviation1": 783
+  },
+  {
+    "DeviationId": 157,
+    "LevelMin": 157,
+    "LevelMax": 157,
+    "HighDeviation1": 1276,
+    "HighDeviation2": 1128,
+    "LowDeviation1": 834
+  },
+  {
+    "DeviationId": 158,
+    "LevelMin": 158,
+    "LevelMax": 158,
+    "HighDeviation1": 1367,
+    "HighDeviation2": 1210,
+    "LowDeviation1": 894
+  },
+  {
+    "DeviationId": 159,
+    "LevelMin": 159,
+    "LevelMax": 159,
+    "HighDeviation1": 1441,
+    "HighDeviation2": 1274,
+    "LowDeviation1": 942
+  },
+  {
+    "DeviationId": 160,
+    "LevelMin": 160,
+    "LevelMax": 160,
+    "HighDeviation1": 14067,
+    "HighDeviation2": 12445,
+    "LowDeviation1": 9198
+  },
+  {
+    "DeviationId": 161,
+    "LevelMin": 161,
+    "LevelMax": 161,
+    "HighDeviation1": 1179,
+    "HighDeviation2": 1043,
+    "LowDeviation1": 770
+  },
+  {
+    "DeviationId": 162,
+    "LevelMin": 162,
+    "LevelMax": 162,
+    "HighDeviation1": 421,
+    "HighDeviation2": 372,
+    "LowDeviation1": 276
+  },
+  {
+    "DeviationId": 163,
+    "LevelMin": 163,
+    "LevelMax": 163,
+    "HighDeviation1": 474,
+    "HighDeviation2": 419,
+    "LowDeviation1": 309
+  },
+  {
+    "DeviationId": 164,
+    "LevelMin": 164,
+    "LevelMax": 164,
+    "HighDeviation1": 518,
+    "HighDeviation2": 459,
+    "LowDeviation1": 339
+  },
+  {
+    "DeviationId": 165,
+    "LevelMin": 165,
+    "LevelMax": 165,
+    "HighDeviation1": 559,
+    "HighDeviation2": 494,
+    "LowDeviation1": 366
+  },
+  {
+    "DeviationId": 166,
+    "LevelMin": 166,
+    "LevelMax": 166,
+    "HighDeviation1": 601,
+    "HighDeviation2": 531,
+    "LowDeviation1": 393
+  },
+  {
+    "DeviationId": 167,
+    "LevelMin": 167,
+    "LevelMax": 167,
+    "HighDeviation1": 642,
+    "HighDeviation2": 569,
+    "LowDeviation1": 420
+  },
+  {
+    "DeviationId": 168,
+    "LevelMin": 168,
+    "LevelMax": 168,
+    "HighDeviation1": 688,
+    "HighDeviation2": 608,
+    "LowDeviation1": 449
+  },
+  {
+    "DeviationId": 169,
+    "LevelMin": 169,
+    "LevelMax": 169,
+    "HighDeviation1": 723,
+    "HighDeviation2": 639,
+    "LowDeviation1": 473
+  },
+  {
+    "DeviationId": 170,
+    "LevelMin": 170,
+    "LevelMax": 170,
+    "HighDeviation1": 764,
+    "HighDeviation2": 676,
+    "LowDeviation1": 500
+  },
+  {
+    "DeviationId": 171,
+    "LevelMin": 171,
+    "LevelMax": 171,
+    "HighDeviation1": 1079,
+    "HighDeviation2": 955,
+    "LowDeviation1": 705
+  },
+  {
+    "DeviationId": 172,
+    "LevelMin": 172,
+    "LevelMax": 172,
+    "HighDeviation1": 1006,
+    "HighDeviation2": 890,
+    "LowDeviation1": 658
+  },
+  {
+    "DeviationId": 173,
+    "LevelMin": 173,
+    "LevelMax": 173,
+    "HighDeviation1": 1132,
+    "HighDeviation2": 1002,
+    "LowDeviation1": 740
+  },
+  {
+    "DeviationId": 174,
+    "LevelMin": 174,
+    "LevelMax": 174,
+    "HighDeviation1": 1241,
+    "HighDeviation2": 1097,
+    "LowDeviation1": 811
+  },
+  {
+    "DeviationId": 175,
+    "LevelMin": 175,
+    "LevelMax": 175,
+    "HighDeviation1": 24424,
+    "HighDeviation2": 21606,
+    "LowDeviation1": 15970
+  },
+  {
+    "DeviationId": 176,
+    "LevelMin": 176,
+    "LevelMax": 176,
+    "HighDeviation1": 1438,
+    "HighDeviation2": 1272,
+    "LowDeviation1": 940
+  },
+  {
+    "DeviationId": 177,
+    "LevelMin": 177,
+    "LevelMax": 177,
+    "HighDeviation1": 1535,
+    "HighDeviation2": 1358,
+    "LowDeviation1": 1004
+  },
+  {
+    "DeviationId": 178,
+    "LevelMin": 178,
+    "LevelMax": 178,
+    "HighDeviation1": 1642,
+    "HighDeviation2": 1453,
+    "LowDeviation1": 1074
+  },
+  {
+    "DeviationId": 179,
+    "LevelMin": 179,
+    "LevelMax": 179,
+    "HighDeviation1": 1732,
+    "HighDeviation2": 1531,
+    "LowDeviation1": 1132
+  },
+  {
+    "DeviationId": 180,
+    "LevelMin": 180,
+    "LevelMax": 180,
+    "HighDeviation1": 1826,
+    "HighDeviation2": 1616,
+    "LowDeviation1": 1194
+  },
+  {
+    "DeviationId": 181,
+    "LevelMin": 181,
+    "LevelMax": 181,
+    "HighDeviation1": 1760,
+    "HighDeviation2": 1557,
+    "LowDeviation1": 1151
+  },
+  {
+    "DeviationId": 182,
+    "LevelMin": 182,
+    "LevelMax": 182,
+    "HighDeviation1": 1075,
+    "HighDeviation2": 951,
+    "LowDeviation1": 703
+  },
+  {
+    "DeviationId": 183,
+    "LevelMin": 183,
+    "LevelMax": 183,
+    "HighDeviation1": 1209,
+    "HighDeviation2": 1070,
+    "LowDeviation1": 790
+  },
+  {
+    "DeviationId": 184,
+    "LevelMin": 184,
+    "LevelMax": 184,
+    "HighDeviation1": 1326,
+    "HighDeviation2": 1173,
+    "LowDeviation1": 867
+  },
+  {
+    "DeviationId": 185,
+    "LevelMin": 185,
+    "LevelMax": 185,
+    "HighDeviation1": 1428,
+    "HighDeviation2": 1262,
+    "LowDeviation1": 934
+  },
+  {
+    "DeviationId": 186,
+    "LevelMin": 186,
+    "LevelMax": 186,
+    "HighDeviation1": 1535,
+    "HighDeviation2": 1359,
+    "LowDeviation1": 1003
+  },
+  {
+    "DeviationId": 187,
+    "LevelMin": 187,
+    "LevelMax": 187,
+    "HighDeviation1": 1639,
+    "HighDeviation2": 1450,
+    "LowDeviation1": 1072
+  },
+  {
+    "DeviationId": 188,
+    "LevelMin": 188,
+    "LevelMax": 188,
+    "HighDeviation1": 1755,
+    "HighDeviation2": 1552,
+    "LowDeviation1": 1148
+  },
+  {
+    "DeviationId": 189,
+    "LevelMin": 189,
+    "LevelMax": 189,
+    "HighDeviation1": 1849,
+    "HighDeviation2": 1636,
+    "LowDeviation1": 1209
+  },
+  {
+    "DeviationId": 190,
+    "LevelMin": 190,
+    "LevelMax": 190,
+    "HighDeviation1": 17999,
+    "HighDeviation2": 15921,
+    "LowDeviation1": 11768
+  },
+  {
+    "DeviationId": 191,
+    "LevelMin": 191,
+    "LevelMax": 191,
+    "HighDeviation1": 0,
+    "HighDeviation2": 0,
+    "LowDeviation1": 0
+  },
+  {
+    "DeviationId": 192,
+    "LevelMin": 192,
+    "LevelMax": 192,
+    "HighDeviation1": 807,
+    "HighDeviation2": 714,
+    "LowDeviation1": 528
+  },
+  {
+    "DeviationId": 193,
+    "LevelMin": 193,
+    "LevelMax": 193,
+    "HighDeviation1": 907,
+    "HighDeviation2": 801,
+    "LowDeviation1": 593
+  },
+  {
+    "DeviationId": 194,
+    "LevelMin": 194,
+    "LevelMax": 194,
+    "HighDeviation1": 993,
+    "HighDeviation2": 879,
+    "LowDeviation1": 649
+  },
+  {
+    "DeviationId": 195,
+    "LevelMin": 195,
+    "LevelMax": 195,
+    "HighDeviation1": 1068,
+    "HighDeviation2": 945,
+    "LowDeviation1": 699
+  },
+  {
+    "DeviationId": 196,
+    "LevelMin": 196,
+    "LevelMax": 196,
+    "HighDeviation1": 1150,
+    "HighDeviation2": 1017,
+    "LowDeviation1": 751
+  },
+  {
+    "DeviationId": 197,
+    "LevelMin": 197,
+    "LevelMax": 197,
+    "HighDeviation1": 1225,
+    "HighDeviation2": 1084,
+    "LowDeviation1": 802
+  },
+  {
+    "DeviationId": 198,
+    "LevelMin": 198,
+    "LevelMax": 198,
+    "HighDeviation1": 1313,
+    "HighDeviation2": 1162,
+    "LowDeviation1": 858
+  },
+  {
+    "DeviationId": 199,
+    "LevelMin": 199,
+    "LevelMax": 199,
+    "HighDeviation1": 1382,
+    "HighDeviation2": 1222,
+    "LowDeviation1": 904
+  },
+  {
+    "DeviationId": 200,
+    "LevelMin": 200,
+    "LevelMax": 200,
+    "HighDeviation1": 1458,
+    "HighDeviation2": 1289,
+    "LowDeviation1": 953
+  }
+]

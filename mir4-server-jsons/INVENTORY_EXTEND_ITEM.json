@@ -1,0 +1,30 @@
+[
+  {
+    "ExtendId": 1,
+    "InventoryType": 1,
+    "ExtendItemUseId": 632000001,
+    "ExtendValue": 1,
+    "ExtendSlotCost": 20
+  },
+  {
+    "ExtendId": 2,
+    "InventoryType": 1,
+    "ExtendItemUseId": 632000002,
+    "ExtendValue": 1,
+    "ExtendSlotCost": 30
+  },
+  {
+    "ExtendId": 3,
+    "InventoryType": 1,
+    "ExtendItemUseId": 632000003,
+    "ExtendValue": 1,
+    "ExtendSlotCost": 50
+  },
+  {
+    "ExtendId": 4,
+    "InventoryType": 1,
+    "ExtendItemUseId": 632000004,
+    "ExtendValue": 1,
+    "ExtendSlotCost": 100
+  }
+]

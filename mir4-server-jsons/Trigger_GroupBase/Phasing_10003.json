@@ -1,0 +1,146 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "9240,-11860,10990",
+    "TriggerRotation": 0,
+    "LinkID": [
+      5,
+      4,
+      7,
+      2
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": "ETriggerType::CONDITIONCHECK",
+    "TriggerLocation": "7720,-11600,11990",
+    "TriggerRotation": 0,
+    "LinkID": [
+      3
+    ],
+    "Value1": [
+      "0"
+    ],
+    "Value2": [
+      "0"
+    ],
+    "Value3": [
+      "0"
+    ],
+    "Value4": [
+      "0.3"
+    ],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": 2,
+    "TriggerLocation": "7360,-11700,12285",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "0.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": 4,
+    "TriggerLocation": "8595,-10075,12245",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "100001019",
+      "100001019",
+      "100001019"
+    ],
+    "Value2": [
+      "9194,-9799,10670",
+      "9434,-10153,10670",
+      "8741,-9710,10670"
+    ],
+    "Value3": [
+      "-124",
+      "-133",
+      "-110"
+    ],
+    "Value4": [
+      "0",
+      "0.0"
+    ],
+    "Value5": [
+      "2",
+      "1",
+      "3"
+    ]
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": "ETriggerType::PLAYSOUND",
+    "TriggerLocation": "9450,-11650,11390",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "100110"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "8260,-11290,12030",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": "ETriggerType::TIMER",
+    "TriggerLocation": "8450,-11560,11960",
+    "TriggerRotation": 0,
+    "LinkID": [
+      6
+    ],
+    "Value1": [
+      "0.1"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 8,
+    "TriggerType": "ETriggerType::WALL",
+    "TriggerLocation": "5551,-9178,10520",
+    "TriggerRotation": 12,
+    "LinkID": [],
+    "Value1": [
+      "5.500000,1.000000,1.000000"
+    ],
+    "Value2": [
+      "1"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

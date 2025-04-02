@@ -1,0 +1,24 @@
+[
+    {
+        "RowId": 1,
+        "MainType": 1,
+        "Grade": 2,
+        "Tier": 1,
+        "MaterialItemId": 123,
+        "MaterialItemCount": 5,
+        "CostValueType": 2,
+        "CostValue": 100,
+        "MaxGrade": false
+    },
+    {
+        "RowId": 2,
+        "MainType": 1,
+        "Grade": 3,
+        "Tier": 1,
+        "MaterialItemId": 456,
+        "MaterialItemCount": 3,
+        "CostValueType": 3,
+        "CostValue": 200,
+        "MaxGrade": true
+    }
+]

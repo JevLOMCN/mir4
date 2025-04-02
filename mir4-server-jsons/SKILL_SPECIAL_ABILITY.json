@@ -1,0 +1,7292 @@
+[
+  {
+    "ID": 1,
+    "SkillId": 1102,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 110202,
+    "Passive": [
+      110010
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 2,
+    "SkillId": 1102,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 110202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600101
+    ]
+  },
+  {
+    "ID": 3,
+    "SkillId": 1102,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 110202,
+    "Passive": [
+      110111,
+      110113,
+      110115
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600102
+    ]
+  },
+  {
+    "ID": 4,
+    "SkillId": 1102,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      110121,
+      110123,
+      110125
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600103,
+      610122,
+      610124
+    ]
+  },
+  {
+    "ID": 5,
+    "SkillId": 1102,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      110131,
+      110133,
+      110135
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600103,
+      610132,
+      610134
+    ]
+  },
+  {
+    "ID": 6,
+    "SkillId": 1104,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 110402,
+    "Passive": [
+      110212
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610211
+    ]
+  },
+  {
+    "ID": 7,
+    "SkillId": 1104,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 110402,
+    "Passive": [
+      110222,
+      110223,
+      110224
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610221,
+      610225
+    ]
+  },
+  {
+    "ID": 8,
+    "SkillId": 1104,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 110402,
+    "Passive": [
+      110232,
+      110233,
+      110234
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610231,
+      610235
+    ]
+  },
+  {
+    "ID": 9,
+    "SkillId": 1304,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 130402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600101
+    ]
+  },
+  {
+    "ID": 10,
+    "SkillId": 1304,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 130402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600102,
+      610311,
+      610312,
+      610314
+    ]
+  },
+  {
+    "ID": 11,
+    "SkillId": 1304,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 130402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600103,
+      610321,
+      610322,
+      610324
+    ]
+  },
+  {
+    "ID": 12,
+    "SkillId": 1304,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 130402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600103,
+      610331,
+      610332,
+      610334
+    ]
+  },
+  {
+    "ID": 13,
+    "SkillId": 1401,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 140102,
+    "Passive": [
+      110412
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610411,
+      610413,
+      610414
+    ]
+  },
+  {
+    "ID": 14,
+    "SkillId": 1401,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 140102,
+    "Passive": [
+      110422
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610421,
+      610423,
+      610424
+    ]
+  },
+  {
+    "ID": 15,
+    "SkillId": 1401,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 140102,
+    "Passive": [
+      110432
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610431,
+      610433,
+      610434
+    ]
+  },
+  {
+    "ID": 16,
+    "SkillId": 1501,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      110512
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610511
+    ]
+  },
+  {
+    "ID": 17,
+    "SkillId": 1501,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      110522
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610521,
+      610523,
+      610524
+    ]
+  },
+  {
+    "ID": 18,
+    "SkillId": 1501,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      110532
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610531,
+      610533,
+      610534
+    ]
+  },
+  {
+    "ID": 19,
+    "SkillId": 1302,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 130202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600101,
+      600201,
+      610601
+    ]
+  },
+  {
+    "ID": 20,
+    "SkillId": 1302,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 130202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600102,
+      600202,
+      610611,
+      610612,
+      610615
+    ]
+  },
+  {
+    "ID": 21,
+    "SkillId": 1302,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 130202,
+    "Passive": [
+      110624
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600103,
+      600203,
+      610621,
+      610622,
+      610623,
+      610625
+    ]
+  },
+  {
+    "ID": 22,
+    "SkillId": 1302,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 130202,
+    "Passive": [
+      110634
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600103,
+      600203,
+      610631,
+      610632,
+      610633,
+      610635
+    ]
+  },
+  {
+    "ID": 23,
+    "SkillId": 1301,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 130101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610711,
+      610712,
+      610713
+    ]
+  },
+  {
+    "ID": 24,
+    "SkillId": 1301,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 130102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 25,
+    "SkillId": 1301,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 130101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610721,
+      610722,
+      610723,
+      610725
+    ]
+  },
+  {
+    "ID": 26,
+    "SkillId": 1301,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 130102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610724
+    ]
+  },
+  {
+    "ID": 27,
+    "SkillId": 1301,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 130101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610731,
+      610732,
+      610733,
+      610735
+    ]
+  },
+  {
+    "ID": 28,
+    "SkillId": 1301,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 130102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610734
+    ]
+  },
+  {
+    "ID": 29,
+    "SkillId": 1201,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 120102,
+    "Passive": [
+      110811,
+      110812
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 30,
+    "SkillId": 1201,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 120102,
+    "Passive": [
+      110821,
+      110822
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610823
+    ]
+  },
+  {
+    "ID": 31,
+    "SkillId": 1201,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 120102,
+    "Passive": [
+      110831,
+      110832
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610833
+    ]
+  },
+  {
+    "ID": 32,
+    "SkillId": 1201,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 120103,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610834
+    ]
+  },
+  {
+    "ID": 33,
+    "SkillId": 1601,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 160103,
+    "Passive": [
+      110912
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610911
+    ]
+  },
+  {
+    "ID": 34,
+    "SkillId": 1601,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 160103,
+    "Passive": [
+      110922
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610921,
+      610923,
+      610924,
+      610925
+    ]
+  },
+  {
+    "ID": 35,
+    "SkillId": 1601,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 160101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610936
+    ]
+  },
+  {
+    "ID": 36,
+    "SkillId": 1601,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 160103,
+    "Passive": [
+      110932
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      610931,
+      610933,
+      610934,
+      610935
+    ]
+  },
+  {
+    "ID": 37,
+    "SkillId": 1101,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 110101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600201
+    ]
+  },
+  {
+    "ID": 38,
+    "SkillId": 1101,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 110101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600202,
+      611011,
+      611013,
+      611019
+    ]
+  },
+  {
+    "ID": 39,
+    "SkillId": 1101,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 110101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600203,
+      611021,
+      611023,
+      611024,
+      611025,
+      611029
+    ]
+  },
+  {
+    "ID": 40,
+    "SkillId": 1101,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 110101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600203,
+      611031,
+      611033,
+      611034,
+      611035,
+      611036,
+      611037,
+      611038,
+      611039
+    ]
+  },
+  {
+    "ID": 41,
+    "SkillId": 1103,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 110106,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600101
+    ]
+  },
+  {
+    "ID": 42,
+    "SkillId": 1103,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 110106,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600101,
+      611111
+    ]
+  },
+  {
+    "ID": 43,
+    "SkillId": 1103,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 110107,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611113
+    ]
+  },
+  {
+    "ID": 44,
+    "SkillId": 1103,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 110106,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600101,
+      611121,
+      611124
+    ]
+  },
+  {
+    "ID": 45,
+    "SkillId": 1103,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 110107,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611123
+    ]
+  },
+  {
+    "ID": 46,
+    "SkillId": 1103,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 110106,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600101,
+      611131,
+      611134
+    ]
+  },
+  {
+    "ID": 47,
+    "SkillId": 1103,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 110107,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611132
+    ]
+  },
+  {
+    "ID": 48,
+    "SkillId": 1502,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 150202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611211,
+      611212,
+      611217
+    ]
+  },
+  {
+    "ID": 49,
+    "SkillId": 1502,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 150201,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611225,
+      611226
+    ]
+  },
+  {
+    "ID": 50,
+    "SkillId": 1502,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 150202,
+    "Passive": [
+      111223
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611221,
+      611222,
+      611224,
+      611227
+    ]
+  },
+  {
+    "ID": 51,
+    "SkillId": 1502,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 150201,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611235,
+      611236
+    ]
+  },
+  {
+    "ID": 52,
+    "SkillId": 1502,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 150202,
+    "Passive": [
+      111233
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611231,
+      611232,
+      611234,
+      611237
+    ]
+  },
+  {
+    "ID": 53,
+    "SkillId": 1403,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 140302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 54,
+    "SkillId": 1403,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611311,
+      611312,
+      611313
+    ]
+  },
+  {
+    "ID": 55,
+    "SkillId": 1403,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611321,
+      611322,
+      611323
+    ]
+  },
+  {
+    "ID": 56,
+    "SkillId": 1403,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      611331,
+      611332,
+      611333
+    ]
+  },
+  {
+    "ID": 57,
+    "SkillId": 2101,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 210102,
+    "Passive": [
+      120010
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 58,
+    "SkillId": 2101,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 210102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600401
+    ]
+  },
+  {
+    "ID": 59,
+    "SkillId": 2101,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 210102,
+    "Passive": [
+      120113
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600402,
+      620111,
+      620112
+    ]
+  },
+  {
+    "ID": 60,
+    "SkillId": 2101,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 210102,
+    "Passive": [
+      120123
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600404,
+      620121,
+      620122
+    ]
+  },
+  {
+    "ID": 61,
+    "SkillId": 2101,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 210102,
+    "Passive": [
+      120133
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600404,
+      620131,
+      620132,
+      620134
+    ]
+  },
+  {
+    "ID": 62,
+    "SkillId": 2111,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 211102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600301,
+      620212
+    ]
+  },
+  {
+    "ID": 63,
+    "SkillId": 2111,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 211102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600303,
+      620212,
+      620214,
+      620216,
+      620217,
+      620218
+    ]
+  },
+  {
+    "ID": 64,
+    "SkillId": 2111,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 211102,
+    "Passive": [
+      120223
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600304,
+      620222,
+      620224,
+      620225,
+      620226,
+      620227,
+      620228
+    ]
+  },
+  {
+    "ID": 65,
+    "SkillId": 2111,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 211102,
+    "Passive": [
+      120233
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600305,
+      620232,
+      620234,
+      620235,
+      620236,
+      620237,
+      620238
+    ]
+  },
+  {
+    "ID": 66,
+    "SkillId": 2301,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620311,
+      620313,
+      620314
+    ]
+  },
+  {
+    "ID": 67,
+    "SkillId": 2301,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      120322
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620321,
+      620323,
+      620324
+    ]
+  },
+  {
+    "ID": 68,
+    "SkillId": 2301,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      120332
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620331,
+      620333,
+      620334
+    ]
+  },
+  {
+    "ID": 69,
+    "SkillId": 2501,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 250102,
+    "Passive": [
+      120411
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620412,
+      620413,
+      620414,
+      620415
+    ]
+  },
+  {
+    "ID": 70,
+    "SkillId": 2501,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 250102,
+    "Passive": [
+      120421
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620422,
+      620423,
+      620424,
+      620425,
+      620426
+    ]
+  },
+  {
+    "ID": 71,
+    "SkillId": 2501,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 250102,
+    "Passive": [
+      120431
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620432,
+      620433,
+      620434,
+      620435,
+      620436
+    ]
+  },
+  {
+    "ID": 72,
+    "SkillId": 2503,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 250302,
+    "Passive": [
+      120511,
+      120512
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 73,
+    "SkillId": 2503,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 250302,
+    "Passive": [
+      120521,
+      120522,
+      120523
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 74,
+    "SkillId": 2503,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 250302,
+    "Passive": [
+      120531,
+      120532,
+      120533
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 75,
+    "SkillId": 2203,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 220302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600301,
+      620611
+    ]
+  },
+  {
+    "ID": 76,
+    "SkillId": 2203,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 220302,
+    "Passive": [
+      120612
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600303,
+      620611,
+      620613,
+      620614,
+      620615,
+      620616,
+      620617,
+      620618,
+      620619
+    ]
+  },
+  {
+    "ID": 77,
+    "SkillId": 2203,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 220302,
+    "Passive": [
+      120622
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600304,
+      620621,
+      620623,
+      620624,
+      620625,
+      620626,
+      620627,
+      620628,
+      620629
+    ]
+  },
+  {
+    "ID": 78,
+    "SkillId": 2203,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 220302,
+    "Passive": [
+      120632
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600305,
+      620631,
+      620633,
+      620634,
+      620635,
+      620636,
+      620637,
+      620638,
+      620639
+    ]
+  },
+  {
+    "ID": 79,
+    "SkillId": 2303,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 230301,
+    "Passive": [
+      120712
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620713,
+      620714,
+      620715,
+      620716,
+      620717,
+      620718,
+      620719
+    ]
+  },
+  {
+    "ID": 80,
+    "SkillId": 2303,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 230301,
+    "Passive": [
+      120712
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620711,
+      620713,
+      620714,
+      620715,
+      620716,
+      620717,
+      620718,
+      620719
+    ]
+  },
+  {
+    "ID": 81,
+    "SkillId": 2303,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 230301,
+    "Passive": [
+      120722
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620721,
+      620723,
+      620713,
+      620714,
+      620715,
+      620716,
+      620717,
+      620718,
+      620719
+    ]
+  },
+  {
+    "ID": 82,
+    "SkillId": 2303,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 230301,
+    "Passive": [
+      120732
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620731,
+      620733,
+      620713,
+      620714,
+      620715,
+      620716,
+      620717,
+      620718,
+      620719
+    ]
+  },
+  {
+    "ID": 83,
+    "SkillId": 2201,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 220102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600401
+    ]
+  },
+  {
+    "ID": 84,
+    "SkillId": 2201,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 220103,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600402,
+      620817,
+      620810
+    ]
+  },
+  {
+    "ID": 85,
+    "SkillId": 2201,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620811,
+      620812
+    ]
+  },
+  {
+    "ID": 86,
+    "SkillId": 2201,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 220103,
+    "Passive": [
+      120823
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600404,
+      620824,
+      620825,
+      620826,
+      620827,
+      620810
+    ]
+  },
+  {
+    "ID": 87,
+    "SkillId": 2201,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620821,
+      620822
+    ]
+  },
+  {
+    "ID": 88,
+    "SkillId": 2201,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 220103,
+    "Passive": [
+      120833
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600404,
+      620834,
+      620835,
+      620836,
+      620837,
+      620810
+    ]
+  },
+  {
+    "ID": 89,
+    "SkillId": 2201,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620831,
+      620832
+    ]
+  },
+  {
+    "ID": 90,
+    "SkillId": 2502,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 250202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620911,
+      620912,
+      620915,
+      620916,
+      620917
+    ]
+  },
+  {
+    "ID": 91,
+    "SkillId": 2502,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 250202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620921,
+      620922,
+      620923,
+      620924,
+      620925,
+      620926,
+      620927,
+      620928,
+      620929,
+      620930
+    ]
+  },
+  {
+    "ID": 92,
+    "SkillId": 2502,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 250202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      620931,
+      620932,
+      620933,
+      620934,
+      620935,
+      620936,
+      620937,
+      620938,
+      620939,
+      620940
+    ]
+  },
+  {
+    "ID": 93,
+    "SkillId": 2103,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 210302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600401
+    ]
+  },
+  {
+    "ID": 94,
+    "SkillId": 2103,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621012,
+      621013,
+      621014
+    ]
+  },
+  {
+    "ID": 95,
+    "SkillId": 2103,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621012,
+      621023,
+      621024
+    ]
+  },
+  {
+    "ID": 96,
+    "SkillId": 2103,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621012,
+      621033,
+      621034
+    ]
+  },
+  {
+    "ID": 97,
+    "SkillId": 2204,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 220402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621113
+    ]
+  },
+  {
+    "ID": 98,
+    "SkillId": 2204,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 220402,
+    "Passive": [
+      121122
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621121,
+      621123
+    ]
+  },
+  {
+    "ID": 99,
+    "SkillId": 2204,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 220402,
+    "Passive": [
+      121132
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621131,
+      621133
+    ]
+  },
+  {
+    "ID": 100,
+    "SkillId": 2202,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 220201,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621212
+    ]
+  },
+  {
+    "ID": 101,
+    "SkillId": 2202,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 220202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600301
+    ]
+  },
+  {
+    "ID": 102,
+    "SkillId": 2202,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 220201,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621212,
+      620216,
+      620217,
+      620218
+    ]
+  },
+  {
+    "ID": 103,
+    "SkillId": 2202,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 220202,
+    "Passive": [
+      121213,
+      121214
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600303
+    ]
+  },
+  {
+    "ID": 104,
+    "SkillId": 2202,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 220201,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621222,
+      620226,
+      620227,
+      620228
+    ]
+  },
+  {
+    "ID": 105,
+    "SkillId": 2202,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 220202,
+    "Passive": [
+      121223,
+      121224
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600304
+    ]
+  },
+  {
+    "ID": 106,
+    "SkillId": 2202,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 220201,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621232,
+      620236,
+      620237,
+      620238
+    ]
+  },
+  {
+    "ID": 107,
+    "SkillId": 2202,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 220202,
+    "Passive": [
+      121233,
+      121234
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600304
+    ]
+  },
+  {
+    "ID": 108,
+    "SkillId": 2202,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 220203,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621235
+    ]
+  },
+  {
+    "ID": 109,
+    "SkillId": 2403,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 240302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 110,
+    "SkillId": 2403,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621311
+    ]
+  },
+  {
+    "ID": 111,
+    "SkillId": 2403,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621321
+    ]
+  },
+  {
+    "ID": 112,
+    "SkillId": 2403,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 240325,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621322
+    ]
+  },
+  {
+    "ID": 113,
+    "SkillId": 2403,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621331
+    ]
+  },
+  {
+    "ID": 114,
+    "SkillId": 2403,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 240325,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      621332
+    ]
+  },
+  {
+    "ID": 115,
+    "SkillId": 3506,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 350602,
+    "Passive": [
+      130010
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 116,
+    "SkillId": 3506,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 350602,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600502
+    ]
+  },
+  {
+    "ID": 117,
+    "SkillId": 3506,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 350602,
+    "Passive": [
+      130111,
+      130112
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600503,
+      630114
+    ]
+  },
+  {
+    "ID": 118,
+    "SkillId": 3506,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 350602,
+    "Passive": [
+      130121,
+      130122,
+      130123
+    ],
+    "PassivePartyBuffID": [
+      30401
+    ],
+    "PassivePartyBuffLv": [
+      1
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600504,
+      630124
+    ]
+  },
+  {
+    "ID": 119,
+    "SkillId": 3506,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 350602,
+    "Passive": [
+      130131,
+      130132,
+      130133
+    ],
+    "PassivePartyBuffID": [
+      30401
+    ],
+    "PassivePartyBuffLv": [
+      2
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600505,
+      630134
+    ]
+  },
+  {
+    "ID": 120,
+    "SkillId": 3101,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630211
+    ]
+  },
+  {
+    "ID": 121,
+    "SkillId": 3101,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 310102,
+    "Passive": [
+      130213
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630212
+    ]
+  },
+  {
+    "ID": 122,
+    "SkillId": 3101,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630221
+    ]
+  },
+  {
+    "ID": 123,
+    "SkillId": 3101,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 310102,
+    "Passive": [
+      130223
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630222,
+      630224
+    ]
+  },
+  {
+    "ID": 124,
+    "SkillId": 3101,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630231
+    ]
+  },
+  {
+    "ID": 125,
+    "SkillId": 3101,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 310102,
+    "Passive": [
+      130233
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630232,
+      630234
+    ]
+  },
+  {
+    "ID": 126,
+    "SkillId": 3301,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 330102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600502
+    ]
+  },
+  {
+    "ID": 127,
+    "SkillId": 3301,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 330102,
+    "Passive": [
+      130311
+    ],
+    "PassivePartyBuffID": [
+      30403
+    ],
+    "PassivePartyBuffLv": [
+      1
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600503,
+      630312,
+      630315,
+      630316
+    ]
+  },
+  {
+    "ID": 128,
+    "SkillId": 3301,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 330102,
+    "Passive": [
+      130321
+    ],
+    "PassivePartyBuffID": [
+      30403
+    ],
+    "PassivePartyBuffLv": [
+      2
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600504,
+      630322,
+      630324,
+      630325,
+      630326,
+      630328,
+      630329
+    ]
+  },
+  {
+    "ID": 129,
+    "SkillId": 3301,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 330102,
+    "Passive": [
+      130331
+    ],
+    "PassivePartyBuffID": [
+      30403
+    ],
+    "PassivePartyBuffLv": [
+      3
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600505,
+      630332,
+      630334,
+      630335,
+      630336,
+      630337,
+      630338,
+      630339
+    ]
+  },
+  {
+    "ID": 130,
+    "SkillId": 3104,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 310402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      30402
+    ],
+    "PassivePartyBuffLv": [
+      1
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630411,
+      630412,
+      630413,
+      630415,
+      630416
+    ]
+  },
+  {
+    "ID": 131,
+    "SkillId": 3104,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 310402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      30402
+    ],
+    "PassivePartyBuffLv": [
+      2
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630421,
+      630422,
+      630423,
+      630424,
+      630425,
+      630426,
+      630427
+    ]
+  },
+  {
+    "ID": 132,
+    "SkillId": 3104,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 310402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      30402
+    ],
+    "PassivePartyBuffLv": [
+      3
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630431,
+      630432,
+      630433,
+      630434,
+      630435,
+      630436,
+      630437
+    ]
+  },
+  {
+    "ID": 133,
+    "SkillId": 3104,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 310401,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630410
+    ]
+  },
+  {
+    "ID": 134,
+    "SkillId": 3503,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 350302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630511,
+      630517
+    ]
+  },
+  {
+    "ID": 135,
+    "SkillId": 3503,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 350302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630521,
+      630522,
+      630523,
+      630524,
+      630525,
+      630527
+    ]
+  },
+  {
+    "ID": 136,
+    "SkillId": 3503,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 350302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630531,
+      630532,
+      630533,
+      630534,
+      630535,
+      630537
+    ]
+  },
+  {
+    "ID": 137,
+    "SkillId": 3103,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630611,
+      630617,
+      630618
+    ]
+  },
+  {
+    "ID": 138,
+    "SkillId": 3103,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 310302,
+    "Passive": [
+      130612
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630619,
+      630620
+    ]
+  },
+  {
+    "ID": 139,
+    "SkillId": 3103,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630621,
+      630627,
+      630628
+    ]
+  },
+  {
+    "ID": 140,
+    "SkillId": 3103,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 310302,
+    "Passive": [
+      130622
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630623,
+      630624,
+      630625,
+      630626,
+      630629,
+      630630,
+      630641,
+      630642
+    ]
+  },
+  {
+    "ID": 141,
+    "SkillId": 3103,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630631,
+      630637,
+      630638
+    ]
+  },
+  {
+    "ID": 142,
+    "SkillId": 3103,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 310302,
+    "Passive": [
+      130632
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630633,
+      630634,
+      630635,
+      630636,
+      630639,
+      630640,
+      630651,
+      630652
+    ]
+  },
+  {
+    "ID": 143,
+    "SkillId": 3501,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 350103,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630711,
+      630712,
+      630713
+    ]
+  },
+  {
+    "ID": 144,
+    "SkillId": 3501,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 350101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630725
+    ]
+  },
+  {
+    "ID": 145,
+    "SkillId": 3501,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 350103,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630721,
+      630722,
+      630723,
+      630724,
+      630726,
+      630728
+    ]
+  },
+  {
+    "ID": 146,
+    "SkillId": 3501,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 350101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630735
+    ]
+  },
+  {
+    "ID": 147,
+    "SkillId": 3501,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 350103,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630731,
+      630732,
+      630733,
+      630734,
+      630736,
+      630737,
+      630738,
+      630739
+    ]
+  },
+  {
+    "ID": 148,
+    "SkillId": 3201,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 320102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630811,
+      630812,
+      630813,
+      630814,
+      630819
+    ]
+  },
+  {
+    "ID": 149,
+    "SkillId": 3201,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 320107,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630818
+    ]
+  },
+  {
+    "ID": 150,
+    "SkillId": 3201,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 320102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630821,
+      630822,
+      630823,
+      630824,
+      630825,
+      630826,
+      630829
+    ]
+  },
+  {
+    "ID": 151,
+    "SkillId": 3201,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 320107,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630828
+    ]
+  },
+  {
+    "ID": 152,
+    "SkillId": 3201,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 320102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630831,
+      630832,
+      630833,
+      630834,
+      630835,
+      630836,
+      630837,
+      630839
+    ]
+  },
+  {
+    "ID": 153,
+    "SkillId": 3201,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 320107,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      630838
+    ]
+  },
+  {
+    "ID": 154,
+    "SkillId": 3505,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 350502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600602,
+      630911
+    ]
+  },
+  {
+    "ID": 155,
+    "SkillId": 3505,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 350502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600603,
+      630911,
+      630912,
+      630913
+    ]
+  },
+  {
+    "ID": 156,
+    "SkillId": 3505,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 350502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600604,
+      630921,
+      630922,
+      630923,
+      630924,
+      630925
+    ]
+  },
+  {
+    "ID": 157,
+    "SkillId": 3505,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 350502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600605,
+      630931,
+      630932,
+      630933,
+      630934,
+      630935
+    ]
+  },
+  {
+    "ID": 158,
+    "SkillId": 3203,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      30404
+    ],
+    "PassivePartyBuffLv": [
+      1
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631011,
+      631014
+    ]
+  },
+  {
+    "ID": 159,
+    "SkillId": 3203,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 320302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631015,
+      631016
+    ]
+  },
+  {
+    "ID": 160,
+    "SkillId": 3203,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      30404
+    ],
+    "PassivePartyBuffLv": [
+      2
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631021,
+      631022,
+      631024
+    ]
+  },
+  {
+    "ID": 161,
+    "SkillId": 3203,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 320302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631015,
+      631016
+    ]
+  },
+  {
+    "ID": 162,
+    "SkillId": 3203,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      30404
+    ],
+    "PassivePartyBuffLv": [
+      3
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631031,
+      631032,
+      631033,
+      631034
+    ]
+  },
+  {
+    "ID": 163,
+    "SkillId": 3203,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 320302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631015,
+      631016
+    ]
+  },
+  {
+    "ID": 164,
+    "SkillId": 3404,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 340401,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631111,
+      631112,
+      631119
+    ]
+  },
+  {
+    "ID": 165,
+    "SkillId": 3404,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 340401,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631121,
+      631122,
+      631123,
+      631124,
+      631125,
+      631126,
+      631127,
+      631128,
+      631129
+    ]
+  },
+  {
+    "ID": 166,
+    "SkillId": 3404,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 340401,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631131,
+      631132,
+      631133,
+      631134,
+      631135,
+      631136,
+      631137,
+      631138,
+      631139
+    ]
+  },
+  {
+    "ID": 167,
+    "SkillId": 3504,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 350402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631211,
+      631215,
+      631218
+    ]
+  },
+  {
+    "ID": 168,
+    "SkillId": 3504,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 350401,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631222,
+      631225
+    ]
+  },
+  {
+    "ID": 169,
+    "SkillId": 3504,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 350402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631221,
+      631224,
+      631228
+    ]
+  },
+  {
+    "ID": 170,
+    "SkillId": 3504,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 350404,
+    "Passive": [
+      131226,
+      131227,
+      131229,
+      400635
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631223
+    ]
+  },
+  {
+    "ID": 171,
+    "SkillId": 3504,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 350401,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631232,
+      631235
+    ]
+  },
+  {
+    "ID": 172,
+    "SkillId": 3504,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 350402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631231,
+      631234,
+      631238
+    ]
+  },
+  {
+    "ID": 173,
+    "SkillId": 3504,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 350403,
+    "Passive": [
+      131236,
+      131237,
+      131239,
+      400639
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631233
+    ]
+  },
+  {
+    "ID": 174,
+    "SkillId": 3303,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 330303,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 175,
+    "SkillId": 3303,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 330302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631312
+    ]
+  },
+  {
+    "ID": 176,
+    "SkillId": 3303,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631311
+    ]
+  },
+  {
+    "ID": 177,
+    "SkillId": 3303,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 330302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631322
+    ]
+  },
+  {
+    "ID": 178,
+    "SkillId": 3303,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631321
+    ]
+  },
+  {
+    "ID": 179,
+    "SkillId": 3303,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 330302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631332
+    ]
+  },
+  {
+    "ID": 180,
+    "SkillId": 3303,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      631331,
+      631333
+    ]
+  },
+  {
+    "ID": 181,
+    "SkillId": 4101,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 410102,
+    "Passive": [
+      140010,
+      140011,
+      140012,
+      140013,
+      140014
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 182,
+    "SkillId": 4101,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640111,
+      640112,
+      640113
+    ]
+  },
+  {
+    "ID": 183,
+    "SkillId": 4101,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640121,
+      640122,
+      640123
+    ]
+  },
+  {
+    "ID": 184,
+    "SkillId": 4101,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 410102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640124,
+      640125,
+      640126
+    ]
+  },
+  {
+    "ID": 185,
+    "SkillId": 4101,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640131,
+      640132,
+      640133
+    ]
+  },
+  {
+    "ID": 186,
+    "SkillId": 4101,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 410102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640134,
+      640135,
+      640136
+    ]
+  },
+  {
+    "ID": 187,
+    "SkillId": 4102,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640212,
+      640213
+    ]
+  },
+  {
+    "ID": 188,
+    "SkillId": 4102,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 410202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640211
+    ]
+  },
+  {
+    "ID": 189,
+    "SkillId": 4102,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640222,
+      640223
+    ]
+  },
+  {
+    "ID": 190,
+    "SkillId": 4102,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 410202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640221
+    ]
+  },
+  {
+    "ID": 191,
+    "SkillId": 4102,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640232,
+      640233
+    ]
+  },
+  {
+    "ID": 192,
+    "SkillId": 4102,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 410202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640231
+    ]
+  },
+  {
+    "ID": 193,
+    "SkillId": 0,
+    "SkillMinLv": 0,
+    "SkillMaxLv": 0,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 194,
+    "SkillId": 4103,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 410311,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640301
+    ]
+  },
+  {
+    "ID": 195,
+    "SkillId": 4103,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 410311,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640311
+    ]
+  },
+  {
+    "ID": 196,
+    "SkillId": 4103,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 410311,
+    "Passive": [
+      140324
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640321,
+      640322,
+      640323
+    ]
+  },
+  {
+    "ID": 197,
+    "SkillId": 4103,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 410311,
+    "Passive": [
+      140334
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640331,
+      640332,
+      640333
+    ]
+  },
+  {
+    "ID": 198,
+    "SkillId": 4104,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 410403,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600801,
+      600601
+    ]
+  },
+  {
+    "ID": 199,
+    "SkillId": 4104,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 410403,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600802,
+      600602,
+      640411
+    ]
+  },
+  {
+    "ID": 200,
+    "SkillId": 4104,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 410403,
+    "Passive": [
+      140424
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600803,
+      600603,
+      640421,
+      640422,
+      640423
+    ]
+  },
+  {
+    "ID": 201,
+    "SkillId": 4104,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 410403,
+    "Passive": [
+      140434
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600803,
+      600603,
+      640431,
+      640432,
+      640433
+    ]
+  },
+  {
+    "ID": 202,
+    "SkillId": 4105,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 410502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600301,
+      640501
+    ]
+  },
+  {
+    "ID": 203,
+    "SkillId": 4105,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 410502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600302,
+      640511,
+      640512,
+      640513,
+      640514,
+      640515
+    ]
+  },
+  {
+    "ID": 204,
+    "SkillId": 4105,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 410502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600303,
+      640521,
+      640522,
+      640523,
+      640524,
+      640525,
+      640526,
+      640527,
+      640528,
+      640529
+    ]
+  },
+  {
+    "ID": 205,
+    "SkillId": 4105,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640541,
+      640542
+    ]
+  },
+  {
+    "ID": 206,
+    "SkillId": 4105,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 410502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600303,
+      640531,
+      640532,
+      640533,
+      640534,
+      640535,
+      640536,
+      640537,
+      640538,
+      640539
+    ]
+  },
+  {
+    "ID": 207,
+    "SkillId": 4105,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640551,
+      640552
+    ]
+  },
+  {
+    "ID": 208,
+    "SkillId": 4106,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 410602,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600801,
+      640601,
+      640602
+    ]
+  },
+  {
+    "ID": 209,
+    "SkillId": 4106,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 410602,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600802,
+      640611,
+      640612,
+      640613
+    ]
+  },
+  {
+    "ID": 210,
+    "SkillId": 4106,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 410602,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600803,
+      640621,
+      640622,
+      640623,
+      640624
+    ]
+  },
+  {
+    "ID": 211,
+    "SkillId": 4106,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 410602,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600803,
+      640631,
+      640632,
+      640633,
+      640634
+    ]
+  },
+  {
+    "ID": 212,
+    "SkillId": 4107,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 410702,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600801
+    ]
+  },
+  {
+    "ID": 213,
+    "SkillId": 4107,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 410702,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600802,
+      640711,
+      640712,
+      640713,
+      640714,
+      640717
+    ]
+  },
+  {
+    "ID": 214,
+    "SkillId": 4107,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 410702,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600803,
+      600603,
+      640721,
+      640722,
+      640723,
+      640724,
+      640727
+    ]
+  },
+  {
+    "ID": 215,
+    "SkillId": 4107,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 410702,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600803,
+      600603,
+      640731,
+      640732,
+      640733,
+      640734,
+      640737
+    ]
+  },
+  {
+    "ID": 216,
+    "SkillId": 4108,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640811
+    ]
+  },
+  {
+    "ID": 217,
+    "SkillId": 4108,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 410802,
+    "Passive": [
+      140812
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 218,
+    "SkillId": 4108,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      140827
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640821
+    ]
+  },
+  {
+    "ID": 219,
+    "SkillId": 4108,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 410802,
+    "Passive": [
+      140822
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 220,
+    "SkillId": 4108,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      140837
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640831
+    ]
+  },
+  {
+    "ID": 221,
+    "SkillId": 4108,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 410802,
+    "Passive": [
+      140832
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 222,
+    "SkillId": 4109,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640911,
+      640912,
+      640913,
+      640914
+    ]
+  },
+  {
+    "ID": 223,
+    "SkillId": 4109,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 410902,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640915
+    ]
+  },
+  {
+    "ID": 224,
+    "SkillId": 4109,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640921,
+      640922,
+      640923,
+      640924
+    ]
+  },
+  {
+    "ID": 225,
+    "SkillId": 4109,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 410902,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640925
+    ]
+  },
+  {
+    "ID": 226,
+    "SkillId": 4109,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640931,
+      640932,
+      640933,
+      640934
+    ]
+  },
+  {
+    "ID": 227,
+    "SkillId": 4109,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 410902,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      640935
+    ]
+  },
+  {
+    "ID": 228,
+    "SkillId": 4110,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 411002,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641011
+    ]
+  },
+  {
+    "ID": 229,
+    "SkillId": 4110,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 411001,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      40401
+    ],
+    "PassivePartyBuffLv": [
+      1
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641022
+    ]
+  },
+  {
+    "ID": 230,
+    "SkillId": 4110,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 411002,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641021,
+      641023
+    ]
+  },
+  {
+    "ID": 231,
+    "SkillId": 4110,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 411001,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      40401
+    ],
+    "PassivePartyBuffLv": [
+      2
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641032
+    ]
+  },
+  {
+    "ID": 232,
+    "SkillId": 4110,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 411002,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641031,
+      641033
+    ]
+  },
+  {
+    "ID": 233,
+    "SkillId": 4111,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 411101,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641111,
+      641112
+    ]
+  },
+  {
+    "ID": 234,
+    "SkillId": 4111,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 411101,
+    "Passive": [
+      141126,
+      141127
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641121,
+      641122,
+      641123,
+      641124
+    ]
+  },
+  {
+    "ID": 235,
+    "SkillId": 4111,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 411101,
+    "Passive": [
+      141136,
+      141137
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641131,
+      641132,
+      641133,
+      641134
+    ]
+  },
+  {
+    "ID": 236,
+    "SkillId": 4112,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 411202,
+    "Passive": [
+      141202
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641201
+    ]
+  },
+  {
+    "ID": 237,
+    "SkillId": 4112,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 411202,
+    "Passive": [
+      141212
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641211,
+      641213
+    ]
+  },
+  {
+    "ID": 238,
+    "SkillId": 4112,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 411202,
+    "Passive": [
+      141222,
+      141224,
+      141225,
+      141226
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641221,
+      641223
+    ]
+  },
+  {
+    "ID": 239,
+    "SkillId": 4112,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 411202,
+    "Passive": [
+      141232,
+      141234,
+      141235,
+      141236
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641231,
+      641233
+    ]
+  },
+  {
+    "ID": 240,
+    "SkillId": 4113,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 411306,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641311,
+      641312
+    ]
+  },
+  {
+    "ID": 241,
+    "SkillId": 4113,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641310
+    ]
+  },
+  {
+    "ID": 242,
+    "SkillId": 4113,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 411306,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641321,
+      641322
+    ]
+  },
+  {
+    "ID": 243,
+    "SkillId": 4113,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641310
+    ]
+  },
+  {
+    "ID": 244,
+    "SkillId": 4113,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 411306,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      641331,
+      641332
+    ]
+  },
+  {
+    "ID": 245,
+    "SkillId": 5201,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 520102,
+    "Passive": [
+      150010
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      0
+    ]
+  },
+  {
+    "ID": 246,
+    "SkillId": 5201,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 520102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600301
+    ]
+  },
+  {
+    "ID": 247,
+    "SkillId": 5201,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 520102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      50401
+    ],
+    "PassivePartyBuffLv": [
+      1
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600302,
+      650111,
+      650112
+    ]
+  },
+  {
+    "ID": 248,
+    "SkillId": 5201,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 520102,
+    "Passive": [
+      150125
+    ],
+    "PassivePartyBuffID": [
+      50401
+    ],
+    "PassivePartyBuffLv": [
+      2
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600303,
+      650121,
+      650122,
+      650123,
+      650124,
+      650126
+    ]
+  },
+  {
+    "ID": 249,
+    "SkillId": 5201,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 520102,
+    "Passive": [
+      150135
+    ],
+    "PassivePartyBuffID": [
+      50401
+    ],
+    "PassivePartyBuffLv": [
+      3
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600303,
+      650131,
+      650132,
+      650133,
+      650134,
+      650136
+    ]
+  },
+  {
+    "ID": 250,
+    "SkillId": 5101,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 510102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650201
+    ]
+  },
+  {
+    "ID": 251,
+    "SkillId": 5101,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 510102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650211,
+      650211,
+      650213,
+      650214
+    ]
+  },
+  {
+    "ID": 252,
+    "SkillId": 5101,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650212
+    ]
+  },
+  {
+    "ID": 253,
+    "SkillId": 5101,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 510102,
+    "Passive": [
+      150226
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650221,
+      650221,
+      650223,
+      650224
+    ]
+  },
+  {
+    "ID": 254,
+    "SkillId": 5101,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650222,
+      650225,
+      650227,
+      650228
+    ]
+  },
+  {
+    "ID": 255,
+    "SkillId": 5101,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 510102,
+    "Passive": [
+      150236
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650231,
+      650231,
+      650233,
+      650234
+    ]
+  },
+  {
+    "ID": 256,
+    "SkillId": 5101,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650232,
+      650235,
+      650237,
+      650238
+    ]
+  },
+  {
+    "ID": 257,
+    "SkillId": 5104,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 510402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650301
+    ]
+  },
+  {
+    "ID": 258,
+    "SkillId": 5104,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 510402,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650311,
+      650311,
+      650312,
+      650313,
+      650314
+    ]
+  },
+  {
+    "ID": 259,
+    "SkillId": 5104,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 510402,
+    "Passive": [
+      150325,
+      150326
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650321,
+      650322,
+      650322,
+      650323,
+      650324
+    ]
+  },
+  {
+    "ID": 260,
+    "SkillId": 5104,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 510402,
+    "Passive": [
+      150335,
+      150336
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650331,
+      650332,
+      650332,
+      650333,
+      650334
+    ]
+  },
+  {
+    "ID": 261,
+    "SkillId": 5301,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650411,
+      650413,
+      650414,
+      650415
+    ]
+  },
+  {
+    "ID": 262,
+    "SkillId": 5301,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      150422
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650421,
+      650423,
+      650424,
+      650425
+    ]
+  },
+  {
+    "ID": 263,
+    "SkillId": 5301,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 0,
+    "Passive": [
+      150432
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650431,
+      650433,
+      650434,
+      650435
+    ]
+  },
+  {
+    "ID": 264,
+    "SkillId": 5401,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 540102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600601,
+      650501
+    ]
+  },
+  {
+    "ID": 265,
+    "SkillId": 5401,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 540102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600602,
+      650511,
+      650512,
+      650513,
+      650514,
+      650515
+    ]
+  },
+  {
+    "ID": 266,
+    "SkillId": 5401,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 540102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600603,
+      650521,
+      650522,
+      650526,
+      650527
+    ]
+  },
+  {
+    "ID": 267,
+    "SkillId": 5401,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 540103,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650523,
+      650524,
+      650525
+    ]
+  },
+  {
+    "ID": 268,
+    "SkillId": 5401,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 540102,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600603,
+      650531,
+      650532,
+      650536,
+      650537
+    ]
+  },
+  {
+    "ID": 269,
+    "SkillId": 5401,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 540103,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650533,
+      650534,
+      650535
+    ]
+  },
+  {
+    "ID": 270,
+    "SkillId": 5102,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 510202,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650601
+    ]
+  },
+  {
+    "ID": 271,
+    "SkillId": 5102,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 510202,
+    "Passive": [
+      150614
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650611,
+      650612
+    ]
+  },
+  {
+    "ID": 272,
+    "SkillId": 5102,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 510202,
+    "Passive": [
+      150624
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600603,
+      650621,
+      650622,
+      650623
+    ]
+  },
+  {
+    "ID": 273,
+    "SkillId": 5102,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 510202,
+    "Passive": [
+      150634
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600603,
+      650631,
+      650632,
+      650633
+    ]
+  },
+  {
+    "ID": 274,
+    "SkillId": 5103,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 510302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600301
+    ]
+  },
+  {
+    "ID": 275,
+    "SkillId": 5103,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 510302,
+    "Passive": [
+      150712
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600302,
+      650711,
+      650713
+    ]
+  },
+  {
+    "ID": 276,
+    "SkillId": 5103,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 510302,
+    "Passive": [
+      150722
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600303,
+      650721,
+      650723
+    ]
+  },
+  {
+    "ID": 277,
+    "SkillId": 5103,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 510302,
+    "Passive": [
+      150732
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      600303,
+      650731,
+      650733
+    ]
+  },
+  {
+    "ID": 278,
+    "SkillId": 5303,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 530302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650814,
+      650815,
+      650816
+    ]
+  },
+  {
+    "ID": 279,
+    "SkillId": 5303,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 530303,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650811,
+      650812,
+      650813
+    ]
+  },
+  {
+    "ID": 280,
+    "SkillId": 5303,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 530302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650824,
+      650825,
+      650826
+    ]
+  },
+  {
+    "ID": 281,
+    "SkillId": 5303,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 530303,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650821,
+      650822,
+      650823,
+      650824
+    ]
+  },
+  {
+    "ID": 282,
+    "SkillId": 5303,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 530302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650834,
+      650835,
+      650836
+    ]
+  },
+  {
+    "ID": 283,
+    "SkillId": 5303,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 530303,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650831,
+      650832,
+      650833,
+      650834
+    ]
+  },
+  {
+    "ID": 284,
+    "SkillId": 5403,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 540302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650910
+    ]
+  },
+  {
+    "ID": 285,
+    "SkillId": 5403,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 540302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      50402
+    ],
+    "PassivePartyBuffLv": [
+      1
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650911,
+      650913,
+      650914
+    ]
+  },
+  {
+    "ID": 286,
+    "SkillId": 5403,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 540302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      50402
+    ],
+    "PassivePartyBuffLv": [
+      2
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650921,
+      650922,
+      650923,
+      650924
+    ]
+  },
+  {
+    "ID": 287,
+    "SkillId": 5403,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 540302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      50402
+    ],
+    "PassivePartyBuffLv": [
+      3
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      650931,
+      650932,
+      650933,
+      650934
+    ]
+  },
+  {
+    "ID": 288,
+    "SkillId": 5205,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 520502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651014,
+      651015,
+      651016,
+      651017
+    ]
+  },
+  {
+    "ID": 289,
+    "SkillId": 5205,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 520502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651024,
+      651025,
+      651026,
+      651027
+    ]
+  },
+  {
+    "ID": 290,
+    "SkillId": 5205,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 520502,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651034,
+      651035,
+      651036,
+      651037
+    ]
+  },
+  {
+    "ID": 291,
+    "SkillId": 5304,
+    "SkillMinLv": 1,
+    "SkillMaxLv": 4,
+    "TriggerSkillAttackId": 530401,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651101,
+      651102
+    ]
+  },
+  {
+    "ID": 292,
+    "SkillId": 5304,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 530401,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651111,
+      651112,
+      651116,
+      651117
+    ]
+  },
+  {
+    "ID": 293,
+    "SkillId": 5304,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 530401,
+    "Passive": [
+      151129
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651121,
+      651122,
+      651123,
+      651124,
+      651126,
+      651127,
+      651128
+    ]
+  },
+  {
+    "ID": 294,
+    "SkillId": 5304,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 530401,
+    "Passive": [
+      151139
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651131,
+      651132,
+      651133,
+      651134,
+      651135,
+      651136,
+      651137,
+      651138
+    ]
+  },
+  {
+    "ID": 295,
+    "SkillId": 5202,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 520202,
+    "Passive": [
+      151213
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651211,
+      651201,
+      651210,
+      651212,
+      651214
+    ]
+  },
+  {
+    "ID": 296,
+    "SkillId": 5202,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 520202,
+    "Passive": [
+      151223
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651221,
+      651201,
+      651220,
+      651222,
+      651224
+    ]
+  },
+  {
+    "ID": 297,
+    "SkillId": 5202,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 520202,
+    "Passive": [
+      151233
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651231,
+      651201,
+      651230,
+      651232,
+      651234
+    ]
+  },
+  {
+    "ID": 298,
+    "SkillId": 5203,
+    "SkillMinLv": 5,
+    "SkillMaxLv": 7,
+    "TriggerSkillAttackId": 520302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651311,
+      651313
+    ]
+  },
+  {
+    "ID": 299,
+    "SkillId": 5203,
+    "SkillMinLv": 8,
+    "SkillMaxLv": 9,
+    "TriggerSkillAttackId": 520302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651321,
+      651322,
+      651323
+    ]
+  },
+  {
+    "ID": 300,
+    "SkillId": 5203,
+    "SkillMinLv": 10,
+    "SkillMaxLv": 10,
+    "TriggerSkillAttackId": 520302,
+    "Passive": [
+      0
+    ],
+    "PassivePartyBuffID": [
+      0
+    ],
+    "PassivePartyBuffLv": [
+      0
+    ],
+    "PartyPassive": [
+      0
+    ],
+    "SkillOnlyPassive": [
+      651331,
+      651332,
+      651333
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "ObjectID": 900001001,
+    "ObjectKind": "EGuildWarObjectKind::RevivalFlag",
+    "OwnerShip": "EGuildWarObjectOwnerShip::DEFENSE",
+    "SiegeZoneRange": 0,
+    "SiegeZone_MaxPoint": 0,
+    "SiegeZone_AddPoint": 0,
+    "SiegeZone_FallPoint": 0,
+    "SiegeZone_LockTimeSec": 0,
+    "SiegeRankingPoint": 0,
+    "SiegeZoneUIHeight": 0,
+    "Plunder_DarkSteelRewardValue": 0
+  },
+  {
+    "ObjectID": 900001002,
+    "ObjectKind": "EGuildWarObjectKind::RevivalFlag",
+    "OwnerShip": "EGuildWarObjectOwnerShip::OFFENSE",
+    "SiegeZoneRange": 0,
+    "SiegeZone_MaxPoint": 0,
+    "SiegeZone_AddPoint": 0,
+    "SiegeZone_FallPoint": 0,
+    "SiegeZone_LockTimeSec": 0,
+    "SiegeRankingPoint": 0,
+    "SiegeZoneUIHeight": 0,
+    "Plunder_DarkSteelRewardValue": 0
+  },
+  {
+    "ObjectID": 900001003,
+    "ObjectKind": "EGuildWarObjectKind::RevivalFlag",
+    "OwnerShip": "EGuildWarObjectOwnerShip::NEUTRAL",
+    "SiegeZoneRange": 500,
+    "SiegeZone_MaxPoint": 40,
+    "SiegeZone_AddPoint": 2,
+    "SiegeZone_FallPoint": 1,
+    "SiegeZone_LockTimeSec": 180,
+    "SiegeRankingPoint": 50,
+    "SiegeZoneUIHeight": 0,
+    "Plunder_DarkSteelRewardValue": 0
+  },
+  {
+    "ObjectID": 900001004,
+    "ObjectKind": "EGuildWarObjectKind::RevivalFlag",
+    "OwnerShip": "EGuildWarObjectOwnerShip::NEUTRAL",
+    "SiegeZoneRange": 500,
+    "SiegeZone_MaxPoint": 40,
+    "SiegeZone_AddPoint": 2,
+    "SiegeZone_FallPoint": 1,
+    "SiegeZone_LockTimeSec": 180,
+    "SiegeRankingPoint": 50,
+    "SiegeZoneUIHeight": 0,
+    "Plunder_DarkSteelRewardValue": 0
+  },
+  {
+    "ObjectID": 900010001,
+    "ObjectKind": "EGuildWarObjectKind::PlunderBox",
+    "OwnerShip": "EGuildWarObjectOwnerShip::NEUTRAL",
+    "SiegeZoneRange": 0,
+    "SiegeZone_MaxPoint": 0,
+    "SiegeZone_AddPoint": 0,
+    "SiegeZone_FallPoint": 0,
+    "SiegeZone_LockTimeSec": 0,
+    "SiegeRankingPoint": 0,
+    "SiegeZoneUIHeight": 0,
+    "Plunder_DarkSteelRewardValue": 750000
+  },
+  {
+    "ObjectID": 900010002,
+    "ObjectKind": "EGuildWarObjectKind::PlunderBox",
+    "OwnerShip": "EGuildWarObjectOwnerShip::NEUTRAL",
+    "SiegeZoneRange": 0,
+    "SiegeZone_MaxPoint": 0,
+    "SiegeZone_AddPoint": 0,
+    "SiegeZone_FallPoint": 0,
+    "SiegeZone_LockTimeSec": 0,
+    "SiegeRankingPoint": 0,
+    "SiegeZoneUIHeight": 0,
+    "Plunder_DarkSteelRewardValue": 2250000
+  },
+  {
+    "ObjectID": 900010003,
+    "ObjectKind": "EGuildWarObjectKind::PlunderBox",
+    "OwnerShip": "EGuildWarObjectOwnerShip::NEUTRAL",
+    "SiegeZoneRange": 0,
+    "SiegeZone_MaxPoint": 0,
+    "SiegeZone_AddPoint": 0,
+    "SiegeZone_FallPoint": 0,
+    "SiegeZone_LockTimeSec": 0,
+    "SiegeRankingPoint": 0,
+    "SiegeZoneUIHeight": 0,
+    "Plunder_DarkSteelRewardValue": 7500000
+  }
+]

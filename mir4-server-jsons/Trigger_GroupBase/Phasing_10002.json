@@ -1,0 +1,74 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "90,620,10550",
+    "TriggerRotation": 0,
+    "LinkID": [
+      3
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": 2,
+    "TriggerLocation": "-10,1210,10560",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "3.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": 4,
+    "TriggerLocation": "-250,810,10530",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "100001022",
+      "100001022"
+    ],
+    "Value2": [
+      "-760,500,10020",
+      "-950,780,10040"
+    ],
+    "Value3": [
+      "50",
+      "0"
+    ],
+    "Value4": [
+      "0",
+      "0.0"
+    ],
+    "Value5": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": "ETriggerType::QUEST_STATUS_CHECK",
+    "TriggerLocation": "110,950,10530",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2
+    ],
+    "Value1": [
+      "100010500",
+      "1"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "StateId": 1,
+    "NameID": 0,
+    "NameIconID": 0,
+    "StateGroup": 0,
+    "ControlGrade": 1500,
+    "ActionGrade": 0
+  },
+  {
+    "StateId": 2,
+    "NameID": 501010,
+    "NameIconID": 1500015,
+    "StateGroup": 1,
+    "ControlGrade": 2000,
+    "ActionGrade": 2
+  },
+  {
+    "StateId": 3,
+    "NameID": 501008,
+    "NameIconID": 1500016,
+    "StateGroup": 1,
+    "ControlGrade": 2000,
+    "ActionGrade": 1
+  },
+  {
+    "StateId": 4,
+    "NameID": 501020,
+    "NameIconID": 1500015,
+    "StateGroup": 1,
+    "ControlGrade": 2000,
+    "ActionGrade": 8
+  },
+  {
+    "StateId": 5,
+    "NameID": 0,
+    "NameIconID": 0,
+    "StateGroup": 2,
+    "ControlGrade": 1500,
+    "ActionGrade": 2
+  },
+  {
+    "StateId": 6,
+    "NameID": 501017,
+    "NameIconID": 1500017,
+    "StateGroup": 2,
+    "ControlGrade": 2000,
+    "ActionGrade": 3
+  },
+  {
+    "StateId": 7,
+    "NameID": 501017,
+    "NameIconID": 1500017,
+    "StateGroup": 2,
+    "ControlGrade": 2000,
+    "ActionGrade": 3
+  },
+  {
+    "StateId": 8,
+    "NameID": 0,
+    "NameIconID": 0,
+    "StateGroup": 2,
+    "ControlGrade": 2000,
+    "ActionGrade": 2
+  },
+  {
+    "StateId": 9,
+    "NameID": 0,
+    "NameIconID": 0,
+    "StateGroup": 1,
+    "ControlGrade": 2000,
+    "ActionGrade": 2
+  },
+  {
+    "StateId": 10,
+    "NameID": 0,
+    "NameIconID": 0,
+    "StateGroup": 1,
+    "ControlGrade": 2000,
+    "ActionGrade": 0
+  },
+  {
+    "StateId": 99,
+    "NameID": 0,
+    "NameIconID": 0,
+    "StateGroup": 2,
+    "ControlGrade": 1000,
+    "ActionGrade": 0
+  },
+  {
+    "StateId": 999,
+    "NameID": 0,
+    "NameIconID": 1500001,
+    "StateGroup": 0,
+    "ControlGrade": 0,
+    "ActionGrade": 0
+  }
+]

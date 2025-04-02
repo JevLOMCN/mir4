@@ -1,0 +1,632 @@
+[
+  {
+    "GuideEffectID": 1,
+    "GuideEffectType": 1,
+    "GuideColor1": [
+      0.859375,
+      0.823302,
+      0.089518
+    ],
+    "GuideColor2": [
+      0.963542,
+      0.904224,
+      0.64738
+    ],
+    "GuideColor3": [
+      150,
+      38.05106,
+      0.208333
+    ],
+    "Ally_GuideColor1": [
+      0.859375,
+      0.823302,
+      0.089518
+    ],
+    "Ally_GuideColor2": [
+      0.963542,
+      0.904224,
+      0.64738
+    ],
+    "Ally_GuideColor3": [
+      150,
+      38.05106,
+      0.208333
+    ],
+    "MaterialPath": 100011
+  },
+  {
+    "GuideEffectID": 2,
+    "GuideEffectType": 2,
+    "GuideColor1": [
+      0.859375,
+      0.823302,
+      0.089518
+    ],
+    "GuideColor2": [
+      0.963542,
+      0.904224,
+      0.64738
+    ],
+    "GuideColor3": [
+      150,
+      38.05106,
+      0.208333
+    ],
+    "Ally_GuideColor1": [
+      0.859375,
+      0.823302,
+      0.089518
+    ],
+    "Ally_GuideColor2": [
+      0.963542,
+      0.904224,
+      0.64738
+    ],
+    "Ally_GuideColor3": [
+      150,
+      38.05106,
+      0.208333
+    ],
+    "MaterialPath": 100012
+  },
+  {
+    "GuideEffectID": 3,
+    "GuideEffectType": 3,
+    "GuideColor1": [
+      0.859375,
+      0.823302,
+      0.089518
+    ],
+    "GuideColor2": [
+      0.963542,
+      0.904224,
+      0.64738
+    ],
+    "GuideColor3": [
+      150,
+      38.05106,
+      0.208333
+    ],
+    "Ally_GuideColor1": [
+      0.859375,
+      0.823302,
+      0.089518
+    ],
+    "Ally_GuideColor2": [
+      0.963542,
+      0.904224,
+      0.64738
+    ],
+    "Ally_GuideColor3": [
+      150,
+      38.05106,
+      0.208333
+    ],
+    "MaterialPath": 100013
+  },
+  {
+    "GuideEffectID": 4,
+    "GuideEffectType": 4,
+    "GuideColor1": [
+      2,
+      1.08,
+      0
+    ],
+    "GuideColor2": [
+      0.3,
+      0.3,
+      0.15
+    ],
+    "GuideColor3": [
+      100,
+      86,
+      25
+    ],
+    "Ally_GuideColor1": [
+      2,
+      1.08,
+      0
+    ],
+    "Ally_GuideColor2": [
+      0.3,
+      0.3,
+      0.15
+    ],
+    "Ally_GuideColor3": [
+      100,
+      86,
+      25
+    ],
+    "MaterialPath": 100014
+  },
+  {
+    "GuideEffectID": 101,
+    "GuideEffectType": 1,
+    "GuideColor1": [
+      0.091146,
+      0.217937,
+      0.729167
+    ],
+    "GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "GuideColor3": [
+      0,
+      5.375199,
+      10
+    ],
+    "Ally_GuideColor1": [
+      0.091146,
+      0.217937,
+      0.729167
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0,
+      5.375199,
+      10
+    ],
+    "MaterialPath": 100011
+  },
+  {
+    "GuideEffectID": 102,
+    "GuideEffectType": 2,
+    "GuideColor1": [
+      0.091146,
+      0.217937,
+      0.729167
+    ],
+    "GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "GuideColor3": [
+      0,
+      5.375199,
+      10
+    ],
+    "Ally_GuideColor1": [
+      0.091146,
+      0.217937,
+      0.729167
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0,
+      5.375199,
+      10
+    ],
+    "MaterialPath": 100012
+  },
+  {
+    "GuideEffectID": 103,
+    "GuideEffectType": 3,
+    "GuideColor1": [
+      0.091146,
+      0.217937,
+      0.729167
+    ],
+    "GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "GuideColor3": [
+      0,
+      5.375199,
+      10
+    ],
+    "Ally_GuideColor1": [
+      0.091146,
+      0.217937,
+      0.729167
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0,
+      5.375199,
+      10
+    ],
+    "MaterialPath": 100013
+  },
+  {
+    "GuideEffectID": 104,
+    "GuideEffectType": 4,
+    "GuideColor1": [
+      0,
+      0.6087,
+      5.3
+    ],
+    "GuideColor2": [
+      0.0591,
+      0.114476,
+      0.947619
+    ],
+    "GuideColor3": [
+      0,
+      20,
+      100
+    ],
+    "Ally_GuideColor1": [
+      0,
+      0.6087,
+      5.3
+    ],
+    "Ally_GuideColor2": [
+      0.0591,
+      0.114476,
+      0.947619
+    ],
+    "Ally_GuideColor3": [
+      0,
+      20,
+      100
+    ],
+    "MaterialPath": 100014
+  },
+  {
+    "GuideEffectID": 1001,
+    "GuideEffectType": 1,
+    "GuideColor1": [
+      0.213542,
+      0.00762,
+      0
+    ],
+    "GuideColor2": [
+      0.828125,
+      0.062851,
+      0
+    ],
+    "GuideColor3": [
+      15,
+      0,
+      0
+    ],
+    "Ally_GuideColor1": [
+      0.313989,
+      0.610496,
+      1
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0.281747,
+      0.437849,
+      10
+    ],
+    "MaterialPath": 100011
+  },
+  {
+    "GuideEffectID": 1002,
+    "GuideEffectType": 2,
+    "GuideColor1": [
+      0.213542,
+      0.00762,
+      0
+    ],
+    "GuideColor2": [
+      0.828125,
+      0.062851,
+      0
+    ],
+    "GuideColor3": [
+      15,
+      0,
+      0
+    ],
+    "Ally_GuideColor1": [
+      0.313989,
+      0.610496,
+      1
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0.281747,
+      0.437849,
+      10
+    ],
+    "MaterialPath": 100012
+  },
+  {
+    "GuideEffectID": 1003,
+    "GuideEffectType": 3,
+    "GuideColor1": [
+      0.213542,
+      0.00762,
+      0
+    ],
+    "GuideColor2": [
+      0.828125,
+      0.062851,
+      0
+    ],
+    "GuideColor3": [
+      10,
+      0,
+      0
+    ],
+    "Ally_GuideColor1": [
+      0.313989,
+      0.610496,
+      1
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0.281747,
+      0.437849,
+      10
+    ],
+    "MaterialPath": 100013
+  },
+  {
+    "GuideEffectID": 1004,
+    "GuideEffectType": 4,
+    "GuideColor1": [
+      0.213542,
+      0.00762,
+      0
+    ],
+    "GuideColor2": [
+      0.828125,
+      0.062851,
+      0
+    ],
+    "GuideColor3": [
+      10,
+      0,
+      0
+    ],
+    "Ally_GuideColor1": [
+      0.313989,
+      0.610496,
+      1
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0.281747,
+      0.437849,
+      10
+    ],
+    "MaterialPath": 100014
+  },
+  {
+    "GuideEffectID": 2001,
+    "GuideEffectType": 1,
+    "GuideColor1": [
+      0.803171,
+      0.006088,
+      0.828125
+    ],
+    "GuideColor2": [
+      0.213542,
+      0.009261,
+      0.129268
+    ],
+    "GuideColor3": [
+      200,
+      0,
+      100
+    ],
+    "Ally_GuideColor1": [
+      0.313989,
+      0.610496,
+      1
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0.281747,
+      0.437849,
+      10
+    ],
+    "MaterialPath": 100011
+  },
+  {
+    "GuideEffectID": 2002,
+    "GuideEffectType": 2,
+    "GuideColor1": [
+      0.803171,
+      0.006088,
+      0.828125
+    ],
+    "GuideColor2": [
+      0.213542,
+      0.009261,
+      0.129268
+    ],
+    "GuideColor3": [
+      200,
+      0,
+      100
+    ],
+    "Ally_GuideColor1": [
+      0.313989,
+      0.610496,
+      1
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0.281747,
+      0.437849,
+      10
+    ],
+    "MaterialPath": 100012
+  },
+  {
+    "GuideEffectID": 2003,
+    "GuideEffectType": 3,
+    "GuideColor1": [
+      0.803171,
+      0.006088,
+      0.828125
+    ],
+    "GuideColor2": [
+      0.213542,
+      0.009261,
+      0.129268
+    ],
+    "GuideColor3": [
+      200,
+      0,
+      100
+    ],
+    "Ally_GuideColor1": [
+      0.313989,
+      0.610496,
+      1
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0.281747,
+      0.437849,
+      10
+    ],
+    "MaterialPath": 100013
+  },
+  {
+    "GuideEffectID": 2004,
+    "GuideEffectType": 4,
+    "GuideColor1": [
+      2,
+      0,
+      1
+    ],
+    "GuideColor2": [
+      0.213542,
+      0.009261,
+      0.129268
+    ],
+    "GuideColor3": [
+      50,
+      0,
+      20
+    ],
+    "Ally_GuideColor1": [
+      0.313989,
+      0.610496,
+      1
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0.281747,
+      0.437849,
+      10
+    ],
+    "MaterialPath": 100014
+  },
+  {
+    "GuideEffectID": 3002,
+    "GuideEffectType": 2,
+    "GuideColor1": [
+      0.213542,
+      0.213542,
+      0.213542
+    ],
+    "GuideColor2": [
+      0.728125,
+      0.728125,
+      0.728125
+    ],
+    "GuideColor3": [
+      3,
+      3,
+      3
+    ],
+    "Ally_GuideColor1": [
+      0.313989,
+      0.610496,
+      1
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0.281747,
+      0.437849,
+      10
+    ],
+    "MaterialPath": 100012
+  },
+  {
+    "GuideEffectID": 4002,
+    "GuideEffectType": 2,
+    "GuideColor1": [
+      0.007542,
+      0.213542,
+      0
+    ],
+    "GuideColor2": [
+      0.062851,
+      0.828125,
+      0
+    ],
+    "GuideColor3": [
+      0,
+      15,
+      0
+    ],
+    "Ally_GuideColor1": [
+      0.313989,
+      0.610496,
+      1
+    ],
+    "Ally_GuideColor2": [
+      0.358803,
+      0.40595,
+      0.828125
+    ],
+    "Ally_GuideColor3": [
+      0.281747,
+      0.437849,
+      10
+    ],
+    "MaterialPath": 100012
+  }
+]

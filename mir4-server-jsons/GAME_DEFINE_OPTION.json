@@ -1,0 +1,1478 @@
+[
+  {
+    "Id": 1,
+    "Parameter": "AnimRateDistanceFactorThreshold_F",
+    "OptionType": "float",
+    "OptionValue": "0.002"
+  },
+  {
+    "Id": 2,
+    "Parameter": "NpcMaxDrawDistance_F",
+    "OptionType": "float",
+    "OptionValue": "6400"
+  },
+  {
+    "Id": 3,
+    "Parameter": "ActorFadeTime_F",
+    "OptionType": "float",
+    "OptionValue": "0.5"
+  },
+  {
+    "Id": 4,
+    "Parameter": "CutsceneRenderingRange_F",
+    "OptionType": "float",
+    "OptionValue": "99999"
+  },
+  {
+    "Id": 5,
+    "Parameter": "DefaultBroadCastRange_F",
+    "OptionType": "float",
+    "OptionValue": "5200"
+  },
+  {
+    "Id": 6,
+    "Parameter": "BroadCastRangeNormal_F",
+    "OptionType": "float",
+    "OptionValue": "5200"
+  },
+  {
+    "Id": 7,
+    "Parameter": "BroadCastRangeWide_F",
+    "OptionType": "float",
+    "OptionValue": "7200"
+  },
+  {
+    "Id": 8,
+    "Parameter": "BroadCastRangeVeryWide_F",
+    "OptionType": "float",
+    "OptionValue": "8400"
+  },
+  {
+    "Id": 9,
+    "Parameter": "BroadCastRangeNoLimit_F",
+    "OptionType": "float",
+    "OptionValue": "20000"
+  },
+  {
+    "Id": 10,
+    "Parameter": "DefaultPawnFadeRange_F",
+    "OptionType": "float",
+    "OptionValue": "5000"
+  },
+  {
+    "Id": 11,
+    "Parameter": "PawnFadeRangesNormal_F",
+    "OptionType": "float",
+    "OptionValue": "3000"
+  },
+  {
+    "Id": 12,
+    "Parameter": "PawnFadeRangesWide_F",
+    "OptionType": "float",
+    "OptionValue": "5000"
+  },
+  {
+    "Id": 13,
+    "Parameter": "PawnFadeRangesVeryWide_F",
+    "OptionType": "float",
+    "OptionValue": "7000"
+  },
+  {
+    "Id": 14,
+    "Parameter": "PawnFadeRangesNoLimit_F",
+    "OptionType": "float",
+    "OptionValue": "9000"
+  },
+  {
+    "Id": 15,
+    "Parameter": "MinNickNameLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 16,
+    "Parameter": "MaxNickNameLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "8"
+  },
+  {
+    "Id": 17,
+    "Parameter": "ComboDelay_F",
+    "OptionType": "float",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 18,
+    "Parameter": "StartComboCount_INT",
+    "OptionType": "int",
+    "OptionValue": "5"
+  },
+  {
+    "Id": 19,
+    "Parameter": "AutoBattlePointRange_F",
+    "OptionType": "float",
+    "OptionValue": "3000"
+  },
+  {
+    "Id": 20,
+    "Parameter": "AutoBattleZoneRange_F",
+    "OptionType": "float",
+    "OptionValue": "5000"
+  },
+  {
+    "Id": 21,
+    "Parameter": "AutoBattleTraceAddRange_F",
+    "OptionType": "float",
+    "OptionValue": "2000"
+  },
+  {
+    "Id": 22,
+    "Parameter": "MinNormalAtkTime_F",
+    "OptionType": "float",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 23,
+    "Parameter": "AutoSkillUseNormalCountMin_INT",
+    "OptionType": "int",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 24,
+    "Parameter": "AutoSkillUseNormalCountMax_INT",
+    "OptionType": "int",
+    "OptionValue": "4"
+  },
+  {
+    "Id": 25,
+    "Parameter": "AutoBattleAwakenTime_F",
+    "OptionType": "float",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 26,
+    "Parameter": "AutoBattleSkillAwakenTime_F",
+    "OptionType": "float",
+    "OptionValue": "6"
+  },
+  {
+    "Id": 27,
+    "Parameter": "CounterAttackWaitingTime_F",
+    "OptionType": "float",
+    "OptionValue": "5"
+  },
+  {
+    "Id": 28,
+    "Parameter": "FastRunTime_F",
+    "OptionType": "float",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 29,
+    "Parameter": "FastRunCoolTime_F",
+    "OptionType": "float",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 30,
+    "Parameter": "VehicleDownHillLimitAngle_F",
+    "OptionType": "float",
+    "OptionValue": "-25"
+  },
+  {
+    "Id": 31,
+    "Parameter": "SkillGlobalCooltime_F",
+    "OptionType": "float",
+    "OptionValue": "0.5"
+  },
+  {
+    "Id": 32,
+    "Parameter": "ChangeSkillDeckGlobalCooltime_F",
+    "OptionType": "float",
+    "OptionValue": "0.2"
+  },
+  {
+    "Id": 33,
+    "Parameter": "VigorUseValue_F",
+    "OptionType": "float",
+    "OptionValue": "100"
+  },
+  {
+    "Id": 34,
+    "Parameter": "RegenerationVigor_F",
+    "OptionType": "float",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 35,
+    "Parameter": "PhaseBossDieSlowValue_F",
+    "OptionType": "float",
+    "OptionValue": "0.2"
+  },
+  {
+    "Id": 36,
+    "Parameter": "PhaseBossDieSlowTime_F",
+    "OptionType": "float",
+    "OptionValue": "1.1"
+  },
+  {
+    "Id": 37,
+    "Parameter": "WarpEndTime_F",
+    "OptionType": "float",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 38,
+    "Parameter": "MagicSquareLimitTime_INT",
+    "OptionType": "int",
+    "OptionValue": "1800"
+  },
+  {
+    "Id": 39,
+    "Parameter": "MagicSquareChangeTime_INT",
+    "OptionType": "int",
+    "OptionValue": "5"
+  },
+  {
+    "Id": 40,
+    "Parameter": "SecretLimitTime_INT",
+    "OptionType": "int",
+    "OptionValue": "1800"
+  },
+  {
+    "Id": 41,
+    "Parameter": "SubtargetRetentionTime_F",
+    "OptionType": "float",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 42,
+    "Parameter": "SubtargetLineRetentionTime_F",
+    "OptionType": "float",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 43,
+    "Parameter": "StartSleepModeTime1_F",
+    "OptionType": "float",
+    "OptionValue": "600"
+  },
+  {
+    "Id": 44,
+    "Parameter": "StartSleepModeTime2_F",
+    "OptionType": "float",
+    "OptionValue": "1800"
+  },
+  {
+    "Id": 45,
+    "Parameter": "TrackerMarkPlayTime_F",
+    "OptionType": "float",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 46,
+    "Parameter": "NameTagAlarmAniDist_F",
+    "OptionType": "float",
+    "OptionValue": "500"
+  },
+  {
+    "Id": 47,
+    "Parameter": "ShowNameTagDist_F",
+    "OptionType": "float",
+    "OptionValue": "3000"
+  },
+  {
+    "Id": 48,
+    "Parameter": "ContentsNpcNameTagDistance_F",
+    "OptionType": "float",
+    "OptionValue": "6000"
+  },
+  {
+    "Id": 49,
+    "Parameter": "DeckChangeDistance_F",
+    "OptionType": "float",
+    "OptionValue": "40"
+  },
+  {
+    "Id": 50,
+    "Parameter": "OperationBtnShowTime_F",
+    "OptionType": "float",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 51,
+    "Parameter": "ShowVirtualJoystickPressedTime_F",
+    "OptionType": "float",
+    "OptionValue": "1000"
+  },
+  {
+    "Id": 52,
+    "Parameter": "VirtualJoystickMoveStartDistance_F",
+    "OptionType": "float",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 53,
+    "Parameter": "ShowSkillTooltipPressedTime_F",
+    "OptionType": "float",
+    "OptionValue": "0.5"
+  },
+  {
+    "Id": 54,
+    "Parameter": "OffSleepModeSwipeDistance_F",
+    "OptionType": "float",
+    "OptionValue": "100"
+  },
+  {
+    "Id": 55,
+    "Parameter": "HUD_QuickSlot_SwipeDistance_F",
+    "OptionType": "float",
+    "OptionValue": "60"
+  },
+  {
+    "Id": 56,
+    "Parameter": "HUD_QuickSlot_PressedTime_F",
+    "OptionType": "float",
+    "OptionValue": "0.5"
+  },
+  {
+    "Id": 57,
+    "Parameter": "ItemResultEffectSkipTime_F",
+    "OptionType": "float",
+    "OptionValue": "0.3"
+  },
+  {
+    "Id": 58,
+    "Parameter": "ItemResultSkipTime_F",
+    "OptionType": "float",
+    "OptionValue": "0.5"
+  },
+  {
+    "Id": 59,
+    "Parameter": "ContentsOpenAniA_PlayTime_F",
+    "OptionType": "float",
+    "OptionValue": "0.2"
+  },
+  {
+    "Id": 60,
+    "Parameter": "ContentsOpenAniA_StartScale_F",
+    "OptionType": "float",
+    "OptionValue": "1.2"
+  },
+  {
+    "Id": 61,
+    "Parameter": "AllowedRegExr_Word_STR",
+    "OptionType": "string",
+    "OptionValue": "."
+  },
+  {
+    "Id": 62,
+    "Parameter": "AllowedRegExr_Sentence_STR",
+    "OptionType": "string",
+    "OptionValue": "."
+  },
+  {
+    "Id": 63,
+    "Parameter": "NPCFrontDist_F",
+    "OptionType": "float",
+    "OptionValue": "270"
+  },
+  {
+    "Id": 64,
+    "Parameter": "TargetSearchDist_F",
+    "OptionType": "float",
+    "OptionValue": "3000"
+  },
+  {
+    "Id": 65,
+    "Parameter": "TargetSearchTime_F",
+    "OptionType": "float",
+    "OptionValue": "0.5"
+  },
+  {
+    "Id": 66,
+    "Parameter": "TrackerCancelTimer_F",
+    "OptionType": "float",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 67,
+    "Parameter": "AutoBattleChangeTime_F",
+    "OptionType": "float",
+    "OptionValue": "20"
+  },
+  {
+    "Id": 68,
+    "Parameter": "MessageShowTime_F",
+    "OptionType": "float",
+    "OptionValue": "7"
+  },
+  {
+    "Id": 69,
+    "Parameter": "RelationMsgShowTime_F",
+    "OptionType": "float",
+    "OptionValue": "2.5"
+  },
+  {
+    "Id": 70,
+    "Parameter": "WarningCombatPointRange_F",
+    "OptionType": "float",
+    "OptionValue": "0.8"
+  },
+  {
+    "Id": 71,
+    "Parameter": "WarningCombatPointDownRange_F",
+    "OptionType": "float",
+    "OptionValue": "0.7"
+  },
+  {
+    "Id": 72,
+    "Parameter": "WarningCriteriaQuestID_INT",
+    "OptionType": "int",
+    "OptionValue": "101012120"
+  },
+  {
+    "Id": 73,
+    "Parameter": "WarningMessage_INT",
+    "OptionType": "int",
+    "OptionValue": "1006065"
+  },
+  {
+    "Id": 74,
+    "Parameter": "CompleteBattleRange_F",
+    "OptionType": "float",
+    "OptionValue": "3000"
+  },
+  {
+    "Id": 75,
+    "Parameter": "QuestIDForDisableTrackerGuide_INT",
+    "OptionType": "int",
+    "OptionValue": "101000100"
+  },
+  {
+    "Id": 76,
+    "Parameter": "TrackerBlockTime_F",
+    "OptionType": "float",
+    "OptionValue": "0.5"
+  },
+  {
+    "Id": 77,
+    "Parameter": "MovieFadeTime_F",
+    "OptionType": "float",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 78,
+    "Parameter": "ChangeLevelFadeTime_F",
+    "OptionType": "float",
+    "OptionValue": "0.4"
+  },
+  {
+    "Id": 79,
+    "Parameter": "CloseLoadingScreenDelay_F",
+    "OptionType": "float",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 80,
+    "Parameter": "EffectLandOffsetZ_F",
+    "OptionType": "float",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 81,
+    "Parameter": "ActorFadeMaskedMapM_NPC_Base_STR",
+    "OptionType": "string",
+    "OptionValue": "Material'/Game/Characters/Material/M_NPC_Base_Masked.M_NPC_Base_Masked'"
+  },
+  {
+    "Id": 82,
+    "Parameter": "ActorFadeMaskedMapM_NPC_Hair_STR",
+    "OptionType": "string",
+    "OptionValue": "Material'/Game/Characters/Material/M_NPC_Hair_Masked.M_NPC_Hair_Masked'"
+  },
+  {
+    "Id": 83,
+    "Parameter": "ActorFadeMaskedMapM_NPC_Simple_STR",
+    "OptionType": "string",
+    "OptionValue": "Material'/Game/Characters/Material/M_NPC_Simple_Masked.M_NPC_Simple_Masked'"
+  },
+  {
+    "Id": 84,
+    "Parameter": "ActorFadeMaskedMapM_PC_Base_STR",
+    "OptionType": "string",
+    "OptionValue": "Material'/Game/Characters/Material/M_PC_Base_Masked.M_PC_Base_Masked'"
+  },
+  {
+    "Id": 85,
+    "Parameter": "ActorFadeMaskedMapM_PC_Hair_STR",
+    "OptionType": "string",
+    "OptionValue": "Material'/Game/Characters/Material/M_PC_Hair_Masked.M_PC_Hair_Masked'"
+  },
+  {
+    "Id": 86,
+    "Parameter": "ActorFadeMaskedMapM_PC_Weapon_STR",
+    "OptionType": "string",
+    "OptionValue": "Material'/Game/Characters/Material/M_PC_Weapon_Masked.M_PC_Weapon_Masked'"
+  },
+  {
+    "Id": 87,
+    "Parameter": "ActorFadeMaskedMapM_NPC_Hair_Masked_STR",
+    "OptionType": "string",
+    "OptionValue": "Material'/Game/Characters/Material/M_NPC_Hair_Masked.M_NPC_Hair_Masked'"
+  },
+  {
+    "Id": 88,
+    "Parameter": "ActorFadeMaskedMapM_PC_Base_Masked_STR",
+    "OptionType": "string",
+    "OptionValue": "Material'/Game/Characters/Material/M_PC_Base_Masked.M_PC_Base_Masked'"
+  },
+  {
+    "Id": 89,
+    "Parameter": "ActorFadeMaskedMapM_PC_Simple_Masked_STR",
+    "OptionType": "string",
+    "OptionValue": "Material'/Game/Characters/Material/M_NPC_Simple_Masked.M_NPC_Simple_Masked'"
+  },
+  {
+    "Id": 90,
+    "Parameter": "PathDieMat_STR",
+    "OptionType": "string",
+    "OptionValue": "Material'/Game/Characters/Material/Die_Base.Die_Base'"
+  },
+  {
+    "Id": 91,
+    "Parameter": "PathStoneMat_STR",
+    "OptionType": "string",
+    "OptionValue": "/Game/Characters/Material/system_materials/StonizeMaterial_Inst.StonizeMaterial_Inst"
+  },
+  {
+    "Id": 92,
+    "Parameter": "PathFreezMat_STR",
+    "OptionType": "string",
+    "OptionValue": "/Game/Characters/Material/system_materials/IceMaterial_Inst.IceMaterial_Inst"
+  },
+  {
+    "Id": 93,
+    "Parameter": "HudGetSpecialItemMinGrade_INT",
+    "OptionType": "int",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 94,
+    "Parameter": "HudGetSpecialItemMinTier_INT",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 95,
+    "Parameter": "ContentsGetIteItemCountRule_INT",
+    "OptionType": "int",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 96,
+    "Parameter": "HelpInterval_F",
+    "OptionType": "float",
+    "OptionValue": "5"
+  },
+  {
+    "Id": 97,
+    "Parameter": "ArrivalIconOffset_F",
+    "OptionType": "float",
+    "OptionValue": "300"
+  },
+  {
+    "Id": 98,
+    "Parameter": "ArrivalIconMinLimit_F",
+    "OptionType": "float",
+    "OptionValue": "3500"
+  },
+  {
+    "Id": 99,
+    "Parameter": "WorldChatShopIdLink_INT",
+    "OptionType": "int",
+    "OptionValue": "1601038"
+  },
+  {
+    "Id": 100,
+    "Parameter": "WorldChatNeedItemId_INT",
+    "OptionType": "int",
+    "OptionValue": "61601001"
+  },
+  {
+    "Id": 101,
+    "Parameter": "WorldChattingDelayTime_INT",
+    "OptionType": "int",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 102,
+    "Parameter": "MaxChattingList_INT",
+    "OptionType": "int",
+    "OptionValue": "200"
+  },
+  {
+    "Id": 103,
+    "Parameter": "MaxMacroList_INT",
+    "OptionType": "int",
+    "OptionValue": "5"
+  },
+  {
+    "Id": 104,
+    "Parameter": "MaxBlockUserCount_INT",
+    "OptionType": "int",
+    "OptionValue": "50"
+  },
+  {
+    "Id": 105,
+    "Parameter": "MiniHudOffTime_INT",
+    "OptionType": "int",
+    "OptionValue": "6000"
+  },
+  {
+    "Id": 106,
+    "Parameter": "FaceMarkDurationTime_INT",
+    "OptionType": "int",
+    "OptionValue": "800"
+  },
+  {
+    "Id": 107,
+    "Parameter": "FaceMarkDisappearTime_INT",
+    "OptionType": "int",
+    "OptionValue": "800"
+  },
+  {
+    "Id": 108,
+    "Parameter": "ShowPresetMaxSlotCount_INT",
+    "OptionType": "int",
+    "OptionValue": "-1"
+  },
+  {
+    "Id": 109,
+    "Parameter": "CustomizingSaveFileDirectory_STR",
+    "OptionType": "string",
+    "OptionValue": "Customize/"
+  },
+  {
+    "Id": 110,
+    "Parameter": "CustomizingSaveFileNameExtension_STR",
+    "OptionType": "string",
+    "OptionValue": "_Customize_{1}.json"
+  },
+  {
+    "Id": 111,
+    "Parameter": "CustomizingAutoSaveFileName_STR",
+    "OptionType": "string",
+    "OptionValue": "AutoSave_Customize_{1}.json"
+  },
+  {
+    "Id": 112,
+    "Parameter": "CustomizingSaveFileName_STR",
+    "OptionType": "string",
+    "OptionValue": "%Y_%m_%d_%H_%M_%S%s"
+  },
+  {
+    "Id": 113,
+    "Parameter": "CustomizingSaveFileTimeTitle_STR",
+    "OptionType": "string",
+    "OptionValue": "%Y:%m:%d %H:%M"
+  },
+  {
+    "Id": 114,
+    "Parameter": "StagePartyMember_Field_INT",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 115,
+    "Parameter": "StagePartyMember_EliteDungeon_INT",
+    "OptionType": "int",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 116,
+    "Parameter": "StagePartyMember_UnderWorld_INT",
+    "OptionType": "int",
+    "OptionValue": "5"
+  },
+  {
+    "Id": 117,
+    "Parameter": "StagePartyMember_GuildExpedition_INT",
+    "OptionType": "int",
+    "OptionValue": "50"
+  },
+  {
+    "Id": 118,
+    "Parameter": "StagePartyMember_MagicSquare_INT",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 119,
+    "Parameter": "StagePartyMember_SecretDungeon_INT",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 120,
+    "Parameter": "StagePartyMember_ArenaPvP_INT",
+    "OptionType": "int",
+    "OptionValue": "5"
+  },
+  {
+    "Id": 121,
+    "Parameter": "StagePartyMember_WorldBoss_INT",
+    "OptionType": "int",
+    "OptionValue": "50"
+  },
+  {
+    "Id": 122,
+    "Parameter": "AuctionMinPrice_INT",
+    "OptionType": "int",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 123,
+    "Parameter": "AuctionMaxRegistPrice_INT",
+    "OptionType": "int",
+    "OptionValue": "100000000"
+  },
+  {
+    "Id": 124,
+    "Parameter": "AuctionMaxSellCount_INT",
+    "OptionType": "int",
+    "OptionValue": "30"
+  },
+  {
+    "Id": 125,
+    "Parameter": "AuctionSearchDelay_INT",
+    "OptionType": "int",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 126,
+    "Parameter": "AuctionRefreshDelay_INT",
+    "OptionType": "int",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 127,
+    "Parameter": "AuctionMaxBookMarkCount_INT",
+    "OptionType": "int",
+    "OptionValue": "60"
+  },
+  {
+    "Id": 128,
+    "Parameter": "AuctionMaxCalculateCount_INT",
+    "OptionType": "int",
+    "OptionValue": "50"
+  },
+  {
+    "Id": 129,
+    "Parameter": "CameraShakeNone_F",
+    "OptionType": "float",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 130,
+    "Parameter": "CameraShakeLow_F",
+    "OptionType": "float",
+    "OptionValue": "0.5"
+  },
+  {
+    "Id": 131,
+    "Parameter": "CameraShakeHigh_F",
+    "OptionType": "float",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 132,
+    "Parameter": "HeartBeatInterval_F",
+    "OptionType": "float",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 133,
+    "Parameter": "HeartBeatCountToDisconnect_INT",
+    "OptionType": "int",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 134,
+    "Parameter": "RecvReconnectResultTimeout_F",
+    "OptionType": "float",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 135,
+    "Parameter": "WriteDelay_F",
+    "OptionType": "float",
+    "OptionValue": "0.03"
+  },
+  {
+    "Id": 136,
+    "Parameter": "GoolgleAcoountLink_STR",
+    "OptionType": "string",
+    "OptionValue": "https://auth.mir4.co.kr/__/auth/handler"
+  },
+  {
+    "Id": 137,
+    "Parameter": "ChattingPositionInfo_StageType_STR",
+    "OptionType": "string",
+    "OptionValue": "1,11,12,13,104"
+  },
+  {
+    "Id": 138,
+    "Parameter": "Trade_SearchSmelting_Min_INT",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 139,
+    "Parameter": "Trade_SearchSmelting_Max_INT",
+    "OptionType": "int",
+    "OptionValue": "12"
+  },
+  {
+    "Id": 140,
+    "Parameter": "GameKeyOpenQuest",
+    "OptionType": "int",
+    "OptionValue": "100000100"
+  },
+  {
+    "Id": 141,
+    "Parameter": "ProfileImageLevel_INT",
+    "OptionType": "int",
+    "OptionValue": "40"
+  },
+  {
+    "Id": 142,
+    "Parameter": "ShowdownRequstDistance_INT",
+    "OptionType": "int",
+    "OptionValue": "15"
+  },
+  {
+    "Id": 143,
+    "Parameter": "WarPartyIcon_F",
+    "OptionType": "float",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 144,
+    "Parameter": "WarFriendIcon_F",
+    "OptionType": "float",
+    "OptionValue": "0.7"
+  },
+  {
+    "Id": 145,
+    "Parameter": "WarEnemyIcon_F",
+    "OptionType": "float",
+    "OptionValue": "0.7"
+  },
+  {
+    "Id": 146,
+    "Parameter": "WarNeutralityIcon_F",
+    "OptionType": "float",
+    "OptionValue": "0.7"
+  },
+  {
+    "Id": 147,
+    "Parameter": "WarOther_F",
+    "OptionType": "float",
+    "OptionValue": "0.7"
+  },
+  {
+    "Id": 148,
+    "Parameter": "PkDropObjectDeleteTime_INT",
+    "OptionType": "int",
+    "OptionValue": "300"
+  },
+  {
+    "Id": 149,
+    "Parameter": "OnClickGameStart_Timeout_F",
+    "OptionType": "float",
+    "OptionValue": "60"
+  },
+  {
+    "Id": 150,
+    "Parameter": "AutoBattlePartyRange_F",
+    "OptionType": "float",
+    "OptionValue": "2000"
+  },
+  {
+    "Id": 151,
+    "Parameter": "HeartBeatCountForReconnect_INT",
+    "OptionType": "int",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 152,
+    "Parameter": "Individual_Storage_ContentsAlram_INT",
+    "OptionType": "int",
+    "OptionValue": "2070003"
+  },
+  {
+    "Id": 153,
+    "Parameter": "PKAlarm_CoolTimeSec_Int",
+    "OptionType": "int",
+    "OptionValue": "30"
+  },
+  {
+    "Id": 154,
+    "Parameter": "ITEM_OPTION_Grade_A_INT",
+    "OptionType": "int",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 155,
+    "Parameter": "UsePacketEncrypt",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 156,
+    "Parameter": "ItemAutoSmeltingGrade_INT",
+    "OptionType": "int",
+    "OptionValue": "2,3"
+  },
+  {
+    "Id": 157,
+    "Parameter": "ItemAutoSmeltingDefaultValue_INT",
+    "OptionType": "int",
+    "OptionValue": "4"
+  },
+  {
+    "Id": 158,
+    "Parameter": "Server_Visit_Alarm_Start_INT",
+    "OptionType": "int",
+    "OptionValue": "300"
+  },
+  {
+    "Id": 159,
+    "Parameter": "Server_Visit_Alarm_Cycle_INT",
+    "OptionType": "int",
+    "OptionValue": "60"
+  },
+  {
+    "Id": 160,
+    "Parameter": "Server_Visit_Alarm_Message_INT",
+    "OptionType": "int",
+    "OptionValue": "2100045"
+  },
+  {
+    "Id": 161,
+    "Parameter": "Server_Visit_End_Message_INT",
+    "OptionType": "int",
+    "OptionValue": "2100046"
+  },
+  {
+    "Id": 162,
+    "Parameter": "PetLvUpBroadeCastInfo_INT",
+    "OptionType": "int",
+    "OptionValue": "1065513"
+  },
+  {
+    "Id": 163,
+    "Parameter": "GUILD_WAR_SIEGE_BattleEnd_UITimeSec",
+    "OptionType": "int",
+    "OptionValue": "60"
+  },
+  {
+    "Id": 164,
+    "Parameter": "PathPCAHideMat",
+    "OptionType": "string",
+    "OptionValue": "MaterialInstanceConstant'/Game/Characters/Material/PCA_FADE_ins_00.PCA_FADE_ins_00'"
+  },
+  {
+    "Id": 165,
+    "Parameter": "PetShowDistance_INT",
+    "OptionType": "int",
+    "OptionValue": "1000"
+  },
+  {
+    "Id": 166,
+    "Parameter": "ServerVisit_Entrance_Delay_Time",
+    "OptionType": "float",
+    "OptionValue": "7"
+  },
+  {
+    "Id": 167,
+    "Parameter": "ServerVisit_Guild_Max_ListCount",
+    "OptionType": "int",
+    "OptionValue": "50"
+  },
+  {
+    "Id": 168,
+    "Parameter": "SeverVisitSearchDelay_INT",
+    "OptionType": "int",
+    "OptionValue": "3"
+  },
+  {
+    "Id": 169,
+    "Parameter": "GoolgleAcoountLinkGlobal_STR",
+    "OptionType": "string",
+    "OptionValue": "https://auth.mir4global.com/__/auth/handler"
+  },
+  {
+    "Id": 170,
+    "Parameter": "CharInfo_EquipSlotOrder_STR",
+    "OptionType": "string",
+    "OptionValue": "1,9,5,6,7,8,2,3,4,10"
+  },
+  {
+    "Id": 171,
+    "Parameter": "Quick_EquipSlotOrder_STR",
+    "OptionType": "string",
+    "OptionValue": "1,9,5,2,6,3,7,4,8,10"
+  },
+  {
+    "Id": 172,
+    "Parameter": "Jewel_SlotClose_int",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 173,
+    "Parameter": "GlobalMaxNickNameLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "12"
+  },
+  {
+    "Id": 174,
+    "Parameter": "GlobalMinClanNameLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 175,
+    "Parameter": "GlobalMaxClanNameLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "12"
+  },
+  {
+    "Id": 176,
+    "Parameter": "MinClanNameLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 177,
+    "Parameter": "MaxClanNameLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "8"
+  },
+  {
+    "Id": 178,
+    "Parameter": "GlobalMinNickNameLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 179,
+    "Parameter": "ItemAutoOptionGradeDefaultCount_A_INT",
+    "OptionType": "int",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 180,
+    "Parameter": "ItemAutoOptionGradeDefaultCount_S_INT",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 181,
+    "Parameter": "ItemAutoOptionGradeDefaultCount_SS_INT",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 182,
+    "Parameter": "ItemAutoOptionMaxRepeatCount_INT",
+    "OptionType": "int",
+    "OptionValue": "999"
+  },
+  {
+    "Id": 183,
+    "Parameter": "ITEM_OPTION_SPECIAL_OPEN",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 184,
+    "Parameter": "Guild_Searching_Delay_Time_float",
+    "OptionType": "float",
+    "OptionValue": "15"
+  },
+  {
+    "Id": 185,
+    "Parameter": "PartyInviteChatCount",
+    "OptionType": "int",
+    "OptionValue": "100"
+  },
+  {
+    "Id": 186,
+    "Parameter": "PartyInviteBtnCoolTime",
+    "OptionType": "int",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 187,
+    "Parameter": "GlobalMinClanAliasLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 188,
+    "Parameter": "GlobalMaxClanAliasLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "12"
+  },
+  {
+    "Id": 189,
+    "Parameter": "MinClanAliasLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "2"
+  },
+  {
+    "Id": 190,
+    "Parameter": "MaxClanAliasLenth_INT",
+    "OptionType": "int",
+    "OptionValue": "6"
+  },
+  {
+    "Id": 191,
+    "Parameter": "HudSizeX",
+    "OptionType": "int",
+    "OptionValue": "1920"
+  },
+  {
+    "Id": 192,
+    "Parameter": "HudSizeY",
+    "OptionType": "int",
+    "OptionValue": "1080"
+  },
+  {
+    "Id": 193,
+    "Parameter": "PingColor_100",
+    "OptionType": "string",
+    "OptionValue": "00FF00"
+  },
+  {
+    "Id": 194,
+    "Parameter": "PingColor_200",
+    "OptionType": "string",
+    "OptionValue": "FFBC00"
+  },
+  {
+    "Id": 195,
+    "Parameter": "PingColor_Bad",
+    "OptionType": "string",
+    "OptionValue": "FF0000"
+  },
+  {
+    "Id": 196,
+    "Parameter": "PingColor_Etc",
+    "OptionType": "string",
+    "OptionValue": "7E7E7E"
+  },
+  {
+    "Id": 197,
+    "Parameter": "PingColor_Maintenance",
+    "OptionType": "string",
+    "OptionValue": "FF0000"
+  },
+  {
+    "Id": 198,
+    "Parameter": "DungeonTicketAlarmCount_INT",
+    "OptionType": "int",
+    "OptionValue": "5"
+  },
+  {
+    "Id": 199,
+    "Parameter": "Use_Global_RegExr",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 200,
+    "Parameter": "SteamAccountOpen",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 201,
+    "Parameter": "ItemCollection_Favorites_MaxCount",
+    "OptionType": "int",
+    "OptionValue": "30"
+  },
+  {
+    "Id": 202,
+    "Parameter": "eventUpdateTime_INT",
+    "OptionType": "int",
+    "OptionValue": "600"
+  },
+  {
+    "Id": 203,
+    "Parameter": "EnableGreatBuilding_OnOff",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 204,
+    "Parameter": "Platform_Google_GuestHidde_INT",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 205,
+    "Parameter": "Platform_iOS_GuestHidde_INT",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 206,
+    "Parameter": "Platform_xsolla_GuestHidde_INT",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 207,
+    "Parameter": "Platform_Steam_GuestHidde_INT",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 208,
+    "Parameter": "Guild_Development_Apply_INT",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 209,
+    "Parameter": "Guild_Attack_Alliance_Apply_INT",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 210,
+    "Parameter": "AdUnitID_AOS",
+    "OptionType": "string",
+    "OptionValue": "ca-app-pub-5765830604075669/1397122474"
+  },
+  {
+    "Id": 211,
+    "Parameter": "AdUnitID_iOS",
+    "OptionType": "string",
+    "OptionValue": "ca-app-pub-5765830604075669/8908780986"
+  },
+  {
+    "Id": 212,
+    "Parameter": "CheckMacro_Detection_Logout_INT",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 213,
+    "Parameter": "GuestAccount_InGame_Not_Access_INT",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 214,
+    "Parameter": "PK_Mode_Change_Stage_Type_STR",
+    "OptionType": "string",
+    "OptionValue": "103, 104"
+  },
+  {
+    "Id": 215,
+    "Parameter": "PK_Mode_Change_Condition_STR",
+    "OptionType": "string",
+    "OptionValue": "3, 4, 10, 11"
+  },
+  {
+    "Id": 216,
+    "Parameter": "PK_Mode_Change_Result_INT",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 217,
+    "Parameter": "Collect_Packet_Time_F",
+    "OptionType": "float",
+    "OptionValue": "0.5"
+  },
+  {
+    "Id": 218,
+    "Parameter": "Dungeon_Auto_Extend_Time_F",
+    "OptionType": "float",
+    "OptionValue": "60"
+  },
+  {
+    "Id": 219,
+    "Parameter": "XdracoStorageRefreshTime_F",
+    "OptionType": "float",
+    "OptionValue": "0.5"
+  },
+  {
+    "Id": 220,
+    "Parameter": "NFT_LoadNFTButton_OnOff_INT",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 221,
+    "Parameter": "WarpRetryDelay",
+    "OptionType": "float",
+    "OptionValue": "5"
+  },
+  {
+    "Id": 222,
+    "Parameter": "Sever_Visit_M_103_Move_INT",
+    "OptionType": "int",
+    "OptionValue": "4800"
+  },
+  {
+    "Id": 223,
+    "Parameter": "Sever_Visit_M_104_Move_INT",
+    "OptionType": "int",
+    "OptionValue": "4900"
+  },
+  {
+    "Id": 224,
+    "Parameter": "Capcha_OnOff",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 225,
+    "Parameter": "PK_Mode_Change_Result_Server_Visitor_INT",
+    "OptionType": "int",
+    "OptionValue": "8"
+  },
+  {
+    "Id": 226,
+    "Parameter": "Conquer_Server_Search_Time_Float",
+    "OptionType": "float",
+    "OptionValue": "7"
+  },
+  {
+    "Id": 227,
+    "Parameter": "Conquer_Server_Alarm_Start",
+    "OptionType": "int",
+    "OptionValue": "300"
+  },
+  {
+    "Id": 228,
+    "Parameter": "Conquer_Server_Alarm_Cycle",
+    "OptionType": "int",
+    "OptionValue": "60"
+  },
+  {
+    "Id": 229,
+    "Parameter": "Conquer_Server_Alarm_Message",
+    "OptionType": "int",
+    "OptionValue": "2100160"
+  },
+  {
+    "Id": 230,
+    "Parameter": "Conquer_Server_End_Message",
+    "OptionType": "int",
+    "OptionValue": "2100161"
+  },
+  {
+    "Id": 231,
+    "Parameter": "UseBlockChain_WIN64",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 232,
+    "Parameter": "UseBlockChain_AOS",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 233,
+    "Parameter": "UseBlockChain_IOS",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 234,
+    "Parameter": "UseBlockChain_STEAM",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 235,
+    "Parameter": "ShowObjectDist_F",
+    "OptionType": "float",
+    "OptionValue": "3000"
+  },
+  {
+    "Id": 236,
+    "Parameter": "Server_Change_UMG_BlockScreen_Time_Float",
+    "OptionType": "float",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 237,
+    "Parameter": "ASSASSIN_By_Language",
+    "OptionType": "int",
+    "OptionValue": "2100203"
+  },
+  {
+    "Id": 238,
+    "Parameter": "ASSASSIN_Mode_Change_Result_INT",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 239,
+    "Parameter": "Quick_EquipSlotOrder_STR2",
+    "OptionType": "string",
+    "OptionValue": "11,12,13,14,15"
+  },
+  {
+    "Id": 240,
+    "Parameter": "Server_Combined_Alram",
+    "OptionType": "int",
+    "OptionValue": "0"
+  },
+  {
+    "Id": 241,
+    "Parameter": "UseNFTServer_WIN64",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 242,
+    "Parameter": "UseNFTServer_AOS",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 243,
+    "Parameter": "UseNFTServer_IOS",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 244,
+    "Parameter": "UseNFTServer_STEAM",
+    "OptionType": "int",
+    "OptionValue": "1"
+  },
+  {
+    "Id": 245,
+    "Parameter": "RepeatQuest_Favorites_MaxCount",
+    "OptionType": "int",
+    "OptionValue": "10"
+  },
+  {
+    "Id": 246,
+    "Parameter": "ASSASSIN_Hidden_VEHICLE_RIDE_Id_INT",
+    "OptionType": "int",
+    "OptionValue": "100"
+  }
+]

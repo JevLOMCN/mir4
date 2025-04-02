@@ -1,0 +1,26 @@
+[
+  {
+    "Name": 200,
+    "InventoryMaxCount": 999,
+    "InventoryOpenCount": 150,
+    "ExtendValueType": 4,
+    "ExtendValue": 1,
+    "InventoryType": 1
+  },
+  {
+    "Name": 100,
+    "InventoryMaxCount": 100,
+    "InventoryOpenCount": 50,
+    "ExtendValueType": 91,
+    "ExtendValue": 1,
+    "InventoryType": 2
+  },
+  {
+    "Name": 300,
+    "InventoryMaxCount": 500,
+    "InventoryOpenCount": 150,
+    "ExtendValueType": 4,
+    "ExtendValue": 0,
+    "InventoryType": 3
+  }
+]

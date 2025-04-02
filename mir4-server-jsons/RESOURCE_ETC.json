@@ -1,0 +1,506 @@
+[
+  {
+    "ResourceID": 1,
+    "FileName": "/Game/Blueprint/NavFilter/DefaultFilter.DefaultFilter_C"
+  },
+  {
+    "ResourceID": 2,
+    "FileName": "/Game/Blueprint/NavFilter/IgnoreCostFilter.IgnoreCostFilter_C"
+  },
+  {
+    "ResourceID": 3,
+    "FileName": "/Game/Blueprint/MM_Characters/PC/MMMainPC_BP.MMMainPC_BP_C"
+  },
+  {
+    "ResourceID": 4,
+    "FileName": "/Game/Blueprint/MM_Characters/PC/MMNetPC_BP.MMNetPC_BP_C"
+  },
+  {
+    "ResourceID": 5,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/MMMonsterBase_BP.MMMonsterBase_BP_C"
+  },
+  {
+    "ResourceID": 6,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/MMAIMonsterBase_BP.MMAIMonsterBase_BP_C"
+  },
+  {
+    "ResourceID": 7,
+    "FileName": "/Game/Blueprint/MM_Characters/NPC/MMFixedNPC_BP.MMFixedNPC_BP_C"
+  },
+  {
+    "ResourceID": 8,
+    "FileName": "/Game/Blueprint/MM_Characters/Npc/MMAINPCBase_BP.MMAINPCBase_BP_C"
+  },
+  {
+    "ResourceID": 9,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/MMObjectMon_BP.MMObjectMon_BP_C"
+  },
+  {
+    "ResourceID": 10,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/MMOpObejctBase_BP.MMOpObejctBase_BP_C"
+  },
+  {
+    "ResourceID": 11,
+    "FileName": "/Game/Blueprint/Camera/LobbyCameraBP.LobbyCameraBP_C"
+  },
+  {
+    "ResourceID": 12,
+    "FileName": "/Game/Blueprint/MM_Characters/Vehicle/MMVehicle_BP.MMVehicle_BP_C"
+  },
+  {
+    "ResourceID": 1000,
+    "FileName": "/Game/Characters/AI/BT_NpcBehavior.BT_NpcBehavior"
+  },
+  {
+    "ResourceID": 1001,
+    "FileName": "/Game/Characters/AI/BT_EscortNPCBehavior.BT_EscortNPCBehavior"
+  },
+  {
+    "ResourceID": 1002,
+    "FileName": "/Game/Characters/AI/BT_EscortType02NPCBehavior.BT_EscortType02NPCBehavior"
+  },
+  {
+    "ResourceID": 2000,
+    "FileName": "/Game/Characters/AI/BT_FriendMonBehavior.BT_FriendMonBehavior"
+  },
+  {
+    "ResourceID": 2001,
+    "FileName": "/Game/Characters/AI/BT_FriendMon2Behavior.BT_FriendMon2Behavior"
+  },
+  {
+    "ResourceID": 2002,
+    "FileName": "/Game/Characters/AI/BT_FriendMon3Behavior.BT_FriendMon3Behavior"
+  },
+  {
+    "ResourceID": 3000,
+    "FileName": "/Game/Characters/AI/BT_SummonMonBehavior.BT_SummonMonBehavior"
+  },
+  {
+    "ResourceID": 3001,
+    "FileName": "/Game/Characters/AI/BT_AggressiveTotemBehavior.BT_AggressiveTotemBehavior"
+  },
+  {
+    "ResourceID": 4000,
+    "FileName": "/Game/Characters/AI/BT_MonBehavior.BT_MonBehavior"
+  },
+  {
+    "ResourceID": 4001,
+    "FileName": "/Game/Characters/AI/BT_BombBehavior.BT_BombBehavior"
+  },
+  {
+    "ResourceID": 4002,
+    "FileName": "/Game/Characters/AI/BT_HongYakSaBehavior.BT_HongYakSaBehavior"
+  },
+  {
+    "ResourceID": 4003,
+    "FileName": "/Game/Characters/AI/BT_GuardMonBehavior.BT_GuardMonBehavior"
+  },
+  {
+    "ResourceID": 4004,
+    "FileName": "/Game/Characters/AI/BT_NoDieEventMonBehavior.BT_NoDieEventMonBehavior"
+  },
+  {
+    "ResourceID": 4005,
+    "FileName": "/Game/Characters/AI/BT_MonHoldPositionBehavior.BT_MonHoldPositionBehavior"
+  },
+  {
+    "ResourceID": 10000,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/MMObjectMon_BP.MMObjectMon_BP_C"
+  },
+  {
+    "ResourceID": 30000,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/MMMonsterBase_BP.MMMonsterBase_BP_C"
+  },
+  {
+    "ResourceID": 30001,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/MMAIMonsterBase_BP.MMAIMonsterBase_BP_C"
+  },
+  {
+    "ResourceID": 30002,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/MMMonsterBase_NoShake_BP.MMMonsterBase_NoShake_BP_C"
+  },
+  {
+    "ResourceID": 50001,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_Uma31_BP.Mon_Uma31_BP_C"
+  },
+  {
+    "ResourceID": 50002,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_StoneGolem02_BP.Mon_StoneGolem02_BP_C"
+  },
+  {
+    "ResourceID": 50003,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_Turret_BP.Mon_Turret_BP_C"
+  },
+  {
+    "ResourceID": 50004,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_D_Centipede_BP.Mon_D_Centipede_BP_C"
+  },
+  {
+    "ResourceID": 50005,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/SkillMon03_BP.SkillMon03_BP_C"
+  },
+  {
+    "ResourceID": 50006,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_UnderDoor02_BP.DObjMon_UnderDoor02_BP_C"
+  },
+  {
+    "ResourceID": 50007,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_UnderDoor02_BP.DObjMon_UnderDoor02_BP_C"
+  },
+  {
+    "ResourceID": 50008,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_IronDoor01_BP.DObjMon_IronDoor01_BP_C"
+  },
+  {
+    "ResourceID": 50009,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_StoneGolem01_BP.Mon_StoneGolem01_BP_C"
+  },
+  {
+    "ResourceID": 50010,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_OccupationGate01_BP.DObjMon_OccupationGate01_BP_C"
+  },
+  {
+    "ResourceID": 50011,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_Bloody22_BP.Mon_Bloody22_BP_C"
+  },
+  {
+    "ResourceID": 50012,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_Uma32_BP.Mon_Uma32_BP_C"
+  },
+  {
+    "ResourceID": 50013,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_Bloody22_PMode_BP.Mon_Bloody22_PMode_BP_C"
+  },
+  {
+    "ResourceID": 50014,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_StoneGolem02_PMode_BP.Mon_StoneGolem02_PMode_BP_C"
+  },
+  {
+    "ResourceID": 50015,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_GolemHill01_BP.Mon_GolemHill01_BP_C"
+  },
+  {
+    "ResourceID": 50018,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_Sinsu21_BP.Mon_Sinsu21_BP_C"
+  },
+  {
+    "ResourceID": 50019,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_SiegeTower01_BP.DObjMon_SiegeTower01_BP_C"
+  },
+  {
+    "ResourceID": 50020,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_CastleGate01_BP.DObjMon_CastleGate01_BP_C"
+  },
+  {
+    "ResourceID": 50021,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_Capture01_BP.DObjMon_Capture01_BP_C"
+  },
+  {
+    "ResourceID": 50022,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_Capture02_BP.DObjMon_Capture02_BP_C"
+  },
+  {
+    "ResourceID": 50023,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_SiegeTower02_BP.DObjMon_SiegeTower02_BP_C"
+  },
+  {
+    "ResourceID": 50024,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_RevivalFlag_BP.DObjMon_RevivalFlag_BP_C"
+  },
+  {
+    "ResourceID": 50025,
+    "FileName": "/Game/Blueprint/Directing/SiegeBuildingEffect_BP.SiegeBuildingEffect_BP_C"
+  },
+  {
+    "ResourceID": 50026,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_CastleGate02_BP.DObjMon_CastleGate02_BP_C"
+  },
+  {
+    "ResourceID": 50029,
+    "FileName": "/Game/Blueprint/MM_Characters/Object/DObjMon_PlunderGate01_BP.DObjMon_PlunderGate01_BP_C"
+  },
+  {
+    "ResourceID": 50030,
+    "FileName": "/Game/Blueprint/MM_Characters/Monster/Mon_Devilspider41_BP.Mon_Devilspider41_BP"
+  },
+  {
+    "ResourceID": 100011,
+    "FileName": "/Game/Effect/S_Mat_Master/20_PMT_Sys_GuideCirCle/Mat_DDecal01_Inst_3.Mat_DDecal01_Inst_3"
+  },
+  {
+    "ResourceID": 100012,
+    "FileName": "/Game/Effect/S_Mat_Master/20_PMT_Sys_GuideCirCle/Mat_DDecal02_Inst.Mat_DDecal02_Inst"
+  },
+  {
+    "ResourceID": 100013,
+    "FileName": "/Game/Effect/S_Mat_Master/21_PMT_Sys_GuideLine/Mat_DecalActor_02_Inst01.Mat_DecalActor_02_Inst01"
+  },
+  {
+    "ResourceID": 100014,
+    "FileName": "/Game/Effect/S_Mat_Master/23_PMT_Sys_GuideCross/MatCross_DecalActor_Inst.MatCross_DecalActor_Inst"
+  },
+  {
+    "ResourceID": 201000,
+    "FileName": "/Game/BG/UI_Mesh/UI_SungMul/static/SM_UI_SungMul_001_A/BP_UI_SungMul_001.BP_UI_SungMul_001_C"
+  },
+  {
+    "ResourceID": 202000,
+    "FileName": "/Game/BG/UI_Mesh/UI_SungMul/static/SM_UI_SungMul_002_A/BP_UI_SungMul_002.BP_UI_SungMul_002_C"
+  },
+  {
+    "ResourceID": 203000,
+    "FileName": "/Game/BG/UI_Mesh/UI_SungMul/static/SM_UI_SungMul_003_A/BP_UI_SungMul_003.BP_UI_SungMul_003_C"
+  },
+  {
+    "ResourceID": 204000,
+    "FileName": "/Game/BG/UI_Mesh/UI_SungMul/static/SM_UI_SungMul_004_A/BP_UI_SungMul_004.BP_UI_SungMul_004_C"
+  },
+  {
+    "ResourceID": 300001,
+    "FileName": "/Game/Blueprint/Directing/PCA_GhostTrailDataAsset.PCA_GhostTrailDataAsset"
+  },
+  {
+    "ResourceID": 400001,
+    "FileName": "/Game/Movies/intro_KOR.srt"
+  },
+  {
+    "ResourceID": 400002,
+    "FileName": "/Game/Movies/intro_ENG.srt"
+  },
+  {
+    "ResourceID": 400003,
+    "FileName": "/Game/Movies/intro_CHS.srt"
+  },
+  {
+    "ResourceID": 400004,
+    "FileName": "/Game/Movies/intro_CHT.srt"
+  },
+  {
+    "ResourceID": 400005,
+    "FileName": "/Game/Movies/intro_JPN.srt"
+  },
+  {
+    "ResourceID": 400006,
+    "FileName": "/Game/Movies/intro_02_KOR.srt"
+  },
+  {
+    "ResourceID": 400007,
+    "FileName": "/Game/Movies/intro_02_ENG.srt"
+  },
+  {
+    "ResourceID": 400008,
+    "FileName": "/Game/Movies/intro_02_CHS.srt"
+  },
+  {
+    "ResourceID": 400009,
+    "FileName": "/Game/Movies/intro_02_CHT.srt"
+  },
+  {
+    "ResourceID": 400010,
+    "FileName": "/Game/Movies/intro_02_JPN.srt"
+  },
+  {
+    "ResourceID": 400011,
+    "FileName": "/Game/Movies/T00-03_KOR.srt"
+  },
+  {
+    "ResourceID": 400012,
+    "FileName": "/Game/Movies/T00-03_ENG.srt"
+  },
+  {
+    "ResourceID": 400013,
+    "FileName": "/Game/Movies/T00-03_CHS.srt"
+  },
+  {
+    "ResourceID": 400014,
+    "FileName": "/Game/Movies/T00-03_CHT.srt"
+  },
+  {
+    "ResourceID": 400015,
+    "FileName": "/Game/Movies/T00-03_JPN.srt"
+  },
+  {
+    "ResourceID": 400016,
+    "FileName": "/Game/Movies/T08_06_KOR.srt"
+  },
+  {
+    "ResourceID": 400017,
+    "FileName": "/Game/Movies/T08_06_ENG.srt"
+  },
+  {
+    "ResourceID": 400018,
+    "FileName": "/Game/Movies/T08_06_CHS.srt"
+  },
+  {
+    "ResourceID": 400019,
+    "FileName": "/Game/Movies/T08_06_CHT.srt"
+  },
+  {
+    "ResourceID": 400020,
+    "FileName": "/Game/Movies/T08_06_JPN.srt"
+  },
+  {
+    "ResourceID": 400021,
+    "FileName": "/Game/Movies/Intro_02_GER.srt"
+  },
+  {
+    "ResourceID": 400022,
+    "FileName": "/Game/Movies/Intro_02_IND.srt"
+  },
+  {
+    "ResourceID": 400023,
+    "FileName": "/Game/Movies/Intro_02_POR.srt"
+  },
+  {
+    "ResourceID": 400024,
+    "FileName": "/Game/Movies/Intro_02_RUS.srt"
+  },
+  {
+    "ResourceID": 400025,
+    "FileName": "/Game/Movies/Intro_02_SPA.srt"
+  },
+  {
+    "ResourceID": 400026,
+    "FileName": "/Game/Movies/Intro_02_THA.srt"
+  },
+  {
+    "ResourceID": 400027,
+    "FileName": "/Game/Movies/Intro_02_VIE.srt"
+  },
+  {
+    "ResourceID": 400028,
+    "FileName": "/Game/Movies/T00-03_GER.srt"
+  },
+  {
+    "ResourceID": 400029,
+    "FileName": "/Game/Movies/T00-03_IND.srt"
+  },
+  {
+    "ResourceID": 400030,
+    "FileName": "/Game/Movies/T00-03_POR.srt"
+  },
+  {
+    "ResourceID": 400031,
+    "FileName": "/Game/Movies/T00-03_RUS.srt"
+  },
+  {
+    "ResourceID": 400032,
+    "FileName": "/Game/Movies/T00-03_SPA.srt"
+  },
+  {
+    "ResourceID": 400033,
+    "FileName": "/Game/Movies/T00-03_THA.srt"
+  },
+  {
+    "ResourceID": 400034,
+    "FileName": "/Game/Movies/T00-03_VIE.srt"
+  },
+  {
+    "ResourceID": 400035,
+    "FileName": "/Game/Movies/T08_06_GER.srt"
+  },
+  {
+    "ResourceID": 400036,
+    "FileName": "/Game/Movies/T08_06_IND.srt"
+  },
+  {
+    "ResourceID": 400037,
+    "FileName": "/Game/Movies/T08_06_POR.srt"
+  },
+  {
+    "ResourceID": 400038,
+    "FileName": "/Game/Movies/T08_06_RUS.srt"
+  },
+  {
+    "ResourceID": 400039,
+    "FileName": "/Game/Movies/T08_06_SPA.srt"
+  },
+  {
+    "ResourceID": 400040,
+    "FileName": "/Game/Movies/T08_06_THA.srt"
+  },
+  {
+    "ResourceID": 400041,
+    "FileName": "/Game/Movies/T08_06_VIE.srt"
+  },
+  {
+    "ResourceID": 400042,
+    "FileName": "/Game/Movies/intro_GER.srt"
+  },
+  {
+    "ResourceID": 400043,
+    "FileName": "/Game/Movies/intro_IND.srt"
+  },
+  {
+    "ResourceID": 400044,
+    "FileName": "/Game/Movies/intro_POR.srt"
+  },
+  {
+    "ResourceID": 400045,
+    "FileName": "/Game/Movies/intro_RUS.srt"
+  },
+  {
+    "ResourceID": 400046,
+    "FileName": "/Game/Movies/intro_SPA.srt"
+  },
+  {
+    "ResourceID": 400047,
+    "FileName": "/Game/Movies/intro_THA.srt"
+  },
+  {
+    "ResourceID": 400048,
+    "FileName": "/Game/Movies/intro_VIE.srt"
+  },
+  {
+    "ResourceID": 400049,
+    "FileName": "/Game/Movies/T07_06_KOR.srt"
+  },
+  {
+    "ResourceID": 400050,
+    "FileName": "/Game/Movies/T07_06_ENG.srt"
+  },
+  {
+    "ResourceID": 400051,
+    "FileName": "/Game/Movies/T07_06_CHS.srt"
+  },
+  {
+    "ResourceID": 400052,
+    "FileName": "/Game/Movies/T07_06_CHT.srt"
+  },
+  {
+    "ResourceID": 400053,
+    "FileName": "/Game/Movies/T07_06_JPN.srt"
+  },
+  {
+    "ResourceID": 400054,
+    "FileName": "/Game/Movies/T07_06_GER.srt"
+  },
+  {
+    "ResourceID": 400055,
+    "FileName": "/Game/Movies/T07_06_IND.srt"
+  },
+  {
+    "ResourceID": 400056,
+    "FileName": "/Game/Movies/T07_06_POR.srt"
+  },
+  {
+    "ResourceID": 400057,
+    "FileName": "/Game/Movies/T07_06_RUS.srt"
+  },
+  {
+    "ResourceID": 400058,
+    "FileName": "/Game/Movies/T07_06_SPA.srt"
+  },
+  {
+    "ResourceID": 400059,
+    "FileName": "/Game/Movies/T07_06_THA.srt"
+  },
+  {
+    "ResourceID": 400060,
+    "FileName": "/Game/Movies/T07_06_VIE.srt"
+  },
+  {
+    "ResourceID": 1000000001,
+    "FileName": "/Game/Data/Json/CUSTOMIZING/CUSTOMIZING_PRESET_PCW"
+  }
+]

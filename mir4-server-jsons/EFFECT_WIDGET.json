@@ -1,0 +1,961 @@
+[
+  {
+    "EffectID": 1000000,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ButtonRound_Release.WE_ButtonRound_Release_C",
+    "AniName": "Ani_Common_Btn_Round_Effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1000100,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ButtonSquare_Release.WE_ButtonSquare_Release_C",
+    "AniName": "Ani_Common_Btn_Square_Effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1000101,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ButtonSquare_Attention.WE_ButtonSquare_Attention_C",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1000102,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ButtonSpecial_Receive.WE_ButtonSpecial_Receive'",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1000200,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Tab_Goods_Release.WE_Tab_Goods_Release_C",
+    "AniName": "Ani_Tab_Goods_Release",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1000300,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Tab_Horizon_Release.WE_Tab_Horizon_Release_C",
+    "AniName": "Ani_Contens_MenuSlot_Newflash",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1000400,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Tab_Vertical_Release.WE_Tab_Vertical_Release_C",
+    "AniName": "Ani_Tab_Vertical_Release",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1000401,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Tab_Vertical_Selected.WE_Tab_Vertical_Selected_C",
+    "AniName": "Ani_Tab_Vertical_Selected",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010001,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Auto_Upgrade_Success_Blue.WE_Auto_Upgrade_Success_Blue_C",
+    "AniName": "Ani_Auto_Upgrade_Success",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010002,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Auto_Upgrade_Fail_Blue.WE_Auto_Upgrade_Fail_Blue_C",
+    "AniName": "Ani_Auto_Upgrade_Fail",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010003,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Auto_Upgrade_Success_Red.WE_Auto_Upgrade_Success_Red_C",
+    "AniName": "Ani_Auto_Upgrade_Success_Red",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010004,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Auto_Upgrade_Fail_Red.WE_Auto_Upgrade_Fail_Red_C",
+    "AniName": "Ani_Auto_Upgrade_Fail_Red",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010005,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Auto_Upgrade_Broken.WE_Auto_Upgrade_Broken_C",
+    "AniName": "Ani_Auto_Upgrade_Broken",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010111,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Registered_circle_Gain_Grade03.WE_Slot_Registered_circle_Gain_Grade03_C",
+    "AniName": "Ani_Slot_Registered_circle_Gain_Grade03",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010112,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Registered_circle_Gain_Grade03.WE_Slot_Registered_circle_Gain_Grade03_C",
+    "AniName": "Ani_Slot_Registered_circle_Gain_Grade03",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010113,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Registered_circle_Gain_Grade03.WE_Slot_Registered_circle_Gain_Grade03_C",
+    "AniName": "Ani_Slot_Registered_circle_Gain_Grade03",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010114,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Registered_circle_Gain_Grade04.WE_Slot_Registered_circle_Gain_Grade04_C",
+    "AniName": "Ani_Slot_Registered_circle_Gain_Grade04",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010115,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Registered_circle_Gain_Grade05.WE_Slot_Registered_circle_Gain_Grade05_C",
+    "AniName": "Ani_Slot_Registered_circle_Gain_Grade05",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010121,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Inventory_Square_Gain_Grade03.WE_Slot_Inventory_Square_Gain_Grade03_C",
+    "AniName": "Ani_Slot_Inventory_Square_Gain_Grade03",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010122,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Inventory_Square_Gain_Grade03.WE_Slot_Inventory_Square_Gain_Grade03_C",
+    "AniName": "Ani_Slot_Inventory_Square_Gain_Grade03",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010123,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Inventory_Square_Gain_Grade03.WE_Slot_Inventory_Square_Gain_Grade03_C",
+    "AniName": "Ani_Slot_Inventory_Square_Gain_Grade03",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010124,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Inventory_Square_Gain_Grade04.WE_Slot_Inventory_Square_Gain_Grade04_C",
+    "AniName": "Ani_Slot_Inventory_Square_Gain_Grade04",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010125,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Inventory_Square_Gain_Grade05.WE_Slot_Inventory_Square_Gain_Grade05_C",
+    "AniName": "Ani_Slot_Inventory_Square_Gain_Grade05",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010200,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Item_Slot_Circle_Reinforce_Attention.WE_Item_Slot_Circle_Reinforce_Attention_C",
+    "AniName": "Ani_Effect_Reinforce_Attention",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1010201,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Item_Slot_Circle_Transfer_Selected.WE_Item_Slot_Circle_Transfer_Selected_C",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1013000,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Event_Benediction_Blue.WE_Slot_Event_Benediction_Blue",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1013001,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Event_Benediction_Red.WE_Slot_Event_Benediction_Red",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1013002,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Event_Benediction_Yellow.WE_Slot_Event_Benediction_Yellow",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020022,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_AutoBtn_Release.WE_AutoBtn_Release_C",
+    "AniName": "Ani_Contens_MenuSlot_Newflash",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020023,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_AutoBtn_Working.WE_AutoBtn_Working_C",
+    "AniName": "Ani_Meditation_On",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020027,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_DodgeBtn_EndCooltime.WE_DodgeBtn_EndCooltime_C",
+    "AniName": "Ani_SkillAttack_Guide",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020028,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_DodgeBtn_Release.WE_DodgeBtn_Release_C",
+    "AniName": "Ani_Contens_MenuSlot_Newflash",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020029,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Hud_Btn_Release.WE_Hud_Btn_Release_C",
+    "AniName": "Ani_Contens_MenuSlot_Newflash",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020031,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_HudTab_Release.WE_HudTab_Release_C",
+    "AniName": "Ani_Select_Guide_Glow",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020036,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_NomarAttackBtn_Release.WE_NomarAttackBtn_Release_C",
+    "AniName": "Ani_Contens_MenuSlot_Newflash",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020037,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_PotionBtn_EndCooltime.WE_PotionBtn_EndCooltime_C",
+    "AniName": "Ani_Btn_Reset",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020039,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillBtn_Release.WE_SkillBtn_Release_C",
+    "AniName": "Ani_Contens_MenuSlot_Newflash",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020044,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_UltimateSkillBtn_Release.WE_UltimateSkillBtn_Release_C",
+    "AniName": "Ani_Contens_MenuSlot_Newflash",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020100,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillBtn_SmiteOn.WE_SkillBtn_SmiteOn_C",
+    "AniName": "Ani_Smite_Fx_On",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020101,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/HUD/SkillSet/Hud_Back_Skill.Hud_Back_Skill_C",
+    "AniName": "Ani_Skill_On",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020202,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_HudBtn_PotionUse.WE_HudBtn_PotionUse_C",
+    "AniName": "Ani_Btn_Glow",
+    "EWScaleX": 1.25,
+    "EWScaleY": 1.25
+  },
+  {
+    "EffectID": 1020301,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_QuestTracker_Doing_List.WE_QuestTracker_Doing_List_C",
+    "AniName": "Ani_Aura_Effect_Loop",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020302,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_QuestTracker_Doing_Icon.WE_QuestTracker_Doing_Icon_C",
+    "AniName": "NewAnimation_1",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020303,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Quest_Tracker_Touch.WE_Quest_Tracker_Touch_C",
+    "AniName": "Ani_Glow_effect_Loop",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020304,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_QuestTracker_Complate.WE_QuestTracker_Complate_C",
+    "AniName": "Ani_QuestTracker_Complate",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020305,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_QuestTracker_Attention.WE_QuestTracker_Attention_C",
+    "AniName": "Ani_Effect_QuestTracker_Attention",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020306,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_QuestTracker_QuestState_Change.WE_QuestTracker_QuestState_Change'",
+    "AniName": "Ani_QuestTracker_QuestState_Change",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020309,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SubQuestTracker_Doing_List.WE_SubQuestTracker_Doing_List_C",
+    "AniName": "Ani_SubQuestTracker_Doing_List",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020310,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SubQuestTracker_Complate_List.WE_SubQuestTracker_Complate_List_C",
+    "AniName": "Ani_SubQuestTracker_Complate_List",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020311,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_QuestTracker_Complate.WE_QuestTracker_Complate_C",
+    "AniName": "Ani_QuestTracker_Complate",
+    "EWScaleX": 1.25,
+    "EWScaleY": 1.25
+  },
+  {
+    "EffectID": 1020312,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ExpBooster_Off.WE_ExpBooster_Off_C",
+    "AniName": "Ani_Effect_Booster_Off",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020313,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ExpBooster_On.WE_ExpBooster_On_C",
+    "AniName": "Ani_Effect_Booster_On",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020314,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_QuestTracker_Reward.WE_QuestTracker_Reward",
+    "AniName": "Ani_QuestTracker_Reward",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020315,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_HUDPKMODE_Hostile.WE_HUDPKMODE_Hostile_C",
+    "AniName": "Ani_Hostile_On_Loop",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1020316,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_HUDPKMODE_Slaughter.WE_HUDPKMODE_Slaughter_C",
+    "AniName": "Ani_Slaughter_On_Loop",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1030000,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Tab_Goods_Release.WE_Tab_Goods_Release_C",
+    "AniName": "Ani_Tab_Goods_Release",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1040000,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Registered_circle_Notice.WE_Slot_Registered_circle_Notice_C",
+    "AniName": "Ani_WE_Registered_Slot_Notice",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1040001,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Registered_circle_Release.WE_Slot_Registered_circle_Release_C",
+    "AniName": "Ani_Registered_Slot_Release",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1040002,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Registered_circle_Selected.WE_Slot_Registered_circle_Selected_C",
+    "AniName": "Ani_WE_Registered_Slot_Selected",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1040003,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Registered_circle_Release.WE_Slot_Registered_circle_Release_C",
+    "AniName": "Ani_Registered_Slot_Release",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1040004,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Registered_circle_Selected.WE_Slot_Registered_circle_Selected_C",
+    "AniName": "Ani_WE_Registered_Slot_Selected",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1040006,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_OptionChange_OptionApply.WE_OptionChange_OptionApply_C",
+    "AniName": "Ani_OptionChange_OptionApply",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1040007,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_OptionChange_PickNormal.WE_OptionChange_PickNormal_C",
+    "AniName": "Ani_OptionChange_PickNormal",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1040008,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_OptionChange_PickGreat.WE_OptionChange_PickGreat_C",
+    "AniName": "Ani_OptionChange_PickGreat",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1050000,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_JewelUi_JewelSlot_Release.WE_JewelUi_JewelSlot_Release_C",
+    "AniName": "Ani_Item_JewelSlot_Release",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1050001,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_JewelUi_JewelSlot_Selected.WE_JewelUi_JewelSlot_Selected_C",
+    "AniName": "Ani_Item_JewelSlot_Selectedd",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1060100,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Monster_Smite.WE_Monster_Smite_C",
+    "AniName": "Ani_Monster_Smite",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070006,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_SkillAttack_EndCoolTime_02.UE_SkillAttack_EndCoolTime_02_C",
+    "AniName": "Ani_SkillAttack_Guide",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070010,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_HudBtn_Guide.UE_HudBtn_Guide_C",
+    "AniName": "Ani_Btn_Guide",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070011,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_Tutorial_Line.UE_Tutorial_Line_C",
+    "AniName": "Ani_Line_Effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070013,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_HudBtn_PotionUse.WE_HudBtn_PotionUse_C",
+    "AniName": "Ani_Btn_Glow",
+    "EWScaleX": 1.25,
+    "EWScaleY": 1.25
+  },
+  {
+    "EffectID": 1070014,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_HudBtn_Stateful.WE_HudBtn_Stateful_C",
+    "AniName": "Ani_Meditation_On",
+    "EWScaleX": 1.3,
+    "EWScaleY": 1.3
+  },
+  {
+    "EffectID": 1070015,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_HudBtn_EndCoolTime.UE_HudBtn_EndCoolTime_C",
+    "AniName": "Ani_Btn_Reset",
+    "EWScaleX": 1.27,
+    "EWScaleY": 1.27
+  },
+  {
+    "EffectID": 1070016,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_Hudbtn_Open.UE_Hudbtn_Open_C",
+    "AniName": "Ani_btn_Open_Effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070018,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_HudBtn_EndCoolTime.UE_HudBtn_EndCoolTime_C",
+    "AniName": "Ani_Btn_Reset",
+    "EWScaleX": 1.27,
+    "EWScaleY": 1.27
+  },
+  {
+    "EffectID": 1070021,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_SkillAttack_EndCoolTime_02.UE_SkillAttack_EndCoolTime_02_C",
+    "AniName": "Ani_SkillAttack_Reset",
+    "EWScaleX": 1.7,
+    "EWScaleY": 1.7
+  },
+  {
+    "EffectID": 1070022,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_HudBtn_Guide_02.UE_HudBtn_Guide_02_C",
+    "AniName": "Ani_SkillAttack_Guide",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070023,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_UltimateSkillBtn_EndCooltime.WE_UltimateSkillBtn_EndCooltime_C",
+    "AniName": "Ani_SkillAttack_Reset",
+    "EWScaleX": 1.7,
+    "EWScaleY": 1.7
+  },
+  {
+    "EffectID": 1070024,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillBtn_EndCooltime.WE_SkillBtn_EndCooltime_C",
+    "AniName": "Ani_SkillAttack_Reset",
+    "EWScaleX": 1.27,
+    "EWScaleY": 1.27
+  },
+  {
+    "EffectID": 1070025,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_SkillAttack_Change.UE_SkillAttack_Change_C",
+    "AniName": "Ani_Btn_Skill_Change_Effect",
+    "EWScaleX": 1.22,
+    "EWScaleY": 1.28
+  },
+  {
+    "EffectID": 1070026,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_NoticeBtn_Alarm.WE_NoticeBtn_Alarm_C",
+    "AniName": "Ani_Contens_Menu_Effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070027,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_Hudbtn_Open.UE_Hudbtn_Open_C",
+    "AniName": "Ani_btn_Open_Effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070028,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_HUD_SkillBtn_AutoOn.WE_HUD_SkillBtn_AutoOn'",
+    "AniName": "Ani_btn_Open_Effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070204,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Skill_LevelUp_icon.WE_Skill_LevelUp_icon_C",
+    "AniName": "Ani_Skill_LevelUp_icon_effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070210,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_SkillList_LevelUp.UE_SkillList_LevelUp_C",
+    "AniName": "Ani_SkillList_LevelUp",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070211,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/UE_SkillList_LevelUp.UE_SkillList_LevelUp_C",
+    "AniName": "Ani_SkillList_LevelUp",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070212,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillUI_List_Selected.WE_SkillUI_List_Selected_C",
+    "AniName": "Ani_SkillUI_List_Selected",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070213,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillUI_SkillList_Learn.WE_SkillUI_SkillList_Learn_C",
+    "AniName": "Ani_SkillList_Learn",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070214,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillUI_SkillList_LevelUp.WE_SkillUI_SkillList_LevelUp_C",
+    "AniName": "Ani_SkillUI_SkillList_LevelUp",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070215,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillUI_SkillSlot_Release.WE_SkillUI_SkillSlot_Release_C",
+    "AniName": "Ani_SkillUI_SkillSlot_Release",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070216,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillUI_SkillSlot_Selected.WE_SkillUI_SkillSlot_Selected_C",
+    "AniName": "Ani_SkillUI_SkillSlot_Selected",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070217,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillUI_Slot_Clear.WE_SkillUI_Slot_Clear_C",
+    "AniName": "Ani_SkillUI_Slot_Clear",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070218,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillUI_Slot_Insert.WE_SkillUI_Slot_Insert_C",
+    "AniName": "Ani_SkillUI_Slot_Insert",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070219,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillDeckChange.WE_SkillDeckChange_C",
+    "AniName": "Ani_SkillDeckChange",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070220,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/P_Skillicon_Red.P_Skillicon_Red_C",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1070221,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/P_Skillicon_Yellow.P_Skillicon_Yellow_C",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1080000,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ForceUi_MainList_Open.WE_ForceUi_MainList_Open_C",
+    "AniName": "Ani_ForceUi_MainList_Open",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1080001,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ForceUi_AbilityList_Selected.WE_ForceUi_AbilityList_Selected_C",
+    "AniName": "Ani_ForceUi_AbilityList_Selected",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1090000,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_MasterySlot_Release.WE_MasterySlot_Release_C",
+    "AniName": "Ani_MasterySlot_Release",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1090019,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/P_OccuMapTouch_Gen.P_OccuMapTouch_Gen_C",
+    "AniName": "Ani_OccuMapMove_Gen",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1090020,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/P_OccuMapTouch_Std.P_OccuMapTouch_Std_C",
+    "AniName": "Ani_OccuMapMove_Gen",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1090021,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/P_OccuMapAttack_Gen.P_OccuMapAttack_Gen_C",
+    "AniName": "Ani_OccuMapMove_Gen",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1090027,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/P_OccuMapMove_Gen.P_OccuMapMove_Gen_C",
+    "AniName": "Ani_OccuMapMove_Gen",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1090033,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ButtonSquare_Attention.WE_ButtonSquare_Attention_C",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1090034,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ButtonSquare_Attention.WE_ButtonSquare_Attention_C",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1090035,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ButtonSquare_Attention.WE_ButtonSquare_Attention_C",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1090036,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Siege_SituationBoard_onAttack.WE_Siege_SituationBoard_onAttack_C",
+    "AniName": "Ani_SituationBoard_onAttack",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1100000,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ItemMake_Slot_Release.WE_ItemMake_Slot_Release_C",
+    "AniName": "Ani_ItemMake_lSlot_Release",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1110001,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Contents/Tutorial/Tutorial_Skill_DragTouch.Tutorial_Skill_DragTouch_C",
+    "AniName": "Drag_Ani",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1110002,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Contents/Tutorial/Tutorial_VirtualJoyStick_02.Tutorial_VirtualJoyStick_02_C",
+    "AniName": "DragAni",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1110003,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Contents/Tutorial/Tutorial_VirtualJoyStick_03.Tutorial_VirtualJoyStick_03_C",
+    "AniName": "DragAni",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1130001,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_TargetMarkerUI_Click.WE_TargetMarkerUI_Click_C",
+    "AniName": "Ani_Touch",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1130002,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_TargetMarkerUI_CoolOn.WE_TargetMarkerUI_CoolOn_C",
+    "AniName": "Ani_Cooltime_ON",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1130004,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Pet_Equip01.WE_Pet_Equip01_C",
+    "AniName": "Ani_Pet_Equip_Effect_01",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1130005,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Pet_Equip02.WE_Pet_Equip02_C",
+    "AniName": "Ani_Pet_Equip_Effect_02",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1130006,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_SkillUI_SkillSlot_Selected.WE_SkillUI_SkillSlot_Selected_C",
+    "AniName": "Ani_SkillUI_SkillSlot_Selected",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140001,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Trade_Item_Compose_Success_01.WE_Trade_Item_Compose_Success_01",
+    "AniName": "Ani_Item_Compose_Effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140002,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Trade_Item_Compose_Success_01.WE_Trade_Item_Compose_Success_02",
+    "AniName": "Ani_Item_Compose_Effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140003,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Contents/Guild/Renewal/Popup_GuildDevInfo.Popup_GuildDevInfo",
+    "AniName": "Ani_Happy",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140004,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Contents/Common_Contents/Goods/Goods_Slot.Goods_Slot'",
+    "AniName": "Ani_Coin_effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140005,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ItemCompose_List_Slot.WE_ItemCompose_List_Slot_C",
+    "AniName": "Ani_Square_Green_Loop",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140006,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ItemCompose_List_Slot.WE_ItemCompose_List_Slot_C",
+    "AniName": "Ani_Square_Blue_Loop",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140007,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_ItemCompose_List_Slot.WE_ItemCompose_List_Slot_C",
+    "AniName": "Ani_Square_Red_Loop",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140008,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Basic.WE_Slot_Compose_Basic_C",
+    "AniName": "Ani_Effect_Compose_Basic",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140009,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Open.WE_Slot_Compose_Open_C",
+    "AniName": "Ani_Effect_Compose_Open",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140010,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Special.WE_Slot_Compose_Special_C",
+    "AniName": "Ani_Effect_Compose_Open",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140011,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Basic_hero.WE_Slot_Compose_Basic_hero_C",
+    "AniName": "Ani_Effect_Compose_Basic_hero",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140012,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Special_hero.WE_Slot_Compose_Special_hero_C",
+    "AniName": "Ani_Effect_Compose_Open",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140013,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Open_A_highR.WE_Slot_Compose_Open_A_highR_C",
+    "AniName": "Ani_Effect_Compose_Open",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140014,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Special_A_highR.WE_Slot_Compose_Special_A_highR_C",
+    "AniName": "Ani_Effect_Compose_Open",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140015,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Open_B_curio.WE_Slot_Compose_Open_B_curio_C",
+    "AniName": "Ani_Effect_Compose_Open",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140016,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Special_B_curio.WE_Slot_Compose_Special_B_curio_C",
+    "AniName": "Ani_Effect_Compose_Open",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140017,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Open_C_hero.WE_Slot_Compose_Open_C_hero_C",
+    "AniName": "Ani_Effect_Compose_Open",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1140018,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Slot_Compose_Special_C_hero.WE_Slot_Compose_Special_C_hero_C",
+    "AniName": "Ani_Effect_Compose_Open",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1150001,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_CollectionList_Complete.WE_CollectionList_Complete'_C",
+    "AniName": "Ani_CollectionList_Complete_Effect",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1160001,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Guild_SkillReady.WE_Guild_SkillReady",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  },
+  {
+    "EffectID": 1160002,
+    "FileName": "WidgetBlueprint'/Game/UI/UMGBP/Effect/WE_Release/WE_Guild_SkillStart.WE_Guild_SkillStart",
+    "AniName": "0",
+    "EWScaleX": 1,
+    "EWScaleY": 1
+  }
+]

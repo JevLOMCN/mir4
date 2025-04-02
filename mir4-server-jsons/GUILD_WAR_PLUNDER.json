@@ -1,0 +1,56 @@
+[
+  {
+    "PlunderId": 3010,
+    "StageId": 3010,
+    "StageDesSId": 5900002,
+    "StageBossIconid": 640196,
+    "Defender_DominionId": 2001,
+    "ReqOffenseGuildRanking": 20,
+    "ReadyTime_Sec": 300,
+    "EnterWarpLocationId_Defense": 307,
+    "EnterWarpRadius_Defencse": 1500,
+    "EnterWarpLocationId_Offense": 308,
+    "EnterWarpRadius_Offense": 1500,
+    "ReadyZoneLocation_Defense": {
+      "X": 40,
+      "Y": -30250,
+      "Z": 2010
+    },
+    "ReadyZoneAxisYaw_Defense": 0,
+    "ReadyZoneDistanceX_Defense": 7000,
+    "ReadyZoneDistanceY_Defense": 7000,
+    "ReadyZoneLocation_Offense": {
+      "X": 20,
+      "Y": 13680,
+      "Z": 3550
+    },
+    "ReadyZoneAxisYaw_Offense": 0,
+    "ReadyZoneDistanceX_Offense": 8000,
+    "ReadyZoneDistanceY_Offense": 8000,
+    "CastleGateid": 1200011,
+    "GateIconid": 5100001,
+    "Bossid": 1200014,
+    "BossIconid": 5100002,
+    "BossPosId": 100,
+    "Trapid01": 1200012,
+    "Trap01_EffectLocation": {
+      "X": -14590,
+      "Y": -14940,
+      "Z": 50
+    },
+    "Trapid01_GenPosid": 3,
+    "Trap01_EffectRotationYaw": 0,
+    "Trapid02": 1200013,
+    "Trap02_EffectLocation": {
+      "X": 14470,
+      "Y": -14890,
+      "Z": 50
+    },
+    "Trapid02_GenPosid": 4,
+    "Trap02_EffectRotationYaw": 0,
+    "RewardObjectIconId": 5100003,
+    "PlunderRewardid": 30701,
+    "RewardObject_PosidMin": 20001,
+    "RewardObject_PosidMax": 20070
+  }
+]

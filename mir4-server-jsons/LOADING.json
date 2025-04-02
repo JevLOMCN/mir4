@@ -1,0 +1,454 @@
+[
+  {
+    "LoadingId": 101,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_001_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_002_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_004_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_005_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_006_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_007_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_008_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_009_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_010_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_018_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_019_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_skill_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_battlecondition_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_map_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_battle_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_karma_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_vitalize_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_merchant_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_stronghold_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      2510001,
+      2510002,
+      2510003,
+      2510004,
+      2510005,
+      2510006,
+      2510007,
+      2510008,
+      2510009,
+      2510010,
+      2510011,
+      2510012,
+      2510013,
+      2510014,
+      2510015,
+      2510016,
+      2510017,
+      2510018,
+      2510019,
+      2510020,
+      2510021,
+      2510022,
+      2510023,
+      2510024,
+      2510025,
+      2510026,
+      2510027,
+      2510028,
+      2510029,
+      2510030,
+      2510031,
+      2510032,
+      2510033,
+      2510034,
+      2510035,
+      2510036,
+      2510037,
+      2510038,
+      2510039,
+      2510040,
+      2510041,
+      2510042,
+      2510043,
+      2510044,
+      2510045,
+      2510046,
+      2510047,
+      2510048,
+      2510049,
+      2510050,
+      2510051,
+      2510052,
+      2510053,
+      2510054,
+      2510055,
+      2510056,
+      2510057,
+      2510058,
+      2510059,
+      2510060,
+      2510062,
+      2510064,
+      2510065,
+      2510066,
+      2510078,
+      2510079,
+      2510080
+    ],
+    "ToolTipContentStringID": [
+      2511001,
+      2511002,
+      2511003,
+      2511004,
+      2511005,
+      2511006,
+      2511007,
+      2511008,
+      2511009,
+      2511010,
+      2511011,
+      2511012,
+      2511013,
+      2511014,
+      2511015,
+      2511016,
+      2511017,
+      2511018,
+      2511019,
+      2511020,
+      2511021,
+      2511022,
+      2511023,
+      2511024,
+      2511025,
+      2511026,
+      2511027,
+      2511028,
+      2511029,
+      2511030,
+      2511031,
+      2511032,
+      2511033,
+      2511034,
+      2511035,
+      2511036,
+      2511037,
+      2511038,
+      2511039,
+      2511040,
+      2511041,
+      2511042,
+      2511043,
+      2511044,
+      2511045,
+      2511046,
+      2511047,
+      2511048,
+      2511049,
+      2511050,
+      2511051,
+      2511052,
+      2511053,
+      2511054,
+      2511055,
+      2511056,
+      2511057,
+      2511058,
+      2511059,
+      2511060,
+      2511062,
+      2511064,
+      2511065,
+      2511066,
+      2511078,
+      2511079,
+      2511080
+    ]
+  },
+  {
+    "LoadingId": 102,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_001_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_002_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_004_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_005_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_006_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_007_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_008_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_009_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_010_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_018_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_019_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_skill_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_battlecondition_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_map_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_battle_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_karma_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_vitalize_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_merchant_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_stronghold_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      2510001,
+      2510002,
+      2510003,
+      2510004,
+      2510005,
+      2510006,
+      2510007,
+      2510008,
+      2510009,
+      2510010,
+      2510011,
+      2510012,
+      2510013,
+      2510014,
+      2510015,
+      2510016,
+      2510017,
+      2510018,
+      2510019,
+      2510020,
+      2510021,
+      2510022,
+      2510023,
+      2510024,
+      2510025,
+      2510026,
+      2510027,
+      2510028,
+      2510029,
+      2510030,
+      2510031,
+      2510032,
+      2510033,
+      2510034,
+      2510035,
+      2510036,
+      2510037,
+      2510038,
+      2510039,
+      2510040,
+      2510041,
+      2510042,
+      2510043,
+      2510044,
+      2510045,
+      2510046,
+      2510047,
+      2510048,
+      2510049,
+      2510050,
+      2510051,
+      2510052,
+      2510053,
+      2510054,
+      2510055,
+      2510056,
+      2510057,
+      2510058,
+      2510059,
+      2510060,
+      2510062,
+      2510064,
+      2510065,
+      2510066,
+      2510078,
+      2510079,
+      2510080
+    ],
+    "ToolTipContentStringID": [
+      2511001,
+      2511002,
+      2511003,
+      2511004,
+      2511005,
+      2511006,
+      2511007,
+      2511008,
+      2511009,
+      2511010,
+      2511011,
+      2511012,
+      2511013,
+      2511014,
+      2511015,
+      2511016,
+      2511017,
+      2511018,
+      2511019,
+      2511020,
+      2511021,
+      2511022,
+      2511023,
+      2511024,
+      2511025,
+      2511026,
+      2511027,
+      2511028,
+      2511029,
+      2511030,
+      2511031,
+      2511032,
+      2511033,
+      2511034,
+      2511035,
+      2511036,
+      2511037,
+      2511038,
+      2511039,
+      2511040,
+      2511041,
+      2511042,
+      2511043,
+      2511044,
+      2511045,
+      2511046,
+      2511047,
+      2511048,
+      2511049,
+      2511050,
+      2511051,
+      2511052,
+      2511053,
+      2511054,
+      2511055,
+      2511056,
+      2511057,
+      2511058,
+      2511059,
+      2511060,
+      2511062,
+      2511064,
+      2511065,
+      2511066,
+      2511078,
+      2511079,
+      2511080
+    ]
+  },
+  {
+    "LoadingId": 103,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_000_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      2510081
+    ],
+    "ToolTipContentStringID": [
+      2511081
+    ]
+  },
+  {
+    "LoadingId": 104,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_MagicSquare_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      2510010,
+      2510011
+    ],
+    "ToolTipContentStringID": [
+      2511010,
+      2511011
+    ]
+  },
+  {
+    "LoadingId": 109,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_001_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_002_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_004_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_005_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_006_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_007_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_008_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_009_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_010_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_018_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_019_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_skill_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_battlecondition_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_map_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_battle_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_karma_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_vitalize_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_merchant_Sprite",
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_stronghold_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      0
+    ],
+    "ToolTipContentStringID": [
+      0
+    ]
+  },
+  {
+    "LoadingId": 110,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_011_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      2510082
+    ],
+    "ToolTipContentStringID": [
+      2511082
+    ]
+  },
+  {
+    "LoadingId": 111,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_styleshop_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      2510018
+    ],
+    "ToolTipContentStringID": [
+      2511018
+    ]
+  },
+  {
+    "LoadingId": 112,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_Server_Visit_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      2510084
+    ],
+    "ToolTipContentStringID": [
+      2511084
+    ]
+  },
+  {
+    "LoadingId": 113,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/Loading_ClassPhase_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      2510083
+    ],
+    "ToolTipContentStringID": [
+      2511083
+    ]
+  },
+  {
+    "LoadingId": 114,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_Conquer_Server_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      2510085
+    ],
+    "ToolTipContentStringID": [
+      2511085
+    ]
+  },
+  {
+    "LoadingId": 120,
+    "LoadingImagePath": [
+      "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_Loading/loading_BlackDragon_Dungeon_Sprite"
+    ],
+    "ToolTipTitleStringID": [
+      2510091
+    ],
+    "ToolTipContentStringID": [
+      2511091
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+{
+    "ReinforcementData": {
+      "Classes": [
+        {
+          "ClassId": 1,
+          "Attributes": [
+            {
+              "AttributeType": 101,
+              "Levels": {
+                "1": 100,
+                "2": 200,
+                "3": 300
+              }
+            },
+            {
+              "AttributeType": 102,
+              "Levels": {
+                "1": 150,
+                "2": 250,
+                "3": 350
+              }
+            }
+          ]
+        },
+        {
+          "ClassId": 2,
+          "Attributes": [
+            {
+              "AttributeType": 201,
+              "Levels": {
+                "1": 120,
+                "2": 220,
+                "3": 320
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

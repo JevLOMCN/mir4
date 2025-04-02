@@ -1,0 +1,33 @@
+[
+    {
+      "ClassId": 1,
+      "Awaken_Grade": 1,
+      "AwakenId": 101,
+      "QuestId_01": 2001,
+      "QuestId_02": 2002,
+      "AchievementId_01": 3001,
+      "AchievementId_02": 3002,
+      "Reward_AttributeId_01": 4001,
+      "Reward_AttributeId_02": 4002,
+      "Reward_Value_01": 100,
+      "Reward_Value_02": 200,
+      "Reward_Etc_01": 500,
+      "Reward_Etc_02": 600
+    },
+    {
+      "ClassId": 2,
+      "Awaken_Grade": 1,
+      "AwakenId": 201,
+      "QuestId_01": 2003,
+      "QuestId_02": 2004,
+      "AchievementId_01": 3003,
+      "AchievementId_02": 3004,
+      "Reward_AttributeId_01": 4003,
+      "Reward_AttributeId_02": 4004,
+      "Reward_Value_01": 150,
+      "Reward_Value_02": 250,
+      "Reward_Etc_01": 700,
+      "Reward_Etc_02": 800
+    }
+  ]
+  

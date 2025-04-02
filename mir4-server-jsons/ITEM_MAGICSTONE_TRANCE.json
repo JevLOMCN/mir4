@@ -1,0 +1,2550 @@
+[
+  {
+    "TranceID": 1,
+    "TranceStep": 1,
+    "StatusID": 1,
+    "StatusValue": 60,
+    "Grade": 4
+  },
+  {
+    "TranceID": 2,
+    "TranceStep": 2,
+    "StatusID": 1,
+    "StatusValue": 120,
+    "Grade": 4
+  },
+  {
+    "TranceID": 3,
+    "TranceStep": 3,
+    "StatusID": 1,
+    "StatusValue": 180,
+    "Grade": 4
+  },
+  {
+    "TranceID": 4,
+    "TranceStep": 4,
+    "StatusID": 1,
+    "StatusValue": 240,
+    "Grade": 4
+  },
+  {
+    "TranceID": 5,
+    "TranceStep": 5,
+    "StatusID": 1,
+    "StatusValue": 300,
+    "Grade": 4
+  },
+  {
+    "TranceID": 6,
+    "TranceStep": 6,
+    "StatusID": 1,
+    "StatusValue": 360,
+    "Grade": 4
+  },
+  {
+    "TranceID": 7,
+    "TranceStep": 7,
+    "StatusID": 1,
+    "StatusValue": 420,
+    "Grade": 4
+  },
+  {
+    "TranceID": 8,
+    "TranceStep": 1,
+    "StatusID": 6,
+    "StatusValue": 15,
+    "Grade": 4
+  },
+  {
+    "TranceID": 9,
+    "TranceStep": 2,
+    "StatusID": 6,
+    "StatusValue": 30,
+    "Grade": 4
+  },
+  {
+    "TranceID": 10,
+    "TranceStep": 3,
+    "StatusID": 6,
+    "StatusValue": 45,
+    "Grade": 4
+  },
+  {
+    "TranceID": 11,
+    "TranceStep": 4,
+    "StatusID": 6,
+    "StatusValue": 60,
+    "Grade": 4
+  },
+  {
+    "TranceID": 12,
+    "TranceStep": 5,
+    "StatusID": 6,
+    "StatusValue": 75,
+    "Grade": 4
+  },
+  {
+    "TranceID": 13,
+    "TranceStep": 6,
+    "StatusID": 6,
+    "StatusValue": 90,
+    "Grade": 4
+  },
+  {
+    "TranceID": 14,
+    "TranceStep": 7,
+    "StatusID": 6,
+    "StatusValue": 105,
+    "Grade": 4
+  },
+  {
+    "TranceID": 15,
+    "TranceStep": 1,
+    "StatusID": 28,
+    "StatusValue": 1,
+    "Grade": 4
+  },
+  {
+    "TranceID": 16,
+    "TranceStep": 2,
+    "StatusID": 28,
+    "StatusValue": 3,
+    "Grade": 4
+  },
+  {
+    "TranceID": 17,
+    "TranceStep": 3,
+    "StatusID": 28,
+    "StatusValue": 5,
+    "Grade": 4
+  },
+  {
+    "TranceID": 18,
+    "TranceStep": 4,
+    "StatusID": 28,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 19,
+    "TranceStep": 5,
+    "StatusID": 28,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 20,
+    "TranceStep": 6,
+    "StatusID": 28,
+    "StatusValue": 10,
+    "Grade": 4
+  },
+  {
+    "TranceID": 21,
+    "TranceStep": 7,
+    "StatusID": 28,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 22,
+    "TranceStep": 1,
+    "StatusID": 29,
+    "StatusValue": 1,
+    "Grade": 4
+  },
+  {
+    "TranceID": 23,
+    "TranceStep": 2,
+    "StatusID": 29,
+    "StatusValue": 3,
+    "Grade": 4
+  },
+  {
+    "TranceID": 24,
+    "TranceStep": 3,
+    "StatusID": 29,
+    "StatusValue": 5,
+    "Grade": 4
+  },
+  {
+    "TranceID": 25,
+    "TranceStep": 4,
+    "StatusID": 29,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 26,
+    "TranceStep": 5,
+    "StatusID": 29,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 27,
+    "TranceStep": 6,
+    "StatusID": 29,
+    "StatusValue": 10,
+    "Grade": 4
+  },
+  {
+    "TranceID": 28,
+    "TranceStep": 7,
+    "StatusID": 29,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 29,
+    "TranceStep": 1,
+    "StatusID": 30,
+    "StatusValue": 2,
+    "Grade": 4
+  },
+  {
+    "TranceID": 30,
+    "TranceStep": 2,
+    "StatusID": 30,
+    "StatusValue": 4,
+    "Grade": 4
+  },
+  {
+    "TranceID": 31,
+    "TranceStep": 3,
+    "StatusID": 30,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 32,
+    "TranceStep": 4,
+    "StatusID": 30,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 33,
+    "TranceStep": 5,
+    "StatusID": 30,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 34,
+    "TranceStep": 6,
+    "StatusID": 30,
+    "StatusValue": 14,
+    "Grade": 4
+  },
+  {
+    "TranceID": 35,
+    "TranceStep": 7,
+    "StatusID": 30,
+    "StatusValue": 16,
+    "Grade": 4
+  },
+  {
+    "TranceID": 36,
+    "TranceStep": 1,
+    "StatusID": 31,
+    "StatusValue": 2,
+    "Grade": 4
+  },
+  {
+    "TranceID": 37,
+    "TranceStep": 2,
+    "StatusID": 31,
+    "StatusValue": 4,
+    "Grade": 4
+  },
+  {
+    "TranceID": 38,
+    "TranceStep": 3,
+    "StatusID": 31,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 39,
+    "TranceStep": 4,
+    "StatusID": 31,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 40,
+    "TranceStep": 5,
+    "StatusID": 31,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 41,
+    "TranceStep": 6,
+    "StatusID": 31,
+    "StatusValue": 14,
+    "Grade": 4
+  },
+  {
+    "TranceID": 42,
+    "TranceStep": 7,
+    "StatusID": 31,
+    "StatusValue": 16,
+    "Grade": 4
+  },
+  {
+    "TranceID": 43,
+    "TranceStep": 1,
+    "StatusID": 32,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 44,
+    "TranceStep": 2,
+    "StatusID": 32,
+    "StatusValue": 14,
+    "Grade": 4
+  },
+  {
+    "TranceID": 45,
+    "TranceStep": 3,
+    "StatusID": 32,
+    "StatusValue": 21,
+    "Grade": 4
+  },
+  {
+    "TranceID": 46,
+    "TranceStep": 4,
+    "StatusID": 32,
+    "StatusValue": 28,
+    "Grade": 4
+  },
+  {
+    "TranceID": 47,
+    "TranceStep": 5,
+    "StatusID": 32,
+    "StatusValue": 36,
+    "Grade": 4
+  },
+  {
+    "TranceID": 48,
+    "TranceStep": 6,
+    "StatusID": 32,
+    "StatusValue": 43,
+    "Grade": 4
+  },
+  {
+    "TranceID": 49,
+    "TranceStep": 7,
+    "StatusID": 32,
+    "StatusValue": 50,
+    "Grade": 4
+  },
+  {
+    "TranceID": 50,
+    "TranceStep": 1,
+    "StatusID": 33,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 51,
+    "TranceStep": 2,
+    "StatusID": 33,
+    "StatusValue": 14,
+    "Grade": 4
+  },
+  {
+    "TranceID": 52,
+    "TranceStep": 3,
+    "StatusID": 33,
+    "StatusValue": 21,
+    "Grade": 4
+  },
+  {
+    "TranceID": 53,
+    "TranceStep": 4,
+    "StatusID": 33,
+    "StatusValue": 28,
+    "Grade": 4
+  },
+  {
+    "TranceID": 54,
+    "TranceStep": 5,
+    "StatusID": 33,
+    "StatusValue": 36,
+    "Grade": 4
+  },
+  {
+    "TranceID": 55,
+    "TranceStep": 6,
+    "StatusID": 33,
+    "StatusValue": 43,
+    "Grade": 4
+  },
+  {
+    "TranceID": 56,
+    "TranceStep": 7,
+    "StatusID": 33,
+    "StatusValue": 50,
+    "Grade": 4
+  },
+  {
+    "TranceID": 57,
+    "TranceStep": 1,
+    "StatusID": 34,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 58,
+    "TranceStep": 2,
+    "StatusID": 34,
+    "StatusValue": 19,
+    "Grade": 4
+  },
+  {
+    "TranceID": 59,
+    "TranceStep": 3,
+    "StatusID": 34,
+    "StatusValue": 28,
+    "Grade": 4
+  },
+  {
+    "TranceID": 60,
+    "TranceStep": 4,
+    "StatusID": 34,
+    "StatusValue": 38,
+    "Grade": 4
+  },
+  {
+    "TranceID": 61,
+    "TranceStep": 5,
+    "StatusID": 34,
+    "StatusValue": 48,
+    "Grade": 4
+  },
+  {
+    "TranceID": 62,
+    "TranceStep": 6,
+    "StatusID": 34,
+    "StatusValue": 57,
+    "Grade": 4
+  },
+  {
+    "TranceID": 63,
+    "TranceStep": 7,
+    "StatusID": 34,
+    "StatusValue": 67,
+    "Grade": 4
+  },
+  {
+    "TranceID": 64,
+    "TranceStep": 1,
+    "StatusID": 35,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 65,
+    "TranceStep": 2,
+    "StatusID": 35,
+    "StatusValue": 19,
+    "Grade": 4
+  },
+  {
+    "TranceID": 66,
+    "TranceStep": 3,
+    "StatusID": 35,
+    "StatusValue": 28,
+    "Grade": 4
+  },
+  {
+    "TranceID": 67,
+    "TranceStep": 4,
+    "StatusID": 35,
+    "StatusValue": 38,
+    "Grade": 4
+  },
+  {
+    "TranceID": 68,
+    "TranceStep": 5,
+    "StatusID": 35,
+    "StatusValue": 48,
+    "Grade": 4
+  },
+  {
+    "TranceID": 69,
+    "TranceStep": 6,
+    "StatusID": 35,
+    "StatusValue": 57,
+    "Grade": 4
+  },
+  {
+    "TranceID": 70,
+    "TranceStep": 7,
+    "StatusID": 35,
+    "StatusValue": 67,
+    "Grade": 4
+  },
+  {
+    "TranceID": 71,
+    "TranceStep": 1,
+    "StatusID": 38,
+    "StatusValue": 2,
+    "Grade": 4
+  },
+  {
+    "TranceID": 72,
+    "TranceStep": 2,
+    "StatusID": 38,
+    "StatusValue": 4,
+    "Grade": 4
+  },
+  {
+    "TranceID": 73,
+    "TranceStep": 3,
+    "StatusID": 38,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 74,
+    "TranceStep": 4,
+    "StatusID": 38,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 75,
+    "TranceStep": 5,
+    "StatusID": 38,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 76,
+    "TranceStep": 6,
+    "StatusID": 38,
+    "StatusValue": 14,
+    "Grade": 4
+  },
+  {
+    "TranceID": 77,
+    "TranceStep": 7,
+    "StatusID": 38,
+    "StatusValue": 16,
+    "Grade": 4
+  },
+  {
+    "TranceID": 78,
+    "TranceStep": 1,
+    "StatusID": 39,
+    "StatusValue": 2,
+    "Grade": 4
+  },
+  {
+    "TranceID": 79,
+    "TranceStep": 2,
+    "StatusID": 39,
+    "StatusValue": 4,
+    "Grade": 4
+  },
+  {
+    "TranceID": 80,
+    "TranceStep": 3,
+    "StatusID": 39,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 81,
+    "TranceStep": 4,
+    "StatusID": 39,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 82,
+    "TranceStep": 5,
+    "StatusID": 39,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 83,
+    "TranceStep": 6,
+    "StatusID": 39,
+    "StatusValue": 14,
+    "Grade": 4
+  },
+  {
+    "TranceID": 84,
+    "TranceStep": 7,
+    "StatusID": 39,
+    "StatusValue": 16,
+    "Grade": 4
+  },
+  {
+    "TranceID": 85,
+    "TranceStep": 1,
+    "StatusID": 40,
+    "StatusValue": 2,
+    "Grade": 4
+  },
+  {
+    "TranceID": 86,
+    "TranceStep": 2,
+    "StatusID": 40,
+    "StatusValue": 4,
+    "Grade": 4
+  },
+  {
+    "TranceID": 87,
+    "TranceStep": 3,
+    "StatusID": 40,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 88,
+    "TranceStep": 4,
+    "StatusID": 40,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 89,
+    "TranceStep": 5,
+    "StatusID": 40,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 90,
+    "TranceStep": 6,
+    "StatusID": 40,
+    "StatusValue": 14,
+    "Grade": 4
+  },
+  {
+    "TranceID": 91,
+    "TranceStep": 7,
+    "StatusID": 40,
+    "StatusValue": 16,
+    "Grade": 4
+  },
+  {
+    "TranceID": 92,
+    "TranceStep": 1,
+    "StatusID": 41,
+    "StatusValue": 3,
+    "Grade": 4
+  },
+  {
+    "TranceID": 93,
+    "TranceStep": 2,
+    "StatusID": 41,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 94,
+    "TranceStep": 3,
+    "StatusID": 41,
+    "StatusValue": 10,
+    "Grade": 4
+  },
+  {
+    "TranceID": 95,
+    "TranceStep": 4,
+    "StatusID": 41,
+    "StatusValue": 14,
+    "Grade": 4
+  },
+  {
+    "TranceID": 96,
+    "TranceStep": 5,
+    "StatusID": 41,
+    "StatusValue": 18,
+    "Grade": 4
+  },
+  {
+    "TranceID": 97,
+    "TranceStep": 6,
+    "StatusID": 41,
+    "StatusValue": 21,
+    "Grade": 4
+  },
+  {
+    "TranceID": 98,
+    "TranceStep": 7,
+    "StatusID": 41,
+    "StatusValue": 25,
+    "Grade": 4
+  },
+  {
+    "TranceID": 99,
+    "TranceStep": 1,
+    "StatusID": 42,
+    "StatusValue": 2,
+    "Grade": 4
+  },
+  {
+    "TranceID": 100,
+    "TranceStep": 2,
+    "StatusID": 42,
+    "StatusValue": 4,
+    "Grade": 4
+  },
+  {
+    "TranceID": 101,
+    "TranceStep": 3,
+    "StatusID": 42,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 102,
+    "TranceStep": 4,
+    "StatusID": 42,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 103,
+    "TranceStep": 5,
+    "StatusID": 42,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 104,
+    "TranceStep": 6,
+    "StatusID": 42,
+    "StatusValue": 14,
+    "Grade": 4
+  },
+  {
+    "TranceID": 105,
+    "TranceStep": 7,
+    "StatusID": 42,
+    "StatusValue": 16,
+    "Grade": 4
+  },
+  {
+    "TranceID": 106,
+    "TranceStep": 1,
+    "StatusID": 43,
+    "StatusValue": 3,
+    "Grade": 4
+  },
+  {
+    "TranceID": 107,
+    "TranceStep": 2,
+    "StatusID": 43,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 108,
+    "TranceStep": 3,
+    "StatusID": 43,
+    "StatusValue": 10,
+    "Grade": 4
+  },
+  {
+    "TranceID": 109,
+    "TranceStep": 4,
+    "StatusID": 43,
+    "StatusValue": 14,
+    "Grade": 4
+  },
+  {
+    "TranceID": 110,
+    "TranceStep": 5,
+    "StatusID": 43,
+    "StatusValue": 18,
+    "Grade": 4
+  },
+  {
+    "TranceID": 111,
+    "TranceStep": 6,
+    "StatusID": 43,
+    "StatusValue": 21,
+    "Grade": 4
+  },
+  {
+    "TranceID": 112,
+    "TranceStep": 7,
+    "StatusID": 43,
+    "StatusValue": 25,
+    "Grade": 4
+  },
+  {
+    "TranceID": 113,
+    "TranceStep": 1,
+    "StatusID": 44,
+    "StatusValue": 3,
+    "Grade": 4
+  },
+  {
+    "TranceID": 114,
+    "TranceStep": 2,
+    "StatusID": 44,
+    "StatusValue": 6,
+    "Grade": 4
+  },
+  {
+    "TranceID": 115,
+    "TranceStep": 3,
+    "StatusID": 44,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 116,
+    "TranceStep": 4,
+    "StatusID": 44,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 117,
+    "TranceStep": 5,
+    "StatusID": 44,
+    "StatusValue": 15,
+    "Grade": 4
+  },
+  {
+    "TranceID": 118,
+    "TranceStep": 6,
+    "StatusID": 44,
+    "StatusValue": 18,
+    "Grade": 4
+  },
+  {
+    "TranceID": 119,
+    "TranceStep": 7,
+    "StatusID": 44,
+    "StatusValue": 21,
+    "Grade": 4
+  },
+  {
+    "TranceID": 120,
+    "TranceStep": 1,
+    "StatusID": 45,
+    "StatusValue": 3,
+    "Grade": 4
+  },
+  {
+    "TranceID": 121,
+    "TranceStep": 2,
+    "StatusID": 45,
+    "StatusValue": 6,
+    "Grade": 4
+  },
+  {
+    "TranceID": 122,
+    "TranceStep": 3,
+    "StatusID": 45,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 123,
+    "TranceStep": 4,
+    "StatusID": 45,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 124,
+    "TranceStep": 5,
+    "StatusID": 45,
+    "StatusValue": 15,
+    "Grade": 4
+  },
+  {
+    "TranceID": 125,
+    "TranceStep": 6,
+    "StatusID": 45,
+    "StatusValue": 18,
+    "Grade": 4
+  },
+  {
+    "TranceID": 126,
+    "TranceStep": 7,
+    "StatusID": 45,
+    "StatusValue": 21,
+    "Grade": 4
+  },
+  {
+    "TranceID": 127,
+    "TranceStep": 1,
+    "StatusID": 46,
+    "StatusValue": 1,
+    "Grade": 4
+  },
+  {
+    "TranceID": 128,
+    "TranceStep": 2,
+    "StatusID": 46,
+    "StatusValue": 3,
+    "Grade": 4
+  },
+  {
+    "TranceID": 129,
+    "TranceStep": 3,
+    "StatusID": 46,
+    "StatusValue": 5,
+    "Grade": 4
+  },
+  {
+    "TranceID": 130,
+    "TranceStep": 4,
+    "StatusID": 46,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 131,
+    "TranceStep": 5,
+    "StatusID": 46,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 132,
+    "TranceStep": 6,
+    "StatusID": 46,
+    "StatusValue": 10,
+    "Grade": 4
+  },
+  {
+    "TranceID": 133,
+    "TranceStep": 7,
+    "StatusID": 46,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 134,
+    "TranceStep": 1,
+    "StatusID": 47,
+    "StatusValue": 1,
+    "Grade": 4
+  },
+  {
+    "TranceID": 135,
+    "TranceStep": 2,
+    "StatusID": 47,
+    "StatusValue": 3,
+    "Grade": 4
+  },
+  {
+    "TranceID": 136,
+    "TranceStep": 3,
+    "StatusID": 47,
+    "StatusValue": 5,
+    "Grade": 4
+  },
+  {
+    "TranceID": 137,
+    "TranceStep": 4,
+    "StatusID": 47,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 138,
+    "TranceStep": 5,
+    "StatusID": 47,
+    "StatusValue": 9,
+    "Grade": 4
+  },
+  {
+    "TranceID": 139,
+    "TranceStep": 6,
+    "StatusID": 47,
+    "StatusValue": 10,
+    "Grade": 4
+  },
+  {
+    "TranceID": 140,
+    "TranceStep": 7,
+    "StatusID": 47,
+    "StatusValue": 12,
+    "Grade": 4
+  },
+  {
+    "TranceID": 141,
+    "TranceStep": 1,
+    "StatusID": 82,
+    "StatusValue": 45,
+    "Grade": 4
+  },
+  {
+    "TranceID": 142,
+    "TranceStep": 2,
+    "StatusID": 82,
+    "StatusValue": 90,
+    "Grade": 4
+  },
+  {
+    "TranceID": 143,
+    "TranceStep": 3,
+    "StatusID": 82,
+    "StatusValue": 135,
+    "Grade": 4
+  },
+  {
+    "TranceID": 144,
+    "TranceStep": 4,
+    "StatusID": 82,
+    "StatusValue": 180,
+    "Grade": 4
+  },
+  {
+    "TranceID": 145,
+    "TranceStep": 5,
+    "StatusID": 82,
+    "StatusValue": 225,
+    "Grade": 4
+  },
+  {
+    "TranceID": 146,
+    "TranceStep": 6,
+    "StatusID": 82,
+    "StatusValue": 270,
+    "Grade": 4
+  },
+  {
+    "TranceID": 147,
+    "TranceStep": 7,
+    "StatusID": 82,
+    "StatusValue": 315,
+    "Grade": 4
+  },
+  {
+    "TranceID": 148,
+    "TranceStep": 1,
+    "StatusID": 87,
+    "StatusValue": 60,
+    "Grade": 4
+  },
+  {
+    "TranceID": 149,
+    "TranceStep": 2,
+    "StatusID": 87,
+    "StatusValue": 120,
+    "Grade": 4
+  },
+  {
+    "TranceID": 150,
+    "TranceStep": 3,
+    "StatusID": 87,
+    "StatusValue": 180,
+    "Grade": 4
+  },
+  {
+    "TranceID": 151,
+    "TranceStep": 4,
+    "StatusID": 87,
+    "StatusValue": 240,
+    "Grade": 4
+  },
+  {
+    "TranceID": 152,
+    "TranceStep": 5,
+    "StatusID": 87,
+    "StatusValue": 300,
+    "Grade": 4
+  },
+  {
+    "TranceID": 153,
+    "TranceStep": 6,
+    "StatusID": 87,
+    "StatusValue": 360,
+    "Grade": 4
+  },
+  {
+    "TranceID": 154,
+    "TranceStep": 7,
+    "StatusID": 87,
+    "StatusValue": 420,
+    "Grade": 4
+  },
+  {
+    "TranceID": 155,
+    "TranceStep": 1,
+    "StatusID": 91,
+    "StatusValue": 90,
+    "Grade": 4
+  },
+  {
+    "TranceID": 156,
+    "TranceStep": 2,
+    "StatusID": 91,
+    "StatusValue": 180,
+    "Grade": 4
+  },
+  {
+    "TranceID": 157,
+    "TranceStep": 3,
+    "StatusID": 91,
+    "StatusValue": 270,
+    "Grade": 4
+  },
+  {
+    "TranceID": 158,
+    "TranceStep": 4,
+    "StatusID": 91,
+    "StatusValue": 360,
+    "Grade": 4
+  },
+  {
+    "TranceID": 159,
+    "TranceStep": 5,
+    "StatusID": 91,
+    "StatusValue": 450,
+    "Grade": 4
+  },
+  {
+    "TranceID": 160,
+    "TranceStep": 6,
+    "StatusID": 91,
+    "StatusValue": 540,
+    "Grade": 4
+  },
+  {
+    "TranceID": 161,
+    "TranceStep": 7,
+    "StatusID": 91,
+    "StatusValue": 630,
+    "Grade": 4
+  },
+  {
+    "TranceID": 162,
+    "TranceStep": 1,
+    "StatusID": 92,
+    "StatusValue": 90,
+    "Grade": 4
+  },
+  {
+    "TranceID": 163,
+    "TranceStep": 2,
+    "StatusID": 92,
+    "StatusValue": 180,
+    "Grade": 4
+  },
+  {
+    "TranceID": 164,
+    "TranceStep": 3,
+    "StatusID": 92,
+    "StatusValue": 270,
+    "Grade": 4
+  },
+  {
+    "TranceID": 165,
+    "TranceStep": 4,
+    "StatusID": 92,
+    "StatusValue": 360,
+    "Grade": 4
+  },
+  {
+    "TranceID": 166,
+    "TranceStep": 5,
+    "StatusID": 92,
+    "StatusValue": 450,
+    "Grade": 4
+  },
+  {
+    "TranceID": 167,
+    "TranceStep": 6,
+    "StatusID": 92,
+    "StatusValue": 540,
+    "Grade": 4
+  },
+  {
+    "TranceID": 168,
+    "TranceStep": 7,
+    "StatusID": 92,
+    "StatusValue": 630,
+    "Grade": 4
+  },
+  {
+    "TranceID": 169,
+    "TranceStep": 1,
+    "StatusID": 93,
+    "StatusValue": 90,
+    "Grade": 4
+  },
+  {
+    "TranceID": 170,
+    "TranceStep": 2,
+    "StatusID": 93,
+    "StatusValue": 180,
+    "Grade": 4
+  },
+  {
+    "TranceID": 171,
+    "TranceStep": 3,
+    "StatusID": 93,
+    "StatusValue": 270,
+    "Grade": 4
+  },
+  {
+    "TranceID": 172,
+    "TranceStep": 4,
+    "StatusID": 93,
+    "StatusValue": 360,
+    "Grade": 4
+  },
+  {
+    "TranceID": 173,
+    "TranceStep": 5,
+    "StatusID": 93,
+    "StatusValue": 450,
+    "Grade": 4
+  },
+  {
+    "TranceID": 174,
+    "TranceStep": 6,
+    "StatusID": 93,
+    "StatusValue": 540,
+    "Grade": 4
+  },
+  {
+    "TranceID": 175,
+    "TranceStep": 7,
+    "StatusID": 93,
+    "StatusValue": 630,
+    "Grade": 4
+  },
+  {
+    "TranceID": 176,
+    "TranceStep": 1,
+    "StatusID": 36,
+    "StatusValue": 7,
+    "Grade": 4
+  },
+  {
+    "TranceID": 177,
+    "TranceStep": 2,
+    "StatusID": 36,
+    "StatusValue": 15,
+    "Grade": 4
+  },
+  {
+    "TranceID": 178,
+    "TranceStep": 3,
+    "StatusID": 36,
+    "StatusValue": 22,
+    "Grade": 4
+  },
+  {
+    "TranceID": 179,
+    "TranceStep": 4,
+    "StatusID": 36,
+    "StatusValue": 30,
+    "Grade": 4
+  },
+  {
+    "TranceID": 180,
+    "TranceStep": 5,
+    "StatusID": 36,
+    "StatusValue": 37,
+    "Grade": 4
+  },
+  {
+    "TranceID": 181,
+    "TranceStep": 6,
+    "StatusID": 36,
+    "StatusValue": 45,
+    "Grade": 4
+  },
+  {
+    "TranceID": 182,
+    "TranceStep": 7,
+    "StatusID": 36,
+    "StatusValue": 52,
+    "Grade": 4
+  },
+  {
+    "TranceID": 183,
+    "TranceStep": 1,
+    "StatusID": 1,
+    "StatusValue": 120,
+    "Grade": 5
+  },
+  {
+    "TranceID": 184,
+    "TranceStep": 2,
+    "StatusID": 1,
+    "StatusValue": 240,
+    "Grade": 5
+  },
+  {
+    "TranceID": 185,
+    "TranceStep": 3,
+    "StatusID": 1,
+    "StatusValue": 360,
+    "Grade": 5
+  },
+  {
+    "TranceID": 186,
+    "TranceStep": 4,
+    "StatusID": 1,
+    "StatusValue": 480,
+    "Grade": 5
+  },
+  {
+    "TranceID": 187,
+    "TranceStep": 5,
+    "StatusID": 1,
+    "StatusValue": 600,
+    "Grade": 5
+  },
+  {
+    "TranceID": 188,
+    "TranceStep": 6,
+    "StatusID": 1,
+    "StatusValue": 720,
+    "Grade": 5
+  },
+  {
+    "TranceID": 189,
+    "TranceStep": 7,
+    "StatusID": 1,
+    "StatusValue": 840,
+    "Grade": 5
+  },
+  {
+    "TranceID": 190,
+    "TranceStep": 1,
+    "StatusID": 6,
+    "StatusValue": 30,
+    "Grade": 5
+  },
+  {
+    "TranceID": 191,
+    "TranceStep": 2,
+    "StatusID": 6,
+    "StatusValue": 60,
+    "Grade": 5
+  },
+  {
+    "TranceID": 192,
+    "TranceStep": 3,
+    "StatusID": 6,
+    "StatusValue": 90,
+    "Grade": 5
+  },
+  {
+    "TranceID": 193,
+    "TranceStep": 4,
+    "StatusID": 6,
+    "StatusValue": 120,
+    "Grade": 5
+  },
+  {
+    "TranceID": 194,
+    "TranceStep": 5,
+    "StatusID": 6,
+    "StatusValue": 150,
+    "Grade": 5
+  },
+  {
+    "TranceID": 195,
+    "TranceStep": 6,
+    "StatusID": 6,
+    "StatusValue": 180,
+    "Grade": 5
+  },
+  {
+    "TranceID": 196,
+    "TranceStep": 7,
+    "StatusID": 6,
+    "StatusValue": 210,
+    "Grade": 5
+  },
+  {
+    "TranceID": 197,
+    "TranceStep": 1,
+    "StatusID": 28,
+    "StatusValue": 3,
+    "Grade": 5
+  },
+  {
+    "TranceID": 198,
+    "TranceStep": 2,
+    "StatusID": 28,
+    "StatusValue": 7,
+    "Grade": 5
+  },
+  {
+    "TranceID": 199,
+    "TranceStep": 3,
+    "StatusID": 28,
+    "StatusValue": 10,
+    "Grade": 5
+  },
+  {
+    "TranceID": 200,
+    "TranceStep": 4,
+    "StatusID": 28,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 201,
+    "TranceStep": 5,
+    "StatusID": 28,
+    "StatusValue": 18,
+    "Grade": 5
+  },
+  {
+    "TranceID": 202,
+    "TranceStep": 6,
+    "StatusID": 28,
+    "StatusValue": 21,
+    "Grade": 5
+  },
+  {
+    "TranceID": 203,
+    "TranceStep": 7,
+    "StatusID": 28,
+    "StatusValue": 25,
+    "Grade": 5
+  },
+  {
+    "TranceID": 204,
+    "TranceStep": 1,
+    "StatusID": 29,
+    "StatusValue": 3,
+    "Grade": 5
+  },
+  {
+    "TranceID": 205,
+    "TranceStep": 2,
+    "StatusID": 29,
+    "StatusValue": 7,
+    "Grade": 5
+  },
+  {
+    "TranceID": 206,
+    "TranceStep": 3,
+    "StatusID": 29,
+    "StatusValue": 10,
+    "Grade": 5
+  },
+  {
+    "TranceID": 207,
+    "TranceStep": 4,
+    "StatusID": 29,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 208,
+    "TranceStep": 5,
+    "StatusID": 29,
+    "StatusValue": 18,
+    "Grade": 5
+  },
+  {
+    "TranceID": 209,
+    "TranceStep": 6,
+    "StatusID": 29,
+    "StatusValue": 21,
+    "Grade": 5
+  },
+  {
+    "TranceID": 210,
+    "TranceStep": 7,
+    "StatusID": 29,
+    "StatusValue": 25,
+    "Grade": 5
+  },
+  {
+    "TranceID": 211,
+    "TranceStep": 1,
+    "StatusID": 30,
+    "StatusValue": 4,
+    "Grade": 5
+  },
+  {
+    "TranceID": 212,
+    "TranceStep": 2,
+    "StatusID": 30,
+    "StatusValue": 9,
+    "Grade": 5
+  },
+  {
+    "TranceID": 213,
+    "TranceStep": 3,
+    "StatusID": 30,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 214,
+    "TranceStep": 4,
+    "StatusID": 30,
+    "StatusValue": 19,
+    "Grade": 5
+  },
+  {
+    "TranceID": 215,
+    "TranceStep": 5,
+    "StatusID": 30,
+    "StatusValue": 24,
+    "Grade": 5
+  },
+  {
+    "TranceID": 216,
+    "TranceStep": 6,
+    "StatusID": 30,
+    "StatusValue": 28,
+    "Grade": 5
+  },
+  {
+    "TranceID": 217,
+    "TranceStep": 7,
+    "StatusID": 30,
+    "StatusValue": 33,
+    "Grade": 5
+  },
+  {
+    "TranceID": 218,
+    "TranceStep": 1,
+    "StatusID": 31,
+    "StatusValue": 4,
+    "Grade": 5
+  },
+  {
+    "TranceID": 219,
+    "TranceStep": 2,
+    "StatusID": 31,
+    "StatusValue": 9,
+    "Grade": 5
+  },
+  {
+    "TranceID": 220,
+    "TranceStep": 3,
+    "StatusID": 31,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 221,
+    "TranceStep": 4,
+    "StatusID": 31,
+    "StatusValue": 19,
+    "Grade": 5
+  },
+  {
+    "TranceID": 222,
+    "TranceStep": 5,
+    "StatusID": 31,
+    "StatusValue": 24,
+    "Grade": 5
+  },
+  {
+    "TranceID": 223,
+    "TranceStep": 6,
+    "StatusID": 31,
+    "StatusValue": 28,
+    "Grade": 5
+  },
+  {
+    "TranceID": 224,
+    "TranceStep": 7,
+    "StatusID": 31,
+    "StatusValue": 33,
+    "Grade": 5
+  },
+  {
+    "TranceID": 225,
+    "TranceStep": 1,
+    "StatusID": 32,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 226,
+    "TranceStep": 2,
+    "StatusID": 32,
+    "StatusValue": 28,
+    "Grade": 5
+  },
+  {
+    "TranceID": 227,
+    "TranceStep": 3,
+    "StatusID": 32,
+    "StatusValue": 43,
+    "Grade": 5
+  },
+  {
+    "TranceID": 228,
+    "TranceStep": 4,
+    "StatusID": 32,
+    "StatusValue": 57,
+    "Grade": 5
+  },
+  {
+    "TranceID": 229,
+    "TranceStep": 5,
+    "StatusID": 32,
+    "StatusValue": 72,
+    "Grade": 5
+  },
+  {
+    "TranceID": 230,
+    "TranceStep": 6,
+    "StatusID": 32,
+    "StatusValue": 86,
+    "Grade": 5
+  },
+  {
+    "TranceID": 231,
+    "TranceStep": 7,
+    "StatusID": 32,
+    "StatusValue": 100,
+    "Grade": 5
+  },
+  {
+    "TranceID": 232,
+    "TranceStep": 1,
+    "StatusID": 33,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 233,
+    "TranceStep": 2,
+    "StatusID": 33,
+    "StatusValue": 28,
+    "Grade": 5
+  },
+  {
+    "TranceID": 234,
+    "TranceStep": 3,
+    "StatusID": 33,
+    "StatusValue": 43,
+    "Grade": 5
+  },
+  {
+    "TranceID": 235,
+    "TranceStep": 4,
+    "StatusID": 33,
+    "StatusValue": 57,
+    "Grade": 5
+  },
+  {
+    "TranceID": 236,
+    "TranceStep": 5,
+    "StatusID": 33,
+    "StatusValue": 72,
+    "Grade": 5
+  },
+  {
+    "TranceID": 237,
+    "TranceStep": 6,
+    "StatusID": 33,
+    "StatusValue": 86,
+    "Grade": 5
+  },
+  {
+    "TranceID": 238,
+    "TranceStep": 7,
+    "StatusID": 33,
+    "StatusValue": 100,
+    "Grade": 5
+  },
+  {
+    "TranceID": 239,
+    "TranceStep": 1,
+    "StatusID": 34,
+    "StatusValue": 19,
+    "Grade": 5
+  },
+  {
+    "TranceID": 240,
+    "TranceStep": 2,
+    "StatusID": 34,
+    "StatusValue": 38,
+    "Grade": 5
+  },
+  {
+    "TranceID": 241,
+    "TranceStep": 3,
+    "StatusID": 34,
+    "StatusValue": 57,
+    "Grade": 5
+  },
+  {
+    "TranceID": 242,
+    "TranceStep": 4,
+    "StatusID": 34,
+    "StatusValue": 76,
+    "Grade": 5
+  },
+  {
+    "TranceID": 243,
+    "TranceStep": 5,
+    "StatusID": 34,
+    "StatusValue": 96,
+    "Grade": 5
+  },
+  {
+    "TranceID": 244,
+    "TranceStep": 6,
+    "StatusID": 34,
+    "StatusValue": 115,
+    "Grade": 5
+  },
+  {
+    "TranceID": 245,
+    "TranceStep": 7,
+    "StatusID": 34,
+    "StatusValue": 134,
+    "Grade": 5
+  },
+  {
+    "TranceID": 246,
+    "TranceStep": 1,
+    "StatusID": 35,
+    "StatusValue": 19,
+    "Grade": 5
+  },
+  {
+    "TranceID": 247,
+    "TranceStep": 2,
+    "StatusID": 35,
+    "StatusValue": 38,
+    "Grade": 5
+  },
+  {
+    "TranceID": 248,
+    "TranceStep": 3,
+    "StatusID": 35,
+    "StatusValue": 57,
+    "Grade": 5
+  },
+  {
+    "TranceID": 249,
+    "TranceStep": 4,
+    "StatusID": 35,
+    "StatusValue": 76,
+    "Grade": 5
+  },
+  {
+    "TranceID": 250,
+    "TranceStep": 5,
+    "StatusID": 35,
+    "StatusValue": 96,
+    "Grade": 5
+  },
+  {
+    "TranceID": 251,
+    "TranceStep": 6,
+    "StatusID": 35,
+    "StatusValue": 115,
+    "Grade": 5
+  },
+  {
+    "TranceID": 252,
+    "TranceStep": 7,
+    "StatusID": 35,
+    "StatusValue": 134,
+    "Grade": 5
+  },
+  {
+    "TranceID": 253,
+    "TranceStep": 1,
+    "StatusID": 38,
+    "StatusValue": 4,
+    "Grade": 5
+  },
+  {
+    "TranceID": 254,
+    "TranceStep": 2,
+    "StatusID": 38,
+    "StatusValue": 9,
+    "Grade": 5
+  },
+  {
+    "TranceID": 255,
+    "TranceStep": 3,
+    "StatusID": 38,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 256,
+    "TranceStep": 4,
+    "StatusID": 38,
+    "StatusValue": 19,
+    "Grade": 5
+  },
+  {
+    "TranceID": 257,
+    "TranceStep": 5,
+    "StatusID": 38,
+    "StatusValue": 24,
+    "Grade": 5
+  },
+  {
+    "TranceID": 258,
+    "TranceStep": 6,
+    "StatusID": 38,
+    "StatusValue": 28,
+    "Grade": 5
+  },
+  {
+    "TranceID": 259,
+    "TranceStep": 7,
+    "StatusID": 38,
+    "StatusValue": 33,
+    "Grade": 5
+  },
+  {
+    "TranceID": 260,
+    "TranceStep": 1,
+    "StatusID": 39,
+    "StatusValue": 4,
+    "Grade": 5
+  },
+  {
+    "TranceID": 261,
+    "TranceStep": 2,
+    "StatusID": 39,
+    "StatusValue": 9,
+    "Grade": 5
+  },
+  {
+    "TranceID": 262,
+    "TranceStep": 3,
+    "StatusID": 39,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 263,
+    "TranceStep": 4,
+    "StatusID": 39,
+    "StatusValue": 19,
+    "Grade": 5
+  },
+  {
+    "TranceID": 264,
+    "TranceStep": 5,
+    "StatusID": 39,
+    "StatusValue": 24,
+    "Grade": 5
+  },
+  {
+    "TranceID": 265,
+    "TranceStep": 6,
+    "StatusID": 39,
+    "StatusValue": 28,
+    "Grade": 5
+  },
+  {
+    "TranceID": 266,
+    "TranceStep": 7,
+    "StatusID": 39,
+    "StatusValue": 33,
+    "Grade": 5
+  },
+  {
+    "TranceID": 267,
+    "TranceStep": 1,
+    "StatusID": 40,
+    "StatusValue": 4,
+    "Grade": 5
+  },
+  {
+    "TranceID": 268,
+    "TranceStep": 2,
+    "StatusID": 40,
+    "StatusValue": 9,
+    "Grade": 5
+  },
+  {
+    "TranceID": 269,
+    "TranceStep": 3,
+    "StatusID": 40,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 270,
+    "TranceStep": 4,
+    "StatusID": 40,
+    "StatusValue": 19,
+    "Grade": 5
+  },
+  {
+    "TranceID": 271,
+    "TranceStep": 5,
+    "StatusID": 40,
+    "StatusValue": 24,
+    "Grade": 5
+  },
+  {
+    "TranceID": 272,
+    "TranceStep": 6,
+    "StatusID": 40,
+    "StatusValue": 28,
+    "Grade": 5
+  },
+  {
+    "TranceID": 273,
+    "TranceStep": 7,
+    "StatusID": 40,
+    "StatusValue": 33,
+    "Grade": 5
+  },
+  {
+    "TranceID": 274,
+    "TranceStep": 1,
+    "StatusID": 41,
+    "StatusValue": 7,
+    "Grade": 5
+  },
+  {
+    "TranceID": 275,
+    "TranceStep": 2,
+    "StatusID": 41,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 276,
+    "TranceStep": 3,
+    "StatusID": 41,
+    "StatusValue": 21,
+    "Grade": 5
+  },
+  {
+    "TranceID": 277,
+    "TranceStep": 4,
+    "StatusID": 41,
+    "StatusValue": 28,
+    "Grade": 5
+  },
+  {
+    "TranceID": 278,
+    "TranceStep": 5,
+    "StatusID": 41,
+    "StatusValue": 36,
+    "Grade": 5
+  },
+  {
+    "TranceID": 279,
+    "TranceStep": 6,
+    "StatusID": 41,
+    "StatusValue": 43,
+    "Grade": 5
+  },
+  {
+    "TranceID": 280,
+    "TranceStep": 7,
+    "StatusID": 41,
+    "StatusValue": 50,
+    "Grade": 5
+  },
+  {
+    "TranceID": 281,
+    "TranceStep": 1,
+    "StatusID": 42,
+    "StatusValue": 4,
+    "Grade": 5
+  },
+  {
+    "TranceID": 282,
+    "TranceStep": 2,
+    "StatusID": 42,
+    "StatusValue": 9,
+    "Grade": 5
+  },
+  {
+    "TranceID": 283,
+    "TranceStep": 3,
+    "StatusID": 42,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 284,
+    "TranceStep": 4,
+    "StatusID": 42,
+    "StatusValue": 19,
+    "Grade": 5
+  },
+  {
+    "TranceID": 285,
+    "TranceStep": 5,
+    "StatusID": 42,
+    "StatusValue": 24,
+    "Grade": 5
+  },
+  {
+    "TranceID": 286,
+    "TranceStep": 6,
+    "StatusID": 42,
+    "StatusValue": 28,
+    "Grade": 5
+  },
+  {
+    "TranceID": 287,
+    "TranceStep": 7,
+    "StatusID": 42,
+    "StatusValue": 33,
+    "Grade": 5
+  },
+  {
+    "TranceID": 288,
+    "TranceStep": 1,
+    "StatusID": 43,
+    "StatusValue": 7,
+    "Grade": 5
+  },
+  {
+    "TranceID": 289,
+    "TranceStep": 2,
+    "StatusID": 43,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 290,
+    "TranceStep": 3,
+    "StatusID": 43,
+    "StatusValue": 21,
+    "Grade": 5
+  },
+  {
+    "TranceID": 291,
+    "TranceStep": 4,
+    "StatusID": 43,
+    "StatusValue": 28,
+    "Grade": 5
+  },
+  {
+    "TranceID": 292,
+    "TranceStep": 5,
+    "StatusID": 43,
+    "StatusValue": 36,
+    "Grade": 5
+  },
+  {
+    "TranceID": 293,
+    "TranceStep": 6,
+    "StatusID": 43,
+    "StatusValue": 43,
+    "Grade": 5
+  },
+  {
+    "TranceID": 294,
+    "TranceStep": 7,
+    "StatusID": 43,
+    "StatusValue": 50,
+    "Grade": 5
+  },
+  {
+    "TranceID": 295,
+    "TranceStep": 1,
+    "StatusID": 44,
+    "StatusValue": 6,
+    "Grade": 5
+  },
+  {
+    "TranceID": 296,
+    "TranceStep": 2,
+    "StatusID": 44,
+    "StatusValue": 12,
+    "Grade": 5
+  },
+  {
+    "TranceID": 297,
+    "TranceStep": 3,
+    "StatusID": 44,
+    "StatusValue": 18,
+    "Grade": 5
+  },
+  {
+    "TranceID": 298,
+    "TranceStep": 4,
+    "StatusID": 44,
+    "StatusValue": 24,
+    "Grade": 5
+  },
+  {
+    "TranceID": 299,
+    "TranceStep": 5,
+    "StatusID": 44,
+    "StatusValue": 30,
+    "Grade": 5
+  },
+  {
+    "TranceID": 300,
+    "TranceStep": 6,
+    "StatusID": 44,
+    "StatusValue": 36,
+    "Grade": 5
+  },
+  {
+    "TranceID": 301,
+    "TranceStep": 7,
+    "StatusID": 44,
+    "StatusValue": 42,
+    "Grade": 5
+  },
+  {
+    "TranceID": 302,
+    "TranceStep": 1,
+    "StatusID": 45,
+    "StatusValue": 6,
+    "Grade": 5
+  },
+  {
+    "TranceID": 303,
+    "TranceStep": 2,
+    "StatusID": 45,
+    "StatusValue": 12,
+    "Grade": 5
+  },
+  {
+    "TranceID": 304,
+    "TranceStep": 3,
+    "StatusID": 45,
+    "StatusValue": 18,
+    "Grade": 5
+  },
+  {
+    "TranceID": 305,
+    "TranceStep": 4,
+    "StatusID": 45,
+    "StatusValue": 24,
+    "Grade": 5
+  },
+  {
+    "TranceID": 306,
+    "TranceStep": 5,
+    "StatusID": 45,
+    "StatusValue": 30,
+    "Grade": 5
+  },
+  {
+    "TranceID": 307,
+    "TranceStep": 6,
+    "StatusID": 45,
+    "StatusValue": 36,
+    "Grade": 5
+  },
+  {
+    "TranceID": 308,
+    "TranceStep": 7,
+    "StatusID": 45,
+    "StatusValue": 42,
+    "Grade": 5
+  },
+  {
+    "TranceID": 309,
+    "TranceStep": 1,
+    "StatusID": 46,
+    "StatusValue": 3,
+    "Grade": 5
+  },
+  {
+    "TranceID": 310,
+    "TranceStep": 2,
+    "StatusID": 46,
+    "StatusValue": 7,
+    "Grade": 5
+  },
+  {
+    "TranceID": 311,
+    "TranceStep": 3,
+    "StatusID": 46,
+    "StatusValue": 10,
+    "Grade": 5
+  },
+  {
+    "TranceID": 312,
+    "TranceStep": 4,
+    "StatusID": 46,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 313,
+    "TranceStep": 5,
+    "StatusID": 46,
+    "StatusValue": 18,
+    "Grade": 5
+  },
+  {
+    "TranceID": 314,
+    "TranceStep": 6,
+    "StatusID": 46,
+    "StatusValue": 21,
+    "Grade": 5
+  },
+  {
+    "TranceID": 315,
+    "TranceStep": 7,
+    "StatusID": 46,
+    "StatusValue": 25,
+    "Grade": 5
+  },
+  {
+    "TranceID": 316,
+    "TranceStep": 1,
+    "StatusID": 47,
+    "StatusValue": 3,
+    "Grade": 5
+  },
+  {
+    "TranceID": 317,
+    "TranceStep": 2,
+    "StatusID": 47,
+    "StatusValue": 7,
+    "Grade": 5
+  },
+  {
+    "TranceID": 318,
+    "TranceStep": 3,
+    "StatusID": 47,
+    "StatusValue": 10,
+    "Grade": 5
+  },
+  {
+    "TranceID": 319,
+    "TranceStep": 4,
+    "StatusID": 47,
+    "StatusValue": 14,
+    "Grade": 5
+  },
+  {
+    "TranceID": 320,
+    "TranceStep": 5,
+    "StatusID": 47,
+    "StatusValue": 18,
+    "Grade": 5
+  },
+  {
+    "TranceID": 321,
+    "TranceStep": 6,
+    "StatusID": 47,
+    "StatusValue": 21,
+    "Grade": 5
+  },
+  {
+    "TranceID": 322,
+    "TranceStep": 7,
+    "StatusID": 47,
+    "StatusValue": 25,
+    "Grade": 5
+  },
+  {
+    "TranceID": 323,
+    "TranceStep": 1,
+    "StatusID": 82,
+    "StatusValue": 81,
+    "Grade": 5
+  },
+  {
+    "TranceID": 324,
+    "TranceStep": 2,
+    "StatusID": 82,
+    "StatusValue": 162,
+    "Grade": 5
+  },
+  {
+    "TranceID": 325,
+    "TranceStep": 3,
+    "StatusID": 82,
+    "StatusValue": 243,
+    "Grade": 5
+  },
+  {
+    "TranceID": 326,
+    "TranceStep": 4,
+    "StatusID": 82,
+    "StatusValue": 324,
+    "Grade": 5
+  },
+  {
+    "TranceID": 327,
+    "TranceStep": 5,
+    "StatusID": 82,
+    "StatusValue": 405,
+    "Grade": 5
+  },
+  {
+    "TranceID": 328,
+    "TranceStep": 6,
+    "StatusID": 82,
+    "StatusValue": 486,
+    "Grade": 5
+  },
+  {
+    "TranceID": 329,
+    "TranceStep": 7,
+    "StatusID": 82,
+    "StatusValue": 567,
+    "Grade": 5
+  },
+  {
+    "TranceID": 330,
+    "TranceStep": 1,
+    "StatusID": 87,
+    "StatusValue": 120,
+    "Grade": 5
+  },
+  {
+    "TranceID": 331,
+    "TranceStep": 2,
+    "StatusID": 87,
+    "StatusValue": 240,
+    "Grade": 5
+  },
+  {
+    "TranceID": 332,
+    "TranceStep": 3,
+    "StatusID": 87,
+    "StatusValue": 360,
+    "Grade": 5
+  },
+  {
+    "TranceID": 333,
+    "TranceStep": 4,
+    "StatusID": 87,
+    "StatusValue": 480,
+    "Grade": 5
+  },
+  {
+    "TranceID": 334,
+    "TranceStep": 5,
+    "StatusID": 87,
+    "StatusValue": 600,
+    "Grade": 5
+  },
+  {
+    "TranceID": 335,
+    "TranceStep": 6,
+    "StatusID": 87,
+    "StatusValue": 720,
+    "Grade": 5
+  },
+  {
+    "TranceID": 336,
+    "TranceStep": 7,
+    "StatusID": 87,
+    "StatusValue": 840,
+    "Grade": 5
+  },
+  {
+    "TranceID": 337,
+    "TranceStep": 1,
+    "StatusID": 91,
+    "StatusValue": 180,
+    "Grade": 5
+  },
+  {
+    "TranceID": 338,
+    "TranceStep": 2,
+    "StatusID": 91,
+    "StatusValue": 360,
+    "Grade": 5
+  },
+  {
+    "TranceID": 339,
+    "TranceStep": 3,
+    "StatusID": 91,
+    "StatusValue": 540,
+    "Grade": 5
+  },
+  {
+    "TranceID": 340,
+    "TranceStep": 4,
+    "StatusID": 91,
+    "StatusValue": 720,
+    "Grade": 5
+  },
+  {
+    "TranceID": 341,
+    "TranceStep": 5,
+    "StatusID": 91,
+    "StatusValue": 900,
+    "Grade": 5
+  },
+  {
+    "TranceID": 342,
+    "TranceStep": 6,
+    "StatusID": 91,
+    "StatusValue": 1080,
+    "Grade": 5
+  },
+  {
+    "TranceID": 343,
+    "TranceStep": 7,
+    "StatusID": 91,
+    "StatusValue": 1260,
+    "Grade": 5
+  },
+  {
+    "TranceID": 344,
+    "TranceStep": 1,
+    "StatusID": 92,
+    "StatusValue": 180,
+    "Grade": 5
+  },
+  {
+    "TranceID": 345,
+    "TranceStep": 2,
+    "StatusID": 92,
+    "StatusValue": 360,
+    "Grade": 5
+  },
+  {
+    "TranceID": 346,
+    "TranceStep": 3,
+    "StatusID": 92,
+    "StatusValue": 540,
+    "Grade": 5
+  },
+  {
+    "TranceID": 347,
+    "TranceStep": 4,
+    "StatusID": 92,
+    "StatusValue": 720,
+    "Grade": 5
+  },
+  {
+    "TranceID": 348,
+    "TranceStep": 5,
+    "StatusID": 92,
+    "StatusValue": 900,
+    "Grade": 5
+  },
+  {
+    "TranceID": 349,
+    "TranceStep": 6,
+    "StatusID": 92,
+    "StatusValue": 1080,
+    "Grade": 5
+  },
+  {
+    "TranceID": 350,
+    "TranceStep": 7,
+    "StatusID": 92,
+    "StatusValue": 1260,
+    "Grade": 5
+  },
+  {
+    "TranceID": 351,
+    "TranceStep": 1,
+    "StatusID": 93,
+    "StatusValue": 180,
+    "Grade": 5
+  },
+  {
+    "TranceID": 352,
+    "TranceStep": 2,
+    "StatusID": 93,
+    "StatusValue": 360,
+    "Grade": 5
+  },
+  {
+    "TranceID": 353,
+    "TranceStep": 3,
+    "StatusID": 93,
+    "StatusValue": 540,
+    "Grade": 5
+  },
+  {
+    "TranceID": 354,
+    "TranceStep": 4,
+    "StatusID": 93,
+    "StatusValue": 720,
+    "Grade": 5
+  },
+  {
+    "TranceID": 355,
+    "TranceStep": 5,
+    "StatusID": 93,
+    "StatusValue": 900,
+    "Grade": 5
+  },
+  {
+    "TranceID": 356,
+    "TranceStep": 6,
+    "StatusID": 93,
+    "StatusValue": 1080,
+    "Grade": 5
+  },
+  {
+    "TranceID": 357,
+    "TranceStep": 7,
+    "StatusID": 93,
+    "StatusValue": 1260,
+    "Grade": 5
+  },
+  {
+    "TranceID": 358,
+    "TranceStep": 1,
+    "StatusID": 36,
+    "StatusValue": 13,
+    "Grade": 5
+  },
+  {
+    "TranceID": 359,
+    "TranceStep": 2,
+    "StatusID": 36,
+    "StatusValue": 27,
+    "Grade": 5
+  },
+  {
+    "TranceID": 360,
+    "TranceStep": 3,
+    "StatusID": 36,
+    "StatusValue": 40,
+    "Grade": 5
+  },
+  {
+    "TranceID": 361,
+    "TranceStep": 4,
+    "StatusID": 36,
+    "StatusValue": 54,
+    "Grade": 5
+  },
+  {
+    "TranceID": 362,
+    "TranceStep": 5,
+    "StatusID": 36,
+    "StatusValue": 67,
+    "Grade": 5
+  },
+  {
+    "TranceID": 363,
+    "TranceStep": 6,
+    "StatusID": 36,
+    "StatusValue": 81,
+    "Grade": 5
+  },
+  {
+    "TranceID": 364,
+    "TranceStep": 7,
+    "StatusID": 36,
+    "StatusValue": 94,
+    "Grade": 5
+  }
+]

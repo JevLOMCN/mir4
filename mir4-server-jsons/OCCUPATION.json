@@ -1,0 +1,26 @@
+[
+    {
+        "OccupationId": 1,
+        "Grade": 1,
+        "OccupationType": 1,
+        "StageId": 1,
+        "DefaultFlagId": 1,
+        "GuildFlagId": 1,
+        "EnterPosition_Occupation": 1,
+        "EnterPosition_Other": 1,
+        "RevivalPosition_Occupation": 1,
+        "RevivalPosition_Other": 1,
+        "FlagBattleTime": 60,
+        "FlagGuardTime": 30,
+        "OccuRewardBuffId1": 1,
+        "OccuRewardBuffId2": 2,
+        "OccuRewardBuffId3": 3,
+        "OccuRewardItemId": 1,
+        "OccuRewardItemCount": 1,
+        "OccuRewardRespectsBuffId": 1,
+        "OccuRewardRespectsGuildExp": 1,
+        "OccuRewardRespectsLimitCount": 1,
+        "OccuRewardMonGenTime": 3600,
+        "OccuRewardPvPBuffId": 1
+    }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "TriggerID": 1,
+    "TriggerType": 1,
+    "TriggerLocation": "5680,-6795,5795",
+    "TriggerRotation": 0,
+    "LinkID": [
+      8,
+      11,
+      4,
+      7
+    ],
+    "Value1": [],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 2,
+    "TriggerType": 2,
+    "TriggerLocation": "5845,-5055,5485",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "2.0"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 3,
+    "TriggerType": 4,
+    "TriggerLocation": "5460,-5340,5420",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "109002024",
+      "109002024",
+      "109002024",
+      "109002024",
+      "109002024",
+      "109002024",
+      "109002024"
+    ],
+    "Value2": [
+      "4421,-4618,4605",
+      "5290,-4550,4605",
+      "6110,-4574,4605",
+      "4671,-5950,4475",
+      "4714,-6357,4475",
+      "4833,-4034,4605",
+      "5644,-3999,4605"
+    ],
+    "Value3": [
+      "-43",
+      "-84",
+      "-104",
+      "6",
+      "6",
+      "-84",
+      "-84"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 4,
+    "TriggerType": 4,
+    "TriggerLocation": "5835,-6165,5390",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "109002023",
+      "109002023",
+      "109002023",
+      "109002023",
+      "109002023",
+      "109002023",
+      "109002023",
+      "109002023"
+    ],
+    "Value2": [
+      "6169,-5144,4605",
+      "5495,-5482,4605",
+      "5016,-6424,4630",
+      "5016,-5994,4625",
+      "4436,-6304,4420",
+      "4436,-5874,4415",
+      "6557,-4975,4605",
+      "4648,-4757,4605"
+    ],
+    "Value3": [
+      "-109",
+      "-84",
+      "0",
+      "0",
+      "0",
+      "0",
+      "-109",
+      "-43"
+    ],
+    "Value4": [
+      "0",
+      "0.0",
+      "false"
+    ],
+    "Value5": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "TriggerID": 5,
+    "TriggerType": 5,
+    "TriggerLocation": "5575,-4940,5505",
+    "TriggerRotation": 0,
+    "LinkID": [
+      2,
+      10
+    ],
+    "Value1": [
+      "3"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 6,
+    "TriggerType": 5,
+    "TriggerLocation": "5760,-5645,5355",
+    "TriggerRotation": 0,
+    "LinkID": [
+      3
+    ],
+    "Value1": [
+      "4"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 7,
+    "TriggerType": "ETriggerType::PHASEAREA",
+    "TriggerLocation": "5150,-5480,2700",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "3588.015137"
+    ],
+    "Value2": [
+      "39.5"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 8,
+    "TriggerType": "ETriggerType::PLAYSOUND",
+    "TriggerLocation": "5990,-6610,5495",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "100110"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 9,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "4995,-7045,5680",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "BATTLESTART ALL"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 10,
+    "TriggerType": "ETriggerType::SCRIPT",
+    "TriggerLocation": "5600,-4690,5480",
+    "TriggerRotation": 0,
+    "LinkID": [],
+    "Value1": [
+      "MONSTERHIDE 109002027 1"
+    ],
+    "Value2": [],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  },
+  {
+    "TriggerID": 11,
+    "TriggerType": "ETriggerType::TIMER",
+    "TriggerLocation": "5375,-6865,5600",
+    "TriggerRotation": 0,
+    "LinkID": [
+      9
+    ],
+    "Value1": [
+      "1.0"
+    ],
+    "Value2": [
+      "false"
+    ],
+    "Value3": [],
+    "Value4": [],
+    "Value5": []
+  }
+]

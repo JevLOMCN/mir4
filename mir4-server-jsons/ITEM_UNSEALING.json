@@ -1,0 +1,72 @@
+[
+  {
+    "UnsealingType": 13,
+    "UnsealingTime": 300,
+    "SupportDecreaseTime": 60,
+    "NeedCostId": 2,
+    "NeedCostValue": 500
+  },
+  {
+    "UnsealingType": 31,
+    "UnsealingTime": 3600,
+    "SupportDecreaseTime": 60,
+    "NeedCostId": 2,
+    "NeedCostValue": 500
+  },
+  {
+    "UnsealingType": 42,
+    "UnsealingTime": 28800,
+    "SupportDecreaseTime": 432,
+    "NeedCostId": 2,
+    "NeedCostValue": 2000
+  },
+  {
+    "UnsealingType": 61,
+    "UnsealingTime": 259200,
+    "SupportDecreaseTime": 3888,
+    "NeedCostId": 2,
+    "NeedCostValue": 13000
+  },
+  {
+    "UnsealingType": 71,
+    "UnsealingTime": 864000,
+    "SupportDecreaseTime": 12960,
+    "NeedCostId": 2,
+    "NeedCostValue": 37000
+  },
+  {
+    "UnsealingType": 82,
+    "UnsealingTime": 3888000,
+    "SupportDecreaseTime": 58320,
+    "NeedCostId": 2,
+    "NeedCostValue": 5000000
+  },
+  {
+    "UnsealingType": 101,
+    "UnsealingTime": 10800,
+    "SupportDecreaseTime": 162,
+    "NeedCostId": 2,
+    "NeedCostValue": 10000
+  },
+  {
+    "UnsealingType": 102,
+    "UnsealingTime": 10800,
+    "SupportDecreaseTime": 162,
+    "NeedCostId": 2,
+    "NeedCostValue": 10000
+  },
+  {
+    "UnsealingType": 103,
+    "UnsealingTime": 10800,
+    "SupportDecreaseTime": 162,
+    "NeedCostId": 2,
+    "NeedCostValue": 10000
+  },
+  {
+    "UnsealingType": 104,
+    "UnsealingTime": 10800,
+    "SupportDecreaseTime": 162,
+    "NeedCostId": 2,
+    "NeedCostValue": 10000
+  }
+]

@@ -1,0 +1,3478 @@
+[
+  {
+    "ControlName": "눈위치(높이)",
+    "BoneDataArray": [
+      {
+        "BoneName": "CTL_L_Eye_Pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_R_Eye_Pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_pos_l_eyebrow",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_pos_r_eyebrow",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "brow_m",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "earbase_L",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "earbase_R",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈위치(간격)",
+    "BoneDataArray": [
+      {
+        "BoneName": "CTL_L_Eye_Pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_R_Eye_Pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_pos_l_eyebrow",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_pos_r_eyebrow",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "brow_m",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈전체크기",
+    "BoneDataArray": [
+      {
+        "BoneName": "CTL_L_Eye_Pos",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_R_Eye_Pos",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈회전",
+    "BoneDataArray": [
+      {
+        "BoneName": "L_Eye_rot",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -10,
+            "BoneMaxValue": 10
+          }
+        ]
+      },
+      {
+        "BoneName": "R_Eye_rot",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 10,
+            "BoneMaxValue": -10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈크기(위아래)",
+    "BoneDataArray": [
+      {
+        "BoneName": "L_eye_upCtl",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 12,
+            "BoneMaxValue": -12
+          }
+        ]
+      },
+      {
+        "BoneName": "R_eye_upCtl",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 12,
+            "BoneMaxValue": -12
+          }
+        ]
+      },
+      {
+        "BoneName": "L_eye_downCtl",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -8,
+            "BoneMaxValue": 8
+          }
+        ]
+      },
+      {
+        "BoneName": "R_eye_downCtl",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -8,
+            "BoneMaxValue": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈동자 크기",
+    "BoneDataArray": [
+      {
+        "BoneName": "L_eyeSize",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "R_eyeSize",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈썹(높이)",
+    "BoneDataArray": [
+      {
+        "BoneName": "CTL_pos_l_eyebrow",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_pos_r_eyebrow",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "brow_m",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈썹위치(간격)",
+    "BoneDataArray": [
+      {
+        "BoneName": "eyebrow_L_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_r_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.2,
+            "BoneMaxValue": -0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_L_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_r_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "brow_m",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈썹(기울기)",
+    "BoneDataArray": [
+      {
+        "BoneName": "rot_l_eyebrow",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -20,
+            "BoneMaxValue": 20
+          }
+        ]
+      },
+      {
+        "BoneName": "rot_r_eyebrow",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 20,
+            "BoneMaxValue": -20
+          }
+        ]
+      },
+      {
+        "BoneName": "brow_m",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈썹(모양)",
+    "BoneDataArray": [
+      {
+        "BoneName": "eyebrow_L_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_L_03",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -20,
+            "BoneMaxValue": 20
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_L_04",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -1.5,
+            "BoneMaxValue": 1.5
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_r_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_r_03",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -20,
+            "BoneMaxValue": 20
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_r_04",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -1.5,
+            "BoneMaxValue": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈썹(두께)",
+    "BoneDataArray": [
+      {
+        "BoneName": "eyebrow_L_01",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_L_02",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_L_03",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_L_04",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_r_01",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_r_02",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_r_03",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "eyebrow_r_04",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "L_눈윗라인01_x",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_up_L_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_up_R_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "L_눈윗라인01_y",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_up_L_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_up_R_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "L_눈윗라인02_x",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_up_L_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_up_R_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "L_눈윗라인02_y",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_up_L_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_up_R_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "L_눈아랫라인_x",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_low_L_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_low_R_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "L_눈아랫라인_y",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_low_L_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_low_R_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.6,
+            "BoneMaxValue": -0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_low_L_01",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -15,
+            "BoneMaxValue": 15
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_low_R_01",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 15,
+            "BoneMaxValue": -15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "L_앞트임_x",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_L_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_R_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "L_앞트임_y",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_L_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_R_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "L_뒷트임_x",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_L_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_R_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "L_뒷트임_y",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_L_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_R_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "애교살",
+    "BoneDataArray": [
+      {
+        "BoneName": "EyeLid_low_L_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "EyeLid_low_R_002",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "코위치(위아래)",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_middle",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "코끝높이",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_end",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "코끝위치",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_end_rot",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -20,
+            "BoneMaxValue": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "코등위치",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_middle_end",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.6,
+            "BoneMaxValue": -0.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "코너비",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_middle_end",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_end_rot",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "콧방울너비",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_L_01",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_R_01",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_L_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0,
+            "BoneMaxValue": 0
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_R_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0,
+            "BoneMaxValue": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "콧등너비",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_L_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_R_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "입위치(위아래)",
+    "BoneDataArray": [
+      {
+        "BoneName": "mouth_base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_up_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_middle_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_down_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "philtrum",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.25,
+            "BoneMaxValue": 0.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈썹깊이",
+    "BoneDataArray": [
+      {
+        "BoneName": "CTL_pos_l_eyebrow",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_pos_r_eyebrow",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "brow_m",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "brow_L",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.1,
+            "BoneMaxValue": -0.1
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_top",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_middle_end",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "입크기(좌우)",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_upLip01",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "l_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.1,
+            "BoneMaxValue": 0.1
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.1,
+            "BoneMaxValue": -0.1
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "l_oralAngle",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.8,
+            "BoneMaxValue": 0.8
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "r_oralAngle",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.8,
+            "BoneMaxValue": -0.8
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "l_upLip004",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.1,
+            "BoneMaxValue": 0.1
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.1,
+            "BoneMaxValue": -0.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "윗입술넓이",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_upLip01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "philtrum",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.15,
+            "BoneMaxValue": -0.15
+          }
+        ]
+      },
+      {
+        "BoneName": "l_upLip03",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "r_upLip03",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "l_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.2,
+            "BoneMaxValue": -0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "r_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.2,
+            "BoneMaxValue": -0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "윗입술벌림",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_upLip01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "l_upLip004",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.15,
+            "BoneMaxValue": -0.15
+          }
+        ]
+      },
+      {
+        "BoneName": "l_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.15,
+            "BoneMaxValue": -0.15
+          }
+        ]
+      },
+      {
+        "BoneName": "philtrum",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.15,
+            "BoneMaxValue": -0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "아랫입술넓이",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_lowLip01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.2,
+            "BoneMaxValue": -0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.2,
+            "BoneMaxValue": -0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "아랫입술벌림",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_lowLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.15,
+            "BoneMaxValue": -0.15
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.15,
+            "BoneMaxValue": -0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "입꼬리위치(위아래)",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_oralAngle",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "r_oralAngle",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "l_oralAngle",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 30,
+            "BoneMaxValue": -30
+          }
+        ]
+      },
+      {
+        "BoneName": "r_oralAngle",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -30,
+            "BoneMaxValue": 30
+          }
+        ]
+      },
+      {
+        "BoneName": "l_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "r_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "l_upLip03",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 15,
+            "BoneMaxValue": -15
+          }
+        ]
+      },
+      {
+        "BoneName": "r_upLip03",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -15,
+            "BoneMaxValue": 15
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.2,
+            "BoneMaxValue": -0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.2,
+            "BoneMaxValue": -0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip02",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 15,
+            "BoneMaxValue": -15
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip02",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -15,
+            "BoneMaxValue": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "입돌출",
+    "BoneDataArray": [
+      {
+        "BoneName": "philtrum",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_up_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_middle_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_down_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "mouth_base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "jaw_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0,
+            "BoneMaxValue": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "윗입술모임",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_upLip01",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "l_upLip004",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      },
+      {
+        "BoneName": "l_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "아랫입술모음",
+    "BoneDataArray": [
+      {
+        "BoneName": "r_lowLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_lowLip02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.2,
+            "BoneMaxValue": -0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "l_lowLip02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈썹스케일",
+    "BoneDataArray": [
+      {
+        "BoneName": "CTL_l_eyebrow_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.1,
+            "BoneMaxValue": -0.1
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_l_eyebrow_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_l_eyebrow_03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_r_eyebrow_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.1,
+            "BoneMaxValue": -0.1
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_r_eyebrow_02",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_r_eyebrow_03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "콧방울높이",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_L_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.2,
+            "BoneMaxValue": -0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_R_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.2,
+            "BoneMaxValue": -0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "인중 양옆 높이",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_upLip03",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "광대위치_X",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_cheekbone_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -1,
+            "BoneMaxValue": 1
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheekbone_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 1,
+            "BoneMaxValue": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "광대위치_Y",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_cheekbone_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -1,
+            "BoneMaxValue": 1
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheekbone_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -1,
+            "BoneMaxValue": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "광대높이",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_cheekbone_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheekbone_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "l_cheekbone_Base",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheekbone_Base",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "볼높이",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.7,
+            "BoneMaxValue": -0.7
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.7,
+            "BoneMaxValue": 0.7
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.7,
+            "BoneMaxValue": -0.7
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.7,
+            "BoneMaxValue": -0.7
+          }
+        ]
+      },
+      {
+        "BoneName": "l_cheek_Base",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheek_Base",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "하관넓이",
+    "BoneDataArray": [
+      {
+        "BoneName": "jawline_L_02_Rot",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_R_02_Rot",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "하관높이",
+    "BoneDataArray": [
+      {
+        "BoneName": "philtrum",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_up_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_middle_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_down_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "mouth_base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "jaw_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "earbase_L",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.1,
+            "BoneMaxValue": -0.1
+          }
+        ]
+      },
+      {
+        "BoneName": "earbase_R",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.1,
+            "BoneMaxValue": -0.1
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_L_02_pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_R_02_pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_L_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_R_01",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_L_02_Rot",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0,
+            "BoneMaxValue": 0
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_R_02_Rot",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0,
+            "BoneMaxValue": 0
+          }
+        ]
+      },
+      {
+        "BoneName": "l_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "하관(아랫턱)돌출",
+    "BoneDataArray": [
+      {
+        "BoneName": "philtrum",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0,
+            "BoneMaxValue": 0
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_up_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0,
+            "BoneMaxValue": 0
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_middle_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.65,
+            "BoneMaxValue": -0.65
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_down_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.8,
+            "BoneMaxValue": -0.8
+          }
+        ]
+      },
+      {
+        "BoneName": "mouth_base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0,
+            "BoneMaxValue": 0
+          }
+        ]
+      },
+      {
+        "BoneName": "jaw_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 1,
+            "BoneMaxValue": -1
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_L_02_pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 1,
+            "BoneMaxValue": -1
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_R_02_pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 1,
+            "BoneMaxValue": -1
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_L_01",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": []
+      },
+      {
+        "BoneName": "jawline_R_01",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": []
+      },
+      {
+        "BoneName": "l_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "턱넓이",
+    "BoneDataArray": [
+      {
+        "BoneName": "l_jaw",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "턱길이",
+    "BoneDataArray": [
+      {
+        "BoneName": "jaw_Rot",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "턱높이",
+    "BoneDataArray": [
+      {
+        "BoneName": "jaw_Rot",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.6,
+            "BoneMaxValue": 0.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "턱각도",
+    "BoneDataArray": [
+      {
+        "BoneName": "jaw_Rot",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -20,
+            "BoneMaxValue": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "콧대위높이",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_top",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.5,
+            "BoneMaxValue": -0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "콧볼각도",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_L_01",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 30,
+            "BoneMaxValue": -30
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_R_01",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 30,
+            "BoneMaxValue": -30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "이마높이",
+    "BoneDataArray": [
+      {
+        "BoneName": "brow_L",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.4,
+            "BoneMaxValue": -0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "코높이(전체)",
+    "BoneDataArray": [
+      {
+        "BoneName": "nose_end_rot",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.5,
+            "BoneMaxValue": 0.5
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_middle",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_top",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.15,
+            "BoneMaxValue": -0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "코뿌리너비",
+    "BoneDataArray": [
+      {
+        "BoneName": "brow_m",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_top",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_middle_end",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.1,
+            "BoneMaxValue": 0.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈동자회전(위아래)",
+    "BoneDataArray": [
+      {
+        "BoneName": "L_eyeball",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 15,
+            "BoneMaxValue": -15
+          }
+        ]
+      },
+      {
+        "BoneName": "R_eyeball",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 15,
+            "BoneMaxValue": -15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈동자회전(좌우)",
+    "BoneDataArray": [
+      {
+        "BoneName": "L_eyeball",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 15,
+            "BoneMaxValue": -15
+          }
+        ]
+      },
+      {
+        "BoneName": "R_eyeball",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -15,
+            "BoneMaxValue": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "바깥턱 높이",
+    "BoneDataArray": [
+      {
+        "BoneName": "jawline_L_02_pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -1,
+            "BoneMaxValue": 1
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_R_02_pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -1,
+            "BoneMaxValue": 1
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_L_02_Rot",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 10,
+            "BoneMaxValue": -10
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_R_02_Rot",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -10,
+            "BoneMaxValue": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "얼굴볼륨",
+    "BoneDataArray": [
+      {
+        "BoneName": "jawline_L_01",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 1.5,
+            "BoneMaxValue": -1.5
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_R_01",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -1.5,
+            "BoneMaxValue": 1.5
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_L_02_pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.25,
+            "BoneMaxValue": 0.25
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_R_02_pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.25,
+            "BoneMaxValue": -0.25
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_L_02_Rot",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 1.5,
+            "BoneMaxValue": -1.5
+          }
+        ]
+      },
+      {
+        "BoneName": "jawline_R_02_Rot",
+        "BoneType": "EBoneDataType::ROTATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -1.5,
+            "BoneMaxValue": 1.5
+          }
+        ]
+      },
+      {
+        "BoneName": "l_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.15,
+            "BoneMaxValue": 0.15
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.15,
+            "BoneMaxValue": -0.15
+          }
+        ]
+      },
+      {
+        "BoneName": "l_jaw",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.15,
+            "BoneMaxValue": 0.15
+          }
+        ]
+      },
+      {
+        "BoneName": "l_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.3,
+            "BoneMaxValue": 0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "l_cheek_Base",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheek_Base",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "l_cheekbone_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheekbone_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.3,
+            "BoneMaxValue": -0.3
+          }
+        ]
+      },
+      {
+        "BoneName": "l_cheekbone_Base",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheekbone_Base",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_L_Eye_Pos",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.03,
+            "BoneMaxValue": -0.03
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.03,
+            "BoneMaxValue": -0.03
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.03,
+            "BoneMaxValue": -0.03
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_R_Eye_Pos",
+        "BoneType": "EBoneDataType::SCALE",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": 0.03,
+            "BoneMaxValue": -0.03
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Y",
+            "BoneMinValue": 0.03,
+            "BoneMaxValue": -0.03
+          },
+          {
+            "BoneVectorType": "EBoneVectorType::Z",
+            "BoneMinValue": 0.03,
+            "BoneMaxValue": -0.03
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ControlName": "눈코잎",
+    "BoneDataArray": [
+      {
+        "BoneName": "CTL_L_Eye_Pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_R_Eye_Pos",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_pos_l_eyebrow",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "CTL_pos_r_eyebrow",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "brow_m",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "brow_L",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_top",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "nose_middle",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "mouth_base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_up_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_middle_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "ctl_down_mouth",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "philtrum",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "l_cheekbone_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheekbone_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.4,
+            "BoneMaxValue": 0.4
+          }
+        ]
+      },
+      {
+        "BoneName": "l_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "r_cheek_Base",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      },
+      {
+        "BoneName": "head_center",
+        "BoneType": "EBoneDataType::LOCATION",
+        "BoneMinMaxDataArray": [
+          {
+            "BoneVectorType": "EBoneVectorType::X",
+            "BoneMinValue": -0.2,
+            "BoneMaxValue": 0.2
+          }
+        ]
+      }
+    ]
+  }
+]

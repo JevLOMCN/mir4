@@ -1,0 +1,50 @@
+[
+  {
+    "Name": 1,
+    "WantedGrade": 1,
+    "NameId": 1063667,
+    "Time": 1440,
+    "ItemId": 0,
+    "ItemCount": 0,
+    "RewardGuildContribution": 50,
+    "RewardGuildFameCategory": 102,
+    "RewardGuildFamePoint": 10,
+    "ImageId": 1900,
+    "GuildMoneyId": 92,
+    "GuildMoneyValue": 5000,
+    "KillCountLimit": 1,
+    "KillCountLimit2": 5
+  },
+  {
+    "Name": 2,
+    "WantedGrade": 2,
+    "NameId": 1063668,
+    "Time": 720,
+    "ItemId": 0,
+    "ItemCount": 0,
+    "RewardGuildContribution": 50,
+    "RewardGuildFameCategory": 102,
+    "RewardGuildFamePoint": 10,
+    "ImageId": 1901,
+    "GuildMoneyId": 92,
+    "GuildMoneyValue": 3500,
+    "KillCountLimit": 1,
+    "KillCountLimit2": 5
+  },
+  {
+    "Name": 3,
+    "WantedGrade": 3,
+    "NameId": 1063669,
+    "Time": 360,
+    "ItemId": 0,
+    "ItemCount": 0,
+    "RewardGuildContribution": 50,
+    "RewardGuildFameCategory": 102,
+    "RewardGuildFamePoint": 10,
+    "ImageId": 1902,
+    "GuildMoneyId": 92,
+    "GuildMoneyValue": 2000,
+    "KillCountLimit": 1,
+    "KillCountLimit2": 5
+  }
+]

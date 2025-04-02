@@ -1,0 +1,18 @@
+[
+    {
+        "ComposeType": 1,
+        "ComposeMaterialId": 123,
+        "ComposeMaterialCount": 5,
+        "ComposeCostType": 2,
+        "ComposeCostValue": 100,
+        "ComposeReplaceId": 456
+    },
+    {
+        "ComposeType": 2,
+        "ComposeMaterialId": 456,
+        "ComposeMaterialCount": 3,
+        "ComposeCostType": 3,
+        "ComposeCostValue": 200,
+        "ComposeReplaceId": 789
+    }
+]

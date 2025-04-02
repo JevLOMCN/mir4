@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "Parameter": "Conquer_Server_GUILD_WAR_SIEGE_Count",
+    "OptionType": 1,
+    "OptionValue": 1600
+  },
+  {
+    "Id": 2,
+    "Parameter": "Conquer_Server_GM_Count",
+    "OptionType": 1,
+    "OptionValue": 10
+  },
+  {
+    "Id": 3,
+    "Parameter": "Conquer_Server_Watch_Count",
+    "OptionType": 1,
+    "OptionValue": 5
+  },
+  {
+    "Id": 4,
+    "Parameter": "Conquer_Server_Arrival_Stage",
+    "OptionType": 1,
+    "OptionValue": 301001010
+  },
+  {
+    "Id": 5,
+    "Parameter": "Conquer_Server_Arrival_Warp_locationID",
+    "OptionType": 1,
+    "OptionValue": 701
+  },
+  {
+    "Id": 6,
+    "Parameter": "Conquer_Server_NoVitality _RevivalId",
+    "OptionType": 1,
+    "OptionValue": 100005000
+  },
+  {
+    "Id": 7,
+    "Parameter": "Conquer_Server_PkWin_Gain_ItemId",
+    "OptionType": 1,
+    "OptionValue": 1401202003
+  },
+  {
+    "Id": 8,
+    "Parameter": "Conquer_Server_PkWin_Gain_ItemId_Count",
+    "OptionType": 1,
+    "OptionValue": 0
+  },
+  {
+    "Id": 9,
+    "Parameter": "Conquer_Server_PkWin_ADay_Gain_MaxCount",
+    "OptionType": 1,
+    "OptionValue": 20
+  },
+  {
+    "Id": 10,
+    "Parameter": "Conquer_Server_PKDefeat _ADay_Gain_MaxCount",
+    "OptionType": 1,
+    "OptionValue": 5
+  },
+  {
+    "Id": 11,
+    "Parameter": "Conquer_Server_Enter_Count",
+    "OptionType": 1,
+    "OptionValue": 1
+  },
+  {
+    "Id": 12,
+    "Parameter": "Conquer_Server_Max_Count",
+    "OptionType": 1,
+    "OptionValue": 4000
+  },
+  {
+    "Id": 13,
+    "Parameter": "Conquer_Server_PvP_Win_MailPresetId",
+    "OptionType": 1,
+    "OptionValue": 24010
+  },
+  {
+    "Id": 14,
+    "Parameter": "Conquer_Server_PvP_Defeat_MailPresetId",
+    "OptionType": 1,
+    "OptionValue": 24011
+  }
+]

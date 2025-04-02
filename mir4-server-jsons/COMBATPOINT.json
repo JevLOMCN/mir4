@@ -1,0 +1,1742 @@
+[
+  {
+    "CommonId": 1,
+    "Warrior": 3000,
+    "Magician": 3000,
+    "Taoist": 3000,
+    "Assassin": 3000,
+    "Berserker": 3000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 2,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 1,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 3,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 4,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 3,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 5,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 6,
+    "Warrior": 9000,
+    "Magician": 9000,
+    "Taoist": 9000,
+    "Assassin": 9000,
+    "Berserker": 9000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 7,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 6,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 8,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 9,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 8,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 10,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 11,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 12,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 11,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 13,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 14,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 13,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 15,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 16,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 17,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 18,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 19,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 20,
+    "Warrior": 60000,
+    "Magician": 0,
+    "Taoist": 30000,
+    "Assassin": 60000,
+    "Berserker": 30000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 21,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 20,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 22,
+    "Warrior": 0,
+    "Magician": 60000,
+    "Taoist": 30000,
+    "Assassin": 0,
+    "Berserker": 30000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 23,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 22,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 24,
+    "Warrior": 30000,
+    "Magician": 30000,
+    "Taoist": 30000,
+    "Assassin": 30000,
+    "Berserker": 30000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 25,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 24,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 26,
+    "Warrior": 30000,
+    "Magician": 30000,
+    "Taoist": 30000,
+    "Assassin": 30000,
+    "Berserker": 30000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 27,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 26,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 28,
+    "Warrior": 20000,
+    "Magician": 20000,
+    "Taoist": 20000,
+    "Assassin": 20000,
+    "Berserker": 20000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 29,
+    "Warrior": 20000,
+    "Magician": 20000,
+    "Taoist": 20000,
+    "Assassin": 20000,
+    "Berserker": 20000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 30,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 31,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 32,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 33,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 34,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 35,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 36,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 37,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 38,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 39,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 40,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 41,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 42,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 43,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 44,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 45,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 46,
+    "Warrior": 20000,
+    "Magician": 20000,
+    "Taoist": 20000,
+    "Assassin": 20000,
+    "Berserker": 20000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 47,
+    "Warrior": 20000,
+    "Magician": 20000,
+    "Taoist": 20000,
+    "Assassin": 20000,
+    "Berserker": 20000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 48,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 49,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 50,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 51,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 52,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 53,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 54,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 55,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 56,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 57,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 58,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 59,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 60,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 61,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 62,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 63,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 64,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 65,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 66,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 67,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 68,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 69,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 70,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 71,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 72,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 73,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 74,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 75,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 76,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 77,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 78,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 79,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 80,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 81,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 82,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 83,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 84,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 85,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 86,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 87,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 88,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 89,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 90,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 91,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 92,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 93,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 94,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 95,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 96,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 97,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 98,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 99,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 100,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 101,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 102,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 103,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 104,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 105,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 106,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 107,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 108,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 109,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 110,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 111,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 112,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 113,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 114,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 115,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 116,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 117,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 118,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 119,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 120,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 121,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 16,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 122,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 17,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 123,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 18,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 124,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 19,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 125,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 20,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 126,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 21,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 127,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 22,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 128,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 23,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 129,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 24,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 130,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 25,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 131,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 28,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 132,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 29,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 133,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 30,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 134,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 36,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 135,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 46,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 136,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 47,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 137,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 48,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 138,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 49,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 139,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 50,
+    "CalculateType": 1
+  },
+  {
+    "CommonId": 140,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 141,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 142,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 143,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 144,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 145,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 146,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 147,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 148,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 149,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 150,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 151,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 152,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 153,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 154,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 155,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 156,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 157,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 158,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 159,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 160,
+    "Warrior": 10000,
+    "Magician": 10000,
+    "Taoist": 10000,
+    "Assassin": 10000,
+    "Berserker": 10000,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 161,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 162,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 163,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 164,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 165,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 166,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 167,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 168,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 169,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 170,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 171,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 172,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 173,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  },
+  {
+    "CommonId": 174,
+    "Warrior": 0,
+    "Magician": 0,
+    "Taoist": 0,
+    "Assassin": 0,
+    "Berserker": 0,
+    "ColletStatus": 0,
+    "CalculateType": 0
+  }
+]

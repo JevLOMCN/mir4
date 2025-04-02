@@ -1,0 +1,122 @@
+[
+  {
+    "UniqueID": 2040103,
+    "ActiveRadius": 500,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 621000001,
+    "WaypointWarpNeedItemCount": 1,
+    "WayPointName": 920204,
+    "Location": {
+      "X": -8900,
+      "Y": -1275,
+      "Z": 1900
+    },
+    "WarpCoordinate": {
+      "X": -9539.399,
+      "Y": -1559.9,
+      "Z": 1900
+    }
+  },
+  {
+    "UniqueID": 2040104,
+    "ActiveRadius": 500,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 621000001,
+    "WaypointWarpNeedItemCount": 1,
+    "WayPointName": 920205,
+    "Location": {
+      "X": 11750,
+      "Y": -3865,
+      "Z": -15
+    },
+    "WarpCoordinate": {
+      "X": 11757.231,
+      "Y": -3165.037,
+      "Z": -15
+    }
+  },
+  {
+    "UniqueID": 2040231,
+    "ActiveRadius": 500,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 621000001,
+    "WaypointWarpNeedItemCount": 1,
+    "WayPointName": 3702091,
+    "Location": {
+      "X": 29998,
+      "Y": 6596,
+      "Z": 1279
+    },
+    "WarpCoordinate": {
+      "X": 29998,
+      "Y": 6596,
+      "Z": 1279
+    }
+  },
+  {
+    "UniqueID": 2040232,
+    "ActiveRadius": 500,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 621000001,
+    "WaypointWarpNeedItemCount": 1,
+    "WayPointName": 3702103,
+    "Location": {
+      "X": 17534,
+      "Y": -6493,
+      "Z": 2005
+    },
+    "WarpCoordinate": {
+      "X": 17534,
+      "Y": -6493,
+      "Z": 2005
+    }
+  },
+  {
+    "UniqueID": 2040233,
+    "ActiveRadius": 500,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 621000001,
+    "WaypointWarpNeedItemCount": 1,
+    "WayPointName": 3702112,
+    "Location": {
+      "X": 6158,
+      "Y": 1851,
+      "Z": 192
+    },
+    "WarpCoordinate": {
+      "X": 6158,
+      "Y": 1851,
+      "Z": 192
+    }
+  },
+  {
+    "UniqueID": 2040235,
+    "ActiveRadius": 500,
+    "DefaultState": true,
+    "WaypointWarpNeedCostId": 0,
+    "WaypointWarpNeedCostCount": 0,
+    "WaypointWarpNeedItemId": 621000001,
+    "WaypointWarpNeedItemCount": 1,
+    "WayPointName": 3720403,
+    "Location": {
+      "X": -554,
+      "Y": -19944,
+      "Z": 2459
+    },
+    "WarpCoordinate": {
+      "X": -554,
+      "Y": -19944,
+      "Z": 2459
+    }
+  }
+]

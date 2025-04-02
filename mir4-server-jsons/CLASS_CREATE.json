@@ -1,0 +1,339 @@
+[
+  {
+    "ClassId": 1,
+    "ClassNameID": 3600001,
+    "Icon": 130001,
+    "SubIcon": 130001,
+    "ClassDesc": 3610001,
+    "ClassScenario": 110102,
+    "HQ_Weapon_Mesh": [
+      101130
+    ],
+    "HQ_Armor_Mesh": 4006,
+    "Init_Weapon_Mesh": [
+      101111
+    ],
+    "InitBasicMesh": 10002,
+    "Init_Armor_Mesh": 10001,
+    "UpStyleHairMesh": 210005,
+    "InitWeapon": 200201000,
+    "InitArmor_Top": 301201000,
+    "InitArmor_Pants": 0,
+    "InitCostume": 103001,
+    "InitSkill01": 1102,
+    "InitSkill02": 1104,
+    "InitSkill03": 1304,
+    "InitSkill04": 1401,
+    "InitSkill05": 0,
+    "InitSkill06": 0,
+    "InitStageId": 100004010,
+    "InitPosition": [
+      29722,
+      74350,
+      9065
+    ],
+    "DemoCostume": [
+      101,
+      102,
+      104,
+      105,
+      106
+    ],
+    "DemoWeapon": [
+      20110000,
+      20110001,
+      20110006,
+      20110012,
+      20110016
+    ],
+    "PaletteHair": [
+      111002,
+      111007,
+      111008,
+      111009,
+      111010
+    ],
+    "PaletteClothes": [
+      121002,
+      121007,
+      121008,
+      121009,
+      121010
+    ],
+    "QuestStartId": 100000000,
+    "InitVehicle": 1011,
+    "CreateFaceIcon": 2901000,
+    "ClassMovieID": 6,
+    "AnimBP": 1000000001
+  },
+  {
+    "ClassId": 2,
+    "ClassNameID": 3600002,
+    "Icon": 130002,
+    "SubIcon": 130002,
+    "ClassDesc": 3610002,
+    "ClassScenario": 110202,
+    "HQ_Weapon_Mesh": [
+      121113
+    ],
+    "HQ_Armor_Mesh": 12003,
+    "Init_Weapon_Mesh": [
+      121111
+    ],
+    "InitBasicMesh": 12002,
+    "Init_Armor_Mesh": 0,
+    "UpStyleHairMesh": 220001,
+    "InitWeapon": 200202000,
+    "InitArmor_Top": 301202000,
+    "InitArmor_Pants": 0,
+    "InitCostume": 203001,
+    "InitSkill01": 2101,
+    "InitSkill02": 2111,
+    "InitSkill03": 2501,
+    "InitSkill04": 2301,
+    "InitSkill05": 0,
+    "InitSkill06": 0,
+    "InitStageId": 100004010,
+    "InitPosition": [
+      29722,
+      74350,
+      9065
+    ],
+    "DemoCostume": [
+      201,
+      202,
+      203,
+      205,
+      206
+    ],
+    "DemoWeapon": [
+      20220000,
+      20220001,
+      20220006,
+      20220012,
+      20220016
+    ],
+    "PaletteHair": [
+      211002,
+      211007,
+      211008,
+      211009,
+      211010
+    ],
+    "PaletteClothes": [
+      221002,
+      221007,
+      221008,
+      221009,
+      221010
+    ],
+    "QuestStartId": 100000000,
+    "InitVehicle": 1011,
+    "CreateFaceIcon": 2902000,
+    "ClassMovieID": 7,
+    "AnimBP": 1000000002
+  },
+  {
+    "ClassId": 3,
+    "ClassNameID": 3600003,
+    "Icon": 130003,
+    "SubIcon": 130003,
+    "ClassDesc": 3610003,
+    "ClassScenario": 110302,
+    "HQ_Weapon_Mesh": [
+      141113
+    ],
+    "HQ_Armor_Mesh": 14004,
+    "Init_Weapon_Mesh": [
+      141111
+    ],
+    "InitBasicMesh": 14002,
+    "Init_Armor_Mesh": 14001,
+    "UpStyleHairMesh": 230004,
+    "InitWeapon": 200203000,
+    "InitArmor_Top": 301203000,
+    "InitArmor_Pants": 0,
+    "InitCostume": 303001,
+    "InitSkill01": 3506,
+    "InitSkill02": 3101,
+    "InitSkill03": 3301,
+    "InitSkill04": 3104,
+    "InitSkill05": 0,
+    "InitSkill06": 0,
+    "InitStageId": 100004010,
+    "InitPosition": [
+      29722,
+      74350,
+      9065
+    ],
+    "DemoCostume": [
+      301,
+      302,
+      303,
+      304,
+      305
+    ],
+    "DemoWeapon": [
+      20330000,
+      20330001,
+      20330006,
+      20330012,
+      20330016
+    ],
+    "PaletteHair": [
+      311002,
+      311007,
+      311008,
+      311009,
+      311010
+    ],
+    "PaletteClothes": [
+      321002,
+      321007,
+      321008,
+      321009,
+      321010
+    ],
+    "QuestStartId": 100000000,
+    "InitVehicle": 1011,
+    "CreateFaceIcon": 2903000,
+    "ClassMovieID": 8,
+    "AnimBP": 1000000003
+  },
+  {
+    "ClassId": 4,
+    "ClassNameID": 3600004,
+    "Icon": 130004,
+    "SubIcon": 130004,
+    "ClassDesc": 3610004,
+    "ClassScenario": 110402,
+    "HQ_Weapon_Mesh": [
+      161103,
+      162103
+    ],
+    "HQ_Armor_Mesh": 16001,
+    "Init_Weapon_Mesh": [
+      161101,
+      162101
+    ],
+    "InitBasicMesh": 16001,
+    "Init_Armor_Mesh": 16001,
+    "UpStyleHairMesh": 240000,
+    "InitWeapon": 200204000,
+    "InitArmor_Top": 301204000,
+    "InitArmor_Pants": 0,
+    "InitCostume": 403001,
+    "InitSkill01": 4101,
+    "InitSkill02": 4106,
+    "InitSkill03": 4102,
+    "InitSkill04": 4103,
+    "InitSkill05": 0,
+    "InitSkill06": 0,
+    "InitStageId": 100004010,
+    "InitPosition": [
+      29722,
+      74350,
+      9065
+    ],
+    "DemoCostume": [
+      401,
+      402,
+      403,
+      404,
+      406
+    ],
+    "DemoWeapon": [
+      20440000,
+      20440001,
+      20440006,
+      20440012,
+      20440016
+    ],
+    "PaletteHair": [
+      411002,
+      411007,
+      411008,
+      411009,
+      411010
+    ],
+    "PaletteClothes": [
+      421002,
+      421007,
+      421008,
+      421009,
+      421010
+    ],
+    "QuestStartId": 100000000,
+    "InitVehicle": 1011,
+    "CreateFaceIcon": 2904000,
+    "ClassMovieID": 5,
+    "AnimBP": 1000000004
+  },
+  {
+    "ClassId": 5,
+    "ClassNameID": 3600005,
+    "Icon": 130005,
+    "SubIcon": 130005,
+    "ClassDesc": 3610005,
+    "ClassScenario": 110502,
+    "HQ_Weapon_Mesh": [
+      181127
+    ],
+    "HQ_Armor_Mesh": 4026,
+    "Init_Weapon_Mesh": [
+      181103
+    ],
+    "InitBasicMesh": 18002,
+    "Init_Armor_Mesh": 18001,
+    "UpStyleHairMesh": 250005,
+    "InitWeapon": 200205000,
+    "InitArmor_Top": 301205000,
+    "InitArmor_Pants": 0,
+    "InitCostume": 503001,
+    "InitSkill01": 5201,
+    "InitSkill02": 5101,
+    "InitSkill03": 5104,
+    "InitSkill04": 5301,
+    "InitSkill05": 0,
+    "InitSkill06": 0,
+    "InitStageId": 100004010,
+    "InitPosition": [
+      29722,
+      74350,
+      9065
+    ],
+    "DemoCostume": [
+      501,
+      502,
+      503,
+      505,
+      506
+    ],
+    "DemoWeapon": [
+      20550000,
+      20550001,
+      20550006,
+      20550012,
+      20550016
+    ],
+    "PaletteHair": [
+      511002,
+      511007,
+      511008,
+      511009,
+      511010
+    ],
+    "PaletteClothes": [
+      521002,
+      521007,
+      521008,
+      521009,
+      521010
+    ],
+    "QuestStartId": 100000000,
+    "InitVehicle": 1011,
+    "CreateFaceIcon": 2905000,
+    "ClassMovieID": 11,
+    "AnimBP": 1000000005
+  }
+]

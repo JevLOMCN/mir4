@@ -1,0 +1,38 @@
+[
+  {
+    "Altar_Id": 101,
+    "Stage_Id": 201003013,
+    "Monster_Id": 1000351,
+    "Altar_BattleRunTime": 3600,
+    "Altar_BattleEnd_BuffId": 500052,
+    "Altar_Destroy_BuffId": 0,
+    "Defender_Dominionid": 3005,
+    "Altar_Destroy_BuffApplyStageId": [
+      0
+    ]
+  },
+  {
+    "Altar_Id": 201,
+    "Stage_Id": 201003033,
+    "Monster_Id": 1000352,
+    "Altar_BattleRunTime": 3600,
+    "Altar_BattleEnd_BuffId": 500052,
+    "Altar_Destroy_BuffId": 0,
+    "Defender_Dominionid": 3010,
+    "Altar_Destroy_BuffApplyStageId": [
+      0
+    ]
+  },
+  {
+    "Altar_Id": 301,
+    "Stage_Id": 201003043,
+    "Monster_Id": 1000353,
+    "Altar_BattleRunTime": 3600,
+    "Altar_BattleEnd_BuffId": 500052,
+    "Altar_Destroy_BuffId": 0,
+    "Defender_Dominionid": 3024,
+    "Altar_Destroy_BuffApplyStageId": [
+      0
+    ]
+  }
+]

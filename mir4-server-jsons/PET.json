@@ -1,0 +1,3005 @@
+[
+  {
+    "PetId": 101,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410001,
+    "GachaIconId": 231708001,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450001,
+    "NameId": 4800002,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400001,
+    "OutgameMeshId": 410001,
+    "InGameAnimResourceId": 41004,
+    "OutGameAnimResourceId": 31001,
+    "UnlockNeedItemUseId": 1701000001,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 1001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820002,
+      4820003,
+      4820004
+    ],
+    "SpeechTxtEquip": [
+      4831001,
+      4831002,
+      4831003
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 201,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410002,
+    "GachaIconId": 231708002,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450002,
+    "NameId": 4800003,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400002,
+    "OutgameMeshId": 410002,
+    "InGameAnimResourceId": 41002,
+    "OutGameAnimResourceId": 31002,
+    "UnlockNeedItemUseId": 1701000002,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 2001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820011,
+      4820012,
+      4820013
+    ],
+    "SpeechTxtEquip": [
+      4831011,
+      4831012,
+      4831013
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 301,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410003,
+    "GachaIconId": 231708003,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450003,
+    "NameId": 4800004,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400003,
+    "OutgameMeshId": 410003,
+    "InGameAnimResourceId": 41004,
+    "OutGameAnimResourceId": 31003,
+    "UnlockNeedItemUseId": 1701000003,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 3001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820021,
+      4820022,
+      4820023
+    ],
+    "SpeechTxtEquip": [
+      4831021,
+      4831022,
+      4831023
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 401,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 3410004,
+    "GachaIconId": 231708004,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450004,
+    "NameId": 4800005,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400004,
+    "OutgameMeshId": 410004,
+    "InGameAnimResourceId": 41004,
+    "OutGameAnimResourceId": 31004,
+    "UnlockNeedItemUseId": 1701000004,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 4001,
+    "SkillId02": 4002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820031,
+      4820032,
+      4820033
+    ],
+    "SpeechTxtEquip": [
+      4831031,
+      4831032,
+      4831033
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 501,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410005,
+    "GachaIconId": 231708005,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450005,
+    "NameId": 4800006,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400005,
+    "OutgameMeshId": 410005,
+    "InGameAnimResourceId": 41002,
+    "OutGameAnimResourceId": 31005,
+    "UnlockNeedItemUseId": 1701000005,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 5001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820041,
+      4820042,
+      4820043
+    ],
+    "SpeechTxtEquip": [
+      4831041,
+      4831042,
+      4831043
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 601,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410006,
+    "GachaIconId": 231708006,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450006,
+    "NameId": 4800007,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400006,
+    "OutgameMeshId": 410006,
+    "InGameAnimResourceId": 41001,
+    "OutGameAnimResourceId": 31006,
+    "UnlockNeedItemUseId": 1701000006,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 6001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820051,
+      4820052,
+      4820053
+    ],
+    "SpeechTxtEquip": [
+      4831051,
+      4831052,
+      4831053
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 701,
+    "Tier": 3,
+    "Origin": 4,
+    "IconId": 3410007,
+    "GachaIconId": 231708007,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450007,
+    "NameId": 4800008,
+    "TagNameId": 4810005,
+    "IngameMeshId": 400007,
+    "OutgameMeshId": 410007,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 31007,
+    "UnlockNeedItemUseId": 1701000007,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 7001,
+    "SkillId02": 7002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820061,
+      4820062,
+      4820063
+    ],
+    "SpeechTxtEquip": [
+      4831061,
+      4831062,
+      4831063
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 801,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410008,
+    "GachaIconId": 231708008,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450008,
+    "NameId": 4800009,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400008,
+    "OutgameMeshId": 410008,
+    "InGameAnimResourceId": 41002,
+    "OutGameAnimResourceId": 31008,
+    "UnlockNeedItemUseId": 1701000008,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 8001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820071,
+      4820072,
+      4820073
+    ],
+    "SpeechTxtEquip": [
+      4831071,
+      4831072,
+      4831073
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 901,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 3410009,
+    "GachaIconId": 231708009,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450009,
+    "NameId": 4800010,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400009,
+    "OutgameMeshId": 410009,
+    "InGameAnimResourceId": 41004,
+    "OutGameAnimResourceId": 31009,
+    "UnlockNeedItemUseId": 1701000009,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 9001,
+    "SkillId02": 9002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820081,
+      4820082,
+      4820083
+    ],
+    "SpeechTxtEquip": [
+      4831081,
+      4831082,
+      4831083
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 1001,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410010,
+    "GachaIconId": 231708010,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450010,
+    "NameId": 4800011,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400010,
+    "OutgameMeshId": 410010,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31010,
+    "UnlockNeedItemUseId": 1701000010,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 10001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820091,
+      4820092,
+      4820093
+    ],
+    "SpeechTxtEquip": [
+      4831091,
+      4831092,
+      4831093
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 1101,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410011,
+    "GachaIconId": 231708011,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450011,
+    "NameId": 4800012,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400011,
+    "OutgameMeshId": 410011,
+    "InGameAnimResourceId": 41004,
+    "OutGameAnimResourceId": 31011,
+    "UnlockNeedItemUseId": 1701000011,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 11001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820101,
+      4820102,
+      4820103
+    ],
+    "SpeechTxtEquip": [
+      4831101,
+      4831102,
+      4831103
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 1201,
+    "Tier": 3,
+    "Origin": 5,
+    "IconId": 3410012,
+    "GachaIconId": 231708012,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450012,
+    "NameId": 4800013,
+    "TagNameId": 4810006,
+    "IngameMeshId": 400012,
+    "OutgameMeshId": 410012,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 31012,
+    "UnlockNeedItemUseId": 1701000012,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 12001,
+    "SkillId02": 12002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820111,
+      4820112,
+      4820113
+    ],
+    "SpeechTxtEquip": [
+      4831111,
+      4831112,
+      4831113
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 1301,
+    "Tier": 3,
+    "Origin": 5,
+    "IconId": 3410013,
+    "GachaIconId": 231708013,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450013,
+    "NameId": 4800014,
+    "TagNameId": 4810006,
+    "IngameMeshId": 400013,
+    "OutgameMeshId": 410013,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 31013,
+    "UnlockNeedItemUseId": 1701000013,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 13001,
+    "SkillId02": 13002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820121,
+      4820122,
+      4820123
+    ],
+    "SpeechTxtEquip": [
+      4831121,
+      4831122,
+      4831123
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 1401,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410014,
+    "GachaIconId": 231708014,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450014,
+    "NameId": 4800015,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400014,
+    "OutgameMeshId": 410014,
+    "InGameAnimResourceId": 41007,
+    "OutGameAnimResourceId": 31014,
+    "UnlockNeedItemUseId": 1701000014,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 14001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820131,
+      4820132,
+      4820133,
+      4820134,
+      4820135,
+      4820136
+    ],
+    "SpeechTxtEquip": [
+      4831131,
+      4831132,
+      4831133
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 1501,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 3410015,
+    "GachaIconId": 231708015,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450015,
+    "NameId": 4800016,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400015,
+    "OutgameMeshId": 410015,
+    "InGameAnimResourceId": 41001,
+    "OutGameAnimResourceId": 31015,
+    "UnlockNeedItemUseId": 1701000015,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 15001,
+    "SkillId02": 15002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820141,
+      4820142,
+      4820143
+    ],
+    "SpeechTxtEquip": [
+      4831141,
+      4831142,
+      4831143
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 1601,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410016,
+    "GachaIconId": 231708016,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450016,
+    "NameId": 4800017,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400016,
+    "OutgameMeshId": 410016,
+    "InGameAnimResourceId": 41008,
+    "OutGameAnimResourceId": 31016,
+    "UnlockNeedItemUseId": 1701000016,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 16001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820151,
+      4820152,
+      4820153
+    ],
+    "SpeechTxtEquip": [
+      4831151,
+      4831152,
+      4831153
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 1701,
+    "Tier": 5,
+    "Origin": 6,
+    "IconId": 3410017,
+    "GachaIconId": 231708017,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450017,
+    "NameId": 4800018,
+    "TagNameId": 4810007,
+    "IngameMeshId": 400017,
+    "OutgameMeshId": 410017,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31017,
+    "UnlockNeedItemUseId": 1701000017,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 17001,
+    "SkillId02": 17002,
+    "SkillId03": 17003,
+    "SkillId04": 17004,
+    "SpeechTxtUi": [
+      4820161,
+      4820162,
+      4820163
+    ],
+    "SpeechTxtEquip": [
+      4831161,
+      4831162,
+      4831163
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 1801,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410018,
+    "GachaIconId": 231708018,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450018,
+    "NameId": 4800019,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400018,
+    "OutgameMeshId": 410018,
+    "InGameAnimResourceId": 41001,
+    "OutGameAnimResourceId": 31018,
+    "UnlockNeedItemUseId": 1701000018,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 18001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820171,
+      4820172,
+      4820173
+    ],
+    "SpeechTxtEquip": [
+      4831171,
+      4831172,
+      4831173
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 1901,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 3410019,
+    "GachaIconId": 231708019,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450019,
+    "NameId": 4800020,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400019,
+    "OutgameMeshId": 410019,
+    "InGameAnimResourceId": 41004,
+    "OutGameAnimResourceId": 31019,
+    "UnlockNeedItemUseId": 1701000019,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 19001,
+    "SkillId02": 19002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820181,
+      4820182,
+      4820183
+    ],
+    "SpeechTxtEquip": [
+      4831181,
+      4831182,
+      4831183
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 2001,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 3410020,
+    "GachaIconId": 231708020,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450020,
+    "NameId": 4800021,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400020,
+    "OutgameMeshId": 410020,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31020,
+    "UnlockNeedItemUseId": 1701000020,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 20001,
+    "SkillId02": 20002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820191,
+      4820192,
+      4820193
+    ],
+    "SpeechTxtEquip": [
+      4831191,
+      4831192,
+      4831193
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 2101,
+    "Tier": 4,
+    "Origin": 6,
+    "IconId": 3410021,
+    "GachaIconId": 231708021,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450021,
+    "NameId": 4800022,
+    "TagNameId": 4810007,
+    "IngameMeshId": 400021,
+    "OutgameMeshId": 410021,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31021,
+    "UnlockNeedItemUseId": 1701000021,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 21001,
+    "SkillId02": 21002,
+    "SkillId03": 21003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820201,
+      4820202,
+      4820203
+    ],
+    "SpeechTxtEquip": [
+      4831201,
+      4831202,
+      4831203
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 2201,
+    "Tier": 3,
+    "Origin": 2,
+    "IconId": 3410022,
+    "GachaIconId": 231708022,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450022,
+    "NameId": 4800023,
+    "TagNameId": 4810003,
+    "IngameMeshId": 400022,
+    "OutgameMeshId": 410022,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31022,
+    "UnlockNeedItemUseId": 1701000022,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 22001,
+    "SkillId02": 22002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820211,
+      4820212,
+      4820213
+    ],
+    "SpeechTxtEquip": [
+      4831211,
+      4831212,
+      4831213
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 2301,
+    "Tier": 2,
+    "Origin": 1,
+    "IconId": 3410023,
+    "GachaIconId": 231708023,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450023,
+    "NameId": 4800024,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400023,
+    "OutgameMeshId": 410023,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 31023,
+    "UnlockNeedItemUseId": 1701000023,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 5,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 23001,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820221,
+      4820222,
+      4820223
+    ],
+    "SpeechTxtEquip": [
+      4831221,
+      4831222,
+      4831223
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 2401,
+    "Tier": 5,
+    "Origin": 2,
+    "IconId": 3410024,
+    "GachaIconId": 231708024,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450024,
+    "NameId": 4800025,
+    "TagNameId": 4810003,
+    "IngameMeshId": 400024,
+    "OutgameMeshId": 410024,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31024,
+    "UnlockNeedItemUseId": 1701000024,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 24001,
+    "SkillId02": 24002,
+    "SkillId03": 24003,
+    "SkillId04": 24004,
+    "SpeechTxtUi": [
+      4820231,
+      4820232,
+      4820233
+    ],
+    "SpeechTxtEquip": [
+      4831231,
+      4831232,
+      4831233
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 2501,
+    "Tier": 3,
+    "Origin": 2,
+    "IconId": 3410025,
+    "GachaIconId": 231708025,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450025,
+    "NameId": 4800026,
+    "TagNameId": 4810003,
+    "IngameMeshId": 400025,
+    "OutgameMeshId": 410025,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31025,
+    "UnlockNeedItemUseId": 1701000025,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 25001,
+    "SkillId02": 25002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820241,
+      4820242,
+      4820243
+    ],
+    "SpeechTxtEquip": [
+      4831241,
+      4831242,
+      4831243
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 2601,
+    "Tier": 4,
+    "Origin": 5,
+    "IconId": 3410026,
+    "GachaIconId": 231708026,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450026,
+    "NameId": 4800027,
+    "TagNameId": 4810006,
+    "IngameMeshId": 400026,
+    "OutgameMeshId": 410026,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31026,
+    "UnlockNeedItemUseId": 1701000026,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 26001,
+    "SkillId02": 26002,
+    "SkillId03": 26003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820251,
+      4820252,
+      4820253
+    ],
+    "SpeechTxtEquip": [
+      4831251,
+      4831252,
+      4831253
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 2701,
+    "Tier": 4,
+    "Origin": 4,
+    "IconId": 3410027,
+    "GachaIconId": 231708027,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450027,
+    "NameId": 4800028,
+    "TagNameId": 4810005,
+    "IngameMeshId": 400027,
+    "OutgameMeshId": 410027,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31027,
+    "UnlockNeedItemUseId": 1701000027,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 27001,
+    "SkillId02": 27002,
+    "SkillId03": 27003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820261,
+      4820262,
+      4820263
+    ],
+    "SpeechTxtEquip": [
+      4831261,
+      4831262,
+      4831263
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 2801,
+    "Tier": 4,
+    "Origin": 6,
+    "IconId": 3410028,
+    "GachaIconId": 231708028,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450028,
+    "NameId": 4800029,
+    "TagNameId": 4810007,
+    "IngameMeshId": 400028,
+    "OutgameMeshId": 410028,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31028,
+    "UnlockNeedItemUseId": 1701000028,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 28001,
+    "SkillId02": 28002,
+    "SkillId03": 28003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820271,
+      4820272,
+      4820273
+    ],
+    "SpeechTxtEquip": [
+      4831271,
+      4831272,
+      4831273
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 2901,
+    "Tier": 4,
+    "Origin": 3,
+    "IconId": 3410029,
+    "GachaIconId": 231708029,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450029,
+    "NameId": 4800030,
+    "TagNameId": 4810004,
+    "IngameMeshId": 400029,
+    "OutgameMeshId": 410029,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31029,
+    "UnlockNeedItemUseId": 1701000029,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 29001,
+    "SkillId02": 29002,
+    "SkillId03": 29003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820281,
+      4820282,
+      4820283
+    ],
+    "SpeechTxtEquip": [
+      4831281,
+      4831282,
+      4831283
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 3001,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 3410030,
+    "GachaIconId": 231708030,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450030,
+    "NameId": 4800031,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400030,
+    "OutgameMeshId": 410030,
+    "InGameAnimResourceId": 41004,
+    "OutGameAnimResourceId": 31030,
+    "UnlockNeedItemUseId": 1701000030,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 30001,
+    "SkillId02": 30002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820291,
+      4820292,
+      4820293
+    ],
+    "SpeechTxtEquip": [
+      4831291,
+      4831292,
+      4831293
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 3101,
+    "Tier": 5,
+    "Origin": 1,
+    "IconId": 3410031,
+    "GachaIconId": 231708031,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450031,
+    "NameId": 4800032,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400031,
+    "OutgameMeshId": 410031,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 31031,
+    "UnlockNeedItemUseId": 1701000031,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 31001,
+    "SkillId02": 31002,
+    "SkillId03": 31003,
+    "SkillId04": 31004,
+    "SpeechTxtUi": [
+      4820301,
+      4820302,
+      4820303
+    ],
+    "SpeechTxtEquip": [
+      4831301,
+      4831302,
+      4831303
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 3201,
+    "Tier": 3,
+    "Origin": 2,
+    "IconId": 3410032,
+    "GachaIconId": 231708032,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450032,
+    "NameId": 4800033,
+    "TagNameId": 4810003,
+    "IngameMeshId": 400032,
+    "OutgameMeshId": 410032,
+    "InGameAnimResourceId": 41001,
+    "OutGameAnimResourceId": 31032,
+    "UnlockNeedItemUseId": 1701000032,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 32001,
+    "SkillId02": 32002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820311,
+      4820312,
+      4820313
+    ],
+    "SpeechTxtEquip": [
+      4831311,
+      4831312,
+      4831313
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 3301,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 3410033,
+    "GachaIconId": 231708033,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450033,
+    "NameId": 4800034,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400033,
+    "OutgameMeshId": 410033,
+    "InGameAnimResourceId": 41001,
+    "OutGameAnimResourceId": 31033,
+    "UnlockNeedItemUseId": 1701000033,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 10,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 33001,
+    "SkillId02": 33002,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820321,
+      4820322,
+      4820323
+    ],
+    "SpeechTxtEquip": [
+      4831321,
+      4831322,
+      4831323
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 3401,
+    "Tier": 4,
+    "Origin": 4,
+    "IconId": 3410034,
+    "GachaIconId": 231708034,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450034,
+    "NameId": 4800035,
+    "TagNameId": 4810005,
+    "IngameMeshId": 400034,
+    "OutgameMeshId": 410034,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31034,
+    "UnlockNeedItemUseId": 1701000034,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 34001,
+    "SkillId02": 34002,
+    "SkillId03": 34003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820331,
+      4820332,
+      4820333
+    ],
+    "SpeechTxtEquip": [
+      4831331,
+      4831332,
+      4831333
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 3501,
+    "Tier": 4,
+    "Origin": 6,
+    "IconId": 3410035,
+    "GachaIconId": 231708035,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450035,
+    "NameId": 4800036,
+    "TagNameId": 4810007,
+    "IngameMeshId": 400035,
+    "OutgameMeshId": 410035,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31035,
+    "UnlockNeedItemUseId": 1701000035,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 35001,
+    "SkillId02": 35002,
+    "SkillId03": 35003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820341,
+      4820342,
+      4820343
+    ],
+    "SpeechTxtEquip": [
+      4831341,
+      4831342,
+      4831343
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 3601,
+    "Tier": 5,
+    "Origin": 6,
+    "IconId": 3410036,
+    "GachaIconId": 231708036,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450036,
+    "NameId": 4800037,
+    "TagNameId": 4810007,
+    "IngameMeshId": 400036,
+    "OutgameMeshId": 410036,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31036,
+    "UnlockNeedItemUseId": 1701000036,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 36001,
+    "SkillId02": 36002,
+    "SkillId03": 36003,
+    "SkillId04": 36004,
+    "SpeechTxtUi": [
+      4820351,
+      4820352,
+      4820353
+    ],
+    "SpeechTxtEquip": [
+      4831351,
+      4831352,
+      4831353
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 3701,
+    "Tier": 4,
+    "Origin": 1,
+    "IconId": 3410037,
+    "GachaIconId": 231708037,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450037,
+    "NameId": 4800038,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400037,
+    "OutgameMeshId": 410037,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 31037,
+    "UnlockNeedItemUseId": 1701000037,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 37001,
+    "SkillId02": 37002,
+    "SkillId03": 37003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820361,
+      4820362,
+      4820363
+    ],
+    "SpeechTxtEquip": [
+      4831361,
+      4831362,
+      4831363
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 3801,
+    "Tier": 4,
+    "Origin": 3,
+    "IconId": 3410038,
+    "GachaIconId": 231708038,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450038,
+    "NameId": 4800039,
+    "TagNameId": 4810004,
+    "IngameMeshId": 400038,
+    "OutgameMeshId": 410038,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31038,
+    "UnlockNeedItemUseId": 1701000038,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 38001,
+    "SkillId02": 38002,
+    "SkillId03": 38003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820371,
+      4820372,
+      4820373
+    ],
+    "SpeechTxtEquip": [
+      4831371,
+      4831372,
+      4831373
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 3901,
+    "Tier": 4,
+    "Origin": 2,
+    "IconId": 3410039,
+    "GachaIconId": 231708039,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450039,
+    "NameId": 4800040,
+    "TagNameId": 4810003,
+    "IngameMeshId": 400039,
+    "OutgameMeshId": 410039,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31039,
+    "UnlockNeedItemUseId": 1701000039,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 39001,
+    "SkillId02": 39002,
+    "SkillId03": 39003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820381,
+      4820382,
+      4820383
+    ],
+    "SpeechTxtEquip": [
+      4831381,
+      4831382,
+      4831383
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 4001,
+    "Tier": 5,
+    "Origin": 5,
+    "IconId": 3410040,
+    "GachaIconId": 231708040,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450040,
+    "NameId": 4800041,
+    "TagNameId": 4810006,
+    "IngameMeshId": 400040,
+    "OutgameMeshId": 410040,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31040,
+    "UnlockNeedItemUseId": 1701000040,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 40001,
+    "SkillId02": 40002,
+    "SkillId03": 40003,
+    "SkillId04": 40004,
+    "SpeechTxtUi": [
+      4820391,
+      4820392,
+      4820393
+    ],
+    "SpeechTxtEquip": [
+      4831391,
+      4831392,
+      4831393
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 4101,
+    "Tier": 5,
+    "Origin": 2,
+    "IconId": 3410041,
+    "GachaIconId": 231708041,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450041,
+    "NameId": 4800042,
+    "TagNameId": 4810003,
+    "IngameMeshId": 400041,
+    "OutgameMeshId": 410041,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31041,
+    "UnlockNeedItemUseId": 1701000041,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 41001,
+    "SkillId02": 41002,
+    "SkillId03": 41003,
+    "SkillId04": 41004,
+    "SpeechTxtUi": [
+      4820401,
+      4820402,
+      4820403
+    ],
+    "SpeechTxtEquip": [
+      4831401,
+      4831402,
+      4831403
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 4201,
+    "Tier": 5,
+    "Origin": 4,
+    "IconId": 3410042,
+    "GachaIconId": 231708042,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450042,
+    "NameId": 4800043,
+    "TagNameId": 4810005,
+    "IngameMeshId": 400042,
+    "OutgameMeshId": 410042,
+    "InGameAnimResourceId": 41009,
+    "OutGameAnimResourceId": 31042,
+    "UnlockNeedItemUseId": 1701000042,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 42001,
+    "SkillId02": 42002,
+    "SkillId03": 42003,
+    "SkillId04": 42004,
+    "SpeechTxtUi": [
+      4820411,
+      4820412,
+      4820413
+    ],
+    "SpeechTxtEquip": [
+      4831411,
+      4831412,
+      4831413
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 4301,
+    "Tier": 5,
+    "Origin": 3,
+    "IconId": 3410043,
+    "GachaIconId": 231708043,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450043,
+    "NameId": 4800044,
+    "TagNameId": 4810004,
+    "IngameMeshId": 400043,
+    "OutgameMeshId": 410043,
+    "InGameAnimResourceId": 41009,
+    "OutGameAnimResourceId": 31043,
+    "UnlockNeedItemUseId": 1701000043,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 43001,
+    "SkillId02": 43002,
+    "SkillId03": 43003,
+    "SkillId04": 43004,
+    "SpeechTxtUi": [
+      4820421,
+      4820422,
+      4820423
+    ],
+    "SpeechTxtEquip": [
+      4831421,
+      4831422,
+      4831423
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 4401,
+    "Tier": 4,
+    "Origin": 3,
+    "IconId": 3410044,
+    "GachaIconId": 231708044,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450044,
+    "NameId": 4800045,
+    "TagNameId": 4810004,
+    "IngameMeshId": 400044,
+    "OutgameMeshId": 410044,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31044,
+    "UnlockNeedItemUseId": 1701000044,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 44001,
+    "SkillId02": 44002,
+    "SkillId03": 44003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820431,
+      4820432,
+      4820433
+    ],
+    "SpeechTxtEquip": [
+      4831431,
+      4831432,
+      4831433
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 4501,
+    "Tier": 4,
+    "Origin": 2,
+    "IconId": 3410045,
+    "GachaIconId": 231708045,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450045,
+    "NameId": 4800046,
+    "TagNameId": 4810003,
+    "IngameMeshId": 400045,
+    "OutgameMeshId": 410045,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31045,
+    "UnlockNeedItemUseId": 1701000045,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 45001,
+    "SkillId02": 45002,
+    "SkillId03": 45003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820441,
+      4820442,
+      4820443
+    ],
+    "SpeechTxtEquip": [
+      4831441,
+      4831442,
+      4831443
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 4601,
+    "Tier": 5,
+    "Origin": 3,
+    "IconId": 3410046,
+    "GachaIconId": 231708046,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450046,
+    "NameId": 4800047,
+    "TagNameId": 4810004,
+    "IngameMeshId": 400046,
+    "OutgameMeshId": 410046,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31046,
+    "UnlockNeedItemUseId": 1701000046,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 46001,
+    "SkillId02": 46002,
+    "SkillId03": 46003,
+    "SkillId04": 46004,
+    "SpeechTxtUi": [
+      4820451,
+      4820452,
+      4820453
+    ],
+    "SpeechTxtEquip": [
+      4831451,
+      4831452,
+      4831453
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 4701,
+    "Tier": 4,
+    "Origin": 1,
+    "IconId": 3410047,
+    "GachaIconId": 231708047,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450047,
+    "NameId": 4800048,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400047,
+    "OutgameMeshId": 410047,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31047,
+    "UnlockNeedItemUseId": 1701000047,
+    "Global_Attribute1Type": 20,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 47001,
+    "SkillId02": 47002,
+    "SkillId03": 47003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820461,
+      4820462
+    ],
+    "SpeechTxtEquip": [
+      4831461,
+      4831462,
+      4831463
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 4801,
+    "Tier": 4,
+    "Origin": 5,
+    "IconId": 3410048,
+    "GachaIconId": 231708048,
+    "GachaFixImgOffset": [
+      10,
+      0
+    ],
+    "PETBuffIconId": 3450048,
+    "NameId": 4800049,
+    "TagNameId": 4810006,
+    "IngameMeshId": 400048,
+    "OutgameMeshId": 410048,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31048,
+    "UnlockNeedItemUseId": 1701000048,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 48001,
+    "SkillId02": 48002,
+    "SkillId03": 48003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820471,
+      4820472
+    ],
+    "SpeechTxtEquip": [
+      4831471,
+      4831472,
+      4831473
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 4901,
+    "Tier": 5,
+    "Origin": 4,
+    "IconId": 3410049,
+    "GachaIconId": 231708049,
+    "GachaFixImgOffset": [
+      25,
+      0
+    ],
+    "PETBuffIconId": 3450049,
+    "NameId": 4800050,
+    "TagNameId": 4810005,
+    "IngameMeshId": 400049,
+    "OutgameMeshId": 410049,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31049,
+    "UnlockNeedItemUseId": 1701000049,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 49001,
+    "SkillId02": 49002,
+    "SkillId03": 49003,
+    "SkillId04": 49004,
+    "SpeechTxtUi": [
+      4820481,
+      4820482
+    ],
+    "SpeechTxtEquip": [
+      4831481,
+      4831482,
+      4831483
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 5001,
+    "Tier": 4,
+    "Origin": 6,
+    "IconId": 3410050,
+    "GachaIconId": 231708050,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450050,
+    "NameId": 4800051,
+    "TagNameId": 4810007,
+    "IngameMeshId": 400050,
+    "OutgameMeshId": 410050,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 31050,
+    "UnlockNeedItemUseId": 1701000050,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 50001,
+    "SkillId02": 50002,
+    "SkillId03": 50003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820491,
+      4820492
+    ],
+    "SpeechTxtEquip": [
+      4831491,
+      4831492,
+      4831493
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 5101,
+    "Tier": 5,
+    "Origin": 5,
+    "IconId": 3410051,
+    "GachaIconId": 231708051,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450051,
+    "NameId": 4800052,
+    "TagNameId": 4810006,
+    "IngameMeshId": 400051,
+    "OutgameMeshId": 410051,
+    "InGameAnimResourceId": 41005,
+    "OutGameAnimResourceId": 31051,
+    "UnlockNeedItemUseId": 1701000051,
+    "Global_Attribute1Type": 22,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 51001,
+    "SkillId02": 51002,
+    "SkillId03": 51003,
+    "SkillId04": 51004,
+    "SpeechTxtUi": [
+      4820501,
+      4820502
+    ],
+    "SpeechTxtEquip": [
+      4831501,
+      4831502,
+      4831503
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 5201,
+    "Tier": 4,
+    "Origin": 1,
+    "IconId": 3410052,
+    "GachaIconId": 231708052,
+    "GachaFixImgOffset": [
+      25,
+      0
+    ],
+    "PETBuffIconId": 3450052,
+    "NameId": 4800053,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400052,
+    "OutgameMeshId": 410052,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 31052,
+    "UnlockNeedItemUseId": 1701000052,
+    "Global_Attribute1Type": 24,
+    "Global_Attribute1Value": 20,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 52001,
+    "SkillId02": 52002,
+    "SkillId03": 52003,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      4820511,
+      4820512
+    ],
+    "SpeechTxtEquip": [
+      4831511,
+      4831512,
+      4831513
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 5301,
+    "Tier": 5,
+    "Origin": 1,
+    "IconId": 3410053,
+    "GachaIconId": 231708053,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 3450053,
+    "NameId": 4800054,
+    "TagNameId": 4810002,
+    "IngameMeshId": 400053,
+    "OutgameMeshId": 410053,
+    "InGameAnimResourceId": 41001,
+    "OutGameAnimResourceId": 31053,
+    "UnlockNeedItemUseId": 1701000053,
+    "Global_Attribute1Type": 26,
+    "Global_Attribute1Value": 40,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 53001,
+    "SkillId02": 53002,
+    "SkillId03": 53003,
+    "SkillId04": 53004,
+    "SpeechTxtUi": [
+      4820521,
+      4820522
+    ],
+    "SpeechTxtEquip": [
+      4831521,
+      4831522,
+      4831523
+    ],
+    "SpeechTxtDie": [
+      4830002,
+      4830003,
+      4830004,
+      4830005,
+      4830006,
+      4830007,
+      4830008,
+      4830009,
+      4830010,
+      4830011
+    ],
+    "LuxuryType": 0,
+    "CostumePartsType": 0
+  },
+  {
+    "PetId": 100001,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 110710001,
+    "GachaIconId": 0,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 0,
+    "NameId": 110700001,
+    "TagNameId": 0,
+    "IngameMeshId": 500001,
+    "OutgameMeshId": 510001,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 41003,
+    "UnlockNeedItemUseId": 0,
+    "Global_Attribute1Type": 0,
+    "Global_Attribute1Value": 0,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 0,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      0
+    ],
+    "SpeechTxtEquip": [
+      0
+    ],
+    "SpeechTxtDie": [
+      0
+    ],
+    "LuxuryType": 1,
+    "CostumePartsType": 7
+  },
+  {
+    "PetId": 100101,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 110710002,
+    "GachaIconId": 0,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 0,
+    "NameId": 110700002,
+    "TagNameId": 0,
+    "IngameMeshId": 500002,
+    "OutgameMeshId": 510002,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 41003,
+    "UnlockNeedItemUseId": 0,
+    "Global_Attribute1Type": 0,
+    "Global_Attribute1Value": 0,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 0,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      0
+    ],
+    "SpeechTxtEquip": [
+      0
+    ],
+    "SpeechTxtDie": [
+      0
+    ],
+    "LuxuryType": 1,
+    "CostumePartsType": 7
+  },
+  {
+    "PetId": 100201,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 110710003,
+    "GachaIconId": 0,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 0,
+    "NameId": 110700003,
+    "TagNameId": 0,
+    "IngameMeshId": 500003,
+    "OutgameMeshId": 510003,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 41003,
+    "UnlockNeedItemUseId": 0,
+    "Global_Attribute1Type": 0,
+    "Global_Attribute1Value": 0,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 0,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      0
+    ],
+    "SpeechTxtEquip": [
+      0
+    ],
+    "SpeechTxtDie": [
+      0
+    ],
+    "LuxuryType": 1,
+    "CostumePartsType": 7
+  },
+  {
+    "PetId": 100301,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 110710004,
+    "GachaIconId": 0,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 0,
+    "NameId": 110700004,
+    "TagNameId": 0,
+    "IngameMeshId": 500004,
+    "OutgameMeshId": 510004,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 41006,
+    "UnlockNeedItemUseId": 0,
+    "Global_Attribute1Type": 0,
+    "Global_Attribute1Value": 0,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 0,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      0
+    ],
+    "SpeechTxtEquip": [
+      0
+    ],
+    "SpeechTxtDie": [
+      0
+    ],
+    "LuxuryType": 1,
+    "CostumePartsType": 7
+  },
+  {
+    "PetId": 100401,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 110710005,
+    "GachaIconId": 0,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 0,
+    "NameId": 110700005,
+    "TagNameId": 0,
+    "IngameMeshId": 500005,
+    "OutgameMeshId": 510005,
+    "InGameAnimResourceId": 41004,
+    "OutGameAnimResourceId": 41004,
+    "UnlockNeedItemUseId": 0,
+    "Global_Attribute1Type": 0,
+    "Global_Attribute1Value": 0,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 0,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      0
+    ],
+    "SpeechTxtEquip": [
+      0
+    ],
+    "SpeechTxtDie": [
+      0
+    ],
+    "LuxuryType": 1,
+    "CostumePartsType": 7
+  },
+  {
+    "PetId": 100501,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 110710006,
+    "GachaIconId": 0,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 0,
+    "NameId": 110700006,
+    "TagNameId": 0,
+    "IngameMeshId": 500006,
+    "OutgameMeshId": 510006,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 41006,
+    "UnlockNeedItemUseId": 0,
+    "Global_Attribute1Type": 0,
+    "Global_Attribute1Value": 0,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 0,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      0
+    ],
+    "SpeechTxtEquip": [
+      0
+    ],
+    "SpeechTxtDie": [
+      0
+    ],
+    "LuxuryType": 1,
+    "CostumePartsType": 7
+  },
+  {
+    "PetId": 100601,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 110710007,
+    "GachaIconId": 0,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 0,
+    "NameId": 110700007,
+    "TagNameId": 0,
+    "IngameMeshId": 500007,
+    "OutgameMeshId": 510007,
+    "InGameAnimResourceId": 41003,
+    "OutGameAnimResourceId": 41003,
+    "UnlockNeedItemUseId": 0,
+    "Global_Attribute1Type": 0,
+    "Global_Attribute1Value": 0,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 0,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      0
+    ],
+    "SpeechTxtEquip": [
+      0
+    ],
+    "SpeechTxtDie": [
+      0
+    ],
+    "LuxuryType": 1,
+    "CostumePartsType": 7
+  },
+  {
+    "PetId": 100701,
+    "Tier": 3,
+    "Origin": 1,
+    "IconId": 110710008,
+    "GachaIconId": 0,
+    "GachaFixImgOffset": [
+      0,
+      0
+    ],
+    "PETBuffIconId": 0,
+    "NameId": 110700008,
+    "TagNameId": 0,
+    "IngameMeshId": 500008,
+    "OutgameMeshId": 510008,
+    "InGameAnimResourceId": 41006,
+    "OutGameAnimResourceId": 41006,
+    "UnlockNeedItemUseId": 0,
+    "Global_Attribute1Type": 0,
+    "Global_Attribute1Value": 0,
+    "Global_Attribute2Type": 0,
+    "Global_Attribute2Value": 0,
+    "SkillId01": 0,
+    "SkillId02": 0,
+    "SkillId03": 0,
+    "SkillId04": 0,
+    "SpeechTxtUi": [
+      0
+    ],
+    "SpeechTxtEquip": [
+      0
+    ],
+    "SpeechTxtDie": [
+      0
+    ],
+    "LuxuryType": 1,
+    "CostumePartsType": 7
+  }
+]

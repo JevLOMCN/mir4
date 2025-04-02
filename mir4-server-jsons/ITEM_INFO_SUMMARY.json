@@ -1,0 +1,1562 @@
+[
+  {
+    "ItemInfoSummaryID": 1,
+    "ContentsID": 1600,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Vehicle/VehicleLevelup",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MatSlot",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 2,
+    "ContentsID": 1600,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Vehicle/VehicleUpgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MatSlot_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 3,
+    "ContentsID": 1600,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Vehicle/VehicleUpgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MatSlot_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 4,
+    "ContentsID": 1700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Training/Mastery_info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_MatUpgradeSlot_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 5,
+    "ContentsID": 1700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Training/Mastery_info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_MatUpgradeSlot_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 6,
+    "ContentsID": 1700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Training/Mastery_info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_MatUpgradeSlot_2",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 7,
+    "ContentsID": 1700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Training/Mastery_info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_MatUpgradeSlot_3",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 8,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_AbilityList",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_CureMat",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 9,
+    "ContentsID": 3320,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/Forge/B_Forge_Smelt",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 10,
+    "ContentsID": 3320,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/Forge/B_Forge_Smelt",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_MaterialCost",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 11,
+    "ContentsID": 3300,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/Forge/Forge_Polish",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 12,
+    "ContentsID": 1900,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/Jewel/Jewel_Upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_BeforeUpgradeItem",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 13,
+    "ContentsID": 1900,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/Jewel/Jewel_Upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_AfterUpgradeItem",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 14,
+    "ContentsID": 4000,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/DailyWork/DailyWork_List_Slot",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_RewardItem",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 15,
+    "ContentsID": 2400,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/Quest/Slot_Quest",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Reward00",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 16,
+    "ContentsID": 2400,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/Quest/Slot_Quest",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Reward01",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 17,
+    "ContentsID": 2400,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/Quest/Slot_Quest",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Reward02",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 18,
+    "ContentsID": 2300,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/Quest/Slot_Quest",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Reward00",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 19,
+    "ContentsID": 2300,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/Quest/Slot_Quest",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Reward01",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 20,
+    "ContentsID": 2300,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/Quest/Slot_Quest",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Reward02",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 21,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/B_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MissionSlot_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 22,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/B_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MissionSlot_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 23,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/B_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MissionSlot_2",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 24,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/B_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MissionSlot_3",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 25,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/B_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MissionSlot_4",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 26,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/B_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MissionSlot_5",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 27,
+    "ContentsID": 1400,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Skill/Active/ActiveSkill_Info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 28,
+    "ContentsID": 1400,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Skill/Active/ActiveSkill_Info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 29,
+    "ContentsID": 2100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/HolyStuff/HolyStuff_upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Mat_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 30,
+    "ContentsID": 2100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/HolyStuff/HolyStuff_upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Mat_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 31,
+    "ContentsID": 2100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/HolyStuff/HolyStuff_upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Mat_2",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 32,
+    "ContentsID": 2100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/HolyStuff/HolyStuff_upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Mat_3",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 33,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Char/Popup_CustomTitleSetting",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 34,
+    "ContentsID": 3100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_Dungeon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 35,
+    "ContentsID": 3100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_Dungeon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 36,
+    "ContentsID": 3100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_Dungeon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect_C_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 37,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_AdvenceList",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 38,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_AdvenceList",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat2",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 39,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_AdvenceList",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat3",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 40,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_AdvenceList",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat4",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 41,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_AdvenceList",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Skip",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 42,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_ListSlot",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 43,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_ListSlot",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 44,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_ListSlot",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat_2",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 45,
+    "ContentsID": 4500,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/RelationQuest/RelationQuestDetail",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Reward00",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 46,
+    "ContentsID": 4500,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/RelationQuest/RelationQuestDetail",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Reward01",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 47,
+    "ContentsID": 4500,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/RelationQuest/RelationQuestDetail",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Reward02",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 48,
+    "ContentsID": 4700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_WorldBoss",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 49,
+    "ContentsID": 4700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_WorldBoss",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 50,
+    "ContentsID": 4700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_WorldBoss",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect_C_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 51,
+    "ContentsID": 4000,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/DailyWork/DailyWork_List_Slot",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_00",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 52,
+    "ContentsID": 4000,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/DailyWork/DailyWork_List_Slot",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_01",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 53,
+    "ContentsID": 4000,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/DailyWork/DailyWork_List_Slot",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_02",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 54,
+    "ContentsID": 4000,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/DailyWork/DailyWork_Progress",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_PlusReward_01",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 55,
+    "ContentsID": 4000,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/DailyWork/DailyWork_Progress",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_PlusReward_02",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 56,
+    "ContentsID": 4100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_EliteDungeon",
+    "ParentsSlotName": "C_Pan_RewardList",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 57,
+    "ContentsID": 3000,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_EliteStage",
+    "ParentsSlotName": "C_Pan_RewardList",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 58,
+    "ContentsID": 3200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_RaidDungeon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 59,
+    "ContentsID": 3200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_RaidDungeon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 60,
+    "ContentsID": 3200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_RaidDungeon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect_C_1",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 61,
+    "ContentsID": 4800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_SquareDungeon",
+    "ParentsSlotName": "ScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 62,
+    "ContentsID": 4800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_SquareDungeon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 63,
+    "ContentsID": 4200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_UnderWorld",
+    "ParentsSlotName": "C_Pan_RewardList",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 64,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/Popup_Dungeon_Info",
+    "ParentsSlotName": "C_Pan_RewardList",
+    "ItemSlotName": "0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 65,
+    "ContentsID": 2500,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/Achievement/B_ACHIEVEMENT_SLOT",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_00",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 66,
+    "ContentsID": 2500,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/Achievement/B_ACHIEVEMENT_SLOT",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_01",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 67,
+    "ContentsID": 2500,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/Achievement/B_ACHIEVEMENT_SLOT",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_02",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 68,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/HUD/Hunting_Squad/B_Creation_Hunting_Squad",
+    "ParentsSlotName": "ScrollBox_Reward",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 69,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/HUD/Hunting_Squad/B_Hunting_Squad",
+    "ParentsSlotName": "ScrollBox_Reward",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 70,
+    "ContentsID": 4900,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_SecretDungeon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Img_NeedItem",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 71,
+    "ContentsID": 4900,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_SecretDungeon",
+    "ParentsSlotName": "C_Pan_RewardList",
+    "ItemSlotName": "0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 72,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/Popup_Secret_Info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Img_NeedItem",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 73,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/Popup_Secret_Info",
+    "ParentsSlotName": "C_Pan_RewardList",
+    "ItemSlotName": "0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 74,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Worldmap",
+    "ParentsSlotName": "ScrollBox_DropItem",
+    "ItemSlotName": "0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 75,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Common_Contents/AcquiredItem/B_PopUp_AcquiredItem",
+    "ParentsSlotName": "ScrollBox_Item",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 76,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/renewal/Slot_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Treasure_Matrial_00",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 77,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/renewal/Slot_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Treasure_Matrial_01",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 78,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/renewal/Slot_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Treasure_Matrial_02",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 79,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/renewal/Slot_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Treasure_Matrial_03",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 80,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/renewal/Slot_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Treasure_Matrial_04",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 81,
+    "ContentsID": 2200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Chance/renewal/Slot_Treasure",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Treasure_Matrial_05",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 82,
+    "ContentsID": 3340,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/Forge/B_Forge_Optionchange",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_RandOptionMaterial",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 83,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_Renewel/New_Force_AbilityList",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Mat_Cost",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 84,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_Renewel/New_Force_AbilityList",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Mat_Item_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 85,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_Renewel/New_Force_AbilityList",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Mat_Item_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 86,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_Renewel/New_Force_Upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 87,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_Renewel/New_Force_Upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 88,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_Renewel/New_Force_Upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat_2",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 89,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_Renewel/New_Force_Upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat_3",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 90,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_Renewel/New_Force_Upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Skip",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 91,
+    "ContentsID": 1800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Force/Force_Renewel/New_Force_Upgrade",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Mat_Item",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 92,
+    "ContentsID": 2600,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/CollectionBook/CollectionBook_Reward_Circle",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Reward_00",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 93,
+    "ContentsID": 2600,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/CollectionBook/CollectionBook_Reward_Circle",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Reward_01",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 94,
+    "ContentsID": 2600,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/CollectionBook/CollectionBook_Reward_Circle",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Reward_02",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 95,
+    "ContentsID": 2600,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/CollectionBook/CollectionBook_Reward_Circle",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Reward_03",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 96,
+    "ContentsID": 2600,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/CollectionBook/CollectionBook_Reward_Circle",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Reward_04",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 97,
+    "ContentsID": 5300,
+    "UMGFilePath": "0",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MatSlot",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 98,
+    "ContentsID": 5300,
+    "UMGFilePath": "0",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MatSlot_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 99,
+    "ContentsID": 5300,
+    "UMGFilePath": "0",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MatSlot_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 100,
+    "ContentsID": 1400,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Skill/Renewal/Popup_SKill_Exchange",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "TargetSlot",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 101,
+    "ContentsID": 1400,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Skill/Renewal/Popup_SKill_Exchange",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "ExchangeSlot",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 102,
+    "ContentsID": 250,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Mail/B_Mail",
+    "ParentsSlotName": "ScrollBox_Gift",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 103,
+    "ContentsID": 4100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 104,
+    "ContentsID": 3000,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 105,
+    "ContentsID": 4200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 106,
+    "ContentsID": 4800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 107,
+    "ContentsID": 4800,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 108,
+    "ContentsID": 4900,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 109,
+    "ContentsID": 4900,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 110,
+    "ContentsID": 3200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 111,
+    "ContentsID": 3200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 112,
+    "ContentsID": 3200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect_C_0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 113,
+    "ContentsID": 3100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 114,
+    "ContentsID": 3100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 115,
+    "ContentsID": 3100,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect_C_0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 116,
+    "ContentsID": 4700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 117,
+    "ContentsID": 4700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 118,
+    "ContentsID": 4700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect_C_0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 119,
+    "ContentsID": 2851,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 120,
+    "ContentsID": 2851,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 121,
+    "ContentsID": 300,
+    "UMGFilePath": "/Game/UI/UMGBP/HUD/Event/UserEvent_Attendance_Month",
+    "ParentsSlotName": "WrapBox_Slot",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 122,
+    "ContentsID": 2930,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dominion/Dominion_Base_BossReward",
+    "ParentsSlotName": "MirScrollBox_ItemList",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 123,
+    "ContentsID": 1700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Training/Mastery_info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_MatTrainingSlot_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 124,
+    "ContentsID": 1700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Training/Mastery_info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_MatTrainingSlot_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 125,
+    "ContentsID": 1700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Training/Mastery_info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_MatTrainingSlot_2",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 126,
+    "ContentsID": 1700,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/Training/Mastery_info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_MatTrainingSlot_3",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 127,
+    "ContentsID": 300,
+    "UMGFilePath": "/Game/UI/UMGBP/HUD/Event/BattlePass/BattlePass_Reward_List",
+    "ParentsSlotName": "ScrollBox",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 128,
+    "ContentsID": 230,
+    "UMGFilePath": "/Game/UI/UMGBP/HUD/Party/B_Squad_Info",
+    "ParentsSlotName": "ScrollBox_Reward",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 129,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/Popup_Dungeon_Reward",
+    "ParentsSlotName": "HorizontalBox_899",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 130,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/Popup_Dungeon_Reward",
+    "ParentsSlotName": "HorizontalBox_3",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 131,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/Popup_Dungeon_Reward",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 132,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Common_Contents/Popup_GetHistory",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Inventory_C_*",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 133,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Shop/B_Shop_Npc",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "ItemSlot",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 134,
+    "ContentsID": 3340,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/Forge/B_Forge_Optionchange",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_RandOptionMaterial_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 135,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Boss/Popup_WorldBoss_Reward",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 136,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Boss/Popup_WorldBoss_Reward",
+    "ParentsSlotName": "HorizontalBox_899",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 137,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Boss/Popup_WorldBoss_Reward",
+    "ParentsSlotName": "HorizontalBox_3",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 138,
+    "ContentsID": 2890,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Guild/Renewal/Guild_GiftSlot",
+    "ParentsSlotName": "Mir Canvas Panel",
+    "ItemSlotName": "HorizontalBox_Reward",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 139,
+    "ContentsID": 3600,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/UIShop/Popup_UIShop_GoodsDetail",
+    "ParentsSlotName": "C_ScrollBox",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 140,
+    "ContentsID": 3600,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/UIShop/UIShop_GoodsBigSlot",
+    "ParentsSlotName": "C_ScrollBoxDetailSlot",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 141,
+    "ContentsID": 4500,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Challenge/RelationQuest/RelationQuest_Renewl",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_C_1",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 142,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 143,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 144,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_2",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 145,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_3",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 146,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_4",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 147,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_5",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 148,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_6",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 149,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_7",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 150,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_8",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 151,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_9",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 152,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_10",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 153,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_11",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 154,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_12",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 155,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_13",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 156,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_14",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 157,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_15",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 158,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_16",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 159,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_17",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 160,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_18",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 161,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_19",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 162,
+    "ContentsID": 200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Worldmap/Map_Minimap",
+    "ParentsSlotName": "ListView_DropItemList",
+    "ItemSlotName": "Slot_Material_C_20",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 163,
+    "ContentsID": 1850,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/ClosedTraining/ClosedTraining_Info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 164,
+    "ContentsID": 1850,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/ClosedTraining/ClosedTraining_Info",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Mat_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 165,
+    "ContentsID": 2853,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 166,
+    "ContentsID": 2853,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 167,
+    "ContentsID": 3604,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/UIShop/Popup_UIShop_GoodsDetail",
+    "ParentsSlotName": "C_ScrollBox",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 168,
+    "ContentsID": 0,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Shop/B_Shop_Npc",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "MirButton_68",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 169,
+    "ContentsID": 2970,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/GUildWarPlunder/b_GUildWarPlunder",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "Slot_Dungeon_Material",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 170,
+    "ContentsID": 2970,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/GUildWarPlunder/b_GUildWarPlunder",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "Slot_Dungeon_Material_C_1",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 171,
+    "ContentsID": 2970,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/GUildWarPlunder/b_GUildWarPlunder",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "Slot_Dungeon_Material_C_2",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 172,
+    "ContentsID": 2970,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/GUildWarPlunder/b_GUildWarPlunder",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "Slot_Dungeon_Material_C_3",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 173,
+    "ContentsID": 2970,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/GUildWarPlunder/b_GUildWarPlunder",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "Slot_Dungeon_Material_C_4",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 174,
+    "ContentsID": 2970,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/GUildWarPlunder/b_GUildWarPlunder",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "Slot_Dungeon_Material_C_5",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 175,
+    "ContentsID": 2970,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/GUildWarPlunder/b_GUildWarPlunder",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "Slot_Dungeon_Material_C_6",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 176,
+    "ContentsID": 2970,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/GUildWarPlunder/b_GUildWarPlunder",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "Slot_Dungeon_Material_C_7",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 177,
+    "ContentsID": 7200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/HolyStuff/HolyStuff_Open",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Mat_Item_0",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 178,
+    "ContentsID": 7200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/HolyStuff/HolyStuff_Open",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Mat_Item_1",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 179,
+    "ContentsID": 7200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/HolyStuff/HolyStuff_Open",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Mat_Item_2",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 180,
+    "ContentsID": 7200,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Character/HolyStuff/HolyStuff_Open",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Mat_Item_3",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 181,
+    "ContentsID": 3901,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Ranking/New_Ranking_Reward_List",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Reward_Item_1",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 182,
+    "ContentsID": 3901,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Ranking/New_Ranking_Reward_List",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Reward_Item_2",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 183,
+    "ContentsID": 3901,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Ranking/New_Ranking_Reward_List",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Reward_Item_3",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 184,
+    "ContentsID": 3901,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Ranking/New_Ranking_Reward_List",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Reward_Item_4",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 187,
+    "ContentsID": 3150,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "MirScrollBox_0",
+    "ItemSlotName": "0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 188,
+    "ContentsID": 3150,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect",
+    "SlotButton": 1
+  },
+  {
+    "ItemInfoSummaryID": 189,
+    "ContentsID": 3150,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Dungeon/B_DungeonCommon",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "Slot_Material_Rect_C_0",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 190,
+    "ContentsID": 2990,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Guild/Renewal/Guild_CoopMission_Slot",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_00",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 191,
+    "ContentsID": 2990,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Guild/Renewal/Guild_CoopMission_Slot",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_01",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 192,
+    "ContentsID": 2990,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Guild/Renewal/Guild_CoopMission_Slot",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_02",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 193,
+    "ContentsID": 2990,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Guild/Renewal/Popup_CoopBoss",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_MVP_01",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 194,
+    "ContentsID": 2990,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Guild/Renewal/Popup_CoopBoss",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_MVP_02",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 195,
+    "ContentsID": 2990,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Guild/Renewal/Popup_CoopBoss",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_KILL_01",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 196,
+    "ContentsID": 2990,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Guild/Renewal/Popup_CoopBoss",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_Material_KILL_02",
+    "SlotButton": 0
+  },
+  {
+    "ItemInfoSummaryID": 197,
+    "ContentsID": 3320,
+    "UMGFilePath": "/Game/UI/UMGBP/Contents/Item/Forge/B_Forge_Smelt",
+    "ParentsSlotName": "0",
+    "ItemSlotName": "C_Slot_SubMaterial",
+    "SlotButton": 1
+  }
+]

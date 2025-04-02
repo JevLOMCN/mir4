@@ -1,0 +1,32 @@
+[
+    {
+        "MainCategory": 1,
+        "SubCategory": 1,
+        "NameStrId": 1,
+        "SubCategoryType": 1,
+        "ListUiType": 1,
+        "BuyGroupId": 1,
+        "MaxSellCount": 10,
+        "OpenTime": 0,
+        "CloseTime": 100,
+        "IntervalTime": 10,
+        "OrderNum": 1,
+        "TagIconId": 1,
+        "OnOFF": 1
+    },
+    {
+        "MainCategory": 1,
+        "SubCategory": 2,
+        "NameStrId": 2,
+        "SubCategoryType": 2,
+        "ListUiType": 2,
+        "BuyGroupId": 2,
+        "MaxSellCount": 20,
+        "OpenTime": 50,
+        "CloseTime": 150,
+        "IntervalTime": 20,
+        "OrderNum": 2,
+        "TagIconId": 2,
+        "OnOFF": 0
+    }
+]

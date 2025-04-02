@@ -1,0 +1,58 @@
+[
+  {
+    "ChargeId": 1,
+    "ChargeGroup": 1,
+    "ChargeCountMin": 1,
+    "CostType": 4,
+    "CostValue": 150
+  },
+  {
+    "ChargeId": 2,
+    "ChargeGroup": 1,
+    "ChargeCountMin": 2,
+    "CostType": 4,
+    "CostValue": 200
+  },
+  {
+    "ChargeId": 6,
+    "ChargeGroup": 2,
+    "ChargeCountMin": 1,
+    "CostType": 4,
+    "CostValue": 150
+  },
+  {
+    "ChargeId": 7,
+    "ChargeGroup": 2,
+    "ChargeCountMin": 2,
+    "CostType": 4,
+    "CostValue": 200
+  },
+  {
+    "ChargeId": 11,
+    "ChargeGroup": 3,
+    "ChargeCountMin": 1,
+    "CostType": 4,
+    "CostValue": 100
+  },
+  {
+    "ChargeId": 12,
+    "ChargeGroup": 3,
+    "ChargeCountMin": 2,
+    "CostType": 4,
+    "CostValue": 140
+  },
+  {
+    "ChargeId": 16,
+    "ChargeGroup": 4,
+    "ChargeCountMin": 1,
+    "CostType": 4,
+    "CostValue": 150
+  },
+  {
+    "ChargeId": 17,
+    "ChargeGroup": 4,
+    "ChargeCountMin": 2,
+    "CostType": 4,
+    "CostValue": 200
+  }
+]
