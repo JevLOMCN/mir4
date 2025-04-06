@@ -42,8 +42,6 @@
 
  ## Servers - Windows
  ### Windows 10+ / Windows Server 2016+
-> [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
->
 > [MySql Community 5.7.44.0](https://dev.mysql.com/downloads/file/?id=523570)
 >
 > [Couchbase Community 7.2](https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi)
@@ -51,6 +49,8 @@
 > [Memurai](https://www.memurai.com/get-memurai)
 >
 > [Windows Terminal](https://github.com/microsoft/terminal)
+>
+> [Microsoft Visual C++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version)
 
 ## Servers - Linux
  ### Linux
