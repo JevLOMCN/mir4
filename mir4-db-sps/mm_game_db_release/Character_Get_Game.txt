@@ -1,0 +1,200 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Character_Get_Game`(
+	IN	_AccountUID		BIGINT	UNSIGNED
+, 	IN	_CharacterUID	BIGINT	UNSIGNED
+
+,	OUT _CharacterName				VARCHAR(50)
+,	OUT	_CustomTitle				VARCHAR(12)
+,	OUT _Class						TINYINT		UNSIGNED
+,	OUT	_Lev						TINYINT		UNSIGNED
+,	OUT	_Exp						INT			UNSIGNED
+,	OUT	_CurrentHP					INT			UNSIGNED
+,	OUT	_CurrentMP					INT			UNSIGNED
+,	OUT	_StageIdx					INT			UNSIGNED 
+,	OUT	_PositionX					FLOAT	
+,	OUT	_PositionY					FLOAT	
+,	OUT	_PositionZ					FLOAT
+,	OUT	_EscapeStageIdx				INT			UNSIGNED
+,	OUT	_EscapePositionX			FLOAT
+,	OUT	_EscapePositionY			FLOAT
+,	OUT	_EscapePositionZ			FLOAT
+,	OUT	_Wonbo						INT			UNSIGNED
+,	OUT	_Gold						BIGINT		UNSIGNED
+,	OUT	_AncientCoin				BIGINT		UNSIGNED
+,	OUT	_PlaytimeSec				INT			UNSIGNED
+,	OUT	_EnergyPoint				BIGINT	UNSIGNED
+,	OUT	_BlackIron					INT			UNSIGNED
+,	OUT	_ActionPoint				SMALLINT	UNSIGNED
+,	OUT	_LastActionPointUpdateTime	INT			UNSIGNED
+,	OUT	_LootingCnt					TINYINT		UNSIGNED
+,	OUT	_LastLootingTime			INT			UNSIGNED
+,	OUT	_AwakenGrade				TINYINT		UNSIGNED
+,	OUT	_InvenExtendCnt				TINYINT		UNSIGNED
+,	OUT	_VehicleGroupId				SMALLINT	UNSIGNED
+,	OUT	_PKPoint					SMALLINT
+,	OUT	_GuildUID					INT			UNSIGNED
+,	OUT	_Result						INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+ 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+            
+	SET	_CharacterName = ''	,   _CustomTitle = ''	, _Class = 0	, _Lev = 0				, _Exp = 0				, _CurrentHP = 0		, _CurrentMP = 0		, _StageIdx = 0		
+    ,	_PositionX = 0		, 	_PositionY = 0	    , _PositionZ = 0, _EscapeStageIdx = 0	, _EscapePositionX = 0	, _EscapePositionY = 0	, _EscapePositionZ = 0	, _Wonbo = 0		
+    , 	_Gold = 0			, 	_PlaytimeSec = 0	, _EnergyPoint = 0, _BlackIron = 0,     _LootingCnt = 0		, _LastLootingTime = 0	, _AwakenGrade = 0		, _InvenExtendCnt = 0
+    ,   _VehicleGroupId = 0	, _PKPoint = 0	, _GuildUID = 0	, _Result = -1;
+   
+	MAIN_ROUTINE:
+    BEGIN
+    
+		DECLARE _CostumeIdx INT UNSIGNED DEFAULT 0;
+        
+ 		IF	_AccountUID = 0 OR _CharacterUID = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+		
+        -- 업적
+		SELECT AchievementGroupIdx, AchievementGroupGrade	FROM achievement_tb	WHERE CharacterUID = _CharacterUID;
+        
+		-- 길드
+        SELECT GuildUID	INTO _GuildUID	FROM character_guild_tb	WHERE CharacterUID = _CharacterUID;
+        
+		-- 캐릭터 기본 데이터
+		SELECT	CH.CharacterName	, CH.Class		, CH.Lev			, CH.Exp		, CH.CurrentHP	, CH.CurrentMP	, CH.StageIdx	, CH.PositionX	, CH.PositionY	
+			, 	CH.PositionZ		, CH.Wonbo		, CH.Gold			, CH.AncientCoin , CH.PlaytimeSec, CH.AwakenGrade, CH.EnergyPoint, CH.BlackIron	, CH.ActionPoint, UNIX_TIMESTAMP(CH.LastActionPointUpdateTime)	
+            , 	CH.InvenExtendCnt	, CH.CostumeIdx , CH.PKPoint        
+		INTO	_CharacterName		, _Class		, _Lev				, _Exp			, _CurrentHP	, _CurrentMP	, _StageIdx		, _PositionX	, _PositionY		
+			, 	_PositionZ			, _Wonbo		, _Gold				, _AncientCoin  , _PlaytimeSec	, _AwakenGrade	, _EnergyPoint	, _BlackIron	, _ActionPoint	, _LastActionPointUpdateTime	
+            , 	_InvenExtendCnt		, _CostumeIdx	, _PKPoint          
+		FROM			character_tb		AS CH
+        LEFT OUTER JOIN	character_delete_tb	AS CD	ON CD.CharacterUID = CH.CharacterUID
+		WHERE	CH.CharacterUID = _CharacterUID AND ( CD.DeleteTime > NOW() OR CD.DeleteTime IS NULL );
+		IF FOUND_ROWS() <= 0 THEN ROLLBACK;	SET _Result = 201;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 캐릭터
+
+		-- 도감
+		SELECT CollectionStageIdx														FROM collectionbook_stagereward_tb	WHERE CharacterUID = _CharacterUID;
+        SELECT CollectionStageIdx, CollectionMonsterIdx, CollectionLev, CollectionCnt	FROM collectionbook_tb				WHERE CharacterUID = _CharacterUID;
+        
+        -- 보유 코스츔
+        SELECT CostumeIdx, CostumeGrade, HairColorIdx, ClothesColorIdx	FROM costume_tb	WHERE CharacterUID = _CharacterUID AND CostumeIdx = _CostumeIdx;
+        
+        -- customize_tb
+        SELECT ElementType, ElementValue	FROM customize_tb	WHERE CharacterUID = _CharacterUID;
+        
+        -- equip_costume_tb
+        SELECT CostumeEquipSlot, CostumeIdx	FROM equip_costume_tb	WHERE CharacterUID = _CharacterUID;
+        
+        -- equip_costume_hide_tb
+        SELECT CostumeEquipSlot, IsHidden	FROM equip_costume_hide_tb	WHERE CharacterUID = _CharacterUID;
+        
+        -- 호칭
+		SELECT CustomTitle	INTO _CustomTitle	FROM customtitle_tb	WHERE CharacterUID = _CharacterUID;
+        
+        -- 착용 슬롯
+--        SELECT EquipSlot, ItemUID					FROM equip_item_tb		WHERE CharacterUID = _CharacterUID;
+--        SELECT EquipSlot, JewelSlot, JewelItemIdx	FROM equip_jewel_tb		WHERE CharacterUID = _CharacterUID;
+        
+        -- 착용 탈것
+        SELECT VehicleGroupId	INTO _VehicleGroupId	FROM equip_vehicle_tb	WHERE CharacterUID = _CharacterUID;
+        
+        -- 탈출 위치
+        SELECT	EscapeStageIdx	, EscapePositionX	, EscapePositionY	, EscapePositionZ
+		INTO	_EscapeStageIdx	, _EscapePositionX	, _EscapePositionY	, _EscapePositionZ
+		FROM	escape_position_tb
+		WHERE	CharacterUID = _CharacterUID;
+        
+        -- 내공
+        SELECT ForceIdx, BloodIdx, BloodLev					FROM force_blood_tb	WHERE CharacterUID = _CharacterUID;
+        SELECT ForceIdx, UNIX_TIMESTAMP(SlumpExpireTime)	FROM force_tb		WHERE CharacterUID = _CharacterUID;
+        
+        -- 성물
+        SELECT HolyStuffIdx, HolyStuffLev, HolyStuffExp	FROM holystuff_tb	WHERE CharacterUID = _CharacterUID;
+
+        
+        -- 보유 아이템
+        CREATE TEMPORARY TABLE	item_tmp
+        SELECT	IT.ItemUID, IT.ItemIdx	
+        FROM			item_character_tb	AS IC
+        INNER JOIN		item_tb				AS IT ON IT.ItemUID = IC.ItemUID
+        LEFT OUTER JOIN	item_delete_tb		AS ID ON ID.ItemUID = IT.ItemUID
+        WHERE	IC.CharacterUID = _CharacterUID AND ID.ItemUID IS NULL;
+        
+		SELECT	IT.ItemUID	, IT.ItemIdx
+			, 	IFNULL( IB.EquipBinding, 0 ) AS EquipBinding
+            , 	IFNULL( IR.ReinforceLev, 1 ) AS ReinforceLev	
+            , 	IFNULL( IR.ReinforceExp, 0 ) AS ReinforceExp
+			, 	IFNULL( SM.SmeltingLev, 0 ) AS SmeltingLev
+            , 	IFNULL( ST.StackCnt, 0 ) AS StackCnt	-- 장비템일경우 0으로 처리하도록 수정
+        FROM			item_tmp			AS IT
+        LEFT OUTER JOIN	item_binding_tb		AS IB ON IB.ItemUID = IT.ItemUID
+        -- LEFT OUTER JOIN	item_delete_tb		AS ID ON ID.ItemUID = IT.ItemUID
+        LEFT OUTER JOIN	item_reinforce_tb	AS IR ON IR.ItemUID = IT.ItemUID
+        LEFT OUTER JOIN	item_smelting_tb	AS SM ON SM.ItemUID = IT.ItemUID
+        LEFT OUTER JOIN	item_stack_tb		AS ST ON ST.ItemUID = IT.ItemUID;
+        
+        -- 착용 슬롯
+        SELECT ItemUID, EquipSlot				FROM equip_item_tb		WHERE CharacterUID = _CharacterUID;
+		
+        -- 아이템 보류 옵션
+        -- SELECT ItemUID, OptionSlot, OptionIdx, OptionValue	FROM item_holdoption_tb	WHERE CharacterUID = _CharacterUID;
+        SELECT	IT.ItemUID, IHO.OptionSlot, IHO.OptionIdx, IHO.OptionValue
+        FROM		item_tmp		AS IT 
+        INNER JOIN	item_holdoption_tb	AS IHO ON IHO.ItemUID = IT.ItemUID;
+        
+        -- 아이템 착용 보석
+		SELECT	IT.ItemUID, IJ.JewelSlot, IJ.JewelItemIdx
+        FROM		item_tmp		AS IT 
+        INNER JOIN	item_jewel_tb	AS IJ ON IJ.ItemUID = IT.ItemUID;
+
+        -- 아이템 랜덤 옵션
+        -- SELECT ItemUID, OptionSlot, OptionIdx, OptionValue	FROM item_option_tb	WHERE ItemUID = IT.ItemUID;
+		SELECT	IT.ItemUID, OP.OptionSlot, OP.OptionIdx, OP.OptionValue
+        FROM		item_tmp		AS IT 
+        INNER JOIN	item_option_tb	AS OP ON OP.ItemUID = IT.ItemUID;
+
+        -- 아이템 연마 단계
+        SELECT	IT.ItemUID, IP.PolishingSlot, IP.PolishingCnt
+        FROM		item_tmp			AS IT 
+        INNER JOIN	item_polishing_tb	AS IP ON IP.ItemUID = IT.ItemUID;
+        
+        DROP TEMPORARY TABLE item_tmp;
+		
+        
+        -- 숙련
+        SELECT MasterySlot, MasteryCnt	FROM mastery_tb	WHERE CharacterUID = _CharacterUID;        
+        
+        -- 플레이 데이터
+        SELECT PlayDataIdx, PlayDataValue	FROM playdata_tb	WHERE CharacterUID = _CharacterUID;
+        
+        -- product_buy_cnt
+        SELECT ProductIdx, BuyCount, LastBuyTime									FROM product_buy_cnt_account_tb			WHERE AccountUID = _AccountUID;
+        SELECT ProductIdx, BuyCount, LastBuyTime									FROM product_buy_cnt_character_tb			WHERE CharacterUID = _CharacterUID;
+        
+        -- 퀘스트
+        SELECT QuestIdx, State, QuestValue									FROM quest_main_tb			WHERE CharacterUID = _CharacterUID;
+        SELECT QuestIdx, State, QuestValue									FROM quest_sub_tb			WHERE CharacterUID = _CharacterUID;
+        SELECT QuestIdx, ClearCnt, UNIX_TIMESTAMP(ClearTime) AS ClearTime	FROM quest_sub_clearcnt_tb	WHERE CharacterUID = _CharacterUID;
+        
+        -- 스킬
+        SELECT ActiveIdx, ActiveLev									FROM skill_active_tb		WHERE CharacterUID = _CharacterUID;
+        SELECT DeckNum, SkillSlot, ActiveIdx						FROM skill_deck_tb			WHERE CharacterUID = _CharacterUID;
+        SELECT PassiveGroupIdx, PassiveIdx, PassiveLev				FROM skill_passive_tb		WHERE CharacterUID = _CharacterUID;
+        SELECT PassiveGroupIdx, PassiveGroupLev, PassiveGroupExp	FROM skill_passivegroup_tb	WHERE CharacterUID = _CharacterUID;
+
+		-- 보물
+        SELECT TreasureIdx, TreasureLev		FROM treasure_lev_tb				WHERE CharacterUID = _CharacterUID;
+		SELECT TreasureIdx, MeterialSlot	FROM treasure_meterial_tb			WHERE CharacterUID = _CharacterUID;
+		
+        -- 튜토리얼
+        SELECT TutorialGroupIdx	FROM tutorial_clear_tb	WHERE AccountUID = _AccountUID;
+        
+        -- 탈것 
+        SELECT VehicleGroupId, VehicleIdx, VehicleLev, VehicleExp	FROM vehicle_tb	WHERE CharacterUID = _CharacterUID;
+        
+        -- 표지석
+        SELECT WayPointIdx	FROM waypoint_tb	WHERE CharacterUID = _CharacterUID;
+       
+		SET	_Result = 0;
+    END;
+END

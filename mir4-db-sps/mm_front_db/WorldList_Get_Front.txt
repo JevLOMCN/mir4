@@ -1,0 +1,26 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `WorldList_Get_Front`(
+	OUT _Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+	SET	_Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+        SELECT 	WO.WorldUID, WO.WorldState, WO.WorldName, SE.PublicServerIP, SE.PublicServerPort, SE.ServerType
+        FROM 		world_tb	AS WO
+        INNER JOIN	server_tb	AS SE	ON SE.WorldUID = WO.WorldUID
+        WHERE	SE.ServerType = 3 AND WO.WorldUID <> 1
+        ORDER BY	WO.OrderNum DESC, WO.WorldUID;
+        
+		IF	FOUND_ROWS() <= 0	THEN SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- Data that does not exist in the DB
+        
+		SET	_Result = 0;
+	END;
+END

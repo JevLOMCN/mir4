@@ -1,0 +1,43 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `SkillPassiveReset_Update_Game`(
+	IN	_CharacterUID			BIGINT		UNSIGNED
+,	IN	_DeleteItemUID			BIGINT		UNSIGNED	
+,	IN	_StackDecreaseAmount	MEDIUMINT
+,	IN	_StackResultServer		MEDIUMINT	UNSIGNED
+,	IN	_PassiveGroupIdx		MEDIUMINT	UNSIGNED
+
+,	OUT	_StackResultDB	MEDIUMINT
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_StackResultDB = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _DeleteItemUID = 0 OR _PassiveGroupIdx = 0	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+            
+        ELSEIF	_StackDecreaseAmount >= 0	THEN 
+			SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+			-- 아이템 스택 변경
+			CALL ItemStack_Update_DB ( _CharacterUID, _DeleteItemUID, 0, _StackDecreaseAmount, _StackResultServer, _StackResultDB, _Result );	
+			IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            
+            -- 패시브 그룹 스킬 레벨, 경험치 변경
+            DELETE FROM skill_passive_tb	WHERE CharacterUID = _CharacterUID AND PassiveGroupIdx = _PassiveGroupIdx;
+            IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- DB에 존재하지 않는 데이터
+          
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

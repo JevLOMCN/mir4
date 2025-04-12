@@ -1,0 +1,108 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Costume_Insert_Game`(
+	IN	_CharacterUID			BIGINT		UNSIGNED
+-- ,	IN	_MoneyType				TINYINT		UNSIGNED
+-- ,	IN	_MoneyDecreaseAmount	BIGINT
+
+,	IN	_DeleteItemUID01		BIGINT		UNSIGNED	
+,	IN	_StackDecreaseAmount01	MEDIUMINT				
+,	IN	_StackResultServer01	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID02		BIGINT		UNSIGNED	
+,	IN	_StackDecreaseAmount02	MEDIUMINT				
+,	IN	_StackResultServer02	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID03		BIGINT		UNSIGNED	
+,	IN	_StackDecreaseAmount03	MEDIUMINT				
+,	IN	_StackResultServer03	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID04		BIGINT		UNSIGNED	
+,	IN	_StackDecreaseAmount04	MEDIUMINT				
+,	IN	_StackResultServer04	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID05		BIGINT		UNSIGNED	
+,	IN	_StackDecreaseAmount05	MEDIUMINT				
+,	IN	_StackResultServer05	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID06		BIGINT		UNSIGNED	
+,	IN	_StackDecreaseAmount06	MEDIUMINT				
+,	IN	_StackResultServer06	MEDIUMINT	UNSIGNED			
+
+,	IN	_CostumeIdx				INT			UNSIGNED
+,	IN	_CostumeGrade			TINYINT		UNSIGNED
+,	IN	_HairColorIdx			MEDIUMINT	UNSIGNED
+,	IN	_ClothesColorIdx		MEDIUMINT	UNSIGNED
+
+-- ,	OUT _MoneyResult	BIGINT
+,	OUT	_StackResultDB01	MEDIUMINT
+,	OUT	_StackResultDB02	MEDIUMINT
+,	OUT	_StackResultDB03	MEDIUMINT
+,	OUT	_StackResultDB04	MEDIUMINT
+,	OUT	_StackResultDB05	MEDIUMINT
+,	OUT	_StackResultDB06	MEDIUMINT
+,	OUT _Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET /*_MoneyResult = 0,*/ _StackResultDB01 = 0, _StackResultDB02 = 0, _StackResultDB03 = 0, _StackResultDB04 = 0, _StackResultDB05 = 0, _StackResultDB06 = 0,  _Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _CostumeIdx = 0
+			/*OR ( _DeleteItemUID01 = 0 AND _DeleteItemUID02 = 0 AND _DeleteItemUID03 = 0 AND _DeleteItemUID04 = 0 AND _DeleteItemUID05 = 0 AND _DeleteItemUID06 = 0 )*/	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값이 없음
+        ELSEIF	/*_MoneyDecreaseAmount > 0*/ _StackDecreaseAmount01 > 0 OR _StackDecreaseAmount02 > 0 OR _StackDecreaseAmount03 > 0 
+			OR 	_StackDecreaseAmount04 > 0 OR _StackDecreaseAmount05 > 0 OR _StackDecreaseAmount06 > 0	THEN 
+			SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 Amount
+        END IF;	
+        
+		START TRANSACTION;
+/*            
+            -- 재화 차감
+			IF	_MoneyDecreaseAmount < 0	THEN	
+				CALL Money_Update_DB( 0, _CharacterUID, _MoneyType, _MoneyDecreaseAmount, _MoneyResult, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;
+*/
+            -- 코스튬 등급 변경 및 추가
+            UPDATE	costume_tb 
+            SET		CostumeGrade = _CostumeGrade
+            WHERE	CharacterUID = _CharacterUID AND CostumeIdx = _CostumeIdx;
+            IF ROW_COUNT() <= 0	THEN 
+				INSERT IGNORE INTO	costume_tb 
+						( CharacterUID	, CostumeIdx	, CostumeGrade	, HairColorIdx	, ClothesColorIdx	) 
+				VALUES	( _CharacterUID	, _CostumeIdx	, _CostumeGrade	, _HairColorIdx	, _ClothesColorIdx	);
+				IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 502;	LEAVE MAIN_ROUTINE;	END IF;	-- 이미 존재하는 코스츔
+            END IF;
+            
+            -- 아이템 스택 변경
+            IF	_DeleteItemUID01	> 0	THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _DeleteItemUID01	, 0, _StackDecreaseAmount01	, _StackResultServer01	, _StackResultDB01	, _Result );		
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;									
+            IF	_DeleteItemUID02	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _DeleteItemUID02	, 0, _StackDecreaseAmount02	, _StackResultServer02	, _StackResultDB02	, _Result );		
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;									
+            IF	_DeleteItemUID03	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _DeleteItemUID03	, 0, _StackDecreaseAmount03	, _StackResultServer03	, _StackResultDB03	, _Result );		
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;									
+            IF	_DeleteItemUID04	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _DeleteItemUID04	, 0, _StackDecreaseAmount04	, _StackResultServer04	, _StackResultDB04	, _Result );		
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;									
+            IF	_DeleteItemUID05	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _DeleteItemUID05	, 0, _StackDecreaseAmount05	, _StackResultServer05	, _StackResultDB05	, _Result );		
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;									
+            IF	_DeleteItemUID06	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _DeleteItemUID06	, 0, _StackDecreaseAmount06	, _StackResultServer06	, _StackResultDB06	, _Result );		
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;									
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

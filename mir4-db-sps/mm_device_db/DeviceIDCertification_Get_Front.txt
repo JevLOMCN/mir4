@@ -1,0 +1,35 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `DeviceIDCertification_Get_Front`(
+	IN	_OSUID		TINYINT UNSIGNED
+,	IN	_DeviceID	VARCHAR(40)
+
+,	OUT	_UserName		VARCHAR(10)
+,	OUT _DepartmentUID	TINYINT UNSIGNED
+-- ,	OUT	_Memo			VARCHAR(20)
+,	OUT _Result			INT	
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+ 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+	SET	_UserName = '', _DepartmentUID = 0/*, _Memo = ''*/ , _Result = -1;
+
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_OSUID = 0 OR _DeviceID = ''	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- Failed to receive values ​​required for processing
+		
+        SELECT OSUID	INTO _OSUID	FROM os_tb	WHERE OSUID = _OSUID;
+        IF	FOUND_ROWS() <= 0	THEN SET _Result = 6;	LEAVE MAIN_ROUTINE;	END IF;	-- undefined value
+        
+        SELECT	UserName	, DepartmentUID	-- , Memo
+        INTO	_UserName	, _DepartmentUID-- , _Memo
+        FROM	deviceid_tb		
+        WHERE	OSUID = _OSUID AND DeviceID = _DeviceID;
+        IF	FOUND_ROWS() <= 0	THEN SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- Data that does not exist in the DB
+        
+		SET	_Result = 0;
+	END;
+END

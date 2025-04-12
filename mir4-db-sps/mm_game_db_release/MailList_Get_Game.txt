@@ -1,0 +1,93 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `MailList_Get_Game`(
+	IN	_CharacterUID	BIGINT	UNSIGNED
+,	IN	_RecentMailUID	BIGINT	UNSIGNED
+,   IN	_LastMailUID	BIGINT	UNSIGNED
+,	IN	_CntPerPage		TINYINT	UNSIGNED
+
+,	OUT	_TotalCnt	SMALLINT	UNSIGNED
+,	OUT	_Result		INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _TotalCnt = 0, _Result = -1;
+    
+	MAIN_ROUTINE:
+	BEGIN
+		IF _CharacterUID = 0 OR _CntPerPage = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+		
+        -- 보유 우편 갯수
+        SELECT	COUNT(*)
+        INTO	_TotalCnt
+        FROM	mail_tb
+        WHERE	ReceiveCharacterUID = _CharacterUID AND ExpiryTime > NOW() AND Deleted = 0;
+        
+        -- 요청 MailUID 이전 우편 리스트 
+        CREATE TEMPORARY TABLE mail_tmp
+        SELECT	MailUID, SenderIdx, TitleIdx, TitleText, MailRead, UNIX_TIMESTAMP(ExpiryTime) AS ExpiryTime
+        FROM	mail_tb
+        WHERE (	MailUID < CASE WHEN _LastMailUID = 0 THEN MailUID + 1 ELSE _LastMailUID END OR MailUID > _RecentMailUID ) 
+			AND ReceiveCharacterUID = _CharacterUID AND ExpiryTime > NOW() AND Deleted = 0
+        ORDER BY	MailUID DESC
+        LIMIT	_CntPerPage;
+		
+        SELECT * FROM mail_tmp;
+        
+        -- 첨부 아이템 (수령시 생성될 아이템)
+        SELECT	MI.MailUID, MI.ItemIdx, MI.StackCnt
+        FROM		mail_tmp		AS MA
+        INNER JOIN	mail_itemidx_tb	AS MI ON MI.MailUID = MA.MailUID;
+
+		
+        -- 첨부 아이템 (이미 생성된 아이템)
+        CREATE TEMPORARY TABLE	item_tmp
+        SELECT	MI.MailUID, MI.ItemUID, IT.ItemIdx	
+        FROM			mail_tmp		AS MA
+        INNER JOIN		mail_itemuid_tb	AS MI ON MI.MailUID = MA.MailUID
+        INNER JOIN		item_tb			AS IT ON IT.ItemUID = MI.ItemUID
+        LEFT OUTER JOIN	item_delete_tb	AS ID ON ID.ItemUID = IT.ItemUID
+        WHERE	ID.ItemUID IS NULL;
+        
+		SELECT	IT.MailUID, IT.ItemUID, IT.ItemIdx
+            , 	IFNULL( IR.ReinforceLev, 1 ) AS ReinforceLev
+			, 	IFNULL( IR.ReinforceExp, 0 ) AS ReinforceExp
+            , 	IFNULL( SM.SmeltingLev, 0 ) AS SmeltingLev
+            , 	IFNULL( ST.StackCnt, 0 ) AS StackCnt
+        FROM			item_tmp			AS IT 
+        LEFT OUTER JOIN	item_reinforce_tb	AS IR ON IR.ItemUID = IT.ItemUID
+        LEFT OUTER JOIN	item_smelting_tb	AS SM ON SM.ItemUID = IT.ItemUID
+        LEFT OUTER JOIN	item_stack_tb		AS ST ON ST.ItemUID = IT.ItemUID;
+		
+        -- 아이템 착용 보석
+		SELECT	IT.ItemUID, IJ.JewelSlot, IJ.JewelItemIdx
+        FROM		item_tmp		AS IT 
+        INNER JOIN	item_jewel_tb	AS IJ ON IJ.ItemUID = IT.ItemUID;
+
+        -- 아이템 랜덤 옵션
+		SELECT	IT.ItemUID, OP.OptionSlot, OP.OptionIdx, OP.OptionValue
+        FROM		item_tmp		AS IT 
+        INNER JOIN	item_option_tb	AS OP ON OP.ItemUID = IT.ItemUID;
+
+        -- 아이템 연마 단계
+        SELECT	IT.ItemUID, IP.PolishingSlot, IP.PolishingCnt
+        FROM		item_tmp			AS IT 
+        INNER JOIN	item_polishing_tb	AS IP ON IP.ItemUID = IT.ItemUID;
+        
+        DROP TEMPORARY TABLE item_tmp;
+
+        
+        -- 첨부 재화
+        SELECT	MM.MailUID, MM.MoneyType, MM.Money
+        FROM		mail_tmp		AS MA
+        INNER JOIN	mail_money_tb	AS MM ON MM.MailUID = MA.MailUID;
+        
+        DROP TEMPORARY TABLE mail_tmp;
+
+		SET	_Result = 0;
+    END;
+END

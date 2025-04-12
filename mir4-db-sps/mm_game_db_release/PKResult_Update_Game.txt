@@ -1,0 +1,201 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `PKResult_Update_Game`( 
+	IN	_GetCharacterUID		BIGINT	UNSIGNED
+,	IN	_GetCharacterPKPoint	SMALLINT
+-- ,	IN	_GetMoneyType			TINYINT	UNSIGNED
+-- ,	IN	_GetMoneyIncreaseAmount	BIGINT
+-- ,	IN	_GetMoneyResultServer	BIGINT	UNSIGNED
+-- ,	IN	_GetMoneyUpdateTime		INT		UNSIGNED
+
+,	IN	_GetPlayDataIdx01	SMALLINT	UNSIGNED
+,	IN	_GetPlayDataValue01	BIGINT		UNSIGNED
+,	IN	_GetPlayDataIdx02	SMALLINT	UNSIGNED
+,	IN	_GetPlayDataValue02	BIGINT		UNSIGNED
+,	IN	_GetPlayDataIdx03	SMALLINT	UNSIGNED
+,	IN	_GetPlayDataValue03	BIGINT		UNSIGNED
+,	IN	_GetPlayDataIdx04	SMALLINT	UNSIGNED
+,	IN	_GetPlayDataValue04	BIGINT		UNSIGNED
+,	IN	_GetPlayDataIdx05	SMALLINT	UNSIGNED
+,	IN	_GetPlayDataValue05	BIGINT		UNSIGNED
+,	IN	_GetPlayDataIdx06	SMALLINT	UNSIGNED
+,	IN	_GetPlayDataValue06	BIGINT		UNSIGNED
+,	IN	_GetPlayDataIdx07	SMALLINT	UNSIGNED
+,	IN	_GetPlayDataValue07	BIGINT		UNSIGNED
+,	IN	_GetPlayDataIdx08	SMALLINT	UNSIGNED
+,	IN	_GetPlayDataValue08	BIGINT		UNSIGNED
+,	IN	_GetPlayDataIdx09	SMALLINT	UNSIGNED
+,	IN	_GetPlayDataValue09	BIGINT		UNSIGNED
+,	IN	_GetPlayDataIdx10	SMALLINT	UNSIGNED
+,	IN	_GetPlayDataValue10	BIGINT		UNSIGNED
+
+,	IN	_LostCharacterUID			BIGINT	UNSIGNED
+,	IN	_LostCharacterPKPoint		SMALLINT
+,	IN	_LostMoneyType				TINYINT	UNSIGNED
+,	IN	_LostMoneyDecreaseAmount	BIGINT
+,	IN	_LostMoneyResultServer		BIGINT	UNSIGNED
+,	IN	_LostMoneyUpdateTime		INT		UNSIGNED
+
+,	IN	_LostItemUID01			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount01	MEDIUMINT				
+,	IN	_StackResultServer01	MEDIUMINT	UNSIGNED			
+,	IN	_LostItemUID02			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount02	MEDIUMINT				
+,	IN	_StackResultServer02	MEDIUMINT	UNSIGNED			
+,	IN	_LostItemUID03			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount03	MEDIUMINT				
+,	IN	_StackResultServer03	MEDIUMINT	UNSIGNED			
+,	IN	_LostItemUID04			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount04	MEDIUMINT				
+,	IN	_StackResultServer04	MEDIUMINT	UNSIGNED			
+,	IN	_LostItemUID05			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount05	MEDIUMINT				
+,	IN	_StackResultServer05	MEDIUMINT	UNSIGNED			
+,	IN	_LostItemUID06			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount06	MEDIUMINT				
+,	IN	_StackResultServer06	MEDIUMINT	UNSIGNED			
+,	IN	_LostItemUID07			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount07	MEDIUMINT				
+,	IN	_StackResultServer07	MEDIUMINT	UNSIGNED			
+,	IN	_LostItemUID08			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount08	MEDIUMINT				
+,	IN	_StackResultServer08	MEDIUMINT	UNSIGNED			
+
+,	IN	_LostPlayDataIdx01		SMALLINT	UNSIGNED
+,	IN	_LostPlayDataValue01	BIGINT		UNSIGNED
+,	IN	_LostPlayDataIdx02		SMALLINT	UNSIGNED
+,	IN	_LostPlayDataValue02	BIGINT		UNSIGNED
+,	IN	_LostPlayDataIdx03		SMALLINT	UNSIGNED
+,	IN	_LostPlayDataValue03	BIGINT		UNSIGNED
+,	IN	_LostPlayDataIdx04		SMALLINT	UNSIGNED
+,	IN	_LostPlayDataValue04	BIGINT		UNSIGNED
+,	IN	_LostPlayDataIdx05		SMALLINT	UNSIGNED
+,	IN	_LostPlayDataValue05	BIGINT		UNSIGNED
+,	IN	_LostPlayDataIdx06		SMALLINT	UNSIGNED
+,	IN	_LostPlayDataValue06	BIGINT		UNSIGNED
+,	IN	_LostPlayDataIdx07		SMALLINT	UNSIGNED
+,	IN	_LostPlayDataValue07	BIGINT		UNSIGNED
+,	IN	_LostPlayDataIdx08		SMALLINT	UNSIGNED
+,	IN	_LostPlayDataValue08	BIGINT		UNSIGNED
+,	IN	_LostPlayDataIdx09		SMALLINT	UNSIGNED
+,	IN	_LostPlayDataValue09	BIGINT		UNSIGNED
+,	IN	_LostPlayDataIdx10		SMALLINT	UNSIGNED
+,	IN	_LostPlayDataValue10	BIGINT		UNSIGNED
+
+-- ,	OUT _GetMoneyResultDB	BIGINT
+,	OUT _LostMoneyResultDB	BIGINT
+,	OUT _StackResultDB01	MEDIUMINT
+,	OUT _StackResultDB02	MEDIUMINT
+,	OUT _StackResultDB03	MEDIUMINT
+,	OUT _StackResultDB04	MEDIUMINT
+,	OUT _StackResultDB05	MEDIUMINT
+,	OUT _StackResultDB06	MEDIUMINT
+,	OUT _StackResultDB07	MEDIUMINT
+,	OUT _StackResultDB08	MEDIUMINT
+,	OUT	_Result				INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+	
+	SET	/*_GetMoneyResultDB = 0,*/ _LostMoneyResultDB = 0
+    , 	_StackResultDB01 = 0, _StackResultDB02 = 0, _StackResultDB03 = 0, _StackResultDB04 = 0, _StackResultDB05 = 0, _StackResultDB06 = 0, _StackResultDB07 = 0, _StackResultDB08 = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+    	IF		_GetCharacterUID = 0 OR _LostCharacterUID = 0				THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+		ELSEIF	/*_GetMoneyIncreaseAmount < 0 OR*/ _LostMoneyDecreaseAmount > 0	THEN SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+			-- 획득한 캐릭터 처리
+            UPDATE character_tb	SET PKPoint = _GetCharacterPKPoint	WHERE CharacterUID = _GetCharacterUID;
+            /*
+			IF	_GetMoneyIncreaseAmount > 0	THEN	
+				CALL Money_Update_DB ( 0, _GetCharacterUID, _GetMoneyType, _GetMoneyIncreaseAmount, _GetMoneyResultServer, _GetMoneyUpdateTime, _GetMoneyResultDB, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;
+            */
+            -- 잃은 캐릭터 처리
+			UPDATE character_tb	SET PKPoint = _LostCharacterPKPoint	WHERE CharacterUID = _LostCharacterUID;
+            
+            IF	_LostMoneyDecreaseAmount < 0	THEN	
+				CALL Money_Update_DB ( 0, _LostCharacterUID, _LostMoneyType, _LostMoneyDecreaseAmount, _LostMoneyResultServer, _LostMoneyUpdateTime, _LostMoneyResultDB, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+			
+            -- 아이템 삭제
+            IF	_LostItemUID01	> 0	THEN					
+				CALL Item_Delete_DB ( _LostItemUID01	, _StackDecreaseAmount01	, _StackResultServer01	, _StackResultDB01	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_LostItemUID02	> 0	THEN					
+				CALL Item_Delete_DB ( _LostItemUID02	, _StackDecreaseAmount02	, _StackResultServer02	, _StackResultDB02	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_LostItemUID03	> 0	THEN					
+				CALL Item_Delete_DB ( _LostItemUID03	, _StackDecreaseAmount03	, _StackResultServer03	, _StackResultDB03	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_LostItemUID04	> 0	THEN					
+				CALL Item_Delete_DB ( _LostItemUID04	, _StackDecreaseAmount04	, _StackResultServer04	, _StackResultDB04	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_LostItemUID05	> 0	THEN					
+				CALL Item_Delete_DB ( _LostItemUID05	, _StackDecreaseAmount05	, _StackResultServer05	, _StackResultDB05	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_LostItemUID06	> 0	THEN					
+				CALL Item_Delete_DB ( _LostItemUID06	, _StackDecreaseAmount06	, _StackResultServer06	, _StackResultDB06	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_LostItemUID07	> 0	THEN					
+				CALL Item_Delete_DB ( _LostItemUID07	, _StackDecreaseAmount07	, _StackResultServer07	, _StackResultDB07	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_LostItemUID08	> 0	THEN					
+				CALL Item_Delete_DB ( _LostItemUID08	, _StackDecreaseAmount08	, _StackResultServer08	, _StackResultDB08	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            
+            -- 플레이 데이터 변경
+            IF	_GetPlayDataIdx01 > 0 OR _GetPlayDataIdx02 > 0 OR _GetPlayDataIdx03 > 0 OR _GetPlayDataIdx04 > 0 OR _GetPlayDataIdx05 > 0 
+			OR	_GetPlayDataIdx06 > 0 OR _GetPlayDataIdx07 > 0 OR _GetPlayDataIdx08 > 0 OR _GetPlayDataIdx09 > 0 OR _GetPlayDataIdx10 > 0	THEN
+				CALL PlayData_Update_DB	( _GetCharacterUID
+										, _GetPlayDataIdx01	, _GetPlayDataValue01
+										, _GetPlayDataIdx02	, _GetPlayDataValue02
+										, _GetPlayDataIdx03	, _GetPlayDataValue03
+										, _GetPlayDataIdx04	, _GetPlayDataValue04
+										, _GetPlayDataIdx05	, _GetPlayDataValue05
+										, _GetPlayDataIdx06	, _GetPlayDataValue06
+										, _GetPlayDataIdx07	, _GetPlayDataValue07
+										, _GetPlayDataIdx08	, _GetPlayDataValue08
+										, _GetPlayDataIdx09	, _GetPlayDataValue09
+										, _GetPlayDataIdx10	, _GetPlayDataValue10
+										, _Result	);
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;		
+            END IF;
+            
+            IF	_LostPlayDataIdx01 > 0 OR _LostPlayDataIdx02 > 0 OR _LostPlayDataIdx03 > 0 OR _LostPlayDataIdx04 > 0 OR _LostPlayDataIdx05 > 0 
+			OR	_LostPlayDataIdx06 > 0 OR _LostPlayDataIdx07 > 0 OR _LostPlayDataIdx08 > 0 OR _LostPlayDataIdx09 > 0 OR _LostPlayDataIdx10 > 0	THEN
+				CALL PlayData_Update_DB	( _LostCharacterUID
+										, _LostPlayDataIdx01	, _LostPlayDataValue01
+										, _LostPlayDataIdx02	, _LostPlayDataValue02
+										, _LostPlayDataIdx03	, _LostPlayDataValue03
+										, _LostPlayDataIdx04	, _LostPlayDataValue04
+										, _LostPlayDataIdx05	, _LostPlayDataValue05
+										, _LostPlayDataIdx06	, _LostPlayDataValue06
+										, _LostPlayDataIdx07	, _LostPlayDataValue07
+										, _LostPlayDataIdx08	, _LostPlayDataValue08
+										, _LostPlayDataIdx09	, _LostPlayDataValue09
+										, _LostPlayDataIdx10	, _LostPlayDataValue10
+										, _Result	);
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;		
+            END IF;
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

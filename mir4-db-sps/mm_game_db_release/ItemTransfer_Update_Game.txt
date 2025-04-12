@@ -1,0 +1,219 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `ItemTransfer_Update_Game`(
+	IN	_CharacterUID			BIGINT	UNSIGNED
+,	IN	_MoneyType				TINYINT	UNSIGNED
+,	IN	_MoneyDecreaseAmount	BIGINT
+,	IN	_MoneyResultServer		BIGINT	UNSIGNED
+,	IN	_MoneyUpdateTime		INT		UNSIGNED
+,	IN	_EquipSlot 				TINYINT	UNSIGNED
+,	IN	_TransferItemUID		BIGINT	UNSIGNED
+,	IN	_ReinforceLev			TINYINT	UNSIGNED
+,	IN	_SmeltingLev			TINYINT	UNSIGNED
+,	IN	_JewelSlot01			TINYINT	UNSIGNED	
+,	IN	_JewelItemIdx01			INT		UNSIGNED
+,	IN	_JewelSlot02			TINYINT	UNSIGNED	
+,	IN	_JewelItemIdx02			INT		UNSIGNED
+,	IN	_JewelSlot03			TINYINT	UNSIGNED	
+,	IN	_JewelItemIdx03			INT		UNSIGNED
+,	IN	_JewelSlot04			TINYINT	UNSIGNED	
+,	IN	_JewelItemIdx04			INT		UNSIGNED
+,	IN	_JewelSlot05			TINYINT	UNSIGNED	
+,	IN	_JewelItemIdx05			INT		UNSIGNED
+
+,	IN	_CreateItemUID01		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx01		INT			UNSIGNED
+,	IN	_StackIncreaseAmount01	MEDIUMINT				
+,	IN	_StackResultServer01	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID02		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx02		INT			UNSIGNED
+,	IN	_StackIncreaseAmount02	MEDIUMINT				
+,	IN	_StackResultServer02	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID03		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx03		INT			UNSIGNED
+,	IN	_StackIncreaseAmount03	MEDIUMINT				
+,	IN	_StackResultServer03	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID04		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx04		INT			UNSIGNED
+,	IN	_StackIncreaseAmount04	MEDIUMINT				
+,	IN	_StackResultServer04	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID05		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx05		INT			UNSIGNED
+,	IN	_StackIncreaseAmount05	MEDIUMINT				
+,	IN	_StackResultServer05	MEDIUMINT	UNSIGNED	
+
+,	IN	_SacrificeItemUID	BIGINT	UNSIGNED
+
+,	IN	_PlayDataIdx01		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue01	BIGINT		
+,	IN	_PlayDataIdx02		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue02	BIGINT		
+,	IN	_PlayDataIdx03		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue03	BIGINT		
+,	IN	_PlayDataIdx04		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue04	BIGINT		
+,	IN	_PlayDataIdx05		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue05	BIGINT		
+,	IN	_PlayDataIdx06		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue06	BIGINT		
+,	IN	_PlayDataIdx07		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue07	BIGINT		
+,	IN	_PlayDataIdx08		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue08	BIGINT		
+,	IN	_PlayDataIdx09		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue09	BIGINT		
+,	IN	_PlayDataIdx10		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue10	BIGINT		
+
+,	OUT _MoneyResultDB		BIGINT
+,	OUT	_StackResultDB01	MEDIUMINT
+,	OUT	_StackResultDB02	MEDIUMINT
+,	OUT	_StackResultDB03	MEDIUMINT
+,	OUT	_StackResultDB04	MEDIUMINT
+,	OUT	_StackResultDB05	MEDIUMINT
+,	OUT	_Result				INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET _MoneyResultDB = 0, _StackResultDB01 = 0, _StackResultDB02 = 0, _StackResultDB03 = 0, _StackResultDB04 = 0, _StackResultDB05 = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _TransferItemUID = 0 OR _SacrificeItemUID = 0 THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+            
+        ELSEIF	_MoneyDecreaseAmount >= 0	THEN 
+			SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+			-- 재화 변경
+			IF	_MoneyDecreaseAmount < 0	THEN
+				CALL Money_Update_DB ( 0, _CharacterUID, _MoneyType, _MoneyDecreaseAmount, _MoneyResultServer, _MoneyUpdateTime, _MoneyResultDB, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+            
+            -- 아이템 착용
+            IF	_EquipSlot > 0	THEN
+				UPDATE equip_item_tb	SET ItemUID = _TransferItemUID	WHERE CharacterUID = _CharacterUID AND EquipSlot = _EquipSlot;
+				IF ROW_COUNT() <= 0	THEN 
+					INSERT IGNORE INTO equip_item_tb ( CharacterUID, EquipSlot, ItemUID )	VALUE ( _CharacterUID, _EquipSlot, _TransferItemUID );
+					IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+				END IF;
+            END IF;
+            
+            -- 자동 추출 보석 생성
+            IF	_CreateItemUID01	> 0	THEN								
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID01	, _CreateItemIdx01	, _StackIncreaseAmount01	, _StackResultServer01	, _StackResultDB01	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+			END IF;								
+            IF	_CreateItemUID02	> 0	THEN								
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID02	, _CreateItemIdx02	, _StackIncreaseAmount02	, _StackResultServer02	, _StackResultDB02	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+			END IF;								
+            IF	_CreateItemUID03	> 0	THEN								
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID03	, _CreateItemIdx03	, _StackIncreaseAmount03	, _StackResultServer03	, _StackResultDB03	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+			END IF;								
+            IF	_CreateItemUID04	> 0	THEN								
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID04	, _CreateItemIdx04	, _StackIncreaseAmount04	, _StackResultServer04	, _StackResultDB04	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+			END IF;								
+            IF	_CreateItemUID05	> 0	THEN								
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID05	, _CreateItemIdx05	, _StackIncreaseAmount05	, _StackResultServer05	, _StackResultDB05	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;			
+			END IF;		
+            
+/*            -- 재물 아이템 삭제
+			CALL Item_Delete_DB ( _SacrificeItemUID, 0, 0, @StackResultDB, _Result );
+			IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+*/            
+            -- 보석
+            UPDATE item_jewel_tb	SET JewelItemIdx = 0	WHERE ItemUID = _SacrificeItemUID;
+            
+            IF	_JewelSlot01	> 0	THEN						
+				UPDATE item_jewel_tb	SET JewelItemIdx = _JewelItemIdx01	WHERE ItemUID = _TransferItemUID AND JewelSlot = _JewelSlot01;
+                IF ROW_COUNT() <= 0	THEN 
+					INSERT IGNORE INTO item_jewel_tb ( ItemUID, JewelSlot, JewelItemIdx )	VALUE ( _TransferItemUID, _JewelSlot01, _JewelItemIdx01 );
+					IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+				END IF;
+			END IF;
+            IF	_JewelSlot02	> 0	THEN						
+				UPDATE item_jewel_tb	SET JewelItemIdx = _JewelItemIdx02	WHERE ItemUID = _TransferItemUID AND JewelSlot = _JewelSlot02;
+				IF ROW_COUNT() <= 0	THEN 
+					INSERT IGNORE INTO item_jewel_tb ( ItemUID, JewelSlot, JewelItemIdx )	VALUE ( _TransferItemUID, _JewelSlot02, _JewelItemIdx02 );
+					IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+				END IF;
+            END IF;									
+            IF	_JewelSlot03	> 0	THEN						
+				UPDATE item_jewel_tb	SET JewelItemIdx = _JewelItemIdx03	WHERE ItemUID = _TransferItemUID AND JewelSlot = _JewelSlot03;
+				IF ROW_COUNT() <= 0	THEN 
+					INSERT IGNORE INTO item_jewel_tb ( ItemUID, JewelSlot, JewelItemIdx )	VALUE ( _TransferItemUID, _JewelSlot03, _JewelItemIdx03 );
+					IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+				END IF;
+            END IF;									
+            IF	_JewelSlot04	> 0	THEN						
+				UPDATE item_jewel_tb	SET JewelItemIdx = _JewelItemIdx04	WHERE ItemUID = _TransferItemUID AND JewelSlot = _JewelSlot04;
+				IF ROW_COUNT() <= 0	THEN 
+					INSERT IGNORE INTO item_jewel_tb ( ItemUID, JewelSlot, JewelItemIdx )	VALUE ( _TransferItemUID, _JewelSlot04, _JewelItemIdx04 );
+					IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+				END IF;
+            END IF;									
+            IF	_JewelSlot05	> 0	THEN						
+				UPDATE item_jewel_tb	SET JewelItemIdx = _JewelItemIdx05	WHERE ItemUID = _TransferItemUID AND JewelSlot = _JewelSlot05;
+				IF ROW_COUNT() <= 0	THEN 
+					INSERT IGNORE INTO item_jewel_tb ( ItemUID, JewelSlot, JewelItemIdx )	VALUE ( _TransferItemUID, _JewelSlot05, _JewelItemIdx05 );
+					IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+				END IF;
+            END IF;
+            
+            -- 전이
+            IF	_ReinforceLev > 1	THEN
+				DELETE FROM item_reinforce_tb	WHERE ItemUID = _SacrificeItemUID;
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- DB에 존재하지 않는 데이터
+                
+				UPDATE item_reinforce_tb	SET ReinforceLev = _ReinforceLev	WHERE ItemUID = _TransferItemUID;
+                IF ROW_COUNT() <= 0	THEN 
+					INSERT IGNORE INTO item_reinforce_tb ( ItemUID, ReinforceLev, ReinforceExp )	VALUES ( _TransferItemUID, _ReinforceLev, 0 );
+					IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+				END IF;
+            END IF;
+			
+            IF	_SmeltingLev > 0	THEN
+				DELETE FROM item_smelting_tb	WHERE ItemUID = _SacrificeItemUID;
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- DB에 존재하지 않는 데이터
+                
+				UPDATE item_smelting_tb	SET SmeltingLev = _SmeltingLev	WHERE ItemUID = _TransferItemUID;
+				IF ROW_COUNT() <= 0	THEN 
+					INSERT IGNORE INTO item_smelting_tb ( ItemUID, SmeltingLev )	VALUES ( _TransferItemUID, _SmeltingLev );
+					IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+				END IF;
+            END IF;
+            
+            -- 플레이 데이터 변경
+            IF	_PlayDataIdx01 > 0 OR _PlayDataIdx02 > 0 OR _PlayDataIdx03 > 0 OR _PlayDataIdx04 > 0 OR _PlayDataIdx05 > 0 
+			OR	_PlayDataIdx06 > 0 OR _PlayDataIdx07 > 0 OR _PlayDataIdx08 > 0 OR _PlayDataIdx09 > 0 OR _PlayDataIdx10 > 0	THEN
+				CALL PlayData_Update_DB	( _CharacterUID
+										, _PlayDataIdx01	, _PlayDataValue01
+										, _PlayDataIdx02	, _PlayDataValue02
+										, _PlayDataIdx03	, _PlayDataValue03
+										, _PlayDataIdx04	, _PlayDataValue04
+										, _PlayDataIdx05	, _PlayDataValue05
+										, _PlayDataIdx06	, _PlayDataValue06
+										, _PlayDataIdx07	, _PlayDataValue07
+										, _PlayDataIdx08	, _PlayDataValue08
+										, _PlayDataIdx09	, _PlayDataValue09
+										, _PlayDataIdx10	, _PlayDataValue10
+										, _Result	);
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;		
+            END IF;
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

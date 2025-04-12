@@ -1,0 +1,171 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `_SkillPassiveExp_Update_Game`(
+	IN	_CharacterUID	BIGINT	UNSIGNED
+
+,	IN	_PassiveIdx01	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp01	INT			UNSIGNED
+,	IN	_PassiveIdx02	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp02	INT			UNSIGNED
+,	IN	_PassiveIdx03	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp03	INT			UNSIGNED
+,	IN	_PassiveIdx04	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp04	INT			UNSIGNED
+,	IN	_PassiveIdx05	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp05	INT			UNSIGNED
+,	IN	_PassiveIdx06	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp06	INT			UNSIGNED
+,	IN	_PassiveIdx07	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp07	INT			UNSIGNED
+,	IN	_PassiveIdx08	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp08	INT			UNSIGNED
+,	IN	_PassiveIdx09	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp09	INT			UNSIGNED
+,	IN	_PassiveIdx10	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp10	INT			UNSIGNED
+,	IN	_PassiveIdx11	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp11	INT			UNSIGNED
+,	IN	_PassiveIdx12	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp12	INT			UNSIGNED
+,	IN	_PassiveIdx13	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp13	INT			UNSIGNED
+,	IN	_PassiveIdx14	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp14	INT			UNSIGNED
+,	IN	_PassiveIdx15	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp15	INT			UNSIGNED
+,	IN	_PassiveIdx16	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp16	INT			UNSIGNED
+,	IN	_PassiveIdx17	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp17	INT			UNSIGNED
+,	IN	_PassiveIdx18	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp18	INT			UNSIGNED
+,	IN	_PassiveIdx19	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp19	INT			UNSIGNED
+,	IN	_PassiveIdx20	MEDIUMINT	UNSIGNED		
+,	IN	_PassiveExp20	INT			UNSIGNED
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET	_Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR 
+        ( 	_PassiveIdx01 = 0 AND _PassiveIdx02 = 0 AND _PassiveIdx03 = 0 AND _PassiveIdx04 = 0 AND _PassiveIdx05 = 0 
+        AND _PassiveIdx06 = 0 AND _PassiveIdx07 = 0 AND _PassiveIdx08 = 0 AND _PassiveIdx09 = 0 AND _PassiveIdx10 = 0 
+        AND _PassiveIdx11 = 0 AND _PassiveIdx12 = 0 AND _PassiveIdx13 = 0 AND _PassiveIdx14 = 0 AND _PassiveIdx15 = 0 
+        AND _PassiveIdx16 = 0 AND _PassiveIdx17 = 0 AND _PassiveIdx18 = 0 AND _PassiveIdx19 = 0 AND _PassiveIdx20 = 0 )	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        END IF;
+        
+        -- 패시브 스킬 경험치 변경
+        IF	_PassiveIdx01	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp01	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx01;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx02	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp02	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx02;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx03	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp03	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx03;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx04	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp04	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx04;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx05	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp05	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx05;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx06	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp06	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx06;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx07	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp07	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx07;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx08	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp08	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx08;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx09	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp09	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx09;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx10	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp10	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx10;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx11	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp11	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx11;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx12	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp12	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx12;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx13	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp13	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx13;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx14	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp14	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx14;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx15	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp15	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx15;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx16	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp16	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx16;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx17	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp17	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx17;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx18	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp18	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx18;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx19	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp19	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx19;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+        IF	_PassiveIdx20	> 0	THEN				
+			UPDATE skill_passive_tb	SET PassiveExp = _PassiveExp20	WHERE CharacterUID = _CharacterUID AND PassiveIdx = _PassiveIdx20;		
+			IF ROW_COUNT() <= 0	THEN	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+        END IF;							
+        							
+
+        SET	_Result = 0;
+	END;
+END

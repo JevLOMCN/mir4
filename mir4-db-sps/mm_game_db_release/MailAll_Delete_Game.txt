@@ -1,0 +1,33 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `MailAll_Delete_Game`(
+	IN	_CharacterUID	BIGINT	UNSIGNED
+    
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        END IF;	
+        
+        -- 우편 삭제
+		UPDATE			mail_tb			AS MA
+        LEFT OUTER JOIN	mail_itemidx_tb	AS II ON II.MailUID = MA.MailUID
+        LEFT OUTER JOIN	mail_itemuid_tb	AS IU ON IU.MailUID = MA.MailUID
+        LEFT OUTER JOIN	mail_money_tb	AS MM ON MM.MailUID = MA.MailUID
+        SET		MA.Deleted = 1
+        WHERE	MA.ReceiveCharacterUID = _CharacterUID AND II.MailUID IS NULL AND IU.MailUID IS NULL AND MM.MailUID IS NULL AND MA.ExpiryTime > NOW() AND MA.Deleted = 0;
+        
+		SET	_Result = 0;
+    END;
+END

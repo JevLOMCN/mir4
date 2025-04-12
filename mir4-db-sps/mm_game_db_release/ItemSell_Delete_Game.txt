@@ -1,0 +1,258 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `ItemSell_Delete_Game`(
+	IN	_CharacterUID			BIGINT	UNSIGNED
+,	IN	_MoneyType				TINYINT	UNSIGNED
+,	IN	_MoneyIncreaseAmount	BIGINT
+,	IN	_MoneyResultServer		BIGINT	UNSIGNED
+,	IN	_MoneyUpdateTime		INT		UNSIGNED
+
+,	IN	_SellItemUID01			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount01	MEDIUMINT				
+,	IN	_StackResultServer01	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID02			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount02	MEDIUMINT				
+,	IN	_StackResultServer02	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID03			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount03	MEDIUMINT				
+,	IN	_StackResultServer03	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID04			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount04	MEDIUMINT				
+,	IN	_StackResultServer04	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID05			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount05	MEDIUMINT				
+,	IN	_StackResultServer05	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID06			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount06	MEDIUMINT				
+,	IN	_StackResultServer06	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID07			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount07	MEDIUMINT				
+,	IN	_StackResultServer07	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID08			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount08	MEDIUMINT				
+,	IN	_StackResultServer08	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID09			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount09	MEDIUMINT				
+,	IN	_StackResultServer09	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID10			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount10	MEDIUMINT				
+,	IN	_StackResultServer10	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID11			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount11	MEDIUMINT				
+,	IN	_StackResultServer11	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID12			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount12	MEDIUMINT				
+,	IN	_StackResultServer12	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID13			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount13	MEDIUMINT				
+,	IN	_StackResultServer13	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID14			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount14	MEDIUMINT				
+,	IN	_StackResultServer14	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID15			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount15	MEDIUMINT				
+,	IN	_StackResultServer15	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID16			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount16	MEDIUMINT				
+,	IN	_StackResultServer16	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID17			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount17	MEDIUMINT				
+,	IN	_StackResultServer17	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID18			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount18	MEDIUMINT				
+,	IN	_StackResultServer18	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID19			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount19	MEDIUMINT				
+,	IN	_StackResultServer19	MEDIUMINT	UNSIGNED			
+,	IN	_SellItemUID20			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount20	MEDIUMINT				
+,	IN	_StackResultServer20	MEDIUMINT	UNSIGNED			
+
+,	IN	_PlayDataIdx01		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue01	BIGINT		
+,	IN	_PlayDataIdx02		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue02	BIGINT		
+,	IN	_PlayDataIdx03		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue03	BIGINT		
+,	IN	_PlayDataIdx04		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue04	BIGINT		
+,	IN	_PlayDataIdx05		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue05	BIGINT		
+,	IN	_PlayDataIdx06		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue06	BIGINT		
+,	IN	_PlayDataIdx07		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue07	BIGINT		
+,	IN	_PlayDataIdx08		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue08	BIGINT		
+,	IN	_PlayDataIdx09		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue09	BIGINT		
+,	IN	_PlayDataIdx10		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue10	BIGINT		
+
+,	OUT _MoneyResultDB		BIGINT
+,	OUT _StackResultDB01	MEDIUMINT
+,	OUT _StackResultDB02	MEDIUMINT
+,	OUT _StackResultDB03	MEDIUMINT
+,	OUT _StackResultDB04	MEDIUMINT
+,	OUT _StackResultDB05	MEDIUMINT
+,	OUT _StackResultDB06	MEDIUMINT
+,	OUT _StackResultDB07	MEDIUMINT
+,	OUT _StackResultDB08	MEDIUMINT
+,	OUT _StackResultDB09	MEDIUMINT
+,	OUT _StackResultDB10	MEDIUMINT
+,	OUT _StackResultDB11	MEDIUMINT
+,	OUT _StackResultDB12	MEDIUMINT
+,	OUT _StackResultDB13	MEDIUMINT
+,	OUT _StackResultDB14	MEDIUMINT
+,	OUT _StackResultDB15	MEDIUMINT
+,	OUT _StackResultDB16	MEDIUMINT
+,	OUT _StackResultDB17	MEDIUMINT
+,	OUT _StackResultDB18	MEDIUMINT
+,	OUT _StackResultDB19	MEDIUMINT
+,	OUT _StackResultDB20	MEDIUMINT
+,	OUT	_Result				INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_MoneyResultDB = 0	,
+		_StackResultDB01 = 0, _StackResultDB02 = 0, _StackResultDB03 = 0, _StackResultDB04 = 0, _StackResultDB05 = 0, 
+        _StackResultDB06 = 0, _StackResultDB07 = 0, _StackResultDB08 = 0, _StackResultDB09 = 0, _StackResultDB10 = 0, 
+        _StackResultDB11 = 0, _StackResultDB12 = 0, _StackResultDB13 = 0, _StackResultDB14 = 0, _StackResultDB15 = 0, 
+        _StackResultDB16 = 0, _StackResultDB17 = 0, _StackResultDB18 = 0, _StackResultDB19 = 0, _StackResultDB20 = 0, 
+        _Result = -1;			
+        
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 
+        OR( _SellItemUID01 = 0 AND _SellItemUID02 = 0 AND _SellItemUID03 = 0 AND _SellItemUID04 = 0 AND _SellItemUID05 = 0 
+        AND _SellItemUID06 = 0 AND _SellItemUID07 = 0 AND _SellItemUID08 = 0 AND _SellItemUID09 = 0 AND _SellItemUID10 = 0 
+        AND _SellItemUID11 = 0 AND _SellItemUID12 = 0 AND _SellItemUID13 = 0 AND _SellItemUID14 = 0 AND _SellItemUID15 = 0 
+        AND _SellItemUID16 = 0 AND _SellItemUID17 = 0 AND _SellItemUID18 = 0 AND _SellItemUID19 = 0 AND _SellItemUID20 = 0 )	
+        THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        
+        ELSEIF	_MoneyIncreaseAmount <= 0 
+			OR _StackDecreaseAmount01 > 0 OR _StackDecreaseAmount02 > 0 OR _StackDecreaseAmount03 > 0 OR _StackDecreaseAmount04 > 0 OR _StackDecreaseAmount05 > 0
+			OR _StackDecreaseAmount06 > 0 OR _StackDecreaseAmount07 > 0 OR _StackDecreaseAmount08 > 0 OR _StackDecreaseAmount09 > 0 OR _StackDecreaseAmount10 > 0
+			OR _StackDecreaseAmount11 > 0 OR _StackDecreaseAmount12 > 0 OR _StackDecreaseAmount13 > 0 OR _StackDecreaseAmount14 > 0 OR _StackDecreaseAmount15 > 0
+			OR _StackDecreaseAmount16 > 0 OR _StackDecreaseAmount17 > 0 OR _StackDecreaseAmount18 > 0 OR _StackDecreaseAmount19 > 0 OR _StackDecreaseAmount20 > 0
+		THEN 
+			SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+
+		START TRANSACTION;
+        	-- 재화 변경
+			IF	_MoneyIncreaseAmount > 0	THEN
+				CALL Money_Update_DB ( 0, _CharacterUID, _MoneyType, _MoneyIncreaseAmount, _MoneyResultServer, _MoneyUpdateTime, _MoneyResultDB, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+        
+			-- 아이템 삭제
+            IF	_SellItemUID01	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID01	, _StackDecreaseAmount01	, _StackResultServer01	, _StackResultDB01	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID02	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID02	, _StackDecreaseAmount02	, _StackResultServer02	, _StackResultDB02	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID03	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID03	, _StackDecreaseAmount03	, _StackResultServer03	, _StackResultDB03	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID04	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID04	, _StackDecreaseAmount04	, _StackResultServer04	, _StackResultDB04	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID05	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID05	, _StackDecreaseAmount05	, _StackResultServer05	, _StackResultDB05	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID06	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID06	, _StackDecreaseAmount06	, _StackResultServer06	, _StackResultDB06	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID07	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID07	, _StackDecreaseAmount07	, _StackResultServer07	, _StackResultDB07	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID08	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID08	, _StackDecreaseAmount08	, _StackResultServer08	, _StackResultDB08	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID09	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID09	, _StackDecreaseAmount09	, _StackResultServer09	, _StackResultDB09	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID10	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID10	, _StackDecreaseAmount10	, _StackResultServer10	, _StackResultDB10	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID11	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID11	, _StackDecreaseAmount11	, _StackResultServer11	, _StackResultDB11	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID12	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID12	, _StackDecreaseAmount12	, _StackResultServer12	, _StackResultDB12	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID13	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID13	, _StackDecreaseAmount13	, _StackResultServer13	, _StackResultDB13	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID14	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID14	, _StackDecreaseAmount14	, _StackResultServer14	, _StackResultDB14	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID15	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID15	, _StackDecreaseAmount15	, _StackResultServer15	, _StackResultDB15	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID16	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID16	, _StackDecreaseAmount16	, _StackResultServer16	, _StackResultDB16	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID17	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID17	, _StackDecreaseAmount17	, _StackResultServer17	, _StackResultDB17	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID18	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID18	, _StackDecreaseAmount18	, _StackResultServer18	, _StackResultDB18	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID19	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID19	, _StackDecreaseAmount19	, _StackResultServer19	, _StackResultDB19	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_SellItemUID20	> 0	THEN					
+				CALL Item_Delete_DB ( _SellItemUID20	, _StackDecreaseAmount20	, _StackResultServer20	, _StackResultDB20	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            
+            -- 플레이 데이터 변경
+            IF	_PlayDataIdx01 > 0 OR _PlayDataIdx02 > 0 OR _PlayDataIdx03 > 0 OR _PlayDataIdx04 > 0 OR _PlayDataIdx05 > 0 
+			OR	_PlayDataIdx06 > 0 OR _PlayDataIdx07 > 0 OR _PlayDataIdx08 > 0 OR _PlayDataIdx09 > 0 OR _PlayDataIdx10 > 0	THEN
+				CALL PlayData_Update_DB	( _CharacterUID
+										, _PlayDataIdx01	, _PlayDataValue01
+										, _PlayDataIdx02	, _PlayDataValue02
+										, _PlayDataIdx03	, _PlayDataValue03
+										, _PlayDataIdx04	, _PlayDataValue04
+										, _PlayDataIdx05	, _PlayDataValue05
+										, _PlayDataIdx06	, _PlayDataValue06
+										, _PlayDataIdx07	, _PlayDataValue07
+										, _PlayDataIdx08	, _PlayDataValue08
+										, _PlayDataIdx09	, _PlayDataValue09
+										, _PlayDataIdx10	, _PlayDataValue10
+										, _Result	);
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;		
+            END IF;
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

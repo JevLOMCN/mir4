@@ -1,0 +1,23 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Revision_Delete_Front`(
+	IN	_Revision	VARCHAR(20),
+    
+	OUT _Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+	SET	_Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+        DELETE FROM revision_tb	WHERE Revision = _Revision;
+        IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 0;	LEAVE MAIN_ROUTINE;	END IF;	-- Data that does not exist in the DB	
+    
+		SET	_Result = 0;        
+	END;
+END

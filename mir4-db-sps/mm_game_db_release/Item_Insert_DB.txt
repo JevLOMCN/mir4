@@ -1,0 +1,82 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Item_Insert_DB`( 
+	IN	_CharacterUID			BIGINT		UNSIGNED
+,	IN	_ItemUID				BIGINT		UNSIGNED
+,	IN	_ItemIdx				INT			UNSIGNED
+-- ,	IN	_JewelSlotCnt			TINYINT		UNSIGNED
+,	IN	_ReinforceLev			TINYINT		UNSIGNED
+,	IN	_ReinforceExp			INT			UNSIGNED
+,	IN	_SmeltingLev			TINYINT		UNSIGNED
+-- ,	IN	_TranscendenceCnt		TINYINT		UNSIGNED
+,	IN	_StackIncreaseAmount	MEDIUMINT	UNSIGNED
+,	IN	_StackResultServer		MEDIUMINT	UNSIGNED
+/*
+,	IN	_JewelSlotColorType01	TINYINT		UNSIGNED
+,	IN	_JewelSlotColorType02	TINYINT		UNSIGNED
+,	IN	_JewelSlotColorType03	TINYINT		UNSIGNED
+,	IN	_JewelSlotColorType04	TINYINT		UNSIGNED
+,	IN	_JewelSlotColorType05	TINYINT		UNSIGNED
+,	IN	_JewelSlotColorType06	TINYINT		UNSIGNED
+*/
+,	IN	_OptionIdx01			SMALLINT	UNSIGNED
+,	IN	_OptionValue01			SMALLINT	UNSIGNED
+,	IN	_OptionIdx02			SMALLINT	UNSIGNED
+,	IN	_OptionValue02			SMALLINT	UNSIGNED
+,	IN	_OptionIdx03			SMALLINT	UNSIGNED
+,	IN	_OptionValue03			SMALLINT	UNSIGNED
+,	IN	_OptionIdx04			SMALLINT	UNSIGNED
+,	IN	_OptionValue04			SMALLINT	UNSIGNED
+-- ,	IN	_TagBuffIdx				MEDIUMINT	UNSIGNED
+
+,	OUT _StackResultDB	MEDIUMINT
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _StackResultDB = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+	BEGIN
+		IF _CharacterUID = 0 OR _ItemUID = 0 OR _ItemIdx = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+
+        INSERT IGNORE INTO item_tb ( ItemUID, ItemIdx, IsLock )	VALUES ( _ItemUID, _ItemIdx, 0 );	-- 아이템 기본 데이터
+        IF ROW_COUNT() <= 0	THEN	-- 존재하는 아이템일 경우 스택 증가
+			UPDATE item_stack_tb	SET StackCnt = @StackResultDB := StackCnt + _StackIncreaseAmount	WHERE ItemUID = _ItemUID;
+			IF ROW_COUNT() <= 0	THEN SET _Result = 402;	LEAVE MAIN_ROUTINE;	END IF;	-- 이미 존재하는 아이템
+            
+            SET	_StackResultDB = @StackResultDB;
+            IF _StackResultDB <> _StackResultServer	THEN SET _Result = 8;	LEAVE MAIN_ROUTINE;	END IF;	-- 서버와 DB의 값이 다름
+            
+        ELSE
+			INSERT INTO	item_character_tb ( ItemUID, CharacterUID )	VALUES ( _ItemUID, _CharacterUID );	-- 아이템 소유자
+			
+--          IF	_JewelSlotCnt > 0	THEN INSERT INTO item_jewelslot_tb ( ItemUID, JewelSlotCnt )	VALUES ( _ItemUID, _JewelSlotCnt );	END IF;	-- 보석 슬롯수
+/*          IF	_JewelSlotColorType01 > 0	THEN INSERT INTO item_jewel_tb ( ItemUID, JewelSlot, JewelSlotColorType, JewelItemIdx )	VALUES ( _ItemUID, 1, _JewelSlotColorType01, 0 );	END IF;	-- 보석 슬롯
+            IF	_JewelSlotColorType02 > 0	THEN INSERT INTO item_jewel_tb ( ItemUID, JewelSlot, JewelSlotColorType, JewelItemIdx )	VALUES ( _ItemUID, 2, _JewelSlotColorType02, 0 );	END IF;
+            IF	_JewelSlotColorType03 > 0	THEN INSERT INTO item_jewel_tb ( ItemUID, JewelSlot, JewelSlotColorType, JewelItemIdx )	VALUES ( _ItemUID, 3, _JewelSlotColorType03, 0 );	END IF;
+            IF	_JewelSlotColorType04 > 0	THEN INSERT INTO item_jewel_tb ( ItemUID, JewelSlot, JewelSlotColorType, JewelItemIdx )	VALUES ( _ItemUID, 4, _JewelSlotColorType04, 0 );	END IF;
+            IF	_JewelSlotColorType05 > 0	THEN INSERT INTO item_jewel_tb ( ItemUID, JewelSlot, JewelSlotColorType, JewelItemIdx )	VALUES ( _ItemUID, 5, _JewelSlotColorType05, 0 );	END IF;
+            IF	_JewelSlotColorType06 > 0	THEN INSERT INTO item_jewel_tb ( ItemUID, JewelSlot, JewelSlotColorType, JewelItemIdx )	VALUES ( _ItemUID, 6, _JewelSlotColorType06, 0 );	END IF;
+*/            
+			IF	_OptionIdx01 > 0	THEN INSERT INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, 1, _OptionIdx01, _OptionValue01 );	END IF;	-- 랜덤옵션
+			IF	_OptionIdx02 > 0	THEN INSERT INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, 2, _OptionIdx02, _OptionValue02 );	END IF;
+			IF	_OptionIdx03 > 0	THEN INSERT INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, 3, _OptionIdx03, _OptionValue03 );	END IF;
+			IF	_OptionIdx04 > 0	THEN INSERT INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, 4, _OptionIdx04, _OptionValue04 );	END IF;
+			
+			IF	_ReinforceLev > 0 OR _ReinforceExp > 0	THEN INSERT INTO item_reinforce_tb( ItemUID, ReinforceLev, ReinforceExp )	VALUES ( _ItemUID, _ReinforceLev, _ReinforceExp );	END IF;	-- 레벨, 경험치
+            IF	_SmeltingLev > 0			THEN INSERT INTO item_smelting_tb ( ItemUID, SmeltingLev )	VALUES ( _ItemUID, _SmeltingLev );	END IF;		-- 강화 레벨
+			IF	_StackIncreaseAmount > 0	THEN INSERT INTO item_stack_tb ( ItemUID, StackCnt )	VALUES ( _ItemUID, _StackIncreaseAmount );	END IF;		-- 스택 갯수
+-- 			IF	_TagBuffIdx > 0				THEN INSERT INTO item_tagbuff_tb ( ItemUID, TagBuffIdx )	VALUES ( _ItemUID, _TagBuffIdx );	END IF;			-- 스킬
+-- 			IF	_TranscendenceCnt > 0		THEN INSERT INTO item_transcendence_tb ( ItemUID, TranscendenceCnt )	VALUES ( _ItemUID, _TranscendenceCnt );	END IF;	-- 초월 횟수
+            
+            SET	_StackResultDB = _StackIncreaseAmount;
+		END IF;        
+		
+		SET	_Result = 0;
+    END;
+END

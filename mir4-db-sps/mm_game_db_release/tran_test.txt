@@ -1,0 +1,13 @@
+CREATE DEFINER=`MM_DBA`@`localhost` PROCEDURE `tran_test`()
+BEGIN	
+-- 	START TRANSACTION;
+		UPDATE character_tb set LogoutTime = now() where CharacterUID = 18;
+        select sleep(10);
+-- 		call mm_game_db_release.Hunting_Update_Game(18);
+        UPDATE character_tb set LogoutTime = now() where CharacterUID = 32;
+		UPDATE character_tb set LogoutTime = now() where CharacterUID = 39;
+        
+        
+--     COMMIT;
+--     rollback;
+END

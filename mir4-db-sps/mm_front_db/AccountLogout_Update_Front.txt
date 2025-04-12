@@ -1,0 +1,23 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `AccountLogout_Update_Front`(
+	IN	_AccountUID	BIGINT	UNSIGNED
+
+,	OUT _Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+	SET	_Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		UPDATE account_tb	SET LogoutTime = NOW()	WHERE AccountUID = _AccountUID;
+		IF ROW_COUNT() <= 0	THEN SET _Result = 101;	LEAVE MAIN_ROUTINE;	END IF;	-- Non-existent account
+    
+		SET	_Result = 0;
+	END;
+END

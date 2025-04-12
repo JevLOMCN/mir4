@@ -1,0 +1,105 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Quest_Update_DB`(
+	IN	_CharacterUID	BIGINT	UNSIGNED
+
+,	IN	_MainQuestIdx	INT		UNSIGNED
+,	IN	_MainQuestValue	TINYINT	UNSIGNED
+    
+,	IN	_SubQuestIdx01		INT		UNSIGNED
+,	IN	_SubQuestValue01	TINYINT	UNSIGNED
+,	IN	_SubQuestIdx02		INT		UNSIGNED
+,	IN	_SubQuestValue02	TINYINT	UNSIGNED
+,	IN	_SubQuestIdx03		INT		UNSIGNED
+,	IN	_SubQuestValue03	TINYINT	UNSIGNED
+,	IN	_SubQuestIdx04		INT		UNSIGNED
+,	IN	_SubQuestValue04	TINYINT	UNSIGNED
+
+,	IN	_DailyQuestUID01	TINYINT		UNSIGNED
+,	IN	_DailyQuestValue01	SMALLINT	UNSIGNED
+,	IN	_DailyQuestClear01	TINYINT		UNSIGNED
+,	IN	_DailyQuestUID02	TINYINT		UNSIGNED
+,	IN	_DailyQuestValue02	SMALLINT	UNSIGNED
+,	IN	_DailyQuestClear02	TINYINT		UNSIGNED
+,	IN	_DailyQuestUID03	TINYINT		UNSIGNED
+,	IN	_DailyQuestValue03	SMALLINT	UNSIGNED
+,	IN	_DailyQuestClear03	TINYINT		UNSIGNED
+
+,	IN	_WeeklyQuestUID01	TINYINT		UNSIGNED
+,	IN	_WeeklyQuestValue01	SMALLINT	UNSIGNED
+,	IN	_WeeklyQuestClear01	TINYINT		UNSIGNED
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+
+    SET _Result = -1;
+        
+	MAIN_ROUTINE:
+    BEGIN
+        -- 일일 퀘스트 진행상황 변경
+        IF	_DailyQuestUID01	> 0	THEN			
+			UPDATE 	quest_daily_list_tb	
+            SET 	QuestValue = _DailyQuestValue01	, QuestClear = _DailyQuestClear01				
+            WHERE 	CharacterUID = _CharacterUID AND QuestUID = _DailyQuestUID01;					
+            IF ROW_COUNT() <= 0 THEN SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;			
+		END IF;			
+        						
+        IF	_DailyQuestUID02	> 0	THEN			
+			UPDATE 	quest_daily_list_tb	
+            SET 	QuestValue = _DailyQuestValue02	, QuestClear = _DailyQuestClear02				
+            WHERE 	CharacterUID = _CharacterUID AND QuestUID = _DailyQuestUID02;					
+            IF ROW_COUNT() <= 0 THEN SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;			
+		END IF;			
+        						
+        IF	_DailyQuestUID03	> 0	THEN			
+			UPDATE 	quest_daily_list_tb	
+            SET 	QuestValue = _DailyQuestValue03	, QuestClear = _DailyQuestClear03				
+            WHERE 	CharacterUID = _CharacterUID AND QuestUID = _DailyQuestUID03;					
+            IF ROW_COUNT() <= 0 THEN SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;			
+		END IF;			
+        
+        
+        -- 퀘스트 진행상황 변경
+        IF	_MainQuestIdx	> 0	THEN			
+			UPDATE quest_main_tb	SET QuestValue = _MainQuestValue	WHERE CharacterUID = _CharacterUID AND QuestIdx = _MainQuestIdx;
+            IF ROW_COUNT() <= 0 THEN SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;			
+        END IF;	
+        
+        IF	_SubQuestIdx01	> 0	THEN			
+			UPDATE quest_sub_tb	SET QuestValue = _SubQuestValue01	WHERE CharacterUID = _CharacterUID AND QuestIdx = _SubQuestIdx01;
+            IF ROW_COUNT() <= 0 THEN SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;			
+        END IF;						
+
+        IF	_SubQuestIdx02	> 0	THEN			
+			UPDATE quest_sub_tb	SET QuestValue = _SubQuestValue02	WHERE CharacterUID = _CharacterUID AND QuestIdx = _SubQuestIdx02;
+            IF ROW_COUNT() <= 0 THEN SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;			
+        END IF;						
+        						
+        IF	_SubQuestIdx03	> 0	THEN			
+			UPDATE quest_sub_tb	SET QuestValue = _SubQuestValue03	WHERE CharacterUID = _CharacterUID AND QuestIdx = _SubQuestIdx03;
+            IF ROW_COUNT() <= 0 THEN SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;			
+        END IF;						
+        						
+        IF	_SubQuestIdx04	> 0	THEN			
+			UPDATE quest_sub_tb	SET QuestValue = _SubQuestValue04	WHERE CharacterUID = _CharacterUID AND QuestIdx = _SubQuestIdx04;
+            IF ROW_COUNT() <= 0 THEN SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;			
+        END IF;						
+
+		
+		-- 주간 퀘스트 진행상황 변경
+        IF	_WeeklyQuestUID01	> 0	THEN			
+			UPDATE 	quest_Weekly_list_tb	
+            SET 	QuestValue = _WeeklyQuestValue01	, QuestClear = _WeeklyQuestClear01				
+            WHERE 	CharacterUID = _CharacterUID AND QuestUID = _WeeklyQuestUID01;					
+            IF ROW_COUNT() <= 0 THEN SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;			
+		END IF;		
+        
+        
+		SET	_Result = 0;
+	END;
+END

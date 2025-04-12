@@ -1,0 +1,118 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `ItemOptionChange_Insert_Game`(
+	IN	_CharacterUID			BIGINT		UNSIGNED
+,	IN	_MoneyType				TINYINT		UNSIGNED
+,	IN	_MoneyDecreaseAmount	BIGINT
+,	IN	_MoneyResultServer		BIGINT		UNSIGNED
+,	IN	_MoneyUpdateTime		INT			UNSIGNED
+,	IN	_ChangeItemUID			BIGINT		UNSIGNED
+,	IN	_OptionSlot01			TINYINT		UNSIGNED
+,	IN	_OptionIdx01			SMALLINT	UNSIGNED
+,	IN	_OptionValue01			SMALLINT	UNSIGNED
+,	IN	_OptionSlot02			TINYINT		UNSIGNED
+,	IN	_OptionIdx02			SMALLINT	UNSIGNED
+,	IN	_OptionValue02			SMALLINT	UNSIGNED
+,	IN	_OptionSlot03			TINYINT		UNSIGNED
+,	IN	_OptionIdx03			SMALLINT	UNSIGNED
+,	IN	_OptionValue03			SMALLINT	UNSIGNED
+,	IN	_OptionSlot04			TINYINT		UNSIGNED
+,	IN	_OptionIdx04			SMALLINT	UNSIGNED
+,	IN	_OptionValue04			SMALLINT	UNSIGNED
+-- ,	IN	_DeleteItemUID			BIGINT		UNSIGNED
+-- ,	IN	_StackDecreaseAmount	MEDIUMINT				
+-- ,	IN	_StackResultServer		MEDIUMINT	UNSIGNED		
+
+,	IN	_PlayDataIdx01		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue01	BIGINT		
+,	IN	_PlayDataIdx02		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue02	BIGINT		
+,	IN	_PlayDataIdx03		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue03	BIGINT		
+,	IN	_PlayDataIdx04		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue04	BIGINT		
+,	IN	_PlayDataIdx05		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue05	BIGINT		
+,	IN	_PlayDataIdx06		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue06	BIGINT		
+,	IN	_PlayDataIdx07		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue07	BIGINT		
+,	IN	_PlayDataIdx08		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue08	BIGINT		
+,	IN	_PlayDataIdx09		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue09	BIGINT		
+,	IN	_PlayDataIdx10		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue10	BIGINT		
+
+,	OUT _MoneyResultDB	BIGINT
+-- ,	OUT _StackResultDB	MEDIUMINT
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_MoneyResultDB = 0, /*_StackResultDB = 0, */ _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF		_CharacterUID = 0 OR _ChangeItemUID = 0						THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        ELSEIF	_MoneyDecreaseAmount >= 0 /*OR _StackDecreaseAmount > 0	*/	THEN SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+			-- 재화 변경
+			IF	_MoneyDecreaseAmount < 0	THEN
+				CALL Money_Update_DB ( 0, _CharacterUID, _MoneyType, _MoneyDecreaseAmount, _MoneyResultServer, _MoneyUpdateTime, _MoneyResultDB, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+/*            
+			-- 아이템 삭제
+            IF	_DeleteItemUID > 0	THEN
+				CALL Item_Delete_DB ( _DeleteItemUID, _StackDecreaseAmount, _StackResultServer, _StackResultDB, _Result );	
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;
+*/            
+            -- 아이템 신규 옵션 임시 저장
+            IF	_OptionSlot01 > 0	THEN			
+				INSERT IGNORE INTO item_holdoption_tb ( CharacterUID, ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _CharacterUID, _ChangeItemUID, _OptionSlot01	, _OptionIdx01	, _OptionValue01	);
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;					
+            IF	_OptionSlot02 > 0	THEN			
+				INSERT IGNORE INTO item_holdoption_tb ( CharacterUID, ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _CharacterUID, _ChangeItemUID, _OptionSlot02	, _OptionIdx02	, _OptionValue02	);
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;					
+            IF	_OptionSlot03 > 0	THEN			
+				INSERT IGNORE INTO item_holdoption_tb ( CharacterUID, ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _CharacterUID, _ChangeItemUID, _OptionSlot03	, _OptionIdx03	, _OptionValue03	);
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;					
+            IF	_OptionSlot04 > 0	THEN			
+				INSERT IGNORE INTO item_holdoption_tb ( CharacterUID, ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _CharacterUID, _ChangeItemUID, _OptionSlot04	, _OptionIdx04	, _OptionValue04	);
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;					
+			
+            -- 플레이 데이터 변경
+            IF	_PlayDataIdx01 > 0 OR _PlayDataIdx02 > 0 OR _PlayDataIdx03 > 0 OR _PlayDataIdx04 > 0 OR _PlayDataIdx05 > 0 
+			OR	_PlayDataIdx06 > 0 OR _PlayDataIdx07 > 0 OR _PlayDataIdx08 > 0 OR _PlayDataIdx09 > 0 OR _PlayDataIdx10 > 0	THEN
+				CALL PlayData_Update_DB	( _CharacterUID
+										, _PlayDataIdx01	, _PlayDataValue01
+										, _PlayDataIdx02	, _PlayDataValue02
+										, _PlayDataIdx03	, _PlayDataValue03
+										, _PlayDataIdx04	, _PlayDataValue04
+										, _PlayDataIdx05	, _PlayDataValue05
+										, _PlayDataIdx06	, _PlayDataValue06
+										, _PlayDataIdx07	, _PlayDataValue07
+										, _PlayDataIdx08	, _PlayDataValue08
+										, _PlayDataIdx09	, _PlayDataValue09
+										, _PlayDataIdx10	, _PlayDataValue10
+										, _Result	);
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;		
+            END IF;
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

@@ -1,0 +1,28 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `TutorialClear_Insert_Game`(
+	IN	_AccountUID			BIGINT		UNSIGNED
+,	IN	_TutorialGroupIdx	SMALLINT	UNSIGNED
+    
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+ 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_AccountUID = 0 OR _TutorialGroupIdx = 0	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+		END IF;
+            
+		INSERT IGNORE INTO tutorial_clear_tb( AccountUID, TutorialGroupIdx )	VALUES( _AccountUID, _TutorialGroupIdx );
+		IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 2;	LEAVE MAIN_ROUTINE;	END IF;	-- 중복된 데이터 존재
+
+		SET	_Result = 0; 
+    END;
+END

@@ -1,0 +1,44 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `GuildCreate_Check_Insert_Game`(
+	IN	_GuildName	VARCHAR(16)
+
+,	OUT	_GuildUID	INT	UNSIGNED
+,	OUT	_Result		INT
+)
+BEGIN
+	DECLARE	_LockName	VARCHAR(100);
+    DECLARE	_LockResult	INT;
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text;
+		ROLLBACK;
+	END;
+    
+    SET	_GuildUID = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+        IF	TRIM(_GuildName) = ''	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        END IF;	
+        
+        SET	_LockName = CONCAT( 'GuildCreate_Check_Insert_', _GuildName );
+		SET _LockResult = GET_LOCK( _LockName, 10 );
+			-- 길드 생성시 확인사항				
+            IF EXISTS	
+			( 	SELECT 	1	
+				FROM 			guild_tb		AS GU	
+				LEFT OUTER JOIN	guild_delete_tb	AS GD	ON GD.GuildUID = GU.GuildUID
+				WHERE 	GU.GuildName = _GuildName AND ( GD.DeleteTime > NOW() OR GD.DeleteTime IS NULL )	)	
+			THEN ROLLBACK;	SET _Result = 204;	LEAVE MAIN_ROUTINE; -- 이미 존재하는 이름
+			END IF;
+                
+			-- 길드 기본 데이터
+ 			INSERT INTO guild_tb ( GuildName, GuildNotice, GuildPR )	VALUES ( _GuildName, '', '' );
+ 			SET	_GuildUID = LAST_INSERT_ID();
+			SET	_Result = 0;
+        
+        SET _LockResult = RELEASE_LOCK(_LockName);
+	END;
+END

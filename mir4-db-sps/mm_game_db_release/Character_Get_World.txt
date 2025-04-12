@@ -1,0 +1,53 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Character_Get_World`(
+ 	IN	_CharacterUID	BIGINT	UNSIGNED
+
+,	OUT _CharacterName		VARCHAR(50)
+,	OUT _Class				TINYINT	UNSIGNED
+,	OUT	_Lev				TINYINT	UNSIGNED
+,	OUT	_Exp				INT		UNSIGNED
+,	OUT	_StageIdx			INT		UNSIGNED 
+,	OUT	_PositionX			FLOAT	
+,	OUT	_PositionY			FLOAT	
+,	OUT	_PositionZ			FLOAT	
+,	OUT	_EscapeStageIdx		INT		UNSIGNED
+,	OUT	_EscapePositionX	FLOAT
+,	OUT	_EscapePositionY	FLOAT
+,	OUT	_EscapePositionZ	FLOAT
+,	OUT	_GuildUID			INT		UNSIGNED
+,	OUT	_Result				INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+            
+	SET	_CharacterName = ''	, _Class = 0			, _Lev = 0				, _Exp = 0				, _StageIdx = 0	, _PositionX = 0, _PositionY = 0, _PositionZ = 0
+    , 	_EscapeStageIdx = 0	, _EscapePositionX = 0	, _EscapePositionY = 0	, _EscapePositionZ = 0	, _GuildUID = 0	, _Result = -1;
+   
+	MAIN_ROUTINE:
+    BEGIN
+ 		IF	_CharacterUID = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+
+		-- 길드
+        SELECT GuildUID	INTO _GuildUID	FROM character_guild_tb	WHERE CharacterUID = _CharacterUID;
+        
+		-- 캐릭터 기본 데이터
+		SELECT	CH.CharacterName, CH.Class	, CH.Lev, CH.Exp, CH.StageIdx	, CH.PositionX	, CH.PositionY	, CH.PositionZ
+		INTO	_CharacterName	, _Class	, _Lev	, _Exp	, _StageIdx		, _PositionX	, _PositionY	, _PositionZ
+		FROM			character_tb		AS CH
+        LEFT OUTER JOIN	character_delete_tb	AS CD	ON CD.CharacterUID = CH.CharacterUID
+		WHERE	CH.CharacterUID = _CharacterUID AND ( CD.DeleteTime > NOW() OR CD.DeleteTime IS NULL );
+		IF FOUND_ROWS() <= 0 THEN ROLLBACK;	SET _Result = 201;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 캐릭터
+        
+		-- 탈출 위치
+        SELECT	EscapeStageIdx	, EscapePositionX	, EscapePositionY	, EscapePositionZ
+		INTO	_EscapeStageIdx	, _EscapePositionX	, _EscapePositionY	, _EscapePositionZ
+		FROM	escape_position_tb
+		WHERE	CharacterUID = _CharacterUID;
+        
+		SET	_Result = 0;
+    END;
+END

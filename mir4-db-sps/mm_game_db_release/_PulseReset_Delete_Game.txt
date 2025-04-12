@@ -1,0 +1,40 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `_PulseReset_Delete_Game`(
+	IN	_CharacterUID			BIGINT		UNSIGNED
+,	IN	_MoneyType				TINYINT		UNSIGNED
+,	IN	_MoneyDecreaseAmount	BIGINT
+,	IN	_PulseIdx				TINYINT		UNSIGNED
+,	IN	_ResetCount				SMALLINT	UNSIGNED
+ 
+,	OUT _MoneyResult	BIGINT
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR NOT FOUND, SQLEXCEPTION	BEGIN ROLLBACK;	SET	_Result = -1;	END;	-- 알수없는 DB 오류
+    DECLARE EXIT HANDLER FOR 1452						BEGIN ROLLBACK;	SET	_Result = 401;	END;	-- (외래키 제약조건 위반) 존재하지 않는 아이템
+    
+    SET	_MoneyResult = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _PulseIdx = 0 OR _ResetCount = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        ELSEIF	_MoneyDecreaseAmount >= 0 							THEN SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+			-- 재화 변경
+			IF	_MoneyDecreaseAmount < 0	THEN
+				CALL Money_Update_DB ( 0, _CharacterUID, _MoneyType, _MoneyDecreaseAmount, _MoneyResult, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+            
+			-- 경맥 초기화
+            DELETE FROM pulse_blood_tb	WHERE CharacterUID = _CharacterUID AND PulseIdx = _PulseIdx;
+            IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- DB에 존재하지 않는 데이터
+            
+            UPDATE pulse_tb	SET ResetCount = _ResetCount	WHERE CharacterUID = _CharacterUID AND PulseIdx = _PulseIdx;
+            IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+			
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

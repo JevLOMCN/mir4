@@ -1,0 +1,29 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `MailRead_Get_Game`(
+	IN	_MailUID	BIGINT	UNSIGNED
+    
+,	OUT _ContentsIdx	SMALLINT	UNSIGNED
+,	OUT	_ContentsText	VARCHAR(300)
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _ContentsIdx = 0, _ContentsText = '', _Result = -1;
+    
+	MAIN_ROUTINE:
+	BEGIN
+		IF _MailUID = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+		
+		UPDATE 	mail_tb	
+        SET 	MailRead = 1, ContentsIdx = @ContentsIdx := ContentsIdx, ContentsText = @ContentsText := ContentsText	
+        WHERE 	MailUID = _MailUID;
+        
+        SET	_ContentsIdx = @ContentsIdx, _ContentsText = @ContentsText;
+		SET	_Result = 0;
+    END;
+END

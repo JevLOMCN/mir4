@@ -1,0 +1,13 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `test_wait`()
+BEGIN
+	    SELECT	CharacterName	, /*Class	,*/ Lev	, Exp	, StageIdx	, PositionX	, PositionY	, PositionZ	, Wonbo	, Gold	, AwakenGrade	, AchievementPoint	, EnergyPoint	
+			, 	UNIX_TIMESTAMP(EnergyUseTime)	, InvenExtendCnt	, CostumeIdx
+        FROM	character_tb
+        WHERE	CharacterUID = 42;
+        
+        UPDATE character_tb	SET LoginTime = NOW()	WHERE CharacterUID = 42;
+        
+        select sleep(10);
+        
+        SELECT CostumeIdx, HairColorIdx, ClothesColorIdx	FROM costume_tb	WHERE CharacterUID = 42;
+END

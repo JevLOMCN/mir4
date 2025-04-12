@@ -1,0 +1,45 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `GuildList_Get_World`(
+	IN	_LastGuildUID	INT		UNSIGNED
+,	IN	_CntPerPage		TINYINT	UNSIGNED
+
+,	OUT	_Result		INT 
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _Result = -1;
+    
+	MAIN_ROUTINE:
+	BEGIN
+		IF	_CntPerPage = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+		
+        -- 요청 GuildUID 이후 문파 리스트 
+        CREATE TEMPORARY TABLE guild_tmp
+        SELECT	GU.GuildUID, GU.GuildName, GU.GuildPR
+        FROM			guild_tb		AS GU
+        LEFT OUTER JOIN	guild_delete_tb	AS GD	ON GD.GuildUID = GU.GuildUID
+        WHERE 	GU.GuildUID > CASE WHEN _LastGuildUID = 0 THEN 0 ELSE _LastGuildUID END AND ( GD.DeleteTime > NOW() OR GD.DeleteTime IS NULL )
+        ORDER BY	GU.GuildUID
+        LIMIT	_CntPerPage;
+		
+        -- 문파 리스트
+        SELECT	GU.GuildUID, GU.GuildName, GU.GuildPR, count(CG.CharacterUID) AS MemberCnt
+        FROM		guild_tmp			AS GU
+        INNER JOIN	character_guild_tb	AS CG ON CG.GuildUID = GU.GuildUID
+        GROUP BY	GU.GuildUID;
+        
+        -- 문파 문장
+        SELECT	GU.GuildUID, GM.MarkIdx, GM.MarkType
+        FROM		guild_tmp		AS GU
+        INNER JOIN	guild_mark_tb	AS GM ON GM.GuildUID = GU.GuildUID;
+        
+        DROP TEMPORARY TABLE guild_tmp;
+
+		SET	_Result = 0;
+    END;
+END

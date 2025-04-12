@@ -1,0 +1,74 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Money_Update_DB`( 
+    IN    _AccountUID            BIGINT    UNSIGNED
+,    IN    _CharacterUID        BIGINT    UNSIGNED
+,    IN    _MoneyType            TINYINT    UNSIGNED
+,    IN    _MoneyChangeAmount    BIGINT
+,    IN    _MoneyResultServer    BIGINT    UNSIGNED
+,    IN    _MoneyUpdateTime    INT        UNSIGNED
+
+,    OUT _MoneyResultDB    BIGINT
+,    OUT    _Result            INT
+)
+BEGIN
+    DECLARE EXIT HANDLER FOR SQLEXCEPTION    
+    BEGIN 
+        GET DIAGNOSTICS CONDITION 1    @Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;    
+--         SELECT @Sqlstate, @Errno, @Text; 
+    END;
+    
+    SET    _MoneyResultDB = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+        IF    _MoneyChangeAmount = 0 AND _MoneyUpdateTime = 0    THEN SET _Result = 0;    LEAVE MAIN_ROUTINE;    END IF;    -- 변경 값이 없을 경우 종료
+        
+        CASE
+        WHEN _MoneyType = 2 AND _CharacterUID > 0 AND _MoneyChangeAmount != 0    THEN    -- 골드
+            UPDATE character_tb    SET Gold = @MoneyResultDB := Gold + _MoneyChangeAmount    WHERE CharacterUID = _CharacterUID;
+            
+
+        WHEN _MoneyType = 5 AND _CharacterUID > 0 AND _MoneyChangeAmount != 0    THEN    -- 흑철
+            UPDATE character_tb    SET BlackIron = @MoneyResultDB := BlackIron + _MoneyChangeAmount    WHERE CharacterUID = _CharacterUID;
+        BEGIN
+            UPDATE blackiron_tb    SET BlackIron = @MoneyResultDB := BlackIron + _MoneyChangeAmount    WHERE CharacterUID = _CharacterUID;    
+            IF ROW_COUNT() <= 0    THEN 
+                SET    @MoneyResultDB = _MoneyChangeAmount;
+                INSERT IGNORE INTO    blackiron_tb ( CharacterUID, BlackIron, LootingCnt, LastLootingTime )    VALUES ( _CharacterUID, _MoneyChangeAmount, 0, '0000-00-00 00:00:00' );
+                IF ROW_COUNT() <= 0 THEN SET _Result = 5;    LEAVE MAIN_ROUTINE;    END IF;    -- 변경된 데이터가 없음
+            END IF;
+        END;
+        
+     WHEN _MoneyType = 20 AND _CharacterUID > 0    THEN    -- 업적 포인트
+            UPDATE character_tb    SET AchievementPoint = @MoneyResultDB := AchievementPoint + _MoneyChangeAmount    WHERE CharacterUID = _CharacterUID;    
+
+        WHEN _MoneyType = 11 AND _CharacterUID > 0 AND _MoneyChangeAmount != 0    THEN    -- 진기
+            UPDATE character_tb    SET EnergyPoint = @MoneyResultDB := EnergyPoint + _MoneyChangeAmount    WHERE CharacterUID = _CharacterUID;    
+
+        WHEN _MoneyType = 12 AND _CharacterUID > 0 AND _MoneyChangeAmount != 0    THEN    -- 흑철
+             UPDATE character_tb    SET BlackIron = @MoneyResultDB := BlackIron + _MoneyChangeAmount    WHERE CharacterUID = _CharacterUID;
+            
+     WHEN _MoneyType = 12 AND _CharacterUID > 0 AND _MoneyUpdateTime > 0    THEN    -- 행동력
+           BEGIN
+              UPDATE     character_tb    
+             SET     ActionPoint = @MoneyResultDB := _MoneyResultServer, LastActionPointUpdateTime = FROM_UNIXTIME(_MoneyUpdateTime)    
+             WHERE     CharacterUID = _CharacterUID;
+             IF ROW_COUNT() <= 0 THEN SET _Result = 5;    LEAVE MAIN_ROUTINE;    END IF;    -- 변경된 데이터가 없음
+         END;
+        
+        WHEN _MoneyType = 20 AND _CharacterUID > 0    THEN    -- 업적 포인트
+         UPDATE character_tb    SET AncientCoin = @MoneyResultDB := AncientCoin + _MoneyChangeAmount    WHERE CharacterUID = _CharacterUID;    
+            
+        ELSE SET _Result = 3;    LEAVE MAIN_ROUTINE;    -- 처리에 필요한 값을 전달받지 못함
+        END CASE;
+        IF ROW_COUNT() <= 0    THEN SET _Result = 1;    LEAVE MAIN_ROUTINE;    END IF;    -- DB에 존재하지 않는 데이터
+
+            
+
+        SET    _MoneyResultDB = @MoneyResultDB;
+        IF _MoneyResultDB < 0                    THEN SET _Result = 302;    LEAVE MAIN_ROUTINE;    END IF;    -- 재화 부족
+        IF _MoneyResultDB <> _MoneyResultServer    THEN SET _Result = 8;    LEAVE MAIN_ROUTINE;    END IF;    -- 서버와 DB의 값이 다름
+ 
+        SET    _Result = 0;
+    END;
+END

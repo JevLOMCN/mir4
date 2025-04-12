@@ -1,0 +1,123 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `HolyStuffExp_Update_Game`(
+	IN	_CharacterUID	BIGINT		UNSIGNED
+,	IN	_HolyStuffIdx	SMALLINT	UNSIGNED
+,	IN	_HolyStuffLev	TINYINT		UNSIGNED
+,	IN	_HolyStuffExp	INT			UNSIGNED
+
+,	IN	_DeleteItemUID01		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount01	MEDIUMINT			
+,	IN	_StackResultServer01	MEDIUMINT	UNSIGNED		
+,	IN	_DeleteItemUID02		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount02	MEDIUMINT			
+,	IN	_StackResultServer02	MEDIUMINT	UNSIGNED		
+,	IN	_DeleteItemUID03		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount03	MEDIUMINT			
+,	IN	_StackResultServer03	MEDIUMINT	UNSIGNED		
+,	IN	_DeleteItemUID04		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount04	MEDIUMINT			
+,	IN	_StackResultServer04	MEDIUMINT	UNSIGNED		
+,	IN	_DeleteItemUID05		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount05	MEDIUMINT			
+,	IN	_StackResultServer05	MEDIUMINT	UNSIGNED		
+,	IN	_DeleteItemUID06		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount06	MEDIUMINT			
+,	IN	_StackResultServer06	MEDIUMINT	UNSIGNED		
+,	IN	_DeleteItemUID07		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount07	MEDIUMINT			
+,	IN	_StackResultServer07	MEDIUMINT	UNSIGNED		
+,	IN	_DeleteItemUID08		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount08	MEDIUMINT			
+,	IN	_StackResultServer08	MEDIUMINT	UNSIGNED		
+,	IN	_DeleteItemUID09		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount09	MEDIUMINT			
+,	IN	_StackResultServer09	MEDIUMINT	UNSIGNED		
+,	IN	_DeleteItemUID10		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount10	MEDIUMINT			
+,	IN	_StackResultServer10	MEDIUMINT	UNSIGNED		
+
+,	OUT	_StackResultDB01	MEDIUMINT
+,	OUT	_StackResultDB02	MEDIUMINT
+,	OUT	_StackResultDB03	MEDIUMINT
+,	OUT	_StackResultDB04	MEDIUMINT
+,	OUT	_StackResultDB05	MEDIUMINT
+,	OUT	_StackResultDB06	MEDIUMINT
+,	OUT	_StackResultDB07	MEDIUMINT
+,	OUT	_StackResultDB08	MEDIUMINT
+,	OUT	_StackResultDB09	MEDIUMINT
+,	OUT	_StackResultDB10	MEDIUMINT
+,	OUT	_Result				INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_StackResultDB01 = 0, _StackResultDB02 = 0, _StackResultDB03 = 0, _StackResultDB04 = 0, _StackResultDB05 = 0, 
+        _StackResultDB06 = 0, _StackResultDB07 = 0, _StackResultDB08 = 0, _StackResultDB09 = 0, _StackResultDB10 = 0,  
+        _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _HolyStuffIdx = 0 OR _HolyStuffLev = 0	OR _DeleteItemUID01 = 0	THEN
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        ELSEIF	_StackDecreaseAmount01 > 0 OR _StackDecreaseAmount02 > 0 OR _StackDecreaseAmount03 > 0 OR _StackDecreaseAmount04 > 0 OR _StackDecreaseAmount05 > 0
+			OR	_StackDecreaseAmount06 > 0 OR _StackDecreaseAmount07 > 0 OR _StackDecreaseAmount08 > 0 OR _StackDecreaseAmount09 > 0 OR _StackDecreaseAmount10 > 0	THEN 
+			SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+            -- 성물 레벨, 경험치 변경
+            UPDATE holystuff_tb	SET HolyStuffLev = _HolyStuffLev, HolyStuffExp = _HolyStuffExp	WHERE CharacterUID = _CharacterUID AND HolyStuffIdx = _HolyStuffIdx;
+            IF ROW_COUNT() <= 0	THEN 
+				INSERT IGNORE INTO holystuff_tb ( CharacterUID, HolyStuffIdx, HolyStuffLev, HolyStuffExp )	VALUES ( _CharacterUID, _HolyStuffIdx, _HolyStuffLev, _HolyStuffExp );
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+            END IF;
+            
+            -- 아이템 삭제
+				CALL Item_Delete_DB ( _DeleteItemUID01	, _StackDecreaseAmount01	, _StackResultServer01	, _StackResultDB01	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+            IF	_DeleteItemUID02	> 0	THEN					
+				CALL Item_Delete_DB ( _DeleteItemUID02	, _StackDecreaseAmount02	, _StackResultServer02	, _StackResultDB02	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_DeleteItemUID03	> 0	THEN					
+				CALL Item_Delete_DB ( _DeleteItemUID03	, _StackDecreaseAmount03	, _StackResultServer03	, _StackResultDB03	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_DeleteItemUID04	> 0	THEN					
+				CALL Item_Delete_DB ( _DeleteItemUID04	, _StackDecreaseAmount04	, _StackResultServer04	, _StackResultDB04	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_DeleteItemUID05	> 0	THEN					
+				CALL Item_Delete_DB ( _DeleteItemUID05	, _StackDecreaseAmount05	, _StackResultServer05	, _StackResultDB05	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_DeleteItemUID06	> 0	THEN					
+				CALL Item_Delete_DB ( _DeleteItemUID06	, _StackDecreaseAmount06	, _StackResultServer06	, _StackResultDB06	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_DeleteItemUID07	> 0	THEN					
+				CALL Item_Delete_DB ( _DeleteItemUID07	, _StackDecreaseAmount07	, _StackResultServer07	, _StackResultDB07	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_DeleteItemUID08	> 0	THEN					
+				CALL Item_Delete_DB ( _DeleteItemUID08	, _StackDecreaseAmount08	, _StackResultServer08	, _StackResultDB08	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_DeleteItemUID09	> 0	THEN					
+				CALL Item_Delete_DB ( _DeleteItemUID09	, _StackDecreaseAmount09	, _StackResultServer09	, _StackResultDB09	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF	_DeleteItemUID10	> 0	THEN					
+				CALL Item_Delete_DB ( _DeleteItemUID10	, _StackDecreaseAmount10	, _StackResultServer10	, _StackResultDB10	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

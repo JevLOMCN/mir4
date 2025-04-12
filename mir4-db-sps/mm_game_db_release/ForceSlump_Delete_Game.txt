@@ -1,0 +1,40 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `ForceSlump_Delete_Game`(
+	IN	_CharacterUID			BIGINT		UNSIGNED
+,	IN	_DeleteItemUID01		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount01	MEDIUMINT			
+,	IN	_StackResultServer01	MEDIUMINT	UNSIGNED		
+,	IN	_ForceIdx				SMALLINT	UNSIGNED
+
+,	OUT	_StackResultDB01	MEDIUMINT
+,	OUT	_Result				INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_StackResultDB01 = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+        IF	_CharacterUID = 0 OR _DeleteItemUID01 = 0 OR _ForceIdx = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        ELSEIF	_StackDecreaseAmount01 >= 0								THEN SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+			-- 주화입마 삭제
+			UPDATE force_tb	SET SlumpExpireTime = '0000-00-00 00:00:00'	WHERE CharacterUID = _CharacterUID AND ForceIdx = _ForceIdx;
+			IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+            
+            -- 아이템 삭제
+            CALL Item_Delete_DB ( _DeleteItemUID01	, _StackDecreaseAmount01	, _StackResultServer01	, _StackResultDB01	, _Result );
+            IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;					
+			            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

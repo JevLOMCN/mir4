@@ -1,0 +1,28 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `GuildMember_Insert_World`(
+	IN	_CharacterUID	BIGINT	UNSIGNED
+,	IN	_GuildUID		INT		UNSIGNED
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text;
+	END;
+    
+    SET	_Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+        IF	_CharacterUID = 0 OR _GuildUID = 0	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        END IF;	
+
+		INSERT IGNORE INTO character_guild_tb ( CharacterUID, GuildUID, MemberGrade )	VALUES ( _CharacterUID, _GuildUID, 1 );
+		IF ROW_COUNT() <= 0	THEN SET _Result = 2;	LEAVE MAIN_ROUTINE;	END IF;	-- 중복된 데이터 존재
+            
+		SET	_Result = 0;
+	END;
+END

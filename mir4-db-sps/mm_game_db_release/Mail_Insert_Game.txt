@@ -1,0 +1,73 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Mail_Insert_Game`(
+	IN	_ReceiveCharacterUID	BIGINT		UNSIGNED
+,	IN	_SenderIdx				SMALLINT	UNSIGNED
+,	IN	_TitleIdx				SMALLINT	UNSIGNED
+,	IN	_ContentsIdx			SMALLINT	UNSIGNED
+,	IN	_ExpiryTime				INT			UNSIGNED
+,	IN	_TitleText				VARCHAR(36)
+,	IN	_ContentsText			VARCHAR(300)
+
+,	IN	_ItemIdx01		INT			UNSIGNED
+,	IN	_StackCnt01		MEDIUMINT	UNSIGNED
+,	IN	_ItemIdx02		INT			UNSIGNED
+,	IN	_StackCnt02		MEDIUMINT	UNSIGNED
+,	IN	_ItemIdx03		INT			UNSIGNED
+,	IN	_StackCnt03		MEDIUMINT	UNSIGNED
+,	IN	_ItemIdx04		INT			UNSIGNED
+,	IN	_StackCnt04		MEDIUMINT	UNSIGNED
+,	IN	_ItemIdx05		INT			UNSIGNED
+,	IN	_StackCnt05		MEDIUMINT	UNSIGNED
+
+,	IN	_ItemUID01	BIGINT	UNSIGNED
+,	IN	_ItemUID02	BIGINT	UNSIGNED
+,	IN	_ItemUID03	BIGINT	UNSIGNED
+,	IN	_ItemUID04	BIGINT	UNSIGNED
+,	IN	_ItemUID05	BIGINT	UNSIGNED
+
+,	IN	_MoneyType01	TINYINT	UNSIGNED
+,	IN	_Money01		BIGINT	UNSIGNED
+,	IN	_MoneyType02	TINYINT	UNSIGNED
+,	IN	_Money02		BIGINT	UNSIGNED
+,	IN	_MoneyType03	TINYINT	UNSIGNED
+,	IN	_Money03		BIGINT	UNSIGNED
+,	IN	_MoneyType04	TINYINT	UNSIGNED
+,	IN	_Money04		BIGINT	UNSIGNED
+,	IN	_MoneyType05	TINYINT	UNSIGNED
+,	IN	_Money05		BIGINT	UNSIGNED
+
+,	OUT	_Result		INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _Result = -1;
+    
+	MAIN_ROUTINE:
+	BEGIN
+		IF _ReceiveCharacterUID = 0 OR _SenderIdx = 0 OR _ExpiryTime = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+		
+        START TRANSACTION;
+			CALL Mail_Insert_DB ( _ReceiveCharacterUID	, _SenderIdx, _TitleIdx	, _ContentsIdx	, _ExpiryTime	, _TitleText, _ContentsText
+								, _ItemIdx01, _StackCnt01
+                                , _ItemIdx02, _StackCnt02
+                                , _ItemIdx03, _StackCnt03
+                                , _ItemIdx04, _StackCnt04
+                                , _ItemIdx05, _StackCnt05
+								, _ItemUID01, _ItemUID02, _ItemUID03, _ItemUID04, _ItemUID05
+								, _MoneyType01	, _Money01	
+                                , _MoneyType02	, _Money02
+                                , _MoneyType03	, _Money03
+                                , _MoneyType04	, _Money04
+                                , _MoneyType05	, _Money05
+                                , _Result	);
+			IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

@@ -1,0 +1,85 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `CostumeColor_Update_Game`(
+	IN	_CharacterUID			BIGINT		UNSIGNED
+,	IN	_MoneyType				TINYINT		UNSIGNED
+,	IN	_MoneyDecreaseAmount	BIGINT
+,	IN	_MoneyResultServer		BIGINT		UNSIGNED
+,	IN	_MoneyUpdateTime		INT			UNSIGNED
+,	IN	_CostumeIdx				INT			UNSIGNED
+,	IN	_HairColorIdx			MEDIUMINT	UNSIGNED
+,	IN	_ClothesColorIdx		MEDIUMINT	UNSIGNED
+
+,	IN	_PlayDataIdx01		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue01	BIGINT		
+,	IN	_PlayDataIdx02		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue02	BIGINT		
+,	IN	_PlayDataIdx03		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue03	BIGINT		
+,	IN	_PlayDataIdx04		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue04	BIGINT		
+,	IN	_PlayDataIdx05		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue05	BIGINT		
+,	IN	_PlayDataIdx06		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue06	BIGINT		
+,	IN	_PlayDataIdx07		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue07	BIGINT		
+,	IN	_PlayDataIdx08		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue08	BIGINT		
+,	IN	_PlayDataIdx09		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue09	BIGINT		
+,	IN	_PlayDataIdx10		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue10	BIGINT		
+
+,	OUT _MoneyResultDB	BIGINT
+,	OUT _Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text;
+		ROLLBACK;
+	END;
+        
+    SET _MoneyResultDB = 0, _Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_CostumeIdx = 0					THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값이 없음
+        ELSEIF	_MoneyDecreaseAmount > 0	THEN SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 Amount
+        END IF;	
+        
+		START TRANSACTION;
+            -- 재화 차감
+			IF	_MoneyDecreaseAmount < 0	THEN	
+				CALL Money_Update_DB( 0, _CharacterUID, _MoneyType, _MoneyDecreaseAmount, _MoneyResultServer, _MoneyUpdateTime, _MoneyResultDB, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;
+
+            -- 코스튬 색상 변경
+            UPDATE 	costume_tb	
+            SET 	HairColorIdx = _HairColorIdx, ClothesColorIdx = _ClothesColorIdx	
+            WHERE 	CharacterUID = _CharacterUID AND CostumeIdx = _CostumeIdx;
+            
+            -- 플레이 데이터 변경
+            IF	_PlayDataIdx01 > 0 OR _PlayDataIdx02 > 0 OR _PlayDataIdx03 > 0 OR _PlayDataIdx04 > 0 OR _PlayDataIdx05 > 0 
+			OR	_PlayDataIdx06 > 0 OR _PlayDataIdx07 > 0 OR _PlayDataIdx08 > 0 OR _PlayDataIdx09 > 0 OR _PlayDataIdx10 > 0	THEN
+				CALL PlayData_Update_DB	( _CharacterUID
+										, _PlayDataIdx01	, _PlayDataValue01
+										, _PlayDataIdx02	, _PlayDataValue02
+										, _PlayDataIdx03	, _PlayDataValue03
+										, _PlayDataIdx04	, _PlayDataValue04
+										, _PlayDataIdx05	, _PlayDataValue05
+										, _PlayDataIdx06	, _PlayDataValue06
+										, _PlayDataIdx07	, _PlayDataValue07
+										, _PlayDataIdx08	, _PlayDataValue08
+										, _PlayDataIdx09	, _PlayDataValue09
+										, _PlayDataIdx10	, _PlayDataValue10
+										, _Result	);
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;		
+            END IF;
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

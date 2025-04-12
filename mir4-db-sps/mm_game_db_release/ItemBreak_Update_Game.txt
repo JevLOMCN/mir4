@@ -1,0 +1,191 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `ItemBreak_Update_Game`(
+	IN	_CharacterUID		BIGINT	UNSIGNED
+
+,	IN	_BreakItemUID01		BIGINT	UNSIGNED
+,	IN	_BreakItemUID02		BIGINT	UNSIGNED
+,	IN	_BreakItemUID03		BIGINT	UNSIGNED
+,	IN	_BreakItemUID04		BIGINT	UNSIGNED
+,	IN	_BreakItemUID05		BIGINT	UNSIGNED
+,	IN	_BreakItemUID06		BIGINT	UNSIGNED
+,	IN	_BreakItemUID07		BIGINT	UNSIGNED
+,	IN	_BreakItemUID08		BIGINT	UNSIGNED
+,	IN	_BreakItemUID09		BIGINT	UNSIGNED
+,	IN	_BreakItemUID10		BIGINT	UNSIGNED
+
+,	IN	_CreateItemUID01		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx01		INT			UNSIGNED
+,	IN	_StackIncreaseAmount01	MEDIUMINT				
+,	IN	_StackResultServer01	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID02		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx02		INT			UNSIGNED
+,	IN	_StackIncreaseAmount02	MEDIUMINT				
+,	IN	_StackResultServer02	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID03		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx03		INT			UNSIGNED
+,	IN	_StackIncreaseAmount03	MEDIUMINT				
+,	IN	_StackResultServer03	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID04		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx04		INT			UNSIGNED
+,	IN	_StackIncreaseAmount04	MEDIUMINT				
+,	IN	_StackResultServer04	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID05		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx05		INT			UNSIGNED
+,	IN	_StackIncreaseAmount05	MEDIUMINT				
+,	IN	_StackResultServer05	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID06		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx06		INT			UNSIGNED
+,	IN	_StackIncreaseAmount06	MEDIUMINT				
+,	IN	_StackResultServer06	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID07		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx07		INT			UNSIGNED
+,	IN	_StackIncreaseAmount07	MEDIUMINT				
+,	IN	_StackResultServer07	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID08		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx08		INT			UNSIGNED
+,	IN	_StackIncreaseAmount08	MEDIUMINT				
+,	IN	_StackResultServer08	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID09		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx09		INT			UNSIGNED
+,	IN	_StackIncreaseAmount09	MEDIUMINT				
+,	IN	_StackResultServer09	MEDIUMINT	UNSIGNED			
+,	IN	_CreateItemUID10		BIGINT		UNSIGNED	
+,	IN	_CreateItemIdx10		INT			UNSIGNED
+,	IN	_StackIncreaseAmount10	MEDIUMINT				
+,	IN	_StackResultServer10	MEDIUMINT	UNSIGNED			
+
+,	IN	_PlayDataIdx01		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue01	BIGINT		
+,	IN	_PlayDataIdx02		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue02	BIGINT		
+,	IN	_PlayDataIdx03		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue03	BIGINT		
+,	IN	_PlayDataIdx04		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue04	BIGINT		
+,	IN	_PlayDataIdx05		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue05	BIGINT		
+,	IN	_PlayDataIdx06		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue06	BIGINT		
+,	IN	_PlayDataIdx07		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue07	BIGINT		
+,	IN	_PlayDataIdx08		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue08	BIGINT		
+,	IN	_PlayDataIdx09		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue09	BIGINT		
+,	IN	_PlayDataIdx10		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue10	BIGINT		
+
+,	OUT	_StackResultDB01	MEDIUMINT
+,	OUT	_StackResultDB02	MEDIUMINT
+,	OUT	_StackResultDB03	MEDIUMINT
+,	OUT	_StackResultDB04	MEDIUMINT
+,	OUT	_StackResultDB05	MEDIUMINT
+,	OUT	_StackResultDB06	MEDIUMINT
+,	OUT	_StackResultDB07	MEDIUMINT
+,	OUT	_StackResultDB08	MEDIUMINT
+,	OUT	_StackResultDB09	MEDIUMINT
+,	OUT	_StackResultDB10	MEDIUMINT
+,	OUT _Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+	SET _StackResultDB01 = 0, _StackResultDB02 = 0, _StackResultDB03 = 0, _StackResultDB04 = 0, _StackResultDB05 = 0, 
+        _StackResultDB06 = 0, _StackResultDB07 = 0, _StackResultDB08 = 0, _StackResultDB09 = 0, _StackResultDB10 = 0, 
+        _Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF( _BreakItemUID01 = 0 AND _BreakItemUID02 = 0 AND _BreakItemUID03 = 0 AND _BreakItemUID04 = 0 AND _BreakItemUID05 = 0 
+        AND _BreakItemUID06 = 0 AND _BreakItemUID07 = 0 AND _BreakItemUID08 = 0 AND _BreakItemUID09 = 0 AND _BreakItemUID10 = 0 )
+        OR(	_CreateItemUID01 = 0 AND _CreateItemUID02 = 0 AND _CreateItemUID03 = 0 AND _CreateItemUID04 = 0 AND _CreateItemUID05 = 0 
+        AND _CreateItemUID06 = 0 AND _CreateItemUID07 = 0 AND _CreateItemUID08 = 0 AND _CreateItemUID09 = 0 AND _CreateItemUID10 = 0 )	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        
+		ELSEIF	_StackIncreaseAmount01 < 0 OR _StackIncreaseAmount02 < 0 OR _StackIncreaseAmount03 < 0 OR _StackIncreaseAmount04 < 0 OR _StackIncreaseAmount05 < 0
+			OR	_StackIncreaseAmount06 < 0 OR _StackIncreaseAmount07 < 0 OR	_StackIncreaseAmount08 < 0 OR _StackIncreaseAmount09 < 0 OR	_StackIncreaseAmount10 < 0	THEN 
+			SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 Amount
+		END IF;	
+        
+		START TRANSACTION;
+            -- 아이템 삭제
+            IF _BreakItemUID01	> 0	THEN CALL Item_Delete_DB ( _BreakItemUID01	, 0, 0, @StackResultDB, _Result );	IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	END IF;
+            IF _BreakItemUID02	> 0 THEN CALL Item_Delete_DB ( _BreakItemUID02	, 0, 0, @StackResultDB, _Result );	IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	END IF;
+            IF _BreakItemUID03	> 0 THEN CALL Item_Delete_DB ( _BreakItemUID03	, 0, 0, @StackResultDB, _Result );	IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	END IF;
+            IF _BreakItemUID04	> 0 THEN CALL Item_Delete_DB ( _BreakItemUID04	, 0, 0, @StackResultDB, _Result );	IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	END IF;
+            IF _BreakItemUID05	> 0 THEN CALL Item_Delete_DB ( _BreakItemUID05	, 0, 0, @StackResultDB, _Result );	IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	END IF;
+            IF _BreakItemUID06	> 0 THEN CALL Item_Delete_DB ( _BreakItemUID06	, 0, 0, @StackResultDB, _Result );	IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	END IF;
+            IF _BreakItemUID07	> 0 THEN CALL Item_Delete_DB ( _BreakItemUID07	, 0, 0, @StackResultDB, _Result );	IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	END IF;
+            IF _BreakItemUID08	> 0 THEN CALL Item_Delete_DB ( _BreakItemUID08	, 0, 0, @StackResultDB, _Result );	IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	END IF;
+            IF _BreakItemUID09	> 0 THEN CALL Item_Delete_DB ( _BreakItemUID09	, 0, 0, @StackResultDB, _Result );	IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	END IF;
+            IF _BreakItemUID10	> 0 THEN CALL Item_Delete_DB ( _BreakItemUID10	, 0, 0, @StackResultDB, _Result );	IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	END IF;
+
+            -- 아이템 스택 변경
+            IF	_CreateItemUID01	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID01	, _CreateItemIdx01	, _StackIncreaseAmount01	, _StackResultServer01	, _StackResultDB01	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;									
+            IF	_CreateItemUID02	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID02	, _CreateItemIdx02	, _StackIncreaseAmount02	, _StackResultServer02	, _StackResultDB02	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;									
+            IF	_CreateItemUID03	> 0 THEN
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID03	, _CreateItemIdx03	, _StackIncreaseAmount03	, _StackResultServer03	, _StackResultDB03	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;									
+            IF	_CreateItemUID04	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID04	, _CreateItemIdx04	, _StackIncreaseAmount04	, _StackResultServer04	, _StackResultDB04	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;									
+            IF	_CreateItemUID05	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID05	, _CreateItemIdx05	, _StackIncreaseAmount05	, _StackResultServer05	, _StackResultDB05	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;									
+            IF	_CreateItemUID06	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID06	, _CreateItemIdx06	, _StackIncreaseAmount06	, _StackResultServer06	, _StackResultDB06	, _Result );	
+				IF	_Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;									
+            IF	_CreateItemUID07	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID07	, _CreateItemIdx07	, _StackIncreaseAmount07	, _StackResultServer07	, _StackResultDB07	, _Result );	
+				IF	_Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;									
+            IF	_CreateItemUID08	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID08	, _CreateItemIdx08	, _StackIncreaseAmount08	, _StackResultServer08	, _StackResultDB08	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;									
+            IF	_CreateItemUID09	> 0 THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID09	, _CreateItemIdx09	, _StackIncreaseAmount09	, _StackResultServer09	, _StackResultDB09	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;									
+            IF	_CreateItemUID10	> 0	THEN							
+				CALL ItemStack_Update_DB ( _CharacterUID, _CreateItemUID10	, _CreateItemIdx10	, _StackIncreaseAmount10	, _StackResultServer10	, _StackResultDB10	, _Result );	
+				IF	_Result != 0 	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;									
+            
+            -- 플레이 데이터 변경
+            IF	_PlayDataIdx01 > 0 OR _PlayDataIdx02 > 0 OR _PlayDataIdx03 > 0 OR _PlayDataIdx04 > 0 OR _PlayDataIdx05 > 0 
+			OR	_PlayDataIdx06 > 0 OR _PlayDataIdx07 > 0 OR _PlayDataIdx08 > 0 OR _PlayDataIdx09 > 0 OR _PlayDataIdx10 > 0	THEN
+				CALL PlayData_Update_DB	( _CharacterUID
+										, _PlayDataIdx01	, _PlayDataValue01
+										, _PlayDataIdx02	, _PlayDataValue02
+										, _PlayDataIdx03	, _PlayDataValue03
+										, _PlayDataIdx04	, _PlayDataValue04
+										, _PlayDataIdx05	, _PlayDataValue05
+										, _PlayDataIdx06	, _PlayDataValue06
+										, _PlayDataIdx07	, _PlayDataValue07
+										, _PlayDataIdx08	, _PlayDataValue08
+										, _PlayDataIdx09	, _PlayDataValue09
+										, _PlayDataIdx10	, _PlayDataValue10
+										, _Result	);
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;		
+            END IF;
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

@@ -1,0 +1,47 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Item_Insert_Game`( 
+	IN	_CharacterUID			BIGINT		UNSIGNED
+,	IN	_ItemUID				BIGINT		UNSIGNED
+,	IN	_ItemIdx				INT			UNSIGNED
+,	IN	_ReinforceLev			TINYINT		UNSIGNED
+,	IN	_ReinforceExp			INT			UNSIGNED
+,	IN	_SmeltingLev			TINYINT		UNSIGNED
+,	IN	_StackIncreaseAmount	MEDIUMINT	UNSIGNED
+,	IN	_StackResultServer		MEDIUMINT	UNSIGNED
+
+,	IN	_OptionIdx01			SMALLINT	UNSIGNED
+,	IN	_OptionValue01			SMALLINT	UNSIGNED
+,	IN	_OptionIdx02			SMALLINT	UNSIGNED
+,	IN	_OptionValue02			SMALLINT	UNSIGNED
+,	IN	_OptionIdx03			SMALLINT	UNSIGNED
+,	IN	_OptionValue03			SMALLINT	UNSIGNED
+,	IN	_OptionIdx04			SMALLINT	UNSIGNED
+,	IN	_OptionValue04			SMALLINT	UNSIGNED
+
+,	OUT _StackResultDB	MEDIUMINT
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text;
+		ROLLBACK;
+	END;
+    
+    SET _StackResultDB = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		START TRANSACTION;
+        	-- 아이템 생성
+			CALL Item_Insert_DB 
+				( _CharacterUID		, _ItemUID			, _ItemIdx		, _ReinforceLev		, _ReinforceExp	, _SmeltingLev		, _StackIncreaseAmount	, _StackResultServer
+                , _OptionIdx01		, _OptionValue01	, _OptionIdx02	, _OptionValue02	, _OptionIdx03	, _OptionValue03	, _OptionIdx04			, _OptionValue04	
+                , _StackResultDB	, _Result 			);
+			IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

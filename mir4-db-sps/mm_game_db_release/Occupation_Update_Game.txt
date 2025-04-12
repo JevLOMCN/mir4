@@ -1,0 +1,33 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Occupation_Update_Game`(
+	IN	_OccupationIdx	SMALLINT	UNSIGNED
+,	IN	_GuildUID		BIGINT		UNSIGNED
+,	IN	_ExpiryTime		INT			UNSIGNED
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET _Result = -1;
+        
+	MAIN_ROUTINE:
+	BEGIN
+		IF _OccupationIdx = 0 OR _GuildUID = 0 /*OR _ExpiryTime = 0*/	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+        
+        START TRANSACTION;
+            UPDATE occupation_tb	SET GuildUID = _GuildUID/*, ExpiryTime = FROM_UNIXTIME(_ExpiryTime)*/	WHERE OccupationIdx = _OccupationIdx;
+            IF ROW_COUNT() <= 0	THEN 
+				INSERT IGNORE INTO occupation_tb ( OccupationIdx, GuildUID, ExpiryTime )	VALUE ( _OccupationIdx, _GuildUID, DEFAULT/*FROM_UNIXTIME(_ExpiryTime)*/ );
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+            END IF;
+            
+			SET	_Result = 0;
+		COMMIT;
+	END;
+END

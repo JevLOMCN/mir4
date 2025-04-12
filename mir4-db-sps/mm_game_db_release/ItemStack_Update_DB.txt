@@ -1,0 +1,47 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `ItemStack_Update_DB`(
+	IN	_CharacterUID		BIGINT	UNSIGNED
+,	IN	_ItemUID			BIGINT	UNSIGNED
+,	IN	_ItemIdx			INT		UNSIGNED
+,	IN	_StackChangeAmount	MEDIUMINT
+,	IN	_StackResultServer	MEDIUMINT	UNSIGNED
+
+,	OUT _StackResultDB	MEDIUMINT
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET	_StackResultDB = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+	BEGIN
+		IF	_ItemUID = 0 OR _StackChangeAmount = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값이 없음
+        
+		-- 아이템 StackCnt 변경
+		UPDATE item_stack_tb	SET StackCnt = @StackResultDB := StackCnt + _StackChangeAmount	WHERE ItemUID = _ItemUID;
+        IF	ROW_COUNT() <= 0	THEN	
+			IF	_StackChangeAmount > 0	THEN	-- 데이터가 없고 수량 증가일 경우 신규 아이템 생성
+				CALL Item_Insert_DB ( _CharacterUID, _ItemUID, _ItemIdx, 0, 0, 0,  _StackChangeAmount, _StackResultServer, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, _StackResultDB, _Result );
+				IF _Result != 0	THEN LEAVE MAIN_ROUTINE;	END IF;
+			ELSE
+				SET _Result = 405;	LEAVE MAIN_ROUTINE;	-- 존재하지 않는 아이템
+            END IF;
+        ELSE
+			SET	_StackResultDB = @StackResultDB;        
+			IF	_StackResultDB = 0	THEN	-- StackCnt 가 0이 되었을 경우 아이템 삭제
+				CALL Item_Delete_DB ( _ItemUID, 0, 0, _StackResultDB, _Result );
+				IF _Result != 0	THEN LEAVE MAIN_ROUTINE;	END IF;
+				
+			ELSEIF	_StackResultDB < 0						THEN SET _Result = 403;	LEAVE MAIN_ROUTINE;	-- 아이템 스택 갯수 부족
+            ELSEIF	_StackResultDB <> _StackResultServer	THEN SET _Result = 8;	LEAVE MAIN_ROUTINE;	-- 서버와 DB의 값이 다름
+			END IF;
+		END IF;
+
+		SET	_Result = 0;
+    END;
+END

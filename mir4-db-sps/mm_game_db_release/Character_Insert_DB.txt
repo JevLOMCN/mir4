@@ -1,0 +1,193 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Character_Insert_DB`(
+	IN	_AccountUID			BIGINT		UNSIGNED 
+,	IN	_Class				TINYINT		UNSIGNED
+,	IN	_CharacterName		VARCHAR(50)
+,	IN	_CurrentHP			INT			UNSIGNED
+,	IN	_CurrentMP			INT			UNSIGNED
+,	IN	_StageIdx			INT			UNSIGNED
+,	IN	_PositionX			FLOAT
+,	IN	_PositionY			FLOAT
+,	IN	_PositionZ			FLOAT
+,	IN	_CombatPoint		INT			UNSIGNED 
+,	IN	_MainQuestIdx		INT			UNSIGNED 
+,	IN	_CostumeIdx			INT			UNSIGNED
+,	IN	_CostumeGrade		TINYINT		UNSIGNED
+,	IN	_HairColorIdx		MEDIUMINT	UNSIGNED	
+,	IN	_ClothesColorIdx	MEDIUMINT	UNSIGNED	
+
+,	IN	_ActiveIdx01	MEDIUMINT	UNSIGNED
+,	IN	_ActiveIdx02	MEDIUMINT	UNSIGNED
+,	IN	_ActiveIdx03	MEDIUMINT	UNSIGNED
+,	IN	_ActiveIdx04	MEDIUMINT	UNSIGNED
+,	IN	_ActiveIdx05	MEDIUMINT	UNSIGNED
+,	IN	_ActiveIdx06	MEDIUMINT	UNSIGNED
+,	IN	_ActiveIdx07	MEDIUMINT	UNSIGNED
+
+,	IN	_ItemEquipSlot01		TINYINT		UNSIGNED		
+,	IN	_CreateItemUID01		BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx01		INT			UNSIGNED	
+,	IN	_ReinforceLev01			TINYINT		UNSIGNED	
+,	IN	_ReinforceExp01			INT			UNSIGNED
+,	IN	_SmeltingLev01			TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount01	MEDIUMINT					
+,	IN	_StackResultServer01	MEDIUMINT	UNSIGNED				
+,	IN	_OptionIdx01A			SMALLINT	UNSIGNED		
+,	IN	_OptionValue01A			SMALLINT	UNSIGNED		
+,	IN	_OptionIdx01B			SMALLINT	UNSIGNED		
+,	IN	_OptionValue01B			SMALLINT	UNSIGNED		
+,	IN	_OptionIdx01C			SMALLINT	UNSIGNED		
+,	IN	_OptionValue01C			SMALLINT	UNSIGNED		
+,	IN	_OptionIdx01D			SMALLINT	UNSIGNED		
+,	IN	_OptionValue01D			SMALLINT	UNSIGNED		
+,	IN	_ItemEquipSlot02		TINYINT		UNSIGNED		
+,	IN	_CreateItemUID02		BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx02		INT			UNSIGNED	
+,	IN	_ReinforceLev02			TINYINT		UNSIGNED	
+,	IN	_ReinforceExp02			INT			UNSIGNED
+,	IN	_SmeltingLev02			TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount02	MEDIUMINT					
+,	IN	_StackResultServer02	MEDIUMINT	UNSIGNED				
+,	IN	_OptionIdx02A			SMALLINT	UNSIGNED		
+,	IN	_OptionValue02A			SMALLINT	UNSIGNED		
+,	IN	_OptionIdx02B			SMALLINT	UNSIGNED		
+,	IN	_OptionValue02B			SMALLINT	UNSIGNED		
+,	IN	_OptionIdx02C			SMALLINT	UNSIGNED		
+,	IN	_OptionValue02C			SMALLINT	UNSIGNED		
+,	IN	_OptionIdx02D			SMALLINT	UNSIGNED		
+,	IN	_OptionValue02D			SMALLINT	UNSIGNED		
+
+,	OUT	_CharacterUID	BIGINT	UNSIGNED
+
+,	OUT	_StackResultDB01	MEDIUMINT
+,	OUT	_StackResultDB02	MEDIUMINT
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET	_CharacterUID = 0, _StackResultDB01 = 0, _StackResultDB02 = 0, _Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_Class = 0 OR _CharacterName = '' OR _StageIdx = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+        
+			-- 캐릭터 생성시 확인사항
+			IF EXISTS	
+            ( 	SELECT 	1	
+				FROM 			character_tb		AS CH	
+                LEFT OUTER JOIN	character_delete_tb	AS CD	ON CD.CharacterUID = CH.CharacterUID
+                WHERE 	CH.AccountUID = _AccountUID AND CH.Class = _Class AND ( CD.DeleteTime > NOW() OR CD.DeleteTime IS NULL ) )	
+			THEN 	SET _Result = 203;	LEAVE MAIN_ROUTINE;	-- 이미 존재하는 직업
+			ELSEIF EXISTS	
+            ( 	SELECT 	1	
+				FROM 			character_tb		AS CH	
+                LEFT OUTER JOIN	character_delete_tb	AS CD	ON CD.CharacterUID = CH.CharacterUID
+                WHERE 	CH.CharacterName = _CharacterName AND ( CD.DeleteTime > NOW() OR CD.DeleteTime IS NULL )	)	
+			THEN 	SET _Result = 204;	LEAVE MAIN_ROUTINE; -- 이미 존재하는 이름
+            END IF;
+            
+            -- 캐릭터 기본데이터 저장
+            INSERT INTO	character_tb
+					( CharacterName			, AccountUID			, Class				, Lev			, Exp			, CurrentHP	, CurrentMP	
+                    , StageIdx				, PositionX				, PositionY			, PositionZ		, Wonbo			, Gold		, CreateTime			
+                    , LoginTime				, LogoutTime			, PlaytimeSec		, CombatPoint	, EnergyPoint	, BlackIron	, AwakenGrade	
+                    , InvenExtendCnt		, CostumeIdx			, PKPoint		)
+            VALUES 	( _CharacterName		, _AccountUID			, _Class			, 1				, 0				, _CurrentHP, _CurrentMP
+					, _StageIdx				, _PositionX			, _PositionY		, _PositionZ	, 1000			, 0			, NOW()					 
+                    , '00:00:00 00-00-00'	, '00:00:00 00-00-00'	, 0					, _CombatPoint	, 5				, 0			, 0				
+                    , 0						, _CostumeIdx			, 0				);
+            SET	_CharacterUID = LAST_INSERT_ID();
+            
+            -- 코스츔 저장
+            IF	_CostumeIdx > 0	THEN
+				INSERT INTO	costume_tb 
+						( CharacterUID	, CostumeIdx	, CostumeGrade	, HairColorIdx	, ClothesColorIdx 	)	
+				VALUES 	( _CharacterUID	, _CostumeIdx	, _CostumeGrade	, _HairColorIdx	, _ClothesColorIdx 	);
+            END IF;
+
+            -- 아이템 생성, 장착
+            IF	_CreateItemUID01	> 0	THEN															
+				CALL Item_Insert_DB	( _CharacterUID				, _CreateItemUID01		, _CreateItemIdx01	, _ReinforceLev01	, _ReinforceExp01	, _SmeltingLev01	
+									, _StackIncreaseAmount01	, _StackResultServer01	, _OptionIdx01A		, _OptionValue01A	, _OptionIdx01B		, _OptionValue01B			
+                                    , _OptionIdx01C				, _OptionValue01C		, _OptionIdx01D		, _OptionValue01D	, _StackResultDB01	, _Result 			);
+				IF _Result != 0 THEN 	LEAVE MAIN_ROUTINE;	END IF;	
+                IF _ItemEquipSlot01	> 0 THEN 	
+					INSERT INTO equip_item_tb ( CharacterUID, EquipSlot, ItemUID )	VALUES ( _CharacterUID, _ItemEquipSlot01	, _CreateItemUID01	);	
+				END IF;
+            END IF;																		
+            IF	_CreateItemUID02	> 0	THEN															
+				CALL Item_Insert_DB	( _CharacterUID				, _CreateItemUID02		, _CreateItemIdx02	, _ReinforceLev02	, _ReinforceExp02	, _SmeltingLev02			
+									, _StackIncreaseAmount02	, _StackResultServer02	, _OptionIdx02A		, _OptionValue02A	, _OptionIdx02B		, _OptionValue02B			
+                                    , _OptionIdx02C				, _OptionValue02C		, _OptionIdx02D		, _OptionValue02D	, _StackResultDB02	, _Result 			);
+				IF _Result != 0 THEN 	LEAVE MAIN_ROUTINE;	END IF;	
+                IF _ItemEquipSlot02	> 0 THEN 	
+					INSERT INTO equip_item_tb ( CharacterUID, EquipSlot, ItemUID )	VALUES ( _CharacterUID, _ItemEquipSlot02	, _CreateItemUID02	);	
+				END IF;
+            END IF;																	
+
+            -- 퀘스트 저장
+            IF	_MainQuestIdx > 0	THEN
+				INSERT INTO	quest_main_tb ( CharacterUID, QuestIdx, State, QuestValue )	VALUES ( _CharacterUID, _MainQuestIdx, 1, 0 );
+            END IF;
+                       
+            -- 스킬 저장
+            IF	_ActiveIdx01	> 0	THEN
+				INSERT INTO skill_active_tb ( CharacterUID, ActiveIdx, ActiveLev )	VALUES ( _CharacterUID, _ActiveIdx01, 1 );
+            END IF;
+            IF	_ActiveIdx02	> 0	THEN			
+				INSERT IGNORE INTO skill_active_tb ( CharacterUID, ActiveIdx, ActiveLev )	VALUES ( _CharacterUID, _ActiveIdx02	, 1 );
+                IF ROW_COUNT() <= 0 THEN		SET _Result = 802;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;						
+            IF	_ActiveIdx03	> 0	THEN			
+				INSERT IGNORE INTO skill_active_tb ( CharacterUID, ActiveIdx, ActiveLev )	VALUES ( _CharacterUID, _ActiveIdx03	, 1 );
+                IF ROW_COUNT() <= 0 THEN 		SET _Result = 802;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;						
+            IF	_ActiveIdx04	> 0	THEN			
+				INSERT IGNORE INTO skill_active_tb ( CharacterUID, ActiveIdx, ActiveLev )	VALUES ( _CharacterUID, _ActiveIdx04	, 1 );
+                IF ROW_COUNT() <= 0 THEN 		SET _Result = 802;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;						
+			IF	_ActiveIdx05	> 0	THEN			
+				INSERT IGNORE INTO skill_active_tb ( CharacterUID, ActiveIdx, ActiveLev )	VALUES ( _CharacterUID, _ActiveIdx05	, 1 );
+                IF ROW_COUNT() <= 0 THEN 		SET _Result = 802;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;						
+            IF	_ActiveIdx06	> 0	THEN			
+				INSERT IGNORE INTO skill_active_tb ( CharacterUID, ActiveIdx, ActiveLev )	VALUES ( _CharacterUID, _ActiveIdx06	, 1 );
+                IF ROW_COUNT() <= 0 THEN 		SET _Result = 802;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;						
+            IF	_ActiveIdx07	> 0	THEN			
+				INSERT IGNORE INTO skill_active_tb ( CharacterUID, ActiveIdx, ActiveLev )	VALUES ( _CharacterUID, _ActiveIdx07	, 1 );
+                IF ROW_COUNT() <= 0 THEN 		SET _Result = 802;	LEAVE MAIN_ROUTINE;	END IF;			
+            END IF;						
+            
+            IF	_ActiveIdx01	> 0	THEN
+				INSERT INTO skill_deck_tb ( CharacterUID, DeckNum, SkillSlot, ActiveIdx )	VALUES ( _CharacterUID, 1, 1	, _ActiveIdx01 );
+            END IF;
+            IF	_ActiveIdx02	> 0	THEN		
+				INSERT IGNORE INTO skill_deck_tb ( CharacterUID, DeckNum, SkillSlot, ActiveIdx )	VALUES ( _CharacterUID, 1, 2	, _ActiveIdx02 );
+            END IF;					
+            IF	_ActiveIdx03	> 0	THEN		
+				INSERT IGNORE INTO skill_deck_tb ( CharacterUID, DeckNum, SkillSlot, ActiveIdx )	VALUES ( _CharacterUID, 1, 3	, _ActiveIdx03 );
+            END IF;					
+            IF	_ActiveIdx04	> 0	THEN		
+				INSERT IGNORE INTO skill_deck_tb ( CharacterUID, DeckNum, SkillSlot, ActiveIdx )	VALUES ( _CharacterUID, 1, 4	, _ActiveIdx04 );
+            END IF;					
+            IF	_ActiveIdx05	> 0	THEN		
+				INSERT IGNORE INTO skill_deck_tb ( CharacterUID, DeckNum, SkillSlot, ActiveIdx )	VALUES ( _CharacterUID, 1, 5	, _ActiveIdx05 );
+            END IF;					
+            IF	_ActiveIdx06	> 0	THEN		
+				INSERT IGNORE INTO skill_deck_tb ( CharacterUID, DeckNum, SkillSlot, ActiveIdx )	VALUES ( _CharacterUID, 1, 6	, _ActiveIdx06 );
+            END IF;					
+            IF	_ActiveIdx07	> 0	THEN		
+				INSERT IGNORE INTO skill_deck_tb ( CharacterUID, DeckNum, SkillSlot, ActiveIdx )	VALUES ( _CharacterUID, 1, 7	, _ActiveIdx07 );
+            END IF;					
+            
+			SET	_Result = 0;
+
+    END;
+END

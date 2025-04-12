@@ -1,0 +1,24 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `ServerStart_Get_World`(
+	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+            
+	SET	_Result = -1;
+   
+	MAIN_ROUTINE:
+    BEGIN
+		-- 캐릭터 로그아웃 처리
+        UPDATE character_tb	SET LogoutTime = NOW()	WHERE LoginTime > LogoutTime;
+        
+		-- 점령길드
+        SELECT OccupationIdx, GuildUID, UNIX_TIMESTAMP(ExpiryTime) AS ExpiryTime	FROM occupation_tb;
+        
+		SET	_Result = 0;
+    END;
+END

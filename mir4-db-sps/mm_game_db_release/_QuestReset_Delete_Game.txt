@@ -1,0 +1,28 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `_QuestReset_Delete_Game`(
+	IN	_CharacterUID	BIGINT	UNSIGNED
+,	IN	_QuestIdx		INT		UNSIGNED
+    
+,	OUT _Result	INT 
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET	_Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		START TRANSACTION;
+			IF	_CharacterUID = 0 OR _QuestIdx = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+			
+			DELETE FROM quest_tb	WHERE CharacterUID = _CharacterUID;-- AND QuestIdx >= _QuestIdx;
+			INSERT INTO quest_tb ( CharacterUID, QuestIdx, State, QuestValue )	VALUES ( _CharacterUID, _QuestIdx, 1, 0 );
+			
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

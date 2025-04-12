@@ -1,0 +1,116 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `QuestDailyRewardReceive_Update_Game`(
+	IN	_CharacterUID			BIGINT	UNSIGNED
+,	IN	_CharacterLev			TINYINT	UNSIGNED
+,	IN	_CharacterExp			INT		UNSIGNED
+,	IN	_MoneyType01			TINYINT	UNSIGNED
+,	IN	_MoneyIncreaseAmount01	BIGINT
+,	IN	_MoneyResultServer01	BIGINT	UNSIGNED
+,	IN	_MoneyUpdateTime01		INT		UNSIGNED
+,	IN	_RewardQuestIdx			INT		UNSIGNED
+,	IN	_RewardQuestState		TINYINT	UNSIGNED
+
+,	IN	_CreateItemUID01			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx01			INT			UNSIGNED	
+,	IN	_ReinforceLev01				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp01				INT			UNSIGNED
+,	IN	_SmeltingLev01				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount01		MEDIUMINT					
+,	IN	_CreateStackResultServer01	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx01A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue01A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx01B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue01B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx01C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue01C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx01D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue01D				SMALLINT	UNSIGNED		
+
+,	IN	_PlayDataIdx01		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue01	BIGINT		
+,	IN	_PlayDataIdx02		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue02	BIGINT		
+,	IN	_PlayDataIdx03		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue03	BIGINT		
+,	IN	_PlayDataIdx04		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue04	BIGINT		
+,	IN	_PlayDataIdx05		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue05	BIGINT		
+,	IN	_PlayDataIdx06		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue06	BIGINT		
+,	IN	_PlayDataIdx07		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue07	BIGINT		
+,	IN	_PlayDataIdx08		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue08	BIGINT		
+,	IN	_PlayDataIdx09		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue09	BIGINT		
+,	IN	_PlayDataIdx10		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue10	BIGINT		
+
+,	OUT _MoneyResultDB01		BIGINT
+,	OUT	_CreateStackResultDB01	MEDIUMINT
+,	OUT	_Result					INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_MoneyResultDB01 = 0, _CreateStackResultDB01 = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+    	IF	_CharacterUID = 0 OR _RewardQuestIdx = 0 OR ( _MoneyIncreaseAmount01 = 0 AND _CreateItemUID01 = 0 )	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        ELSEIF	_MoneyIncreaseAmount01 < 0																		THEN SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+ 
+		START TRANSACTION;
+			-- 재화 변경
+			IF	_MoneyIncreaseAmount01 > 0	THEN
+				CALL Money_Update_DB ( 0, _CharacterUID, _MoneyType01, _MoneyIncreaseAmount01, _MoneyResultServer01, _MoneyUpdateTime01, _MoneyResultDB01, _Result );
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+            
+            -- 레벨, 경험치 변경
+			IF	_CharacterLev > 0	THEN
+				UPDATE character_tb	SET Lev = _CharacterLev, Exp = _CharacterExp	WHERE CharacterUID = _CharacterUID;
+				IF ROW_COUNT() <= 0	THEN SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+			END IF;
+            
+            -- 아이템 생성
+			IF	_CreateItemUID01	> 0	THEN													
+				CALL Item_Insert_DB	( _CharacterUID				, _CreateItemUID01				, _CreateItemIdx01	, _ReinforceLev01	, _ReinforceExp01			, _SmeltingLev01					
+									, _StackIncreaseAmount01	, _CreateStackResultServer01	, _OptionIdx01A		, _OptionValue01A	, _OptionIdx01B				, _OptionValue01B			
+									, _OptionIdx01C				, _OptionValue01C				, _OptionIdx01D		, _OptionValue01D	, _CreateStackResultDB01	, _Result 			);					
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;														
+			END IF;																
+            
+            -- 플레이 데이터 변경
+            IF	_PlayDataIdx01 > 0 OR _PlayDataIdx02 > 0 OR _PlayDataIdx03 > 0 OR _PlayDataIdx04 > 0 OR _PlayDataIdx05 > 0 
+			OR	_PlayDataIdx06 > 0 OR _PlayDataIdx07 > 0 OR _PlayDataIdx08 > 0 OR _PlayDataIdx09 > 0 OR _PlayDataIdx10 > 0	THEN
+				CALL PlayData_Update_DB	( _CharacterUID
+										, _PlayDataIdx01	, _PlayDataValue01
+										, _PlayDataIdx02	, _PlayDataValue02
+										, _PlayDataIdx03	, _PlayDataValue03
+										, _PlayDataIdx04	, _PlayDataValue04
+										, _PlayDataIdx05	, _PlayDataValue05
+										, _PlayDataIdx06	, _PlayDataValue06
+										, _PlayDataIdx07	, _PlayDataValue07
+										, _PlayDataIdx08	, _PlayDataValue08
+										, _PlayDataIdx09	, _PlayDataValue09
+										, _PlayDataIdx10	, _PlayDataValue10
+										, _Result	);
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;		
+            END IF;
+            
+            -- 퀘스트 보상수령으로 변경
+            UPDATE quest_daily_list_tb	SET State = _RewardQuestState	WHERE CharacterUID = _CharacterUID AND QuestIdx = _RewardQuestIdx;
+			IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 603;	LEAVE MAIN_ROUTINE;	END IF;	-- 완료된 퀘스트가 아님
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

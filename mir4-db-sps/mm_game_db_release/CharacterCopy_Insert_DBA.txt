@@ -1,0 +1,268 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `CharacterCopy_Insert_DBA`(
+	IN	_TargetCharName	VARCHAR(50)
+,	IN	_CreateAccID	VARCHAR(50)
+,	IN	_NewCharName	VARCHAR(50)
+
+,	OUT	_CharacterUID	BIGINT	UNSIGNED
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+ 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_CharacterUID = 0, _Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_TargetCharName = '' OR _CreateAccID = '' OR _NewCharName = ''	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+
+		-- 계정 확인
+        SELECT AccountUID	INTO @AccountUID	FROM mm_front_db.account_tb	WHERE AccountName = _CreateAccID;
+        IF FOUND_ROWS() <= 0 THEN ROLLBACK;	SET _Result = 101;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 계정
+        
+        -- 캐릭터 기본 데이터
+		SELECT	CH.CharacterUID				, CH.Class			, CH.Lev		, CH.Exp			, CH.CurrentHP	, CH.CurrentMP	, CH.StageIdx	, CH.PositionX	, CH.PositionY	
+			, 	CH.PositionZ				, CH.Wonbo			, CH.Gold		, CH.PlaytimeSec	, CH.CombatPoint, CH.AwakenGrade, CH.EnergyPoint, CH.BlackIron	, CH.ActionPoint
+            , 	CH.LastActionPointUpdateTime, CH.InvenExtendCnt	, CH.CostumeIdx	, CH.PKPoint
+		INTO	@TargetCharacterUID			, @Class			, @Lev			, @Exp				, @CurrentHP	, @CurrentMP	, @StageIdx		, @PositionX	, @PositionY	
+			, 	@PositionZ					, @Wonbo			, @Gold			, @PlaytimeSec		, @CombatPoint	, @AwakenGrade	, @EnergyPoint	, @BlackIron	, @ActionPoint	
+            , 	@LastActionPointUpdateTime	, @InvenExtendCnt	, @CostumeIdx	, @PKPoint
+		FROM			mm_game_db_release.character_tb			AS CH
+        LEFT OUTER JOIN	mm_game_db_release.character_delete_tb	AS CD	ON CD.CharacterUID = CH.CharacterUID
+		WHERE	CH.CharacterName = _TargetCharName AND ( CD.DeleteTime > NOW() OR CD.DeleteTime IS NULL );
+		IF FOUND_ROWS() <= 0 THEN ROLLBACK;	SET _Result = 201;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 캐릭터
+        
+		START TRANSACTION;
+			INSERT IGNORE INTO account_tb ( AccountUID, AccountName, Cash )	VALUES ( @AccountUID, _CreateAccID, 0 );
+            
+            CALL Character_Insert_DB	( @AccountUID, @Class, _NewCharName	, @CurrentHP, @CurrentMP, @StageIdx	, @PositionX, @PositionY, @PositionZ, @CombatPoint
+										, 0	, 0	, 0	, 0	, 0	
+                                        , 0	, 0	, 0	, 0	, 0	, 0	, 0	
+                                        , 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0 , 0 , 0 , 0 , 0	
+                                        , 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0	, 0 , 0 , 0 , 0	
+                                        , @NewCharacterUID	, @StackResultDB01	, @StackResultDB02	, _Result	);
+			IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            
+            UPDATE	character_tb
+            SET		Lev = @Lev	, Exp = @Exp	, Wonbo = @Wonbo, Gold = @Gold	, PlaytimeSec = @PlaytimeSec, EnergyPoint = @EnergyPoint, BlackIron = @BlackIron
+				, 	ActionPoint = @ActionPoint	, LastActionPointUpdateTime = @LastActionPointUpdateTime	, AwakenGrade = @AwakenGrade, InvenExtendCnt = @InvenExtendCnt
+                , 	CostumeIdx = @CostumeIdx	, PKPoint = @PKPoint
+            WHERE	CharacterUID = @NewCharacterUID;
+            
+            INSERT INTO achievement_tb
+				( 	CharacterUID	, ActionType	, ActionValueIdx, ActionValue	)
+            SELECT	@NewCharacterUID, ActionType	, ActionValueIdx, ActionValue
+            FROM	achievement_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	achievement_clear_tb
+				( 	CharacterUID	, AchievementIdx, ClearTime	, RewardReceiveTime	)
+            SELECT	@NewCharacterUID, AchievementIdx, ClearTime	, RewardReceiveTime
+            FROM	achievement_clear_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	costume_tb
+				( 	CharacterUID	, CostumeIdx, CostumeGrade	, HairColorIdx	, ClothesColorIdx	)
+            SELECT	@NewCharacterUID, CostumeIdx, CostumeGrade	, HairColorIdx	, ClothesColorIdx
+            FROM	costume_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	escape_position_tb
+				( 	CharacterUID	, EscapeStageIdx, EscapePositionX	, EscapePositionY	, EscapePositionZ	)
+            SELECT	@NewCharacterUID, EscapeStageIdx, EscapePositionX	, EscapePositionY	, EscapePositionZ
+            FROM	escape_position_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO holystuff_tb
+				( 	CharacterUID	, HolyStuffIdx	, HolyStuffLev	, HolyStuffExp	)
+            SELECT	@NewCharacterUID, HolyStuffIdx	, HolyStuffLev	, HolyStuffExp
+            FROM	holystuff_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+
+            INSERT INTO	mastery_tb
+				( 	CharacterUID	, MasterySlot	, MasteryCnt	)
+            SELECT	@NewCharacterUID, MasterySlot	, MasteryCnt
+            FROM	mastery_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	pulse_tb
+				( 	CharacterUID	, PulseIdx	)
+            SELECT	@NewCharacterUID, PulseIdx
+            FROM	pulse_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	pulse_blood_tb
+				( 	CharacterUID	, PulseIdx	, BloodIdx	, AttributeType	, AttributeValue, ResetCnt	)
+            SELECT	@NewCharacterUID, PulseIdx	, BloodIdx	, AttributeType	, AttributeValue, ResetCnt
+            FROM	pulse_blood_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	quest_daily_tb
+				( 	CharacterUID	, ListReceiveTime	, PlusRewardReceiveCnt	, FreeResetCnt	)
+            SELECT	@NewCharacterUID, ListReceiveTime	, PlusRewardReceiveCnt	, FreeResetCnt
+            FROM	quest_daily_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	quest_daily_list_tb
+				( 	CharacterUID	, QuestUID	, QuestIdx	, QuestGrade, AcceptTime, QuestValue, QuestClear, RewardReceiveTime	)
+            SELECT	@NewCharacterUID, QuestUID	, QuestIdx	, QuestGrade, AcceptTime, QuestValue, QuestClear, RewardReceiveTime
+            FROM	quest_daily_list_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	quest_main_tb
+				( 	CharacterUID	, QuestIdx	, State	, QuestValue	)
+            SELECT	@NewCharacterUID, QuestIdx	, State	, QuestValue
+            FROM	quest_main_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	quest_sub_tb
+				( 	CharacterUID	, QuestIdx	, State	, QuestValue	)
+            SELECT	@NewCharacterUID, QuestIdx	, State	, QuestValue
+            FROM	quest_sub_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	quest_weekly_tb
+				( 	CharacterUID	, ListReceiveTime	, ClearCnt_Week	, ClearCnt_Day	, ClearCnt_Day_RewardReceive, ClearCnt_Day_ResetTime, PlusRewardReceiveCnt	)
+            SELECT	@NewCharacterUID, ListReceiveTime	, ClearCnt_Week	, ClearCnt_Day	, ClearCnt_Day_RewardReceive, ClearCnt_Day_ResetTime, PlusRewardReceiveCnt
+            FROM	quest_weekly_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	quest_weekly_list_tb
+				( 	CharacterUID	, QuestUID	, QuestIdx	, AcceptTime, QuestValue, QuestClear, RewardReceive	)
+            SELECT	@NewCharacterUID, QuestUID	, QuestIdx	, AcceptTime, QuestValue, QuestClear, RewardReceive
+            FROM	quest_weekly_list_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	skill_active_tb
+				( 	CharacterUID	, ActiveIdx	, ActiveLev	)
+            SELECT	@NewCharacterUID, ActiveIdx	, ActiveLev
+            FROM	skill_active_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	skill_deck_tb
+				( 	CharacterUID	, DeckNum	, SkillSlot	, ActiveIdx	)
+            SELECT	@NewCharacterUID, DeckNum	, SkillSlot	, ActiveIdx
+            FROM	skill_deck_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	skill_passivegroup_tb
+				( 	CharacterUID	, PassiveGroupIdx	, PassiveGroupLev	, PassiveGroupExp	)
+            SELECT	@NewCharacterUID, PassiveGroupIdx	, PassiveGroupLev	, PassiveGroupExp
+            FROM	skill_passivegroup_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	skill_passive_tb
+				( 	CharacterUID	, PassiveGroupIdx	, PassiveIdx, PassiveLev	)
+            SELECT	@NewCharacterUID, PassiveGroupIdx	, PassiveIdx, PassiveLev
+            FROM	skill_passive_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	treasure_tb
+				( 	CharacterUID	, TreasureIdx	)
+            SELECT	@NewCharacterUID, TreasureIdx
+            FROM	treasure_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+			INSERT INTO	vehicle_tb
+				( 	CharacterUID	, VehicleGroupId, VehicleIdx, VehicleLev, VehicleExp	)
+            SELECT	@NewCharacterUID, VehicleGroupId, VehicleIdx, VehicleLev, VehicleExp
+            FROM	vehicle_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	equip_vehicle_tb
+				( 	CharacterUID	, VehicleGroupId	)
+            SELECT	@NewCharacterUID, VehicleGroupId
+            FROM	equip_vehicle_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+            
+            INSERT INTO	waypoint_tb
+				( 	CharacterUID	, WayPointIdx	)
+            SELECT	@NewCharacterUID, WayPointIdx
+            FROM	waypoint_tb
+            WHERE	CharacterUID = @TargetCharacterUID;
+
+            
+            SELECT	MAX( ItemUID )
+            INTO	@LastDBItemUID
+			FROM	item_tb
+			WHERE	ItemUID > 9000000000000000000;
+            IF	@LastDBItemUID IS NULL THEN SET @LastDBItemUID = 9000000000000000000;	END IF;
+
+            CREATE TEMPORARY TABLE	item_tmp
+			SELECT	IT.ItemUID AS TargetItemUID, @LastDBItemUID := @LastDBItemUID + 1 AS NewItemUID
+			FROM			item_character_tb	AS IC
+			INNER JOIN		item_tb				AS IT ON IT.ItemUID = IC.ItemUID
+			LEFT OUTER JOIN	item_delete_tb		AS ID ON ID.ItemUID = IT.ItemUID
+			WHERE	IC.CharacterUID = @TargetCharacterUID AND ID.ItemUID IS NULL;
+            
+            INSERT INTO	item_tb
+				(	ItemUID		, ItemIdx	, IsLock	)
+			SELECT	T.NewItemUID, I.ItemIdx	, I.IsLock
+			FROM	item_tb		AS I	INNER JOIN
+					item_tmp	AS T	ON T.TargetItemUID = I.ItemUID;
+			
+            INSERT INTO	item_binding_tb
+				(	ItemUID		, EquipBinding	)
+			SELECT	T.NewItemUID, I.EquipBinding
+			FROM	item_binding_tb	AS I	INNER JOIN
+					item_tmp		AS T	ON T.TargetItemUID = I.ItemUID;
+			
+            INSERT INTO	item_character_tb
+				(	ItemUID		, CharacterUID		)
+			SELECT	T.NewItemUID, @NewCharacterUID
+			FROM	item_character_tb	AS I	INNER JOIN
+					item_tmp			AS T	ON T.TargetItemUID = I.ItemUID;
+
+            INSERT INTO	equip_item_tb
+				(	CharacterUID	, EquipSlot		, ItemUID		)
+			SELECT	@NewCharacterUID, I.EquipSlot	, T.NewItemUID
+			FROM	equip_item_tb	AS I	INNER JOIN
+					item_tmp			AS T	ON T.TargetItemUID = I.ItemUID;
+            
+            INSERT INTO	item_jewel_tb
+				(	ItemUID		, JewelSlot		, JewelItemIdx	)
+			SELECT	T.NewItemUID, I.JewelSlot	, I.JewelItemIdx
+			FROM	item_jewel_tb	AS I	INNER JOIN
+					item_tmp		AS T	ON T.TargetItemUID = I.ItemUID;
+                    
+            INSERT INTO	item_option_tb
+				(	ItemUID		, OptionSlot	, OptionIdx		, OptionValue	)
+			SELECT	T.NewItemUID, I.OptionSlot	, I.OptionIdx	, I.OptionValue
+			FROM	item_option_tb	AS I	INNER JOIN
+					item_tmp		AS T	ON T.TargetItemUID = I.ItemUID;        
+            
+            INSERT INTO	item_polishing_tb
+				(	ItemUID		, PolishingSlot		, PolishingCnt	)
+			SELECT	T.NewItemUID, I.PolishingSlot	, I.PolishingCnt
+			FROM	item_polishing_tb	AS I	INNER JOIN
+					item_tmp			AS T	ON T.TargetItemUID = I.ItemUID;
+                    
+            INSERT INTO	item_reinforce_tb
+				(	ItemUID		, ReinforceLev	, ReinforceExp	)
+			SELECT	T.NewItemUID, I.ReinforceLev, I.ReinforceExp
+			FROM	item_reinforce_tb	AS I	INNER JOIN
+					item_tmp			AS T	ON T.TargetItemUID = I.ItemUID;
+                    
+            INSERT INTO	item_smelting_tb
+				(	ItemUID		, SmeltingLev	)
+			SELECT	T.NewItemUID, I.SmeltingLev	
+			FROM	item_smelting_tb	AS I	INNER JOIN
+					item_tmp			AS T	ON T.TargetItemUID = I.ItemUID;        
+            
+            INSERT INTO	item_stack_tb
+				(	ItemUID		, StackCnt	)
+			SELECT	T.NewItemUID, I.StackCnt
+			FROM	item_stack_tb	AS I	INNER JOIN
+					item_tmp		AS T	ON T.TargetItemUID = I.ItemUID;
+                    
+			DROP TEMPORARY TABLE item_tmp;
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

@@ -1,0 +1,610 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `ItemMake_Update_Game`(
+	IN	_CharacterUID		BIGINT	UNSIGNED
+
+,	IN	_MoneyType01			TINYINT	UNSIGNED
+,	IN	_MoneyDecreaseAmount01	BIGINT
+,	IN	_MoneyResultServer01	BIGINT	UNSIGNED
+,	IN	_MoneyUpdateTime01		INT		UNSIGNED
+,	IN	_MoneyType02			TINYINT	UNSIGNED
+,	IN	_MoneyDecreaseAmount02	BIGINT
+,	IN	_MoneyResultServer02	BIGINT	UNSIGNED
+,	IN	_MoneyUpdateTime02		INT		UNSIGNED
+
+,	IN	_DeleteItemUID01			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount01		MEDIUMINT			
+,	IN	_DeleteStackResultServer01	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID02			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount02		MEDIUMINT			
+,	IN	_DeleteStackResultServer02	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID03			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount03		MEDIUMINT			
+,	IN	_DeleteStackResultServer03	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID04			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount04		MEDIUMINT			
+,	IN	_DeleteStackResultServer04	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID05			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount05		MEDIUMINT			
+,	IN	_DeleteStackResultServer05	MEDIUMINT	UNSIGNED			
+
+,	IN	_CreateItemUID01			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx01			INT			UNSIGNED	
+,	IN	_ReinforceLev01				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp01				INT			UNSIGNED
+,	IN	_SmeltingLev01				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount01		MEDIUMINT					
+,	IN	_CreateStackResultServer01	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx01A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue01A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx01B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue01B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx01C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue01C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx01D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue01D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID02			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx02			INT			UNSIGNED	
+,	IN	_ReinforceLev02				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp02				INT			UNSIGNED
+,	IN	_SmeltingLev02				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount02		MEDIUMINT					
+,	IN	_CreateStackResultServer02	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx02A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue02A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx02B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue02B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx02C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue02C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx02D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue02D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID03			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx03			INT			UNSIGNED	
+,	IN	_ReinforceLev03				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp03				INT			UNSIGNED
+,	IN	_SmeltingLev03				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount03		MEDIUMINT					
+,	IN	_CreateStackResultServer03	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx03A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue03A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx03B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue03B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx03C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue03C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx03D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue03D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID04			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx04			INT			UNSIGNED	
+,	IN	_ReinforceLev04				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp04				INT			UNSIGNED
+,	IN	_SmeltingLev04				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount04		MEDIUMINT					
+,	IN	_CreateStackResultServer04	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx04A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue04A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx04B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue04B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx04C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue04C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx04D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue04D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID05			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx05			INT			UNSIGNED	
+,	IN	_ReinforceLev05				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp05				INT			UNSIGNED
+,	IN	_SmeltingLev05				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount05		MEDIUMINT					
+,	IN	_CreateStackResultServer05	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx05A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue05A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx05B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue05B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx05C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue05C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx05D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue05D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID06			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx06			INT			UNSIGNED	
+,	IN	_ReinforceLev06				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp06				INT			UNSIGNED
+,	IN	_SmeltingLev06				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount06		MEDIUMINT					
+,	IN	_CreateStackResultServer06	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx06A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue06A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx06B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue06B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx06C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue06C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx06D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue06D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID07			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx07			INT			UNSIGNED	
+,	IN	_ReinforceLev07				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp07				INT			UNSIGNED
+,	IN	_SmeltingLev07				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount07		MEDIUMINT					
+,	IN	_CreateStackResultServer07	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx07A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue07A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx07B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue07B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx07C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue07C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx07D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue07D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID08			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx08			INT			UNSIGNED	
+,	IN	_ReinforceLev08				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp08				INT			UNSIGNED
+,	IN	_SmeltingLev08				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount08		MEDIUMINT					
+,	IN	_CreateStackResultServer08	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx08A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue08A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx08B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue08B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx08C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue08C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx08D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue08D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID09			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx09			INT			UNSIGNED	
+,	IN	_ReinforceLev09				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp09				INT			UNSIGNED
+,	IN	_SmeltingLev09				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount09		MEDIUMINT					
+,	IN	_CreateStackResultServer09	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx09A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue09A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx09B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue09B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx09C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue09C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx09D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue09D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID10			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx10			INT			UNSIGNED	
+,	IN	_ReinforceLev10				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp10				INT			UNSIGNED
+,	IN	_SmeltingLev10				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount10		MEDIUMINT					
+,	IN	_CreateStackResultServer10	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx10A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue10A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx10B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue10B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx10C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue10C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx10D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue10D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID11			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx11			INT			UNSIGNED	
+,	IN	_ReinforceLev11				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp11				INT			UNSIGNED
+,	IN	_SmeltingLev11				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount11		MEDIUMINT					
+,	IN	_CreateStackResultServer11	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx11A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue11A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx11B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue11B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx11C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue11C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx11D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue11D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID12			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx12			INT			UNSIGNED	
+,	IN	_ReinforceLev12				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp12				INT			UNSIGNED
+,	IN	_SmeltingLev12				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount12		MEDIUMINT					
+,	IN	_CreateStackResultServer12	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx12A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue12A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx12B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue12B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx12C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue12C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx12D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue12D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID13			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx13			INT			UNSIGNED	
+,	IN	_ReinforceLev13				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp13				INT			UNSIGNED
+,	IN	_SmeltingLev13				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount13		MEDIUMINT					
+,	IN	_CreateStackResultServer13	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx13A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue13A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx13B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue13B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx13C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue13C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx13D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue13D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID14			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx14			INT			UNSIGNED	
+,	IN	_ReinforceLev14				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp14				INT			UNSIGNED
+,	IN	_SmeltingLev14				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount14		MEDIUMINT					
+,	IN	_CreateStackResultServer14	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx14A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue14A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx14B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue14B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx14C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue14C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx14D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue14D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID15			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx15			INT			UNSIGNED	
+,	IN	_ReinforceLev15				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp15				INT			UNSIGNED
+,	IN	_SmeltingLev15				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount15		MEDIUMINT					
+,	IN	_CreateStackResultServer15	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx15A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue15A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx15B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue15B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx15C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue15C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx15D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue15D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID16			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx16			INT			UNSIGNED	
+,	IN	_ReinforceLev16				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp16				INT			UNSIGNED
+,	IN	_SmeltingLev16				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount16		MEDIUMINT					
+,	IN	_CreateStackResultServer16	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx16A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue16A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx16B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue16B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx16C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue16C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx16D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue16D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID17			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx17			INT			UNSIGNED	
+,	IN	_ReinforceLev17				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp17				INT			UNSIGNED
+,	IN	_SmeltingLev17				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount17		MEDIUMINT					
+,	IN	_CreateStackResultServer17	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx17A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue17A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx17B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue17B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx17C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue17C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx17D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue17D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID18			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx18			INT			UNSIGNED	
+,	IN	_ReinforceLev18				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp18				INT			UNSIGNED
+,	IN	_SmeltingLev18				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount18		MEDIUMINT					
+,	IN	_CreateStackResultServer18	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx18A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue18A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx18B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue18B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx18C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue18C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx18D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue18D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID19			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx19			INT			UNSIGNED	
+,	IN	_ReinforceLev19				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp19				INT			UNSIGNED
+,	IN	_SmeltingLev19				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount19		MEDIUMINT					
+,	IN	_CreateStackResultServer19	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx19A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue19A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx19B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue19B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx19C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue19C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx19D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue19D				SMALLINT	UNSIGNED		
+,	IN	_CreateItemUID20			BIGINT		UNSIGNED		
+,	IN	_CreateItemIdx20			INT			UNSIGNED	
+,	IN	_ReinforceLev20				TINYINT		UNSIGNED	
+,	IN	_ReinforceExp20				INT			UNSIGNED
+,	IN	_SmeltingLev20				TINYINT		UNSIGNED	
+,	IN	_StackIncreaseAmount20		MEDIUMINT					
+,	IN	_CreateStackResultServer20	MEDIUMINT	UNSIGNED					
+,	IN	_OptionIdx20A				SMALLINT	UNSIGNED		
+,	IN	_OptionValue20A				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx20B				SMALLINT	UNSIGNED		
+,	IN	_OptionValue20B				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx20C				SMALLINT	UNSIGNED		
+,	IN	_OptionValue20C				SMALLINT	UNSIGNED		
+,	IN	_OptionIdx20D				SMALLINT	UNSIGNED		
+,	IN	_OptionValue20D				SMALLINT	UNSIGNED		
+
+,	IN	_PlayDataIdx01		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue01	BIGINT		
+,	IN	_PlayDataIdx02		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue02	BIGINT		
+,	IN	_PlayDataIdx03		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue03	BIGINT		
+,	IN	_PlayDataIdx04		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue04	BIGINT		
+,	IN	_PlayDataIdx05		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue05	BIGINT		
+,	IN	_PlayDataIdx06		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue06	BIGINT		
+,	IN	_PlayDataIdx07		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue07	BIGINT		
+,	IN	_PlayDataIdx08		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue08	BIGINT		
+,	IN	_PlayDataIdx09		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue09	BIGINT		
+,	IN	_PlayDataIdx10		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue10	BIGINT		
+
+,	OUT _MoneyResultDB01	BIGINT
+,	OUT _MoneyResultDB02	BIGINT
+
+,	OUT	_DeleteStackResultDB01	MEDIUMINT
+,	OUT	_DeleteStackResultDB02	MEDIUMINT
+,	OUT	_DeleteStackResultDB03	MEDIUMINT
+,	OUT	_DeleteStackResultDB04	MEDIUMINT
+,	OUT	_DeleteStackResultDB05	MEDIUMINT
+
+,	OUT	_CreateStackResultDB01	MEDIUMINT
+,	OUT	_CreateStackResultDB02	MEDIUMINT
+,	OUT	_CreateStackResultDB03	MEDIUMINT
+,	OUT	_CreateStackResultDB04	MEDIUMINT
+,	OUT	_CreateStackResultDB05	MEDIUMINT
+,	OUT	_CreateStackResultDB06	MEDIUMINT
+,	OUT	_CreateStackResultDB07	MEDIUMINT
+,	OUT	_CreateStackResultDB08	MEDIUMINT
+,	OUT	_CreateStackResultDB09	MEDIUMINT
+,	OUT	_CreateStackResultDB10	MEDIUMINT
+,	OUT	_CreateStackResultDB11	MEDIUMINT
+,	OUT	_CreateStackResultDB12	MEDIUMINT
+,	OUT	_CreateStackResultDB13	MEDIUMINT
+,	OUT	_CreateStackResultDB14	MEDIUMINT
+,	OUT	_CreateStackResultDB15	MEDIUMINT
+,	OUT	_CreateStackResultDB16	MEDIUMINT
+,	OUT	_CreateStackResultDB17	MEDIUMINT
+,	OUT	_CreateStackResultDB18	MEDIUMINT
+,	OUT	_CreateStackResultDB19	MEDIUMINT
+,	OUT	_CreateStackResultDB20	MEDIUMINT
+
+,	OUT _Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+	SET _MoneyResultDB01 = 0, _MoneyResultDB02 = 0
+    , 	_DeleteStackResultDB01 = 0, _DeleteStackResultDB02 = 0, _DeleteStackResultDB03 = 0, _DeleteStackResultDB04 = 0, _DeleteStackResultDB05 = 0
+    , 	_CreateStackResultDB01 = 0, _CreateStackResultDB02 = 0, _CreateStackResultDB03 = 0, _CreateStackResultDB04 = 0, _CreateStackResultDB05 = 0
+	, 	_CreateStackResultDB06 = 0, _CreateStackResultDB07 = 0, _CreateStackResultDB08 = 0, _CreateStackResultDB09 = 0, _CreateStackResultDB10 = 0
+    , 	_CreateStackResultDB11 = 0, _CreateStackResultDB12 = 0, _CreateStackResultDB13 = 0, _CreateStackResultDB14 = 0, _CreateStackResultDB15 = 0
+    , 	_CreateStackResultDB16 = 0, _CreateStackResultDB17 = 0, _CreateStackResultDB18 = 0, _CreateStackResultDB19 = 0, _CreateStackResultDB20 = 0
+    , 	_Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        
+		ELSEIF	_StackDecreaseAmount01 > 0 OR _StackDecreaseAmount02 > 0 OR _StackDecreaseAmount03 > 0 OR _StackDecreaseAmount04 > 0 OR _StackDecreaseAmount05 > 0
+			OR	_StackIncreaseAmount01 < 0 OR _StackIncreaseAmount02 < 0 OR _StackIncreaseAmount03 < 0 OR _StackIncreaseAmount04 < 0 OR _StackIncreaseAmount05 < 0 
+            OR	_StackIncreaseAmount06 < 0 OR _StackIncreaseAmount07 < 0 OR _StackIncreaseAmount08 < 0 OR _StackIncreaseAmount09 < 0 OR _StackIncreaseAmount10 < 0 
+            OR	_StackIncreaseAmount11 < 0 OR _StackIncreaseAmount12 < 0 OR _StackIncreaseAmount13 < 0 OR _StackIncreaseAmount14 < 0 OR _StackIncreaseAmount15 < 0 
+            OR	_StackIncreaseAmount16 < 0 OR _StackIncreaseAmount17 < 0 OR _StackIncreaseAmount18 < 0 OR _StackIncreaseAmount19 < 0 OR _StackIncreaseAmount20 < 0 
+            OR 	_MoneyDecreaseAmount01 > 0 OR _MoneyDecreaseAmount02 > 0	THEN 
+			SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 Amount
+		END IF;	
+        
+		START TRANSACTION;
+			-- 재화 변경
+            IF	_MoneyDecreaseAmount01	< 0	THEN
+				CALL Money_Update_DB ( 0, _CharacterUID, _MoneyType01, _MoneyDecreaseAmount01, _MoneyResultServer01, _MoneyUpdateTime01, _MoneyResultDB01, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+            IF	_MoneyDecreaseAmount02	< 0	THEN
+				CALL Money_Update_DB ( 0, _CharacterUID, _MoneyType02, _MoneyDecreaseAmount02, _MoneyResultServer02, _MoneyUpdateTime02, _MoneyResultDB02, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+		
+            -- 아이템 삭제
+            IF _DeleteItemUID01	> 0	THEN 						
+				CALL Item_Delete_DB ( _DeleteItemUID01	, _StackDecreaseAmount01	, _DeleteStackResultServer01	, _DeleteStackResultDB01	, _Result );	
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF _DeleteItemUID02	> 0	THEN 						
+				CALL Item_Delete_DB ( _DeleteItemUID02	, _StackDecreaseAmount02	, _DeleteStackResultServer02	, _DeleteStackResultDB02	, _Result );	
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF _DeleteItemUID03	> 0	THEN 						
+				CALL Item_Delete_DB ( _DeleteItemUID03	, _StackDecreaseAmount03	, _DeleteStackResultServer03	, _DeleteStackResultDB03	, _Result );	
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF _DeleteItemUID04	> 0	THEN 						
+				CALL Item_Delete_DB ( _DeleteItemUID04	, _StackDecreaseAmount04	, _DeleteStackResultServer04	, _DeleteStackResultDB04	, _Result );	
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF _DeleteItemUID05	> 0	THEN 						
+				CALL Item_Delete_DB ( _DeleteItemUID05	, _StackDecreaseAmount05	, _DeleteStackResultServer05	, _DeleteStackResultDB05	, _Result );	
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            								
+			-- 아이템 생성
+			IF	_CreateItemUID01	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID01			, _CreateItemIdx01				, _ReinforceLev01	, _ReinforceExp01		
+									, _SmeltingLev01	, _StackIncreaseAmount01	, _CreateStackResultServer01	, _OptionIdx01A		, _OptionValue01A			
+                                    , _OptionIdx01B		, _OptionValue01B			, _OptionIdx01C					, _OptionValue01C	, _OptionIdx01D						
+                                    , _OptionValue01D	, _CreateStackResultDB01	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID02	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID02			, _CreateItemIdx02				, _ReinforceLev02	, _ReinforceExp02		
+									, _SmeltingLev02	, _StackIncreaseAmount02	, _CreateStackResultServer02	, _OptionIdx02A		, _OptionValue02A			
+                                    , _OptionIdx02B		, _OptionValue02B			, _OptionIdx02C					, _OptionValue02C	, _OptionIdx02D						
+                                    , _OptionValue02D	, _CreateStackResultDB02	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID03	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID03			, _CreateItemIdx03				, _ReinforceLev03	, _ReinforceExp03		
+									, _SmeltingLev03	, _StackIncreaseAmount03	, _CreateStackResultServer03	, _OptionIdx03A		, _OptionValue03A			
+                                    , _OptionIdx03B		, _OptionValue03B			, _OptionIdx03C					, _OptionValue03C	, _OptionIdx03D						
+                                    , _OptionValue03D	, _CreateStackResultDB03	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID04	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID04			, _CreateItemIdx04				, _ReinforceLev04	, _ReinforceExp04		
+									, _SmeltingLev04	, _StackIncreaseAmount04	, _CreateStackResultServer04	, _OptionIdx04A		, _OptionValue04A			
+                                    , _OptionIdx04B		, _OptionValue04B			, _OptionIdx04C					, _OptionValue04C	, _OptionIdx04D						
+                                    , _OptionValue04D	, _CreateStackResultDB04	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID05	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID05			, _CreateItemIdx05				, _ReinforceLev05	, _ReinforceExp05		
+									, _SmeltingLev05	, _StackIncreaseAmount05	, _CreateStackResultServer05	, _OptionIdx05A		, _OptionValue05A			
+                                    , _OptionIdx05B		, _OptionValue05B			, _OptionIdx05C					, _OptionValue05C	, _OptionIdx05D						
+                                    , _OptionValue05D	, _CreateStackResultDB05	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID06	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID06			, _CreateItemIdx06				, _ReinforceLev06	, _ReinforceExp06		
+									, _SmeltingLev06	, _StackIncreaseAmount06	, _CreateStackResultServer06	, _OptionIdx06A		, _OptionValue06A			
+                                    , _OptionIdx06B		, _OptionValue06B			, _OptionIdx06C					, _OptionValue06C	, _OptionIdx06D						
+                                    , _OptionValue06D	, _CreateStackResultDB06	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID07	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID07			, _CreateItemIdx07				, _ReinforceLev07	, _ReinforceExp07		
+									, _SmeltingLev07	, _StackIncreaseAmount07	, _CreateStackResultServer07	, _OptionIdx07A		, _OptionValue07A			
+                                    , _OptionIdx07B		, _OptionValue07B			, _OptionIdx07C					, _OptionValue07C	, _OptionIdx07D						
+                                    , _OptionValue07D	, _CreateStackResultDB07	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID08	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID08			, _CreateItemIdx08				, _ReinforceLev08	, _ReinforceExp08		
+									, _SmeltingLev08	, _StackIncreaseAmount08	, _CreateStackResultServer08	, _OptionIdx08A		, _OptionValue08A			
+                                    , _OptionIdx08B		, _OptionValue08B			, _OptionIdx08C					, _OptionValue08C	, _OptionIdx08D						
+                                    , _OptionValue08D	, _CreateStackResultDB08	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID09	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID09			, _CreateItemIdx09				, _ReinforceLev09	, _ReinforceExp09		
+									, _SmeltingLev09	, _StackIncreaseAmount09	, _CreateStackResultServer09	, _OptionIdx09A		, _OptionValue09A			
+                                    , _OptionIdx09B		, _OptionValue09B			, _OptionIdx09C					, _OptionValue09C	, _OptionIdx09D						
+                                    , _OptionValue09D	, _CreateStackResultDB09	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID10	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID10			, _CreateItemIdx10				, _ReinforceLev10	, _ReinforceExp10		
+									, _SmeltingLev10	, _StackIncreaseAmount10	, _CreateStackResultServer10	, _OptionIdx10A		, _OptionValue10A			
+                                    , _OptionIdx10B		, _OptionValue10B			, _OptionIdx10C					, _OptionValue10C	, _OptionIdx10D						
+                                    , _OptionValue10D	, _CreateStackResultDB10	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID11	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID11			, _CreateItemIdx11				, _ReinforceLev11	, _ReinforceExp11		
+									, _SmeltingLev11	, _StackIncreaseAmount11	, _CreateStackResultServer11	, _OptionIdx11A		, _OptionValue11A			
+                                    , _OptionIdx11B		, _OptionValue11B			, _OptionIdx11C					, _OptionValue11C	, _OptionIdx11D						
+                                    , _OptionValue11D	, _CreateStackResultDB11	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID12	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID12			, _CreateItemIdx12				, _ReinforceLev12	, _ReinforceExp12		
+									, _SmeltingLev12	, _StackIncreaseAmount12	, _CreateStackResultServer12	, _OptionIdx12A		, _OptionValue12A			
+                                    , _OptionIdx12B		, _OptionValue12B			, _OptionIdx12C					, _OptionValue12C	, _OptionIdx12D						
+                                    , _OptionValue12D	, _CreateStackResultDB12	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID13	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID13			, _CreateItemIdx13				, _ReinforceLev13	, _ReinforceExp13		
+									, _SmeltingLev13	, _StackIncreaseAmount13	, _CreateStackResultServer13	, _OptionIdx13A		, _OptionValue13A			
+                                    , _OptionIdx13B		, _OptionValue13B			, _OptionIdx13C					, _OptionValue13C	, _OptionIdx13D						
+                                    , _OptionValue13D	, _CreateStackResultDB13	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID14	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID14			, _CreateItemIdx14				, _ReinforceLev14	, _ReinforceExp14		
+									, _SmeltingLev14	, _StackIncreaseAmount14	, _CreateStackResultServer14	, _OptionIdx14A		, _OptionValue14A			
+                                    , _OptionIdx14B		, _OptionValue14B			, _OptionIdx14C					, _OptionValue14C	, _OptionIdx14D						
+                                    , _OptionValue14D	, _CreateStackResultDB14	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID15	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID15			, _CreateItemIdx15				, _ReinforceLev15	, _ReinforceExp15		
+									, _SmeltingLev15	, _StackIncreaseAmount15	, _CreateStackResultServer15	, _OptionIdx15A		, _OptionValue15A			
+                                    , _OptionIdx15B		, _OptionValue15B			, _OptionIdx15C					, _OptionValue15C	, _OptionIdx15D						
+                                    , _OptionValue15D	, _CreateStackResultDB15	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID16	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID16			, _CreateItemIdx16				, _ReinforceLev16	, _ReinforceExp16		
+									, _SmeltingLev16	, _StackIncreaseAmount16	, _CreateStackResultServer16	, _OptionIdx16A		, _OptionValue16A			
+                                    , _OptionIdx16B		, _OptionValue16B			, _OptionIdx16C					, _OptionValue16C	, _OptionIdx16D						
+                                    , _OptionValue16D	, _CreateStackResultDB16	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID17	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID17			, _CreateItemIdx17				, _ReinforceLev17	, _ReinforceExp17		
+									, _SmeltingLev17	, _StackIncreaseAmount17	, _CreateStackResultServer17	, _OptionIdx17A		, _OptionValue17A			
+                                    , _OptionIdx17B		, _OptionValue17B			, _OptionIdx17C					, _OptionValue17C	, _OptionIdx17D						
+                                    , _OptionValue17D	, _CreateStackResultDB17	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID18	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID18			, _CreateItemIdx18				, _ReinforceLev18	, _ReinforceExp18		
+									, _SmeltingLev18	, _StackIncreaseAmount18	, _CreateStackResultServer18	, _OptionIdx18A		, _OptionValue18A			
+                                    , _OptionIdx18B		, _OptionValue18B			, _OptionIdx18C					, _OptionValue18C	, _OptionIdx18D						
+                                    , _OptionValue18D	, _CreateStackResultDB18	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID19	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID19			, _CreateItemIdx19				, _ReinforceLev19	, _ReinforceExp19		
+									, _SmeltingLev19	, _StackIncreaseAmount19	, _CreateStackResultServer19	, _OptionIdx19A		, _OptionValue19A			
+                                    , _OptionIdx19B		, _OptionValue19B			, _OptionIdx19C					, _OptionValue19C	, _OptionIdx19D						
+                                    , _OptionValue19D	, _CreateStackResultDB19	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+			IF	_CreateItemUID20	> 0	THEN											
+				CALL Item_Insert_DB	( _CharacterUID		, _CreateItemUID20			, _CreateItemIdx20				, _ReinforceLev20	, _ReinforceExp20		
+									, _SmeltingLev20	, _StackIncreaseAmount20	, _CreateStackResultServer20	, _OptionIdx20A		, _OptionValue20A			
+                                    , _OptionIdx20B		, _OptionValue20B			, _OptionIdx20C					, _OptionValue20C	, _OptionIdx20D						
+                                    , _OptionValue20D	, _CreateStackResultDB20	, _Result 						);									
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;											
+			END IF;														
+            
+            -- 플레이 데이터 변경
+            IF	_PlayDataIdx01 > 0 OR _PlayDataIdx02 > 0 OR _PlayDataIdx03 > 0 OR _PlayDataIdx04 > 0 OR _PlayDataIdx05 > 0 
+			OR	_PlayDataIdx06 > 0 OR _PlayDataIdx07 > 0 OR _PlayDataIdx08 > 0 OR _PlayDataIdx09 > 0 OR _PlayDataIdx10 > 0	THEN
+				CALL PlayData_Update_DB	( _CharacterUID
+										, _PlayDataIdx01	, _PlayDataValue01
+										, _PlayDataIdx02	, _PlayDataValue02
+										, _PlayDataIdx03	, _PlayDataValue03
+										, _PlayDataIdx04	, _PlayDataValue04
+										, _PlayDataIdx05	, _PlayDataValue05
+										, _PlayDataIdx06	, _PlayDataValue06
+										, _PlayDataIdx07	, _PlayDataValue07
+										, _PlayDataIdx08	, _PlayDataValue08
+										, _PlayDataIdx09	, _PlayDataValue09
+										, _PlayDataIdx10	, _PlayDataValue10
+										, _Result	);
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;		
+            END IF;
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

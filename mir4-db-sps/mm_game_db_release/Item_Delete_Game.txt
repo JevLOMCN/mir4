@@ -1,0 +1,30 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Item_Delete_Game`( 
+	IN	_ItemUID				BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount	MEDIUMINT
+,	IN	_StackResultServer		MEDIUMINT	UNSIGNED
+
+,	OUT _StackResultDB	MEDIUMINT
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET _StackResultDB = 0, _Result = -1;
+    
+	MAIN_ROUTINE:
+	BEGIN
+		START TRANSACTION;
+			-- 아이템 삭제
+			CALL Item_Delete_DB ( _ItemUID, _StackDecreaseAmount, _StackResultServer, _StackResultDB, _Result );
+			IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

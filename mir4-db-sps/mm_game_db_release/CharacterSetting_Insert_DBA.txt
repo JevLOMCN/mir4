@@ -1,0 +1,532 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `CharacterSetting_Insert_DBA`(
+	IN	_CharacterName		VARCHAR(50)
+,	IN	_CharacterLev		TINYINT	UNSIGNED
+,	IN	_Gold				BIGINT
+
+,	IN	_MainQuestIdx	INT		UNSIGNED
+,	IN	_MainQuestState	TINYINT	UNSIGNED
+ 
+,	IN	_NonStackItemIdx01	INT	UNSIGNED
+,	IN	_NonStackItemIdx02	INT	UNSIGNED
+,	IN	_NonStackItemIdx03	INT	UNSIGNED
+,	IN	_NonStackItemIdx04	INT	UNSIGNED
+,	IN	_NonStackItemIdx05	INT	UNSIGNED
+,	IN	_NonStackItemIdx06	INT	UNSIGNED
+,	IN	_NonStackItemIdx07	INT	UNSIGNED
+,	IN	_NonStackItemIdx08	INT	UNSIGNED
+,	IN	_NonStackItemIdx09	INT	UNSIGNED
+,	IN	_NonStackItemIdx10	INT	UNSIGNED
+,	IN	_NonStackItemIdx11	INT	UNSIGNED
+,	IN	_NonStackItemIdx12	INT	UNSIGNED
+
+,	IN	_StackItemIdx01	INT	UNSIGNED
+,	IN	_StackCnt01		MEDIUMINT
+,	IN	_StackItemIdx02	INT	UNSIGNED
+,	IN	_StackCnt02		MEDIUMINT
+,	IN	_StackItemIdx03	INT	UNSIGNED
+,	IN	_StackCnt03		MEDIUMINT
+,	IN	_StackItemIdx04	INT	UNSIGNED
+,	IN	_StackCnt04		MEDIUMINT
+,	IN	_StackItemIdx05	INT	UNSIGNED
+,	IN	_StackCnt05		MEDIUMINT
+,	IN	_StackItemIdx06	INT	UNSIGNED
+,	IN	_StackCnt06		MEDIUMINT
+,	IN	_StackItemIdx07	INT	UNSIGNED
+,	IN	_StackCnt07		MEDIUMINT
+,	IN	_StackItemIdx08	INT	UNSIGNED
+,	IN	_StackCnt08		MEDIUMINT
+,	IN	_StackItemIdx09	INT	UNSIGNED
+,	IN	_StackCnt09		MEDIUMINT
+,	IN	_StackItemIdx10	INT	UNSIGNED
+,	IN	_StackCnt10		MEDIUMINT
+,	IN	_StackItemIdx11	INT	UNSIGNED
+,	IN	_StackCnt11		MEDIUMINT
+,	IN	_StackItemIdx12	INT	UNSIGNED
+,	IN	_StackCnt12		MEDIUMINT
+,	IN	_StackItemIdx13	INT	UNSIGNED
+,	IN	_StackCnt13		MEDIUMINT
+,	IN	_StackItemIdx14	INT	UNSIGNED
+,	IN	_StackCnt14		MEDIUMINT
+,	IN	_StackItemIdx15	INT	UNSIGNED
+,	IN	_StackCnt15		MEDIUMINT
+,	IN	_StackItemIdx16	INT	UNSIGNED
+,	IN	_StackCnt16		MEDIUMINT
+,	IN	_StackItemIdx17	INT	UNSIGNED
+,	IN	_StackCnt17		MEDIUMINT
+,	IN	_StackItemIdx18	INT	UNSIGNED
+,	IN	_StackCnt18		MEDIUMINT
+,	IN	_StackItemIdx19	INT	UNSIGNED
+,	IN	_StackCnt19		MEDIUMINT
+,	IN	_StackItemIdx20	INT	UNSIGNED
+,	IN	_StackCnt20		MEDIUMINT
+,	IN	_StackItemIdx21	INT	UNSIGNED
+,	IN	_StackCnt21		MEDIUMINT
+,	IN	_StackItemIdx22	INT	UNSIGNED
+,	IN	_StackCnt22		MEDIUMINT
+,	IN	_StackItemIdx23	INT	UNSIGNED
+,	IN	_StackCnt23		MEDIUMINT
+,	IN	_StackItemIdx24	INT	UNSIGNED
+,	IN	_StackCnt24		MEDIUMINT
+,	IN	_StackItemIdx25	INT	UNSIGNED
+,	IN	_StackCnt25		MEDIUMINT
+,	IN	_StackItemIdx26	INT	UNSIGNED
+,	IN	_StackCnt26		MEDIUMINT
+,	IN	_StackItemIdx27	INT	UNSIGNED
+,	IN	_StackCnt27		MEDIUMINT
+,	IN	_StackItemIdx28	INT	UNSIGNED
+,	IN	_StackCnt28		MEDIUMINT
+,	IN	_StackItemIdx29	INT	UNSIGNED
+,	IN	_StackCnt29		MEDIUMINT
+,	IN	_StackItemIdx30	INT	UNSIGNED
+,	IN	_StackCnt30		MEDIUMINT
+,	IN	_StackItemIdx31	INT	UNSIGNED
+,	IN	_StackCnt31		MEDIUMINT
+,	IN	_StackItemIdx32	INT	UNSIGNED
+,	IN	_StackCnt32		MEDIUMINT
+,	IN	_StackItemIdx33	INT	UNSIGNED
+,	IN	_StackCnt33		MEDIUMINT
+,	IN	_StackItemIdx34	INT	UNSIGNED
+,	IN	_StackCnt34		MEDIUMINT
+,	IN	_StackItemIdx35	INT	UNSIGNED
+,	IN	_StackCnt35		MEDIUMINT
+,	IN	_StackItemIdx36	INT	UNSIGNED
+,	IN	_StackCnt36		MEDIUMINT
+,	IN	_StackItemIdx37	INT	UNSIGNED
+,	IN	_StackCnt37		MEDIUMINT
+,	IN	_StackItemIdx38	INT	UNSIGNED
+,	IN	_StackCnt38		MEDIUMINT
+,	IN	_StackItemIdx39	INT	UNSIGNED
+,	IN	_StackCnt39		MEDIUMINT
+,	IN	_StackItemIdx40	INT	UNSIGNED
+,	IN	_StackCnt40		MEDIUMINT
+
+,	IN	_CostumeIdx01		INT			UNSIGNED
+,	IN	_CostumeGrade01		TINYINT		UNSIGNED	
+,	IN	_HairColorIdx01		MEDIUMINT	UNSIGNED		
+,	IN	_ClothesColorIdx01	MEDIUMINT	UNSIGNED			
+,	IN	_CostumeIdx02		INT			UNSIGNED
+,	IN	_CostumeGrade02		TINYINT		UNSIGNED	
+,	IN	_HairColorIdx02		MEDIUMINT	UNSIGNED		
+,	IN	_ClothesColorIdx02	MEDIUMINT	UNSIGNED			
+,	IN	_CostumeIdx03		INT			UNSIGNED
+,	IN	_CostumeGrade03		TINYINT		UNSIGNED	
+,	IN	_HairColorIdx03		MEDIUMINT	UNSIGNED		
+,	IN	_ClothesColorIdx03	MEDIUMINT	UNSIGNED			
+,	IN	_CostumeIdx04		INT			UNSIGNED
+,	IN	_CostumeGrade04		TINYINT		UNSIGNED	
+,	IN	_HairColorIdx04		MEDIUMINT	UNSIGNED		
+,	IN	_ClothesColorIdx04	MEDIUMINT	UNSIGNED			
+,	IN	_CostumeIdx05		INT			UNSIGNED
+,	IN	_CostumeGrade05		TINYINT		UNSIGNED	
+,	IN	_HairColorIdx05		MEDIUMINT	UNSIGNED		
+,	IN	_ClothesColorIdx05	MEDIUMINT	UNSIGNED			
+,	IN	_CostumeIdx06		INT			UNSIGNED
+,	IN	_CostumeGrade06		TINYINT		UNSIGNED	
+,	IN	_HairColorIdx06		MEDIUMINT	UNSIGNED		
+,	IN	_ClothesColorIdx06	MEDIUMINT	UNSIGNED			
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+ 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET _Result = -1;
+    
+	MAIN_ROUTINE: 
+    BEGIN
+		IF	_CharacterName = '' OR _CharacterLev = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값이 없음
+        END IF;	
+        
+        START TRANSACTION;
+			SELECT 	CH.CharacterUID
+            INTO	@CharacterUID 
+			FROM 			character_tb		AS CH	
+            LEFT OUTER JOIN	character_delete_tb	AS CD	ON CD.CharacterUID = CH.CharacterUID
+            WHERE 	CH.CharacterName = _CharacterName AND ( CD.DeleteTime > NOW() OR CD.DeleteTime IS NULL );
+			IF	FOUND_ROWS() != 1	THEN ROLLBACK;	SET _Result = 201;	LEAVE MAIN_ROUTINE;	END IF; -- 존재하지 않는 캐릭터
+			
+            UPDATE character_tb	SET Lev = _CharacterLev, Gold = _Gold	WHERE CharacterUID = @CharacterUID;
+			
+            
+            -- 코스튬 개방
+            IF	_CostumeIdx01	> 0	THEN											
+				INSERT IGNORE INTO	costume_tb 									
+						( CharacterUID	, CostumeIdx	, CostumeGrade		, HairColorIdx		, ClothesColorIdx		) 
+				VALUES	( @CharacterUID	, _CostumeIdx01	, _CostumeGrade01	, _HairColorIdx01	, _ClothesColorIdx01	);				
+            END IF;														
+            														
+            IF	_CostumeIdx02	> 0	THEN											
+				INSERT IGNORE INTO	costume_tb 									
+						( CharacterUID	, CostumeIdx	, CostumeGrade		, HairColorIdx		, ClothesColorIdx		) 
+				VALUES	( @CharacterUID	, _CostumeIdx02	, _CostumeGrade02	, _HairColorIdx02	, _ClothesColorIdx02	);				
+            END IF;														
+            														
+            IF	_CostumeIdx03	> 0	THEN											
+				INSERT IGNORE INTO	costume_tb 									
+						( CharacterUID	, CostumeIdx	, CostumeGrade		, HairColorIdx		, ClothesColorIdx		) 
+				VALUES	( @CharacterUID	, _CostumeIdx03	, _CostumeGrade03	, _HairColorIdx03	, _ClothesColorIdx03	);				
+            END IF;														
+            														
+            IF	_CostumeIdx04	> 0	THEN											
+				INSERT IGNORE INTO	costume_tb 									
+						( CharacterUID	, CostumeIdx	, CostumeGrade		, HairColorIdx		, ClothesColorIdx		) 
+				VALUES	( @CharacterUID	, _CostumeIdx04	, _CostumeGrade04	, _HairColorIdx04	, _ClothesColorIdx04	);				
+            END IF;														
+            														
+            IF	_CostumeIdx05	> 0	THEN											
+				INSERT IGNORE INTO	costume_tb 									
+						( CharacterUID	, CostumeIdx	, CostumeGrade		, HairColorIdx		, ClothesColorIdx		) 
+				VALUES	( @CharacterUID	, _CostumeIdx05	, _CostumeGrade05	, _HairColorIdx05	, _ClothesColorIdx05	);				
+            END IF;														
+            														
+            IF	_CostumeIdx06	> 0	THEN											
+				INSERT IGNORE INTO	costume_tb 									
+						( CharacterUID	, CostumeIdx	, CostumeGrade		, HairColorIdx		, ClothesColorIdx		) 
+				VALUES	( @CharacterUID	, _CostumeIdx06	, _CostumeGrade06	, _HairColorIdx06	, _ClothesColorIdx06	);				
+            END IF;														
+            														
+            
+            -- 장비 아이템 생성
+            SELECT	ItemUID	
+            INTO	@ItemUID 
+            FROM 	item_tb	
+            WHERE 	ItemUID > 18000000000000000000	ORDER BY ItemUID DESC	LIMIT 1;
+            IF	FOUND_ROWS() = 0	THEN SET @ItemUID = 18000000000000000000;	END IF;
+
+            IF	_NonStackItemIdx01	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx01	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx02	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx02	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx03	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx03	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx04	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx04	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx05	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx05	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx06	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx06	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx07	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx07	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx08	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx08	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx09	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx09	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx10	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx10	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx11	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx11	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+            IF	_NonStackItemIdx12	> 0 THEN					
+				SET @ItemUID = @ItemUID + 1;			
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _NonStackItemIdx12	, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );		
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+            END IF;							
+            							
+    
+			-- 스택 아이템 생성
+            SELECT	ItemUID	
+            INTO	@ItemUID 
+            FROM 	item_tb	
+            WHERE 	ItemUID > 18000000000000000000	ORDER BY ItemUID DESC	LIMIT 1;
+            IF	FOUND_ROWS() = 0	THEN SET @ItemUID = 18000000000000000000;	END IF;
+            
+            IF	_StackItemIdx01	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx01	, 0, 0, 0, 0, _StackCnt01	, _StackCnt01	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx02	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx02	, 0, 0, 0, 0, _StackCnt02	, _StackCnt02	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx03	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx03	, 0, 0, 0, 0, _StackCnt03	, _StackCnt03	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx04	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx04	, 0, 0, 0, 0, _StackCnt04	, _StackCnt04	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx05	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx05	, 0, 0, 0, 0, _StackCnt05	, _StackCnt05	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx06	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx06	, 0, 0, 0, 0, _StackCnt06	, _StackCnt06	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx07	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx07	, 0, 0, 0, 0, _StackCnt07	, _StackCnt07	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx08	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx08	, 0, 0, 0, 0, _StackCnt08	, _StackCnt08	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx09	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx09	, 0, 0, 0, 0, _StackCnt09	, _StackCnt09	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx10	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx10	, 0, 0, 0, 0, _StackCnt10	, _StackCnt10	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx11	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx11	, 0, 0, 0, 0, _StackCnt11	, _StackCnt11	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx12	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx12	, 0, 0, 0, 0, _StackCnt12	, _StackCnt12	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx13	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx13	, 0, 0, 0, 0, _StackCnt13	, _StackCnt13	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx14	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx14	, 0, 0, 0, 0, _StackCnt14	, _StackCnt14	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx15	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx15	, 0, 0, 0, 0, _StackCnt15	, _StackCnt15	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx16	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx16	, 0, 0, 0, 0, _StackCnt16	, _StackCnt16	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx17	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx17	, 0, 0, 0, 0, _StackCnt17	, _StackCnt17	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx18	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx18	, 0, 0, 0, 0, _StackCnt18	, _StackCnt18	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx19	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx19	, 0, 0, 0, 0, _StackCnt19	, _StackCnt19	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx20	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx20	, 0, 0, 0, 0, _StackCnt20	, _StackCnt20	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx21	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx21	, 0, 0, 0, 0, _StackCnt21	, _StackCnt21	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx22	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx22	, 0, 0, 0, 0, _StackCnt22	, _StackCnt22	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx23	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx23	, 0, 0, 0, 0, _StackCnt23	, _StackCnt23	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx24	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx24	, 0, 0, 0, 0, _StackCnt24	, _StackCnt24	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx25	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx25	, 0, 0, 0, 0, _StackCnt25	, _StackCnt25	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx26	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx26	, 0, 0, 0, 0, _StackCnt26	, _StackCnt26	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx27	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx27	, 0, 0, 0, 0, _StackCnt27	, _StackCnt27	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx28	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx28	, 0, 0, 0, 0, _StackCnt28	, _StackCnt28	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx29	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx29	, 0, 0, 0, 0, _StackCnt29	, _StackCnt29	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx30	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx30	, 0, 0, 0, 0, _StackCnt30	, _StackCnt30	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx31	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx31	, 0, 0, 0, 0, _StackCnt31	, _StackCnt31	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx32	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx32	, 0, 0, 0, 0, _StackCnt32	, _StackCnt32	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx33	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx33	, 0, 0, 0, 0, _StackCnt33	, _StackCnt33	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx34	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx34	, 0, 0, 0, 0, _StackCnt34	, _StackCnt34	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx35	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx35	, 0, 0, 0, 0, _StackCnt35	, _StackCnt35	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx36	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx36	, 0, 0, 0, 0, _StackCnt36	, _StackCnt36	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx37	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx37	, 0, 0, 0, 0, _StackCnt37	, _StackCnt37	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx38	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx38	, 0, 0, 0, 0, _StackCnt38	, _StackCnt38	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx39	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx39	, 0, 0, 0, 0, _StackCnt39	, _StackCnt39	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+            								
+            IF	_StackItemIdx40	> 0 THEN						
+				SET @ItemUID = @ItemUID + 1;				
+				CALL Item_Insert_DB ( @CharacterUID, @ItemUID, _StackItemIdx40	, 0, 0, 0, 0, _StackCnt40	, _StackCnt40	, 0, 0, 0, 0, 0, 0, 0, 0, 0, @StackResultDB, _Result );	
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            END IF;								
+			
+            
+            -- 퀘스트
+            IF	_MainQuestIdx	> 0 THEN			
+				INSERT IGNORE INTO quest_main_tb ( CharacterUID, QuestIdx, State, QuestValue )	VALUES ( @CharacterUID, _MainQuestIdx, _MainQuestState, 0 );
+            END IF;					
+
+
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

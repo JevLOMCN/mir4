@@ -1,0 +1,39 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `CharacterList_Get_World`(
+	IN	_AccountUID	BIGINT	UNSIGNED
+ 
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+ 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_AccountUID = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+        
+        -- 계정의 캐릭터 리스트
+        SELECT	CH.CharacterUID, CH.CharacterName
+			, CH.Class, CH.Lev, CH.Exp, UNIX_TIMESTAMP(CH.LoginTime) AS LoginTime, CH.StageIdx, CH.PlaytimeSec, CH.CombatPoint
+			-- ,	MAX( CASE WHEN EI.EquipSlot = 1 THEN IT.ItemIdx		ELSE 0 END ) AS ItemIdx01
+            -- ,	MAX( IFNULL( CASE WHEN EI.EquipSlot = 1 THEN SM.SmeltingLev	ELSE 0 END, 0 ) ) AS SmeltingLev01
+            -- ,	IFNULL( CO.CostumeIdx, 0 ) AS CostumeIdx
+            -- ,   IFNULL( CO.HairColorIdx, 0 ) AS HairColorIdx
+            -- ,   IFNULL( CO.ClothesColorIdx, 0 ) AS ClothesColorIdx
+        FROM			character_tb		AS CH
+        LEFT OUTER JOIN character_delete_tb	AS CD ON CD.CharacterUID = CH.CharacterUID
+		-- LEFT OUTER JOIN	costume_tb			AS CO ON CO.CharacterUID = CH.CharacterUID AND CO.CostumeIdx = CH.CostumeIdx
+       --  LEFT OUTER JOIN	item_character_tb	AS IC ON IC.CharacterUID = CH.CharacterUID
+        -- LEFT OUTER JOIN	item_tb				AS IT ON IT.ItemUID = IC.ItemUID
+        -- LEFT OUTER JOIN	equip_item_tb		AS EI ON EI.ItemUID = IT.ItemUID 
+        -- LEFT OUTER JOIN	item_smelting_tb	AS SM ON SM.ItemUID = IT.ItemUID 
+        WHERE	CH.AccountUID = _AccountUID AND ( CD.DeleteTime > NOW() OR CD.DeleteTime IS NULL );
+
+		SET	_Result = 0;
+    END;
+END

@@ -1,0 +1,43 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Account_Get_Game`(
+	IN	_AccountUID		BIGINT	UNSIGNED
+,	IN	_AccountName	VARCHAR(50)
+,	IN	_AuthKey	VARCHAR(38)
+
+,	OUT	_Cash	INT	UNSIGNED
+,	OUT	_Result	INT
+)
+BEGIN
+    DECLARE _validAuthKey VARCHAR(38);
+    DECLARE EXIT HANDLER FOR SQLEXCEPTION
+    BEGIN
+                GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT;
+        SET _Result = @Errno;
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+    END;
+    SET	_Cash = 0, _Result = -1;
+    SET	_AccountName = LTRIM( RTRIM(_AccountName) );
+
+
+    MAIN_ROUTINE:
+    BEGIN
+        IF	_AccountUID = 0 OR _AccountName = ''	THEN
+            SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+    END IF;
+
+    SELECT AuthKey INTO _validAuthKey FROM account_auth_tb WHERE AccountUID = _AccountUID AND AuthKey = _AuthKey AND Expires > NOW();
+    IF _validAuthKey != _AuthKey THEN
+        SET _Result = 4;	LEAVE MAIN_ROUTINE;
+END IF;
+
+-- 계정 데이터
+SELECT Cash	INTO _Cash	FROM account_tb	WHERE AccountUID = _AccountUID AND AccountName = _AccountName;
+IF	FOUND_ROWS() <= 0	THEN	-- 계정 데이터가 없을 경우 생성
+    SET	_Cash = 0;
+
+INSERT IGNORE INTO account_tb ( AccountUID, AccountName, Cash )	VALUES ( _AccountUID, _AccountName, _Cash );
+IF ROW_COUNT() <= 0	THEN SET _Result = 101;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 계정
+END IF;
+
+SET	_Result = 0;
+END;
+END

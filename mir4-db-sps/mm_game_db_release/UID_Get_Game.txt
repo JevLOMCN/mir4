@@ -1,0 +1,46 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `UID_Get_Game`(
+	IN	_UIDType			TINYINT	UNSIGNED 
+
+,	OUT	_UIDCnt				BIGINT	UNSIGNED
+,	OUT	_UIDRecallPercent	TINYINT	UNSIGNED
+,	OUT	_StartUID			BIGINT	UNSIGNED
+,	OUT	_EndUID				BIGINT	UNSIGNED
+,	OUT	_Result				INT
+)
+BEGIN
+	DECLARE	_LockName	VARCHAR(30);
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET	_UIDCnt = UIDCnt_fn(_UIDType), _UIDRecallPercent = UIDRecallPercent_fn(), _StartUID = 0, _EndUID = 0, _Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_UIDType = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+        
+-- 		SET SESSION TRANSACTION ISOLATION LEVEL SERIALIZABLE; 
+		START TRANSACTION;
+			SET	_LockName = CONCAT( 'UID_Get_', _UIDType );
+			SET _Result = GET_LOCK( _LockName, 10 );
+				CASE
+				WHEN	_UIDType = 1	THEN	-- ItemUID 발급
+					SELECT EndUID INTO _StartUID FROM uid_tb WHERE UIDType = 1 ORDER BY EndUID DESC LIMIT 1;
+					
+					SET _EndUID = _StartUID + _UIDCnt, _StartUID = _StartUID + 1;
+					
+					INSERT INTO uid_tb 
+							( UIDType	, StartUID	, EndUID	, CreateTime 	)	
+					VALUE 	( _UIDType	, _StartUID	, _EndUID	, NOW() 		);
+				ELSE	
+					ROLLBACK;	SET	_Result = 6;	LEAVE MAIN_ROUTINE;	-- 정의되지 않은 값
+				END CASE;
+            SET _Result = RELEASE_LOCK(_LockName);
+
+            SET	_Result = 0;
+		COMMIT;
+    END;
+END

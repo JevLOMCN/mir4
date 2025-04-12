@@ -1,0 +1,68 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `AccountLogin_Get_Front`(
+	IN	_AccountType	TINYINT	UNSIGNED
+,	IN	_AccountName	VARCHAR(50)	
+,   IN	_SDKName		VARCHAR(20)	
+-- ,   IN	_NationName		VARCHAR(20)	
+    
+,   OUT	_AccountUID		BIGINT	UNSIGNED
+,   OUT	_AccountGrade	TINYINT	UNSIGNED
+,   OUT	_BlockReason	TINYINT	UNSIGNED
+,   OUT	_BlockEndTime	INT		UNSIGNED
+,	OUT _Result			INT
+)
+BEGIN
+	DECLARE	_NationUID	TINYINT;
+	DECLARE	_SDKUID		TINYINT; 
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;
+ 		SELECT @Sqlstate, @Errno, @Text;
+	END;
+    
+	SET	_AccountUID = 0, _AccountGrade = 0, _BlockReason = 0, _BlockEndTime = 0, _Result = -1;
+	SET	_AccountName = LTRIM( RTRIM(_AccountName) );
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_AccountType = 0 OR _AccountName = '' OR _SDKName = '' THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- Failed to receive values ​​required for processing
+		END IF;
+		
+        SET _AccountType = AccountType_fn();
+        
+		SELECT	AC.AccountUID
+		INTO	_AccountUID	
+		FROM		account_tb	AS AC	
+		INNER JOIN	sdk_tb		AS SD	ON SD.SDKUID = AC.SDKUID
+		WHERE	AC.AccountName = _AccountName AND AC.AccountType = _AccountType AND SD.SDKName = _SDKName;
+        
+		IF FOUND_ROWS() <= 0 AND _AccountType = 1	THEN	-- If you do not have an account and it is a development account: Access is not possible
+			SET _Result = 101;	LEAVE MAIN_ROUTINE;	-- Non-existent account
+            
+        ELSEIF	FOUND_ROWS() <= 0	THEN	-- If you do not have an account and it is not a development account: Enter your account
+			SELECT SDKUID	INTO _SDKUID	FROM sdk_tb	WHERE SDKName = _SDKName;
+			IF	FOUND_ROWS() = 0	THEN
+				INSERT INTO	sdk_tb(SDKName)	VALUES(_SDKName);
+				SET	_SDKUID = LAST_INSERT_ID();
+			END IF;
+			
+			INSERT INTO account_tb
+					( AccountType	, AccountName	, SDKUID	, NationUID	, CreateTime, LoginTime	, LogoutTime 	)		
+			VALUES	( _AccountType	, _AccountName	, _SDKUID	, _NationUID, NOW() 	, NOW()		, NULL			);
+			SET	_AccountUID = LAST_INSERT_ID();
+        
+        ELSE	-- If you have an account
+			UPDATE account_tb	SET LoginTime = NOW()	WHERE AccountUID = _AccountUID;
+		
+			SELECT 	BlockReason	, UNIX_TIMESTAMP(BlockEndTime)
+			INTO	_BlockReason, _BlockEndTime
+			FROM 	account_block_tb	
+			WHERE 	AccountUID = _AccountUID;
+			
+			SELECT AccountGrade	INTO _AccountGrade	FROM account_grade_tb	WHERE AccountUID = _AccountUID;
+        END IF;
+        
+		SET	_Result = 0;
+    END;
+END

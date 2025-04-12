@@ -1,0 +1,43 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Vehicle_Insert_Game`(
+	IN	_CharacterUID			BIGINT		UNSIGNED
+,	IN	_VehicleGroupId			SMALLINT	UNSIGNED
+,	IN	_VehicleIdx				SMALLINT	UNSIGNED
+,	IN	_DeleteItemUID			BIGINT		UNSIGNED	
+,	IN	_StackDecreaseAmount	MEDIUMINT
+,	IN	_StackResultServer		MEDIUMINT	UNSIGNED		
+
+,	OUT	_StackResultDB	MEDIUMINT
+,	OUT _Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET _Result = -1;
+    
+	MAIN_ROUTINE: 
+    BEGIN
+		IF		_VehicleIdx = 0 OR _VehicleGroupId = 0 OR _DeleteItemUID = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값이 없음
+        ELSEIF	_StackDecreaseAmount >= 0										THEN SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+        START TRANSACTION;
+            -- 아이템 스택 변경
+			CALL ItemStack_Update_DB ( _CharacterUID, _DeleteItemUID	, 0, _StackDecreaseAmount	, _StackResultServer	, _StackResultDB	, _Result );	
+			IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;	
+            
+			-- 탈것 추가
+			INSERT IGNORE INTO vehicle_tb
+					( CharacterUID	, VehicleGroupId	, VehicleIdx	, VehicleLev, VehicleExp	) 
+			VALUES	( _CharacterUID	, _VehicleGroupId	, _VehicleIdx	, 1			, 0				);
+			IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 902;	LEAVE MAIN_ROUTINE;	END IF;	-- 이미 존재하는 탈것
+			
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

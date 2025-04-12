@@ -1,0 +1,20 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `DepartmentList_Get_Front`(
+	OUT _Result			INT	
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text;
+	END;
+    
+    SET	_Result = -1;
+
+	MAIN_ROUTINE:
+    BEGIN
+		SELECT DepartmentUID, DepartmentName	FROM department_tb;
+        
+		SET	_Result = 0;
+	END;
+END

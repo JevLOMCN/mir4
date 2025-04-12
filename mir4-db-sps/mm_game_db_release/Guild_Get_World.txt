@@ -1,0 +1,52 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Guild_Get_World`(
+	IN	_GuildUID		INT	UNSIGNED
+
+,	OUT	_GuildName		VARCHAR(16)
+,	OUT	_GuildNotice	VARCHAR(150)
+,	OUT	_GuildPR		VARCHAR(150)
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text;
+	END;
+    
+    SET	_Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+        IF	_GuildUID = 0	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        END IF;	
+		
+        -- 길드원 리스트
+        SELECT	CH.CharacterUID, CH.CharacterName, CH.Class, CH.Lev, UNIX_TIMESTAMP(CH.LogoutTime) AS LogoutTime, CG.MemberGrade
+        FROM 		character_guild_tb	AS CG
+        INNER JOIN	character_tb		AS CH	ON CH.CharacterUID = CG.CharacterUID
+        WHERE 	CG.GuildUID = _GuildUID;
+        
+        -- 길드 문장
+        SELECT MarkType, MarkIdx	FROM guild_mark_tb	WHERE GuildUID = _GuildUID;
+        
+        -- 직책 이름
+        SELECT MemberGrade, MemberGradeName	FROM guild_membergradename_tb	WHERE GuildUID = _GuildUID;
+        
+        -- 길드 정보
+        SELECT	GuildName	, GuildNotice	, GuildPR
+        INTO	_GuildName	, _GuildNotice	, _GuildPR
+        FROM	guild_tb
+        WHERE	GuildUID = _GuildUID;
+		IF ROW_COUNT() <= 0	THEN SET _Result = 1001;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 길드
+		
+        -- 전쟁건 길드
+        SELECT TargetGuildUID	FROM guild_war_tb	WHERE DeclareGuildUID = _GuildUID;
+        
+        -- 전쟁 당한 길드
+        SELECT DeclareGuildUID	FROM guild_war_tb	WHERE TargetGuildUID = _GuildUID;
+        
+		SET	_Result = 0;
+	END;
+END

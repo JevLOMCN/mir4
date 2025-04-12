@@ -1,0 +1,72 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `_QuestDailyReset_Update_Game`(
+	IN	_CharacterUID			BIGINT	UNSIGNED
+,	IN	_MoneyType				TINYINT	UNSIGNED
+,	IN	_MoneyDecreaseAmount	BIGINT
+,	IN	_MoneyResultServer		BIGINT	UNSIGNED
+,	IN	_MoneyUpdateTime		INT		UNSIGNED
+,	IN	_FreeResetCnt			TINYINT	UNSIGNED
+
+,	IN	_QuestUID01		TINYINT	UNSIGNED
+,	IN	_QuestIdx01		INT		UNSIGNED
+,	IN	_QuestGrade01	TINYINT	UNSIGNED
+,	IN	_QuestUID02		TINYINT	UNSIGNED
+,	IN	_QuestIdx02		INT		UNSIGNED
+,	IN	_QuestGrade02	TINYINT	UNSIGNED
+,	IN	_QuestUID03		TINYINT	UNSIGNED
+,	IN	_QuestIdx03		INT		UNSIGNED
+,	IN	_QuestGrade03	TINYINT	UNSIGNED
+
+,	OUT _MoneyResultDB	BIGINT
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_MoneyResultDB = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 				THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+		ELSEIF	_MoneyDecreaseAmount > 0	THEN SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+            IF	_MoneyDecreaseAmount < 0	THEN	-- 유료 갱신일 경우 재화 차감
+				CALL Money_Update_DB( 0, _CharacterUID, _MoneyType, _MoneyIncreaseAmount, _MoneyResultServer, _MoneyUpdateTime, _MoneyResultDB, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			ELSE	-- 무료 갱신일 경우 사용 카운트 증가
+				UPDATE quest_daily_tb	SET FreeResetCnt = _FreeResetCnt	WHERE CharacterUID = _CharacterUID;
+			END IF;
+            
+            -- 퀘스트 변경
+            IF	_QuestUID01	> 0	THEN
+				UPDATE	quest_daily_list_tb
+				SET		QuestIdx = _QuestIdx01	, QuestGrade = _QuestGrade01	
+				WHERE	CharacterUID = _CharacterUID AND QuestUID = _QuestUID01	AND AcceptTime = 0 AND QuestClear = 0 AND RewardReceiveTime = 0;
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 퀘스트			
+            END IF;
+           								
+            IF	_QuestUID02	> 0	THEN	
+				UPDATE	quest_daily_list_tb			
+				SET		QuestIdx = _QuestIdx02	, QuestGrade = _QuestGrade02	
+				WHERE	CharacterUID = _CharacterUID AND QuestUID = _QuestUID02	AND AcceptTime = 0 AND QuestClear = 0 AND RewardReceiveTime = 0;		
+				IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 퀘스트
+            END IF;								
+            								
+            IF	_QuestUID03	> 0	THEN					
+				UPDATE	quest_daily_list_tb			
+				SET		QuestIdx = _QuestIdx03	, QuestGrade = _QuestGrade03	
+				WHERE	CharacterUID = _CharacterUID AND QuestUID = _QuestUID03	AND AcceptTime = 0 AND QuestClear = 0 AND RewardReceiveTime = 0;		
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 퀘스트			
+            END IF;								
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

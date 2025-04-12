@@ -1,0 +1,28 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `QuestDaily_Update_Game`(
+	IN	_CharacterUID		BIGINT	UNSIGNED
+,	IN	_DailyQuestIdx		INT		UNSIGNED
+,	IN	_DailyQuestState	TINYINT	UNSIGNED
+,	IN	_DailyQuestValue	TINYINT	UNSIGNED
+    
+,	OUT _Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET	_Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _DailyQuestIdx = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+        
+		UPDATE quest_daily_list_tb	SET State = _DailyQuestState, QuestValue = _DailyQuestValue	WHERE CharacterUID = _CharacterUID AND QuestIdx = _DailyQuestIdx;
+        IF ROW_COUNT() <= 0	THEN SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+        
+		SET	_Result = 0;
+    END;
+END

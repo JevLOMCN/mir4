@@ -1,0 +1,33 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Guild_Delete_World`(
+	IN	_GuildUID	INT	UNSIGNED
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text;
+		ROLLBACK;
+	END;
+    
+    SET	_Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+        IF	_GuildUID = 0	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        END IF;	
+		
+        START TRANSACTION;
+			DELETE FROM character_guild_tb	WHERE GuildUID = _GuildUID;
+			IF ROW_COUNT() > 1	THEN ROLLBACK;	SET _Result = 9;	LEAVE MAIN_ROUTINE;	END IF;	-- 삭제 할 수 없는 데이터
+            
+            INSERT IGNORE INTO guild_delete_tb ( GuildUID, DeleteTime )	VALUES ( _GuildUID, NOW() );
+            IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- DB에 존재하지 않는 데이터
+        
+			SET	_Result = 0;
+		COMMIT;
+	END;
+END

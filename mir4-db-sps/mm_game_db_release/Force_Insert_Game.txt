@@ -1,0 +1,60 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Force_Insert_Game`(
+	IN	_CharacterUID	BIGINT		UNSIGNED
+,	IN	_ForceIdx		SMALLINT	UNSIGNED
+
+,	IN	_DeleteItemUID01			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount01		MEDIUMINT			
+,	IN	_DeleteStackResultServer01	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID02			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount02		MEDIUMINT			
+,	IN	_DeleteStackResultServer02	MEDIUMINT	UNSIGNED			
+,	IN	_DeleteItemUID03			BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount03		MEDIUMINT			
+,	IN	_DeleteStackResultServer03	MEDIUMINT	UNSIGNED			
+
+,	OUT	_DeleteStackResultDB01	MEDIUMINT
+,	OUT	_DeleteStackResultDB02	MEDIUMINT
+,	OUT	_DeleteStackResultDB03	MEDIUMINT
+,	OUT	_Result					INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_DeleteStackResultDB01 = 0, _DeleteStackResultDB02 = 0, _DeleteStackResultDB03 = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+        IF	_CharacterUID = 0 OR _ForceIdx = 0 OR _DeleteItemUID01 = 0	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+
+        ELSEIF	_StackDecreaseAmount01 > 0 OR _StackDecreaseAmount02 > 0 OR _StackDecreaseAmount03 > 0	THEN 
+			SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+            -- 내공 추가
+            INSERT IGNORE INTO force_tb ( CharacterUID, ForceIdx, SlumpExpireTime )	VALUES ( _CharacterUID, _ForceIdx, '0000-00-00 00:00:00' );
+            IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 2;	LEAVE MAIN_ROUTINE;	END IF;	-- 중복된 데이터 존재
+		
+            -- 아이템 삭제
+				CALL Item_Delete_DB ( _DeleteItemUID01	, _StackDecreaseAmount01	, _DeleteStackResultServer01	, _DeleteStackResultDB01	, _Result );	
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+            IF _DeleteItemUID02	> 0	THEN 						
+				CALL Item_Delete_DB ( _DeleteItemUID02	, _StackDecreaseAmount02	, _DeleteStackResultServer02	, _DeleteStackResultDB02	, _Result );	
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            IF _DeleteItemUID03	> 0	THEN 						
+				CALL Item_Delete_DB ( _DeleteItemUID03	, _StackDecreaseAmount03	, _DeleteStackResultServer03	, _DeleteStackResultDB03	, _Result );	
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;						
+			END IF;					
+            
+			SET	_Result = 0;
+		COMMIT;
+	END;
+END

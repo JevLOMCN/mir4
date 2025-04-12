@@ -1,0 +1,119 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Mail_Insert_DB`(
+	IN	_ReceiveCharacterUID	BIGINT		UNSIGNED
+,	IN	_SenderIdx				SMALLINT	UNSIGNED
+,	IN	_TitleIdx				SMALLINT	UNSIGNED
+,	IN	_ContentsIdx			SMALLINT	UNSIGNED
+,	IN	_ExpiryTime				INT			UNSIGNED
+,	IN	_TitleText				VARCHAR(36)
+,	IN	_ContentsText			VARCHAR(300)
+
+,	IN	_ItemIdx01		INT			UNSIGNED
+,	IN	_StackCnt01		MEDIUMINT	UNSIGNED
+,	IN	_ItemIdx02		INT			UNSIGNED
+,	IN	_StackCnt02		MEDIUMINT	UNSIGNED
+,	IN	_ItemIdx03		INT			UNSIGNED
+,	IN	_StackCnt03		MEDIUMINT	UNSIGNED
+,	IN	_ItemIdx04		INT			UNSIGNED
+,	IN	_StackCnt04		MEDIUMINT	UNSIGNED
+,	IN	_ItemIdx05		INT			UNSIGNED
+,	IN	_StackCnt05		MEDIUMINT	UNSIGNED
+
+,	IN	_ItemUID01	BIGINT	UNSIGNED
+,	IN	_ItemUID02	BIGINT	UNSIGNED
+,	IN	_ItemUID03	BIGINT	UNSIGNED
+,	IN	_ItemUID04	BIGINT	UNSIGNED
+,	IN	_ItemUID05	BIGINT	UNSIGNED
+
+,	IN	_MoneyType01	TINYINT	UNSIGNED
+,	IN	_Money01		BIGINT	UNSIGNED
+,	IN	_MoneyType02	TINYINT	UNSIGNED
+,	IN	_Money02		BIGINT	UNSIGNED
+,	IN	_MoneyType03	TINYINT	UNSIGNED
+,	IN	_Money03		BIGINT	UNSIGNED
+,	IN	_MoneyType04	TINYINT	UNSIGNED
+,	IN	_Money04		BIGINT	UNSIGNED
+,	IN	_MoneyType05	TINYINT	UNSIGNED
+,	IN	_Money05		BIGINT	UNSIGNED
+
+-- ,	OUT	@MailUID	BIGINT
+,	OUT	_Result		INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _Result = -1;
+    
+	MAIN_ROUTINE:
+	BEGIN
+		IF _ReceiveCharacterUID = 0 OR _SenderIdx = 0 OR _ExpiryTime = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+		
+        -- 우편 기본 데이터
+		INSERT INTO mail_tb
+				( ReceiveCharacterUID	, SenderIdx	, TitleIdx	, ContentsIdx	, ExpiryTime				, TitleText	, ContentsText	)
+		VALUES	( _ReceiveCharacterUID	, _SenderIdx, _TitleIdx	, _ContentsIdx	, FROM_UNIXTIME(_ExpiryTime), _TitleText, _ContentsText	);
+        SET	@MailUID := LAST_INSERT_ID();
+		
+        -- 첨부 아이템 (수령시 생성될 아이템)
+        IF	_ItemIdx01	> 0	THEN INSERT INTO mail_itemidx_tb ( MailUID, AttachSlot, ItemIdx, StackCnt )	VALUES ( @MailUID, 1	, _ItemIdx01	, _StackCnt01	);	END IF;					
+        IF	_ItemIdx02	> 0	THEN INSERT INTO mail_itemidx_tb ( MailUID, AttachSlot, ItemIdx, StackCnt )	VALUES ( @MailUID, 2	, _ItemIdx02	, _StackCnt02	);	END IF;				
+		IF	_ItemIdx03	> 0	THEN INSERT INTO mail_itemidx_tb ( MailUID, AttachSlot, ItemIdx, StackCnt )	VALUES ( @MailUID, 3	, _ItemIdx03	, _StackCnt03	);	END IF;					
+        IF	_ItemIdx04	> 0	THEN INSERT INTO mail_itemidx_tb ( MailUID, AttachSlot, ItemIdx, StackCnt )	VALUES ( @MailUID, 4	, _ItemIdx04	, _StackCnt04	);	END IF;					
+        IF	_ItemIdx05	> 0	THEN INSERT INTO mail_itemidx_tb ( MailUID, AttachSlot, ItemIdx, StackCnt )	VALUES ( @MailUID, 5	, _ItemIdx05	, _StackCnt05	);	END IF;					
+		
+        -- 첨부 아이템 (이미 생성된 아이템)
+        IF	_ItemUID01	> 0	THEN				
+			IF EXISTS ( SELECT 1	FROM item_character_tb	WHERE ItemUID = _ItemUID01 )	THEN	
+				SET _Result = 406;	LEAVE MAIN_ROUTINE;		
+            END IF;							
+            DELETE FROM item_delete_tb	WHERE ItemUID = _ItemUID01;						
+            INSERT IGNORE INTO mail_itemuid_tb ( MailUID, AttachSlot, ItemUID )	VALUES ( @MailUID, 1	, _ItemUID01	);					
+            IF ROW_COUNT() <= 0	THEN SET _Result = 402;	LEAVE MAIN_ROUTINE;	END IF;				
+        END IF;							
+        IF	_ItemUID02	> 0	THEN				
+			IF EXISTS ( SELECT 1	FROM item_character_tb	WHERE ItemUID = _ItemUID02 )	THEN	
+				SET _Result = 406;	LEAVE MAIN_ROUTINE;		
+            END IF;							
+            DELETE FROM item_delete_tb	WHERE ItemUID = _ItemUID02;						
+            INSERT IGNORE INTO mail_itemuid_tb ( MailUID, AttachSlot, ItemUID )	VALUES ( @MailUID, 2	, _ItemUID02	);					
+            IF ROW_COUNT() <= 0	THEN SET _Result = 402;	LEAVE MAIN_ROUTINE;	END IF;				
+        END IF;							
+        IF	_ItemUID03	> 0	THEN				
+			IF EXISTS ( SELECT 1	FROM item_character_tb	WHERE ItemUID = _ItemUID03 )	THEN	
+				SET _Result = 406;	LEAVE MAIN_ROUTINE;		
+            END IF;							
+            DELETE FROM item_delete_tb	WHERE ItemUID = _ItemUID03;						
+            INSERT IGNORE INTO mail_itemuid_tb ( MailUID, AttachSlot, ItemUID )	VALUES ( @MailUID, 3	, _ItemUID03	);					
+            IF ROW_COUNT() <= 0	THEN SET _Result = 402;	LEAVE MAIN_ROUTINE;	END IF;				
+        END IF;							
+        IF	_ItemUID04	> 0	THEN				
+			IF EXISTS ( SELECT 1	FROM item_character_tb	WHERE ItemUID = _ItemUID04 )	THEN	
+				SET _Result = 406;	LEAVE MAIN_ROUTINE;		
+            END IF;							
+            DELETE FROM item_delete_tb	WHERE ItemUID = _ItemUID04;						
+            INSERT IGNORE INTO mail_itemuid_tb ( MailUID, AttachSlot, ItemUID )	VALUES ( @MailUID, 4	, _ItemUID04	);					
+            IF ROW_COUNT() <= 0	THEN SET _Result = 402;	LEAVE MAIN_ROUTINE;	END IF;				
+        END IF;							
+        IF	_ItemUID05	> 0	THEN				
+			IF EXISTS ( SELECT 1	FROM item_character_tb	WHERE ItemUID = _ItemUID05 )	THEN	
+				SET _Result = 406;	LEAVE MAIN_ROUTINE;		
+            END IF;							
+            DELETE FROM item_delete_tb	WHERE ItemUID = _ItemUID05;						
+            INSERT IGNORE INTO mail_itemuid_tb ( MailUID, AttachSlot, ItemUID )	VALUES ( @MailUID, 5	, _ItemUID05	);					
+            IF ROW_COUNT() <= 0	THEN SET _Result = 402;	LEAVE MAIN_ROUTINE;	END IF;				
+        END IF;							
+		
+        -- 첨부 재화
+        IF	_Money01	> 0	THEN INSERT INTO mail_money_tb ( MailUID, AttachSlot, MoneyType, Money )	VALUES ( @MailUID, 1	, _MoneyType01	, _Money01	);	END IF;
+		IF	_Money02	> 0	THEN INSERT INTO mail_money_tb ( MailUID, AttachSlot, MoneyType, Money )	VALUES ( @MailUID, 2	, _MoneyType02	, _Money02	);	END IF;
+		IF	_Money03	> 0	THEN INSERT INTO mail_money_tb ( MailUID, AttachSlot, MoneyType, Money )	VALUES ( @MailUID, 3	, _MoneyType03	, _Money03	);	END IF;
+        IF	_Money04	> 0	THEN INSERT INTO mail_money_tb ( MailUID, AttachSlot, MoneyType, Money )	VALUES ( @MailUID, 4	, _MoneyType04	, _Money04	);	END IF;
+		IF	_Money05	> 0	THEN INSERT INTO mail_money_tb ( MailUID, AttachSlot, MoneyType, Money )	VALUES ( @MailUID, 5	, _MoneyType05	, _Money05	);	END IF;
+        
+		SET	_Result = 0;
+    END;
+END

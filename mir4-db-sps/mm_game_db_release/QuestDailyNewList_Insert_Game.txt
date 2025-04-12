@@ -1,0 +1,62 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `QuestDailyNewList_Insert_Game`(
+	IN	_CharacterUID		BIGINT	UNSIGNED
+,	IN	_ListReceiveTime	INT		UNSIGNED
+,	IN	_QuestIdx01			INT		UNSIGNED
+,	IN	_QuestIdx02			INT		UNSIGNED
+,	IN	_QuestIdx03			INT		UNSIGNED
+,	IN	_QuestIdx04			INT		UNSIGNED
+,	IN	_QuestIdx05			INT		UNSIGNED
+,	IN	_QuestIdx06			INT		UNSIGNED
+,	IN	_QuestIdx07			INT		UNSIGNED
+,	IN	_QuestIdx08			INT		UNSIGNED
+,	IN	_QuestIdx09			INT		UNSIGNED
+,	IN	_QuestIdx10			INT		UNSIGNED
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+	
+    SET	_Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _ListReceiveTime = 0
+        OR 	_QuestIdx01 = 0 OR _QuestIdx02 = 0 OR _QuestIdx03 = 0 OR _QuestIdx04 = 0 OR _QuestIdx05 = 0 
+        OR 	_QuestIdx06 = 0 OR _QuestIdx07 = 0 OR _QuestIdx08 = 0 OR _QuestIdx09 = 0 OR _QuestIdx10 = 0	
+			THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+		END IF;	
+        
+		START TRANSACTION;
+			-- 일일과제 기타정보 초기화
+            UPDATE quest_daily_tb	SET ListReceiveTime = FROM_UNIXTIME(_ListReceiveTime), PlusRewardReceiveCnt = 0	WHERE CharacterUID = _CharacterUID;
+			IF ROW_COUNT() <= 0	THEN
+				INSERT IGNORE INTO	quest_daily_tb ( CharacterUID, ListReceiveTime, PlusRewardReceiveCnt )	VALUES ( _CharacterUID, FROM_UNIXTIME(_ListReceiveTime), 0 );
+                IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+            END IF;
+
+			-- 일일과제 리스트 삭제후 새로운 일일과제 INSERT
+			DELETE FROM	quest_daily_list_tb	WHERE CharacterUID = _CharacterUID;
+			INSERT INTO quest_daily_list_tb 
+					( CharacterUID	, QuestIdx		, State	, QuestValue	) 
+			VALUES	( _CharacterUID	, _QuestIdx01	, 1		, 0				) 
+				,	( _CharacterUID	, _QuestIdx02	, 1		, 0				) 
+				,	( _CharacterUID	, _QuestIdx03	, 1		, 0			 	)
+                ,	( _CharacterUID	, _QuestIdx04	, 1		, 0			 	)
+                ,	( _CharacterUID	, _QuestIdx05	, 1		, 0			 	)
+                ,	( _CharacterUID	, _QuestIdx06	, 1		, 0			 	)
+                ,	( _CharacterUID	, _QuestIdx07	, 1		, 0			 	)
+                ,	( _CharacterUID	, _QuestIdx08	, 1		, 0			 	)
+                ,	( _CharacterUID	, _QuestIdx09	, 1		, 0			 	)
+                ,	( _CharacterUID	, _QuestIdx10	, 1		, 0			 	);
+		
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

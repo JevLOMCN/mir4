@@ -1,0 +1,103 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `ItemOptionChoice_Update_Game`(
+	IN	_CharacterUID	BIGINT		UNSIGNED
+,	IN	_ItemUID		BIGINT		UNSIGNED
+,	IN	_OptionSlot01	TINYINT		UNSIGNED
+,	IN	_OptionIdx01	SMALLINT	UNSIGNED
+,	IN	_OptionValue01	SMALLINT	UNSIGNED
+,	IN	_OptionSlot02	TINYINT		UNSIGNED
+,	IN	_OptionIdx02	SMALLINT	UNSIGNED
+,	IN	_OptionValue02	SMALLINT	UNSIGNED
+,	IN	_OptionSlot03	TINYINT		UNSIGNED
+,	IN	_OptionIdx03	SMALLINT	UNSIGNED
+,	IN	_OptionValue03	SMALLINT	UNSIGNED
+,	IN	_OptionSlot04	TINYINT		UNSIGNED
+,	IN	_OptionIdx04	SMALLINT	UNSIGNED
+,	IN	_OptionValue04	SMALLINT	UNSIGNED
+
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _ItemUID = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+        END IF;	
+        
+		START TRANSACTION;
+			-- 선택 보류 옵션 삭제
+			DELETE FROM item_holdoption_tb	WHERE CharacterUID = _CharacterUID;
+            IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;
+            
+            -- 아이템 옵션
+            DELETE FROM item_option_tb	WHERE ItemUID = _ItemUID;
+            
+            IF	_OptionSlot01	> 0	THEN INSERT INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, _OptionSlot01	, _OptionIdx01	, _OptionValue01	);	END IF;
+            IF	_OptionSlot02	> 0	THEN INSERT INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, _OptionSlot02	, _OptionIdx02	, _OptionValue02	);	END IF;
+            IF	_OptionSlot03	> 0	THEN INSERT INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, _OptionSlot03	, _OptionIdx03	, _OptionValue03	);	END IF;
+            IF	_OptionSlot04	> 0	THEN INSERT INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, _OptionSlot04	, _OptionIdx04	, _OptionValue04	);	END IF;
+            
+/*            IF	_OptionSlot01 > 0	THEN													
+				IF	_OptionIdx01	= 0	THEN								
+					DELETE FROM item_option_tb	WHERE ItemUID = _ItemUID AND OptionSlot = _OptionSlot01	;
+					IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- DB에 존재하지 않는 데이터
+				ELSE
+					UPDATE item_option_tb	SET OptionIdx = _OptionIdx01, OptionValue = _OptionValue01	WHERE ItemUID = _ItemUID AND OptionSlot = _OptionSlot01;
+                    IF ROW_COUNT() <= 0	THEN 
+						INSERT IGNORE INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, _OptionSlot01, _OptionIdx01, _OptionValue01 );
+                        IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+                    END IF;
+				END IF;											
+            END IF;															
+            															
+            IF	_OptionSlot02 > 0	THEN													
+				IF	_OptionIdx02	= 0	THEN								
+					DELETE FROM item_option_tb	WHERE ItemUID = _ItemUID AND OptionSlot = _OptionSlot02	;
+                    IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;
+				ELSE
+					UPDATE item_option_tb	SET OptionIdx = _OptionIdx02, OptionValue = _OptionValue02	WHERE ItemUID = _ItemUID AND OptionSlot = _OptionSlot02;
+                    IF ROW_COUNT() <= 0	THEN 
+						INSERT IGNORE INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, _OptionSlot02, _OptionIdx02, _OptionValue02 );
+                        IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+                    END IF;
+				END IF;											
+            END IF;															
+            															
+            IF	_OptionSlot03 > 0	THEN													
+				IF	_OptionIdx03	= 0	THEN								
+					DELETE FROM item_option_tb	WHERE ItemUID = _ItemUID AND OptionSlot = _OptionSlot03	;
+                    IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;
+				ELSE											
+					UPDATE item_option_tb	SET OptionIdx = _OptionIdx03, OptionValue = _OptionValue03	WHERE ItemUID = _ItemUID AND OptionSlot = _OptionSlot03;
+                    IF ROW_COUNT() <= 0	THEN 
+						INSERT IGNORE INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, _OptionSlot03, _OptionIdx03, _OptionValue03 );
+                        IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+                    END IF;
+				END IF;											
+            END IF;															
+            															
+            IF	_OptionSlot04 > 0	THEN													
+				IF	_OptionIdx04	= 0	THEN								
+					DELETE FROM item_option_tb	WHERE ItemUID = _ItemUID AND OptionSlot = _OptionSlot04	;
+                    IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;
+				ELSE											
+					UPDATE item_option_tb	SET OptionIdx = _OptionIdx04, OptionValue = _OptionValue04	WHERE ItemUID = _ItemUID AND OptionSlot = _OptionSlot04;
+                    IF ROW_COUNT() <= 0	THEN 
+						INSERT IGNORE INTO item_option_tb ( ItemUID, OptionSlot, OptionIdx, OptionValue )	VALUES ( _ItemUID, _OptionSlot04, _OptionIdx04, _OptionValue04 );
+                        IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;
+                    END IF;	
+				END IF;											
+            END IF;															
+*/
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

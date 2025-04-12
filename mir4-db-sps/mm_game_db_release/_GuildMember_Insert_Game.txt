@@ -1,0 +1,30 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `_GuildMember_Insert_Game`( 
+	IN	_GuildUID		INT		UNSIGNED
+,	IN	_CharacterUID	BIGINT	UNSIGNED
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text;
+		ROLLBACK;
+	END;
+     
+    SET _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		START TRANSACTION;
+        	UPDATE guild_member_tb	SET GuildUID = _GuildUID	WHERE CharacterUID = _CharacterUID;								
+            IF ROW_COUNT() <= 0	THEN										
+				INSERT IGNORE INTO	guild_member_tb ( GuildUID, CharacterUID )	VALUES ( _GuildUID, _CharacterUID );		
+                IF ROW_COUNT() <= 0 THEN SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;									
+            END IF;	
+
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

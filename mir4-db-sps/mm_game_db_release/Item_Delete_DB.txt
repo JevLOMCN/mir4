@@ -1,0 +1,45 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Item_Delete_DB`( 
+	IN	_ItemUID				BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount	MEDIUMINT
+,	IN	_StackResultServer		MEDIUMINT	UNSIGNED
+
+,	OUT _StackResultDB	MEDIUMINT
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _StackResultDB = 0, _Result = -1;
+    
+	MAIN_ROUTINE:
+	BEGIN
+		IF		_ItemUID = 0				THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+		ELSEIF	_StackDecreaseAmount > 0	THEN SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+		END IF;	
+		
+        IF	_StackDecreaseAmount = 0	THEN	-- 스택 감소값이 없을 경우 아이템 삭제
+			INSERT IGNORE INTO item_delete_tb ( ItemUID, DeleteTime )	VALUE ( _ItemUID, NOW() );
+            IF ROW_COUNT() <= 0	THEN SET _Result = 401;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 아이템
+
+		ELSE	-- 스택 감소값이 없을 경우 스택값 변경
+			UPDATE item_stack_tb	SET StackCnt = @StackResultDB := StackCnt + _StackDecreaseAmount	WHERE ItemUID = _ItemUID;
+            IF ROW_COUNT() <= 0	THEN SET _Result = 405;	LEAVE MAIN_ROUTINE;	END IF;	-- 스택 아이템이 아님
+            
+            SET	_StackResultDB = @StackResultDB;
+            IF	_StackResultDB = 0	THEN	-- StackCnt 가 0이 되었을 경우 아이템 삭제
+				INSERT IGNORE INTO item_delete_tb ( ItemUID, DeleteTime )	VALUE ( _ItemUID, NOW() );
+				IF ROW_COUNT() <= 0	THEN SET _Result = 401;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 아이템
+            
+			ELSEIF	_StackResultDB < 0						THEN SET _Result = 403;	LEAVE MAIN_ROUTINE;	-- 아이템 스택 갯수 부족
+            ELSEIF	_StackResultDB <> _StackResultServer	THEN SET _Result = 8;	LEAVE MAIN_ROUTINE;	-- 서버와 DB의 값이 다름
+			END IF;
+        END IF;
+		
+		SET	_Result = 0;
+	END;
+END

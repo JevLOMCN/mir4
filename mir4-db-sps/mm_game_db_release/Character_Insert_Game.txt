@@ -1,0 +1,387 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Character_Insert_Game`(
+	IN	_AccountUID			BIGINT		UNSIGNED 
+,	IN	_Class				TINYINT		UNSIGNED
+,	IN	_CharacterName		VARCHAR(50)
+,	IN	_CurrentHP			INT			UNSIGNED
+,	IN	_CurrentMP			INT			UNSIGNED
+,	IN	_StageIdx			INT			UNSIGNED
+,	IN	_PositionX			FLOAT
+,	IN	_PositionY			FLOAT
+,	IN	_PositionZ			FLOAT
+,	IN	_CombatPoint		BIGINT			UNSIGNED 
+,	IN	_MainQuestIdx		INT			UNSIGNED
+-- ,	IN	_CostumeIdx			INT			UNSIGNED
+-- ,	IN	_CostumeGrade		TINYINT		UNSIGNED
+-- ,	IN	_HairColorIdx		MEDIUMINT	UNSIGNED
+-- ,	IN	_ClothesColorIdx	MEDIUMINT	UNSIGNED
+
+-- Customize
+,	IN	_ElementType01		TINYINT		UNSIGNED
+,	IN	_ElementValue01		INT
+,	IN	_ElementType02		TINYINT		UNSIGNED
+,	IN	_ElementValue02		INT
+,	IN	_ElementType03		TINYINT		UNSIGNED
+,	IN	_ElementValue03		INT
+,	IN	_ElementType04		TINYINT		UNSIGNED
+,	IN	_ElementValue04		INT
+,	IN	_ElementType05		TINYINT		UNSIGNED
+,	IN	_ElementValue05		INT
+,	IN	_ElementType06		TINYINT		UNSIGNED
+,	IN	_ElementValue06		INT
+,	IN	_ElementType07		TINYINT		UNSIGNED
+,	IN	_ElementValue07		INT
+,	IN	_ElementType08		TINYINT		UNSIGNED
+,	IN	_ElementValue08		INT
+,	IN	_ElementType09		TINYINT		UNSIGNED
+,	IN	_ElementValue09		INT
+,	IN	_ElementType10		TINYINT		UNSIGNED
+,	IN	_ElementValue10		INT
+,	IN	_ElementType11		TINYINT		UNSIGNED
+,	IN	_ElementValue11		INT
+,	IN	_ElementType12		TINYINT		UNSIGNED
+,	IN	_ElementValue12		INT
+,	IN	_ElementType13		TINYINT		UNSIGNED
+,	IN	_ElementValue13		INT
+,	IN	_ElementType14		TINYINT		UNSIGNED
+,	IN	_ElementValue14		INT
+,	IN	_ElementType15		TINYINT		UNSIGNED
+,	IN	_ElementValue15		INT
+,	IN	_ElementType16		TINYINT		UNSIGNED
+,	IN	_ElementValue16		INT
+,	IN	_ElementType17		TINYINT		UNSIGNED
+,	IN	_ElementValue17		INT
+,	IN	_ElementType18		TINYINT		UNSIGNED
+,	IN	_ElementValue18		INT
+,	IN	_ElementType19		TINYINT		UNSIGNED
+,	IN	_ElementValue19		INT
+,	IN	_ElementType20		TINYINT		UNSIGNED
+,	IN	_ElementValue20		INT
+,	IN	_ElementType21		TINYINT		UNSIGNED
+,	IN	_ElementValue21		INT
+,	IN	_ElementType22		TINYINT		UNSIGNED
+,	IN	_ElementValue22		INT
+,	IN	_ElementType23		TINYINT		UNSIGNED
+,	IN	_ElementValue23		INT
+,	IN	_ElementType24		TINYINT		UNSIGNED
+,	IN	_ElementValue24		INT
+,	IN	_ElementType25		TINYINT		UNSIGNED
+,	IN	_ElementValue25		INT
+,	IN	_ElementType26		TINYINT		UNSIGNED
+,	IN	_ElementValue26		INT
+,	IN	_ElementType27		TINYINT		UNSIGNED
+,	IN	_ElementValue27		INT
+,	IN	_ElementType28		TINYINT		UNSIGNED
+,	IN	_ElementValue28		INT
+,	IN	_ElementType29		TINYINT		UNSIGNED
+,	IN	_ElementValue29		INT
+,	IN	_ElementType30		TINYINT		UNSIGNED
+,	IN	_ElementValue30		INT
+
+-- Weapon
+,	IN	_WeaponEquipSlot			TINYINT		UNSIGNED
+,	IN	_WeaponItemUID				BIGINT		UNSIGNED
+,	IN	_WeaponItemIdx				INT			UNSIGNED
+,	IN	_WeaponReinforceLev			TINYINT		UNSIGNED
+,	IN	_WeaponReinforceExp			INT			UNSIGNED
+,	IN	_WeaponSmeltingLev			TINYINT		UNSIGNED
+,	IN	_WeaponStackIncreaseAmount	MEDIUMINT
+,	IN	_WeaponCurrentStack			INT
+,	IN	_WeaponOptionIdxA			SMALLINT	UNSIGNED
+,	IN	_WeaponOptionValueA			SMALLINT	UNSIGNED
+,	IN	_WeaponOptionIdxB			SMALLINT	UNSIGNED
+,	IN	_WeaponOptionValueB			SMALLINT	UNSIGNED
+,	IN	_WeaponOptionIdxC			SMALLINT	UNSIGNED
+,	IN	_WeaponOptionValueC			SMALLINT	UNSIGNED
+,	IN	_WeaponOptionIdxD			SMALLINT	UNSIGNED
+,	IN	_WeaponOptionValueD			SMALLINT	UNSIGNED
+
+-- Armour
+,	IN	_ArmourEquipSlot			TINYINT		UNSIGNED
+,	IN	_ArmourItemUID				BIGINT		UNSIGNED
+,	IN	_ArmourItemIdx				INT			UNSIGNED
+,	IN	_ArmourReinforceLev			TINYINT		UNSIGNED
+,	IN	_ArmourReinforceExp			INT			UNSIGNED
+,	IN	_ArmourSmeltingLev			TINYINT		UNSIGNED
+,	IN	_ArmourStackIncreaseAmount	MEDIUMINT
+,	IN	_ArmourCurrentStack			INT
+,	IN	_ArmourOptionIdxA			SMALLINT	UNSIGNED
+,	IN	_ArmourOptionValueA			SMALLINT	UNSIGNED
+,	IN	_ArmourOptionIdxB			SMALLINT	UNSIGNED
+,	IN	_ArmourOptionValueB			SMALLINT	UNSIGNED
+,	IN	_ArmourOptionIdxC			SMALLINT	UNSIGNED
+,	IN	_ArmourOptionValueC			SMALLINT	UNSIGNED
+,	IN	_ArmourOptionIdxD			SMALLINT	UNSIGNED
+,	IN	_ArmourOptionValueD			SMALLINT	UNSIGNED
+
+,	OUT	_CharacterUID	BIGINT	UNSIGNED
+
+,	OUT	_StackResultDB01	INT
+,	OUT	_StackResultDB02	INT
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+    SET	_CharacterUID = 0, _StackResultDB01 = 0, _StackResultDB02 = 0, _Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_Class = 0 OR _CharacterName = '' OR 
+			_StageIdx = 0	THEN SET _Result = 3;	
+			LEAVE MAIN_ROUTINE;	
+		END IF;	-- The value required for processing was not received.
+        
+		START TRANSACTION;
+			-- Things to check when creating a character
+			IF EXISTS	
+            ( 	SELECT 	1	
+				FROM 			character_tb		AS CH	
+                LEFT OUTER JOIN	character_delete_tb	AS CD	ON CD.CharacterUID = CH.CharacterUID
+                WHERE 	CH.AccountUID = _AccountUID AND CH.Class = _Class AND ( CD.DeleteTime > NOW() OR CD.DeleteTime IS NULL ) )	
+			THEN ROLLBACK;	SET _Result = 203;	LEAVE MAIN_ROUTINE;	-- 이미 존재하는 직업
+			ELSEIF EXISTS	
+            ( 	SELECT 	1	
+				FROM 			character_tb		AS CH	
+                LEFT OUTER JOIN	character_delete_tb	AS CD	ON CD.CharacterUID = CH.CharacterUID
+                WHERE 	CH.CharacterName = _CharacterName AND ( CD.DeleteTime > NOW() OR CD.DeleteTime IS NULL )	)	
+			THEN ROLLBACK;	SET _Result = 204;	LEAVE MAIN_ROUTINE; -- 이미 존재하는 이름
+            END IF;
+            
+            -- 캐릭터 기본데이터 저장
+            INSERT INTO character_tb
+    (CharacterName, AccountUID, Class, Lev, Exp, CurrentHP, CurrentMP,
+     StageIdx, PositionX, PositionY, PositionZ, Wonbo, Gold, CreateTime,
+     LoginTime, LogoutTime, PlaytimeSec, CombatPoint, EnergyPoint, BlackIron,
+     AncientCoin, AwakenGrade, InvenExtendCnt, PKPoint)
+VALUES 
+    (_CharacterName, _AccountUID, _Class, 1, 0, _CurrentHP, _CurrentMP,
+     _StageIdx, _PositionX, _PositionY, _PositionZ, 1000, 0, NOW(),
+     NOW(), NOW(), 1, 2602, 0, 0,
+     1, -- Default value for AncientCoin
+     0, 0, 0);
+            SET	_CharacterUID = LAST_INSERT_ID();
+            
+            -- 코스츔 저장
+--            IF	_CostumeIdx > 0	THEN
+--				INSERT INTO	costume_tb 
+--						( CharacterUID	, CostumeIdx	, CostumeGrade	, HairColorIdx	, ClothesColorIdx 	)	
+--				VALUES 	( _CharacterUID	, _CostumeIdx	, _CostumeGrade	, _HairColorIdx	, _ClothesColorIdx 	);
+--            END IF;
+
+			IF	_ElementType01 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType01	, _ElementValue01 );
+			END IF;
+            
+            IF	_ElementType02 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType02	, _ElementValue02 );
+			END IF;
+            
+            IF	_ElementType03 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType03	, _ElementValue03 );
+			END IF;
+            
+            IF	_ElementType04 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType04	, _ElementValue04 );
+			END IF;
+            
+            IF	_ElementType05 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType05	, _ElementValue05 );
+			END IF;
+            
+            IF	_ElementType06 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType06	, _ElementValue06 );
+			END IF;
+            
+            IF	_ElementType07 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType07	, _ElementValue07 );
+			END IF;
+            
+            IF	_ElementType08 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType08	, _ElementValue08 );
+			END IF;
+            
+            IF	_ElementType09 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType09	, _ElementValue09 );
+			END IF;
+            
+            IF	_ElementType10 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType10	, _ElementValue10 );
+			END IF;
+            
+            IF	_ElementType11 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType11	, _ElementValue11 );
+			END IF;
+            
+            IF	_ElementType12 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType12	, _ElementValue12 );
+			END IF;
+            
+            IF	_ElementType13 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType13	, _ElementValue13 );
+			END IF;
+            
+            IF	_ElementType14 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType14	, _ElementValue14 );
+			END IF;
+            
+            IF	_ElementType15 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType15	, _ElementValue15 );
+			END IF;
+            
+            IF	_ElementType16 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType16	, _ElementValue16 );
+			END IF;
+            
+            IF	_ElementType17 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType17	, _ElementValue17 );
+			END IF;
+            
+            IF	_ElementType18 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType18	, _ElementValue18 );
+			END IF;
+            
+            IF	_ElementType19 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType19	, _ElementValue19 );
+			END IF;
+            
+            IF	_ElementType20 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType20	, _ElementValue20 );
+			END IF;
+            
+            IF	_ElementType21 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType21	, _ElementValue21 );
+			END IF;
+            
+            IF	_ElementType22 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType22	, _ElementValue22 );
+			END IF;
+            
+            IF	_ElementType23 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType23	, _ElementValue23 );
+			END IF;
+            
+            IF	_ElementType24 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType24	, _ElementValue24 );
+			END IF;
+            
+            IF	_ElementType25 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType25	, _ElementValue25 );
+			END IF;
+            
+            IF	_ElementType26 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType26	, _ElementValue26 );
+			END IF;
+            
+            IF	_ElementType27 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType27	, _ElementValue27 );
+			END IF;
+            
+            IF	_ElementType28 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType28	, _ElementValue28 );
+			END IF;
+            
+            IF	_ElementType29 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType29	, _ElementValue29 );
+			END IF;
+            
+            IF	_ElementType30 > 0	THEN
+				INSERT INTO	customize_tb 
+						( CharacterUID	, ElementType	, ElementValue )	
+				VALUES 	( _CharacterUID	, _ElementType30	, _ElementValue30 );
+			END IF;
+
+            -- Create and equip items
+            IF	_WeaponItemUID	> 0	THEN															
+				CALL Item_Insert_DB	( _CharacterUID					, _WeaponItemUID		, _WeaponItemIdx		, _WeaponReinforceLev	, _WeaponReinforceExp	, _WeaponSmeltingLev	
+									, _WeaponStackIncreaseAmount	, _WeaponCurrentStack	, _WeaponOptionIdxA		, _WeaponOptionValueA	, _WeaponOptionIdxB		, _WeaponOptionValueB			
+                                    , _WeaponOptionIdxC				, _WeaponOptionValueC	, _WeaponOptionIdxD		, _WeaponOptionValueD	, _StackResultDB01		, _Result 			);
+				IF _Result != 0 THEN 	LEAVE MAIN_ROUTINE;	END IF;	
+                IF _WeaponEquipSlot	> 0 THEN 	
+					INSERT INTO equip_item_tb ( CharacterUID, EquipSlot, ItemUID )	VALUES ( _CharacterUID, _WeaponEquipSlot	, _WeaponItemUID	);	
+				END IF;
+            END IF;																		
+            IF	_ArmourItemUID	> 0	THEN															
+				CALL Item_Insert_DB	( _CharacterUID					, _ArmourItemUID		, _ArmourItemIdx		, _ArmourReinforceLev	, _ArmourReinforceExp	, _ArmourSmeltingLev			
+									, _ArmourStackIncreaseAmount	, _ArmourCurrentStack	, _ArmourOptionIdxA		, _ArmourOptionValueA	, _ArmourOptionIdxB		, _ArmourOptionValueB			
+                                    , _ArmourOptionIdxC				, _ArmourOptionValueC	, _ArmourOptionIdxD		, _ArmourOptionValueD	, _StackResultDB02		, _Result 			);
+				IF _Result != 0 THEN 	LEAVE MAIN_ROUTINE;	END IF;	
+                IF _ArmourEquipSlot	> 0 THEN 	
+					INSERT INTO equip_item_tb ( CharacterUID, EquipSlot, ItemUID )	VALUES ( _CharacterUID, _ArmourEquipSlot	, _ArmourItemUID	);	
+				END IF;
+            END IF;																	
+
+            
+			-- Save quest
+            IF	_MainQuestIdx > 0	THEN
+				INSERT INTO	quest_main_tb ( CharacterUID, QuestIdx, State, QuestValue )	VALUES ( _CharacterUID, _MainQuestIdx, 1, 0 );
+            END IF;			
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

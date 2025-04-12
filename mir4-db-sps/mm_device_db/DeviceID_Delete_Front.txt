@@ -1,0 +1,26 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `DeviceID_Delete_Front`(
+	IN	_OSUID		TINYINT UNSIGNED
+,	IN	_DeviceID	VARCHAR(40)
+
+,	OUT _Result	INT	
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+	SET	_Result = -1;
+
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_OSUID = 0 OR _DeviceID = ''	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- Failed to receive values ​​required for processing
+        
+        DELETE FROM deviceid_tb	WHERE OSUID = _OSUID AND DeviceID = _DeviceID;
+        IF ROW_COUNT() <= 0	THEN SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- Data that does not exist in the DB
+        
+		SET	_Result = 0;
+	END;
+END

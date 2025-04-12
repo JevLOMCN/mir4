@@ -1,0 +1,25 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `_QuestDailyAccept_Update_Game`(
+	IN	_CharacterUID	BIGINT	UNSIGNED
+,	IN	_QuestUID		TINYINT	UNSIGNED
+,	IN	_AcceptTime		INT		UNSIGNED
+
+,	OUT	_Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR NOT FOUND, SQLEXCEPTION	BEGIN SET _Result = -1;	END;	-- 알수없는 DB 오류
+    
+    SET	_Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _QuestUID = 0 OR _AcceptTime = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+        
+		-- 수락한 일일퀘스트로 UPDATE
+		UPDATE 	quest_daily_list_tb	
+		SET 	AcceptTime = FROM_UNIXTIME(_AcceptTime)
+		WHERE	CharacterUID = _CharacterUID AND QuestUID = _QuestUID AND AcceptTime = 0 AND QuestClear = 0 AND RewardReceiveTime = 0;
+		IF ROW_COUNT() <= 0	THEN SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 퀘스트
+		
+		SET	_Result = 0;
+    END;
+END

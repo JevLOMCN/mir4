@@ -1,0 +1,35 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `DeviceID_Insert_Front`(
+	IN	_OSUID			TINYINT UNSIGNED
+,	IN	_DeviceID		VARCHAR(40)
+,	IN	_UserName		VARCHAR(10)
+,	IN	_DepartmentUID	TINYINT UNSIGNED
+,	IN	_Memo			VARCHAR(20)
+
+,	OUT _Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+	SET	_Result = -1;
+
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_OSUID = 0 OR _DeviceID = '' OR _UserName = '' OR _DepartmentUID = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- Failed to receive values ​​required for processing
+		
+        SELECT OSUID	INTO _OSUID	FROM os_tb	WHERE OSUID = _OSUID;
+        IF	FOUND_ROWS() <= 0	THEN SET _Result = 6;	LEAVE MAIN_ROUTINE;	END IF;	-- undefined value
+        
+        SELECT DepartmentUID	INTO _DepartmentUID	FROM department_tb	WHERE DepartmentUID = _DepartmentUID;
+        IF	FOUND_ROWS() <= 0	THEN SET _Result = 6;	LEAVE MAIN_ROUTINE;	END IF;	-- undefined value
+        
+        INSERT IGNORE INTO deviceid_tb( OSUID, DeviceID, UserName, DepartmentUID, Memo )	VALUES( _OSUID, _DeviceID, _UserName, _DepartmentUID, _Memo );
+        IF ROW_COUNT() <= 0	THEN SET _Result = 2;	LEAVE MAIN_ROUTINE;	END IF;	-- Duplicate data exists
+        
+		SET	_Result = 0;
+	END;
+END

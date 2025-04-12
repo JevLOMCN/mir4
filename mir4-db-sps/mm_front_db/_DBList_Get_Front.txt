@@ -1,0 +1,27 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `_DBList_Get_Front`(
+	IN	_WorldUID	TINYINT	UNSIGNED
+
+,	OUT _Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+	SET	_Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		SELECT	DB.DBUID, DT.DBTypeName, DB.DBIP, DB.DBPort, DU.DBUserName, DU.DBUserPassword, DB.DBName, DT.DBConnectionCnt
+		FROM		db_tb	AS DB
+		INNER JOIN	db_type_tb	AS DT	ON DT.DBType = DB.DBType
+		INNER JOIN	db_user_tb	AS DU	ON DU.DBUserUID = DB.DBUserUID
+		WHERE	DB.WorldUID = _WorldUID;
+		IF	FOUND_ROWS() <= 0	THEN SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- Data that does not exist in the DB
+        
+		SET	_Result = 0;
+	END;
+END

@@ -1,0 +1,85 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `_AccountLogin_Get_Front`(
+	IN	_AccountName	VARCHAR(50)	
+,   IN	_SDKName		VARCHAR(20)	
+,   IN	_NationName		VARCHAR(20)	
+    
+,   OUT	_AccountUID		BIGINT	UNSIGNED
+,   OUT	_AccountGrade	TINYINT	
+,   OUT	_BlockReason	TINYINT	 
+,   OUT	_BlockEndTime	TIMESTAMP
+)
+BEGIN
+	DECLARE	_NationUID	TINYINT;
+	DECLARE	_SDKUID		TINYINT;
+    -- declare _BlockEndTime TIMESTAMP;
+/*    
+    DECLARE EXIT HANDLER FOR SQLWARNING, NOT FOUND, SQLEXCEPTION
+    BEGIN
+		
+    END;
+*/
+	SET	_AccountName = LTRIM( RTRIM(_AccountName) );
+	IF	_AccountName = ''	THEN	# _AccountName 비어있을 경우 guest로 생성
+		SET _AccountName = CONCAT( 'guest_', TIMESTAMPDIFF( SECOND, '1970-01-01 00:00:00', NOW() ) );
+        
+        SELECT NationUID	INTO _NationUID	FROM nation_tb	WHERE NationName = _NationName;
+		IF	FOUND_ROWS() = 0	THEN
+			INSERT INTO	nation_tb(NationName)	VALUES(_NationName);
+			SET	_NationUID = LAST_INSERT_ID();
+		END IF;
+		
+		SELECT SDKUID	INTO _SDKUID	FROM sdk_tb	WHERE SDKName = _SDKName;
+		IF	FOUND_ROWS() = 0	THEN
+			INSERT INTO	sdk_tb(SDKName)	VALUES(_SDKName);
+			SET	_SDKUID = LAST_INSERT_ID();
+		END IF;
+            
+        INSERT INTO account_tb
+				( AccountName	, SDKUID	, NationUID	, CreateTime, LoginTime	, LogoutTime 	)	
+		VALUES	( _AccountName	, _SDKUID	, _NationUID, NOW() 	, NOW()		, NULL			);
+		
+		SET	_AccountUID = LAST_INSERT_ID(), _AccountGrade = 0, _BlockReason = 0, _BlockEndTime = 0;
+        
+	ELSE	# Account 데이터 가져오기
+		SELECT	AC.AccountUID
+        INTO	_AccountUID	
+		FROM		account_tb			AS AC	
+		INNER JOIN	sdk_tb				AS SD	ON SD.SDKUID = AC.SDKUID
+		WHERE	AC.AccountName = _AccountName AND SD.SDKName = _SDKName;
+
+		IF	FOUND_ROWS() = 0	THEN	# Account 데이터가 없을 경우 생성
+			SELECT NationUID	INTO _NationUID	FROM nation_tb	WHERE NationName = _NationName;
+			IF	FOUND_ROWS() = 0	THEN
+				INSERT INTO	nation_tb(NationName)	VALUES(_NationName);
+				SET	_NationUID = LAST_INSERT_ID();
+			END IF;
+			
+			SELECT SDKUID	INTO _SDKUID	FROM sdk_tb	WHERE SDKName = _SDKName;
+			IF	FOUND_ROWS() = 0	THEN
+				INSERT INTO	sdk_tb(SDKName)	VALUES(_SDKName);
+				SET	_SDKUID = LAST_INSERT_ID();
+			END IF;
+			
+			INSERT INTO account_tb
+					( AccountName	, SDKUID	, NationUID	, CreateTime, LoginTime	, LogoutTime 	)		
+			VALUES	( _AccountName	, _SDKUID	, _NationUID, NOW() 	, NOW()		, NULL			);
+			SET	_AccountUID = LAST_INSERT_ID(), _AccountGrade = 0, _BlockReason = 0, _BlockEndTime = 0;
+            
+		ELSE	# Account 데이터가 있을 경우 Block, Grade 데이터 가져오기, LoginTime 기록
+			SELECT 	BlockReason	, UNIX_TIMESTAMP(BlockEndTime)
+            INTO	_BlockReason, _BlockEndTime
+			FROM 	account_block_tb	
+			WHERE 	AccountUID = _AccountUID;
+            IF	FOUND_ROWS() = 0	THEN
+				SET _BlockReason = 0, _BlockEndTime = 0;
+			END IF;
+            
+            SELECT AccountGrade	INTO _AccountGrade	FROM account_grade_tb	WHERE AccountUID = _AccountUID;
+			IF	FOUND_ROWS() = 0	THEN
+				SET _AccountGrade = 0;
+			END IF;
+            
+            UPDATE account_tb	SET LoginTime = NOW()	WHERE AccountUID = _AccountUID;
+		END IF;
+    END IF;
+END

@@ -1,0 +1,38 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `SkillDeck_Update_Game`(
+	IN	_CharacterUID	BIGINT		UNSIGNED
+,	IN	_DeckNum		TINYINT		UNSIGNED
+,	IN	_SkillSlot		TINYINT		UNSIGNED
+,	IN	_ActiveIdx		MEDIUMINT	UNSIGNED
+
+,	OUT _Result	INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _DeckNum = 0 OR _SkillSlot = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값이 없음
+		
+        IF	_ActiveIdx = 0	THEN
+			DELETE FROM skill_deck_tb	WHERE CharacterUID = _CharacterUID AND DeckNum = _DeckNum AND SkillSlot = _SkillSlot;
+            IF ROW_COUNT() <= 0	THEN SET _Result = 1;	LEAVE MAIN_ROUTINE;	END IF;	-- DB에 존재하지 않는 데이터
+		ELSE
+			UPDATE skill_deck_tb	SET ActiveIdx = _ActiveIdx	WHERE CharacterUID = _CharacterUID AND DeckNum = _DeckNum AND SkillSlot = _SkillSlot;
+			IF ROW_COUNT() <= 0	THEN
+				INSERT IGNORE INTO skill_deck_tb ( CharacterUID, DeckNum, SkillSlot, ActiveIdx )	VALUE ( _CharacterUID, _DeckNum, _SkillSlot, _ActiveIdx );
+				IF ROW_COUNT() <= 0	THEN SET _Result = 2;	LEAVE MAIN_ROUTINE;	END IF;	-- 중복된 데이터 존재
+			END IF;
+        END IF;
+        
+        
+
+		SET	_Result = 0;
+    END;
+END

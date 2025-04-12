@@ -1,0 +1,32 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `QuestDaily_Get_Game`(
+	IN	_CharacterUID	BIGINT	UNSIGNED
+
+,	OUT	_ListReceiveTime		INT		UNSIGNED
+,	OUT _PlusRewardReceiveCnt	TINYINT	UNSIGNED 
+,	OUT	_Result					INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	BEGIN SET _Result = -1;	END;	-- 알수없는 DB 오류
+    
+    SET	_ListReceiveTime = 0, _PlusRewardReceiveCnt = 0, _Result = -1;
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+       
+		-- 일일과제 리스트 및 기타 정보 가져오기
+		SELECT	QuestIdx, State, QuestValue
+		FROM	quest_daily_list_tb
+		WHERE	CharacterUID = _CharacterUID;    
+		
+		SELECT	UNIX_TIMESTAMP(ListReceiveTime)	, PlusRewardReceiveCnt	
+		INTO	_ListReceiveTime				, _PlusRewardReceiveCnt	
+		FROM	quest_daily_tb
+		WHERE	CharacterUID = _CharacterUID;
+		IF	FOUND_ROWS() <= 0	THEN
+			SET	_ListReceiveTime = 0, _PlusRewardReceiveCnt = 0;
+		END IF;
+		
+		SET _Result = 0;
+	END;
+END

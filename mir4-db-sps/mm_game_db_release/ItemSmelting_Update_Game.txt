@@ -1,0 +1,130 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `ItemSmelting_Update_Game`(
+	IN	_CharacterUID			BIGINT	UNSIGNED
+,	IN	_MoneyType01				TINYINT	UNSIGNED
+,	IN	_MoneyDecreaseAmount01	BIGINT
+,	IN	_MoneyResultServer01	BIGINT	UNSIGNED
+,	IN	_MoneyUpdateTime01		INT		UNSIGNED
+,	IN	_MoneyType02			TINYINT	UNSIGNED
+,	IN	_MoneyDecreaseAmount02	BIGINT
+,	IN	_MoneyResultServer02	BIGINT	UNSIGNED
+,	IN	_MoneyUpdateTime02		INT		UNSIGNED
+,	IN	_SmeltingItemUID		BIGINT	UNSIGNED
+,	IN	_SmeltingLev			TINYINT	UNSIGNED
+-- ,	IN	_SmeltingFailCnt		TINYINT	UNSIGNED
+
+,	IN	_DeleteItemUID01		BIGINT		UNSIGNED
+,	IN	_StackDecreaseAmount01	MEDIUMINT			
+,	IN	_StackResultServer01	MEDIUMINT	UNSIGNED		
+-- ,	IN	_DeleteItemUID02		BIGINT		UNSIGNED
+-- ,	IN	_StackDecreaseAmount02	MEDIUMINT			
+-- ,	IN	_StackResultServer02	MEDIUMINT	UNSIGNED		
+-- ,	IN	_DeleteItemUID03		BIGINT		UNSIGNED
+-- ,	IN	_StackDecreaseAmount03	MEDIUMINT			
+-- ,	IN	_StackResultServer03	MEDIUMINT	UNSIGNED		
+
+,	IN	_PlayDataIdx01		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue01	BIGINT		
+,	IN	_PlayDataIdx02		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue02	BIGINT		
+,	IN	_PlayDataIdx03		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue03	BIGINT		
+,	IN	_PlayDataIdx04		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue04	BIGINT		
+,	IN	_PlayDataIdx05		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue05	BIGINT		
+,	IN	_PlayDataIdx06		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue06	BIGINT		
+,	IN	_PlayDataIdx07		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue07	BIGINT		
+,	IN	_PlayDataIdx08		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue08	BIGINT		
+,	IN	_PlayDataIdx09		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue09	BIGINT		
+,	IN	_PlayDataIdx10		SMALLINT	UNSIGNED
+,	IN	_PlayDataValue10	BIGINT		
+
+,	OUT _MoneyResultDB01	BIGINT
+,	OUT _MoneyResultDB02	BIGINT
+,	OUT	_StackResultDB01	MEDIUMINT
+-- ,	OUT	_StackResultDB02	MEDIUMINT
+-- ,	OUT	_StackResultDB03	MEDIUMINT
+,	OUT	_Result				INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+    
+	SET	_MoneyResultDB01 = 0, _MoneyResultDB02 = 0, _StackResultDB01 = 0/*, _StackResultDB02 = 0, _StackResultDB03 = 0*/ , _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _SmeltingItemUID = 0
+        OR	( _DeleteItemUID01 = 0 /*AND _DeleteItemUID02 = 0 AND _DeleteItemUID03 = 0*/ )	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+            
+        ELSEIF	_MoneyDecreaseAmount01 >= 0 OR _MoneyDecreaseAmount02 >= 0 OR _StackDecreaseAmount01 > 0 /*OR _StackDecreaseAmount02 > 0 OR _StackDecreaseAmount03 > 0*/	THEN 
+			SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+			-- 재화 변경
+			IF	_MoneyDecreaseAmount01 < 0	THEN
+				CALL Money_Update_DB ( 0, _CharacterUID, _MoneyType01, _MoneyDecreaseAmount01, _MoneyResultServer01, _MoneyUpdateTime01, _MoneyResultDB01, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+            IF	_MoneyDecreaseAmount02 < 0	THEN
+				CALL Money_Update_DB ( 0, _CharacterUID, _MoneyType02, _MoneyDecreaseAmount02, _MoneyResultServer02, _MoneyUpdateTime02, _MoneyResultDB02, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+            
+			-- 아이템 삭제
+            IF _DeleteItemUID01	> 0 THEN						
+				CALL Item_Delete_DB ( _DeleteItemUID01	, _StackDecreaseAmount01	, _StackResultServer01	, _StackResultDB01	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;					
+			END IF;				
+/*            IF _DeleteItemUID02	> 0 THEN						
+				CALL Item_Delete_DB ( _DeleteItemUID02	, _StackDecreaseAmount02	, _StackResultServer02	, _StackResultDB02	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;					
+			END IF;				
+            IF _DeleteItemUID03	> 0 THEN						
+				CALL Item_Delete_DB ( _DeleteItemUID03	, _StackDecreaseAmount03	, _StackResultServer03	, _StackResultDB03	, _Result );
+                IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;					
+			END IF;				
+*/
+            -- 아이템 재련
+            UPDATE item_smelting_tb	SET SmeltingLev = _SmeltingLev/*, SmeltingFailCnt = _SmeltingFailCnt*/	WHERE ItemUID = _SmeltingItemUID;
+            IF ROW_COUNT() <= 0	THEN 
+				INSERT IGNORE INTO item_smelting_tb ( ItemUID, SmeltingLev/*, SmeltingFailCnt*/ )	VALUES ( _SmeltingItemUID, _SmeltingLev/*, _SmeltingFailCnt*/ );
+--              IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+            END IF;
+/*            
+            INSERT INTO item_smelting_tb ( ItemUID, SmeltingLev	)	VALUES  ( _SmeltingItemUID, _SmeltingLev )	ON DUPLICATE KEY UPDATE	SmeltingLev = _SmeltingLev;
+            IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 5;	LEAVE MAIN_ROUTINE;	END IF;	-- 변경된 데이터가 없음
+*/			
+            -- 플레이 데이터 변경
+            IF	_PlayDataIdx01 > 0 OR _PlayDataIdx02 > 0 OR _PlayDataIdx03 > 0 OR _PlayDataIdx04 > 0 OR _PlayDataIdx05 > 0 
+			OR	_PlayDataIdx06 > 0 OR _PlayDataIdx07 > 0 OR _PlayDataIdx08 > 0 OR _PlayDataIdx09 > 0 OR _PlayDataIdx10 > 0	THEN
+				CALL PlayData_Update_DB	( _CharacterUID
+										, _PlayDataIdx01	, _PlayDataValue01
+										, _PlayDataIdx02	, _PlayDataValue02
+										, _PlayDataIdx03	, _PlayDataValue03
+										, _PlayDataIdx04	, _PlayDataValue04
+										, _PlayDataIdx05	, _PlayDataValue05
+										, _PlayDataIdx06	, _PlayDataValue06
+										, _PlayDataIdx07	, _PlayDataValue07
+										, _PlayDataIdx08	, _PlayDataValue08
+										, _PlayDataIdx09	, _PlayDataValue09
+										, _PlayDataIdx10	, _PlayDataValue10
+										, _Result	);
+				IF _Result != 0 THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;		
+            END IF;
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END

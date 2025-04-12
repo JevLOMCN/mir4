@@ -1,0 +1,29 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `Alarm_Get_Game`(
+	IN	_CharacterUID	BIGINT	UNSIGNED
+
+,	OUT	_UnreadMailCnt	SMALLINT	UNSIGNED
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+	END;
+    
+    SET _UnreadMailCnt = 0, _Result = -1;
+        
+	MAIN_ROUTINE:
+	BEGIN
+		IF _CharacterUID = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	END IF;	-- 처리에 필요한 값을 전달받지 못함
+		
+		-- 안읽은 우편 갯수
+		SELECT	COUNT(*)
+		INTO	_UnreadMailCnt
+		FROM	mail_tb
+		WHERE	ReceiveCharacterUID = _CharacterUID AND ExpiryTime > NOW() AND Deleted = 0 AND MailRead = 0;
+		
+		SET	_Result = 0;
+	END;
+END

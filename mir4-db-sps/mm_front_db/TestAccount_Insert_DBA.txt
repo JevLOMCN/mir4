@@ -1,0 +1,41 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `TestAccount_Insert_DBA`(
+	IN	_AccountName	VARCHAR(50)	
+,	IN	_StartNum		TINYINT	UNSIGNED
+,	IN	_CreateCnt		TINYINT	UNSIGNED
+    
+,	OUT _Result	INT
+)
+BEGIN
+	DECLARE	_i	TINYINT		DEFAULT 0;
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text;
+        ROLLBACK;
+	END;
+    
+	SET	_Result = -1;
+	SET	_AccountName = LTRIM( RTRIM(_AccountName) );
+    
+	MAIN_ROUTINE:
+    BEGIN
+		IF	_AccountName = '' OR _CreateCnt = 0	THEN 
+			SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- Failed to receive values ​​required for processing
+		END IF;
+		
+        START TRANSACTION;
+			WHILE	_i < _CreateCnt	DO
+				INSERT IGNORE INTO account_tb
+						( AccountType 	, AccountName 											, SDKUID 	, NationUID , CreateTime, LoginTime , LogoutTime  	)	 
+				VALUES 	( 1 			, CONCAT( _AccountName, CONVERT( _StartNum, CHAR(50) ) ), 1 		, 1			, NOW()  	, NULL  	, NULL   		);
+				IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 2;	LEAVE MAIN_ROUTINE;	END IF;
+				
+                SET _StartNum = _StartNum + 1;
+				SET	_i = _i + 1;
+			END WHILE;
+			
+			SET	_Result = 0;
+        COMMIT;
+    END;
+END

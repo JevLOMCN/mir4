@@ -1,0 +1,46 @@
+CREATE DEFINER=`MM_DBA`@`%` PROCEDURE `_QuestDailyClear_Update_Game`(
+	IN	_CharacterUID			BIGINT		UNSIGNED
+,	IN	_MoneyType				TINYINT		UNSIGNED
+,	IN	_MoneyDecreaseAmount	BIGINT
+,	IN	_MoneyResultServer		BIGINT		UNSIGNED
+,	IN	_MoneyUpdateTime		INT			UNSIGNED
+,	IN	_QuestUID				TINYINT		UNSIGNED
+,	IN	_QuestValue				SMALLINT	UNSIGNED
+
+,	OUT _MoneyResultDB	BIGINT
+,	OUT	_Result			INT
+)
+BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION	
+    BEGIN 
+		GET DIAGNOSTICS CONDITION 1	@Sqlstate = RETURNED_SQLSTATE, @Errno = MYSQL_ERRNO, @Text = MESSAGE_TEXT; 
+        SET _Result = @Errno;	
+-- 		SELECT @Sqlstate, @Errno, @Text; 
+		ROLLBACK;
+	END;
+	
+    SET	_MoneyResultDB = 0, _Result = -1;
+    
+    MAIN_ROUTINE:
+    BEGIN
+		IF	_CharacterUID = 0 OR _QuestUID = 0	THEN SET _Result = 3;	LEAVE MAIN_ROUTINE;	-- 처리에 필요한 값을 전달받지 못함
+		ELSEIF	_MoneyDecreaseAmount > 0		THEN SET _Result = 4;	LEAVE MAIN_ROUTINE;	-- 잘못된 증감값
+        END IF;	
+        
+		START TRANSACTION;
+			-- 즉시 완료일 경우 재화 차감
+			IF	_MoneyDecreaseAmount < 0	THEN
+				CALL Money_Update_DB ( 0, _CharacterUID, _MoneyType, _MoneyDecreaseAmount, _MoneyResultServer, _MoneyUpdateTime, _MoneyResultDB, _Result );
+				IF _Result != 0	THEN ROLLBACK;	LEAVE MAIN_ROUTINE;	END IF;
+			END IF;
+            
+            -- 퀘스트 진행값 변경
+            UPDATE	quest_daily_list_tb
+            SET		QuestValue = _QuestValue, QuestClear = 1
+            WHERE	CharacterUID = _CharacterUID AND QuestUID = _QuestUID AND AcceptTime > 0 AND QuestClear = 0 AND RewardReceiveTime = 0;
+			IF ROW_COUNT() <= 0	THEN ROLLBACK;	SET _Result = 601;	LEAVE MAIN_ROUTINE;	END IF;	-- 존재하지 않는 퀘스트
+            
+			SET	_Result = 0;
+		COMMIT;
+    END;
+END
