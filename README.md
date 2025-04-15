@@ -290,13 +290,13 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 [BughyT](https://www.lomcn.net/forum/members/bughyt.46860/)
 
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHV5OXRkZzhlOHZpbDlodHFodTEwN3gwemU1ZnVjbnE5N2I0Z3VyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rzPCC2WznvksSseXH9/giphy.webp" alt="Redacted" width="96" height="96">
+<img src="https://media2.giphy.com/media/HbU1apZE5zopB0e8Hq/giphy-downsized.gif" alt="CodePwr" width="96" height="96">
 
-[Redacted]()
+[CodePwr](https://www.lomcn.net/forum/members/damian.1126/)
 
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHV5OXRkZzhlOHZpbDlodHFodTEwN3gwemU1ZnVjbnE5N2I0Z3VyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rzPCC2WznvksSseXH9/giphy.webp" alt="Redacted" width="96" height="96">
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNs5tTmCNN6AXCXUspYleX_-LLN_-c1UPECpVnPHfy9C0V3AlS" alt="Chriz" width="96" height="96">
 
-[Redacted]()
+[Chriz](https://www.lomcn.net/forum/members/chriz.86/)
 
 # Contributors:
 
