@@ -319,8 +319,6 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 > [cmb](https://forum.ragezone.com/members/cmb.330743/) - C++
 >
 > [Hells](https://www.lomcn.net/forum/members/hells.7536/) - Outsourcing developers
-> 
-> [S4oul](https://github.com/s4oul) - C++
 >
 > [Community Contributors](https://github.com/JevLOMCN/mir4-launcher/graphs/contributors)
 ---------------------------------------------------------------------------
