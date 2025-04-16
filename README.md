@@ -62,6 +62,12 @@
 >
 > [Memurai](https://www.memurai.com/get-memurai)
 
+## Client - Windows
+ ### Windows 8.1 / 10 / 11
+> [DirectX Runtime](https://www.microsoft.com/en-gb/download/details.aspx?id=35)
+>
+> [.Net Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer)
+
  ## Website (Optional)
 > [CPanel](https://cpanel.net/)
 
