@@ -33,9 +33,9 @@
 ## Quick Links
 
 - [Website](https://thelegendofmir.uk)  
-- [WIKI](https://www.lomcn.net/wiki/index.php/MIR4)  
-- [Tools](https://thelegendofmir.uk/tools)  
-- [Item/Monster Database](https://thelegendofmir.uk/database)  
+- [WIKI](https://thelegendofmir.uk/mir4/Website/wiki/wiki)  
+- [Tools](https://www.mir4tools.com/)  
+- [Item/Monster Database](https://thelegendofmir.uk/mir4/Website/databases) 
 - [Discord](https://discord.gg/KCnHvwJJWN)  
 - [Server Setup Guide](https://youtu.be/_f9N_MuEFb0)  
 
