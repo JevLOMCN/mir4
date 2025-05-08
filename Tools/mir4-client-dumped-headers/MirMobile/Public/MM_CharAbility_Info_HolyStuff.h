@@ -1,0 +1,28 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "WidgetBase.h"
+#include "MM_CharAbility_Info_HolyStuff.generated.h"
+
+class UMirCanvasPanel;
+class UMirTextBlock;
+
+UCLASS(Blueprintable, EditInlineNew)
+class UMM_CharAbility_Info_HolyStuff : public UWidgetBase {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
+    UMirTextBlock* m_Txt_HolyStuff;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
+    TArray<UMirCanvasPanel*> m_HolyStuffs;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
+    TArray<UMirTextBlock*> m_Txt_Names;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
+    TArray<UMirTextBlock*> m_Txt_Grades;
+    
+    UMM_CharAbility_Info_HolyStuff();
+
+};
+

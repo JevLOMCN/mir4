@@ -1,0 +1,5 @@
+#include "MovieSceneSkeletalAnimationOptimizedSectionTemplate.h"
+
+FMovieSceneSkeletalAnimationOptimizedSectionTemplate::FMovieSceneSkeletalAnimationOptimizedSectionTemplate() {
+}
+

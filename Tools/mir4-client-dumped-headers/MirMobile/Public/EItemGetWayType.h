@@ -1,0 +1,43 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EItemGetWayType.generated.h"
+
+UENUM()
+enum class EItemGetWayType : int32 {
+    NONE,
+    SHOP,
+    HUNTING,
+    COLLECTING = 4,
+    GUILD_GIFT,
+    NPC_MAKE,
+    UI_MAKE,
+    ACHIEVEMENT,
+    COLLECTION = 10,
+    RANDOMBOX,
+    SHOP_NPC,
+    QUEST_MISSION = 15,
+    RELATION,
+    QUEST_DAILY = 19,
+    QUEST_REQUEST,
+    NPC_BARTER,
+    JEWEL_UPGRADE,
+    GREAT_BUILDING,
+    FIRST_CLEAR_REWARD,
+    TRADE,
+    GACHA,
+    ITEM_MATERIAL_COMPOSE,
+    MAIN_QUEST,
+    USER_EVENT,
+    GUILD_SHOP,
+    DUNGEON_SHOP,
+    QUEST_DROP = 33,
+    TRANSCENDENCE,
+    GUILD_EXPEDITION_CHALLANGE,
+    GUILD_GIFT_CONTRIBUTE,
+    BOSS_SUMMON,
+    UI_MAKE_FAIL_REWARD = 39,
+    NPC_MAKE_FAIL_REWARD,
+    AGENCY_MAKE_FAIL_REWARD,
+    BLACKDRAGON_DUNGEON,
+};
+

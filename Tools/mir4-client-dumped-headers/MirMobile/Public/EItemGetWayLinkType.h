@@ -1,0 +1,38 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EItemGetWayLinkType.generated.h"
+
+UENUM()
+enum class EItemGetWayLinkType : int32 {
+    NONE,
+    MONSTER = 2,
+    OBJECT,
+    SHOP_GOODS,
+    NPC_SHOP_GOODS,
+    ITEM_MAKE,
+    ACHIEVEMENT,
+    ITEM_RANDOM_GET,
+    ITEM_PACKAGE,
+    QUEST_RELATION,
+    QUEST_DAILY,
+    QUEST_MISSION,
+    QUEST_REQUEST,
+    JEWEL_UPGRADE,
+    INSTANCE_DUNGEON_INFO,
+    GREAT_BUILDING_STEP,
+    BOSS_WORLD,
+    GUILD_EXPEDITION,
+    ITEM,
+    QUEST_DAILY_PLUS_REWARD,
+    GACHA_INFO,
+    ITEM_MATERIAL_COMPOSE,
+    MAIN_QUEST,
+    USER_EVENT,
+    SHOP_GOODS_ITEM_PACKAGE,
+    GUILD_SHOP,
+    DUNGEON_SHOP,
+    QUEST_DROP_ITEM,
+    ITEM_TRANSCENDENCE_DEFINE,
+    MAKE_FAIL = 31,
+};
+

@@ -1,0 +1,47 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EWarpContentsType.generated.h"
+
+UENUM(BlueprintType)
+enum class EWarpContentsType : uint8 {
+    None,
+    MapAuto,
+    MapClick,
+    MapNpc,
+    PartyAssemble,
+    GetPathHunting,
+    GetPathGather,
+    ChatSharedPos,
+    Quest,
+    QuestMainTracker,
+    QuestMission,
+    QuestRequestTracker,
+    MoveToRequestNpc,
+    QuestRelation,
+    FieldDungeon,
+    EliteDungeon,
+    Labyrinth,
+    UnderWorld,
+    Occupation_Enter,
+    Occupation_Exit,
+    Plender_Exit,
+    InstanceDungeon,
+    MagicSquare_Enter,
+    MagicSquare_Change,
+    MagicSquare_Leave,
+    WorldBoss,
+    WorldBoss_Force,
+    SecretDungeon_Enter,
+    SecretDungeon_Leave,
+    GuildExpedition,
+    BossExpedition,
+    BossWaveExpedition,
+    EmergencyEscape,
+    returnVillage,
+    AutoBattleReturn,
+    ChangeChannel,
+    AutoMove_ReturnToCenter,
+    UseInvenWarpItem,
+    BlackDragon,
+};
+

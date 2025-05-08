@@ -1,0 +1,11 @@
+#include "MM_PetQuickTab.h"
+
+UMM_PetQuickTab::UMM_PetQuickTab() {
+    this->m_arQuickBtn[0] = NULL;
+    this->m_arQuickBtn[1] = NULL;
+    this->m_arQuickBtn[2] = NULL;
+    this->m_arQuickBtn[3] = NULL;
+    this->m_arQuickBtn[4] = NULL;
+}
+
+

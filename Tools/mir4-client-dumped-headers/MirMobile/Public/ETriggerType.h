@@ -1,0 +1,40 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ETriggerType.generated.h"
+
+UENUM(BlueprintType)
+enum class ETriggerType : uint8 {
+    NONE,
+    BEGINPLAY,
+    ENDPLAY,
+    MOVE,
+    MONSTER_GROUP,
+    MONSTER_KILL_CHECK,
+    WALL,
+    FIXEDCAMERA,
+    GUARD_NPC_SPAWNER,
+    GUARD_NPC_MOVE,
+    GUARD_NPC_ENTER_CHECK,
+    DIRECTING,
+    CREATEWIDGET,
+    QUESTCOMPLETE,
+    TIMER,
+    QUEST_STATUS_CHECK,
+    SCRIPT,
+    MONSTER_MOVE,
+    COUNT,
+    PLAYSOUND,
+    CONDITIONCHECK,
+    PHASEAREA,
+    MONSTER_KILL,
+    SCRIPT_MONSTER_KILL_CHECK,
+    OPOBJECT,
+    MISSION_FAIL,
+    NPCSHOW,
+    EFFECTSHOW,
+    PCWARP,
+    DO_ONCE,
+    INVINCIBILITY,
+    OTHER,
+};
+

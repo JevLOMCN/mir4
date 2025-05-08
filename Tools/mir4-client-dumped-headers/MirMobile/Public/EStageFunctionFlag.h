@@ -1,0 +1,28 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EStageFunctionFlag.generated.h"
+
+UENUM(BlueprintType)
+enum class EStageFunctionFlag : uint8 {
+    NONE,
+    GUILD_WAR,
+    COMBAT_UNIFORM,
+    NAMETAG_CLASS = 4,
+    MISSION_QUEST_STAGE = 8,
+    GUILD_SANCTUM = 16,
+    DARK_ALTAR = 32,
+    FIELD = MISSION_QUEST_STAGE,
+    SINGLE_FIELD = NONE,
+    CUSTOM = NONE,
+    ELITE_DUNGEON = MISSION_QUEST_STAGE,
+    ELITE_STAGE = MISSION_QUEST_STAGE,
+    UNDER_WORLD = 12,
+    BIDO = MISSION_QUEST_STAGE,
+    STRONGPOINT = 7,
+    OCCUPATION = STRONGPOINT,
+    SIEGE = STRONGPOINT,
+    PLUNDER = NAMETAG_CLASS,
+    WORLD_BOSS = NONE,
+    ARENA_PVP = NONE,
+};
+

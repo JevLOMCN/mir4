@@ -1,0 +1,47 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EItemGetWayCategoryType.generated.h"
+
+UENUM(BlueprintType)
+enum class EItemGetWayCategoryType : uint8 {
+    None,
+    Store,
+    Cash_Store,
+    Meditation,
+    Monster,
+    NamedMonster,
+    Gather,
+    Dungeon_Hunt,
+    Dungeon_Gather,
+    ItemMake,
+    Achievement,
+    ItemUpgrade,
+    DictionaryMonster,
+    OpenBox,
+    NPCStore,
+    MagicSquare,
+    Boss_Monster,
+    Quest_Mission,
+    Quest_Relation,
+    Mine,
+    Box_Search,
+    Quest_Request,
+    Daily_Work,
+    Great_Building,
+    Secret_Dungeon,
+    NPC_ItemMake,
+    Daily_HomeWork,
+    Gacha,
+    Material_Compse,
+    MainQuest,
+    NPC_Exchange,
+    Guild_SHOP,
+    Dungeon_Shop,
+    Quest_DropItem,
+    Transcendence,
+    Boss_Summon,
+    MakeFail = 37,
+    BlackDragonDungeon,
+    MAX_ItemGetWayType,
+};
+

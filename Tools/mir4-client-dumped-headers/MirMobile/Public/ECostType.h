@@ -1,0 +1,26 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ECostType.generated.h"
+
+UENUM(BlueprintType)
+enum class ECostType : uint8 {
+    TYPE_NONE,
+    TYPE_COIN = 2,
+    TYPE_SILVER_COIN,
+    TYPE_GOLD_COIN,
+    TYPE_GOLD_COIN_FREE,
+    TYPE_SAPPHIRE,
+    TYPE_GOLD_COIN_EVENT,
+    TYPE_ENERGY_POINT = 11,
+    TYPE_BLACK_IRON,
+    TYPE_GUILD_POINT = 17,
+    TYPE_ACCELERATION_POINT,
+    TYPE_DRAGON_JADE,
+    TYPE_ANCIENT_COIN,
+    TYPE_DRAGON_STEEL = 23,
+    TYPE_GUILD_GOLD = 91,
+    TYPE_GUILD_COIN,
+    TYPE_GUILD_BLACKIRON,
+    TYPE_GUILD_SPIRIT,
+};
+
