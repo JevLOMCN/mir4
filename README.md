@@ -160,7 +160,7 @@
 
 [Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
 
-<img src="https://cdn.discordapp.com/avatars/867884931589865533/fc0fc28174b3b6f3b9a4fa14a8dbeb39.webp" alt="Nyyl" width="96" height="96">
+<img src="https://avatars.akamai.steamstatic.com/e23f6d5fdd009b3b4660166c28b18cc743093d20_full.jpg" alt="Nyyl" width="96" height="96">
 
 [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/)
 
