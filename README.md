@@ -31,7 +31,7 @@
 <details>
 <summary><b>Network Diagram</b></summary>
 
-![image](![image](https://github.com/user-attachments/assets/487e6b08-9458-4e1f-aa31-cbd3c6b83807)
+![image](https://github.com/user-attachments/assets/487e6b08-9458-4e1f-aa31-cbd3c6b83807)
 </details>
 
 ---
