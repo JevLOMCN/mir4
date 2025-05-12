@@ -28,6 +28,12 @@
 ![image](https://github.com/user-attachments/assets/47f27ca6-80e4-4cf0-b0c0-dc29e587dff6)
 </details>
 
+<details>
+<summary><b>Network Diagram</b></summary>
+
+![image](![image](https://github.com/user-attachments/assets/487e6b08-9458-4e1f-aa31-cbd3c6b83807)
+</details>
+
 ---
 
 ## Quick Links
