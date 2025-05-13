@@ -198,7 +198,7 @@
 ---
 # Other Projects:
 
-> <img src="Tools/icons/mir1.png" alt="Steam" width="20"/> **[Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database)**
+> <img src="Tools/icons/mir1.png" alt="Steam" width="20"/> [Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database)
 >
 > [Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database)
 >
