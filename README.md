@@ -1,5 +1,7 @@
 # Legend of Mir 4 - Official Public Topaz Source
 
+[![Latest Release](https://img.shields.io/github/v/release/JevLOMCN/mir4?label=release&style=flat-square)](https://github.com/JevLOMCN/mir4/releases/latest)
+
 > [!IMPORTANT]  
 > Server Source is NOT available at this time. Please stand by for us to Open Source it.
 
