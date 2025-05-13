@@ -204,7 +204,7 @@
 >
 > <img src="Tools/icons/mir3.png" alt="Mir3" width="20"/> [Mir 3](https://github.com/Suprcode/Zircon) - Remake of Wemade Entertainment's 2003 The Legend Of Mir 3
 >
-> <img src="Tools/icons/woool.png" alt="Mir3D" width="20"/> [World Of Legend](https://www.lomcn.net/forum/forums/woool-development-project-onyx.857/) - Remake of Shanda Games' (now Shengqu Games) 2003 The World Of Legend
+> <img src="Tools/icons/woool.png" alt="Mir3D" width="20"/> [WoOOL](https://www.lomcn.net/forum/forums/woool-development-project-onyx.857/) - Remake of Shanda Games' (now Shengqu Games) 2003 The World Of Legend
 > 
 > <img src="Tools/icons/mir3d.png" alt="Mir3D" width="20"/> [Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) | [Mir 3D (Holy Cow)](https://github.com/JevLOMCN/Legend-Eternal-Mir3D) - Remake of Shanda Games' (now Shengqu Games) 2016 Legend Eternal
 
