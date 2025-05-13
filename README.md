@@ -204,7 +204,7 @@
 >
 > <img src="Tools/icons/mir3.png" alt="Mir3" width="20"/> [Mir 3](https://github.com/Suprcode/Zircon)
 >
-> <img src="Tools/icons/mir3d.png" alt="Mir3D" width="20"/> [Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) | [Mir 3D (Holy Cow](https://github.com/JevLOMCN/Legend-Eternal-Mir3D)
+> <img src="Tools/icons/mir3d.png" alt="Mir3D" width="20"/> [Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) | [Mir 3D (Holy Cow)](https://github.com/JevLOMCN/Legend-Eternal-Mir3D)
 
 # Sponsored By:
 <img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo.png" alt="RageZone">
