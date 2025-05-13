@@ -2,7 +2,7 @@
 
 [![Latest Release](https://img.shields.io/github/v/release/JevLOMCN/mir4?label=release&style=flat-square)](https://github.com/JevLOMCN/mir4/releases/latest)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg?style=flat-square)](LICENSE)
-[![Build](https://github.com/luanti-org/luanti/workflows/build/badge.svg)
+[![Build](Tools/icons/badge.svg)
 
 > [!IMPORTANT]  
 > Server Source is NOT available at this time. Please stand by for us to Open Source it.
