@@ -36,6 +36,20 @@
 
 ---
 
+## 📂 Folder Structure
+- [**Tools**](https://github.com/JevLOMCN/mir4/tree/main/Tools)  
+  A collection of useful MIR4 tools, ranging from premade websites to client editors.  
+- [**mir4-client-launcher**](https://github.com/JevLOMCN/mir4/tree/main/mir4-client-launcher)  
+  An optional client launcher, designed to look and feel like the official MIR4 launcher.  
+- [**mir4-db-sps**](https://github.com/JevLOMCN/mir4/tree/main/mir4-db-sps)  
+  Complete MIR4 server database exports, including all schemas and stored procedures.  
+- [**mir4-server-console**](https://github.com/JevLOMCN/mir4/tree/main/mir4-server-console)  
+  An optional server launcher with quick-edit tools for live tweaking.  
+- [**mir4-server-jsons**](https://github.com/JevLOMCN/mir4/tree/main/mir4-server-jsons)  
+  Full set of MIR4 server JSON configuration files.
+
+---
+
 ## Quick Links
 
 - [Website](https://thelegendofmir.uk)  
