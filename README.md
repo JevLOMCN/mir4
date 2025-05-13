@@ -28,6 +28,26 @@
 ![image](https://github.com/user-attachments/assets/47f27ca6-80e4-4cf0-b0c0-dc29e587dff6)
 </details>
 
+<details>
+<summary><b>Network Diagram</b></summary>
+
+![image](https://github.com/user-attachments/assets/487e6b08-9458-4e1f-aa31-cbd3c6b83807)
+</details>
+
+---
+
+## 📂 Folder Structure
+- [**Tools**](https://github.com/JevLOMCN/mir4/tree/main/Tools)  
+  A collection of useful MIR4 tools, ranging from premade websites to client editors.  
+- [**mir4-client-launcher**](https://github.com/JevLOMCN/mir4/tree/main/mir4-client-launcher)  
+  An optional client launcher, designed to look and feel like the official MIR4 launcher.  
+- [**mir4-db-sps**](https://github.com/JevLOMCN/mir4/tree/main/mir4-db-sps)  
+  Complete MIR4 server database exports, including all schemas and stored procedures.  
+- [**mir4-server-console**](https://github.com/JevLOMCN/mir4/tree/main/mir4-server-console)  
+  An optional server launcher with quick-edit tools for live tweaking.  
+- [**mir4-server-jsons**](https://github.com/JevLOMCN/mir4/tree/main/mir4-server-jsons)  
+  Full set of MIR4 server JSON configuration files.
+
 ---
 
 ## Quick Links
@@ -160,7 +180,7 @@
 
 [Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
 
-<img src="https://cdn.discordapp.com/avatars/867884931589865533/fc0fc28174b3b6f3b9a4fa14a8dbeb39.webp" alt="Nyyl" width="96" height="96">
+<img src="https://avatars.akamai.steamstatic.com/e23f6d5fdd009b3b4660166c28b18cc743093d20_full.jpg" alt="Nyyl" width="96" height="96">
 
 [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/)
 
