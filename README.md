@@ -198,6 +198,8 @@
 ---
 # Other Projects:
 
+> <img src="https://thelegendofmir.uk/mir1/favicon.ICO" alt="Steam" width="20"/> **[Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database)**
+>
 > [Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database)
 >
 > [Mir 2](https://github.com/Suprcode/Crystal) | [Database](https://github.com/Suprcode/Crystal.Database) | [Map Editor](https://github.com/Suprcode/Crystal.MapEditor)
