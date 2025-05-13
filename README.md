@@ -103,12 +103,15 @@
 
 ---
 
-## To Do
+## 🛠 To Do
 
 <details>
   <summary>To Do List</summary>
-  (todo.md)
+
+  You can see the full task list here: [todo.md](todo.md)
 </details>
+
+---
 
 ## Downloads
 
