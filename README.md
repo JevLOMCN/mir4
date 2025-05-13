@@ -82,8 +82,8 @@ Topaz Mir4 is an open-source implementation of the official Legend of Mir 4 serv
 
 ### Downloads
 
-- [Client (Full)](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/LOMCN%20Mir%204%20Client.rar)  
-- [Servers](https://github.com/JevLOMCN/mir4/releases)
+- [Client](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/LOMCN%20Mir%204%20Client.rar)  
+- [Server](https://github.com/JevLOMCN/mir4/releases)
 
 ---
 
