@@ -14,7 +14,7 @@ Legend of Mir 4 - Official Public Topaz Source
 </h3>
 
 <h2 align="center">
-Topaz Mir4 is an open-source implementation of the official Legend of Mir 4 server code that empowers community organizers, modders, and hobbyists to spin up their own private MIR4 server in minutes. <br><br>Built directly from the official sources for maximum compatibility, Mir4 uses MySQL for data storage and JSON files for server configuration, with simple setup scripts and detailed guides/wikis. <br><br>Its friendly architecture lets you tweak rates, items, stats, and more, while an active LOMCN community provides a hub for sharing set ups, reporting bugs, and collaborating on new features. <br><br>Dive in to explore, customize, and host your personalized Legend of Mir 4 experience today!
+Topaz Mir 4 is an open-source implementation of the official Legend of Mir 4 server code that empowers community organizers, modders, and hobbyists to spin up their own private Mir 4 server in minutes. <br><br>Built directly from the official sources for maximum compatibility, Mir 4 uses MySQL for data storage and JSON files for server configuration, with simple setup scripts and detailed guides/wikis. <br><br>Its friendly architecture lets you tweak rates, items, stats, and more, while an active LOMCN community provides a hub for sharing set ups, reporting bugs, and collaborating on new features. <br><br>Dive in to explore, customize, and host your personalized Legend of Mir 4 experience today!
 </h2>
 
 > [!IMPORTANT]  
