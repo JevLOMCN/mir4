@@ -55,13 +55,22 @@
 
 ## Quick Links
 
-- [Website](https://thelegendofmir.uk)  
-- [WIKI](https://thelegendofmir.uk/mir4/Website/wiki/wiki)  
-- [Tools](https://www.mir4tools.com/)  
-- [Item/Monster Database](https://thelegendofmir.uk/mir4/Website/databases) 
-- [Discord](https://discord.gg/KCnHvwJJWN)  
-- [Server Setup Guide](https://youtu.be/_f9N_MuEFb0)  
+### Official Resources
+- [Test Website](https://thelegendofmir.uk/mir4/Website)
+- [Server WIKI](https://thelegendofmir.uk/mir4/Website/wiki/wiki)
+- [Server Database](https://thelegendofmir.uk/mir4/Website/databases)
+- [Mir 4 Tools](https://www.mir4tools.com/)
+- [Discord](https://discord.gg/KCnHvwJJWN)
+- [Server Setup Guide (YouTube)](https://youtu.be/_f9N_MuEFb0)
+- [Server Setup Guide (Written)](https://thelegendofmir.uk/mir4/Website/wiki/guide)
 
+### LOMCN Community
+- [Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
+- [Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
+- [Bug Reports](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/)
+- [Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
+- [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
+  
 ---
 
 ## Dependencies
@@ -104,20 +113,6 @@
 - [Client (Full)](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/LOMCN%20Mir%204%20Client.rar)  
 - [Servers](https://github.com/JevLOMCN/mir4/releases)  
 
----
-
-# LOMCN Links:
-
-> [Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
->
-> [Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
->
-> [Bug Reports](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/)
->
-> [Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
->
-> [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
-> 
 ---
 
 # Dev Team:
