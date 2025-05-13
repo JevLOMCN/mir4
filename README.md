@@ -122,6 +122,7 @@
 - [Servers](https://github.com/JevLOMCN/mir4/releases)  
 
 ---
+
 # LOMCN Links:
 
 > [Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
@@ -133,7 +134,9 @@
 > [Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
 >
 > [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
+> 
 ---
+
 # Dev Team:
 
 <img src="https://c.tenor.com/7_KRHOBcSnEAAAAC/tenor.gif" alt="Jev" width="96" height="96">
@@ -172,6 +175,8 @@
 
 [Chriz](https://www.lomcn.net/forum/members/chriz.86/)
 
+---
+
 # Contributors:
 
 > [Netskee](https://www.lomcn.net/forum/members/netskee.19772/) - Graphic Design
@@ -195,7 +200,9 @@
 > [Hells](https://www.lomcn.net/forum/members/hells.7536/) - Outsourcing developers
 >
 > [Community Contributors](https://github.com/JevLOMCN/mir4-launcher/graphs/contributors)
+
 ---
+
 # Other Projects:
 
 - <img src="Tools/icons/mir1.png" alt="Mir1" width="20"/> [Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database) - Remake of ActozSoft's 1997 _The Legend Of Mir 1_
@@ -203,6 +210,9 @@
 - <img src="Tools/icons/mir3.png" alt="Mir3" width="20"/> [Mir 3](https://github.com/Suprcode/Zircon) - Remake of Wemade Entertainment's 2003 _The Legend Of Mir 3_
 - <img src="Tools/icons/woool.png" alt="WoOOL" width="20"/> [WoOOL](https://www.lomcn.net/forum/forums/woool-development-project-onyx.857/) - Remake of Shanda Games' (now Shengqu Games) 2003 _The World Of Legend_
 - <img src="Tools/icons/mir3d.png" alt="Mir3D" width="20"/> [Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) | [Mir 3D (Holy Cow)](https://github.com/JevLOMCN/Legend-Eternal-Mir3D) - Remake of Shanda Games' (now Shengqu Games) 2016 _Legend Eternal_
+- <img src="Tools/icons/mir4.png" alt="Mir4" width="20"/> [Mir 4](https://github.com/JevLOMCN/mir4) - Remake of Wemade Entertainment's 2021 _The Legend Of Mir 4_
+
+---
 
 # Sponsored By:
 <img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo.png" alt="RageZone">
