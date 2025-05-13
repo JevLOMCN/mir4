@@ -94,7 +94,7 @@
 <details>
   <summary>To Do List</summary>
 
-  You can see the full task list here: [todo.md](todo.md)
+  You can see the full task list here: [To Do List](todo.md)
 </details>
 
 ---
