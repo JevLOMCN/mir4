@@ -107,7 +107,7 @@
 
 <details>
   <summary>To Do List</summary>
-  *(todo.md)*
+  (todo.md)
 </details>
 
 ## Downloads
