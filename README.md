@@ -1,4 +1,6 @@
-# Legend of Mir 4 - Official Public Topaz Source
+<h1 align="center">
+Legend of Mir 4 - Official Public Topaz Source
+</h2>
 
 [![Latest Release](https://img.shields.io/github/v/release/JevLOMCN/mir4?label=release&style=flat-square)](https://github.com/JevLOMCN/mir4/releases/latest)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg?style=flat-square)](LICENSE)
