@@ -198,15 +198,13 @@
 ---
 # Other Projects:
 
-> <img src="Tools/icons/mir1.png" alt="Steam" width="20"/> [Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database)
+> <img src="Tools/icons/mir1.png" alt="Mir1" width="20"/> [Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database)
 >
-> [Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database)
+> <img src="Tools/icons/mir2.png" alt="Mir2" width="20"/> [Mir 2](https://github.com/Suprcode/Crystal) | [Database](https://github.com/Suprcode/Crystal.Database) | [Map Editor](https://github.com/Suprcode/Crystal.MapEditor)
 >
-> [Mir 2](https://github.com/Suprcode/Crystal) | [Database](https://github.com/Suprcode/Crystal.Database) | [Map Editor](https://github.com/Suprcode/Crystal.MapEditor)
+> <img src="Tools/icons/mir3.png" alt="Mir3" width="20"/> [Mir 3](https://github.com/Suprcode/Zircon)
 >
-> [Mir 3](https://github.com/Suprcode/Zircon)
->
-> [Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) | [Mir 3D (Holy Cow)](https://github.com/damianday/Conquer)
+> <img src="Tools/icons/mir3d.png" alt="Mir3D" width="20"/> [Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) | [Mir 3D (Holy Cow](https://github.com/JevLOMCN/Legend-Eternal-Mir3D)
 
 # Sponsored By:
 <img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo.png" alt="RageZone">
