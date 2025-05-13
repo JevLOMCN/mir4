@@ -9,7 +9,7 @@
 ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
 
 <p align="center">
-**Topaz Mir4** is an open-source implementation of the official Legend of Mir 4 server code that empowers community organizers, modders, and hobbyists to spin up their own private MIR4 server in minutes. Built directly from the official sources for maximum compatibility, Mir4 uses MySQL for data storage and JSON files for server configuration, with simple setup scripts and detailed guides/wikis. Its friendly architecture lets you tweak rates, items, stats, and more, while an active LOMCN community provides a hub for sharing set ups, reporting bugs, and collaborating on new features. Dive in to explore, customize, and host your personalized Legend of Mir 4 experience today!
+### Topaz Mir4 is an open-source implementation of the official Legend of Mir 4 server code that empowers community organizers, modders, and hobbyists to spin up their own private MIR4 server in minutes. Built directly from the official sources for maximum compatibility, Mir4 uses MySQL for data storage and JSON files for server configuration, with simple setup scripts and detailed guides/wikis. Its friendly architecture lets you tweak rates, items, stats, and more, while an active LOMCN community provides a hub for sharing set ups, reporting bugs, and collaborating on new features. Dive in to explore, customize, and host your personalized Legend of Mir 4 experience today!
 </p>
 
 > [!IMPORTANT]  
