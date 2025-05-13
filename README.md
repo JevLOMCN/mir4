@@ -20,7 +20,7 @@ Topaz Mir4 is an open-source implementation of the official Legend of Mir 4 serv
 
 ---
 
-## Previews
+## 👀 Previews
 
 <details>
 <summary><b>Server Console Preview</b></summary>
@@ -62,7 +62,7 @@ Topaz Mir4 is an open-source implementation of the official Legend of Mir 4 serv
 
 ---
 
-## Quick Links
+## 🔗 Quick Links
 
 ### Official Resources
 - [Test Website](https://thelegendofmir.uk/mir4/Website)
