@@ -2,6 +2,7 @@
 
 [![Latest Release](https://img.shields.io/github/v/release/JevLOMCN/mir4?label=release&style=flat-square)](https://github.com/JevLOMCN/mir4/releases/latest)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg?style=flat-square)](LICENSE)
+[![Build](Tools/icons/badge.svg)
 
 > [!IMPORTANT]  
 > Server Source is NOT available at this time. Please stand by for us to Open Source it.
@@ -55,40 +56,37 @@
 
 ## Quick Links
 
-- [Website](https://thelegendofmir.uk)  
-- [WIKI](https://thelegendofmir.uk/mir4/Website/wiki/wiki)  
-- [Tools](https://www.mir4tools.com/)  
-- [Item/Monster Database](https://thelegendofmir.uk/mir4/Website/databases) 
-- [Discord](https://discord.gg/KCnHvwJJWN)  
-- [Server Setup Guide](https://youtu.be/_f9N_MuEFb0)  
+### Official Resources
+- [Test Website](https://thelegendofmir.uk/mir4/Website)
+- [Server WIKI](https://thelegendofmir.uk/mir4/Website/wiki/wiki)
+- [Server Database](https://thelegendofmir.uk/mir4/Website/databases)
+- [Mir 4 Tools](https://www.mir4tools.com/)
+- [Discord](https://discord.gg/KCnHvwJJWN)
+- [Server Setup Guide (YouTube)](https://youtu.be/_f9N_MuEFb0)
+- [Server Setup Guide (Written)](https://thelegendofmir.uk/mir4/Website/wiki/guide)
+
+### LOMCN Community
+- [Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
+- [Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
+- [Bug Reports](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/)
+- [Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
+- [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
+
+### Downloads
+
+- [Client (Full)](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/LOMCN%20Mir%204%20Client.rar)  
+- [Servers](https://github.com/JevLOMCN/mir4/releases)
 
 ---
 
 ## Dependencies
 
-### Servers - Windows  
-**Windows 10+ / Windows Server 2016+**  
-- [MySQL Community 5.7.44.0](https://dev.mysql.com/downloads/file/?id=523570)  
-- [Couchbase Community 7.2](https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi)  
-- [Memurai](https://www.memurai.com/get-memurai)  
-- [Windows Terminal](https://github.com/microsoft/terminal)  
-- [Microsoft Visual C++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version)  
-
-### Servers - Linux  
-- [Visual Code](https://code.visualstudio.com/download)  
-- [MySQL Community 5.7.44.0](https://downloads.mysql.com/archives/get/p/23/file/mysql-5.7.44-linux-glibc2.12-x86_64.tar.gz)  
-- [Couchbase Community 7.2](https://docs.couchbase.com/server/current/install/install-linux.html)  
-- [Memurai](https://www.memurai.com/get-memurai)  
-
-### Client - Windows  
-**Windows 8.1 / 10 / 11**  
-- [DirectX Runtime](https://www.microsoft.com/en-gb/download/details.aspx?id=35)  
-- [.Net Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer)  
-
-### Optional  
-- [CPanel](https://cpanel.net/) (Website)  
-- [Unreal Engine 4.24.3](https://www.unrealengine.com/)  
-- [Plugins List](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/MirMobile.upluginmanifest.txt)  
+| Component              | Supported OS                          | Required Packages & Links                                                                                                                                                                                                                                                                                   |
+|------------------------|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Server (Windows)**   | Windows 10+<br>Windows Server 2016+    | - [MySQL Community 5.7.44.0](https://dev.mysql.com/downloads/mysql/) <br>- [Couchbase Community 7.2](https://www.couchbase.com/downloads) <br>- [Memurai](https://www.memurai.com/download) <br>- [Windows Terminal](https://aka.ms/terminal) <br>- [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) |
+| **Server (Linux)**     | Ubuntu 18.04+ / CentOS 7+             | - [MySQL Community 5.7.44.0](https://dev.mysql.com/downloads/repo/apt/) <br>- [Couchbase Community 7.2](https://docs.couchbase.com/server/current/install/install-intro.html) <br>- [Memurai](https://www.memurai.com/)             |
+| **Client (Windows)**   | Windows 8.1 / 10 / 11                 | - [DirectX Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=35) <br>- [.NET Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/6.0/run)                                                                                                                                            |
+| **Optional**           | —                                     | - cPanel (Website)<br>- [Unreal Engine 4.24.3](https://docs.unrealengine.com/4.24/en-US/)<br>- [Plugins List](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/MirMobile.upluginmanifest.txt)                                                                                                                                                                                                  |
 
 ---
 
@@ -96,7 +94,7 @@
 
 | Function           | Windows | Linux | MacOS | Required       |
 |--------------------|---------|-------|-------|----------------|
-| Servers            | ✔️      | ✔️    | ➖    | ✔️             |
+| Servers            | ✔️      | ➖    | ➖    | ✔️             |
 | Client             | ✔️      | ➖    | ➖    | ✔️             |
 | Server Console     | ✔️      | ❌    | ❌    | ❌             |
 | Client Launcher    | ✔️      | ❌    | ❌    | ❌             |
@@ -111,30 +109,9 @@
 <details>
   <summary>To Do List</summary>
 
-  You can see the full task list here: [todo.md](todo.md)
+  You can see the full task list here: [To Do List](todo.md)
 </details>
 
----
-
-## Downloads
-
-- [Client (Full)](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/LOMCN%20Mir%204%20Client.rar)  
-- [Servers](https://github.com/JevLOMCN/mir4/releases)  
-
----
-
-# LOMCN Links:
-
-> [Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
->
-> [Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
->
-> [Bug Reports](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/)
->
-> [Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
->
-> [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
-> 
 ---
 
 # Dev Team:
