@@ -70,7 +70,12 @@
 - [Bug Reports](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/)
 - [Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
 - [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
-  
+
+### Downloads
+
+- [Client (Full)](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/LOMCN%20Mir%204%20Client.rar)  
+- [Servers](https://github.com/JevLOMCN/mir4/releases)
+
 ---
 
 ## Dependencies
@@ -105,13 +110,6 @@
 
   You can see the full task list here: [To Do List](todo.md)
 </details>
-
----
-
-## Downloads
-
-- [Client (Full)](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/LOMCN%20Mir%204%20Client.rar)  
-- [Servers](https://github.com/JevLOMCN/mir4/releases)  
 
 ---
 
