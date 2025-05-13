@@ -79,7 +79,7 @@
 
 | Function           | Windows | Linux | MacOS | Required       |
 |--------------------|---------|-------|-------|----------------|
-| Servers            | ✔️      | ✔️    | ➖    | ✔️             |
+| Servers            | ✔️      | ➖    | ➖    | ✔️             |
 | Client             | ✔️      | ➖    | ➖    | ✔️             |
 | Server Console     | ✔️      | ❌    | ❌    | ❌             |
 | Client Launcher    | ✔️      | ❌    | ❌    | ❌             |
