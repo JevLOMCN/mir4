@@ -3,6 +3,14 @@
 [![Latest Release](https://img.shields.io/github/v/release/JevLOMCN/mir4?label=release&style=flat-square)](https://github.com/JevLOMCN/mir4/releases/latest)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg?style=flat-square)](LICENSE)
 ![Build](Tools/icons/badge.svg)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
+
+<p align="center">
+**Topaz Mir4** is an open-source implementation of the official Legend of Mir 4 server code that empowers community organizers, modders, and hobbyists to spin up their own private MIR4 server in minutes. Built directly from the official sources for maximum compatibility, Mir4 uses MySQL for data storage and JSON files for server configuration, with simple setup scripts and detailed guides/wikis. Its friendly architecture lets you tweak rates, items, stats, and more, while an active LOMCN community provides a hub for sharing set ups, reporting bugs, and collaborating on new features. Dive in to explore, customize, and host your personalized Legend of Mir 4 experience today!
+</p>
 
 > [!IMPORTANT]  
 > Server Source is NOT available at this time. Please stand by for us to Open Source it.
