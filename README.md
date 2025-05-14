@@ -212,3 +212,7 @@ Topaz Mir 4 is an open-source implementation of the official Legend of Mir 4 ser
 <img src="https://www.lomcn.net/forum/styles/uix/images/logo2024_100.png" alt="LOMCN">
 
 [LOMCN](https://www.lomcn.net/) - The Legend of Mir Community Network is a fan based site on the MMORPG Legend of Mir.
+
+---
+
+[📄 Disclaimer](./DISCLAIMER.md)
