@@ -215,4 +215,13 @@ Topaz Mir 4 is an open-source implementation of the official Legend of Mir 4 ser
 
 ---
 
+# Stop Killing Games
+<img src="https://www.stopkillinggames.com/images/skglogo.svg" alt="SKG">
+
+"Stop Killing Games" is a consumer movement started to challenge the legality of publishers destroying video games they have sold to customers. An increasing number of video games are sold effectively as goods - with no stated expiration date - but designed to be completely unplayable as soon as support from the publisher ends. This practice is a form of planned obsolescence and is not only detrimental to customers, but makes preservation effectively impossible. Furthermore, the legality of this practice is largely untested in many countries.
+
+[Stop Killing Games](https://www.stopkillinggames.com/)
+
+---
+
 [📄 Disclaimer](./DISCLAIMER.md)
