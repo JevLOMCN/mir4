@@ -30,7 +30,7 @@ Topaz Mir 4 is an open-source implementation of the official Legend of Mir 4 ser
 <details>
 <summary><b>Server Console Preview</b></summary>
 
-![image](https://github.com/user-attachments/assets/c5da7c0d-2ecb-40b3-90f5-20e91724d236)
+![image](![image](https://github.com/user-attachments/assets/c59b0351-30eb-401f-ada3-7b23a4da826d)
 </details>
 
 <details>
@@ -109,11 +109,11 @@ Topaz Mir 4 is an open-source implementation of the official Legend of Mir 4 ser
 |--------------------|---------|-------|-------|----------------|
 | Servers            | ✔️      | ➖    | ➖    | ✔️             |
 | Client             | ✔️      | ➖    | ➖    | ✔️             |
-| Server Console     | ✔️      | ❌    | ❌    | ❌             |
+| Server Console     | ✔️      | ✔️    | ✔️    | ❌             |
 | Client Launcher    | ✔️      | ❌    | ❌    | ❌             |
 | Website            | ✔️      | ✔️    | ✔️    | ❌             |
 
-**➖** = To be tested | **❌** = Not supported  
+**✔️** = Supported | **➖** = To be tested | **❌** = Not supported  
 
 ---
 
