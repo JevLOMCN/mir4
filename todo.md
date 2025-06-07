@@ -37,4 +37,4 @@
 
 ***OTHERS***
 - [ ] Autopatcher for Client
-- [ ] Monster Database (Server Console)
+- [ ] Monster Database (Server Console) 
