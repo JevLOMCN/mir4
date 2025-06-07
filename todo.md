@@ -36,5 +36,5 @@
 - [ ] Upgrade to latest Client
 
 ***OTHERS***
-- [ ] Autopatcher for Client
+- [ ] Autopatcher for Client 
 - [ ] Monster Database (Server Console) 
