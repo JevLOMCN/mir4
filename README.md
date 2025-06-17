@@ -71,6 +71,20 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
+## 📂 Multi-Server Setup Examples
+
+| Scenario # | Front Server | Chatting Server | World Server(s) | Game Server(s) | MySQL    | Couchbase | Memurai  | Character Data Shared? | Chat Shared? | Login Shared? | Notes                                      |
+|------------|--------------|------------------|------------------|----------------|----------|-----------|----------|-------------------------|--------------|----------------|---------------------------------------------|
+| 1          | Single       | Single           | Single           | Single         | ✔️       | ✔️        | ✔️       | ✔️                      | ✔️           | ✔️             | Basic Single Server Setup                   |
+| 2          | Single       | Single           | Multiple         | Single         | ✔️       | ✔️        | ✔️       | ✔️                      | ✔️           | ✔️             | Shared characters across all worlds         |
+| 3          | Single       | Single           | Multiple         | Multiple       | ✔️       | ✔️        | ✔️       | ✔️                      | ✔️           | ✔️             | Shared account + characters, separate game servers |
+| 4          | Single       | Single           | Multiple         | Multiple       | Multiple | ✔️        | ✔️       | ❌                      | ✔️           | ✔️             | Characters unique per MySQL, same login     |
+| 5          | Multiple     | Single           | Multiple         | Multiple       | Multiple | ✔️        | ✔️       | ❌                      | ✔️           | ❌             | Fully separate account/char servers, shared chat |
+| 6          | Single       | Multiple         | Multiple         | Multiple       | Single   | ✔️        | ✔️       | ✔️                      | ❌           | ✔️             | Same char/login, but isolated chats         |
+| 7          | Multiple     | Multiple         | Multiple         | Multiple       | Multiple | ✔️        | ✔️       | ❌                      | ❌           | ❌             | Completely isolated servers                 |
+
+---
+
 ## 🔗 Quick Links
 
 ### Official Resources
