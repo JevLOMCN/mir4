@@ -71,7 +71,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
-## 📂 Multi-Server Setup Examples
+## 🖥️ Multi-Server Setup Examples
 
 | Scenario # | Front Server | Chatting Server | World Server(s) | Game Server(s) | MySQL    | Couchbase | Memurai  | Character Data Shared? | Chat Shared? | Login Shared? | Notes                                      |
 |------------|--------------|------------------|------------------|----------------|----------|-----------|----------|-------------------------|--------------|----------------|---------------------------------------------|
