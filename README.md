@@ -57,6 +57,17 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
+## Codebase Composition
+
+| Code Origin | Lines of Code | Percentage |
+|-------------|---------------|------------|
+| **Wemade**  | 308,737       | 3.46%      |
+| **Topaz**   | 8,926,627     | 96.54%     |
+
+> This reflects the portion of original Wemade code versus the extensive work added by the Topaz team, excluding binaries, metadata, and config files.
+
+---
+
 ## 📂 Folder Structure
 - [**Tools**](https://github.com/JevLOMCN/mir4/tree/main/Tools)  
   A collection of useful MIR4 tools, ranging from premade websites to client editors.  
@@ -147,10 +158,10 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ## 👨‍💻 Dev Team
 
-| <img src="https://c.tenor.com/7_KRHOBcSnEAAAAC/tenor.gif" width="96" height="96"><br>[**Jev**](https://www.lomcn.net/forum/members/jev.29880/) | <img src="https://media0.giphy.com/media/aqFRBqGjnznd6/200w.gif?cid=6c09b952wuk8b08io9qjladlzo7ru8dtnbyt82ll1m3pzaxd&ep=v1_gifs_search&rid=200w.gif&ct=g" width="96" height="96"><br>[**Meacher**](https://www.lomcn.net/forum/members/meacher.3993/) | <img src="https://i.imgur.com/gn1N4bQ.gif" width="96" height="96"><br>[**1PKRyan**](https://www.lomcn.net/forum/members/1pkryan.13050/) |
+| <img src="https://c.tenor.com/7_KRHOBcSnEAAAAC/tenor.gif" width="96" height="96"><br>**Jev**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/jev.29880/) | <img src="https://media0.giphy.com/media/aqFRBqGjnznd6/200w.gif?cid=6c09b952wuk8b08io9qjladlzo7ru8dtnbyt82ll1m3pzaxd&ep=v1_gifs_search&rid=200w.gif&ct=g" width="96" height="96"><br>**Meacher**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/meacher.3993/) | <img src="https://i.imgur.com/gn1N4bQ.gif" width="96" height="96"><br>**1PKRyan**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/1pkryan.13050/) |
 |:--:|:--:|:--:|
-| <img src="https://66.media.tumblr.com/725aeaf36ff6262f947aa945164e49a2/tumblr_pfnyfnGjG81wzypxlo1_640.gif" width="96" height="96"><br>[**Wagner**](https://www.lomcn.net/forum/members/estregoik.45841/) | <img src="https://avatars.akamai.steamstatic.com/e23f6d5fdd009b3b4660166c28b18cc743093d20_full.jpg" width="96" height="96"><br>[**Nyyl**](https://www.lomcn.net/forum/members/nyylxd.42262/) | <img src="https://media.tenor.com/iX3IgCDMOfgAAAAj/bonnie-bonnie-swanson.gif" width="96" height="96"><br>[**Charlotte**](https://www.lomcn.net/forum/members/charlotte.44502/) |
-| <img src="https://media.tenor.com/GtmGLCw1SmUAAAAM/buggriddy-lusgifs.gif" width="96" height="96"><br>[**BughyT**](https://www.lomcn.net/forum/members/bughyt.46860/) | <img src="https://media2.giphy.com/media/HbU1apZE5zopB0e8Hq/giphy-downsized.gif" width="96" height="96"><br>[**CodePwr**](https://www.lomcn.net/forum/members/damian.1126/) | <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNs5tTmCNN6AXCXUspYleX_-LLN_-c1UPECpVnPHfy9C0V3AlS" width="96" height="96"><br>[**Chriz**](https://www.lomcn.net/forum/members/chriz.86/) |
+| <img src="https://66.media.tumblr.com/725aeaf36ff6262f947aa945164e49a2/tumblr_pfnyfnGjG81wzypxlo1_640.gif" width="96" height="96"><br>**Wagner**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/estregoik.45841/) | <img src="https://avatars.akamai.steamstatic.com/e23f6d5fdd009b3b4660166c28b18cc743093d20_full.jpg" width="96" height="96"><br>**Nyyl**<br><sub>JSONs</sub><br>[Profile](https://www.lomcn.net/forum/members/nyylxd.42262/) | <img src="https://media.tenor.com/iX3IgCDMOfgAAAAj/bonnie-bonnie-swanson.gif" width="96" height="96"><br>**Charlotte**<br><sub>Translations</sub><br>[Profile](https://www.lomcn.net/forum/members/charlotte.44502/) |
+| <img src="https://media.tenor.com/GtmGLCw1SmUAAAAM/buggriddy-lusgifs.gif" width="96" height="96"><br>**BughyT**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/bughyt.46860/) | <img src="https://media2.giphy.com/media/HbU1apZE5zopB0e8Hq/giphy-downsized.gif" width="96" height="96"><br>**CodePwr**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/damian.1126/) | <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNs5tTmCNN6AXCXUspYleX_-LLN_-c1UPECpVnPHfy9C0V3AlS" width="96" height="96"><br>**Chriz**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/chriz.86/) |
 
 ---
 
