@@ -57,7 +57,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
-## Codebase Composition
+## 📦 Codebase Composition
 
 | Code Origin | Lines of Code | Percentage |
 |-------------|---------------|------------|
