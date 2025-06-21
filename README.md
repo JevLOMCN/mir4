@@ -214,7 +214,6 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 <img src="http://ptserver.servegame.com/images/news/logo1.png" alt="PTS">
 
 [PTS Games](http://ptserver.servegame.com/) - PTS Games began as a private server project in 2011, originally just for friends and family. What started as a fun way to play games like Ark: Survival Evolved and Conan Exiles soon evolved into a public gaming community after an accidental server misconfiguration attracted unexpected players. Since then, PTS Games has grown into a welcoming space for gamers to connect and play together.
-
 ---
 
 # Stop Killing Games:
