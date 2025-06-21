@@ -203,6 +203,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 ---
 
 # Sponsored By:
+
 <img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo.png" alt="RageZone">
 
 [RageZone](https://forum.ragezone.com/) - A leading forum and resource hub for MMORPG development, featuring open-source projects, server files, tutorials, and a passionate community of game developers and modders.
@@ -217,7 +218,6 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 ---
 
 ---
-
 # Stop Killing Games:
 <img src="https://www.stopkillinggames.com/images/skglogo.svg" alt="SKG" width="70" height="70">
 
