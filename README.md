@@ -116,8 +116,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ### Downloads
 
-- [Client](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/LOMCN%20Mir%204%20Client.rar)  
-- [Server](https://github.com/JevLOMCN/mir4/releases)
+[![Latest Release](https://img.shields.io/github/v/release/JevLOMCN/mir4?label=release&style=flat-square)](https://github.com/JevLOMCN/mir4/releases/latest)
 
 ---
 
