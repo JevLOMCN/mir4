@@ -1,10 +1,12 @@
 # To Do List:
 
 ***In-Progress:***
-- [ ] Missions (Working on this)
 - [ ] Fast Travel (50% done, same map fast travel working)
+- [ ] Tower of Conquest (missing packets/Code)
+- [ ] Solitude Training (missing packets/Code)
 
 ***Development:***
+- [x] Missions
 - [x] Login
 - [x] Client Languages
 - [x] Doors/Portals/Warps
@@ -19,9 +21,7 @@
 - [ ] Mounts (missing code)
 - [ ] Unsealing (missing code)
 ---
-- [ ] Tower of Conquest (missing packets/Code)
-- [ ] Solitude Training (missing packets/Code)
----
+
 ***Reverse Engineering / Logging - Official/Client:***
 - [ ] Clan (missing packets)
 - [ ] Market (missing packets)
@@ -37,4 +37,3 @@
 
 ***OTHERS***
 - [ ] Autopatcher for Client 
-- [ ] Monster Database (Server Console) 
