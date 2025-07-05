@@ -29,6 +29,37 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
+## 📘 Table of Contents
+
+1. [Legend of Mir 4 – Official Public Topaz Source](#legend-of-mir-4--official-public-topaz-source)
+2. [Important & Warning](#important--warning)
+3. [Previews](#previews)  
+   - [Server Console](#server-console)  
+   - [Client Launcher](#client-launcher)  
+   - [Website](#website)  
+   - [Network Diagram](#network-diagram)
+4. [📦 Codebase Composition](#-codebase-composition)
+5. [Folder Structure](#folder-structure)
+6. [🧩 Multi-Server Setup Examples](#-multi-server-setup-examples)
+7. [Quick Links](#quick-links)  
+   - [Official Resources](#official-resources)  
+   - [LOMCN Community](#lomcn-community)  
+   - [Downloads](#downloads)
+8. [Dependencies](#dependencies)  
+   - [Server (Windows & Linux)](#server-windows--linux)  
+   - [Client (Windows)](#client-windows)  
+   - [Optional Components](#optional-components)
+9. [Compatibility](#compatibility)
+10. [To Do](#to-do)
+11. [Dev Team](#dev-team)
+12. [Contributors](#contributors)
+13. [Other Projects](#other-projects)
+14. [Sponsored By](#sponsored-by)
+15. [Stop Killing Games](#stop-killing-games)
+16. [Disclaimer](#disclaimer)
+
+---
+
 ## 👀 Previews
 
 <details>
