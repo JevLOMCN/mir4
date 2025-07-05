@@ -61,7 +61,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 | Code Origin | Lines of Code | Percentage |
 |-------------|---------------|------------|
-| **Wemade**  | 308,737       | 3.46%      |
+| **WEMADE**  | 308,737       | 3.46%      |
 | **Topaz**   | 8,926,627     | 96.54%     |
 
 > This reflects the portion of original Wemade code versus the extensive work added by the Topaz team, excluding binaries, metadata, and config files.
