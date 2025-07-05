@@ -64,7 +64,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 | **WEMADE**  | 308,737       | 3.46%      |
 | **Topaz**   | 8,926,627     | 96.54%     |
 
-> This reflects the portion of original Wemade code versus the extensive work added by the Topaz team, excluding binaries, metadata, and config files.
+> This shows how much of the original Wemade code remains unchanged compared to the substantial updates, additions, and improvements made by the Topaz team. Binaries, metadata, and configuration files are not included in these figures.
 
 ---
 
