@@ -221,7 +221,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
-## <img src="https://mirfiles.co.uk/resources/mir2/users/Jev/favicon.png" width="20"> Other Projects
+## <img src="https://mirfiles.co.uk/resources/mir2/users/Jev/favicon.png" width="40"> Other Projects
 
 - <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir1.png" alt="Mir1" width="20"/> [Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database) - Remake of ActozSoft's 1997 _The Legend Of Mir 1_
 - <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir2.png" alt="Mir2" width="20"/> [Mir 2](https://github.com/Suprcode/Crystal) | [Database](https://github.com/Suprcode/Crystal.Database) | [Map Editor](https://github.com/Suprcode/Crystal.MapEditor) - Remake of ActozSoft/Wemade Entertainment's 1999 _The Legend Of Mir 2_
@@ -244,7 +244,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 ---
 <img src="http://ptserver.servegame.com/images/news/logo1.png" alt="PTS">
 
-<img src="[https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo.png](http://ptserver.servegame.com/images/favicon.ico)" width="40"> [PTS Games](http://ptserver.servegame.com/) - PTS Games began as a private server project in 2011, originally just for friends and family. What started as a fun way to play games like Ark: Survival Evolved and Conan Exiles soon evolved into a public gaming community after an accidental server misconfiguration attracted unexpected players. Since then, PTS Games has grown into a welcoming space for gamers to connect and play together.
+<img src="[http://ptserver.servegame.com/images/favicon.ico" width="40"> [PTS Games](http://ptserver.servegame.com/) - PTS Games began as a private server project in 2011, originally just for friends and family. What started as a fun way to play games like Ark: Survival Evolved and Conan Exiles soon evolved into a public gaming community after an accidental server misconfiguration attracted unexpected players. Since then, PTS Games has grown into a welcoming space for gamers to connect and play together.
 
 ---
 # Stop Killing Games:
