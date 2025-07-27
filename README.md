@@ -130,13 +130,14 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 ## 🔗 Quick Links
 
 ### Official Resources
+- [Official Project Site](https://thelegendofmir.uk/Topaz/)
 - [Test Website](https://thelegendofmir.uk/mir4/Website)
-- [Server WIKI](https://thelegendofmir.uk/mir4/Website/wiki/wiki)
-- [Server Database](https://thelegendofmir.uk/mir4/Website/databases)
+- [Server WIKI](https://thelegendofmir.uk/Topaz/wiki)
+- [Server Database](https://thelegendofmir.uk/Topaz/wiki#database)
 - [Mir 4 Tools](https://www.mir4tools.com/)
-- [Discord](https://discord.gg/KCnHvwJJWN)
+- [Discord](https://thelegendofmir.uk/Topaz/redirects/discord)
 - [Server Setup Guide (YouTube)](https://youtu.be/_f9N_MuEFb0)
-- [Server Setup Guide (Written)](https://thelegendofmir.uk/mir4/Website/wiki/guide)
+- [Server Setup Guide (Written)](https://thelegendofmir.uk/Topaz/docs#download)
 
 ### LOMCN Community
 - [Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
