@@ -130,21 +130,21 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 ## 🔗 Quick Links
 
 ### Official Resources
-- [Official Project Site](https://thelegendofmir.uk/Topaz/)
-- [Test Website](https://thelegendofmir.uk/mir4/Website)
-- [Server WIKI](https://thelegendofmir.uk/Topaz/wiki)
-- [Server Database](https://thelegendofmir.uk/Topaz/wiki#database)
-- [Mir 4 Tools](https://www.mir4tools.com/)
-- [Discord](https://thelegendofmir.uk/Topaz/redirects/discord)
-- [Server Setup Guide (YouTube)](https://youtu.be/_f9N_MuEFb0)
-- [Server Setup Guide (Written)](https://thelegendofmir.uk/Topaz/docs#download)
+- 🌐 [Official Project Site](https://thelegendofmir.uk/Topaz/)
+- 🌐 [Test Website](https://thelegendofmir.uk/mir4/Website)
+- 📖 [Server WIKI](https://thelegendofmir.uk/Topaz/wiki)
+- 📖 [Server Database](https://thelegendofmir.uk/Topaz/wiki#database)
+- <img src="https://www.mir4tools.com/favicon.ico" alt="Mir4Tools" width="20"/> [Mir 4 Tools](https://www.mir4tools.com/)
+- <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e3d80db9971f10a9757c99_Symbol.svg" alt="Discord" width="20"/> [Discord](https://thelegendofmir.uk/Topaz/redirects/discord)
+- <img src="https://static.wikia.nocookie.net/logopedia/images/9/9f/YouTube_icon_2024.svg/revision/latest/scale-to-width-down/1000?cb=20240718123533" alt="Youtube" width="20"/> [Server Setup Guide (YouTube)](https://youtu.be/_f9N_MuEFb0)
+- 📚 [Server Setup Guide (Written)](https://thelegendofmir.uk/Topaz/docs#download)
 
 ### LOMCN Community
-- [Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
-- [Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
-- [Bug Reports](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/)
-- [Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
-- [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
+- 📚 [Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
+- 📦 [Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
+- 🐞 [Bug Reports](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/)
+- 💬 [Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
+- 🛠️ [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
 
 ### Downloads
 
