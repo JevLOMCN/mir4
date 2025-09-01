@@ -1,5 +1,5 @@
 <h1 align="center">
-Legend of Mir 4 - Official Public Topaz Source
+Mir 4 - Official Public Topaz Source
 </h2>
 
 <h3 align="center">
