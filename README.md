@@ -179,11 +179,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ## 🛠 To Do
 
-<details>
-  <summary>To Do List</summary>
-
-  You can see the full task list here: [To Do List](https://thelegendofmir.uk/Topaz/todo)
-</details>
+You can see the full task list here: [To Do List](https://thelegendofmir.uk/Topaz/todo)
 
 ---
 
