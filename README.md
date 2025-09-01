@@ -229,7 +229,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 - <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir3.png" alt="Mir3" width="20"/> [Mir 3](https://github.com/Suprcode/Zircon) | [Database](https://mirfiles.com/resources/mir3/zircon/Database.7z) | [Map Editor](https://www.lomcn.net/forum/threads/map-editor.109317/)- Remake of Wemade Entertainment's 2003 _The Legend Of Mir 3_
 - <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/woool.png" alt="WoOOL" width="20"/> [WoOOL](https://www.lomcn.net/forum/forums/woool-development-project-onyx.857/) - Remake of Shanda Games' (now Shengqu Games) 2003 _The World Of Legend_
 - <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir3d.png" alt="Mir3D" width="20"/> [Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) | [Mir 3D (Holy Cow)](https://github.com/JevLOMCN/Eternal-Legend) - Remake of Shanda Games' (now Shengqu Games) 2016 _Legend Eternal_
-- <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir4.png" alt="Mir4" width="20"/> [Mir 4](https://github.com/JevLOMCN/mir4) - Remake of Wemade Entertainment's 2021 _The Legend Of Mir 4_
+- <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir4.png" alt="Mir4" width="20"/> [Mir 4](https://github.com/JevLOMCN/mir4) - Remake of Wemade Entertainment's 2021 _Mir 4_
 
 ---
 
