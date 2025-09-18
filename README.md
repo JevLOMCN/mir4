@@ -231,9 +231,9 @@ You can see the full task list here: [To Do List](https://thelegendofmir.uk/Topa
 
 # Sponsored By:
 
-<img src="https://forum.ragezone.com/data/assets/logo/maskable_icon_x192.webp" alt="RageZone">
+<img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo-dark.png" alt="RageZone">
 
-<img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo-dark.png" width="40"> [RageZone](https://forum.ragezone.com/) - A leading forum and resource hub for MMORPG development, featuring open-source projects, server files, tutorials, and a passionate community of game developers and modders.
+<img src="https://forum.ragezone.com/data/assets/logo/maskable_icon_x192.webp" width="40"> [RageZone](https://forum.ragezone.com/) - A leading forum and resource hub for MMORPG development, featuring open-source projects, server files, tutorials, and a passionate community of game developers and modders.
 
 ---
 <img src="https://www.lomcn.net/forum/styles/uix/images/logo2024_100.png" alt="LOMCN">
