@@ -239,9 +239,9 @@ You can see the full task list here: [To Do List](https://thelegendofmir.uk/Topa
 <img src="https://camo.githubusercontent.com/fb34351333ae47378e5d40705f3d81899d64e5b9a16255e22acc7ea2324ebebf/68747470733a2f2f6d697266696c65732e636f2e756b2f7265736f75726365732f6d6972322f75736572732f4a65762f66617669636f6e2e706e67" width="40"> [LOMCN](https://www.lomcn.net/) - The Legend of Mir Community Network, A fan-driven hub for the Legend of Mir MMORPG series, featuring community forums, private server development, and a growing library of open-source projects.
 
 ---
-<img src="http://ptserver.servegame.com/images/news/logo1.png" alt="PTS">
+<img src="http://ptserver.servegame.com/application/themes/vinvictus/assets/images/graphics/logos/logo.svg" alt="PTS">
 
-<img src="http://ptserver.servegame.com/images/favicon.ico" width="40"> [PTS Games](http://ptserver.servegame.com/) - PTS Games began as a private server project in 2011, originally just for friends and family. What started as a fun way to play games like Ark: Survival Evolved and Conan Exiles soon evolved into a public gaming community after an accidental server misconfiguration attracted unexpected players. Since then, PTS Games has grown into a welcoming space for gamers to connect and play together.
+<img src="http://ptserver.servegame.com/application/themes/vinvictus/assets/images/favicon.png" width="40"> [PTS Games](http://ptserver.servegame.com/) - PTS Games began as a private server project in 2011, originally just for friends and family. What started as a fun way to play games like Ark: Survival Evolved and Conan Exiles soon evolved into a public gaming community after an accidental server misconfiguration attracted unexpected players. Since then, PTS Games has grown into a welcoming space for gamers to connect and play together.
 
 ---
 # Stop Killing Games:
