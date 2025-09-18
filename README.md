@@ -33,7 +33,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 1. [Legend of Mir 4 – Official Public Topaz Source](#legend-of-mir-4--official-public-topaz-source)
 2. [Important & Warning](#important--warning)
-3. [Previews](#previews)  
+3. [Previews](#-previews)  
    - [Server Console](#server-console)  
    - [Client Launcher](#client-launcher)  
    - [Website](#website)  
