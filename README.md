@@ -256,3 +256,8 @@ You can see the full task list here: [To Do List](https://thelegendofmir.uk/Topa
 ---
 
 [📄 Disclaimer](./DISCLAIMER.md)
+
+---
+
+# Stars
+[![Stars](https://starchart.cc/JevLOMCN/mir4.svg?variant=adaptive)](https://starchart.cc/JevLOMCN/mir4)
