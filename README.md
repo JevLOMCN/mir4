@@ -28,75 +28,49 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
-## 📘 Table of Contents
+<div align="center">
 
-1. [Legend of Mir 4 – Official Public Topaz Source](#legend-of-mir-4--official-public-topaz-source)
-2. [Important & Warning](#important--warning)
-3. [Previews](#-previews)  
-   - [Server Console](#server-console)  
-   - [Client Launcher](#client-launcher)  
-   - [Website](#website)  
-   - [Network Diagram](#network-diagram)
-4. [📦 Codebase Composition](#-codebase-composition)
-5. [Folder Structure](#folder-structure)
-6. [🧩 Multi-Server Setup Examples](#-multi-server-setup-examples)
-7. [Quick Links](#quick-links)  
-   - [Official Resources](#official-resources)  
-   - [LOMCN Community](#lomcn-community)  
-   - [Downloads](#downloads)
-8. [Dependencies](#dependencies)  
-   - [Server (Windows & Linux)](#server-windows--linux)  
-   - [Client (Windows)](#client-windows)  
-   - [Optional Components](#optional-components)
-9. [Compatibility](#compatibility)
-10. [To Do](#to-do)
-11. [Dev Team](#dev-team)
-12. [Contributors](#contributors)
-13. [Other Projects](#other-projects)
-14. [Sponsored By](#sponsored-by)
-15. [Stop Killing Games](#stop-killing-games)
-16. [Disclaimer](#disclaimer)
+<video width="60%" controls>
+  <source src="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/Dragon.mp4" type="video/mp4">
+</video>
 
----
-
-## 👀 Previews
-
-<details>
-<summary><b>Server Console Preview</b></summary>
-
-![image](https://github.com/user-attachments/assets/c59b0351-30eb-401f-ada3-7b23a4da826d)
-</details>
-
-<details>
-<summary><b>Client Launcher Preview</b></summary>
-
-![image](https://github.com/user-attachments/assets/69a6a5e0-d11d-4570-96c0-a5c9fa07b720)
-</details>
-
-<details>
-<summary><b>Website Preview</b></summary>
-
-![image](https://github.com/user-attachments/assets/47f27ca6-80e4-4cf0-b0c0-dc29e587dff6)
-</details>
-
-<details>
-<summary><b>Network Diagram</b></summary>
-
-![image](https://github.com/user-attachments/assets/487e6b08-9458-4e1f-aa31-cbd3c6b83807)
-</details>
+</div>
 
 ---
 
 ## 📦 Codebase Composition
 
-| Code Origin | Lines of Code | Percentage |
-|-------------|---------------|------------|
-| **WEMADE**  | 308,737       | 3.46%      |
-| **Topaz**   | 8,926,627     | 96.54%     |
+| Source                | Lines of Code |      Share |
+| :-------------------- | ------------: | ---------: |
+| **WEMADE (Original)** |   **308,737** |  **3.46%** |
+| **Topaz Project**     | **8,926,627** | **96.54%** |
 
-> This shows how much of the original Wemade code remains unchanged compared to the substantial updates, additions, and improvements made by the Topaz team. Binaries, metadata, and configuration files are not included in these figures.
+> ### 📈 Project Evolution
+>
+> Although this project began with the leaked 2019 WEMADE server source, years of development have transformed it into a substantially new codebase.
+>
+> Today, **over 96% of the repository consists of new or heavily modified code** written by the Topaz team. This work includes:
+>
+> * 🏗️ Rebuilding missing server systems from scratch
+> * 🎮 Implementing game systems introduced between the **2021 global release** and the **2026 client**
+> * 🌐 Extensive networking and protocol updates
+> * 🖥️ Server architecture improvements and refactoring
+> * 🗄️ Database redesigns and optimization
+> * 🔒 Security enhancements and anti-exploit measures
+> * 🐞 Thousands of bug fixes, stability improvements, and performance optimizations
+>
+> Many core systems simply did not exist in the original leaked source and had to be recreated through reverse engineering, research, and implementation to achieve compatibility with the modern MIR4 client.
+>
+> The remaining **3.46%** represents original WEMADE source that remains largely unchanged.
+>
+> *Statistics exclude generated files, binaries, third-party libraries, metadata, and configuration files.*
 
 ---
+
+> **Fun fact:** The Topaz codebase is now approximately **29× larger** than the original WEMADE source it was built upon.
+
+---
+
 
 ## 📂 Folder Structure
 - [**Tools**](/Tools)  
@@ -176,45 +150,129 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
-## 🛠 To Do
+<h2 align="center">👨‍💻 Development Team</h2>
 
-You can see the full task list here: [To Do List](https://thelegendofmir.uk/Topaz/todo)
+<p align="center">
+  <a href="https://www.lomcn.net/forum/members/jev.29880/">
+    <img src="https://avatars.githubusercontent.com/u/68875342" width="110"><br>
+    <b>Jev</b><br>
+    <sub>Developer</sub>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="https://www.lomcn.net/forum/members/meacher.3993/">
+    <img src="https://media0.giphy.com/media/aqFRBqGjnznd6/200w.gif" width="110"><br>
+    <b>Meacher</b><br>
+    <sub>Developer</sub>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="https://www.lomcn.net/forum/members/1pkryan.13050/">
+    <img src="https://www.lomcn.net/forum/data/avatars/l/13/13050.jpg?1680916386" width="110"><br>
+    <b>1PKRyan</b><br>
+    <sub>Developer</sub>
+  </a>
+
+  <a href="https://www.lomcn.net/forum/members/estregoik.45841/">
+    <img src="https://66.media.tumblr.com/725aeaf36ff6262f947aa945164e49a2/tumblr_pfnyfnGjG81wzypxlo1_640.gif" width="110"><br>
+    <b>Wagner</b><br>
+    <sub>Developer</sub>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="https://www.lomcn.net/forum/members/bughyt.46860/">
+    <img src="https://media.tenor.com/GtmGLCw1SmUAAAAM/buggriddy-lusgifs.gif" width="110"><br>
+    <b>BughyT</b><br>
+    <sub>Developer</sub>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="https://www.lomcn.net/forum/members/chriz.86/">
+    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNs5tTmCNN6AXCXUspYleX_-LLN_-c1UPECpVnPHfy9C0V3AlS" width="110"><br>
+    <b>Chriz</b><br>
+    <sub>Developer</sub>
+  </a>
+
+  <a href="https://www.lomcn.net/forum/members/damian.1126/">
+    <img src="https://media2.giphy.com/media/HbU1apZE5zopB0e8Hq/giphy-downsized.gif" width="110"><br>
+    <b>CodePwr</b><br>
+    <sub>Developer</sub>
+  </a>
+</p>
 
 ---
 
-## 👨‍💻 Dev Team
+<h2 align="center">🤝 Contributors</h2>
 
-|  |  |  |
-|:--:|:--:|:--:|
-| <img src="https://avatars.githubusercontent.com/u/68875342" width="96" height="96"><br>**Jev**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/jev.29880/) | <img src="https://media0.giphy.com/media/aqFRBqGjnznd6/200w.gif" width="96" height="96"><br>**Meacher**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/meacher.3993/) | <img src="https://i.imgur.com/gn1N4bQ.gif" width="96" height="96"><br>**1PKRyan**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/1pkryan.13050/) |
-| <img src="https://66.media.tumblr.com/725aeaf36ff6262f947aa945164e49a2/tumblr_pfnyfnGjG81wzypxlo1_640.gif" width="96" height="96"><br>**Wagner**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/estregoik.45841/) | <img src="https://media.tenor.com/GtmGLCw1SmUAAAAM/buggriddy-lusgifs.gif" width="96" height="96"><br>**BughyT**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/bughyt.46860/) |
-| <img src="https://media2.giphy.com/media/HbU1apZE5zopB0e8Hq/giphy-downsized.gif" width="96" height="96"><br>**CodePwr**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/damian.1126/) | <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNs5tTmCNN6AXCXUspYleX_-LLN_-c1UPECpVnPHfy9C0V3AlS" width="96" height="96"><br>**Chriz**<br><sub>Dev</sub><br>[Profile](https://www.lomcn.net/forum/members/chriz.86/) |  |
+<table align="center">
+<tr>
+<td align="center" width="220">
+<b><a href="https://www.lomcn.net/forum/members/netskee.19772/">Netskee</a></b><br>
+<sub>🎨 Graphic Design</sub>
+</td>
 
----
+<td align="center" width="220">
+<b><a href="https://www.lomcn.net/forum/members/aboveyou.45200/">Firev2 (AboveYou)</a></b><br>
+<sub>📦 Client & Server JSON Sourcing</sub>
+</td>
 
-# Contributors:
+<td align="center" width="220">
+<b><a href="https://www.lomcn.net/forum/members/mental.3870/">Mental</a></b><br>
+<sub>🤝 Outsourcing, Sponsorship & Advertising</sub>
+</td>
+</tr>
 
-> [Netskee](https://www.lomcn.net/forum/members/netskee.19772/) - Graphic Design
->
-> [Firev2 (AboveYou)](https://www.lomcn.net/forum/members/aboveyou.45200/) - Sourcing Clients/Server Side JSONs
->
-> [Mental](https://www.lomcn.net/forum/members/mental.3870/) - Outsourcing contacts/Sponsorship/Advertisement
->
-> [Gurgel](https://www.lomcn.net/forum/members/gurgell.45127/) - Art/Videos/Graphics
->
-> [carolyangbb](https://www.lomcn.net/forum/members/yangboy.45108/) - GVAS Logic/Bot sourcing
->
-> [Treffy](https://www.mir4tools.com/) - Mir4Tools/Bot Collab
->
-> [Sumiao](https://www.lomcn.net/forum/members/sumiao.42897/) - Server Console (Map/Item/Monster Intergration)
->
-> [S4oul](https://github.com/s4oul) - C++
->
-> [cmb](https://forum.ragezone.com/members/cmb.330743/) - C++
->
-> [Hells](https://www.lomcn.net/forum/members/hells.7536/) - Outsourcing developers
->
-> [Community Contributors](https://github.com/JevLOMCN/mir4-launcher/graphs/contributors)
+<tr>
+<td align="center">
+<b><a href="https://www.lomcn.net/forum/members/gurgell.45127/">Gurgel</a></b><br>
+<sub>🎬 Art, Videos & Graphics</sub>
+</td>
+
+<td align="center">
+<b><a href="https://www.lomcn.net/forum/members/yangboy.45108/">carolyangbb</a></b><br>
+<sub>🤖 GVAS Logic & Bot Research</sub>
+</td>
+
+<td align="center">
+<b><a href="https://www.mir4tools.com/">Treffy</a></b><br>
+<sub>🛠️ Mir4Tools & Bot Collaboration</sub>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b><a href="https://www.lomcn.net/forum/members/sumiao.42897/">Sumiao</a></b><br>
+<sub>🖥️ Server Console Integration</sub>
+</td>
+
+<td align="center">
+<b><a href="https://github.com/s4oul">S4oul</a></b><br>
+<sub>💻 C++ Development</sub>
+</td>
+
+<td align="center">
+<b><a href="https://forum.ragezone.com/members/cmb.330743/">cmb</a></b><br>
+<sub>💻 C++ Development</sub>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b><a href="https://www.lomcn.net/forum/members/hells.7536/">Hells</a></b><br>
+<sub>👥 Outsourcing Developers</sub>
+</td>
+
+<td align="center">
+<b><a href="https://github.com/TheAlexLichter">manniL</a></b><br>
+<sub>📚 Operates <a href="https://www.mir4.wiki/">Mir4.Wiki</a><br>Documentation & Community Resources</sub>
+</td>
+
+<td align="center">
+<b><a href="https://github.com/JevLOMCN/mir4-launcher/graphs/contributors">Community Contributors</a></b><br>
+<sub>❤️ Everyone who has contributed</sub>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -229,35 +287,79 @@ You can see the full task list here: [To Do List](https://thelegendofmir.uk/Topa
 
 ---
 
-# Sponsored By:
+<h2 align="center">💖 Sponsored By</h2>
 
-<img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo-dark.png" alt="RageZone">
+<table align="center">
+<tr>
 
-<img src="https://forum.ragezone.com/data/assets/logo/maskable_icon_x192.webp" width="40"> [RageZone](https://forum.ragezone.com/) - A leading forum and resource hub for MMORPG development, featuring open-source projects, server files, tutorials, and a passionate community of game developers and modders.
+<td align="center" width="33%">
+<a href="https://forum.ragezone.com/">
+<img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo-dark.png" height="60"><br><br>
+<b>RageZone</b>
+</a>
+
+Leading MMORPG development community featuring reverse engineering, open-source projects, tutorials, server resources, and an active community of developers.
+
+</td>
+
+<td align="center" width="33%">
+<a href="https://www.lomcn.net/">
+<img src="https://www.lomcn.net/forum/styles/uix/images/logo2024_100.png" height="60"><br><br>
+<b>LOMCN</b>
+</a>
+
+The largest English-speaking Legend of Mir community, providing forums, open-source projects, technical resources, and years of support for the Mir development scene.
+
+</td>
+
+<td align="center" width="33%">
+<a href="http://ptserver.servegame.com/">
+<img src="http://ptserver.servegame.com/images/logo_ptserver.png" height="60"><br><br>
+<b>PTS Games</b>
+</a>
+
+A long-running gaming community founded in 2011. PTS Games generously sponsors the project by hosting our **European game server** free of charge, helping keep MIR4 Online accessible to players across Europe.
+
+</td>
+
+</tr>
+</table>
 
 ---
-<img src="https://www.lomcn.net/forum/styles/uix/images/logo2024_100.png" alt="LOMCN">
 
-<img src="https://camo.githubusercontent.com/fb34351333ae47378e5d40705f3d81899d64e5b9a16255e22acc7ea2324ebebf/68747470733a2f2f6d697266696c65732e636f2e756b2f7265736f75726365732f6d6972322f75736572732f4a65762f66617669636f6e2e706e67" width="40"> [LOMCN](https://www.lomcn.net/) - The Legend of Mir Community Network, A fan-driven hub for the Legend of Mir MMORPG series, featuring community forums, private server development, and a growing library of open-source projects.
+## ❤️ We Support Stop Killing Games
 
----
-<img src="http://ptserver.servegame.com/application/themes/vinvictus/assets/images/graphics/logos/logo.svg" alt="PTS">
+<p align="center">
+  <a href="https://www.stopkillinggames.com/">
+    <img src="	https://www.stopkillinggames.com/logos/skglogo.svg?dpl=dpl_9S5sZN8jNBvJiM3AxYRAS6o9A4Be" alt="Stop Killing Games" width="90">
+  </a>
+</p>
 
-<img src="http://ptserver.servegame.com/application/themes/vinvictus/assets/images/favicon.png" width="40"> [PTS Games](http://ptserver.servegame.com/) - PTS Games began as a private server project in 2011, originally just for friends and family. What started as a fun way to play games like Ark: Survival Evolved and Conan Exiles soon evolved into a public gaming community after an accidental server misconfiguration attracted unexpected players. Since then, PTS Games has grown into a welcoming space for gamers to connect and play together.
+**The Topaz team proudly supports the *Stop Killing Games* initiative.**
 
----
-# Stop Killing Games:
-<img src="https://www.stopkillinggames.com/images/skglogo.svg" alt="SKG" width="70" height="70">
+Stop Killing Games is a consumer movement campaigning against the practice of publishers permanently disabling games after they have been sold. The campaign advocates for consumer rights, game preservation, and ensuring that legally purchased games remain playable even after official support ends.
 
-"Stop Killing Games" is a consumer movement started to challenge the legality of publishers destroying video games they have sold to customers. An increasing number of video games are sold effectively as goods - with no stated expiration date - but designed to be completely unplayable as soon as support from the publisher ends. This practice is a form of planned obsolescence and is not only detrimental to customers, but makes preservation effectively impossible. Furthermore, the legality of this practice is largely untested in many countries.
+As a community-driven preservation project, we share these values and believe that online games deserve a future beyond their commercial lifespan.
 
-[Stop Killing Games](https://www.stopkillinggames.com/)
-
----
-
-[📄 Disclaimer](./DISCLAIMER.md)
+<p align="center">
+  <a href="https://www.stopkillinggames.com/"><b>🌐 Learn More About Stop Killing Games</b></a>
+</p>
 
 ---
 
-# Stars
-[![Stars](https://starchart.cc/JevLOMCN/mir4.svg?variant=adaptive)](https://starchart.cc/JevLOMCN/mir4)
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=JevLOMCN%2Fmir4&type=timeline&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=JevLOMCN/mir4&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=JevLOMCN/mir4&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=JevLOMCN/mir4&type=timeline&legend=top-left" />
+ </picture>
+</a>
+
+---
+
+### 📄 Disclaimer
+
+Please read our **[Disclaimer](./DISCLAIMER.md)** before using this project.
