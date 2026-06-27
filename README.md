@@ -378,7 +378,7 @@ A long-running gaming community founded in 2011. PTS Games generously sponsors t
 
 <p align="center">
   <a href="https://www.stopkillinggames.com/">
-    <img src="	https://www.stopkillinggames.com/logos/skglogo.svg?dpl=dpl_9S5sZN8jNBvJiM3AxYRAS6o9A4Be" alt="Stop Killing Games" width="90">
+    <img src="https://www.stopkillinggames.com/logos/skglogo.svg?dpl=dpl_9S5sZN8jNBvJiM3AxYRAS6o9A4Be](https://upload.wikimedia.org/wikipedia/en/1/19/Stop_Killing_Games_logo_%282025%29.png" alt="Stop Killing Games" width="90">
   </a>
 </p>
 
