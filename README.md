@@ -391,7 +391,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   <tr>
     <td>
       <a href="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir5.png" width="32">
+        <img src="" width="32">
       </a>
     </td>
     <td>
