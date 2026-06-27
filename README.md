@@ -378,7 +378,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 <tr>
   <td>
-    <img src="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/mir5.png" width="66">
+    <img src="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/mir5.png" width="22">
   </td>
   <td>
     <b>Mir 5</b> •
