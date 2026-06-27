@@ -305,7 +305,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
   <tr>
     <td width="28">
-      <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir1.png?raw=true" width="22">
+      <a href="https://github.com/JevLOMCN/mir1/">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir1.png" width="32">
+      </a>
     </td>
     <td>
       <b>Mir 1</b> •
@@ -317,7 +319,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
   <tr>
     <td>
-      <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir2.png?raw=true" width="22">
+      <a href="https://github.com/Suprcode/Crystal">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir2.png" width="32">
+      </a>
     </td>
     <td>
       <b>Mir 2</b> •
@@ -330,7 +334,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
   <tr>
     <td>
-      <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir3.png?raw=true" width="22">
+      <a href="https://github.com/Suprcode/Zircon">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir3.png" width="32">
+      </a>
     </td>
     <td>
       <b>Mir 3</b> •
@@ -343,7 +349,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
   <tr>
     <td>
-      <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/woool.png?raw=true" width="22">
+      <a href="https://www.lomcn.net/forum/forums/woool-development-project-onyx.857/">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/woool.png" width="32">
+      </a>
     </td>
     <td>
       <b>WoOOL</b> •
@@ -355,7 +363,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
   <tr>
     <td>
-      <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir3d.png?raw=true" width="22">
+      <a href="https://github.com/mir-ethernity/mir-eternal">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir3d.png" width="32">
+      </a>
     </td>
     <td>
       <b>Mir 3D</b> •
@@ -367,7 +377,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
   <tr>
     <td>
-      <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir4.png?raw=true" width="22">
+      <a href="https://github.com/JevLOMCN/mir4">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir4.png" width="32">
+      </a>
     </td>
     <td>
       <b>Mir 4</b> •
@@ -376,17 +388,19 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
     </td>
   </tr>
 
-<tr>
-  <td>
-    <img src="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/mir5.png" width="22">
-  </td>
-  <td>
-    <b>Mir 5</b> •
-    <a href="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/">Leaked Files</a> •
-    <a href="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/Mir5%20Alpha%202.mkv">Gameplay Video (24m)</a><br>
-    A massive 2TB development leak from the currently unreleased Mir 5. Includes server/client builds, internal documentation, and a 24-minute video showing <a href="https://github.com/JevLOMCN">Jev</a> connecting a leaked client to Wemade's official development server—since removed from YouTube with two copyright strikes. Preserved for historical and research purposes.
-  </td>
-</tr>
+  <tr>
+    <td>
+      <a href="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/">
+        <img src="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/mir5.png" width="32">
+      </a>
+    </td>
+    <td>
+      <b>Mir 5</b> •
+      <a href="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/">Leaked Files</a> •
+      <a href="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/Mir5%20Alpha%202.mkv">Gameplay Video (24m)</a><br>
+      A massive 2TB development leak from the currently unreleased Mir 5. Includes server/client builds, internal documentation, and a 24-minute video showing <a href="https://github.com/JevLOMCN">Jev</a> connecting a leaked client to Wemade's official development server—since removed from YouTube with two copyright strikes. Preserved for historical and research purposes.
+    </td>
+  </tr>
 
 </table>
 
