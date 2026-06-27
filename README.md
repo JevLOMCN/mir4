@@ -61,7 +61,6 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
-
 ## 📂 Folder Structure
 - [**Tools**](/Tools)  
   A collection of useful MIR4 tools, ranging from premade websites to client editors.  
@@ -73,20 +72,6 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   An optional server launcher with quick-edit tools for live tweaking.  
 - [**mir4-server-jsons**](/mir4-server-jsons)  
   Full set of MIR4 server JSON configuration files.
-
----
-
-## 🖥️ Multi-Server Setup Examples
-
-| Scenario # | Front Server | Chatting Server | World Server(s) | Game Server(s) | MySQL    | Couchbase | Memurai  | Character Data Shared? | Chat Shared? | Login Shared? | Notes                                      |
-|------------|--------------|------------------|------------------|----------------|----------|-----------|----------|-------------------------|--------------|----------------|---------------------------------------------|
-| 1          | Single       | Single           | Single           | Single         | ✔️       | ✔️        | ✔️       | ✔️                      | ✔️           | ✔️             | Basic Single Server Setup                   |
-| 2          | Single       | Single           | Multiple         | Single         | ✔️       | ✔️        | ✔️       | ✔️                      | ✔️           | ✔️             | Shared characters across all worlds         |
-| 3          | Single       | Single           | Multiple         | Multiple       | ✔️       | ✔️        | ✔️       | ✔️                      | ✔️           | ✔️             | Shared account + characters, separate game servers |
-| 4          | Single       | Single           | Multiple         | Multiple       | Multiple | ✔️        | ✔️       | ❌                      | ✔️           | ✔️             | Characters unique per MySQL, same login     |
-| 5          | Multiple     | Single           | Multiple         | Multiple       | Multiple | ✔️        | ✔️       | ❌                      | ✔️           | ❌             | Fully separate account/char servers, shared chat |
-| 6          | Single       | Multiple         | Multiple         | Multiple       | Single   | ✔️        | ✔️       | ✔️                      | ❌           | ✔️             | Same char/login, but isolated chats         |
-| 7          | Multiple     | Multiple         | Multiple         | Multiple       | Multiple | ✔️        | ✔️       | ❌                      | ❌           | ❌             | Completely isolated servers                 |
 
 ---
 
@@ -195,56 +180,44 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 <h2 align="center">👨‍💻 Development Team</h2>
 
 <p align="center">
+  <a href="https://www.lomcn.net/forum/members/jev.29880/">
+    <img src="https://avatars.githubusercontent.com/u/68875342" width="110"><br>
+    <b>Jev</b><br>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
 
-  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
-    <a href="https://www.lomcn.net/forum/members/jev.29880/">
-      <img src="https://avatars.githubusercontent.com/u/68875342" width="110"><br>
-      <b>Jev</b>
-    </a>
-  </span>
+  <a href="https://www.lomcn.net/forum/members/meacher.3993/">
+    <img src="https://media0.giphy.com/media/aqFRBqGjnznd6/200w.gif" width="110"><br>
+    <b>Meacher</b><br>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
 
-  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
-    <a href="https://www.lomcn.net/forum/members/meacher.3993/">
-      <img src="https://media0.giphy.com/media/aqFRBqGjnznd6/200w.gif" width="110"><br>
-      <b>Meacher</b>
-    </a>
-  </span>
+  <a href="https://www.lomcn.net/forum/members/1pkryan.13050/">
+    <img src="https://www.lomcn.net/forum/data/avatars/l/13/13050.jpg?1680916386" width="110"><br>
+    <b>1PKRyan</b><br>
+  </a>
 
-  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
-    <a href="https://www.lomcn.net/forum/members/1pkryan.13050/">
-      <img src="https://www.lomcn.net/forum/data/avatars/l/13/13050.jpg?1680916386" width="110"><br>
-      <b>1PKRyan</b>
-    </a>
-  </span>
+  <a href="https://www.lomcn.net/forum/members/estregoik.45841/">
+    <img src="https://66.media.tumblr.com/725aeaf36ff6262f947aa945164e49a2/tumblr_pfnyfnGjG81wzypxlo1_640.gif" width="110"><br>
+    <b>Wagner</b><br>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
 
-  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
-    <a href="https://www.lomcn.net/forum/members/estregoik.45841/">
-      <img src="https://66.media.tumblr.com/725aeaf36ff6262f947aa945164e49a2/tumblr_pfnyfnGjG81wzypxlo1_640.gif" width="110"><br>
-      <b>Wagner</b>
-    </a>
-  </span>
+  <a href="https://www.lomcn.net/forum/members/bughyt.46860/">
+    <img src="https://media.tenor.com/GtmGLCw1SmUAAAAM/buggriddy-lusgifs.gif" width="110"><br>
+    <b>BughyT</b><br>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
 
-  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
-    <a href="https://www.lomcn.net/forum/members/bughyt.46860/">
-      <img src="https://media.tenor.com/GtmGLCw1SmUAAAAM/buggriddy-lusgifs.gif" width="110"><br>
-      <b>BughyT</b>
-    </a>
-  </span>
+  <a href="https://www.lomcn.net/forum/members/chriz.86/">
+    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNs5tTmCNN6AXCXUspYleX_-LLN_-c1UPECpVnPHfy9C0V3AlS" width="110"><br>
+    <b>Chriz</b><br>
+  </a>
 
-  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
-    <a href="https://www.lomcn.net/forum/members/chriz.86/">
-      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNs5tTmCNN6AXCXUspYleX_-LLN_-c1UPECpVnPHfy9C0V3AlS" width="110"><br>
-      <b>Chriz</b>
-    </a>
-  </span>
-
-  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
-    <a href="https://www.lomcn.net/forum/members/damian.1126/">
-      <img src="https://media2.giphy.com/media/HbU1apZE5zopB0e8Hq/giphy-downsized.gif" width="110"><br>
-      <b>CodePwr</b>
-    </a>
-  </span>
-
+  <a href="https://www.lomcn.net/forum/members/damian.1126/">
+    <img src="https://media2.giphy.com/media/HbU1apZE5zopB0e8Hq/giphy-downsized.gif" width="110"><br>
+    <b>CodePwr</b><br>
+  </a>
 </p>
 
 ---
