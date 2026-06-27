@@ -28,16 +28,6 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
-<div align="center">
-
-<video width="60%" controls>
-  <source src="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/Dragon.mp4" type="video/mp4">
-</video>
-
-</div>
-
----
-
 ## 📦 Codebase Composition
 
 | Source                | Lines of Code |      Share |
@@ -100,28 +90,80 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 ---
 
-## 🔗 Quick Links
+<h2 align="center">🔗 Quick Links</h2>
 
-### Official Resources
-- 🌐 [Official Project Site](https://thelegendofmir.uk/Topaz/)
-- 🌐 [Test Website](https://thelegendofmir.uk/mir4/Website)
-- 📖 [Server WIKI](https://thelegendofmir.uk/Topaz/wiki)
-- 📖 [Server Database](https://thelegendofmir.uk/Topaz/wiki#database)
-- <img src="https://www.mir4tools.com/favicon.ico" alt="Mir4Tools" width="20"/> [Mir 4 Tools](https://www.mir4tools.com/)
-- <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e3d80db9971f10a9757c99_Symbol.svg" alt="Discord" width="20"/> [Discord](https://thelegendofmir.uk/Topaz/redirects/discord)
-- <img src="https://static.wikia.nocookie.net/logopedia/images/9/9f/YouTube_icon_2024.svg/revision/latest/scale-to-width-down/1000?cb=20240718123533" alt="Youtube" width="20"/> [Server Setup Guide (YouTube)](https://youtu.be/_f9N_MuEFb0)
-- 📚 [Server Setup Guide (Written)](https://thelegendofmir.uk/Topaz/docs#download)
+<p align="center">
+  Everything you need to access, learn, and manage the project in one place.
+</p>
 
-### LOMCN Community
-- 📚 [Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
-- 📦 [Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
-- 🐞 [Bug Reports](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/)
-- 💬 [Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
-- 🛠️ [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
+---
 
-### Downloads
+### 🌐 Official Resources
 
-[![Latest Release](https://img.shields.io/github/v/release/JevLOMCN/mir4?label=release&style=flat-square)](https://github.com/JevLOMCN/mir4/releases/latest)
+<table align="center">
+  <tr>
+    <td align="center">🌐</td>
+    <td><a href="https://thelegendofmir.uk/Topaz/">Official Project Site</a></td>
+  </tr>
+  <tr>
+    <td align="center">🌐</td>
+    <td><a href="https://thelegendofmir.uk/mir4/Website">Test Website</a></td>
+  </tr>
+  <tr>
+    <td align="center">📖</td>
+    <td><a href="https://thelegendofmir.uk/Topaz/wiki">Server Wiki</a></td>
+  </tr>
+  <tr>
+    <td align="center">📖</td>
+    <td><a href="https://thelegendofmir.uk/Topaz/wiki#database">Server Database</a></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://www.mir4tools.com/favicon.ico" width="18"/>
+    </td>
+    <td><a href="https://www.mir4tools.com/">Mir4 Tools</a></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e3d80db9971f10a9757c99_Symbol.svg" width="18"/>
+    </td>
+    <td><a href="https://thelegendofmir.uk/Topaz/redirects/discord">Discord</a></td>
+  </tr>
+  <tr>
+    <td align="center">▶️</td>
+    <td><a href="https://youtu.be/_f9N_MuEFb0">Server Setup Guide (YouTube)</a></td>
+  </tr>
+  <tr>
+    <td align="center">📚</td>
+    <td><a href="https://thelegendofmir.uk/Topaz/docs#download">Server Setup Guide (Written)</a></td>
+  </tr>
+</table>
+
+
+### 💬 LOMCN Community
+
+<table align="center">
+  <tr>
+    <td>📚</td>
+    <td><a href="https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/">Tutorials</a></td>
+  </tr>
+  <tr>
+    <td>📦</td>
+    <td><a href="https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/">Releases</a></td>
+  </tr>
+  <tr>
+    <td>🐞</td>
+    <td><a href="https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/">Bug Reports</a></td>
+  </tr>
+  <tr>
+    <td>💬</td>
+    <td><a href="https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/">Help</a></td>
+  </tr>
+  <tr>
+    <td>🛠️</td>
+    <td><a href="https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/">Updates</a></td>
+  </tr>
+</table>
 
 ---
 
@@ -153,51 +195,56 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 <h2 align="center">👨‍💻 Development Team</h2>
 
 <p align="center">
-  <a href="https://www.lomcn.net/forum/members/jev.29880/">
-    <img src="https://avatars.githubusercontent.com/u/68875342" width="110"><br>
-    <b>Jev</b><br>
-    <sub>Developer</sub>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
 
-  <a href="https://www.lomcn.net/forum/members/meacher.3993/">
-    <img src="https://media0.giphy.com/media/aqFRBqGjnznd6/200w.gif" width="110"><br>
-    <b>Meacher</b><br>
-    <sub>Developer</sub>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
+    <a href="https://www.lomcn.net/forum/members/jev.29880/">
+      <img src="https://avatars.githubusercontent.com/u/68875342" width="110"><br>
+      <b>Jev</b>
+    </a>
+  </span>
 
-  <a href="https://www.lomcn.net/forum/members/1pkryan.13050/">
-    <img src="https://www.lomcn.net/forum/data/avatars/l/13/13050.jpg?1680916386" width="110"><br>
-    <b>1PKRyan</b><br>
-    <sub>Developer</sub>
-  </a>
+  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
+    <a href="https://www.lomcn.net/forum/members/meacher.3993/">
+      <img src="https://media0.giphy.com/media/aqFRBqGjnznd6/200w.gif" width="110"><br>
+      <b>Meacher</b>
+    </a>
+  </span>
 
-  <a href="https://www.lomcn.net/forum/members/estregoik.45841/">
-    <img src="https://66.media.tumblr.com/725aeaf36ff6262f947aa945164e49a2/tumblr_pfnyfnGjG81wzypxlo1_640.gif" width="110"><br>
-    <b>Wagner</b><br>
-    <sub>Developer</sub>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
+    <a href="https://www.lomcn.net/forum/members/1pkryan.13050/">
+      <img src="https://www.lomcn.net/forum/data/avatars/l/13/13050.jpg?1680916386" width="110"><br>
+      <b>1PKRyan</b>
+    </a>
+  </span>
 
-  <a href="https://www.lomcn.net/forum/members/bughyt.46860/">
-    <img src="https://media.tenor.com/GtmGLCw1SmUAAAAM/buggriddy-lusgifs.gif" width="110"><br>
-    <b>BughyT</b><br>
-    <sub>Developer</sub>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
+    <a href="https://www.lomcn.net/forum/members/estregoik.45841/">
+      <img src="https://66.media.tumblr.com/725aeaf36ff6262f947aa945164e49a2/tumblr_pfnyfnGjG81wzypxlo1_640.gif" width="110"><br>
+      <b>Wagner</b>
+    </a>
+  </span>
 
-  <a href="https://www.lomcn.net/forum/members/chriz.86/">
-    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNs5tTmCNN6AXCXUspYleX_-LLN_-c1UPECpVnPHfy9C0V3AlS" width="110"><br>
-    <b>Chriz</b><br>
-    <sub>Developer</sub>
-  </a>
+  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
+    <a href="https://www.lomcn.net/forum/members/bughyt.46860/">
+      <img src="https://media.tenor.com/GtmGLCw1SmUAAAAM/buggriddy-lusgifs.gif" width="110"><br>
+      <b>BughyT</b>
+    </a>
+  </span>
 
-  <a href="https://www.lomcn.net/forum/members/damian.1126/">
-    <img src="https://media2.giphy.com/media/HbU1apZE5zopB0e8Hq/giphy-downsized.gif" width="110"><br>
-    <b>CodePwr</b><br>
-    <sub>Developer</sub>
-  </a>
+  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
+    <a href="https://www.lomcn.net/forum/members/chriz.86/">
+      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNs5tTmCNN6AXCXUspYleX_-LLN_-c1UPECpVnPHfy9C0V3AlS" width="110"><br>
+      <b>Chriz</b>
+    </a>
+  </span>
+
+  <span style="display:inline-block; width:140px; text-align:center; margin:10px;">
+    <a href="https://www.lomcn.net/forum/members/damian.1126/">
+      <img src="https://media2.giphy.com/media/HbU1apZE5zopB0e8Hq/giphy-downsized.gif" width="110"><br>
+      <b>CodePwr</b>
+    </a>
+  </span>
+
 </p>
 
 ---
