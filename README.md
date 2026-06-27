@@ -306,7 +306,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   <tr>
     <td width="28">
       <a href="https://github.com/JevLOMCN/mir1/">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir1.png" width="32">
+        <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir1.png?raw=true" width="32">
       </a>
     </td>
     <td>
@@ -320,7 +320,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   <tr>
     <td>
       <a href="https://github.com/Suprcode/Crystal">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir2.png" width="32">
+        <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir2.png?raw=true" width="32">
       </a>
     </td>
     <td>
@@ -335,7 +335,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   <tr>
     <td>
       <a href="https://github.com/Suprcode/Zircon">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir3.png" width="32">
+        <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir3.png?raw=true" width="32">
       </a>
     </td>
     <td>
@@ -350,7 +350,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   <tr>
     <td>
       <a href="https://www.lomcn.net/forum/forums/woool-development-project-onyx.857/">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/woool.png" width="32">
+        <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/woool.png?raw=true" width="32">
       </a>
     </td>
     <td>
@@ -364,7 +364,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   <tr>
     <td>
       <a href="https://github.com/mir-ethernity/mir-eternal">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir3d.png" width="32">
+        <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir3d.png?raw=true" width="32">
       </a>
     </td>
     <td>
@@ -378,7 +378,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   <tr>
     <td>
       <a href="https://github.com/JevLOMCN/mir4">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir4.png" width="32">
+        <img src="https://github.com/JevLOMCN/mir4/blob/main/Tools/icons/mir4.png?raw=true" width="32">
       </a>
     </td>
     <td>
