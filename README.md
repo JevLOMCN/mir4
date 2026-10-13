@@ -432,8 +432,8 @@ The largest English-speaking Legend of Mir community, providing forums, open-sou
 </td>
 
 <td align="center" width="33%">
-<a href="http://ptserver.servegame.com/">
-<img src="http://ptserver.servegame.com/images/logo_ptserver.png" height="60"><br><br>
+<a href="https://ptservergames.com/">
+<img src="https://ptservergames.com/images/logo_ptserver.png" height="60"><br><br>
 <b>PTS Games</b>
 </a>
 
