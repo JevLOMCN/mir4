@@ -297,16 +297,16 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 ---
 
 <h2 align="center">
-  <img src="https://mirfiles.co.uk/resources/mir2/users/Jev/favicons/favicon.png" width="32">
+  <img src="https://www.lomcn.net/forum/styles/uix/images/logo2024_100.png" width="32">
   Other Projects
 </h2>
 
-<table align="center">
+<table align="center" width="100%">
 
   <tr>
-    <td width="28">
+    <td width="48" align="center" valign="top">
       <a href="https://github.com/JevLOMCN/mir1/">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir1.png" width="32">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir1.png" width="32" height="32">
       </a>
     </td>
     <td>
@@ -318,9 +318,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   </tr>
 
   <tr>
-    <td>
+    <td width="48" align="center" valign="top">
       <a href="https://github.com/Suprcode/Crystal">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir2.png" width="32">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir2.png" width="32" height="32">
       </a>
     </td>
     <td>
@@ -333,9 +333,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   </tr>
 
   <tr>
-    <td>
+    <td width="48" align="center" valign="top">
       <a href="https://github.com/Suprcode/Zircon">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir3.png" width="32">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir3.png" width="32" height="32">
       </a>
     </td>
     <td>
@@ -348,9 +348,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   </tr>
 
   <tr>
-    <td>
+    <td width="48" align="center" valign="top">
       <a href="https://www.lomcn.net/forum/forums/woool-development-project-onyx.857/">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/woool.png" width="32">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/woool.png" width="32" height="32">
       </a>
     </td>
     <td>
@@ -362,9 +362,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   </tr>
 
   <tr>
-    <td>
+    <td width="48" align="center" valign="top">
       <a href="https://github.com/mir-ethernity/mir-eternal">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir3d.png" width="32">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir3d.png" width="32" height="32">
       </a>
     </td>
     <td>
@@ -376,9 +376,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   </tr>
 
   <tr>
-    <td>
+    <td width="48" align="center" valign="top">
       <a href="https://github.com/JevLOMCN/mir4">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir4.png" width="32">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir4.png" width="32" height="32">
       </a>
     </td>
     <td>
@@ -389,9 +389,9 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
   </tr>
 
   <tr>
-    <td>
+    <td width="48" align="center" valign="top">
       <a href="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/">
-        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir55.png" width="32">
+        <img src="https://raw.githubusercontent.com/JevLOMCN/mir4/main/Tools/icons/mir5.png" width="32" height="32">
       </a>
     </td>
     <td>
@@ -413,7 +413,7 @@ Dive in to explore, customize, and host your personalized Legend of Mir 4 experi
 
 <td align="center" width="33%">
 <a href="https://forum.ragezone.com/">
-<img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo-dark.png" height="60"><br><br>
+<img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/logo.webp" height="60"><br><br>
 <b>RageZone</b>
 </a>
 
@@ -450,7 +450,7 @@ A long-running gaming community founded in 2011. PTS Games generously sponsors t
 
 <p align="center">
   <a href="https://www.stopkillinggames.com/">
-    <img src="https://www.stopkillinggames.com/logos/skglogo.svg?dpl=dpl_9S5sZN8jNBvJiM3AxYRAS6o9A4Be](https://upload.wikimedia.org/wikipedia/en/1/19/Stop_Killing_Games_logo_%282025%29.png" alt="Stop Killing Games" width="90">
+    <img src="https://upload.wikimedia.org/wikipedia/en/1/19/Stop_Killing_Games_logo_%282025%29.png" alt="Stop Killing Games" width="90">
   </a>
 </p>
 
@@ -465,7 +465,6 @@ As a community-driven preservation project, we share these values and believe th
 </p>
 
 ---
-
 
 ## Star History
 
